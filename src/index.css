@@ -71,3 +71,8 @@ code {
 .collapse {
 	justify-content: center !important;
 }
+
+.nav-item {
+	margin-right: 3px;
+	margin-left: 3px;
+}

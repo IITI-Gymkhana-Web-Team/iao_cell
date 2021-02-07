@@ -13,7 +13,9 @@ export const Title = () => {
 				<Navbar.Toggle />
 				<Navbar.Collapse className="justify-content-end">
 					<Navbar.Text>
-						<h2 className="titleText">International Relations</h2>
+						<h2 className="titleText" id="titleText1">
+							International Relations
+						</h2>
 					</Navbar.Text>
 				</Navbar.Collapse>
 			</Navbar>

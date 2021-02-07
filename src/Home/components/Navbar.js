@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { CustomNavDropdownLink } from "./CustomNavDropdownLink";
 
 export const NavBar = () => {
 	const [show, setShow] = useState(false);
@@ -22,123 +23,15 @@ export const NavBar = () => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="mr-auto">
-						<NavDropdown
-							title="About Us"
-							id="basic-nav-dropdown-1"
-							show={index == 0 ? show : false}
-							onMouseEnter={() => showDropdown(0)}
-							onMouseLeave={() => hideDropdown()}
-						>
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-						</NavDropdown>
-						<NavDropdown
-							title="People"
-							id="basic-nav-dropdown-2"
-							show={index == 1 ? show : false}
-							onMouseEnter={() => showDropdown(1)}
-							onMouseLeave={() => hideDropdown()}
-						>
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-						</NavDropdown>
-						<NavDropdown
-							title="Education"
-							id="basic-nav-dropdown-3"
-							show={index == 2 ? show : false}
-							onMouseEnter={() => showDropdown(2)}
-							onMouseLeave={() => hideDropdown()}
-						>
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-						</NavDropdown>
-						<NavDropdown
-							title="Research"
-							id="basic-nav-dropdown-4"
-							show={index == 3 ? show : false}
-							onMouseEnter={() => showDropdown(3)}
-							onMouseLeave={() => hideDropdown()}
-						>
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-						</NavDropdown>
-						<NavDropdown
-							title="Admission"
-							id="basic-nav-dropdown-5"
-							show={index == 4 ? show : false}
-							onMouseEnter={() => showDropdown(4)}
-							onMouseLeave={() => hideDropdown()}
-						>
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-						</NavDropdown>
-						<NavDropdown
-							title="Facilities"
-							id="basic-nav-dropdown-6"
-							show={index == 5 ? show : false}
-							onMouseEnter={() => showDropdown(5)}
-							onMouseLeave={() => hideDropdown()}
-						>
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-						</NavDropdown>
-						<NavDropdown
-							title="Outreach"
-							id="basic-nav-dropdown-7"
-							show={index == 6 ? show : false}
-							onMouseEnter={() => showDropdown(6)}
-							onMouseLeave={() => hideDropdown()}
-						>
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-						</NavDropdown>
-						<NavDropdown
-							title="Contact"
-							id="basic-nav-dropdown-8"
-							show={index == 7 ? show : false}
-							onMouseEnter={() => showDropdown(7)}
-							onMouseLeave={() => hideDropdown()}
-						>
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-						</NavDropdown>
-						<NavDropdown
-							title="Partnerships"
-							id="basic-nav-dropdown-9"
-							show={index == 8 ? show : false}
-							onMouseEnter={() => showDropdown(8)}
-							onMouseLeave={() => hideDropdown()}
-						>
-							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-						</NavDropdown>
+						<CustomNavDropdownLink name="About Us" show={show} ival={0} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						<CustomNavDropdownLink name="People" show={show} ival={1} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						<CustomNavDropdownLink name="Education" show={show} ival={2} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						<CustomNavDropdownLink name="Research" show={show} ival={3} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						<CustomNavDropdownLink name="Admission" show={show} ival={4} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						<CustomNavDropdownLink name="Facilities" show={show} ival={5} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						<CustomNavDropdownLink name="Outreach" show={show} ival={6} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						<CustomNavDropdownLink name="Contact" show={show} ival={7} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						<CustomNavDropdownLink name="Partnerships" show={show} ival={8} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
