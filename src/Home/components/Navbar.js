@@ -9,10 +9,13 @@ export const NavBar = () => {
 	const showDropdown = (i) => {
 		console.log(i);
 		setIndex(i);
-		console.log("index", index);
+		console.log(window.innerWidth);
 		setShow(!show);
 	};
+
+
 	const hideDropdown = () => {
+		setIndex(-1);
 		setShow(false);
 	};
 
@@ -26,7 +29,8 @@ export const NavBar = () => {
 							title="About Us"
 							id="basic-nav-dropdown-1"
 							show={index == 0 ? show : false}
-							onMouseEnter={() => showDropdown(0)}
+							onMouseEnter={() => { if (window.innerWidth > 992) { showDropdown(0) } }}
+							onClick={() => showDropdown(0)}
 							onMouseLeave={() => hideDropdown()}
 						>
 							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -39,7 +43,8 @@ export const NavBar = () => {
 							title="People"
 							id="basic-nav-dropdown-2"
 							show={index == 1 ? show : false}
-							onMouseEnter={() => showDropdown(1)}
+							onMouseEnter={() => { if (window.innerWidth > 992) { showDropdown(1) } }}
+							onClick={() => showDropdown(1)}
 							onMouseLeave={() => hideDropdown()}
 						>
 							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -52,7 +57,8 @@ export const NavBar = () => {
 							title="Education"
 							id="basic-nav-dropdown-3"
 							show={index == 2 ? show : false}
-							onMouseEnter={() => showDropdown(2)}
+							onMouseEnter={() => { if (window.innerWidth > 992) { showDropdown(2) } }}
+							onClick={() => showDropdown(2)}
 							onMouseLeave={() => hideDropdown()}
 						>
 							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -65,7 +71,8 @@ export const NavBar = () => {
 							title="Research"
 							id="basic-nav-dropdown-4"
 							show={index == 3 ? show : false}
-							onMouseEnter={() => showDropdown(3)}
+							onMouseEnter={() => { if (window.innerWidth > 992) { showDropdown(3) } }}
+							onClick={() => showDropdown(3)}
 							onMouseLeave={() => hideDropdown()}
 						>
 							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -78,7 +85,8 @@ export const NavBar = () => {
 							title="Admission"
 							id="basic-nav-dropdown-5"
 							show={index == 4 ? show : false}
-							onMouseEnter={() => showDropdown(4)}
+							onMouseEnter={() => { if (window.innerWidth > 992) { showDropdown(4) } }}
+							onClick={() => showDropdown(4)}
 							onMouseLeave={() => hideDropdown()}
 						>
 							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -91,7 +99,8 @@ export const NavBar = () => {
 							title="Facilities"
 							id="basic-nav-dropdown-6"
 							show={index == 5 ? show : false}
-							onMouseEnter={() => showDropdown(5)}
+							onMouseEnter={() => { if (window.innerWidth > 992) { showDropdown(5) } }}
+							onClick={() => showDropdown(5)}
 							onMouseLeave={() => hideDropdown()}
 						>
 							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -104,7 +113,8 @@ export const NavBar = () => {
 							title="Outreach"
 							id="basic-nav-dropdown-7"
 							show={index == 6 ? show : false}
-							onMouseEnter={() => showDropdown(6)}
+							onMouseEnter={() => { if (window.innerWidth > 992) { showDropdown(6) } }}
+							onClick={() => showDropdown(6)}
 							onMouseLeave={() => hideDropdown()}
 						>
 							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -117,7 +127,8 @@ export const NavBar = () => {
 							title="Contact"
 							id="basic-nav-dropdown-8"
 							show={index == 7 ? show : false}
-							onMouseEnter={() => showDropdown(7)}
+							onMouseEnter={() => { if (window.innerWidth > 992) { showDropdown(7) } }}
+							onClick={() => showDropdown(7)}
 							onMouseLeave={() => hideDropdown()}
 						>
 							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -130,7 +141,8 @@ export const NavBar = () => {
 							title="Partnerships"
 							id="basic-nav-dropdown-9"
 							show={index == 8 ? show : false}
-							onMouseEnter={() => showDropdown(8)}
+							onMouseEnter={() => { if (window.innerWidth > 992) { showDropdown(8) } }}
+							onClick={() => showDropdown(8)}
 							onMouseLeave={() => hideDropdown()}
 						>
 							<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
