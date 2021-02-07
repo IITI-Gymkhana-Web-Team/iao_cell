@@ -1,7 +1,7 @@
 import React from "react";
 import { Title } from "./components/Title";
 import { Navbar } from "./components/Navbar";
-import { Carousel } from "./components/Carousel";
+import { Carousell } from "./components/Carousel";
 import { AboutUs } from "./components/AboutUs";
 import { News } from "./components/News";
 import { Events } from "./components/Events";
@@ -13,7 +13,7 @@ export const Home = () => {
 		<div>
 			<Title />
 			<Navbar />
-			<Carousel />
+			<Carousell />
 			<AboutUs />
 			<News />
 			<Events />
