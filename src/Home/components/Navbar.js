@@ -10,10 +10,12 @@ export const NavBar = () => {
 	const showDropdown = (i) => {
 		console.log(i);
 		setIndex(i);
-		console.log("index", index);
+		console.log(window.innerWidth);
 		setShow(!show);
 	};
+
 	const hideDropdown = () => {
+		setIndex(-1);
 		setShow(false);
 	};
 
