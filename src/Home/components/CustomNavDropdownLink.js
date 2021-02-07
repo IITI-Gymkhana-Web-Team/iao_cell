@@ -7,8 +7,13 @@ export const CustomNavDropdownLink = ({ name, ival, index, show, showDropdown, h
 			title={name}
 			id={"basic-nav-dropdown-" + String(Number(ival) + 1)}
 			show={index == Number(ival) ? show : false}
-			onMouseEnter={() => showDropdown(Number(ival))}
+			onMouseEnter={() => {
+				if (window.innerWidth > 992) {
+					showDropdown(ival);
+				}
+			}}
 			onMouseLeave={() => hideDropdown()}
+			onClick={() => showDropdown(ival)}
 		>
 			<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
 			<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
