@@ -151,6 +151,13 @@ code {
 	.card-body {
 		text-align: justify !important;
 	}
+	.carousel-caption {
+		display: none !important;
+	}
+	.carousel,
+	.w-100 {
+		min-height: 300px;
+	}
 }
 
 .socLink {
