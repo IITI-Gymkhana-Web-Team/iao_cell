@@ -66,7 +66,7 @@ code {
 }
 
 .nav-item{
-	margin: 0 3px;
+	margin: 0 6px;
 }
 
 .dropdown-item:hover {
@@ -76,9 +76,3 @@ code {
 .collapse {
 	justify-content: center !important;
 }
-
-@media only screen and (max-width: 992px) {
-	.nav-item{
-		margin-top: 1% 
-	}
-  }
