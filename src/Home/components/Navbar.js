@@ -7,6 +7,81 @@ export const NavBar = () => {
 	const [show, setShow] = useState(false);
 	const [index, setIndex] = useState(-1);
 
+	const [navLinks, setNavLinks] = useState([
+		{
+			ival: 0,
+			name: "+ About",
+			innerLinks: [
+				{ name: "Link 1", href: "#" },
+				{ name: "Link 2", href: "#" },
+				{ name: "Link 3", href: "#" },
+			],
+		},
+		{
+			ival: 1,
+			name: "+ People",
+			innerLinks: [
+				{ name: "Link 1", href: "#" },
+				{ name: "Link 2", href: "#" },
+				{ name: "Link 3", href: "#" },
+			],
+		},
+		{
+			ival: 2,
+			name: "+ Education",
+			innerLinks: [
+				{ name: "Link 1", href: "#" },
+				{ name: "Link 2", href: "#" },
+				{ name: "Link 3", href: "#" },
+			],
+		},
+		{
+			ival: 3,
+			name: "+ Research",
+			innerLinks: [
+				{ name: "Link 1", href: "#" },
+				{ name: "Link 2", href: "#" },
+				{ name: "Link 3", href: "#" },
+			],
+		},
+		{
+			ival: 4,
+			name: "+ Admission",
+			innerLinks: [
+				{ name: "Link 1", href: "#" },
+				{ name: "Link 2", href: "#" },
+				{ name: "Link 3", href: "#" },
+			],
+		},
+		{
+			ival: 5,
+			name: "+ Facilities",
+			innerLinks: [
+				{ name: "Link 1", href: "#" },
+				{ name: "Link 2", href: "#" },
+				{ name: "Link 3", href: "#" },
+			],
+		},
+		{
+			ival: 6,
+			name: "+ Outreach",
+			innerLinks: [
+				{ name: "Link 1", href: "#" },
+				{ name: "Link 2", href: "#" },
+				{ name: "Link 3", href: "#" },
+			],
+		},
+		{
+			ival: 7,
+			name: "+ Contact",
+			innerLinks: [
+				{ name: "Link 1", href: "#" },
+				{ name: "Link 2", href: "#" },
+				{ name: "Link 3", href: "#" },
+			],
+		},
+	]);
+
 	const showDropdown = (i) => {
 		console.log(i);
 		setIndex(i);
@@ -26,15 +101,9 @@ export const NavBar = () => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="mr-auto">
-						<CustomNavDropdownLink name="About" show={show} ival={0} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
-						<CustomNavDropdownLink name="People" show={show} ival={1} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
-						<CustomNavDropdownLink name="Education" show={show} ival={2} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
-						<CustomNavDropdownLink name="Research" show={show} ival={3} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
-						<CustomNavDropdownLink name="Admission" show={show} ival={4} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
-						<CustomNavDropdownLink name="Facilities" show={show} ival={5} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
-						<CustomNavDropdownLink name="Outreach" show={show} ival={6} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
-						<CustomNavDropdownLink name="Contact" show={show} ival={7} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
-						<CustomNavDropdownLink name="Partnerships" show={show} ival={8} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						{navLinks.map((navLink) => {
+							return <CustomNavDropdownLink navLink={navLink} show={show} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />;
+						})}
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
