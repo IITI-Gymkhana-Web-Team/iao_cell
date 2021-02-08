@@ -11,8 +11,10 @@ import { Footer } from "./components/Footer";
 export const Home = () => {
 	return (
 		<div>
-			<Title />
-			<NavBar />
+			<div className="mainNav">
+				<Title />
+				<NavBar />
+			</div>
 			<Carousell />
 			<AboutUs />
 			<News />

@@ -22,6 +22,7 @@ export const NavBar = () => {
 	return (
 		<div className="nav2">
 			<Navbar expand="lg" className="navbar2">
+				<span className="textStuff"> </span>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="mr-auto">
