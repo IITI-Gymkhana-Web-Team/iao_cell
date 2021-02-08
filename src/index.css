@@ -54,7 +54,7 @@ code {
 
 .navbar2 {
 	background-color: #383838 !important;
-	padding: 0px !important;
+	padding: 5px !important;
 	font-size: 17px;
 }
 
@@ -170,6 +170,10 @@ code {
 .qdwn {
 	margin-left: 0px !important;
 	background-color: white !important;
+	color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.qdwn:hover {
 	color: black !important;
 }
 

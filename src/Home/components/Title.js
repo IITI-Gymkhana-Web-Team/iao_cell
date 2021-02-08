@@ -25,7 +25,7 @@ export const Title = () => {
 	</p>*/}
 			<Navbar bg="light" variant="light" className="ba">
 				<div className="container-fluid">
-					<Navbar.Brand href="#home">
+					<Navbar.Brand href="/">
 						<img src={logo} alt="logo" className="titleLogo" />
 					</Navbar.Brand>
 					<Navbar.Toggle />
