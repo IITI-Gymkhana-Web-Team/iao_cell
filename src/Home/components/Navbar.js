@@ -14,7 +14,6 @@ export const NavBar = () => {
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
-				{ name: "Link 3", href: "#" },
 			],
 		},
 		{
@@ -51,6 +50,7 @@ export const NavBar = () => {
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
 				{ name: "Link 3", href: "#" },
+				{ name: "Link 4", href: "#" },
 			],
 		},
 		{
@@ -102,7 +102,9 @@ export const NavBar = () => {
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="mr-auto">
 						{navLinks.map((navLink) => {
-							return <CustomNavDropdownLink navLink={navLink} show={show} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />;
+							return (
+								<CustomNavDropdownLink navLink={navLink} show={show} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+							);
 						})}
 					</Nav>
 				</Navbar.Collapse>
