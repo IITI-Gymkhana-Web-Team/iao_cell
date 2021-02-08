@@ -1,39 +1,41 @@
 .footer img {
-    width: 40%;
+	width: 40%;
 }
 
-.doclinks a{
-    text-decoration: none;
-    color: black;
+.doclinks a {
+	text-decoration: none;
+	color: black;
 }
 
-.footer{
-    text-align: center;
-    background-image: url('./assets/sea2.jpg');
-    background-size:cover;
+.footer {
+	text-align: center;
+	background-image: url("./assets/sea2.jpg");
+	background-size: cover;
 }
 
-.footer .phone, .address, .social {
-    margin: 3% 0;
+.footer .phone,
+.address,
+.social {
+	margin: 3% 0;
 }
 
-.footergrid{
-    padding: 2%;
-    margin: auto;
+.footergrid {
+	padding: 2%;
+	margin: auto;
 }
 
-.footer .addphone{
-    padding-left: 0;
-    padding-right: 0;
-    margin: auto;
+.footer .addphone {
+	padding-left: 0;
+	padding-right: 0;
+	margin: auto;
 }
 
-.footerdesc{
-    margin-top: 2%;
+.footerdesc {
+	margin-top: 2%;
 }
 
-.social a{
-    color: black;
-    margin: 3%;
-    font-size: x-large;
+.social a {
+	color: black;
+	margin: 3%;
+	font-size: x-large;
 }

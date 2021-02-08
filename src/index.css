@@ -7,7 +7,7 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 code {
@@ -15,11 +15,11 @@ code {
 }
 
 .Title {
-	width: 100vw;
+	width: 100%;
 }
 
 .titleLogo {
-	max-width: min(80vw, 250px);
+	max-width: min(80%, 250px);
 	height: auto;
 	padding: 5px 0px;
 }
@@ -42,7 +42,12 @@ code {
 	display: none !important;
 }
 
-.nav-link:hover {
+.nav-link {
+	color: black !important;
+	z-index: 20;
+}
+
+.dropdown:hover .nav-link {
 	color: white !important;
 	background-color: #555;
 }
@@ -52,10 +57,18 @@ code {
 	padding: 0px !important;
 }
 
+.nav2 {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	top: 0;
+	z-index: 20;
+}
+
 .dropdown-item,
 .dropdown-menu {
 	background-color: #555 !important;
 	color: white !important;
+	z-index: 20;
 }
 
 .nav-link {
@@ -75,16 +88,8 @@ code {
 	margin: 0 10px;
 }
 
-.nav-item:first-child {
-	margin-left: 0px;
-}
-
-.nav-item:last-child {
-	margin-right: 0px;
-}
-
 .titleCollege {
-	width: 100vw;
+	width: 100%;
 	padding: 5px 0px;
 	color: white !important;
 	background-color: rgb(16, 82, 151);
@@ -92,10 +97,18 @@ code {
 	margin-bottom: 0px;
 }
 
-.container-fluid {
-	padding-left: 40px !important;
+.ba .container-fluid,
+.titleCollege .container-fluid {
+	padding-left: 60px !important;
 }
 
 .ba .container-fluid a {
 	margin-left: -20px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+	.ba .container-fluid,
+	.titleCollege .container-fluid {
+		padding-left: 20px !important;
+	}
 }
