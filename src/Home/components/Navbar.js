@@ -25,7 +25,7 @@ export const NavBar = () => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="mr-auto">
-						<CustomNavDropdownLink name="About Us" show={show} ival={0} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
+						<CustomNavDropdownLink name="About" show={show} ival={0} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
 						<CustomNavDropdownLink name="People" show={show} ival={1} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
 						<CustomNavDropdownLink name="Education" show={show} ival={2} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
 						<CustomNavDropdownLink name="Research" show={show} ival={3} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
