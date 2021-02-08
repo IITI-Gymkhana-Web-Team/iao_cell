@@ -32,6 +32,7 @@ code {
 	color: rgb(16, 82, 151);
 	font-family: "Cinzel", serif;
 	margin-left: 40px;
+	margin-right: -10px;
 }
 
 .mr-auto {
@@ -60,7 +61,7 @@ code {
 .nav2 {
 	position: -webkit-sticky !important;
 	position: sticky !important;
-	top: 0;
+	top: 0px;
 	z-index: 20;
 }
 
@@ -95,11 +96,15 @@ code {
 	background-color: rgb(16, 82, 151);
 	font-family: Lato, sans-serif;
 	margin-bottom: 0px;
+	position: sticky;
+	top: 0px;
+	z-index: 30;
 }
 
 .ba .container-fluid,
 .titleCollege .container-fluid {
 	padding-left: 60px !important;
+	padding-right: 60px !important;
 }
 
 .ba .container-fluid a {
@@ -111,4 +116,14 @@ code {
 	.titleCollege .container-fluid {
 		padding-left: 20px !important;
 	}
+	#titleText1,
+	.socLink {
+		display: none !important;
+	}
+}
+
+.socLink {
+	color: white !important;
+	padding: 0px 10px;
+	float: right;
 }
