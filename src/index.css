@@ -142,6 +142,15 @@ code {
 	.dropdown:hover .nav-link {
 		color: black !important;
 	}
+	.aboutPic {
+		display: none !important;
+	}
+	.mainTitle {
+		text-align: center !important;
+	}
+	.card-body {
+		text-align: justify !important;
+	}
 }
 
 .socLink {
@@ -203,6 +212,7 @@ code {
 	animation-iteration-count: 1; /* can be set to `infinite` too */
 	animation-timing-function: ease-in;
 }
+
 @keyframes enter {
 	0% {
 		opacity: 0;
