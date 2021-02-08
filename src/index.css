@@ -195,3 +195,21 @@ code {
 	color: #007bff;
 	cursor: pointer;
 }
+
+.moreDesc {
+	animation-name: enter;
+	animation-duration: 1s;
+	animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */
+	animation-iteration-count: 1; /* can be set to `infinite` too */
+	animation-timing-function: ease-in;
+}
+@keyframes enter {
+	0% {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
