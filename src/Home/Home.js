@@ -1,6 +1,6 @@
 import React from "react";
 import { Title } from "./components/Title";
-import { NavBar } from "./components/NavBar.js";
+import { Navbarr } from "./components/Navbar.js";
 import { Carousell } from "./components/Carousell";
 import { AboutUs } from "./components/AboutUs";
 import { News } from "./components/News";
@@ -14,7 +14,7 @@ export const Home = () => {
 		<div>
 			<div className="mainNav">
 				<Title />
-				<NavBar />
+				<Navbarr />
 			</div>
 			<Carousell />
 			<AboutUs />

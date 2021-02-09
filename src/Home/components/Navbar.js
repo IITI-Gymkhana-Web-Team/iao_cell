@@ -3,7 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CustomNavDropdownLink } from "./CustomNavDropdownLink";
 
-export const NavBar = () => {
+export const Navbarr = () => {
 	const [show, setShow] = useState(false);
 	const [index, setIndex] = useState(-1);
 
