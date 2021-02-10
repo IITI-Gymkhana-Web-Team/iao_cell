@@ -9,7 +9,7 @@
 
 .footer {
 	text-align: center;
-	background-color: #648fbc;
+	background-color: #34343f;
 	/* background-image: url("./assets/sea2.jpg");
 	background-size: cover; */
 	font-family: "Lora", serif;
@@ -26,21 +26,58 @@
 	padding: 2%;
 	margin: auto;
 }
-
-.footer .addphone {
-	padding-left: 0;
-	padding-right: 0;
-	margin: auto;
+.social{
+	color:rgb(43, 97, 145);
+	text-align: left;
 }
-
-.footerdesc {
-	margin-top: 2%;
-}
-
 .social a {
-	color: black;
+	color: rgb(211, 197, 197);
 	margin: 3%;
 	font-size: x-large;
+}
+.links{
+	text-align: left;
+	color:rgb(43, 97, 145);
+	padding-left: 30px;
+}
+.links a{
+	color:rgb(111, 142, 168);
+	font-weight: 300;
+}
+.address{
+	text-align: left;
+	color:rgb(43, 97, 145);
+}
+.addresstext{
+	/* font-family: 'Roboto', sans-serif; */
+	font-weight: 300;
+}
+@media only screen and (max-width:1000px){
+	.footer .links,
+	.address,
+	.social {
+		margin: 3% 0%;
+	}
+	.social{
+		text-align: center;
+		margin-top: 30px !important;
+	}
+	.social a {
+		margin-top: 30px !important;
+	}
+	.links{
+		margin-top: 30px !important;
+		text-align: center;
+		padding-left: 0px;
+	}
+	.address{
+		margin-top: 30px !important;
+		text-align: center;
+	}
+	.footer img {
+		width: 30%;
+	}
+	
 }
 .eventdate {
 	background-color: rgb(138, 21, 21);
