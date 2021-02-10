@@ -1,43 +1,44 @@
 .footer img {
-	width: 40%;
+    width: 40%;
 }
 
 .doclinks a {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .footer {
-	text-align: center;
-	background-image: url("./assets/sea2.jpg");
-	background-size: cover;
-	font-family: "Lora", serif;
-	font-weight: 900;
+    text-align: center;
+    background-color: #648FBC;
+    /* background-image: url("./assets/sea2.jpg");
+	background-size: cover; */
+    font-family: "Lora", serif;
+    font-weight: 900;
 }
 
 .footer .phone,
 .address,
 .social {
-	margin: 3% 0;
+    margin: 3% 0;
 }
 
 .footergrid {
-	padding: 2%;
-	margin: auto;
+    padding: 2%;
+    margin: auto;
 }
 
 .footer .addphone {
-	padding-left: 0;
-	padding-right: 0;
-	margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
 }
 
 .footerdesc {
-	margin-top: 2%;
+    margin-top: 2%;
 }
 
 .social a {
-	color: black;
-	margin: 3%;
-	font-size: x-large;
+    color: black;
+    margin: 3%;
+    font-size: x-large;
 }

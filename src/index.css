@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu&display=swap");
-
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -55,7 +54,7 @@ code {
 }
 
 .navbar2 {
-	background-color: #383838 !important;
+	background-color: #135497 !important;
 	padding: 5px !important;
 	font-size: 17px;
 }
@@ -69,7 +68,8 @@ code {
 
 .dropdown-item,
 .dropdown-menu {
-	background-color: #555 !important;
+	transition: all 0.3s;
+	background-color: #007eb8 !important;
 	color: white !important;
 	z-index: 20;
 	font-family: "Lora", serif;
@@ -86,7 +86,7 @@ code {
 }
 
 .dropdown-item:hover {
-	color: rgb(127, 193, 236) !important;
+	color: #e3f0ff !important;
 }
 
 .collapse {
@@ -174,7 +174,7 @@ code {
 .quickLink {
 	color: white;
 	font-family: "Lora", serif;
-	background-color: rgb(16, 82, 151);
+	background-color: #135497;
 }
 
 #basic-nav-dropdown-0:hover,
@@ -215,8 +215,10 @@ code {
 .moreDesc {
 	animation-name: enter;
 	animation-duration: 1s;
-	animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */
-	animation-iteration-count: 1; /* can be set to `infinite` too */
+	animation-fill-mode: forwards;
+	/* The element will retain the style values that is set by the last keyframe */
+	animation-iteration-count: 1;
+	/* can be set to `infinite` too */
 	animation-timing-function: ease-in;
 }
 
@@ -269,8 +271,10 @@ code {
 .card:hover .card-img-top {
 	animation-name: zoomin;
 	animation-duration: 0.5s;
-	animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */
-	animation-iteration-count: 1; /* can be set to `infinite` too */
+	animation-fill-mode: forwards;
+	/* The element will retain the style values that is set by the last keyframe */
+	animation-iteration-count: 1;
+	/* can be set to `infinite` too */
 	animation-timing-function: ease-in;
 }
 
