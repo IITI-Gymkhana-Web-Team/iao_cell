@@ -68,9 +68,9 @@ code {
 
 .dropdown-item,
 .dropdown-menu {
-	transition: all 0.3s;
+	transition: all 0.2s;
 	background-color: #007eb8 !important;
-	color: white !important;
+	color: rgba(255, 255, 255, 0.8) !important;
 	z-index: 20;
 	font-family: "Lora", serif;
 }
@@ -86,7 +86,7 @@ code {
 }
 
 .dropdown-item:hover {
-	color: #e3f0ff !important;
+	color: #fff !important;
 }
 
 .collapse {
@@ -181,7 +181,6 @@ code {
 #basic-nav-dropdown-0 {
 	background-color: rgb(16, 82, 151) !important;
 	color: white;
-	background-color: rgb(16, 82, 151);
 	border-radius: 5px;
 }
 

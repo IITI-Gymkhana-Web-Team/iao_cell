@@ -9,7 +9,9 @@ export const Footer = () => {
 				<Row>
 					<Col xs={12} lg={3}>
 						<div className="logo">
-							<img src={img} />
+							<a href="http://iiti.ac.in" target="_blank">
+								<img src={img} />
+							</a>
 						</div>
 					</Col>
 					<Col className="footerdesc" xs={12} lg={9}>
@@ -20,10 +22,20 @@ export const Footer = () => {
 						<Container className="addphone">
 							<Row>
 								<Col xs={12} lg={4} className="address">
-									<div className="addresstext">Address: Khandwa Rd, Simrol, Madhya Pradesh 453552</div>
+									<div className="addresstext">
+										Address:{" "}
+										<a href="https://goo.gl/maps/fKyPMk9qdPgYG35t7" target="_blank" style={{ color: "black" }}>
+											Khandwa Rd, Simrol, Madhya Pradesh 453552
+										</a>
+									</div>
 								</Col>
 								<Col xs={12} lg={4} className="phone">
-									<div className="phonetext">Phone No. - 1234567890</div>
+									<div className="phonetext">
+										Phone No. -{" "}
+										<a href="tel:1234567890" style={{ color: "black" }}>
+											1234567890
+										</a>
+									</div>
 								</Col>
 								<Col className="social" xs={12} lg={4}>
 									<div>
