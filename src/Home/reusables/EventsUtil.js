@@ -14,9 +14,7 @@ export default function ({ events }) {
 						<Card.Img variant="top" src={img} />
 					</div>
 					<Card.Body>
-						<Card.Title style={styles.title}>
-							<a href="#">{event["title"]}</a>
-						</Card.Title>
+						<Card.Title style={styles.title}>{event["title"]}</Card.Title>
 						<Card.Text style={styles.text}>
 							<BiCalendar />
 							&nbsp; {event.date}
@@ -26,13 +24,21 @@ export default function ({ events }) {
 							&nbsp; {event.time}
 						</Card.Text>
 						<Card.Text style={styles.text}>
-							<BiLink /> <a href={event.link}>{event.link}</a>
+							<BiLink />
+							&nbsp; <a href={event.link}>{event.link}</a>
 						</Card.Text>
 						<Card.Text style={styles.text}>
 							<BsFillPersonFill />
 							&nbsp; {event.organizer}
 						</Card.Text>
-						<Card.Text style={styles.text}>{event.description.slice(0, 100) + "..."}</Card.Text>
+						<Card.Text style={styles.text}>{event.description.slice(0, 80) + (event.description.length > 80 ? "..." : "")}</Card.Text>
+						<Card.Text style={styles.text}>
+							<a href="#">
+								<button className="btn btn-primary" style={{ float: "right" }}>
+									Know More
+								</button>
+							</a>
+						</Card.Text>
 					</Card.Body>
 				</Card>
 			</div>
