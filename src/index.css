@@ -213,7 +213,7 @@ code {
 
 .moreDesc {
 	animation-name: enter;
-	animation-duration: 1s;
+	animation-duration: 0.2s;
 	animation-fill-mode: forwards;
 	/* The element will retain the style values that is set by the last keyframe */
 	animation-iteration-count: 1;
@@ -312,9 +312,20 @@ a:hover {
 	background-color: transparent !important;
 }
 
+.eventsPage {
+	flex-direction: row !important;
+}
+
+.eventsPage .card-img-top {
+	height: 100%;
+}
+
 @media only screen and (max-width: 1000px) {
 	.owl-next,
 	.owl-prev {
 		color: black !important;
+	}
+	.eventsPage {
+		flex-direction: column !important;
 	}
 }

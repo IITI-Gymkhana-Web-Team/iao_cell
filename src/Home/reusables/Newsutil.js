@@ -5,7 +5,7 @@ export default function ({ news }) {
 	return news.map((News) => {
 		return (
 			<div>
-				<Card style={{ width: "18rem", background: '#CEDCEA', transition: 'all 0.2s', border: '1px solid #0484CF' }}>
+				<Card style={{ width: "18rem", transition: "all 0.2s", border: "1px solid #0484CF" }}>
 					<div className="img-holder">
 						<Card.Img variant="top" src={img} />
 					</div>
@@ -29,7 +29,7 @@ const styles = {
 		width: "fit-content",
 	},
 	text: {
-		marginTop: "15%",
+		marginTop: "10%",
 		textAlign: "justify",
 	},
 };

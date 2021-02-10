@@ -47,7 +47,7 @@
 	color: blanchedalmond;
 	display: inline-block;
 	opacity: 0.8;
-	padding: 2.5rem 1.5rem;
+	padding: 1rem;
 }
 .eventlink {
 	cursor: pointer;
@@ -59,4 +59,17 @@
 }
 .event-card {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.card-img-overlay {
+	position: absolute;
+	top: 0;
+	/* right: 0;
+    bottom: 0; */
+	left: 0;
+	/* padding: 1.25rem; */
+	border-radius: calc(0.25rem - 1px);
+	/* margin: 0px !important; */
+	padding: 0px;
+	/* width: 10%;*/
+	height: 10px;
 }
