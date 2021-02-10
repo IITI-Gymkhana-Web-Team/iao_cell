@@ -64,5 +64,8 @@ const styles = {
 	},
 	icon: {
 		textAlign: "center",
+		position: "absolute",
+		bottom: "10px",
+		left: "47%",
 	},
 };
