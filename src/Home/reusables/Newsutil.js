@@ -19,7 +19,9 @@ export default function ({ News }) {
 						<Card.Img variant="top" src={img} />
 					</div>
 					<Card.Body>
-						<Card.Title style={styles.title}>{News["title"]}</Card.Title>
+						<Card.Title style={styles.title}>
+							<a href="#">{News["title"]}</a>
+						</Card.Title>
 						<small className="text-muted">{News["date"]}</small>
 						<Card.Text style={styles.icon}>
 							<CgEditFlipH />
