@@ -1,6 +1,6 @@
 import React from "react";
 import { Title } from "./components/Title";
-import { NavBar } from "./components/NavBar.js";
+import { NavBar } from "./components/Navbar";
 import { Carousell } from "./components/Carousell";
 import { AboutUs } from "./components/AboutUs";
 import { News } from "./components/News";
