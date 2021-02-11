@@ -15,7 +15,9 @@ export const Home = () => {
 			<div className="mainNav">
 				<NavBar />
 			</div>
-			<Carousell />
+			<div className="container mt-3">
+				<Carousell />
+			</div>
 			<AboutUs />
 			<News />
 			<Events />
