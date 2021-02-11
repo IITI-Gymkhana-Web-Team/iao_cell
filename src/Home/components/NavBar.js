@@ -10,7 +10,7 @@ export const NavBar = () => {
 	const [navLinks, setNavLinks] = useState([
 		{
 			ival: 0,
-			name: "+ About",
+			name: "About",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -18,7 +18,7 @@ export const NavBar = () => {
 		},
 		{
 			ival: 1,
-			name: "+ People",
+			name: "People",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -27,7 +27,7 @@ export const NavBar = () => {
 		},
 		{
 			ival: 2,
-			name: "+ Education",
+			name: "Education",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -36,7 +36,7 @@ export const NavBar = () => {
 		},
 		{
 			ival: 3,
-			name: "+ Research",
+			name: "Research",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -45,7 +45,7 @@ export const NavBar = () => {
 		},
 		{
 			ival: 4,
-			name: "+ Admission",
+			name: "Admission",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -55,7 +55,7 @@ export const NavBar = () => {
 		},
 		{
 			ival: 5,
-			name: "+ Facilities",
+			name: "Facilities",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -64,7 +64,7 @@ export const NavBar = () => {
 		},
 		{
 			ival: 6,
-			name: "+ Outreach",
+			name: "Outreach",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -73,7 +73,7 @@ export const NavBar = () => {
 		},
 		{
 			ival: 7,
-			name: "+ Contact",
+			name: "Contact",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
