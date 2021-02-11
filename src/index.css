@@ -215,6 +215,14 @@ code {
 	cursor: pointer;
 }
 
+.font-acme {
+	font-family: "Acme", sans-serif;
+}
+
+.font-ubuntu {
+	font-family: "Ubuntu", sans-serif;
+}
+
 .moreDesc {
 	animation-name: enter;
 	animation-duration: 0.2s;

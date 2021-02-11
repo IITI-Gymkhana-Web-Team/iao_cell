@@ -15,8 +15,8 @@ export const Footer = () => {
 						</div>
 					</Col>
 					<Col xs={12} lg={3} className="address mt-0">
-						<h4>REACH OUT TO US</h4>
-						<div className="addresstext">
+						<h4 className="font-acme">REACH OUT TO US</h4>
+						<div className="addresstext font-ubuntu">
 							{/* Address:{" "} */}
 							<a href="https://goo.gl/maps/fKyPMk9qdPgYG35t7" target="_blank" style={{ color: "rgb(211, 197, 197)" }}>
 								Indian Institute of Technology Indore, Khandwa Road, Simrol, Indore 453552, INDIA
@@ -35,8 +35,8 @@ export const Footer = () => {
 						</div>
 					</Col>
 					<Col xs={12} lg={3}>
-						<div className="links mt-0">
-							<h4>QUICK LINKS</h4>
+						<div className="links mt-0 font-ubuntu">
+							<h4 className="font-acme">QUICK LINKS</h4>
 							<a href="dumylink.com">Dummy link one</a>
 							<br></br>
 							<a href="dumylink.com">Dummy link Two</a>
@@ -49,7 +49,7 @@ export const Footer = () => {
 						</div>
 					</Col>
 					<Col className="social mt-0" xs={12} lg={3}>
-						<h4>SOCIAL MEDIA</h4>
+						<h4 className="font-acme">SOCIAL LINKS</h4>
 						<div>
 							<a href="#" target="_blank">
 								<i class="fab fa-instagram"></i>
