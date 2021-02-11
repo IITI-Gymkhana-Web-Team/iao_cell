@@ -68,8 +68,8 @@ export const Footer = () => {
 					</Row>
 				</Container>
 			</div>
-			<div className="Documents">
-				<ul>
+			<div className="card Documents">
+				<ul className='row'>
 					<li>© 2020 International Affairs, IIT Indore</li>
 					<li>
 						<a href="#">Terms and Conditions</a>
