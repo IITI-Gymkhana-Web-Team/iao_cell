@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import img from "../../assets/image2.jpg";
+import img from "../../assets/events.jpg";
 import { BiCalendar, BiLink } from "react-icons/bi";
 import { BsFillPersonFill } from "react-icons/bs";
 import { AiOutlineClockCircle } from "react-icons/ai";

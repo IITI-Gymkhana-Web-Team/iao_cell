@@ -26,8 +26,8 @@
 	padding: 2%;
 	margin: auto;
 }
-.social{
-	color:rgb(43, 97, 145);
+.social {
+	color: rgb(43, 97, 145);
 	text-align: left;
 }
 .social a {
@@ -35,49 +35,51 @@
 	margin: 3%;
 	font-size: x-large;
 }
-.links{
+.links {
 	text-align: left;
-	color:rgb(43, 97, 145);
+	color: rgb(43, 97, 145);
 	padding-left: 30px;
 }
-.links a{
-	color:rgb(111, 142, 168);
+.links a {
+	color: rgb(211, 197, 197);
 	font-weight: 300;
 }
-.address{
-	text-align: left;
-	color:rgb(43, 97, 145);
+.links a:hover {
+	color: rgb(111, 142, 168);
 }
-.addresstext{
+.address {
+	text-align: left;
+	color: rgb(43, 97, 145);
+}
+.addresstext {
 	/* font-family: 'Roboto', sans-serif; */
 	font-weight: 300;
 }
-@media only screen and (max-width:1000px){
+@media only screen and (max-width: 1000px) {
 	.footer .links,
 	.address,
 	.social {
 		margin: 3% 0%;
 	}
-	.social{
+	.social {
 		text-align: center;
 		margin-top: 30px !important;
 	}
 	.social a {
 		margin-top: 30px !important;
 	}
-	.links{
+	.links {
 		margin-top: 30px !important;
 		text-align: center;
 		padding-left: 0px;
 	}
-	.address{
+	.address {
 		margin-top: 30px !important;
 		text-align: center;
 	}
 	.footer img {
 		width: 30%;
 	}
-	
 }
 .eventdate {
 	background-color: rgb(138, 21, 21);

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";
-import img from "../../assets/image2.jpg";
+import img from "../../assets/news.jpeg";
 import { CgEditFlipH } from "react-icons/cg";
 import ReactCardFlip from "react-card-flip";
 
