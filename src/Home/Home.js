@@ -21,7 +21,7 @@ export const Home = () => {
 			<AboutUs />
 			<News />
 			<Events />
-			<Links />
+			{/* <Links /> */}
 			<Footer />
 		</div>
 	);

@@ -19,10 +19,10 @@ export default function ({ News }) {
 						<Card.Img variant="top" src={img} />
 					</div>
 					<Card.Body>
-						<Card.Title style={styles.title}>
+						<Card.Title style={styles.title} className="font-acme">
 							<a href="#">{News["title"]}</a>
 						</Card.Title>
-						<small className="text-muted">{News["date"]}</small>
+						<small className="text-muted font-ubuntu">{News["date"]}</small>
 						<Card.Text style={styles.icon}>
 							<CgEditFlipH />
 						</Card.Text>
@@ -34,11 +34,11 @@ export default function ({ News }) {
 					onClick={() => setIsFlipped(!isFlipped)}
 				>
 					<Card.Body>
-						<small className="text-muted">{News["date"]}</small>
-						<Card.Text style={styles.text}>{News["text"].slice(0, 190) + (News["text"].length > 190 ? "..." : "")}</Card.Text>
+						<small className="text-muted font-acme">{News["date"]}</small>
+						<Card.Text className="font-ubuntu" style={styles.text}>{News["text"].slice(0, 190) + (News["text"].length > 190 ? "..." : "")}</Card.Text>
 						<Card.Text style={styles.btn}>
 							<a href="#">
-								<button className="btn btn-primary">Read More</button>
+								<button className="btn btn-primary font-acme">Read More</button>
 							</a>
 						</Card.Text>
 						<Card.Text style={styles.icon}>

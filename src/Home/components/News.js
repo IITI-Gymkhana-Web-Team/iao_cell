@@ -84,27 +84,6 @@ export const News = () => {
 						return <Newsutil News={News} />;
 					})}
 
-					{/*<div>
-						<Newsutil text={text} date={date} title={title + " 1"} />
-					</div>
-					<div>
-						<Newsutil text={text} date={date} title={title + " 2"} />
-					</div>
-					<div>
-						<Newsutil text={text} date={date} title={title + " 3"} />
-					</div>
-					<div>
-						<Newsutil text={text} date={date} title={title + " 4"} />
-					</div>
-					<div>
-						<Newsutil text={text} date={date} title={title + " 5"} />
-					</div>
-					<div>
-						<Newsutil text={text} date={date} title={title + " 6"} />
-					</div>
-					<div>
-						<Newsutil text={text} date={date} title={title + " 7"} />
-					</div>*/}
 				</OwlCarousel>
 			</div>
 		</div>

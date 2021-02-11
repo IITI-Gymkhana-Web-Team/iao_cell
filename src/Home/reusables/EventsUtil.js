@@ -13,8 +13,8 @@ export default function ({ events }) {
 					<div className="img-holder">
 						<Card.Img variant="top" src={img} />
 					</div>
-					<Card.Body>
-						<Card.Title style={styles.title}>{event["title"]}</Card.Title>
+					<Card.Body className="font-ubuntu">
+						<Card.Title style={styles.title} className="font-acme">{event["title"]}</Card.Title>
 						<Card.Text style={styles.text}>
 							<BiCalendar />
 							&nbsp; {event.date}

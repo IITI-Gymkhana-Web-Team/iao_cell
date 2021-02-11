@@ -4,328 +4,336 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu&display=swap");
 body {
-	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-		sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .Title {
-	width: 100%;
+    width: 100%;
 }
 
 .titleLogo {
-	max-width: min(100%, 450px);
-	height: auto;
-	padding: 5px 0px;
+    max-width: min(100%, 450px);
+    height: auto;
+    padding: 5px 0px;
 }
 
 .ba {
-	flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
 }
 
 .titleText {
-	color: rgb(16, 82, 151);
-	font-family: "Lato", serif;
-	margin-left: 40px;
-	margin-right: -10px;
+    color: rgb(16, 82, 151);
+    font-family: "Lato", serif;
+    margin-left: 40px;
+    margin-right: -10px;
 }
 
 .mr-auto {
-	margin: auto;
+    margin: auto;
 }
 
 .dropdown-toggle::after {
-	display: none !important;
+    display: none !important;
 }
 
 .nav-link {
-	color: rgba(255, 255, 255, 0.6) !important;
-	z-index: 20;
+    color: rgba(255, 255, 255, 0.6) !important;
+    z-index: 20;
 }
 
 .dropdown:hover .nav-link {
-	color: white !important;
+    color: white !important;
 }
 
 .navbar2 {
-	background-color: #135497 !important;
-	padding: 5px !important;
-	font-size: 17px;
+    background-color: #135497 !important;
+    padding: 5px !important;
+    font-size: 17px;
 }
 
 .mainNav {
-	position: -webkit-sticky !important;
-	position: sticky !important;
-	top: 0px;
-	z-index: 20;
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0px;
+    z-index: 20;
 }
 
 .dropdown-item,
 .dropdown-menu {
-	transition: all 0.2s;
-	background-color: #007eb8 !important;
-	color: rgba(255, 255, 255, 0.8) !important;
-	z-index: 20;
-	font-family: "Lora", serif;
+    transition: all 0.2s;
+    background-color: #007eb8 !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    z-index: 20;
+    font-family: "Lora", serif;
 }
 
 .nav-link {
-	padding-left: 20px !important;
-	padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 
 .nav-item {
-	margin: 0 10px;
-	font-family: "Lora", serif;
+    margin: 0 10px;
+    font-family: "Lora", serif;
 }
 
 .dropdown-item:hover {
-	color: #fff !important;
+    color: #fff !important;
 }
 
 .collapse {
-	justify-content: center !important;
+    justify-content: center !important;
 }
 
 .titleCollege {
-	width: 100%;
-	padding: 5px 0px;
-	color: white !important;
-	background-color: rgb(16, 82, 151);
-	font-family: Lato, sans-serif;
-	margin-bottom: 0px;
+    width: 100%;
+    padding: 5px 0px;
+    color: white !important;
+    background-color: rgb(16, 82, 151);
+    font-family: Lato, sans-serif;
+    margin-bottom: 0px;
 }
 
 .ba .container-fluid,
 .titleCollege .container-fluid {
-	padding-left: 60px !important;
-	padding-right: 60px !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
 }
 
-.ba .container-fluid > a {
-	margin-left: -20px !important;
+.ba .container-fluid>a {
+    margin-left: -20px !important;
 }
 
 @media only screen and (max-width: 1000px) {
-	.ba .container-fluid,
-	.titleCollege .container-fluid {
-		padding-left: 20px !important;
-	}
-	#titleText1,
-	.socLink {
-		display: none !important;
-	}
-	.textStuff {
-		display: initial !important;
-	}
-	.navbar2 {
-		padding: 5px !important;
-		background-color: #eee !important;
-		border: 1px solid rgba(192, 186, 186, 0.658);
-	}
-	.myqdwn {
-		display: none !important;
-	}
-	.nav-link {
-		color: black !important;
-		border-top: 1px solid rgba(192, 186, 186, 0.658) !important;
-	}
-	.dropdown-toggle:first-child {
-		margin-top: 5px;
-	}
-	.dropdown:hover .nav-link {
-		color: black !important;
-	}
-	.aboutPic {
-		display: none !important;
-	}
-	.mainTitle {
-		text-align: center !important;
-	}
-	.card-body {
-		text-align: justify !important;
-	}
-	.carousel-caption {
-		display: none !important;
-	}
-	.carousel,
-	.w-100 {
-		min-height: 300px;
-	}
+    .ba .container-fluid,
+    .titleCollege .container-fluid {
+        padding-left: 20px !important;
+    }
+    #titleText1,
+    .socLink {
+        display: none !important;
+    }
+    .textStuff {
+        display: initial !important;
+    }
+    .navbar2 {
+        padding: 5px !important;
+        background-color: #eee !important;
+        border: 1px solid rgba(192, 186, 186, 0.658);
+    }
+    .myqdwn {
+        display: none !important;
+    }
+    .nav-link {
+        color: black !important;
+        border-top: 1px solid rgba(192, 186, 186, 0.658) !important;
+    }
+    .dropdown-toggle:first-child {
+        margin-top: 5px;
+    }
+    .dropdown:hover .nav-link {
+        color: black !important;
+    }
+    .aboutPic {
+        display: none !important;
+    }
+    .mainTitle {
+        text-align: center !important;
+    }
+    .card-body {
+        text-align: justify !important;
+    }
+    .carousel-caption {
+        display: none !important;
+    }
+    .carousel,
+    .w-100 {
+        min-height: 300px;
+    }
 }
 
 .socLink {
-	color: black !important;
-	padding: 0px 10px;
-	float: right;
+    color: black !important;
+    padding: 0px 10px;
+    float: right;
 }
 
 .textStuff {
-	padding-left: 25px;
-	display: none;
+    padding-left: 25px;
+    display: none;
 }
 
 .quickLink {
-	color: white;
-	font-family: "Lora", serif;
-	background-color: #135497;
+    color: white;
+    font-family: "Lora", serif;
+    background-color: #135497;
 }
 
 #basic-nav-dropdown-0:hover,
 #basic-nav-dropdown-0 {
-	background-color: rgb(16, 82, 151) !important;
-	color: white;
-	border-radius: 5px;
+    background-color: rgb(16, 82, 151) !important;
+    color: white;
+    border-radius: 5px;
 }
 
 .qdwn {
-	margin-left: 0px !important;
-	background-color: white !important;
-	color: rgba(0, 0, 0, 0.6) !important;
+    margin-left: 0px !important;
+    background-color: white !important;
+    color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .qdwn:hover {
-	color: black !important;
+    color: black !important;
 }
 
 .myqdwn .dropdown-menu {
-	background-color: white !important;
+    background-color: white !important;
 }
 
 .mainTitle {
-	font-family: "Acme", sans-serif;
+    font-family: "Acme", sans-serif;
 }
 
 .mainDesc {
-	font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .less {
-	color: #007bff;
-	cursor: pointer;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.font-acme {
+    font-family: "Acme", sans-serif;
+}
+
+.font-ubuntu {
+    font-family: "Ubuntu", sans-serif;
 }
 
 .moreDesc {
-	animation-name: enter;
-	animation-duration: 0.2s;
-	animation-fill-mode: forwards;
-	/* The element will retain the style values that is set by the last keyframe */
-	animation-iteration-count: 1;
-	/* can be set to `infinite` too */
-	animation-timing-function: ease-in;
+    animation-name: enter;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    /* The element will retain the style values that is set by the last keyframe */
+    animation-iteration-count: 1;
+    /* can be set to `infinite` too */
+    animation-timing-function: ease-in;
 }
 
 @keyframes enter {
-	0% {
-		opacity: 0;
-		transform: scale(0.9);
-	}
-	100% {
-		opacity: 1;
-		transform: scale(1);
-	}
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .news .card {
-	margin: auto;
-	text-align: center;
-	overflow-y: auto;
-	font-family: "Lora", serif;
-	border-radius: 0px;
+    margin: auto;
+    text-align: center;
+    overflow-y: auto;
+    font-family: "Lora", serif;
+    border-radius: 0px;
 }
 
 .news .card-img,
 .card-img-top {
-	border-top-left-radius: 0px !important;
-	border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
 }
 
 .news .card:hover {
-	box-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 10px;
 }
 
 .news .owl-stage {
-	margin: 2% 0px;
+    margin: 2% 0px;
 }
 
 .news .card-title {
-	margin: auto;
-	margin-bottom: 0.75rem;
+    margin: auto;
+    margin-bottom: 0.75rem;
 }
 
 .img-holder {
-	overflow: hidden;
+    overflow: hidden;
 }
+
 
 /* .card-img-top:hover {
 	transform: scale(1.1);
 } */
 
 .card:hover .card-img-top {
-	animation-name: zoomin;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
-	/* The element will retain the style values that is set by the last keyframe */
-	animation-iteration-count: 1;
-	/* can be set to `infinite` too */
-	animation-timing-function: ease-in;
+    animation-name: zoomin;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    /* The element will retain the style values that is set by the last keyframe */
+    animation-iteration-count: 1;
+    /* can be set to `infinite` too */
+    animation-timing-function: ease-in;
 }
 
 @keyframes zoomin {
-	0% {
-		transform: scale(1);
-	}
-	100% {
-		transform: scale(1.1);
-	}
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 a:hover {
-	text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 .owl-next {
-	position: absolute;
-	top: 180px;
-	right: -20px;
-	font-size: 50px !important;
-	color: rgba(0, 0, 0, 0.4) !important;
+    position: absolute;
+    top: 180px;
+    right: -20px;
+    font-size: 50px !important;
+    color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .owl-prev {
-	position: absolute;
-	top: 180px;
-	left: -20px;
-	font-size: 50px !important;
-	color: rgba(0, 0, 0, 0.4) !important;
+    position: absolute;
+    top: 180px;
+    left: -20px;
+    font-size: 50px !important;
+    color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .owl-next:hover,
 .owl-prev:hover {
-	color: black !important;
-	background-color: transparent !important;
+    color: black !important;
+    background-color: transparent !important;
 }
 
 .eventsPage {
-	flex-direction: row !important;
+    flex-direction: row !important;
 }
 
 .eventsPage .card-img-top {
-	height: 100%;
+    height: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
-	.owl-next,
-	.owl-prev {
-		color: black !important;
-	}
-	.eventsPage {
-		flex-direction: column !important;
-	}
+    .owl-next,
+    .owl-prev {
+        color: black !important;
+    }
+    .eventsPage {
+        flex-direction: column !important;
+    }
 }

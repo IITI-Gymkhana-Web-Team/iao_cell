@@ -3,7 +3,7 @@ import { NavDropdown } from "react-bootstrap";
 
 export const CustomNavDropdownLink = ({ navLink, index, show, showDropdown, hideDropdown }) => {
 	return (
-		<NavDropdown
+		<NavDropdown className="font-acme"
 			title={navLink["name"]}
 			id={"basic-nav-dropdown-" + String(Number(navLink["ival"]) + 1)}
 			show={index == Number(navLink["ival"]) ? show : false}
