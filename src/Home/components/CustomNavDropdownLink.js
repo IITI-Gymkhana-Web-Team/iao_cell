@@ -11,7 +11,7 @@ export const CustomNavDropdownLink = ({ navLink, index, show, showDropdown, hide
 
 	return (
 		<NavDropdown
-			className="font-acme"
+			className="font-ubuntu"
 			title={navTitle}
 			id={"basic-nav-dropdown-" + String(Number(navLink["ival"]) + 1)}
 			show={index == Number(navLink["ival"]) ? show : false}
@@ -24,7 +24,11 @@ export const CustomNavDropdownLink = ({ navLink, index, show, showDropdown, hide
 			onClick={() => showDropdown(navLink["ival"])}
 		>
 			{navLink["innerLinks"].map((innerLink) => {
-				return <NavDropdown.Item href={innerLink["href"]}>{innerLink["name"]}</NavDropdown.Item>;
+				return (
+					<NavDropdown.Item href={innerLink["href"]} className="font-ubuntu">
+						{innerLink["name"]}
+					</NavDropdown.Item>
+				);
 			})}
 		</NavDropdown>
 	);

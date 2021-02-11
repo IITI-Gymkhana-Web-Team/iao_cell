@@ -416,7 +416,7 @@ a:hover {
 
 .downIcon {
 	position: relative;
-	top: -5px;
+	top: -1px;
 }
 
 .dropdown:hover .nav-link .downIcon {
