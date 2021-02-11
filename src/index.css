@@ -10,7 +10,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
-	width: 100vw;
 }
 
 code {
@@ -128,21 +127,24 @@ code {
 	}
 	.navbar2 {
 		padding: 5px !important;
-		background-color: #eee !important;
+		background-color: #135497 !important;
 		border: 1px solid rgba(192, 186, 186, 0.658);
 	}
 	.myqdwn {
 		display: none !important;
 	}
 	.nav-link {
-		color: black !important;
+		color: white !important;
 		border-top: 1px solid rgba(192, 186, 186, 0.658) !important;
+	}
+	.nav-link:hover {
+		color: white !important;
 	}
 	.dropdown-toggle:first-child {
 		margin-top: 5px;
 	}
 	.dropdown:hover .nav-link {
-		color: black !important;
+		color: white !important;
 	}
 	.aboutPic {
 		display: none !important;
