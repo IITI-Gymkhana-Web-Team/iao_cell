@@ -136,3 +136,6 @@
 	color: rgb(0, 0, 0) !important;
 	text-decoration: none !important;
 }
+.footer h4 {
+	color: #007bff;
+}

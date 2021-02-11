@@ -28,10 +28,9 @@ export const Footer = () => {
 										+91 1234567890
 									</a>
 									<br></br>
-									<a>Email:</a>
-									<a href="mailto:office@iiti.ac.in">office@iiti.ac.in</a>
+									Email: <a href="mailto:office@iiti.ac.in">office@iiti.ac.in</a>
 									<br></br>
-									<a href='https://goo.gl/maps/qmEGMw6uednJPnGd8'>(22.5204° N, 75.9207° E)</a>
+									<a href="https://goo.gl/maps/qmEGMw6uednJPnGd8">(22.5204° N, 75.9207° E)</a>
 								</div>
 							</div>
 						</Col>
