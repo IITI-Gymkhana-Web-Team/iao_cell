@@ -4,12 +4,12 @@
 
 .doclinks a {
 	text-decoration: none;
-	color: black;
+	color: rgb(27, 27, 27);
 }
 
 .footer {
 	text-align: center;
-	background-color: #34343f;
+	background-color: #0f0f13;
 	/* background-image: url("./assets/sea2.jpg");
 	background-size: cover; */
 	font-family: "Lora", serif;
@@ -27,26 +27,30 @@
 	margin: auto;
 }
 .social{
-	color:rgb(43, 97, 145);
+	color:rgb(255, 255, 255);
 	text-align: left;
 }
 .social a {
-	color: rgb(211, 197, 197);
+	color: rgb(253, 253, 253);
 	margin: 3%;
 	font-size: x-large;
 }
 .links{
 	text-align: left;
-	color:rgb(43, 97, 145);
+	color:rgb(255, 255, 255);
 	padding-left: 30px;
 }
 .links a{
-	color:rgb(111, 142, 168);
-	font-weight: 300;
+	color:rgb(22, 103, 170);
+	font-weight: 500;
+}
+.links a:hover{
+	color:rgb(252, 252, 252);
+	font-weight: 500;
 }
 .address{
 	text-align: left;
-	color:rgb(43, 97, 145);
+	color:rgb(255, 255, 255);
 }
 .addresstext{
 	/* font-family: 'Roboto', sans-serif; */
@@ -79,12 +83,17 @@
 	}
 	
 }
-.eventdate {
-	background-color: rgb(138, 21, 21);
-	color: blanchedalmond;
-	display: inline-block;
-	opacity: 0.8;
-	padding: 1rem;
+.Documents ul{
+list-style: none;
+display:flex;
+padding-top:10px;
+padding-bottom: 15px;
+background-color: rgb(202, 209, 209);
+margin-bottom: 0;
+COLOR:rgb(0, 28, 51)
+}
+.Documents ul li{
+	flex-grow: 1;
 }
 .eventlink {
 	cursor: pointer;
