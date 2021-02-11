@@ -1,10 +1,18 @@
 import React from "react";
 import { NavDropdown } from "react-bootstrap";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 export const CustomNavDropdownLink = ({ navLink, index, show, showDropdown, hideDropdown }) => {
+	const navTitle = (
+		<>
+			{navLink["name"]} <RiArrowDropDownLine className="downIcon" />
+		</>
+	);
+
 	return (
-		<NavDropdown className="font-acme"
-			title={navLink["name"]}
+		<NavDropdown
+			className="font-acme"
+			title={navTitle}
 			id={"basic-nav-dropdown-" + String(Number(navLink["ival"]) + 1)}
 			show={index == Number(navLink["ival"]) ? show : false}
 			onMouseEnter={() => {

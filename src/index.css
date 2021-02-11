@@ -332,6 +332,11 @@ a:hover {
 	height: 100%;
 }
 
+.navbar2 {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
 @media only screen and (max-width: 1000px) {
 	.owl-next,
 	.owl-prev {
@@ -339,6 +344,11 @@ a:hover {
 	}
 	.eventsPage {
 		flex-direction: column !important;
+	}
+
+	.navbar2 {
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
 	}
 }
 
@@ -354,11 +364,6 @@ a:hover {
 	background-color: transparent !important;
 	border: none !important;
 	padding: 0px !important;
-}
-
-.navbar2 {
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;
 }
 
 .nav-link {
@@ -406,5 +411,35 @@ a:hover {
 	100% {
 		opacity: 1;
 		transform: translateY(0);
+	}
+}
+
+.downIcon {
+	position: relative;
+	top: -5px;
+}
+
+.dropdown:hover .nav-link .downIcon {
+	animation-name: turn;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	/* The element will retain the style values that is set by the last keyframe */
+	animation-iteration-count: 1;
+	/* can be set to `infinite` too */
+	animation-timing-function: ease-in;
+}
+
+@keyframes turn {
+	0% {
+		transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
 	}
 }
