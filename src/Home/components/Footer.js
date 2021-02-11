@@ -19,33 +19,37 @@ export const Footer = () => {
 						<div className="addresstext">
 							{/* Address:{" "} */}
 							<a href="https://goo.gl/maps/fKyPMk9qdPgYG35t7" target="_blank" style={{ color: "rgb(211, 197, 197)" }}>
-								Indian Institute of Technology Indore,
-								Khandwa Road, Simrol,
-								Indore 453552,
-								INDIA
-										</a>
-						<div className="phonetext" style={{ color: "rgb(211, 197, 197)" }}>
-							Phone No: {" "}
-							<a href="tel:1234567890" style={{ color: "rgb(211, 197, 197)" }}>
-								+91 1234567890
-							</a><br></br>
-							<a>Email:</a><a>office@iiti.ac.in</a><br></br>
-							<a>(22.5204° N, 75.9207° E)</a>
-						</div>
+								Indian Institute of Technology Indore, Khandwa Road, Simrol, Indore 453552, INDIA
+							</a>
+							<div className="phonetext" style={{ color: "rgb(211, 197, 197)" }}>
+								Phone No:{" "}
+								<a href="tel:1234567890" style={{ color: "rgb(211, 197, 197)" }}>
+									+91 1234567890
+								</a>
+								<br></br>
+								<a>Email:</a>
+								<a>office@iiti.ac.in</a>
+								<br></br>
+								<a>(22.5204° N, 75.9207° E)</a>
+							</div>
 						</div>
 					</Col>
-					<Col xs={12} lg={3} >
+					<Col xs={12} lg={3}>
 						<div className="links mt-0">
 							<h4>QUICK LINKS</h4>
-							<a href="dumylink.com" >Dummy link one</a><br></br>
-							<a href="dumylink.com" >Dummy link Two</a><br></br>
-							<a href="dumylink.com" >Dummy link Three</a><br></br>
-							<a href="dumylink.com" >Dummy link Four</a><br></br>
-							<a href="dumylink.com" >Dummy link Five</a>
+							<a href="dumylink.com">Dummy link one</a>
+							<br></br>
+							<a href="dumylink.com">Dummy link Two</a>
+							<br></br>
+							<a href="dumylink.com">Dummy link Three</a>
+							<br></br>
+							<a href="dumylink.com">Dummy link Four</a>
+							<br></br>
+							<a href="dumylink.com">Dummy link Five</a>
 						</div>
 					</Col>
 					<Col className="social mt-0" xs={12} lg={3}>
-						<h4>SOCIAL LINKS</h4>
+						<h4>SOCIAL MEDIA</h4>
 						<div>
 							<a href="#" target="_blank">
 								<i class="fab fa-instagram"></i>
