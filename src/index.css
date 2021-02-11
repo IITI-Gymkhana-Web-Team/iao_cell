@@ -353,7 +353,21 @@ a:hover {
 .dropdown-menu {
 	background-color: transparent !important;
 	border: none !important;
-	padding: 3px !important;
+	padding: 0px !important;
+}
+
+.navbar2 {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.nav-link {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.dropdown:hover .nav-link {
+	background-color: #007eb8 !important;
 }
 
 .dropdown-item {
@@ -365,7 +379,7 @@ a:hover {
 	animation-iteration-count: 1;
 	/* can be set to `infinite` too */
 	animation-timing-function: ease-in;
-	background-color: #135497 !important;
+	background-color: #007eb8 !important;
 }
 
 .dropdown-item:nth-child(2) {
