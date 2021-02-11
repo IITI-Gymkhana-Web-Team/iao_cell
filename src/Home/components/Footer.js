@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export const Footer = () => {
 	return (
-		<div className="footer">
+		<div className="footer mt-5">
 			<Container fluid className="footergrid">
 				<Row>
 					<Col xs={12} lg={3}>

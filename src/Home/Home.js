@@ -5,7 +5,7 @@ import { Carousell } from "./components/Carousell";
 import { AboutUs } from "./components/AboutUs";
 import { News } from "./components/News";
 import { Events } from "./components/Events";
-import { Links } from "./components/Links";
+// import { Links } from "./components/Links";
 import { Footer } from "./components/Footer";
 
 export const Home = () => {
@@ -19,7 +19,7 @@ export const Home = () => {
 			<AboutUs />
 			<News />
 			<Events />
-			<Links />
+			{/*<Links />*/}
 			<Footer />
 		</div>
 	);

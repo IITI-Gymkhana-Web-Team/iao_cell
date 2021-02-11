@@ -63,43 +63,11 @@ export const Events = () => {
 		},
 	]);
 	return (
-		// <div>
-		// 	<div className="container bg-light my-5 justify-content-center">
-		// 		<h1 className="mainTitle text-center p-3">Events</h1>
-		// 		<div className="container card-deck justify-content-center">
-		// 			{events.map((event) => (
-		// 				<div>
-		// 					<div className="event-card card">
-		// 						<img src={img} className="eventimage" alt="img-responsive" style={{ width: "300px" }} />
-		// 						{/*<div class="card-img-overlay">
-		// 							<p className="eventdate">{event.date}</p>
-		// 						</div>*/}
-		// 						<div className="card-body">
-		// 							<h3 className="eventtitle">{event.title}</h3>
-		// 							<p>
-		// 								<BiCalendar />
-		// 								&nbsp; {event.date}
-		// 								<br></br>&nbsp;&nbsp;&nbsp;&nbsp;{event.time}
-		// 							</p>
-		// 							<p>
-		// 								<BiLink /> <a href={event.link}>{event.link}</a>
-		// 							</p>
-		// 							<p className="eventname">
-		// 								<BsFillPersonFill />
-		// 								&nbsp; {event.name}
-		// 							</p>
-		// 						</div>
-		// 					</div>
-		// 				</div>
-		// 			))}
-		// 		</div>
-		// 	</div>
-		// </div>
-		<div class="news container bg-light mt-5">
+		<div class="news container bg-light mt-5 mb-5">
 			<div class="container-fluid">
 				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">Events</h1>
 			</div>
-			<div class="container-fluid" style={{ maxWidth: "1140px" }}>
+			<div class="container-fluid">
 				<OwlCarousel
 					className="owl-theme"
 					loop
@@ -109,12 +77,6 @@ export const Events = () => {
 						0: {
 							items: 1,
 						},
-						// 760: {
-						// 	items: 1,
-						// },
-						// 1000: {
-						// 	items: 2,
-						// },
 					}}
 				>
 					<EventsUtil events={events} />
