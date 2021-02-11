@@ -121,3 +121,18 @@
 	/* width: 10%;*/
 	height: 10px;
 }
+.footer a {
+	color: #fff !important;
+}
+
+.footer a:hover {
+	color: #007bff !important;
+}
+
+.Documents a {
+	color: rgba(0, 0, 0, 0.8) !important;
+}
+.Documents a:hover {
+	color: rgb(0, 0, 0) !important;
+	text-decoration: none !important;
+}

@@ -16,7 +16,7 @@ export const Footer = () => {
 							</div>
 						</Col>
 						<Col xs={12} lg={3} className="address mt-0">
-							<h4 className="font-acme">REACH OUT TO US</h4>
+							<h4 className="font-acme">REACH &nbsp;OUT &nbsp;TO &nbsp;US</h4>
 							<div className="addresstext font-ubuntu">
 								{/* Address:{" "} */}
 								<a href="https://goo.gl/maps/fKyPMk9qdPgYG35t7" target="_blank" style={{ color: "white" }}>
@@ -29,9 +29,9 @@ export const Footer = () => {
 									</a>
 									<br></br>
 									<a>Email:</a>
-									<a>office@iiti.ac.in</a>
+									<a href="mailto:office@iiti.ac.in">office@iiti.ac.in</a>
 									<br></br>
-									<a>(22.5204° N, 75.9207° E)</a>
+									<a href='https://goo.gl/maps/qmEGMw6uednJPnGd8'>(22.5204° N, 75.9207° E)</a>
 								</div>
 							</div>
 						</Col>
@@ -72,10 +72,18 @@ export const Footer = () => {
 			<div className="Documents">
 				<ul>
 					<li>© 2020 International Affairs, IIT Indore</li>
-					<li>Terms and Conditions</li>
-					<li>Privacy Policy</li>
-					<li>Products and Services</li>
-					<li>Other documents</li>
+					<li>
+						<a href="#">Terms and Conditions</a>
+					</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#">Products and Services</a>
+					</li>
+					<li>
+						<a href="#">Copyright</a>
+					</li>
 				</ul>
 			</div>
 		</div>
