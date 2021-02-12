@@ -93,8 +93,7 @@
 		text-align: center;
 	}
 	.Documents {
-		width: 100vw !important;
-		overflow-x: hidden;
+		/* width: 100vw; */
 		background-color: rgb(202, 209, 209);
 	}
 	.Documents ul {
@@ -104,7 +103,7 @@
 		padding: 10px;
 		padding-bottom: 15px;
 		/* margin-right: 10px; */
-		width: 100vw !important;
+		/* width: 100%; */
 		margin-bottom: 0;
 		color: rgb(0, 28, 51);
 	}
