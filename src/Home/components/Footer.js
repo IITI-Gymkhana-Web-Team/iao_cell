@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/iiti_logo.png";
+import img from "../../assets/iiti_2.png";
 import { Container, Row, Col } from "react-bootstrap";
 
 export const Footer = () => {
@@ -69,7 +69,7 @@ export const Footer = () => {
 				</Container>
 			</div>
 			<div className="card Documents">
-				<ul className='row'>
+				<ul className="row">
 					<li>© 2020 International Affairs, IIT Indore</li>
 					<li>
 						<a href="#">Terms and Conditions</a>
