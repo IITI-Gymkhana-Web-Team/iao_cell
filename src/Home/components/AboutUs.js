@@ -4,7 +4,7 @@ import image from "../../assets/img1.jpeg";
 export const AboutUs = () => {
 	return (
 		<>
-			<div className="container bg-light mt-5">
+			<div className="container bg-light mt-5" style={{ borderRadius: "10px" }}>
 				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle">About Us</h1>
 				<div className="container-fluid pb-5">
 					<div className="card-group ">

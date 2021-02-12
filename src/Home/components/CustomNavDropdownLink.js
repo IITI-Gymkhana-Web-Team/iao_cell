@@ -1,11 +1,11 @@
 import React from "react";
 import { NavDropdown } from "react-bootstrap";
-import { RiArrowDropDownLine } from "react-icons/ri";
+import { BsFillCaretDownFill } from "react-icons/bs";
 
 export const CustomNavDropdownLink = ({ navLink, index, show, showDropdown, hideDropdown }) => {
 	const navTitle = (
 		<>
-			{navLink["name"]} <RiArrowDropDownLine className="downIcon" />
+			{navLink["name"]} <BsFillCaretDownFill className="downIcon" />
 		</>
 	);
 

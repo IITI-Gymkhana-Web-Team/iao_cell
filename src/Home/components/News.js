@@ -58,7 +58,7 @@ export const News = () => {
 	// let date = "January 27, 2021";
 
 	return (
-		<div class="news container bg-light mt-5">
+		<div class="news container bg-light mt-5" style={{ borderRadius: "10px" }}>
 			<div class="container-fluid">
 				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">News</h1>
 			</div>
@@ -83,7 +83,6 @@ export const News = () => {
 					{news.map((News) => {
 						return <Newsutil News={News} />;
 					})}
-
 				</OwlCarousel>
 			</div>
 		</div>
