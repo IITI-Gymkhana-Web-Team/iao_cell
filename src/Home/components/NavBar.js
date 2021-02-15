@@ -3,14 +3,14 @@ import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CustomNavDropdownLink } from "./CustomNavDropdownLink";
 
-export const Navbarr = () => {
+export const NavBar = () => {
 	const [show, setShow] = useState(false);
 	const [index, setIndex] = useState(-1);
 
 	const [navLinks, setNavLinks] = useState([
 		{
 			ival: 0,
-			name: "+ About",
+			name: "About",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -18,7 +18,7 @@ export const Navbarr = () => {
 		},
 		{
 			ival: 1,
-			name: "+ People",
+			name: "People",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -27,7 +27,7 @@ export const Navbarr = () => {
 		},
 		{
 			ival: 2,
-			name: "+ Education",
+			name: "Education",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -36,7 +36,7 @@ export const Navbarr = () => {
 		},
 		{
 			ival: 3,
-			name: "+ Research",
+			name: "Research",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -45,7 +45,7 @@ export const Navbarr = () => {
 		},
 		{
 			ival: 4,
-			name: "+ Admission",
+			name: "Admission",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -55,7 +55,7 @@ export const Navbarr = () => {
 		},
 		{
 			ival: 5,
-			name: "+ Facilities",
+			name: "Facilities",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -64,7 +64,7 @@ export const Navbarr = () => {
 		},
 		{
 			ival: 6,
-			name: "+ Outreach",
+			name: "Outreach",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -73,7 +73,7 @@ export const Navbarr = () => {
 		},
 		{
 			ival: 7,
-			name: "+ Contact",
+			name: "Contact",
 			innerLinks: [
 				{ name: "Link 1", href: "#" },
 				{ name: "Link 2", href: "#" },
@@ -96,7 +96,7 @@ export const Navbarr = () => {
 
 	return (
 		<div className="nav2">
-			<Navbar expand="lg" className="navbar2">
+			<Navbar variant="dark" expand="lg" className="navbar2">
 				<span className="textStuff"> </span>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">

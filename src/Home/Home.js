@@ -1,26 +1,27 @@
 import React from "react";
 import { Title } from "./components/Title";
-import { Navbarr } from "./components/Navbar.js";
+import { NavBar } from "./components/NavBar";
 import { Carousell } from "./components/Carousell";
 import { AboutUs } from "./components/AboutUs";
 import { News } from "./components/News";
 import { Events } from "./components/Events";
-import { Links } from "./components/Links";
+// import { Links } from "./components/Links";
 import { Footer } from "./components/Footer";
-import Newsutil from "./reusables/Newsutil";
 
 export const Home = () => {
 	return (
 		<div>
+			<Title />
 			<div className="mainNav">
-				<Title />
-				<Navbarr />
+				<NavBar />
 			</div>
-			<Carousell />
+			<div className="container mt-3">
+				<Carousell />
+			</div>
 			<AboutUs />
 			<News />
 			<Events />
-			<Links />
+			{/* <Links /> */}
 			<Footer />
 		</div>
 	);
