@@ -1,5 +1,10 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import img1 from "../../assets/img1.jpeg"
+import img2 from "../../assets/image14.jpg"
+import img3 from "../../assets/image15.jpg"
+import img4 from "../../assets/unnamed.jpg"
+import img5 from "../../assets/image2.jpg"
 
 export const Carousell = () => {
 	return (
@@ -7,7 +12,7 @@ export const Carousell = () => {
 			<Carousel.Item >
 				<img
 					className="d-block w-100"
-					src="https://images.unsplash.com/photo-1579063111634-b74294fde6e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=980&h=400"
+					src={img1}
 					alt="First slide"
 				/>
 				<Carousel.Caption>
@@ -18,7 +23,7 @@ export const Carousell = () => {
 			<Carousel.Item>
 				<img
 					className="d-block w-100"
-					src="https://images.unsplash.com/photo-1611865879393-7826234b17f3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=980&h=400"
+					src={img2}
 					alt="Second slide"
 				/>
 
@@ -30,7 +35,31 @@ export const Carousell = () => {
 			<Carousel.Item>
 				<img
 					className="d-block w-100"
-					src="https://images.unsplash.com/photo-1508184360431-51989b9a586f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=980&h=400"
+					src={img3}
+					alt="Third slide"
+				/>
+
+				<Carousel.Caption>
+					<h3 className="font-acme">Third slide label</h3>
+					<p className="font-ubuntu">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img
+					className="d-block w-100"
+					src={img4}
+					alt="Third slide"
+				/>
+
+				<Carousel.Caption>
+					<h3 className="font-acme">Third slide label</h3>
+					<p className="font-ubuntu">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img
+					className="d-block w-100"
+					src={img5}
 					alt="Third slide"
 				/>
 
