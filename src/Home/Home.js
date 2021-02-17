@@ -15,7 +15,7 @@ export const Home = () => {
 			<div className="mainNav">
 				<NavBar />
 			</div>
-			<div className="container mt-3">
+			<div className="container mt-3 abc">
 				{/*<div className="abc">*/}
 				<Carousell />
 			</div>
