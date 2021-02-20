@@ -8,6 +8,7 @@ import { Events } from "./components/Events";
 // import { Links } from "./components/Links";
 import { Footer } from "./components/Footer";
 import { Maps } from "./components/Maps";
+import Message from "./components/Message";
 
 export const Home = () => {
 	return (
@@ -23,6 +24,7 @@ export const Home = () => {
 			<AboutUs />
 			<News />
 			<Events />
+			<Message />
 			<Maps />
 			{/* <Links /> */}
 			<Footer />
