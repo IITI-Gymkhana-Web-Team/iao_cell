@@ -7,6 +7,7 @@ import { News } from "./components/News";
 import { Events } from "./components/Events";
 // import { Links } from "./components/Links";
 import { Footer } from "./components/Footer";
+import { Maps } from "./components/Maps";
 
 export const Home = () => {
 	return (
@@ -22,6 +23,7 @@ export const Home = () => {
 			<AboutUs />
 			<News />
 			<Events />
+			<Maps />
 			{/* <Links /> */}
 			<Footer />
 		</div>
