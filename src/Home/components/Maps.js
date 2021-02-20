@@ -59,9 +59,9 @@ export const Maps = () => {
 	};
 
 	return (
-		<div className="Maps container bg-light">
+		<div className="Maps container bg-light mt-5 mb-5">
 			<div class="container-fluid">
-				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">Global Collaborations</h1>
+				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">Collaborations</h1>
 			</div>
 			<WorldMap title="" size="xl" data={data} styleFunction={stylingFunction} onClickFunction={clickAction} />
 		</div>
