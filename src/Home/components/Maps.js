@@ -3,23 +3,23 @@ import { WorldMap } from "react-svg-worldmap";
 
 export const Maps = () => {
 	const data = [
-		{ country: "us", value: 1 }, // usa
-		{ country: "ca", value: 123 }, // canada
-		{ country: "mx", value: 123 }, // mexico
-		{ country: "gb", value: 123 }, // united kingdom (england / great britain)
-		{ country: "ru", value: 123 }, // russia
-		{ country: "fi", value: 123 }, // finland
-		{ country: "be", value: 123 }, // Belgium
-		{ country: "tr", value: 123 }, // turkey
-		{ country: "no", value: 123 }, // norway
-		{ country: "dk", value: 123 }, // denmark
-		{ country: "jp", value: 123 }, // japan
-		{ country: "au", value: 123 }, // australia
-		{ country: "kr", value: 123 }, // korea (south)
-		{ country: "cn", value: 123 }, // china
-		{ country: "tw", value: 123 }, // taiwan
-		{ country: "my", value: 123 }, // singapore (malaysia)
-		{ country: "in", value: 123 }, // india
+		{ country: "us", value: "123 students" }, // usa
+		{ country: "ca", value: "123 students" }, // canada
+		{ country: "mx", value: "123 students" }, // mexico
+		{ country: "gb", value: "123 students" }, // united kingdom (england / great britain)
+		{ country: "ru", value: "123 students" }, // russia
+		{ country: "fi", value: "123 students" }, // finland
+		{ country: "be", value: "123 students" }, // Belgium
+		{ country: "tr", value: "123 students" }, // turkey
+		{ country: "no", value: "123 students" }, // norway
+		{ country: "dk", value: "123 students" }, // denmark
+		{ country: "jp", value: "123 students" }, // japan
+		{ country: "au", value: "123 students" }, // australia
+		{ country: "kr", value: "123 students" }, // korea (south)
+		{ country: "cn", value: "123 students" }, // china
+		{ country: "tw", value: "123 students" }, // taiwan
+		{ country: "my", value: "123 students" }, // singapore (malaysia)
+		{ country: "in", value: "123 students" }, // india
 	];
 
 	const chooseColor = (country) => {
