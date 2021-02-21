@@ -1,0 +1,37 @@
+:root {
+	--titleBgColor: rgb(2, 87, 94);
+}
+
+.Title {
+	width: 100%;
+}
+
+.titleLogo {
+	max-width: min(120%, 450px);
+	height: auto;
+	padding: 5px 0px;
+}
+
+.ba {
+	flex-wrap: wrap !important;
+}
+
+.ba .container-fluid {
+	padding-left: 60px !important;
+	padding-right: 60px !important;
+}
+
+.ba .container-fluid > a {
+	margin-left: -20px !important;
+}
+
+.Title .bg-light,
+.ba {
+	background-color: var(--titleBgColor) !important;
+}
+
+@media only screen and (max-width: 1000px) {
+	.ba .container-fluid {
+		padding-left: 20px !important;
+	}
+}

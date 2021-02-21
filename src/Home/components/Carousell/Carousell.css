@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1000px) {
+	.carousel-caption {
+		display: none !important;
+	}
+	.w-100 {
+		min-height: 300px;
+	}
+}
+
+.abc,
+.carousel-item {
+	max-height: 520px !important;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100% !important;
+	left: 0% !important;
+	right: 0% !important;
+	padding-bottom: 40px !important;
+	bottom: 0px !important;
+	padding-left: 50px;
+}
+
+.carousel-caption h3 {
+	color: gold !important;
+}

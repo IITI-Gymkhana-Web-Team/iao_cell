@@ -1,0 +1,67 @@
+.mr-auto {
+	margin: auto;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+	.mainTitle {
+		text-align: center !important;
+	}
+	.card-body {
+		text-align: justify !important;
+	}
+}
+
+.mainTitle {
+	font-family: "Acme", sans-serif;
+}
+
+.mainDesc {
+	font-family: "Ubuntu", sans-serif;
+}
+
+.font-acme {
+	font-family: "Acme", sans-serif !important;
+}
+
+.font-ubuntu {
+	font-family: "Ubuntu", sans-serif !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.owl-next {
+	position: absolute;
+	top: 180px;
+	right: -20px;
+	font-size: 50px !important;
+	color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.owl-prev {
+	position: absolute;
+	top: 180px;
+	left: -20px;
+	font-size: 50px !important;
+	color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+	color: black !important;
+	background-color: transparent !important;
+}
+
+@media only screen and (max-width: 1000px) {
+	.owl-next,
+	.owl-prev {
+		color: black !important;
+	}
+}
+
+.btn {
+	font-family: Ubuntu;
+	color: white !important;
+}

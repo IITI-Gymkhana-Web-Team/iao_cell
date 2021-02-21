@@ -1,14 +1,15 @@
 import React from "react";
-import { Title } from "./components/Title";
-import { NavBar } from "./components/NavBar";
-import { Carousell } from "./components/Carousell";
-import { AboutUs } from "./components/AboutUs";
-import { News } from "./components/News";
-import { Events } from "./components/Events";
+import { Title } from "./components/Title/Title";
+import { NavBar } from "./components/NavBar/NavBar";
+import { Carousell } from "./components/Carousell/Carousell";
+import { AboutUs } from "./components/AboutUs/AboutUs";
+import { News } from "./components/News/News";
+import { Events } from "./components/Events/Events";
 // import { Links } from "./components/Links";
-import { Footer } from "./components/Footer";
-import { Maps } from "./components/Maps";
-import Message from "./components/Message";
+import { Footer } from "./components/Footer/Footer";
+import { Maps } from "./components/Maps/Maps";
+import Message from "./components/Message/Message";
+import "./Home.css";
 
 export const Home = () => {
 	return (

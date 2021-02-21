@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-// import $ from "jquery";
 import OwlCarousel from "react-owl-carousel";
-
 import "owl.carousel/dist/assets/owl.carousel.css";
-
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import Newsutil from "../reusables/Newsutil";
+import Newsutil from "../../reusables/Newsutil";
+import "./News.css";
 
 export const News = () => {
 	const [news, setNews] = useState([

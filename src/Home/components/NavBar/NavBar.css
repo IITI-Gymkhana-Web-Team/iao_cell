@@ -1,0 +1,153 @@
+:root {
+	--dropdownHoverBgColor: #007bff;
+	--navBgColor: rgb(2, 87, 94);
+	--navBgColorMobile: rgb(2, 87, 94);
+}
+
+.dropdown-toggle::after {
+	display: none !important;
+}
+
+.mainNav {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	top: 0px;
+	z-index: 20;
+}
+
+.dropdown-item,
+.dropdown-menu {
+	transition: all 0.2s;
+	background-color: var(--dropdownHoverBgColor) !important;
+	color: rgba(255, 255, 255, 0.8) !important;
+	z-index: 20;
+	font-family: "Lora", serif;
+}
+
+.nav-item {
+	margin: 0 10px;
+	font-family: "Lora", serif;
+}
+
+.dropdown-item:hover {
+	color: #fff !important;
+}
+
+.collapse {
+	justify-content: center !important;
+}
+
+.navbar2 {
+	background-color: var(--navBgColor) !important;
+	padding: 0px 5px !important;
+	font-size: 17px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.navbar2 {
+		background-color: var(--navBgColorMobile) !important;
+		border: 1px solid rgba(192, 186, 186, 0.658);
+		padding: 10px 5px !important;
+	}
+	.nav-link {
+		color: white !important;
+		/* border-top: 1px solid rgba(192, 186, 186, 0.658) !important; */
+	}
+	.nav-link:hover {
+		color: white !important;
+	}
+	.dropdown-toggle:first-child {
+		margin-top: 5px;
+	}
+}
+
+.dropdown-menu {
+	background-color: transparent !important;
+	border: none !important;
+	padding: 0px !important;
+}
+
+.nav-link {
+	color: rgba(255, 255, 255, 0.6) !important;
+	z-index: 20;
+	font-size: 17px;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.dropdown:hover .nav-link {
+	background-color: var(--dropdownHoverBgColor) !important;
+	color: white !important;
+}
+
+.dropdown-item {
+	opacity: 0;
+	animation-name: drop;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	/* The element will retain the style values that is set by the last keyframe */
+	animation-iteration-count: 1;
+	/* can be set to `infinite` too */
+	animation-timing-function: ease-in;
+	background-color: var(--dropdownHoverBgColor) !important;
+}
+
+.dropdown-item:nth-child(2) {
+	animation-delay: 0.1s;
+}
+.dropdown-item:nth-child(3) {
+	animation-delay: 0.2s;
+}
+.dropdown-item:nth-child(4) {
+	animation-delay: 0.3s;
+}
+.dropdown-item:nth-child(5) {
+	animation-delay: 0.5s;
+}
+.dropdown-item:nth-child(6) {
+	animation-delay: 0.5s;
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-30px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.downIcon {
+	position: relative;
+	top: -1px;
+	font-size: 12px;
+}
+
+.dropdown:hover .nav-link .downIcon {
+	animation-name: turn;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	/* The element will retain the style values that is set by the last keyframe */
+	animation-iteration-count: 1;
+	/* can be set to `infinite` too */
+	animation-timing-function: ease-in;
+}
+
+@keyframes turn {
+	0% {
+		transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+	}
+}

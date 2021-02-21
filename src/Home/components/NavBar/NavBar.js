@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { CustomNavDropdownLink } from "./CustomNavDropdownLink";
+import { CustomNavDropdownLink } from "../../reusables/CustomNavDropdownLink";
+import "./NavBar.css";
 
 export const NavBar = () => {
 	const [show, setShow] = useState(false);

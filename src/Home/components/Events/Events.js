@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import "../../App.css";
+import "../../../App.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import EventsUtil from "../reusables/EventsUtil";
+import EventsUtil from "../../reusables/EventsUtil";
+import "./Events.css";
 
 export const Events = () => {
 	const [events, setEvents] = useState([

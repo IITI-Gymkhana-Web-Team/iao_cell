@@ -1,0 +1,13 @@
+.eventsPage {
+	flex-direction: row !important;
+}
+
+.eventsPage .card-img-top {
+	height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.eventsPage {
+		flex-direction: column !important;
+	}
+}

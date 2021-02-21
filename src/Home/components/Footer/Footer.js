@@ -1,6 +1,7 @@
 import React from "react";
-import img from "../../assets/iiti_2.png";
+import img from "../../../assets/iiti_2.png";
 import { Container, Row, Col } from "react-bootstrap";
+import "./Footer.css";
 
 export const Footer = () => {
 	return (

@@ -1,7 +1,8 @@
 import React from "react";
-import logo from "../../assets/iiti_logo_4.png";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import logo from "../../../assets/iiti_logo_4.png";
+import { Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./Title.css";
 
 export const Title = () => {
 	return (
