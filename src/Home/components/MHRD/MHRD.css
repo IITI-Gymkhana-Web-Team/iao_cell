@@ -1,0 +1,31 @@
+.mhrd a,
+.mhrd img {
+	height: 100%;
+}
+
+.mhrd .card {
+	height: 90px;
+	width: 250px;
+}
+
+.mhrd .card:hover {
+	box-shadow: 0px 0px 4px 1px;
+}
+
+.mhrd .card:hover .card-img-top {
+	animation: none;
+}
+
+.mhrd {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1000px) {
+	.mhrd {
+		flex-direction: column;
+	}
+}

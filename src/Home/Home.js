@@ -8,6 +8,7 @@ import { Events } from "./components/Events/Events";
 // import { Links } from "./components/Links";
 import { Footer } from "./components/Footer/Footer";
 import { Maps } from "./components/Maps/Maps";
+import { MHRD } from "./components/MHRD/MHRD";
 import Message from "./components/Message/Message";
 import "./Home.css";
 
@@ -27,6 +28,7 @@ export const Home = () => {
 			<Events />
 			<Message />
 			<Maps />
+			<MHRD />
 			{/* <Links /> */}
 			<Footer />
 		</div>
