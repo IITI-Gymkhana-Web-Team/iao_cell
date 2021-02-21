@@ -6,6 +6,7 @@
 @media only screen and (max-width: 1000px) {
 	.mainTitle {
 		text-align: center !important;
+		font-size: 2rem;
 	}
 	.card-body {
 		text-align: justify !important;
