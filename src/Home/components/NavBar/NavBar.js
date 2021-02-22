@@ -3,6 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CustomNavDropdownLink } from "../../reusables/CustomNavDropdownLink";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 export const NavBar = () => {
 	const [show, setShow] = useState(false);
@@ -102,11 +103,19 @@ export const NavBar = () => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="mr-auto">
-						{navLinks.map((navLink) => {
+						<Link to="/" style={{ margin: "10px" }}>
+							Home
+						</Link>
+						<Link to="/people" style={{ margin: "10px" }}>
+							People
+						</Link>
+						{/*
+							navLinks.map((navLink) => {
 							return (
 								<CustomNavDropdownLink navLink={navLink} show={show} index={index} showDropdown={showDropdown} hideDropdown={hideDropdown} />
 							);
-						})}
+							})
+						*/}
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
