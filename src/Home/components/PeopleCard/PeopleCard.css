@@ -1,0 +1,61 @@
+.peopleCards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.personCard {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.pdp {
+	height: 250px;
+}
+
+.personCardBody {
+	padding: 20px;
+}
+
+.personCard a {
+	color: black;
+}
+
+.personCard p {
+	margin-bottom: 0.3rem;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.socIcon {
+	font-size: 1.3rem;
+	margin-right: 5px;
+}
+
+.btn {
+	margin: 5px;
+}
+
+.commBtns {
+	margin: auto;
+	width: max(60%, 400px);
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+	.pdp {
+		height: 150px;
+		width: 150px;
+	}
+	.personCard {
+		margin: 10px;
+	}
+	.personCardBody {
+		padding: 10px;
+	}
+}
