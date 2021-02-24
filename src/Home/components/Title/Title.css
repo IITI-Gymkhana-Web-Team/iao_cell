@@ -6,8 +6,12 @@
 	width: 100%;
 }
 
+.ba .navbar-brand {
+	width: 450px;
+}
+
 .titleLogo {
-	max-width: min(95%, 450px);
+	width: 100%;
 	height: auto;
 	padding: 5px 0px;
 }

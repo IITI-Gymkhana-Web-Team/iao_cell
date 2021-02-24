@@ -87,6 +87,11 @@ export const MobileMenu = ({ show, setShow }) => {
 						</div>
 					);
 				})}
+				<Link to="/" style={{ textAlign: "center", width: "150px" }}>
+					<button className="btn btn-primary" style={{ width: "150px", textAlign: "center" }}>
+						<h5 className="font-ubuntu">Sign In</h5>
+					</button>
+				</Link>
 			</div>
 		</div>
 	);
