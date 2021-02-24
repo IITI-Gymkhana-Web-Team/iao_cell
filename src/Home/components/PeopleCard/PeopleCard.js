@@ -2,14 +2,14 @@ import React from "react";
 import "./PeopleCard.css";
 import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 
-export const PeopleCard = ({ img, person }) => {
+export const PeopleCard = ({ person }) => {
 	return (
 		<div className="personCard">
-			<img src={img} alt="display picture" className="pdp" />
+			<img src={person.img} alt="display picture" className="pdp" />
 			<div className="personCardBody font-ubuntu">
-				<h3 className="font-acme upper" style={{ color: "#34639D" }}>
+				<h4 className="font-acme upper" style={{ color: "#34639D" }}>
 					{person.name}
-				</h3>
+				</h4>
 				<h5 className="font-acme upper" style={{ color: "rgb(54, 54, 54)" }}>
 					{person.designation}
 				</h5>
@@ -19,23 +19,25 @@ export const PeopleCard = ({ img, person }) => {
 				<p>
 					<a href={"tel:" + person.phno}>{person.phno}</a>
 				</p>
-				<p>
-					{person.fb != "" && (
-						<a href={person.fb}>
-							<FaFacebookSquare className="socIcon" />
-						</a>
-					)}
-					{person.ig != "" && (
-						<a href={person.ig}>
-							<FaInstagram className="socIcon" />
-						</a>
-					)}
-					{person.lin != "" && (
-						<a href={person.lin}>
-							<FaLinkedin className="socIcon" />
-						</a>
-					)}
-				</p>
+				{/*
+					<p>
+						{person.fb != "" && (
+							<a href={person.fb}>
+								<FaFacebookSquare className="socIcon" />
+							</a>
+						)}
+						{person.ig != "" && (
+							<a href={person.ig}>
+								<FaInstagram className="socIcon" />
+							</a>
+						)}
+						{person.lin != "" && (
+							<a href={person.lin}>
+								<FaLinkedin className="socIcon" />
+							</a>
+						)}
+					</p>
+				*/}
 			</div>
 		</div>
 	);
