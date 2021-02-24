@@ -5,7 +5,7 @@ import { People } from "./People";
 import { Title } from "./components/Title/Title";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
-import { Nav } from './components/NewNav/index'
+import { Nav } from "./components/NewNav/index";
 
 export const Home = () => {
 	return (

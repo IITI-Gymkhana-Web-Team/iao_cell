@@ -1,7 +1,7 @@
-import React, { useState } from "react"
-import AnimatedNavbar from "./AnimatedNavbar"
-import styled from "styled-components"
-import "./index.css"
+import React, { useState } from "react";
+import AnimatedNavbar from "./AnimatedNavbar";
+import styled from "styled-components";
+import "./index.css";
 
 const AppContainer = styled.div`
   background: #02575E;
@@ -12,15 +12,13 @@ const AppContainer = styled.div`
   > div:first-of-type {
     flex: 1 0 70vh;
   }
-`
+`;
 
 export const Nav = () => {
-  const [state, setState] = useState({ duration: 300 })
-  return (
-    <AppContainer>
-      <AnimatedNavbar duration={state.duration} />
-    </AppContainer>
-  )
-}
-
-
+	const [state, setState] = useState({ duration: 300 });
+	return (
+		<AppContainer className="yolo">
+			<AnimatedNavbar duration={state.duration} />
+		</AppContainer>
+	);
+};

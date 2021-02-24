@@ -1,30 +1,40 @@
 :root {
-    --white: #fff;
-    --grey: #f1f4f8b0;
-    --dark-grey: #6b7c93;
-    --green: #24b47e;
-    --teal: #4F96CE;
-    --blue: #6772e5;
-    --dark-blue: #4F3EF5;
-    --spacer: 28px;
+	--white: #fff;
+	--grey: #f1f4f8b0;
+	--dark-grey: #6b7c93;
+	--green: #24b47e;
+	--teal: #4f96ce;
+	--blue: #6772e5;
+	--dark-blue: #4f3ef5;
+	--spacer: 28px;
 }
 
 a {
-    text-decoration: none;
-    color: var(--blue);
+	text-decoration: none;
+	color: var(--blue);
 }
 
 a:hover,
 a:focus {
-    color: var(--dark-blue);
+	color: var(--dark-blue);
 }
 
 ul {
-    list-style: none;
-    padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 1rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 995px) {
+	.yolo {
+		display: none;
+	}
+}
+
+.yolo > div {
+	max-height: 50px;
 }

@@ -1,40 +1,40 @@
-import React from "react"
-import styled from "styled-components"
-import { Icon, DropdownSection, Heading } from "./Components"
+import React from "react";
+import styled from "styled-components";
+import { Icon, DropdownSection, Heading, HeadingLink } from "./Components";
 
 const ProductsDropdownEl = styled.div`
-  width: 30rem;
-`
+	width: 18.5rem;
+`;
 
 const Logo = styled.div`
-  width: 38px;
-  height: 38px;
-  margin-right: 16px;
-  border-radius: 100%;
-  opacity: 0.6;
-  background-color: ${({ color }) => `var(--${color})`};
-`
+	width: 38px;
+	height: 38px;
+	margin-right: 16px;
+	border-radius: 100%;
+	opacity: 0.6;
+	background-color: ${({ color }) => `var(--${color})`};
+`;
 
 const SubProductsList = styled.ul`
-  li {
-    display: flex;
-    margin-bottom: 1rem;
-  }
-  h3 {
-    margin-right: 1rem;
-    width: 3.2rem;
-    display: block;
-  }
-  a {
-    color: var(--dark-grey);
-  }
-`
+	li {
+		display: flex;
+		margin-bottom: 1rem;
+	}
+	h3 {
+		margin-right: 1rem;
+		width: 3.2rem;
+		display: block;
+	}
+	a {
+		color: var(--dark-grey);
+	}
+`;
 
 const ProductsSection = styled.ul`
-  li {
-    display: flex;
-  }
-`
+	li {
+		display: flex;
+	}
+`;
 
 const WorksWithStripe = styled.div`
  border-top: 2px solid #fff;
@@ -47,12 +47,12 @@ const WorksWithStripe = styled.div`
 h3 {
   margin-bottom: 0;
 }
-`
+`;
 
 const ProductsDropdown = () => {
-  return (
-    <ProductsDropdownEl>
-      <DropdownSection data-first-dropdown-section>
+	return (
+		<ProductsDropdownEl>
+			{/*<DropdownSection data-first-dropdown-section>
         <ProductsSection>
           <li>
             <div>
@@ -107,9 +107,24 @@ const ProductsDropdown = () => {
             </a>
           </Heading>
         </WorksWithStripe>
-      </DropdownSection>
-    </ProductsDropdownEl>
-  )
-}
+      </DropdownSection>*/}
 
-export default ProductsDropdown
+			<DropdownSection data-first-dropdown-section>
+				<ul>
+					<HeadingLink>
+						<a href="/">
+							<Icon /> Link 1
+						</a>
+					</HeadingLink>
+					<HeadingLink>
+						<a href="/">
+							<Icon /> Link 2
+						</a>
+					</HeadingLink>
+				</ul>
+			</DropdownSection>
+		</ProductsDropdownEl>
+	);
+};
+
+export default ProductsDropdown;

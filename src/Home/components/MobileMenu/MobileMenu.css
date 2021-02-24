@@ -1,0 +1,62 @@
+.mobileMenuOuter {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+
+.mobileMenu {
+	position: fixed;
+	height: 95vh;
+	width: 90vw;
+	background-color: white;
+	top: 2.5vh;
+	left: 5vw;
+	border: solid 1px black;
+	border-radius: 20px;
+	padding: 20px;
+	overflow: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-Evenly;
+	align-items: center;
+}
+
+.closeIcon {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.indiMenu {
+	padding: 10px;
+	margin: 5px;
+	width: 40%;
+}
+
+.listIcon {
+	font-size: 8px;
+	margin-right: 5px;
+}
+
+.indiLink {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #0a2540;
+}
+
+.menuHeading {
+	text-align: center;
+	width: 100%;
+}
+
+.mobileMenuHeading {
+	color: #505050;
+}
