@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";
-import img from "../../assets/news.jpeg";
+import { news } from "../../assets";
 import { CgEditFlipH } from "react-icons/cg";
 import ReactCardFlip from "react-card-flip";
 
@@ -16,7 +16,7 @@ export default function ({ News }) {
 					onClick={() => setIsFlipped(!isFlipped)}
 				>
 					<div className="img-holder">
-						<Card.Img variant="top" src={img} />
+						<Card.Img variant="top" src={news} />
 					</div>
 					<Card.Body>
 						<Card.Title style={styles.title} className="font-acme">
@@ -35,7 +35,9 @@ export default function ({ News }) {
 				>
 					<Card.Body>
 						<small className="text-muted font-acme">{News["date"]}</small>
-						<Card.Text className="font-ubuntu" style={styles.text}>{News["text"].slice(0, 190) + (News["text"].length > 190 ? "..." : "")}</Card.Text>
+						<Card.Text className="font-ubuntu" style={styles.text}>
+							{News["text"].slice(0, 190) + (News["text"].length > 190 ? "..." : "")}
+						</Card.Text>
 						<Card.Text style={styles.btn}>
 							<a href="#">
 								<button className="btn btn-primary font-acme">Read More</button>

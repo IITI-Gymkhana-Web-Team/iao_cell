@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../../assets/dean.jpg";
+import { dean } from "../../../assets";
 
 export default function Message() {
 	return (
@@ -11,7 +11,7 @@ export default function Message() {
 							<h1 className="p-2 pt-5 mainTitle" style={{ margin: "auto" }}>
 								Message From The Dean
 							</h1>
-							<img src={image} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
+							<img src={dean} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
 							<div className="card-body" style={{ textAlign: "center" }}>
 								<p className="mainDesc">
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard

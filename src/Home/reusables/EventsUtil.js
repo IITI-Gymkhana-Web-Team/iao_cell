@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import img from "../../assets/events.jpg";
+import { eventsImg } from "../../assets";
 import { BiCalendar, BiLink } from "react-icons/bi";
 import { BsFillPersonFill } from "react-icons/bs";
 import { AiOutlineClockCircle } from "react-icons/ai";
@@ -11,10 +11,12 @@ export default function ({ events }) {
 			<div>
 				<Card className="eventsPage" style={{ width: "80%", transition: "all 0.2s", border: "1px solid #0484CF" }}>
 					<div className="img-holder">
-						<Card.Img variant="top" src={img} />
+						<Card.Img variant="top" src={eventsImg} />
 					</div>
 					<Card.Body className="font-ubuntu">
-						<Card.Title style={styles.title} className="font-acme">{event["title"]}</Card.Title>
+						<Card.Title style={styles.title} className="font-acme">
+							{event["title"]}
+						</Card.Title>
 						<Card.Text style={styles.text}>
 							<BiCalendar />
 							&nbsp; {event.date}

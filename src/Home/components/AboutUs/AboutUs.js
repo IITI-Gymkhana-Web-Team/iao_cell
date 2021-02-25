@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../../assets/img1.jpeg";
+import { img1 } from "../../../assets";
 import "./AboutUs.css";
 
 export const AboutUs = () => {
@@ -25,7 +25,7 @@ export const AboutUs = () => {
 						</div>
 						<div className="card col-sm-6 border-0 bg-light aboutPic">
 							{/* <p>image</p> */}
-							<img src={image} className="img-thumbnail" alt="img-responsive" />
+							<img src={img1} className="img-thumbnail" alt="img-responsive" />
 						</div>
 					</div>
 				</div>

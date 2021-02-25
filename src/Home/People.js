@@ -1,13 +1,7 @@
 import React, { useState } from "react";
-import img from "../assets/person.png";
 import { PeopleCard } from "./components/PeopleCard/PeopleCard";
 import { Form } from "react-bootstrap";
-import avinash from "../assets/Avinash_Sonawane.jpg";
-import raghu from "../assets/Raghunath.png";
-import sanjay from "../assets/Sanjay.jpg";
-import satya from "../assets/T_Sataynarayana.jpg";
-import thomas from "../assets/Rajan_thomas.jpg";
-import vinu from "../assets/vinu.jpg";
+import { avinash, raghu, sanjay, satya, thomas, vinu, person } from "../assets";
 
 export const People = () => {
 	const [index, setIndex] = useState(1);
@@ -57,30 +51,30 @@ export const People = () => {
 		{ name: "Mr. Vinay Kumar", designation: "Manager", email: " vinaykumar@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "#", img: vinu },
 	]);
 	const [committee2] = useState([
-		{ name: "Ghi Jkl", designation: "testing", email: "ghijkl@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: img },
-		{ name: "Ghi Jkl", designation: "testing", email: "ghijkl@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "", lin: "#", img: img },
-		{ name: "Ghi Jkl", designation: "testing", email: "ghijkl@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "", img: img },
+		{ name: "Ghi Jkl", designation: "testing", email: "ghijkl@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: person },
+		{ name: "Ghi Jkl", designation: "testing", email: "ghijkl@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "", lin: "#", img: person },
+		{ name: "Ghi Jkl", designation: "testing", email: "ghijkl@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "", img: person },
 	]);
 	const [committee3] = useState([
-		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: img },
-		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "", lin: "#", img: img },
-		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "", img: img },
-		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: img },
-		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "", lin: "#", img: img },
-		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "#", img: img },
+		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: person },
+		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "", lin: "#", img: person },
+		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "", img: person },
+		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: person },
+		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "", lin: "#", img: person },
+		{ name: "Mno Pqr", designation: "testing", email: "mnopqr@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "#", img: person },
 	]);
 	const [committee4] = useState([
-		{ name: "Stu Vwx", designation: "testing", email: "stuvwx@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: img },
-		{ name: "Stu Vwx", designation: "testing", email: "stuvwx@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "", lin: "#", img: img },
-		{ name: "Stu Vwx", designation: "testing", email: "stuvwx@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "", img: img },
-		{ name: "Stu Vwx", designation: "testing", email: "stuvwx@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: img },
+		{ name: "Stu Vwx", designation: "testing", email: "stuvwx@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: person },
+		{ name: "Stu Vwx", designation: "testing", email: "stuvwx@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "", lin: "#", img: person },
+		{ name: "Stu Vwx", designation: "testing", email: "stuvwx@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "", img: person },
+		{ name: "Stu Vwx", designation: "testing", email: "stuvwx@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: person },
 	]);
 	const [committee5] = useState([
-		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: img },
-		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "", lin: "#", img: img },
-		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "", img: img },
-		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: img },
-		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "", lin: "#", img: img },
+		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: person },
+		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "", lin: "#", img: person },
+		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "#", lin: "", img: person },
+		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "", ig: "#", lin: "#", img: person },
+		{ name: "Yza Bcd", designation: "testing", email: "yzabcd@iiti.ac.in", phno: "+91 1234567890", fb: "#", ig: "", lin: "#", img: person },
 	]);
 
 	return (
@@ -102,23 +96,23 @@ export const People = () => {
 			<div className="peopleCards">
 				{index == 1 &&
 					committee1.map((person) => {
-						return <PeopleCard person={person} img={img} key={person.email} />;
+						return <PeopleCard person={person} key={person.email} />;
 					})}
 				{index == 2 &&
 					committee2.map((person) => {
-						return <PeopleCard person={person} img={img} key={person.email} />;
+						return <PeopleCard person={person} key={person.email} />;
 					})}
 				{index == 3 &&
 					committee3.map((person) => {
-						return <PeopleCard person={person} img={img} key={person.email} />;
+						return <PeopleCard person={person} key={person.email} />;
 					})}
 				{index == 4 &&
 					committee4.map((person) => {
-						return <PeopleCard person={person} img={img} key={person.email} />;
+						return <PeopleCard person={person} key={person.email} />;
 					})}
 				{index == 5 &&
 					committee5.map((person) => {
-						return <PeopleCard person={person} img={img} key={person.email} />;
+						return <PeopleCard person={person} key={person.email} />;
 					})}
 			</div>
 		</div>

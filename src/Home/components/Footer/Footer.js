@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../assets/iiti_2.png";
+import { iiti_2 } from "../../../assets";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 
@@ -12,7 +12,7 @@ export const Footer = () => {
 						<Col xs={12} lg={3}>
 							<div className="logo">
 								<a href="http://iiti.ac.in" target="_blank">
-									<img src={img} />
+									<img src={iiti_2} />
 								</a>
 							</div>
 						</Col>

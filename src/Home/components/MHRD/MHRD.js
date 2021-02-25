@@ -1,14 +1,11 @@
 import React from "react";
 import "./MHRD.css";
 import { Card, CardDeck } from "react-bootstrap";
-import asem from "../../../assets/asemDuo.png";
-import gian from "../../../assets/gian.jpg";
-import sparc from "../../../assets/sparc.png";
-import vajra from "../../../assets/vajra.png";
+import { asem, vajra, sparc, gian } from "../../../assets";
 
 export const MHRD = () => {
 	return (
-		<div className="container bg-light mt-5 mb-5">
+		<div className="container bg-light mt-5 mb-5 pb-5">
 			<div class="container-fluid">
 				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">MHRD Initiatives</h1>
 			</div>
