@@ -31,7 +31,7 @@ p {
 
 @media only screen and (max-width: 995px) {
 	.yolo {
-		display: none;
+		display: none !important;
 	}
 }
 
