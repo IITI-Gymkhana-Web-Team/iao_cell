@@ -8,59 +8,52 @@ export const MobileMenu = ({ show, setShow }) => {
 	const [links] = useState([
 		{
 			name: "About",
-			innerLinks: [
-				{ name: "Home", link: "/" },
-				{ name: "Open Source", link: "/" },
-			],
+			innerLinks: [{ name: "About IITI", link: "/" }],
+		},
+		{
+			name: "Research",
+			innerLinks: [{ name: "R&D @IITI", link: "http://rnd.iiti.ac.in/" }],
 		},
 		{
 			name: "People",
 			innerLinks: [
-				{ name: "People", link: "/people" },
-				{ name: "Link2", link: "/" },
+				{ name: "Office of International Affairs", link: "/people/oia" },
+				{ name: "Outreach Committee", link: "/people/oc" },
+				{ name: "SIR Cell", link: "/people/sc" },
 			],
 		},
 		{
-			name: "Education",
+			name: "Prospective Students",
 			innerLinks: [
-				{ name: "Link1", link: "/" },
-				{ name: "Link2", link: "/" },
+				{ name: "Visa Process", link: "/" },
+				{ name: "Places To Visit", link: "/" },
+				{ name: "Academic", link: "/" },
+				{ name: "Programs", link: "/" },
+				{ name: "Eligibility", link: "/" },
 			],
 		},
 		{
-			name: "Research",
+			name: "Opportunities",
 			innerLinks: [
-				{ name: "Link1", link: "/" },
-				{ name: "Link2", link: "/" },
-			],
-		},
-		{
-			name: "Admission",
-			innerLinks: [
-				{ name: "Link1", link: "/" },
-				{ name: "Link2", link: "/" },
-			],
-		},
-		{
-			name: "Facilities",
-			innerLinks: [
-				{ name: "Link1", link: "/" },
-				{ name: "Link2", link: "/" },
+				{ name: "Internships", link: "/" },
+				{ name: "PG/PHD", link: "/" },
+				{ name: "Post Doc", link: "/" },
 			],
 		},
 		{
 			name: "Outreach",
 			innerLinks: [
-				{ name: "Link1", link: "/" },
-				{ name: "Link2", link: "/" },
+				{ name: "News", link: "/" },
+				{ name: "Events", link: "/" },
 			],
 		},
 		{
+			name: "Collaborations",
+			innerLinks: [{ name: "Collaborations", link: "/" }],
+		},
+		{
 			name: "Contact",
-			innerLinks: [
-				{ name: "Link1", link: "/" },
-				{ name: "Link2", link: "/" },
-			],
+			innerLinks: [{ name: "Office of IR", link: "/" }],
 		},
 	]);
 
