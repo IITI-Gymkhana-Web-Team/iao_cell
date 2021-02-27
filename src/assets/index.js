@@ -18,9 +18,31 @@ import thomas from "./Rajan_thomas.jpg";
 import vinu from "./vinu.jpg";
 import eventsImg from "./events.jpg";
 import news from "./news.jpeg";
-import person from "../assets/person.png";
+import person from "./person.png";
+import mc from "./mc.jpg";
+import abhijeet from "./abhijeet.jpg";
+import dipak from "./dipak_roy.jpg";
+import priyansh from "./priyansh.jpg";
+import gourinath from "./gouri.jpg";
+import abhinoy from "./abhinoy.jpg";
+import manna from "./manna.jpg";
+import spatel from "./spatel.jpg";
+import bashada from "./bashada.jpg";
+import rajeshkumar from "./rajeshkumar.JPG";
+import kcpradhan from "./kcpradhan.jpg";
 
 export {
+	kcpradhan,
+	rajeshkumar,
+	bashada,
+	spatel,
+	manna,
+	abhinoy,
+	gourinath,
+	priyansh,
+	dipak,
+	abhijeet,
+	mc,
 	person,
 	news,
 	eventsImg,
