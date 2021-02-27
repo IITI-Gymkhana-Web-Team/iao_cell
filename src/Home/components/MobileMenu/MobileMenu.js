@@ -27,7 +27,7 @@ export const MobileMenu = ({ show, setShow }) => {
 			innerLinks: [
 				{ name: "Visa Process", link: "/" },
 				{ name: "Places To Visit", link: "/" },
-				{ name: "Academic", link: "/" },
+				{ name: "Academic", link: "https://academic.iiti.ac.in/" },
 				{ name: "Programs", link: "/" },
 				{ name: "Eligibility", link: "/" },
 			],
@@ -70,9 +70,16 @@ export const MobileMenu = ({ show, setShow }) => {
 								{link1.innerLinks.map((link2) => {
 									return (
 										<li>
-											<Link to={link2.link} onClick={() => setShow(false)} className="font-ubuntu indiLink">
-												<BsFillSquareFill className="listIcon" /> {link2.name}
-											</Link>
+											{link2.link[0] == "h" && (
+												<a target="_blank" href={link2.link} onClick={() => setShow(false)} className="font-ubuntu indiLink">
+													<BsFillSquareFill className="listIcon" /> {link2.name}
+												</a>
+											)}
+											{link2.link[0] != "h" && (
+												<Link to={link2.link} onClick={() => setShow(false)} className="font-ubuntu indiLink">
+													<BsFillSquareFill className="listIcon" /> {link2.name}
+												</Link>
+											)}
 										</li>
 									);
 								})}
