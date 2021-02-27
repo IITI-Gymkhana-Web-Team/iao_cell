@@ -2,19 +2,14 @@ import React from "react";
 import { Heading, HeadingLink, LinkList, DropdownSection, Icon } from "./Components";
 import { Link } from "react-router-dom";
 
-const OutreachDropdown = () => {
+const CollaborationsDropdown = () => {
 	return (
-		<div style={{ width: "11rem" }}>
+		<div style={{ width: "15.5rem" }}>
 			<DropdownSection data-first-dropdown-section>
 				<ul>
-					<HeadingLink>
-						<Link href="/">
-							<Icon /> News
-						</Link>
-					</HeadingLink>
 					<HeadingLink noMarginBottom>
-						<Link href="/">
-							<Icon /> Events
+						<Link to="/">
+							<Icon /> Collaborations
 						</Link>
 					</HeadingLink>
 				</ul>
@@ -23,4 +18,4 @@ const OutreachDropdown = () => {
 	);
 };
 
-export default OutreachDropdown;
+export default CollaborationsDropdown;

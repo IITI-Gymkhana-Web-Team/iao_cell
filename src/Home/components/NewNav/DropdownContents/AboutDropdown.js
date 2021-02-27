@@ -4,7 +4,7 @@ import { Icon, DropdownSection, Heading, HeadingLink, LinkList } from "./Compone
 import { Link } from "react-router-dom";
 
 const AboutDropdownEl = styled.div`
-	width: 20rem;
+	width: 12rem;
 `;
 
 const Flex = styled.div`
@@ -55,20 +55,10 @@ const AboutDropdown = () => {
 			</DropdownSection>*/}
 			<DropdownSection>
 				<ul>
-					<HeadingLink>
-						<Link to="/">
-							<Icon /> Home
-						</Link>
-					</HeadingLink>
-					<HeadingLink>
-						<a href="/">
-							<Icon /> API Status
-						</a>
-					</HeadingLink>
 					<HeadingLink noMarginBottom>
-						<a href="/">
-							<Icon /> Open Source
-						</a>
+						<Link to="/">
+							<Icon /> About IITI
+						</Link>
 					</HeadingLink>
 				</ul>
 			</DropdownSection>
