@@ -1,7 +1,7 @@
-.card{
+.places .card{
   transition: all 0.6s;
 }
 
-.card:hover{
+.places .card:hover{
   filter: drop-shadow(0 0 0.45rem #02575E);
 }
