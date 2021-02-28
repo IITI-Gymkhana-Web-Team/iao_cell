@@ -11,6 +11,7 @@ import { Places } from "./components/Places/Places";
 import { Visa } from "./components/Visa/Visa";
 import { Admission } from "./components/Admission/Admission";
 import { Programs } from "./components/Programs/Programs";
+import { NewsPage } from "./components/NewsPage/Newspage";
 
 export const Home = () => {
 	return (
@@ -28,6 +29,8 @@ export const Home = () => {
 					<Route path="/ProsStud/places" exact component={Places} />
 					<Route path="/ProsStud/admission" exact component={Admission} />
 					<Route path="/ProsStud/programs" exact component={Programs} />
+					<Route path="/outreach/news" exact component={NewsPage} />
+
 
 				</div>
 				<Footer />

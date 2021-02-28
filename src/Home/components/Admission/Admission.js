@@ -4,7 +4,7 @@ import './Admission.css'
 import { RiExternalLinkFill } from 'react-icons/ri'
 export const Admission = () => {
     return (
-        <article className="container pt-5">
+        <article className="container bg-light pt-3 mt-3">
             <section>
                 <h3>Admission Category</h3>
                 <p>Anyone who is not a national of India will be considered as an international student for the purposes of admission and fees. International students can seek admission to various Postgraduate and Research Programmes (Ph.D., M.Tech., M.S. (Research) and M.Sc.) under the following categories:</p>
