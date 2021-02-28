@@ -6,6 +6,8 @@ import { Title } from "./components/Title/Title";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
 import { Nav } from "./components/NewNav/index";
+import { NewsPage } from "./components/NewsPage/NewsPage";
+import { Visa } from "./components/Visa/Visa";
 
 export const Home = () => {
 	return (
@@ -15,10 +17,7 @@ export const Home = () => {
 				<div className="mainNav">
 					<Nav />
 				</div>
-				<div className="container-fluid">
-					<Route path="/" exact component={HomePage} />
-					<Route path="/people" exact component={People} />
-				</div>
+				<Visa />
 				<Footer />
 			</div>
 		</Router>
