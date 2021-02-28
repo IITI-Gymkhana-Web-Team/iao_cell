@@ -23,7 +23,7 @@ const PsDropdown = () => {
 						</a>
 					</HeadingLink>
 					<HeadingLink>
-						<Link to="/">
+						<Link to="/ProsStud/programs">
 							<Icon /> Programs
 						</Link>
 					</HeadingLink>

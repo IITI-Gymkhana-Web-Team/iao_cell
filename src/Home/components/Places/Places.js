@@ -7,7 +7,7 @@ import './Places.css';
 export const Places = () => {
     return (
         <>
-            <Container className="pt-3 mt-3 mb-3 bg-light">
+            <Container className="places pt-3 mt-3 mb-3 bg-light">
                 <Row>
                     {data.map((place, index) => {
                         if (index % 2) {

@@ -11,6 +11,7 @@ import { Places } from "./components/Places/Places";
 import { Visa } from "./components/Visa/Visa";
 import { Admission } from "./components/Admission/Admission";
 import OfficeIR from "./pages/Contactpage/OfficeIR";
+import { Programs } from "./components/Programs/Programs";
 
 export const Home = () => {
 	return (
@@ -23,11 +24,12 @@ export const Home = () => {
 				<div className="container-fluid">
 					<Route path="/" exact component={HomePage} />
 					<Route path="/people/:ct" exact component={People} />
-					<Route path="/Aboutiiti" exact component={Aboutiiti}/>
+					<Route path="/Aboutiiti" exact component={Aboutiiti} />
 					<Route path="/ProsStud/visa" exact component={Visa} />
 					<Route path="/ProsStud/places" exact component={Places} />
 					<Route path="/ProsStud/admission" exact component={Admission} />
 					<Route path="/OfficeIR" exact component={OfficeIR}/>
+		           <Route path="/ProsStud/programs" exact component={Programs} />
 				</div>
 				<Footer />
 			</div>
