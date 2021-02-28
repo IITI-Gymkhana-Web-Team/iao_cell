@@ -28,8 +28,8 @@ const PsDropdown = () => {
 						</Link>
 					</HeadingLink>
 					<HeadingLink noMarginBottom>
-						<Link to="/">
-							<Icon /> Eligibility
+						<Link to="/ProsStud/admission">
+							<Icon /> Admission
 						</Link>
 					</HeadingLink>
 				</ul>
