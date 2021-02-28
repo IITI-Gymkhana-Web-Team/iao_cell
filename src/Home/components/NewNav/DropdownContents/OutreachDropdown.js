@@ -8,7 +8,7 @@ const OutreachDropdown = () => {
 			<DropdownSection data-first-dropdown-section>
 				<ul>
 					<HeadingLink>
-						<Link href="/">
+						<Link to="/outreach/news">
 							<Icon /> News
 						</Link>
 					</HeadingLink>

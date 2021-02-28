@@ -44,7 +44,7 @@ export const Maps = () => {
 		else return "black";
 	};
 
-	const stylingFunction = (context: any) => {
+	const stylingFunction = (context) => {
 		return {
 			fill: chooseColor(context.country),
 			fillOpacity: 1,
@@ -61,7 +61,7 @@ export const Maps = () => {
 
 	return (
 		<div className="Maps container bg-light mt-5 mb-5">
-			<div class="container-fluid">
+			<div className="container-fluid">
 				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">Collaborations</h1>
 			</div>
 			<WorldMap title="" size="xl" data={data} styleFunction={stylingFunction} onClickFunction={clickAction} />

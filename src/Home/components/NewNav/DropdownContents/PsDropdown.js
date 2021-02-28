@@ -8,12 +8,12 @@ const PsDropdown = () => {
 			<DropdownSection data-first-dropdown-section>
 				<ul>
 					<HeadingLink>
-						<Link to="/">
+						<Link to="/ProsStud/visa">
 							<Icon /> Visa Process
 						</Link>
 					</HeadingLink>
 					<HeadingLink>
-						<Link to="/">
+						<Link to="/ProsStud/places">
 							<Icon /> Places To Visit
 						</Link>
 					</HeadingLink>
@@ -28,8 +28,8 @@ const PsDropdown = () => {
 						</Link>
 					</HeadingLink>
 					<HeadingLink noMarginBottom>
-						<Link to="/">
-							<Icon /> Eligibility
+						<Link to="/ProsStud/admission">
+							<Icon /> Admission
 						</Link>
 					</HeadingLink>
 				</ul>

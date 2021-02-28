@@ -63,11 +63,11 @@ export const Events = () => {
 		},
 	]);
 	return (
-		<div class="news container bg-light mt-5 mb-5" style={{ borderRadius: "10px" }}>
-			<div class="container-fluid">
+		<div className="news container bg-light mt-5 mb-5" style={{ borderRadius: "10px" }}>
+			<div className="container-fluid">
 				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">Events</h1>
 			</div>
-			<div class="container-fluid">
+			<div className="container-fluid">
 				<OwlCarousel
 					className="owl-theme"
 					loop

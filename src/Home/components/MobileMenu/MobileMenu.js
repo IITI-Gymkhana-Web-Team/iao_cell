@@ -62,14 +62,14 @@ export const MobileMenu = ({ show, setShow }) => {
 			<div className="mobileMenu">
 				<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
 				<h4 className="font-acme menuHeading">International Relations, IITI</h4>
-				{links.map((link1) => {
+				{links.map((link1, index) => {
 					return (
-						<div className="indiMenu">
+						<div key={`${index}-di`} className="indiMenu">
 							<h5 className="mobileMenuHeading font-acme">{link1.name}</h5>
 							<ul>
-								{link1.innerLinks.map((link2) => {
+								{link1.innerLinks.map((link2, index) => {
 									return (
-										<li>
+										<li key={`${index}-mobi`}>
 											{link2.link[0] == "h" && (
 												<a target="_blank" href={link2.link} onClick={() => setShow(false)} className="font-ubuntu indiLink">
 													<BsFillSquareFill className="listIcon" /> {link2.name}

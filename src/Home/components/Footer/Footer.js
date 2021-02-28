@@ -53,16 +53,16 @@ export const Footer = () => {
 							<h4 className="font-acme">SOCIAL MEDIA</h4>
 							<div>
 								<a href="#" target="_blank">
-									<i class="fab fa-instagram"></i>
+									<i className="fab fa-instagram"></i>
 								</a>
 								<a href="#/" target="_blank">
-									<i class="fab fa-facebook-f"></i>
+									<i className="fab fa-facebook-f"></i>
 								</a>
 								<a href="#" target="_blank">
-									<i class="fab fa-linkedin-in"></i>
+									<i className="fab fa-linkedin-in"></i>
 								</a>
 								<a href="#" target="_blank">
-									<i class="far fa-envelope"></i>
+									<i className="far fa-envelope"></i>
 								</a>
 							</div>
 						</Col>
