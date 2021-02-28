@@ -15,7 +15,11 @@
 	font-family: "Lora", serif;
 	font-weight: 900;
 }
-
+.bottom {
+	display:flex;
+	overflow: hidden;
+	padding-left: 120px;
+}
 .footer .phone,
 .address,
 .social {

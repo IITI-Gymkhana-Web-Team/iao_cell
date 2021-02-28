@@ -56,7 +56,7 @@ const AboutDropdown = () => {
 			<DropdownSection>
 				<ul>
 					<HeadingLink noMarginBottom>
-						<Link to="/">
+						<Link to="/Aboutiiti">
 							<Icon /> About IITI
 						</Link>
 					</HeadingLink>
