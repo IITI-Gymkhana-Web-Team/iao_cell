@@ -10,7 +10,7 @@ export default function Aboutiiti() {
 				<div className="container-fluid">
 					<div className="card-group ">
 						<div className="imagecard border-0 bg-light">
-							<img style={{ width: "600px", height: "400px" }} src={image14} className="image img-thumbnail" alt="img-responsive" />
+							<img style={{ width: "600px", height: "400px" }} src={image14} className="imageabout img-thumbnail" alt="img-responsive" />
 						</div>
 						<p className="" style={{ textAlign: "center" }}>
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard

@@ -1,4 +1,4 @@
-.image:hover{
+.imageabout:hover{
 background-color: rgb(10, 100, 100);
 box-shadow: 1px 1px 10px 5px rgb(20, 204, 149);
 }
@@ -6,4 +6,7 @@ box-shadow: 1px 1px 10px 5px rgb(20, 204, 149);
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 2rem;
+}
+img{
+   transition: all 2s;
 }
