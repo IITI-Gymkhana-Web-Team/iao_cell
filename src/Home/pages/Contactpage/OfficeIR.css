@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+    .dean h1{
+    display: block;
+    width: 100vw;
+    }
+    .officecard{
+        display: block;
+    }
+    .dean2 p{
+        display: block;
+        width: 100vw;
+    }
+}

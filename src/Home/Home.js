@@ -10,6 +10,7 @@ import Aboutiiti from "./pages/Aboutuspage/Aboutiiti";
 import { Places } from "./components/Places/Places";
 import { Visa } from "./components/Visa/Visa";
 import { Admission } from "./components/Admission/Admission";
+import OfficeIR from "./pages/Contactpage/OfficeIR";
 
 export const Home = () => {
 	return (
@@ -26,7 +27,7 @@ export const Home = () => {
 					<Route path="/ProsStud/visa" exact component={Visa} />
 					<Route path="/ProsStud/places" exact component={Places} />
 					<Route path="/ProsStud/admission" exact component={Admission} />
-
+					<Route path="/OfficeIR" exact component={OfficeIR}/>
 				</div>
 				<Footer />
 			</div>

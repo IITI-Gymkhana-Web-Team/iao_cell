@@ -8,7 +8,7 @@ const ContactDropdown = () => {
 			<DropdownSection data-first-dropdown-section>
 				<ul>
 					<HeadingLink noMarginBottom>
-						<Link to="/">
+						<Link to="/OfficeIR">
 							<Icon /> Office of IR
 						</Link>
 					</HeadingLink>
