@@ -1,15 +1,16 @@
 import React from "react";
 import { Heading, HeadingLink, LinkList, DropdownSection, Icon } from "./Components";
+import { Link } from "react-router-dom";
 
-const ResearchDropdown = () => {
+const CollaborationsDropdown = () => {
 	return (
-		<div style={{ width: "12rem" }}>
+		<div style={{ width: "15.5rem" }}>
 			<DropdownSection data-first-dropdown-section>
 				<ul>
 					<HeadingLink noMarginBottom>
-						<a href="http://rnd.iiti.ac.in/" target="_blank">
-							<Icon /> R&D @IITI
-						</a>
+						<Link to="/">
+							<Icon /> Collaborations
+						</Link>
 					</HeadingLink>
 				</ul>
 			</DropdownSection>
@@ -17,4 +18,4 @@ const ResearchDropdown = () => {
 	);
 };
 
-export default ResearchDropdown;
+export default CollaborationsDropdown;

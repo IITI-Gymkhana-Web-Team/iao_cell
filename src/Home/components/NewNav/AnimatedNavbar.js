@@ -3,24 +3,22 @@ import Navbar from "./Navbar";
 import NavbarItem from "./Navbar/NavbarItem";
 import { Flipper } from "react-flip-toolkit";
 import DropdownContainer from "./DropdownContainer";
-// import DevelopersDropdown from "./DropdownContents/DevelopersDropdown";
-import ProductsDropdown from "./DropdownContents/ProductsDropdown";
+import OpportunitiesDropdown from "./DropdownContents/OpportunitiesDropdown";
 import AboutDropdown from "./DropdownContents/AboutDropdown";
 import PeopleDropdown from "./DropdownContents/PeopleDropdown";
-import EducationDropdown from "./DropdownContents/EducationDropdown";
+import CollaborationsDropdown from "./DropdownContents/CollaborationsDropdown";
 import ResearchDropdown from "./DropdownContents/ResearchDropdown";
-import AdmissionDropdown from "./DropdownContents/AdmissionDropdown";
+import PsDropdown from "./DropdownContents/PsDropdown";
 import OutreachDropdown from "./DropdownContents/OutreachDropdown";
 import ContactDropdown from "./DropdownContents/ContactDropdown";
 
 const navbarConfig = [
-	// { title: "Company", dropdown: DevelopersDropdown },
 	{ title: "About", dropdown: AboutDropdown },
 	{ title: "People", dropdown: PeopleDropdown },
-	{ title: "Education", dropdown: EducationDropdown },
 	{ title: "Research", dropdown: ResearchDropdown },
-	{ title: "Admission", dropdown: AdmissionDropdown },
-	{ title: "Facilities", dropdown: ProductsDropdown },
+	{ title: "Prospective Students", dropdown: PsDropdown },
+	{ title: "Collaborations", dropdown: CollaborationsDropdown },
+	{ title: "Opportunities", dropdown: OpportunitiesDropdown },
 	{ title: "Outreach", dropdown: OutreachDropdown },
 	{ title: "Contact", dropdown: ContactDropdown },
 ];

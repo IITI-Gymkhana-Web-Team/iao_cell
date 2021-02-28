@@ -17,7 +17,12 @@ export const Home = () => {
 				<div className="mainNav">
 					<Nav />
 				</div>
-				<Visa />
+				<div className="container-fluid">
+					<Route path="/" exact component={HomePage} />
+					<Route path="/people/:ct" exact component={People} />
+					<Route path="/ProsStud/visa" exact component={Visa} />
+					<Route path="/outreach/news" exact component={NewsPage} />
+				</div>
 				<Footer />
 			</div>
 		</Router>

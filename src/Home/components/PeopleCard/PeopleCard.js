@@ -16,9 +16,11 @@ export const PeopleCard = ({ person }) => {
 				<p>
 					<a href={"mailto:" + person.email}>{person.email}</a>
 				</p>
-				<p>
-					<a href={"tel:" + person.phno}>{person.phno}</a>
-				</p>
+				{/*
+					<p>
+						<a href={"tel:" + person.phno}>{person.phno}</a>
+					</p>
+				*/}
 				{/*
 					<p>
 						{person.fb != "" && (
