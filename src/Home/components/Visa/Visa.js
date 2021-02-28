@@ -4,11 +4,11 @@ export const Visa = () => {
     return (
         <>
             <div className="container bg-light" style={{ margin: "20px auto" }}  >
-                <div class="single_blog" style={{ padding: "20px" }}>
+                <div className="single_blog" style={{ padding: "20px" }}>
                     <div style={{ width: 'fit-content', margin: 'auto' }} >
                         <img src={img} />
                     </div>
-                    <div class="blog_commentbox">
+                    <div className="blog_commentbox">
 
                     </div>
                     <div style={{ margin: '40px auto' }}>

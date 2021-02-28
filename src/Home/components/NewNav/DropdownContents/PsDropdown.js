@@ -13,7 +13,7 @@ const PsDropdown = () => {
 						</Link>
 					</HeadingLink>
 					<HeadingLink>
-						<Link to="/">
+						<Link to="/ProsStud/places">
 							<Icon /> Places To Visit
 						</Link>
 					</HeadingLink>
