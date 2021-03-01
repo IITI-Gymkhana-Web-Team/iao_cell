@@ -8,7 +8,10 @@ export const MobileMenu = ({ show, setShow }) => {
 	const [links] = useState([
 		{
 			name: "About",
-			innerLinks: [{ name: "About IITI", link: "/" }],
+			innerLinks: [
+				{ name: "Home", link: "/" },
+				{ name: "About IITI", link: "/Aboutiiti" },
+			],
 		},
 		{
 			name: "Research",
@@ -17,19 +20,9 @@ export const MobileMenu = ({ show, setShow }) => {
 		{
 			name: "People",
 			innerLinks: [
-				{ name: "Office of International Affairs", link: "/people/oia" },
-				{ name: "Outreach Committee", link: "/people/oc" },
+				{ name: "OIA", link: "/people/oia" },
+				{ name: "Outreach Comm.", link: "/people/oc" },
 				{ name: "SIR Cell", link: "/people/sc" },
-			],
-		},
-		{
-			name: "Prospective Students",
-			innerLinks: [
-				{ name: "Visa Process", link: "/" },
-				{ name: "Places To Visit", link: "/" },
-				{ name: "Academic", link: "https://academic.iiti.ac.in/" },
-				{ name: "Programs", link: "/" },
-				{ name: "Eligibility", link: "/" },
 			],
 		},
 		{
@@ -41,9 +34,19 @@ export const MobileMenu = ({ show, setShow }) => {
 			],
 		},
 		{
+			name: "Prospective Students",
+			innerLinks: [
+				{ name: "Visa Process", link: "/ProsStud/visa" },
+				{ name: "Places To Visit", link: "/ProsStud/places" },
+				{ name: "Academic", link: "https://academic.iiti.ac.in/" },
+				{ name: "Programs", link: "/ProsStud/programs" },
+				{ name: "Admission", link: "/ProsStud/admission" },
+			],
+		},
+		{
 			name: "Outreach",
 			innerLinks: [
-				{ name: "News", link: "/" },
+				{ name: "News", link: "/outreach/news" },
 				{ name: "Events", link: "/" },
 			],
 		},
@@ -53,7 +56,7 @@ export const MobileMenu = ({ show, setShow }) => {
 		},
 		{
 			name: "Contact",
-			innerLinks: [{ name: "Office of IR", link: "/" }],
+			innerLinks: [{ name: "Office of IR", link: "/OfficeIR" }],
 		},
 	]);
 
@@ -72,12 +75,12 @@ export const MobileMenu = ({ show, setShow }) => {
 										<li key={`${index}-mobi`}>
 											{link2.link[0] == "h" && (
 												<a target="_blank" href={link2.link} onClick={() => setShow(false)} className="font-ubuntu indiLink">
-													<BsFillSquareFill className="listIcon" /> {link2.name}
+													{link2.name}
 												</a>
 											)}
 											{link2.link[0] != "h" && (
 												<Link to={link2.link} onClick={() => setShow(false)} className="font-ubuntu indiLink">
-													<BsFillSquareFill className="listIcon" /> {link2.name}
+													{link2.name}
 												</Link>
 											)}
 										</li>

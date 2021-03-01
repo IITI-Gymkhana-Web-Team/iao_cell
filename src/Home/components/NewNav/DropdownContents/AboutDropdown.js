@@ -55,6 +55,11 @@ const AboutDropdown = () => {
 			</DropdownSection>*/}
 			<DropdownSection>
 				<ul>
+					<HeadingLink>
+						<Link to="/">
+							<Icon /> Home
+						</Link>
+					</HeadingLink>
 					<HeadingLink noMarginBottom>
 						<Link to="/Aboutiiti">
 							<Icon /> About IITI
