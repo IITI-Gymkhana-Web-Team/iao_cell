@@ -1,13 +1,20 @@
-@media screen and (max-width: 1000px) {
-    .dean h1{
-    display: block;
-    width: 100vw;
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 992px) and (min-width:700px){
+    .dean{
+        width:50%;
     }
-    .officecard{
+    .dean2{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 700px){
+    .dean{
         display: block;
     }
-    .dean2 p{
+    .dean2{
         display: block;
-        width: 100vw;
     }
 }
