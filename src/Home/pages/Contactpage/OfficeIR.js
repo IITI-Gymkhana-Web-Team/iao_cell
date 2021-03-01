@@ -13,7 +13,7 @@ export default function OfficeIR() {
         <p>Simrol,Indore</p>
         <p>Madhya Pradesh,India</p>
         <h3 className="mt-5 ">Office Contacts:</h3>
-        <div className="row mt-4 p-4" style={{backgroundColor:"rgb(78, 61, 235)"}}>
+        <div className="row mt-4 p-4 bg-light" style={{backgroundColor:""}}>
             <div className="border-0 card row">
                 <div>
                     <div className="officecard card-body row">
