@@ -6,7 +6,7 @@ export const Visa = () => {
             <div className="container bg-light" style={{ margin: "20px auto" }}  >
                 <div className="single_blog" style={{ padding: "20px" }}>
                     <div style={{ width: 'fit-content', margin: 'auto' }} >
-                        <img src={img} />
+                        <img src={img} style={{ maxWidth: '100%' }} />
                     </div>
                     <div className="blog_commentbox">
 
