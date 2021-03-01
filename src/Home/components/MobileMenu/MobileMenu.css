@@ -23,7 +23,6 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-Evenly;
-	align-items: center;
 }
 
 .closeIcon {
@@ -35,9 +34,10 @@
 }
 
 .indiMenu {
+	text-align: center;
 	padding: 10px;
 	margin: 5px;
-	width: 40%;
+	width: 45%;
 }
 
 .listIcon {
@@ -50,6 +50,7 @@
 	flex-direction: row;
 	align-items: center;
 	color: #0a2540;
+	justify-content: center;
 }
 
 .menuHeading {
