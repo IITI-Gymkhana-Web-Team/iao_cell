@@ -5,7 +5,7 @@ import { person } from "../../../assets";
 export default function OfficeIR() {
     return (
         <>
-        <h1 className="mt-3">Contact Us</h1>
+        <h1 className="mt-3 mainTitle">Contact Us</h1>
         <h3>IITI(IR) Address:</h3>
         <p>Office of Dean(International Relations)</p>
         <p>Indian Institute of Technology Indore</p>
@@ -14,7 +14,7 @@ export default function OfficeIR() {
         <p>Madhya Pradesh,India</p>
         <h3 className="mt-5 ">Office Contacts:</h3>
         <div className="row mt-4 p-4 bg-light" style={{backgroundColor:""}}>
-            <div className="border-0 card row">
+            <div className="border-0 card crd row">
                 <div>
                     <div className="officecard card-body row">
                         <div className="dean col-lg-3">
