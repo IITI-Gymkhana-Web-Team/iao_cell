@@ -51,7 +51,7 @@ export default class NavbarItem extends Component {
       <NavbarItemEl onMouseEnter={this.onMouseEnter} onFocus={this.onMouseEnter}>
         <Link style={{ textDecoration: 'none' }} to={href}><NavbarItemTitle>{title}</NavbarItemTitle></Link>
         <DropdownSlot>{children}</DropdownSlot>
-      </NavbarItemEl >
+      </NavbarItemEl>
     )
   }
 }
