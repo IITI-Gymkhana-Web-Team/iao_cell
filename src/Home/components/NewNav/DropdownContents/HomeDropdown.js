@@ -17,25 +17,9 @@ const Flex = styled.div`
 const HomeDropdown = () => {
 	return (
 		<AboutDropdownEl>
-
-			<DropdownSection>
-				<ul>
-					<HeadingLink>
-						<Link to="/">
-							<Icon /> Home
-						</Link>
-					</HeadingLink>
-					<HeadingLink noMarginBottom>
-						<Link to="/Aboutiiti">
-							<Icon /> About IITI
-						</Link>
-					</HeadingLink>
-				</ul>
-			</DropdownSection>
+		</AboutDropdownEl>);
 
 
-		</AboutDropdownEl>
-	);
 };
 
 export default HomeDropdown;

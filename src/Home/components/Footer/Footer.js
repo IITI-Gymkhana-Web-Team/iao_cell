@@ -38,15 +38,15 @@ export const Footer = () => {
 						<Col xs={12} lg={3}>
 							<div className="links mt-0 font-ubuntu">
 								<h4 className="font-acme">QUICK LINKS</h4>
-								<a href="dumylink.com">Dummy link one</a>
+								<a target="_blank" href="http://rnd.iiti.ac.in/">Research</a>
 								<br></br>
-								<a href="dumylink.com">Dummy link Two</a>
+								<a target="_blank" href="http://iiti.ac.in/page/administration">Administration</a>
 								<br></br>
-								<a href="dumylink.com">Dummy link Three</a>
+								<a target="_blank" href="http://library.iiti.ac.in/">Library</a>
 								<br></br>
-								<a href="dumylink.com">Dummy link Four</a>
+								<a target="_blank" href="http://iiti.ac.in/resources-generation">Resource Generation</a>
 								<br></br>
-								<a href="dumylink.com">Dummy link Five</a>
+								<a target="_blank" href="http://people.iiti.ac.in/~sic/">SIC</a>
 							</div>
 						</Col>
 						<Col className="social mt-0" xs={12} lg={3}>

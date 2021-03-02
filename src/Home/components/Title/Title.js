@@ -14,7 +14,7 @@ export const Title = () => {
 			<Navbar bg="light" variant="light" className="ba">
 				<div className="container-fluid">
 					<Navbar.Brand href="/">
-						<img src={iiti_logo_4} alt="logo" className="titleLogo" />
+						<img src={iiti_logo_4} style={{ width: '100%' }} alt="logo" className="titleLogo" />
 					</Navbar.Brand>
 					<BiMenu className="burger" onClick={() => setShow(true)} />
 				</div>

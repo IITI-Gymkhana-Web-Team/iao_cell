@@ -24,7 +24,6 @@ export const AboutUs = () => {
 							</div>
 						</div>
 						<div className="card col-sm-6 border-0 bg-light aboutPic">
-							{/* <p>image</p> */}
 							<img src={img1} className="img-thumbnail" alt="img-responsive" />
 						</div>
 					</div>

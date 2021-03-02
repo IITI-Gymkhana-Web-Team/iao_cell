@@ -78,10 +78,12 @@ export default class AnimatedNavbar extends Component {
 					{navbarConfig.map((n, index) => {
 						return (
 							<NavbarItem key={n.title} href={n.href} title={n.title} index={index} onMouseEnter={this.onMouseEnter}>
-								{currentIndex === index && index != 0 && (
+								{currentIndex === index && (
 									<DropdownContainer direction={direction} animatingOut={this.state.animatingOut} duration={duration}>
+
 										<CurrentDropdown />
 										{PrevDropdown && <PrevDropdown />}
+
 									</DropdownContainer>
 								)}
 							</NavbarItem>

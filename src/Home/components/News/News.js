@@ -73,9 +73,7 @@ export const News = () => {
 						760: {
 							items: 2,
 						},
-						1000: {
-							items: 3,
-						},
+
 					}}
 				>
 					{news.map((News) => {
