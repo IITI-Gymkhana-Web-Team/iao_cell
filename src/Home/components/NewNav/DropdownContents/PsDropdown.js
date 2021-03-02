@@ -4,36 +4,72 @@ import { Link } from "react-router-dom";
 
 const PsDropdown = () => {
 	return (
-		<div style={{ width: "14.5rem" }}>
+		<div style={{ width: "25rem" }}>
+
 			<DropdownSection data-first-dropdown-section>
-				<ul>
-					<HeadingLink>
-						<Link to="/ProsStud/visa">
-							<Icon /> Visa Process
-						</Link>
+				<h3 className="mt-2 ml-3" style={{ color: '#6772e5' }}>INBOUND</h3>
+				<div className="d-flex">
+
+					<DropdownSection >
+						<HeadingLink>
+							<Icon /> Faculty
 					</HeadingLink>
-					<HeadingLink>
-						<Link to="/ProsStud/places">
-							<Icon /> Places To Visit
-						</Link>
+						<li>
+							<Link to="/ProsStud/visa">
+								Visa Process
+					</Link>
+						</li>
+						<li>
+							<Link to="/ProsStud/places">
+								Places to visit
+					</Link>
+						</li>
+					</DropdownSection>
+					<DropdownSection >
+						<HeadingLink>
+							<Icon /> Student
 					</HeadingLink>
-					<HeadingLink>
-						<a href="https://academic.iiti.ac.in/" target="_blank">
-							<Icon /> Academic
-						</a>
-					</HeadingLink>
-					<HeadingLink>
-						<Link to="/ProsStud/programs">
-							<Icon /> Programs
-						</Link>
-					</HeadingLink>
-					<HeadingLink noMarginBottom>
-						<Link to="/ProsStud/admission">
-							<Icon /> Admission
-						</Link>
-					</HeadingLink>
-				</ul>
+						<li>
+							<Link to="/ProsStud/admission">
+								Admission
+					</Link>
+						</li>
+						<li>
+							<Link to="/ProsStud/programs">
+								Programs
+					</Link>
+						</li>
+						<li>
+							<Link to="/ProsStud/visa">
+								Visa Process
+					</Link>
+						</li>
+						<li>
+							<Link to="/ProsStud/places">
+								Places to visit
+					</Link>
+						</li>
+					</DropdownSection>
+				</div>
 			</DropdownSection>
+
+			<DropdownSection >
+				<h3 className="mt-2 ml-3" style={{ color: '#6772e5' }}>OUTBOUND</h3>
+				<div className="d-flex">
+					<DropdownSection >
+						<HeadingLink><Icon /> Faculty</HeadingLink>
+
+					</DropdownSection>
+					<DropdownSection >
+						<HeadingLink><Icon /> Student</HeadingLink>
+
+					</DropdownSection>
+				</div>
+			</DropdownSection>
+
+
+
+
 		</div>
 	);
 };

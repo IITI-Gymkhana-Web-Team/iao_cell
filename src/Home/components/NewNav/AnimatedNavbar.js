@@ -15,11 +15,11 @@ import ContactDropdown from "./DropdownContents/ContactDropdown";
 const navbarConfig = [
 	{ href: "/", title: "Home", dropdown: AboutDropdown },
 	{ href: "#", title: "People", dropdown: PeopleDropdown },
-	{ href: "#", title: "Research", dropdown: ResearchDropdown },
-	{ href: "#", title: "Prospective Students", dropdown: PsDropdown },
 	{ href: "#", title: "Collaborations", dropdown: CollaborationsDropdown },
+	{ href: "#", title: "Prospective", dropdown: PsDropdown },
 	{ href: "#", title: "Opportunities", dropdown: OpportunitiesDropdown },
 	{ href: "#", title: "Outreach", dropdown: OutreachDropdown },
+	{ href: "#", title: "Research", dropdown: ResearchDropdown },
 	{ href: "#", title: "Contact", dropdown: ContactDropdown },
 ];
 
