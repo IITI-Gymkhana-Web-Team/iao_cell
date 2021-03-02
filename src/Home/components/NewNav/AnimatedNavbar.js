@@ -13,14 +13,14 @@ import OutreachDropdown from "./DropdownContents/OutreachDropdown";
 import ContactDropdown from "./DropdownContents/ContactDropdown";
 
 const navbarConfig = [
-	{ title: "About", dropdown: AboutDropdown },
-	{ title: "People", dropdown: PeopleDropdown },
-	{ title: "Research", dropdown: ResearchDropdown },
-	{ title: "Prospective Students", dropdown: PsDropdown },
-	{ title: "Collaborations", dropdown: CollaborationsDropdown },
-	{ title: "Opportunities", dropdown: OpportunitiesDropdown },
-	{ title: "Outreach", dropdown: OutreachDropdown },
-	{ title: "Contact", dropdown: ContactDropdown },
+	{ href: "/", title: "Home", dropdown: AboutDropdown },
+	{ href: "#", title: "People", dropdown: PeopleDropdown },
+	{ href: "#", title: "Research", dropdown: ResearchDropdown },
+	{ href: "#", title: "Prospective Students", dropdown: PsDropdown },
+	{ href: "#", title: "Collaborations", dropdown: CollaborationsDropdown },
+	{ href: "#", title: "Opportunities", dropdown: OpportunitiesDropdown },
+	{ href: "#", title: "Outreach", dropdown: OutreachDropdown },
+	{ href: "#", title: "Contact", dropdown: ContactDropdown },
 ];
 
 export default class AnimatedNavbar extends Component {
@@ -77,8 +77,8 @@ export default class AnimatedNavbar extends Component {
 				<Navbar onMouseLeave={this.onMouseLeave}>
 					{navbarConfig.map((n, index) => {
 						return (
-							<NavbarItem key={n.title} title={n.title} index={index} onMouseEnter={this.onMouseEnter}>
-								{currentIndex === index && (
+							<NavbarItem key={n.title} href={n.href} title={n.title} index={index} onMouseEnter={this.onMouseEnter}>
+								{currentIndex === index && index != 0 && (
 									<DropdownContainer direction={direction} animatingOut={this.state.animatingOut} duration={duration}>
 										<CurrentDropdown />
 										{PrevDropdown && <PrevDropdown />}

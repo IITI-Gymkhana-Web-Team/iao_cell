@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-
+import { Link } from "react-router-dom";
 const NavbarItemTitle = styled.button`
   background: transparent;
   border: 0;
@@ -46,12 +46,12 @@ export default class NavbarItem extends Component {
   }
 
   render() {
-    const { title, children } = this.props
+    const { href, title, children } = this.props
     return (
       <NavbarItemEl onMouseEnter={this.onMouseEnter} onFocus={this.onMouseEnter}>
-        <NavbarItemTitle>{title}</NavbarItemTitle>
+        <Link style={{ textDecoration: 'none' }} to={href}><NavbarItemTitle>{title}</NavbarItemTitle></Link>
         <DropdownSlot>{children}</DropdownSlot>
-      </NavbarItemEl>
+      </NavbarItemEl >
     )
   }
 }
