@@ -38,3 +38,17 @@ p {
 .yolo > div {
 	max-height: 50px;
 }
+
+.outbound {
+	margin-top: -10px;
+}
+
+.outDropdown {
+	margin-bottom: -30px;
+	margin-top: -20px;
+}
+
+.mobDropdown {
+	margin-top: -30px;
+	margin-bottom: -10px;
+}

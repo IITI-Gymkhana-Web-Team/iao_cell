@@ -5,71 +5,59 @@ import { Link } from "react-router-dom";
 const PsDropdown = () => {
 	return (
 		<div style={{ width: "25rem" }}>
-
-			<DropdownSection data-first-dropdown-section>
-				<h3 className="mt-2 ml-3" style={{ color: '#6772e5' }}>INBOUND</h3>
-				<div className="d-flex">
-
-					<DropdownSection >
+			<DropdownSection data-first-dropdown-section noMarginBottom>
+				<h3 className="mt-1 ml-3" style={{ color: "#6772e5" }}>
+					INBOUND
+				</h3>
+				<div className="d-flex outDropdown">
+					<DropdownSection>
 						<HeadingLink>
 							<Icon /> Faculty
-					</HeadingLink>
+						</HeadingLink>
 						<li>
-							<Link to="/ProsStud/visa">
-								Visa Process
-					</Link>
+							<Link to="/ProsStud/visa">Visa Process</Link>
 						</li>
 						<li>
-							<Link to="/ProsStud/places">
-								Places to visit
-					</Link>
+							<Link to="/ProsStud/places">Places to visit</Link>
 						</li>
 					</DropdownSection>
-					<DropdownSection >
+					<DropdownSection>
 						<HeadingLink>
 							<Icon /> Student
-					</HeadingLink>
+						</HeadingLink>
 						<li>
-							<Link to="/ProsStud/admission">
-								Admission
-					</Link>
+							<Link to="/ProsStud/admission">Admission</Link>
 						</li>
 						<li>
-							<Link to="/ProsStud/programs">
-								Programs
-					</Link>
+							<Link to="/ProsStud/programs">Programs</Link>
 						</li>
 						<li>
-							<Link to="/ProsStud/visa">
-								Visa Process
-					</Link>
+							<Link to="/ProsStud/visa">Visa Process</Link>
 						</li>
 						<li>
-							<Link to="/ProsStud/places">
-								Places to visit
-					</Link>
+							<Link to="/ProsStud/places">Places to visit</Link>
 						</li>
 					</DropdownSection>
 				</div>
 			</DropdownSection>
 
-			<DropdownSection >
-				<h3 className="mt-2 ml-3" style={{ color: '#6772e5' }}>OUTBOUND</h3>
-				<div className="d-flex">
-					<DropdownSection >
-						<HeadingLink><Icon /> Faculty</HeadingLink>
-
+			<DropdownSection noMarginBottom>
+				<h3 className="ml-3 outbound" style={{ color: "#6772e5" }}>
+					OUTBOUND
+				</h3>
+				<div className="d-flex outDropdown">
+					<DropdownSection>
+						<HeadingLink>
+							<Icon /> Faculty
+						</HeadingLink>
 					</DropdownSection>
-					<DropdownSection >
-						<HeadingLink><Icon /> Student</HeadingLink>
-
+					<DropdownSection>
+						<HeadingLink>
+							<Icon /> Student
+						</HeadingLink>
 					</DropdownSection>
 				</div>
 			</DropdownSection>
-
-
-
-
 		</div>
 	);
 };

@@ -1,24 +1,23 @@
 import React from "react";
-import styled from "styled-components";
-import { Icon, DropdownSection, Heading, HeadingLink, LinkList } from "./Components";
-import { Link } from "react-router-dom";
+// import styled from "styled-components";
+// import { Icon, DropdownSection, Heading, HeadingLink, LinkList } from "./Components";
+// import { Link } from "react-router-dom";
 
-const AboutDropdownEl = styled.div`
-	width: 12rem;
-	
-`;
+// const AboutDropdownEl = styled.div`
+// 	width: 0rem;
+// 	display: none;
+// `;
 
-const Flex = styled.div`
-	display: flex;
-	> div:first-of-type {
-		margin-right: 48px;
-	}
-`;
+// const Flex = styled.div`
+// 	display: flex;
+// 	> div:first-of-type {
+// 		margin-right: 48px;
+// 	}
+// `;
 
 const AboutDropdown = () => {
 	return (
-
-		<AboutDropdownEl>
+		<>
 			{/*<DropdownSection data-first-dropdown-section>
 				<div>
 				<Heading>Documentation</Heading>
@@ -69,8 +68,7 @@ const AboutDropdown = () => {
 				</HeadingLink>
 				</ul>
 			</DropdownSection> */}
-		</AboutDropdownEl>
-
+		</>
 	);
 };
 

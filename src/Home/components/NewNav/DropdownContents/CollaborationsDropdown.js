@@ -13,11 +13,21 @@ const CollaborationsDropdown = () => {
 						</Link>
 					</HeadingLink>
 					<HeadingLink>
-						<Link to="/">
-							<Icon /> Mobility Exchange
-						</Link>
+						<Icon /> Mobility Exchange
 					</HeadingLink>
-					<HeadingLink>
+					<div className="d-flex mobDropdown">
+						<DropdownSection>
+							<li>
+								<a href="https://academic.iiti.ac.in/" target="_blank">
+									Student
+								</a>
+							</li>
+							<li>
+								<Link to="/">Faculty</Link>
+							</li>
+						</DropdownSection>
+					</div>
+					{/*<HeadingLink>
 						<a href="https://academic.iiti.ac.in/" target="_blank">
 							<Icon /> Student
 						</a>
@@ -26,7 +36,7 @@ const CollaborationsDropdown = () => {
 						<Link to="/">
 							<Icon /> Faculty
 						</Link>
-					</HeadingLink>
+					</HeadingLink>*/}
 					<HeadingLink noMarginBottom>
 						<Link to="/">
 							<Icon /> Grants

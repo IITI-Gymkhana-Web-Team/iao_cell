@@ -80,10 +80,8 @@ export default class AnimatedNavbar extends Component {
 							<NavbarItem key={n.title} href={n.href} title={n.title} index={index} onMouseEnter={this.onMouseEnter}>
 								{currentIndex === index && (
 									<DropdownContainer direction={direction} animatingOut={this.state.animatingOut} duration={duration}>
-
 										<CurrentDropdown />
 										{PrevDropdown && <PrevDropdown />}
-
 									</DropdownContainer>
 								)}
 							</NavbarItem>
