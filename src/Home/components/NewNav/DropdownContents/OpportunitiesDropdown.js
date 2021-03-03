@@ -56,19 +56,23 @@ const OpportunitiesDropdown = () => {
 			<DropdownSection data-first-dropdown-section>
 				<ul>
 					<HeadingLink>
-						<Link to="/">
-							<Icon /> Internships
-						</Link>
+						<Icon /> Student
 					</HeadingLink>
-					<HeadingLink>
-						<Link to="/">
-							<Icon /> PG/PHD
-						</Link>
-					</HeadingLink>
+					<div className="d-flex mobDropdown">
+						<DropdownSection>
+							<li>
+								<Link to="/">Internships</Link>
+							</li>
+							<li>
+								<Link to="/">PG/PHD</Link>
+							</li>
+							<li>
+								<Link to="/">Post Doc</Link>
+							</li>
+						</DropdownSection>
+					</div>
 					<HeadingLink noMarginBottom>
-						<Link to="/">
-							<Icon /> Post Doc
-						</Link>
+						<Icon /> Faculty
 					</HeadingLink>
 				</ul>
 			</DropdownSection>
