@@ -71,9 +71,8 @@ export const News = () => {
 							items: 1,
 						},
 						760: {
-							items: 2,
+							items: 3,
 						},
-
 					}}
 				>
 					{news.map((News) => {

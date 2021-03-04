@@ -30,8 +30,12 @@ import spatel from "./spatel.jpg";
 import bashada from "./bashada.jpg";
 import rajeshkumar from "./rajeshkumar.JPG";
 import kcpradhan from "./kcpradhan.jpg";
+import neelesh from "./neelesh-jain.jpg";
+import ic from "./ic.png";
 
 export {
+	ic,
+	neelesh,
 	kcpradhan,
 	rajeshkumar,
 	bashada,

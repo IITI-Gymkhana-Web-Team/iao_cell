@@ -14,21 +14,15 @@ import "./Home.css";
 export const HomePage = () => {
 	return (
 		<div>
-			{/*<Title />
-			<div className="mainNav">
-				<NavBar />
-            </div>*/}
 			<div className="container mt-3 abc">
-				{/*<div className="abc">*/}
 				<Carousell />
 			</div>
 			<AboutUs />
+			<Message />
 			<News />
 			<Events />
-			<Message />
 			<Maps />
 			<MHRD />
-			{/* <Links /> */}
 		</div>
 	);
 };

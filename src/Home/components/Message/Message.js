@@ -1,26 +1,45 @@
 import React from "react";
-import { dean } from "../../../assets";
+import { neelesh } from "../../../assets";
+import avinash from "../../../assets/av2.jpg";
+import "./Message.css";
 
 export default function Message() {
 	return (
 		<>
-			<div className="container bg-light mt-5" style={{ borderRadius: "10px" }}>
-				<div className="container-fluid pb-5">
-					<div className="card-group ">
-						<div className="card bg-light col-sm-12 border-0">
-							<h1 className="p-2 pt-5 mainTitle" style={{ margin: "auto" }}>
-								Message From The Dean
-							</h1>
-							<img src={dean} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
-							<div className="card-body" style={{ textAlign: "center" }}>
-								<p className="mainDesc">
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+			<div className="container bg-light mt-3 messageBox" style={{ borderRadius: "10px" }}>
+				<div className="container-fluid p-3">
+					<div className="card bg-light col-sm-12 border-0">
+						<img src={neelesh} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
+						<div className="card-body" style={{ textAlign: "center", fontSize: "17px" }}>
+							<p className="mainDesc font-ubuntu">
+								<i>
+									"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
 									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-									book. Some more lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-									industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-									a type specimen book. It has survived not only
-								</p>
-							</div>
+									book. Some more lorem Ipsum is simply."
+								</i>
+								<br />
+								<br />
+								<h5 className="font-acme">Prof. Neelesh Kumar Jain - Director, IIT Indore</h5>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="container bg-light mt-5 messageBox" style={{ borderRadius: "10px" }}>
+				<div className="container-fluid p-3">
+					<div className="card bg-light col-sm-12 border-0">
+						<img src={avinash} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
+						<div className="card-body" style={{ textAlign: "center", fontSize: "17px" }}>
+							<p className="mainDesc">
+								<i>
+									"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+									book. Some more lorem Ipsum is simply."
+								</i>
+								<br />
+								<br />
+								<h5 className="font-acme">Dr. Avinash Sonawane - Dean, IOA IIT Indore</h5>
+							</p>
 						</div>
 					</div>
 				</div>
