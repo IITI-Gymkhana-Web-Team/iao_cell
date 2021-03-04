@@ -1,16 +1,19 @@
 import React from "react";
 import { img1 } from "../../../assets";
+import { image14 } from "../../../assets";
 import "./AboutUs.css";
 
 export const AboutUs = () => {
 	return (
 		<>
-			<div className="container bg-light mt-5" style={{ borderRadius: "10px" }}>
-				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle">About Us</h1>
-				<div className="container-fluid pb-5">
+			<div className="container mt-5" style={{ borderRadius: "10px" }}>
+
+				<div className="container-fluid pb-5 pt-5">
 					<div className="card-group ">
-						<div className="card bg-light col-sm-6 border-0">
+						<div className="card border-0" style={{backgroundColor:"rgb(120, 177, 211)"}}>
 							<div className="card-body ">
+								<h1 className="mainTitle">About Us</h1>
+								<img src={img1} className="img-thumbnail" alt="img-responsive" />
 								<p className="mainDesc">
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
 									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
@@ -23,8 +26,19 @@ export const AboutUs = () => {
 								</p>
 							</div>
 						</div>
-						<div className="card col-sm-6 border-0 bg-light aboutPic">
-							<img src={img1} className="img-thumbnail" alt="img-responsive" />
+						<div className="card border-0" style={{backgroundColor:"rgb(248, 127, 106)"}}>
+							<div className="card-body ">
+								<h1 className=" mainTitle">About IITI</h1>
+								<img style={{ width: "600px", height: "310px" }} src={image14} className="imageabout img-thumbnail" alt="img-responsive" />
+								<p className="" style={{ textAlign: "center" }}>
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+								    book.
+								</p>
+								<div style={{ textAlign: "center" }} className="mt-2 pb-3"><p style={{ fontSize: "1.6rem" }}>For more details:- <a href="http://iiti.ac.in/" target="_blank"><button className="btn" style={{backgroundColor:"red"}}>Visit</button>
+								</a>
+								</p></div>
+							</div>
 						</div>
 					</div>
 				</div>
