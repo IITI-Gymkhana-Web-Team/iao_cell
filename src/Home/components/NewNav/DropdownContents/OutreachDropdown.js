@@ -13,7 +13,7 @@ const OutreachDropdown = () => {
 						</Link>
 					</HeadingLink>
 					<HeadingLink noMarginBottom>
-						<Link href="/">
+						<Link to="/">
 							<Icon /> Events
 						</Link>
 					</HeadingLink>

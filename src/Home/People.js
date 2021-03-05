@@ -142,7 +142,7 @@ export const People = ({ match }) => {
 				},
 				{
 					name: "Dr. Dipak Kumar Roy",
-					designation: "Chemistry - Member",
+					designation: "CH - Member",
 					email: "dipak.roy@iiti.ac.in",
 					phno: "+91 1234567890",
 					fb: "",
@@ -182,7 +182,7 @@ export const People = ({ match }) => {
 				},
 				{
 					name: "Dr. Santanu Manna",
-					designation: "Mathematics - Member",
+					designation: "MA - Member",
 					email: "santanu@iiti.ac.in",
 					phno: "+91 1234567890",
 					fb: "",
@@ -212,7 +212,7 @@ export const People = ({ match }) => {
 				},
 				{
 					name: "Dr. Rajesh Kumar",
-					designation: "Physics - Member",
+					designation: "PH - Member",
 					email: "rajeshkumar@iiti.ac.in",
 					phno: "+91 1234567890",
 					fb: "",
