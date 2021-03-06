@@ -1,7 +1,9 @@
 .eventsPage {
 	flex-direction: row !important;
 }
-
+.eventsbg{
+	background-color: rgb(117, 235, 243,0.2);
+}
 .eventsPage .card-img-top {
 	height: 100%;
 }

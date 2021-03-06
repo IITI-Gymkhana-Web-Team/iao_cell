@@ -4,7 +4,7 @@ import styled from "styled-components";
 import "./index.css";
 
 const AppContainer = styled.div`
-  background: #02575E;
+  background: #046092;
   display: flex;
   flex-direction: column;
   height: 80px
