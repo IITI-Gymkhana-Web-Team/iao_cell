@@ -1,54 +1,30 @@
-import React, { useState } from "react";
+import React from "react";
 import { Card } from "react-bootstrap";
 import { news } from "../../assets";
-import { CgEditFlipH } from "react-icons/cg";
-import ReactCardFlip from "react-card-flip";
+import { IoArrowRedoOutline } from "react-icons/io5";
 
 export default function ({ News }) {
-	const [isFlipped, setIsFlipped] = useState(false);
-
 	return (
 		<div>
-			<ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-				<Card
-					className="newsCard"
-					style={{ width: "18rem", transition: "all 0.2s", border: "1px solid #0484CF", height: "350px" }}
-					onClick={() => setIsFlipped(!isFlipped)}
-				>
-					<div className="img-holder">
-						<Card.Img variant="top" src={news} />
-					</div>
-					<Card.Body>
-						<Card.Title style={styles.title} className="font-acme">
-							<a href="#">{News["title"]}</a>
-						</Card.Title>
-						<small className="text-muted font-ubuntu">{News["date"]}</small>
-						<Card.Text style={styles.icon}>
-							<CgEditFlipH />
-						</Card.Text>
-					</Card.Body>
-				</Card>
-				<Card
-					className="newsCard"
-					style={{ width: "18rem", transition: "all 0.2s", border: "1px solid #0484CF", height: "350px" }}
-					onClick={() => setIsFlipped(!isFlipped)}
-				>
-					<Card.Body>
-						<small className="text-muted font-acme">{News["date"]}</small>
-						<Card.Text className="font-ubuntu" style={styles.text}>
-							{News["text"].slice(0, 190) + (News["text"].length > 190 ? "..." : "")}
-						</Card.Text>
-						<Card.Text style={styles.btn}>
-							<a href="#">
-								<button className="btn btn-primary font-acme">Read More</button>
-							</a>
-						</Card.Text>
-						<Card.Text style={styles.icon}>
-							<CgEditFlipH />
-						</Card.Text>
-					</Card.Body>
-				</Card>
-			</ReactCardFlip>
+			<Card className="newsCard">
+				<div className="img-holder">
+					<Card.Img variant="top" src={news} />
+				</div>
+				<Card.Body>
+					<Card.Title style={styles.title} className="font-acme">
+						<a href="#">{News["title"]}</a>
+					</Card.Title>
+					<p className="text-muted font-ubuntu">{News["date"]}</p>
+					<Card.Text className="font-ubuntu" style={styles.text}>
+						{News["text"].slice(0, 120) + (News["text"].length > 120 ? "..." : "")}
+					</Card.Text>
+					<Card.Text>
+						<a href="#">
+							<IoArrowRedoOutline style={styles.btn} />
+						</a>
+					</Card.Text>
+				</Card.Body>
+			</Card>
 		</div>
 	);
 }
@@ -61,15 +37,8 @@ const styles = {
 	},
 	text: {
 		marginTop: "10%",
-		textAlign: "justify",
 	},
 	btn: {
-		textAlign: "center",
-	},
-	icon: {
-		textAlign: "center",
-		position: "absolute",
-		bottom: "10px",
-		left: "47%",
+		fontSize: "25px",
 	},
 };

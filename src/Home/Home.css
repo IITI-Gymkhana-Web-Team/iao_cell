@@ -66,3 +66,11 @@ a:hover {
 	font-family: Ubuntu;
 	color: white !important;
 }
+
+.newsEvents {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #eee;
+	justify-content: center;
+}

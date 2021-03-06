@@ -1,9 +1,18 @@
+.news {
+	width: min(500px, 80vw) !important;
+	background-color: #eee;
+}
+
 .news .card {
 	margin: auto;
-	text-align: center;
 	overflow-y: auto;
 	font-family: "Lora", serif;
 	border-radius: 0px;
+	flex-direction: row;
+	width: 100%;
+	border: none;
+	background-color: #eee;
+	margin-bottom: 40px;
 }
 
 .news .card-img,
@@ -12,9 +21,15 @@
 	border-top-right-radius: 0px !important;
 }
 
-.news .card:hover {
-	box-shadow: 0px 0px 10px;
+.news .card-img-top {
+	padding-right: 10px;
+	min-height: 118px;
+	min-width: 220px;
 }
+
+/* .news .card:hover {
+	box-shadow: 0px 0px 10px;
+} */
 
 .news .owl-stage {
 	margin: 2% 0px;
@@ -25,11 +40,7 @@
 	margin-bottom: 0.75rem;
 }
 
-.img-holder {
-	overflow: hidden;
-}
-
-.card:hover .card-img-top {
+.card-img-top:hover {
 	animation-name: zoomin;
 	animation-duration: 0.5s;
 	animation-fill-mode: forwards;
@@ -45,5 +56,42 @@
 	}
 	100% {
 		transform: scale(1.1);
+	}
+}
+
+.news .card-body {
+	min-width: min(100%, 220px);
+	padding-top: 0;
+}
+
+.news .btn {
+	margin: 0;
+}
+
+.news .img-holder {
+	height: 118px;
+	min-width: 220px;
+	overflow: hidden;
+}
+
+.moreStuff {
+	background-color: transparent;
+	color: #4f3ef5;
+	border: 1px solid #4f3ef5;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.moreStuff:hover {
+	background-color: #4f3ef5;
+	color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+	.news .card {
+		flex-direction: column;
+	}
+	.news .card-body {
+		padding-top: 20px;
 	}
 }

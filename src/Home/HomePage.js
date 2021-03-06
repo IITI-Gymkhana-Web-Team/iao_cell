@@ -19,8 +19,10 @@ export const HomePage = () => {
 			</div>
 			<AboutUs />
 			<Message />
-			<News />
-			<Events />
+			<div className="newsEvents container mt-5 p-5">
+				<News />
+				<Events />
+			</div>
 			<Maps />
 			<MHRD />
 		</div>
