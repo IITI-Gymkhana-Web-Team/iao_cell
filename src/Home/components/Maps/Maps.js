@@ -1,26 +1,29 @@
 import React from "react";
 import { WorldMap } from "react-svg-worldmap";
 import "./Maps.css";
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import { AiOutlineZoomIn, AiOutlineZoomOut } from "react-icons/ai";
+import { MdZoomOutMap } from "react-icons/md";
 
 export const Maps = () => {
 	const data = [
-		{ country: "us", value: "123 students" }, // usa
-		{ country: "ca", value: "123 students" }, // canada
-		{ country: "mx", value: "123 students" }, // mexico
-		{ country: "gb", value: "123 students" }, // united kingdom (england / great britain)
-		{ country: "ru", value: "123 students" }, // russia
-		{ country: "fi", value: "123 students" }, // finland
-		{ country: "be", value: "123 students" }, // Belgium
-		{ country: "tr", value: "123 students" }, // turkey
-		{ country: "no", value: "123 students" }, // norway
-		{ country: "dk", value: "123 students" }, // denmark
-		{ country: "jp", value: "123 students" }, // japan
-		{ country: "au", value: "123 students" }, // australia
-		{ country: "kr", value: "123 students" }, // korea (south)
-		{ country: "cn", value: "123 students" }, // china
-		{ country: "tw", value: "123 students" }, // taiwan
-		{ country: "my", value: "123 students" }, // singapore (malaysia)
-		{ country: "in", value: "123 students" }, // india
+		{ country: "us", value: " " }, // usa
+		{ country: "ca", value: " " }, // canada
+		{ country: "mx", value: " " }, // mexico
+		{ country: "gb", value: " " }, // united kingdom (england / great britain)
+		{ country: "ru", value: " " }, // russia
+		{ country: "fi", value: " " }, // finland
+		{ country: "be", value: " " }, // Belgium
+		{ country: "tr", value: " " }, // turkey
+		{ country: "no", value: " " }, // norway
+		{ country: "dk", value: " " }, // denmark
+		{ country: "jp", value: " " }, // japan
+		{ country: "au", value: " " }, // australia
+		{ country: "kr", value: " " }, // korea (south)
+		{ country: "cn", value: " " }, // china
+		{ country: "tw", value: " " }, // taiwan
+		{ country: "my", value: " " }, // singapore (malaysia)
+		{ country: "in", value: " " }, // india
 	];
 
 	const chooseColor = (country) => {
@@ -64,7 +67,26 @@ export const Maps = () => {
 			<div className="container-fluid">
 				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">Collaborations</h1>
 			</div>
-			<WorldMap title="" size="xl" data={data} styleFunction={stylingFunction} onClickFunction={clickAction} />
+			<TransformWrapper defaultScale={1} defaultPositionX={200} defaultPositionY={100}>
+				{({ zoomIn, zoomOut, resetTransform, ...rest }) => (
+					<React.Fragment>
+						<div className="tools">
+							<button onClick={zoomIn} className="zoomIcons">
+								<AiOutlineZoomIn />
+							</button>
+							<button onClick={zoomOut} className="zoomIcons">
+								<AiOutlineZoomOut />
+							</button>
+							<button onClick={resetTransform} className="zoomIcons">
+								<MdZoomOutMap />
+							</button>
+						</div>
+						<TransformComponent>
+							<WorldMap size="xl" data={data} styleFunction={stylingFunction} onClickFunction={clickAction} />
+						</TransformComponent>
+					</React.Fragment>
+				)}
+			</TransformWrapper>
 		</div>
 	);
 };
