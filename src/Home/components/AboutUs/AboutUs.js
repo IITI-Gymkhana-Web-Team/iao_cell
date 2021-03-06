@@ -15,7 +15,7 @@ export const AboutUs = () => {
 								<h1 className="mainTitle">About Us</h1>
 								<hr></hr>
 								<img src={img1} className="img-thumbnail" alt="img-responsive" />
-								<p className="mainDesc">
+								<p className="mainDesc mt-2">
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
 									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
 									book.
@@ -27,17 +27,17 @@ export const AboutUs = () => {
 								</p>
 							</div>
 						</div>
-						<div className="card border-0" style={{backgroundColor:"#fcbcbe"}}>
+						<div className="card border-0" style={{backgroundColor:"#B38D97"}}>
 							<div className="card-body ">
 								<h1 className=" mainTitle">About IITI</h1>
 								<hr></hr>
 								<img style={{ width: "600px", height: "310px" }} src={image14} className="imageabout img-thumbnail" alt="img-responsive" />
-								<p className="" style={{ textAlign: "center" }}>
+								<p className="mt-2" style={{ textAlign: "center" }}>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
 									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
 								    book.
 								</p>
-								<div style={{ textAlign: "center" }} className="mt-2 pb-3"><p style={{ fontSize: "1.6rem" }}>For more details:- <a href="http://iiti.ac.in/" target="_blank"><button className="btn" style={{backgroundColor:"#ffa4a7"}}>Visit</button>
+								<div style={{ textAlign: "center" }} className="mt-2 pb-3"><p style={{ fontSize: "1.6rem" }}>For more details:- <a href="http://iiti.ac.in/" target="_blank"><button className="btn" style={{backgroundColor:"rgb(44, 44, 44)"}}>Visit</button>
 								</a>
 								</p></div>
 							</div>
