@@ -16,7 +16,7 @@
 	font-weight: 900;
 }
 .bottom {
-	display:flex;
+	display: flex;
 	overflow: hidden;
 	padding-left: 120px;
 }
@@ -36,7 +36,7 @@
 }
 .social a {
 	color: rgb(253, 253, 253);
-	margin: 3%;
+	margin: 3% 6% 3% 0;
 	font-size: x-large;
 }
 .links {

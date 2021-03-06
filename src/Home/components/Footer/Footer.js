@@ -2,6 +2,7 @@ import React from "react";
 import { iiti_2 } from "../../../assets";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
+import { FaInstagram, FaFacebookSquare, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export const Footer = () => {
 	return (
@@ -38,31 +39,41 @@ export const Footer = () => {
 						<Col xs={12} lg={3}>
 							<div className="links mt-0 font-ubuntu">
 								<h4 className="font-acme">QUICK LINKS</h4>
-								<a target="_blank" href="http://rnd.iiti.ac.in/">Research</a>
+								<a target="_blank" href="http://rnd.iiti.ac.in/">
+									Research
+								</a>
 								<br></br>
-								<a target="_blank" href="http://iiti.ac.in/page/administration">Administration</a>
+								<a target="_blank" href="http://iiti.ac.in/page/administration">
+									Administration
+								</a>
 								<br></br>
-								<a target="_blank" href="http://library.iiti.ac.in/">Library</a>
+								<a target="_blank" href="http://library.iiti.ac.in/">
+									Library
+								</a>
 								<br></br>
-								<a target="_blank" href="http://iiti.ac.in/resources-generation">Resource Generation</a>
+								<a target="_blank" href="http://iiti.ac.in/resources-generation">
+									Resource Generation
+								</a>
 								<br></br>
-								<a target="_blank" href="http://people.iiti.ac.in/~sic/">SIC</a>
+								<a target="_blank" href="http://people.iiti.ac.in/~sic/">
+									SIC
+								</a>
 							</div>
 						</Col>
 						<Col className="social mt-0" xs={12} lg={3}>
 							<h4 className="font-acme">SOCIAL MEDIA</h4>
 							<div>
 								<a href="#" target="_blank">
-									<i className="fab fa-instagram"></i>
+									<FaInstagram />
 								</a>
 								<a href="#/" target="_blank">
-									<i className="fab fa-facebook-f"></i>
+									<FaFacebookSquare />
 								</a>
 								<a href="#" target="_blank">
-									<i className="fab fa-linkedin-in"></i>
+									<FaLinkedin />
 								</a>
 								<a href="#" target="_blank">
-									<i className="far fa-envelope"></i>
+									<FaEnvelope />
 								</a>
 							</div>
 						</Col>
