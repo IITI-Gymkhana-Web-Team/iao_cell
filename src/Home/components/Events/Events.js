@@ -36,7 +36,7 @@ export const Events = () => {
 		},
 	]);
 	return (
-		<div className="news">
+		<div className="news events">
 			<div>
 				<h1 className="pr-5 pb-3 mainTitle">Events</h1>
 			</div>

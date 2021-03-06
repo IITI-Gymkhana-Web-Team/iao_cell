@@ -9,4 +9,7 @@
 	.eventsPage {
 		flex-direction: column !important;
 	}
+	.events {
+		margin-top: 60px !important;
+	}
 }
