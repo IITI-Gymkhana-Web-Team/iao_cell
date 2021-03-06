@@ -28,7 +28,7 @@ import abhinoy from "./abhinoy.jpg";
 import manna from "./manna.jpg";
 import spatel from "./spatel.jpg";
 import bashada from "./bashada.jpg";
-import rajeshkumar from "./rajeshkumar.JPG";
+import rajeshkumar from "./rajeshkumar.jpeg";
 import kcpradhan from "./kcpradhan.jpg";
 import neelesh from "./neelesh-jain.jpg";
 import ic from "./ic.png";
