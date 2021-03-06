@@ -19,7 +19,7 @@ export default function Message() {
 								</i>
 								<br />
 								<br />
-								<h5 className="font-acme">Prof. Neelesh Kumar Jain - Director, IIT Indore</h5>
+								<h5 className="font-acme messageBy">Prof. Neelesh Kumar Jain - Director, IIT Indore</h5>
 							</p>
 						</div>
 					</div>
@@ -38,7 +38,7 @@ export default function Message() {
 								</i>
 								<br />
 								<br />
-								<h5 className="font-acme">Dr. Avinash Sonawane - Dean, IOA IIT Indore</h5>
+								<h5 className="font-acme messageBy">Dr. Avinash Sonawane - Dean, IOA IIT Indore</h5>
 							</p>
 						</div>
 					</div>

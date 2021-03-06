@@ -32,3 +32,8 @@
 	color: white;
 	background-color: transparent !important;
 }
+
+.messageBy {
+	color: #fffb00;
+	font-size: 1.5rem;
+}
