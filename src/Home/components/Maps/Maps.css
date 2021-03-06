@@ -21,6 +21,7 @@
 	justify-content: center;
 }
 
-.Maps svg {
+.Maps div:nth-child(3) div div {
 	border-radius: 10px;
+	border: 1px solid #9bd9ff;
 }
