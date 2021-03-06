@@ -11,7 +11,7 @@ export default function Message() {
 					<div className="card bg-light col-sm-12 border-0">
 						<img src={neelesh} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
 						<div className="card-body" style={{ textAlign: "center", fontSize: "17px" }}>
-							<p className="mainDesc font-ubuntu">
+							<div className="mainDesc font-ubuntu">
 								<i>
 									"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
 									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
@@ -19,8 +19,8 @@ export default function Message() {
 								</i>
 								<br />
 								<br />
-								<h5 className="font-acme messageBy">Prof. Neelesh Kumar Jain - Director, IIT Indore</h5>
-							</p>
+								<div className="font-acme messageBy">Prof. Neelesh Kumar Jain - Director, IIT Indore</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -30,7 +30,7 @@ export default function Message() {
 					<div className="card bg-light col-sm-12 border-0">
 						<img src={avinash} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
 						<div className="card-body" style={{ textAlign: "center", fontSize: "17px" }}>
-							<p className="mainDesc">
+							<div className="mainDesc">
 								<i>
 									"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
 									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
@@ -38,8 +38,8 @@ export default function Message() {
 								</i>
 								<br />
 								<br />
-								<h5 className="font-acme messageBy">Dr. Avinash Sonawane - Dean, IOA IIT Indore</h5>
-							</p>
+								<div className="font-acme messageBy">Dr. Avinash Sonawane - Dean, IOA IIT Indore</div>
+							</div>
 						</div>
 					</div>
 				</div>

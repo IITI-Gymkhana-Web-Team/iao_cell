@@ -12,7 +12,7 @@ export const Committee = ({ committee }) => {
 			<div className="peopleCards">
 				{committee.members.map((persons) => {
 					return (
-						<Row>
+						<Row key={persons[0]["email"]}>
 							{persons.map((person) => {
 								return <PeopleCard person={person} key={person.email} />;
 							})}
