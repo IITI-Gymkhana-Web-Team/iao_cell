@@ -37,7 +37,7 @@ export const AboutUs = () => {
 									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
 								    book.
 								</p>
-								<div style={{ textAlign: "center" }} className="mt-2 pb-3"><p style={{ fontSize: "1.6rem" }}>For more details:- <a href="http://iiti.ac.in/" target="_blank"><button className="btn" style={{backgroundColor:"#ffa4a7"}}>Visit</button>
+								<div style={{ textAlign: "center" }} className="mt-2 pb-3"><p style={{ fontSize: "1.6rem" }}>For more details:- <a href="http://iiti.ac.in/" target="_blank"><button className="btn" style={{backgroundColor:"rgb(44, 44, 44)"}}>Visit</button>
 								</a>
 								</p></div>
 							</div>
