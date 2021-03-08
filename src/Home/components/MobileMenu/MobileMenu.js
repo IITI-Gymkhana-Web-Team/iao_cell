@@ -5,6 +5,8 @@ import { MobileMenuLinks } from "./MobileMenuLinks";
 // import { BsFillSquareFill } from "react-icons/bs";
 
 export const MobileMenu = ({ show, setShow }) => {
+	const [showTemp, setShowTemp] = useState(false);
+
 	const [links] = useState([
 		{
 			name: "Home",
@@ -118,7 +120,7 @@ export const MobileMenu = ({ show, setShow }) => {
 				{links.map((link1) => {
 					return (
 						<ul className="indiMenu">
-							<MobileMenuLinks link1={link1} />
+							<MobileMenuLinks link1={link1} setShow2={setShow} setShow3={setShowTemp} />
 						</ul>
 					);
 				})}
