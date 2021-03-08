@@ -63,7 +63,7 @@ export const Maps = () => {
 	};
 
 	return (
-		<div className="Maps container bg-light mt-5 mb-5">
+		<div className="Maps container bg-light mt-5 mb-5 pb-5" style={{ paddingBottom: "50px" }}>
 			<div className="container-fluid">
 				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">Collaborations</h1>
 			</div>

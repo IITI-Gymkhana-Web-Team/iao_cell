@@ -36,7 +36,7 @@
 
 .burger {
 	position: absolute;
-	top: 20px;
+	top: 30%;
 	right: 20px;
 	z-index: 40;
 	display: none;

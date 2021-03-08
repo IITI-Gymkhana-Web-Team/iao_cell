@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AnimatedNavbar from "./AnimatedNavbar";
 import styled from "styled-components";
 import "./index.css";
+import "./NavBar.css";
 
 const AppContainer = styled.div`
   background: #046092;

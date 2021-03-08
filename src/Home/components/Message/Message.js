@@ -10,7 +10,7 @@ export default function Message() {
 				<div className="container-fluid p-3">
 					<div className="card bg-light col-sm-12 border-0">
 						<img src={neelesh} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
-						<div className="card-body" style={{ textAlign: "center", fontSize: "17px",color:"black"  }}>
+						<div className="card-body" style={{ textAlign: "center", fontSize: "17px" }}>
 							<div className="mainDesc font-ubuntu">
 								<i>
 									"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
@@ -29,7 +29,7 @@ export default function Message() {
 				<div className="container-fluid p-3">
 					<div className="card bg-light col-sm-12 border-0">
 						<img src={avinash} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
-						<div className="card-body" style={{ textAlign: "center", fontSize: "17px",color:"black" }}>
+						<div className="card-body" style={{ textAlign: "center", fontSize: "17px" }}>
 							<div className="mainDesc">
 								<i>
 									"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard

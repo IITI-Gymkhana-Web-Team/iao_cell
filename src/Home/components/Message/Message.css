@@ -1,8 +1,8 @@
 .messageBox {
-	background-image: linear-gradient(109.6deg, #fefffb 11.2%, #046092 100.2%);
+	background: #4b6cb7; /* fallback for old browsers */
+	background: -webkit-linear-gradient(315deg, #182848, #3668dd); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(315deg, #182848, #3668dd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-	background-repeat: no-repeat;
-	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	background-color: transparent;

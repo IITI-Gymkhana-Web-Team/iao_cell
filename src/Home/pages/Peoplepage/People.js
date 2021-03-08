@@ -18,8 +18,8 @@ import {
 	spatel,
 	bashada,
 	kcpradhan,
-} from "../assets";
-import { Committee } from "./components/Committee/Committee";
+} from "../../../assets";
+import { Committee } from "../../components/Committee/Committee";
 
 export const People = ({ match }) => {
 	const [committee1] = useState({
