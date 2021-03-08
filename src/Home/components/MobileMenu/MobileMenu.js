@@ -23,16 +23,16 @@ export const MobileMenu = ({ show, setShow }) => {
 		{
 			name: "Collaborations",
 			innerLinks: [
-				{ name: "MOU", link: "/", level: "2" },
+				{ name: "MOU", link: "#", level: "2" },
 				{
 					name: "Mobility Exchange",
 					innerLinks: [
-						{ name: "Student", link: "/", level: "3" },
-						{ name: "Faculty", link: "/", level: "3" },
+						{ name: "Student", link: "#", level: "3" },
+						{ name: "Faculty", link: "#", level: "3" },
 					],
 					level: "2",
 				},
-				{ name: "Grants", link: "/", level: "2" },
+				{ name: "Grants", link: "#", level: "2" },
 			],
 			level: "1",
 		},
@@ -66,8 +66,8 @@ export const MobileMenu = ({ show, setShow }) => {
 				{
 					name: "Outbound",
 					innerLinks: [
-						{ name: "Faculty", link: "/", level: "3" },
-						{ name: "Student", link: "/", level: "3" },
+						{ name: "Faculty", link: "#", level: "3" },
+						{ name: "Student", link: "#", level: "3" },
 					],
 					level: "2",
 				},
@@ -80,13 +80,13 @@ export const MobileMenu = ({ show, setShow }) => {
 				{
 					name: "Student",
 					innerLinks: [
-						{ name: "Internships", link: "/", level: "3" },
-						{ name: "PG/PHD", link: "/", level: "3" },
-						{ name: "Post Doc", link: "/", level: "3" },
+						{ name: "Internships", link: "#", level: "3" },
+						{ name: "PG/PHD", link: "#", level: "3" },
+						{ name: "Post Doc", link: "#", level: "3" },
 					],
 					level: "2",
 				},
-				{ name: "Faculty", link: "/", level: "2" },
+				{ name: "Faculty", link: "#", level: "2" },
 			],
 			level: "1",
 		},
@@ -94,7 +94,7 @@ export const MobileMenu = ({ show, setShow }) => {
 			name: "Outreach",
 			innerLinks: [
 				{ name: "News", link: "/outreach/news", level: "2" },
-				{ name: "Events", link: "/", level: "2" },
+				{ name: "Events", link: "#", level: "2" },
 			],
 			level: "1",
 		},
