@@ -119,7 +119,7 @@ export const MobileMenu = ({ show, setShow }) => {
 				<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
 				{links.map((link1) => {
 					return (
-						<ul className="indiMenu">
+						<ul className="indiMenu" key={link1.name}>
 							<MobileMenuLinks link1={link1} setShow2={setShow} setShow3={setShowTemp} />
 						</ul>
 					);
