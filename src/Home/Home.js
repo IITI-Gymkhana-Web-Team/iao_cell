@@ -12,6 +12,7 @@ import { Admission } from "./components/Admission/Admission";
 import OfficeIR from "./pages/Contactpage/OfficeIR";
 import { Programs } from "./components/Programs/Programs";
 import { NewsPage } from "./components/NewsPage/Newspage";
+import { EventsPage } from "./components/EventsPage/EventsPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 export const Home = () => {
@@ -32,6 +33,7 @@ export const Home = () => {
 					<Route path="/ProsStud/admission" exact component={Admission} />
 					<Route path="/ProsStud/programs" exact component={Programs} />
 					<Route path="/outreach/news" exact component={NewsPage} />
+					<Route path="/outreach/events" exact component={EventsPage} />
 					<Route path="/OfficeIR" exact component={OfficeIR} />
 				</Switch>
 			</div>

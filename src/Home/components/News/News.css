@@ -41,7 +41,7 @@
 	margin-bottom: 0.75rem;
 }
 
-.card-img-top:hover {
+.news .card-img-top:hover {
 	animation-name: zoomin;
 	animation-duration: 0.5s;
 	animation-fill-mode: forwards;

@@ -8,7 +8,7 @@
 		text-align: center !important;
 		font-size: 2rem;
 	}
-	.card-body {
+	.home .card-body {
 		text-align: justify !important;
 	}
 }
@@ -60,11 +60,6 @@ a:hover {
 	.owl-prev {
 		color: black !important;
 	}
-}
-
-.btn {
-	font-family: Ubuntu;
-	color: white !important;
 }
 
 .newsEvents {

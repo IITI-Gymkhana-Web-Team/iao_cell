@@ -1,0 +1,110 @@
+.outreach {
+	background-color: #eee;
+	color: black;
+	margin: 20px;
+	width: min(100%, 400px);
+}
+
+.backBtn {
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 20px;
+	background-color: #fff;
+	color: #4f3ef5;
+	border-color: #4f3ef5;
+}
+
+.backBtn:hover {
+	background-color: #4f3ef5;
+	color: #fff;
+}
+
+.pcard {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	width: 300px;
+	align-items: center;
+}
+
+.pcard div {
+	padding: 20px;
+}
+
+.speakers .pcard {
+	width: 100%;
+	flex-direction: row;
+}
+
+.indiEvent img {
+	width: 600px;
+}
+
+.pcard img {
+	width: 200px !important;
+}
+
+.cardsStuff {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.eventPart1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.eventPart2 {
+	display: flex;
+	flex-direction: column;
+	padding: 0 40px;
+}
+
+.eventCards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.stuff {
+	display: flex;
+	align-items: center;
+}
+
+.members {
+	padding-left: 10px;
+	margin-top: -5px;
+}
+
+.details {
+	padding: 3px 6px;
+	border-radius: 10px;
+	font-size: 1.2rem;
+	color: rgb(1, 24, 24);
+}
+
+.details:hover {
+	background-color: rgb(8, 90, 90);
+	color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+	.indiEvent img {
+		width: 100%;
+	}
+	.eventPart2 {
+		padding: 10px;
+	}
+	.pcard {
+		width: 100%;
+	}
+	.eventPart1,
+	.pcard,
+	.speakers .pcard {
+		flex-direction: column;
+	}
+	.outreach {
+		flex-direction: column !important;
+	}
+}

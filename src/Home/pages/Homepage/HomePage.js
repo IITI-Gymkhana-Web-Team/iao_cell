@@ -13,7 +13,7 @@ import "./Home.css";
 
 export const HomePage = () => {
 	return (
-		<div>
+		<div className="home">
 			<div className="abc">
 				<Carousell />
 			</div>

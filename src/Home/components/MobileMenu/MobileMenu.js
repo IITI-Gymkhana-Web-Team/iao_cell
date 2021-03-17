@@ -94,7 +94,7 @@ export const MobileMenu = ({ show, setShow }) => {
 			name: "Outreach",
 			innerLinks: [
 				{ name: "News", link: "/outreach/news", level: "2" },
-				{ name: "Events", link: "#", level: "2" },
+				{ name: "Events", link: "/outreach/events", level: "2" },
 			],
 			level: "1",
 		},
