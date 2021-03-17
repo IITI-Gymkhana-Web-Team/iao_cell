@@ -41,8 +41,8 @@ export const Events = () => {
 				<h1 className="pr-5 pb-3 mainTitle">Events</h1>
 			</div>
 			<div>
-				{events.map((event) => {
-					return <EventsUtil event={event} />;
+				{events.map((event, i) => {
+					return <EventsUtil event={event} key={i} />;
 				})}
 			</div>
 			<button className="moreStuff">More Events</button>

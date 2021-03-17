@@ -22,7 +22,7 @@ export const Home = () => {
 			<div className="mainNav">
 				<Nav />
 			</div>
-			<div className="container-fluid">
+			<div>
 				<Switch>
 					<Route path="/" exact component={HomePage} />
 					<Route path="/people/:ct" exact component={People} />

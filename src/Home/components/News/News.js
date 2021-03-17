@@ -31,8 +31,8 @@ export const News = () => {
 				<h1 className="pr-5 pb-3 mainTitle">News</h1>
 			</div>
 			<div>
-				{news.map((News) => {
-					return <Newsutil News={News} />;
+				{news.map((News, i) => {
+					return <Newsutil News={News} key={i} />;
 				})}
 			</div>
 			<Link to="/outreach/news">

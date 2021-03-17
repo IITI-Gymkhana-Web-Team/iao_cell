@@ -14,17 +14,19 @@ import "./Home.css";
 export const HomePage = () => {
 	return (
 		<div>
-			<div className="container mt-3 abc">
+			<div className="abc">
 				<Carousell />
 			</div>
-			<AboutUs />
-			<Message />
-			<div className="newsEvents container mt-5 p-5">
-				<News />
-				<Events />
+			<div className="container-fluid">
+				<AboutUs />
+				<Message />
+				<div className="newsEvents container mt-5">
+					<News />
+					<Events />
+				</div>
+				<Maps />
+				<MHRD />
 			</div>
-			<Maps />
-			<MHRD />
 		</div>
 	);
 };

@@ -5,11 +5,16 @@
 	height: 100%;
 }
 
+.events {
+	border-left: 1px solid #ccc;
+}
+
 @media only screen and (max-width: 1000px) {
 	.eventsPage {
 		flex-direction: column !important;
 	}
 	.events {
 		margin-top: 60px !important;
+		border-left: none;
 	}
 }

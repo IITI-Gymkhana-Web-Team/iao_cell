@@ -1,6 +1,7 @@
 .news {
 	width: min(500px, 80vw) !important;
 	background-color: #eee;
+	padding: 40px 20px;
 }
 
 .news .card {
