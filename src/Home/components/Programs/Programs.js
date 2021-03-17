@@ -20,30 +20,30 @@ export const Programs = () => {
                 <tbody>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;1.1 <font color="blue">Computer Science and Engineering</font> <font color="green">(from AY 2009-10)</font>
+                            &nbsp;&nbsp;1.1 <font color="blue"><a style={{ color: 'inherit' }} target="_blank" href="http://cse.iiti.ac.in/">Computer Science and Engineering</a></font> <font color="green">(from AY 2009-10)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;1.2 <font color="blue">Electrical Engineering</font> <font color="green">(from AY 2009-10)</font>
+                            &nbsp;&nbsp;1.2 <font color="blue"><a style={{ color: 'inherit' }} href="http://ee.iiti.ac.in/" target="_blank">Electrical Engineering</a></font> <font color="green">(from AY 2009-10)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;1.3 <font color="blue">Mechanical Engineering</font> <font color="green">(from AY 2009-10)</font>
-                        </td>
-                    </tr>
-
-
-                    <tr>
-                        <td>
-                            &nbsp;&nbsp;1.4 <font color="blue">Civil Engineering</font> <font color="green">(from AY 2016-17)</font>
+                            &nbsp;&nbsp;1.3 <font color="blue"><a style={{ color: 'inherit' }} href="http://me.iiti.ac.in/" target="_blank">Mechanical Engineering</a></font> <font color="green">(from AY 2009-10)</font>
                         </td>
                     </tr>
 
+
                     <tr>
                         <td>
-                            &nbsp;&nbsp;1.5 <font color="blue">Metallurgy Engineering and Materials Science</font> <font color="green">(from AY 2016-17)</font>
+                            &nbsp;&nbsp;1.4 <font color="blue"><a style={{ color: 'inherit' }} href="http://ce.iiti.ac.in/" target="_blank">Civil Engineering</a></font> <font color="green">(from AY 2016-17)</font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;1.5 <font color="blue"><a style={{ color: 'inherit' }} href="http://mems.iiti.ac.in/" target="_blank">Metallurgy Engineering and Materials Science</a></font> <font color="green">(from AY 2016-17)</font>
                         </td>
                     </tr>
 
@@ -65,44 +65,42 @@ export const Programs = () => {
                 <tbody>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;2.1 <font color="blue">Electrical Engineering with specialization in Communication and Signal Processing</font> <font color="green">(from AY 2013-14)</font>
+                            &nbsp;&nbsp;2.1 <font color="blue"><a style={{ color: 'inherit' }} href="http://ee.iiti.ac.in/" target="_blank">Electrical Engineering with specialization in Communication and Signal Processing</a></font> <font color="green">(from AY 2013-14)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;2.2 <font color="blue">Electrical Engineering with specialization in VLSI Design and Nanoelectronics</font> <font color="green">(from AY 2017-18)</font>
+                            &nbsp;&nbsp;2.2 <font color="blue"><a style={{ color: 'inherit' }} href="http://ee.iiti.ac.in/" target="_blank">Electrical Engineering with specialization in VLSI Design and Nanoelectronics</a></font> <font color="green">(from AY 2017-18)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;2.3 <font color="blue">Mechanical Engineering with specialization in Production and Industrial Engineering</font> <font color="green">(from AY 2013-14)</font>
-                        </td>
-                    </tr>
-
-
-                    <tr>
-                        <td>
-                            &nbsp;&nbsp;2.4 <font color="blue">Mechanical Engineering with specialization in Mechanical Systems Design</font> <font color="green">(from AY 2018-19)</font>
+                            &nbsp;&nbsp;2.3 <font color="blue"><a style={{ color: 'inherit' }} href="http://me.iiti.ac.in/" target="_blank">Mechanical Engineering with specialization in Production and Industrial Engineering</a></font> <font color="green">(from AY 2013-14)</font>
                         </td>
                     </tr>
 
+
                     <tr>
                         <td>
-                            &nbsp;&nbsp;2.5 <font color="blue">Metallurgy Engineering and Materials Science with specialization in Materials Science and Engineering</font> <font color="green">(from AY 2015-16)</font>
+                            &nbsp;&nbsp;2.4 <font color="blue"><a style={{ color: 'inherit' }} href="http://me.iiti.ac.in/" target="_blank">Mechanical Engineering with specialization in Mechanical Systems Design</a></font> <font color="green">(from AY 2018-19)</font>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            &nbsp;&nbsp;2.6 <font color="blue">Metallurgy Engineering and Materials Science with specialization in Metallurgy Engineering</font> <font color="green">(from AY 2018-19)</font>
+                            &nbsp;&nbsp;2.5 <font color="blue"><a style={{ color: 'inherit' }} href="http://mems.iiti.ac.in/" target="_blank">Metallurgy Engineering and Materials Science with specialization in Materials Science and Engineering</a></font> <font color="green">(from AY 2015-16)</font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;2.6 <font color="blue"><a style={{ color: 'inherit' }} href="http://mems.iiti.ac.in/" target="_blank">Metallurgy Engineering and Materials Science with specialization in Metallurgy Engineering</a></font> <font color="green">(from AY 2018-19)</font>
                         </td>
                     </tr>
 
                 </tbody>
 
             </table>
-
-
 
 
             <table className="table table-hover">
@@ -115,24 +113,24 @@ export const Programs = () => {
                 <tbody>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;3.1 <font color="blue">Chemistry</font> <font color="green">(from AY 2013-14)</font>
+                            &nbsp;&nbsp;3.1 <font color="blue"><a style={{ color: 'inherit' }} href="http://chemistry.iiti.ac.in/" target="_blank">Chemistry</a></font> <font color="green">(from AY 2013-14)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;3.2 <font color="blue">Physics</font> <font color="green">(from AY 2013-14)</font>
+                            &nbsp;&nbsp;3.2 <font color="blue"><a style={{ color: 'inherit' }} target="_blank" href="http://physics.iiti.ac.in/">Physics</a></font> <font color="green">(from AY 2013-14)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;3.3 <font color="blue">Mathematics</font> <font color="green">(from AY 2015-16)</font>
+                            &nbsp;&nbsp;3.3 <font color="blue"><a style={{ color: 'inherit' }} target="_blank" href="http://math.iiti.ac.in/">Mathematics</a></font> <font color="green">(from AY 2015-16)</font>
                         </td>
                     </tr>
 
 
                     <tr>
                         <td>
-                            &nbsp;&nbsp;3.4 <font color="blue">Biotechnology</font> <font color="green">(from AY 2017-18)</font>
+                            &nbsp;&nbsp;3.4 <font color="blue"><a style={{ color: 'inherit' }} target="_blank" href="http://bsbe.iiti.ac.in/">Biotechnology</a></font> <font color="green">(from AY 2017-18)</font>
                         </td>
                     </tr>
 
@@ -158,35 +156,35 @@ export const Programs = () => {
                 <tbody>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;4.1 <font color="blue">BTech in Electrical Engineering with MTech in Communication and Signal Processing</font> <font color="green">(from AY 2014-15)</font>
+                            &nbsp;&nbsp;4.1 <font color="blue"><a style={{ color: 'inherit' }} href="http://ee.iiti.ac.in/" target="_blank">BTech in Electrical Engineering with MTech in Communication and Signal Processing</a></font> <font color="green">(from AY 2014-15)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;4.2 <font color="blue">BTech in Electrical Engineering with MTech in VLSI Design and Nanoelectronics</font> <font color="green">(from AY 2017-18)</font>
+                            &nbsp;&nbsp;4.2 <font color="blue"><a style={{ color: 'inherit' }} href="http://ee.iiti.ac.in/" target="_blank">BTech in Electrical Engineering with MTech in VLSI Design and Nanoelectronics</a></font> <font color="green">(from AY 2017-18)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;4.3 <font color="blue">BTech in Mechanical Engineering with MTech in Production and Industrial Engineering</font> <font color="green">(from AY 2014-15)</font>
-                        </td>
-                    </tr>
-
-
-                    <tr>
-                        <td>
-                            &nbsp;&nbsp;4.4 <font color="blue">BTech in Mechanical Engineering with MTech in Mechanical Systems Design</font> <font color="green">(from AY 2018-19)</font>
+                            &nbsp;&nbsp;4.3 <font color="blue"><a style={{ color: 'inherit' }} href="http://me.iiti.ac.in/" target="_blank">BTech in Mechanical Engineering with MTech in Production and Industrial Engineering</a></font> <font color="green">(from AY 2014-15)</font>
                         </td>
                     </tr>
 
+
                     <tr>
                         <td>
-                            &nbsp;&nbsp;4.5 <font color="blue">BTech in Metallurgy Engineering and Materials Science with MTech in Materials Science and Engineering</font> <font color="green">(from AY 2019-20)</font>
+                            &nbsp;&nbsp;4.4 <font color="blue"><a style={{ color: 'inherit' }} href="http://me.iiti.ac.in/" target="_blank">BTech in Mechanical Engineering with MTech in Mechanical Systems Design</a></font> <font color="green">(from AY 2018-19)</font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;4.5 <font color="blue"><a style={{ color: 'inherit' }} href="http://mems.iiti.ac.in/" target="_blank">BTech in Metallurgy Engineering and Materials Science with MTech in Materials Science and Engineering</a></font> <font color="green">(from AY 2019-20)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;4.6 <font color="blue">BTech in Metallurgy Engineering and Materials Science with MTech in Metallurgy Engineering</font> <font color="green">(from AY 2019-20)</font>
+                            &nbsp;&nbsp;4.6 <font color="blue"><a style={{ color: 'inherit' }} href="http://mems.iiti.ac.in/" target="_blank">BTech in Metallurgy Engineering and Materials Science with MTech in Metallurgy Engineering</a></font> <font color="green">(from AY 2019-20)</font>
                         </td>
                     </tr>
 
@@ -206,17 +204,17 @@ export const Programs = () => {
                 <tbody>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;5.1 <font color="blue">MS (Research) in Computer Science and Engineering </font> <font color="green">(from AY 2018-19)</font>
+                            &nbsp;&nbsp;5.1 <font color="blue"><a style={{ color: 'inherit' }} target="_blank" style={{ color: 'inherit' }} href="http://cse.iiti.ac.in/">MS (Research) in Computer Science and Engineering</a> </font> <font color="green">(from AY 2018-19)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;5.2 <font color="blue">MS (Research) in Electrical Engineering </font> <font color="green">(from AY 2019-20)</font>
+                            &nbsp;&nbsp;5.2 <font color="blue"><a style={{ color: 'inherit' }} href="http://ee.iiti.ac.in/" target="_blank">MS (Research) in Electrical Engineering </a></font> <font color="green">(from AY 2019-20)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;5.3 <font color="blue">MS (Research) in Mechanical Engineering </font> <font color="green">(from AY 2019-20)</font>
+                            &nbsp;&nbsp;5.3 <font color="blue"><a style={{ color: 'inherit' }} href="http://me.iiti.ac.in/" target="_blank">MS (Research) in Mechanical Engineering </a></font> <font color="green">(from AY 2019-20)</font>
                         </td>
                     </tr>
 
@@ -237,47 +235,25 @@ export const Programs = () => {
                 <tbody>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;6.1&nbsp; <font color="blue">Computer Science and Engineering</font> <font color="green">(from AY 2010-11)</font>
+                            &nbsp;&nbsp;6.1&nbsp; <font color="blue"><a style={{ color: 'inherit' }} href="http://cse.iiti.ac.in/" target="_blank">Computer Science and Engineering</a></font> <font color="green">(from AY 2010-11)</font>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;6.2&nbsp; <font color="blue">Electrical Engineering</font> <font color="green">(from AY 2010-11)</font>
+                            &nbsp;&nbsp;6.2&nbsp; <font color="blue"><a style={{ color: 'inherit' }} href="http://ee.iiti.ac.in/" target="_blank">Electrical Engineering</a></font> <font color="green">(from AY 2010-11)</font>
 
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            &nbsp;&nbsp;6.3&nbsp; <font color="blue">Mechanical Engineering</font> <font color="green">(from AY 2010-11)</font>
-
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            &nbsp;&nbsp;6.4&nbsp; <font color="blue">Civil Engineering</font> <font color="green">(from AY 2017-18)</font>
-
+                            &nbsp;&nbsp;6.3&nbsp; <font color="blue"><a style={{ color: 'inherit' }} href="http://me.iiti.ac.in/" target="_blank">Mechanical Engineering</a></font> <font color="green">(from AY 2010-11)</font>
 
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-
-                            &nbsp;&nbsp;6.5&nbsp; <font color="blue">Metallurgy Engineering and Materials Science</font> <font color="green">(from AY 2014-15)</font>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            &nbsp;&nbsp;6.6&nbsp; <font color="blue">Bio-sciences and Bio-medical Engineering</font> <font color="green">(from AY 2012-13)</font>
-
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            &nbsp;&nbsp;6.7&nbsp; <font color="blue">Chemistry</font> <font color="green">(from AY 2010-11)</font>
+                            &nbsp;&nbsp;6.4&nbsp; <font color="blue"><a style={{ color: 'inherit' }} href="http://ce.iiti.ac.in/" target="_blank">Civil Engineering</a></font> <font color="green">(from AY 2017-18)</font>
 
 
                         </td>
@@ -285,7 +261,21 @@ export const Programs = () => {
 
                     <tr>
                         <td>
-                            &nbsp;&nbsp;6.8&nbsp; <font color="blue">Physics</font> <font color="green">(from AY 2010-11)</font>
+
+                            &nbsp;&nbsp;6.5&nbsp; <font color="blue"><a style={{ color: 'inherit' }} href="http://mems.iiti.ac.in/" target="_blank">Metallurgy Engineering and Materials Science</a></font> <font color="green">(from AY 2014-15)</font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;6.6&nbsp; <font color="blue"><a style={{ color: 'inherit' }} target="_blank" href="http://bsbe.iiti.ac.in/">Bio-sciences and Bio-medical Engineering</a></font> <font color="green">(from AY 2012-13)</font>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;6.7&nbsp; <font color="blue"><a style={{ color: 'inherit' }} href="http://chemistry.iiti.ac.in/" target="_blank">Chemistry</a></font> <font color="green">(from AY 2010-11)</font>
 
 
                         </td>
@@ -293,7 +283,15 @@ export const Programs = () => {
 
                     <tr>
                         <td>
-                            &nbsp;&nbsp;6.9&nbsp; <font color="blue">Mathematics</font> <font color="green">(from AY 2010-11)</font>
+                            &nbsp;&nbsp;6.8&nbsp; <font color="blue"><a style={{ color: 'inherit' }} target="_blank" href="http://physics.iiti.ac.in/">Physics</a></font> <font color="green">(from AY 2010-11)</font>
+
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;6.9&nbsp; <font color="blue"><a style={{ color: 'inherit' }} target="_blank" href="http://math.iiti.ac.in/">Mathematics</a></font> <font color="green">(from AY 2010-11)</font>
 
 
                         </td>
