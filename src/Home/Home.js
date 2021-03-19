@@ -9,6 +9,7 @@ import Aboutiiti from "./pages/Aboutuspage/Aboutiiti";
 import { Places } from "./components/Places/Places";
 import { Visa } from "./components/Visa/Visa";
 import { Admission } from "./components/Admission/Admission";
+import { Pg_Phd } from "./components/Pg_Phd/Pg_Phd";
 import OfficeIR from "./pages/Contactpage/OfficeIR";
 import { Programs } from "./components/Programs/Programs";
 import { NewsPage } from "./components/NewsPage/Newspage";
@@ -32,6 +33,7 @@ export const Home = () => {
 					<Route path="/ProsStud/places" exact component={Places} />
 					<Route path="/ProsStud/admission" exact component={Admission} />
 					<Route path="/ProsStud/programs" exact component={Programs} />
+					<Route path="/opportunities/pg_phd_position" exact component={Pg_Phd}/>
 					<Route path="/outreach/news" exact component={NewsPage} />
 					<Route path="/outreach/events" exact component={EventsPage} />
 					<Route path="/OfficeIR" exact component={OfficeIR} />
