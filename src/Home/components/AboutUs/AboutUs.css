@@ -1,8 +1,73 @@
-@media only screen and (max-width: 1000px) {
-	.aboutPic {
-		/* display: none !important; */
+.abtIcon {
+	font-size: 60px;
+	padding: 30px;
+	border-radius: 100% 100%;
+	background-color: #3668dd;
+	color: white;
+	width: min(150px, 100%);
+	height: min(150px, 100%);
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.iczin {
+	animation-name: aboutZoom;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+@keyframes aboutZoom {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.2);
 	}
 }
-hr{
-	color: rgb(0, 0, 0);
+
+.iczout {
+	animation-name: aboutZoomOut;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+@keyframes aboutZoomOut {
+	0% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.aboutCards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+.aboutCard {
+	width: 400px;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 70px;
+	border-radius: 10px;
+	background-color: #dfdfdf;
+}
+
+.aboutUnderline {
+	width: 30%;
+	height: 4px;
+	background-color: black;
+	margin: auto;
+	position: relative;
+	border-radius: 5px;
+	top: -5px;
 }

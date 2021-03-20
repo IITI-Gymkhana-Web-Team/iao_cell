@@ -1,50 +1,70 @@
-import React from "react";
-import { img1 } from "../../../assets";
-import { image14 } from "../../../assets";
+import React, { useState } from "react";
 import "./AboutUs.css";
+import { FaRegBuilding, FaStreetView } from "react-icons/fa";
+import { HiUserGroup } from "react-icons/hi";
 
 export const AboutUs = () => {
-	return (
-		<>
-			<div className="container mt-5" style={{ borderRadius: "10px" }}>
+	const [zoom1, setZoom1] = useState(false);
+	const [zoom2, setZoom2] = useState(false);
+	const [zoom3, setZoom3] = useState(false);
 
-				<div className="container-fluid pb-5 pt-5">
-					<div className="card-group ">
-						<div className="card border-0" style={{backgroundColor:"rgb(201, 236, 172)"}}>
-							<div className="card-body ">
-								<h1 className="mainTitle">About Us</h1>
-								<hr></hr>
-								<img src={img1} className="img-thumbnail" alt="img-responsive" />
-								<p className="mainDesc mt-2">
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-									book.
-									<br />
-									<br />
-									Some more lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only
-								</p>
-							</div>
-						</div>
-						<div className="card border-0" style={{backgroundColor:"#B38D97"}}>
-							<div className="card-body ">
-								<h1 className=" mainTitle">About IITI</h1>
-								<hr></hr>
-								<img style={{ width: "600px", height: "310px" }} src={image14} className="imageabout img-thumbnail" alt="img-responsive" />
-								<p className="mt-2" style={{ textAlign: "center" }}>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-									dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-								    book.
-								</p>
-								<div style={{ textAlign: "center" }} className="mt-2 pb-3"><p style={{ fontSize: "1.6rem" }}>For more details:- <a href="http://iiti.ac.in/" target="_blank"><button className="btn" style={{backgroundColor:"rgb(44, 44, 44)"}}>Visit</button>
-								</a>
-								</p></div>
-							</div>
-						</div>
+	return (
+		<div className="container-fluid mt-3 aboutUs" style={{ borderRadius: "10px" }}>
+			<div className="container-fluid pt-5 aboutCards">
+				<div className="aboutCard pb-5">
+					<div
+						className="abtIcon"
+						onMouseEnter={() => setZoom1(true)}
+						onMouseLeave={() => setZoom1(false)}
+					>
+						<FaRegBuilding
+							className={"aboutCardIcon " + (zoom1 ? "iczin" : "iczout")}
+						/>
 					</div>
+					<h3 className="font-acme mt-4">About IITI</h3>
+					<div className="aboutUnderline"></div>
+					<p className="font-ubuntu mt-3">
+						Cupidatat ea nulla Lorem consectetur laboris adipisicing occaecat qui
+						adipisicing. Anim anim quis ullamco irure proident nisi cupidatat anim
+						labore nisi. Occaecat officia ea reprehenderit aliqua deserunt veniam sint
+						magna qui fugiat minim mollit commodo.
+					</p>
+				</div>
+				<div className="aboutCard pb-5">
+					<div
+						className="abtIcon"
+						onMouseEnter={() => setZoom2(true)}
+						onMouseLeave={() => setZoom2(false)}
+					>
+						<HiUserGroup className={"aboutCardIcon " + (zoom2 ? "iczin" : "iczout")} />
+					</div>
+					<h3 className="font-acme mt-4">About IOA</h3>
+					<div className="aboutUnderline"></div>
+					<p className="font-ubuntu mt-3">
+						Cupidatat ea nulla Lorem consectetur laboris adipisicing occaecat qui
+						adipisicing. Anim anim quis ullamco irure proident nisi cupidatat anim
+						labore nisi. Occaecat officia ea reprehenderit aliqua deserunt veniam sint
+						magna qui fugiat minim mollit commodo.
+					</p>
+				</div>
+				<div className="aboutCard pb-5">
+					<div
+						className="abtIcon"
+						onMouseEnter={() => setZoom3(true)}
+						onMouseLeave={() => setZoom3(false)}
+					>
+						<FaStreetView className={"aboutCardIcon " + (zoom3 ? "iczin" : "iczout")} />
+					</div>
+					<h3 className="font-acme mt-4">Life @ IITI</h3>
+					<div className="aboutUnderline"></div>
+					<p className="font-ubuntu mt-3">
+						Cupidatat ea nulla Lorem consectetur laboris adipisicing occaecat qui
+						adipisicing. Anim anim quis ullamco irure proident nisi cupidatat anim
+						labore nisi. Occaecat officia ea reprehenderit aliqua deserunt veniam sint
+						magna qui fugiat minim mollit commodo.
+					</p>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
