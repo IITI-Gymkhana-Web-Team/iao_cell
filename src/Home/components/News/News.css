@@ -1,6 +1,6 @@
 .news {
 	width: min(500px, 80vw) !important;
-	background-color: #dfdfdf;
+	background-color: #e5e5e5;
 	padding: 40px 20px;
 }
 
@@ -12,7 +12,7 @@
 	flex-direction: row;
 	width: 100%;
 	border: none;
-	background-color: #dfdfdf;
+	background-color: #e5e5e5;
 	margin-bottom: 40px;
 }
 

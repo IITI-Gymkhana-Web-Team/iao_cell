@@ -4,7 +4,7 @@ import { eventsImg } from "../../assets";
 import { BiCalendar, BiLink } from "react-icons/bi";
 import { BsFillPersonFill } from "react-icons/bs";
 import { AiOutlineClockCircle } from "react-icons/ai";
-import { IoArrowRedoOutline } from "react-icons/io5";
+import { IoArrowRedo } from "react-icons/io5";
 
 export default function ({ event }) {
 	return (
@@ -35,10 +35,13 @@ export default function ({ event }) {
 						<BsFillPersonFill />
 						&nbsp; {event.organizer}
 					</Card.Text>
-					<Card.Text style={styles.text}>{event.description.slice(0, 80) + (event.description.length > 80 ? "..." : "")}</Card.Text>
+					<Card.Text style={styles.text}>
+						{event.description.slice(0, 80) +
+							(event.description.length > 80 ? "..." : "")}
+					</Card.Text>
 					<Card.Text style={styles.text}>
 						<a href="#">
-							<IoArrowRedoOutline style={styles.btn} />
+							<IoArrowRedo style={styles.btn} />
 						</a>
 					</Card.Text>
 				</Card.Body>

@@ -9,7 +9,7 @@ export const AboutUs = () => {
 	const [zoom3, setZoom3] = useState(false);
 
 	return (
-		<div className="container-fluid mt-5 aboutUs">
+		<div className="container-fluid aboutUs">
 			<div className="container-fluid pt-5 aboutCards">
 				<div className="aboutCard pb-5">
 					<div

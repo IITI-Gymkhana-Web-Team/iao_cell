@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { news } from "../../assets";
-import { IoArrowRedoOutline } from "react-icons/io5";
+import { IoArrowRedo } from "react-icons/io5";
 
 export default function ({ News }) {
 	return (
@@ -20,7 +20,7 @@ export default function ({ News }) {
 					</Card.Text>
 					<Card.Text>
 						<a href="#">
-							<IoArrowRedoOutline style={styles.btn} />
+							<IoArrowRedo style={styles.btn} />
 						</a>
 					</Card.Text>
 				</Card.Body>

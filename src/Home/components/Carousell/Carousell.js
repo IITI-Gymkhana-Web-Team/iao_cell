@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
 import { image15 } from "../../../assets";
 import "./Carousell.css";
 import OwlCarousel from "react-owl-carousel";
