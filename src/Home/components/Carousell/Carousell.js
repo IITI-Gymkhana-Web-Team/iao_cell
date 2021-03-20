@@ -41,23 +41,11 @@ export const Carousell = () => {
 	]);
 
 	return (
-		<OwlCarousel
-			className="owl-theme"
-			loop
-			margin={10}
-			nav={true}
-			items={1}
-			autoplay={true}
-			autoplaySpeed={1000}
-		>
-			{images.map((img) => {
+		<OwlCarousel className="owl-theme" loop margin={10} nav={true} items={1} autoplay={true}>
+			{images.map((img, index) => {
 				return (
-					<div class="item">
+					<div class="item" key={index}>
 						<img src={img.img} />
-						<div className="carouselCaption">
-							<p>{img.captionHeading}</p>
-							<p>{img.captionDesc}</p>
-						</div>
 					</div>
 				);
 			})}

@@ -16,10 +16,7 @@
 	top: -40px;
 }
 
-.owl-dots .owl-dot:hover span {
-	background-color: white !important;
-}
-
+.owl-dots .owl-dot:hover span,
 .owl-dots .active span {
 	background-color: white !important;
 }
@@ -38,6 +35,7 @@
 .owl-next span {
 	position: relative;
 	top: -5px;
+	padding: 10px;
 }
 
 .owl-prev {
@@ -60,22 +58,4 @@
 	.owl-nav {
 		display: none;
 	}
-}
-
-.abc,
-.carousel-item {
-	max-height: 520px !important;
-}
-
-.carousel-caption {
-	background-color: rgba(0, 0, 0, 0.6);
-	width: 100% !important;
-	left: 0% !important;
-	right: 0% !important;
-	padding-bottom: 40px !important;
-	bottom: 0px !important;
-}
-
-.carousel-caption h3 {
-	color: gold !important;
 }
