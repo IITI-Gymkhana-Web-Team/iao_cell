@@ -1,65 +1,67 @@
-import React from "react";
-import { WorldMap } from "react-svg-worldmap";
+import React, { useState, useEffect } from "react";
 import "./Maps.css";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import { AiOutlineZoomIn, AiOutlineZoomOut } from "react-icons/ai";
-import { MdZoomOutMap } from "react-icons/md";
+import { VectorMap } from "react-jvectormap";
 
 export const Maps = () => {
-	const data = [
-		{ country: "us", value: " " }, // usa
-		{ country: "ca", value: " " }, // canada
-		{ country: "mx", value: " " }, // mexico
-		{ country: "gb", value: " " }, // united kingdom (england / great britain)
-		{ country: "ru", value: " " }, // russia
-		{ country: "fi", value: " " }, // finland
-		{ country: "be", value: " " }, // Belgium
-		{ country: "tr", value: " " }, // turkey
-		{ country: "no", value: " " }, // norway
-		{ country: "dk", value: " " }, // denmark
-		{ country: "jp", value: " " }, // japan
-		{ country: "au", value: " " }, // australia
-		{ country: "kr", value: " " }, // korea (south)
-		{ country: "cn", value: " " }, // china
-		{ country: "tw", value: " " }, // taiwan
-		{ country: "my", value: " " }, // singapore (malaysia)
-		{ country: "in", value: " " }, // india
+	const [heightOfMap, setHeightOfMap] = useState("520px");
+	const updateDimensions = () => {
+		if (window.innerWidth <= 600) setHeightOfMap("320px");
+		else setHeightOfMap("520px");
+	};
+
+	useEffect(() => {
+		window.addEventListener("resize", updateDimensions);
+		return () => window.removeEventListener("resize", updateDimensions);
+	}, [window.innerWidth]);
+
+	const color = [
+		{ name: "US", color: "#ffa500" },
+		{ name: "CA", color: "#008000" },
+		{ name: "MX", color: "#ff0000" },
+		{ name: "GB", color: "#0000ff" },
+		{ name: "RU", color: "#800000" },
+		{ name: "FI", color: "#ffc0cb" },
+		{ name: "BE", color: "#00ffff" },
+		{ name: "NO", color: "#cd5c5c" },
+		{ name: "DK", color: "#dc143c" },
+		{ name: "JP", color: "#b22222" },
+		{ name: "AU", color: "#ff1493" },
+		{ name: "KR", color: "#000080" },
+		{ name: "CN", color: "#8a2be2" },
+		{ name: "TW", color: "#483d8b" },
+		{ name: "MY", color: "#ffd700" },
+		{ name: "IN", color: "#ff8c00" },
+		{ name: "TR", color: "#e9967a" },
 	];
 
-	const chooseColor = (country) => {
-		if (country === "US") return "orange";
-		else if (country === "CA") return "green";
-		else if (country === "MX") return "red";
-		else if (country === "GB") return "blue";
-		else if (country === "RU") return "maroon";
-		else if (country === "FI") return "pink";
-		else if (country === "BE") return "aqua";
-		else if (country === "TR") return "indianRed";
-		else if (country === "NO") return "crimson";
-		else if (country === "DK") return "darkSalmon";
-		else if (country === "JP") return "fireBrick";
-		else if (country === "AU") return "deepPink";
-		else if (country === "KR") return "navy";
-		else if (country === "CN") return "blueViolet";
-		else if (country === "TW") return "darkSlateBlue";
-		else if (country === "MY") return "gold";
-		else if (country === "IN") return "darkOrange";
-		else return "black";
+	const handleClick = (e, countryCode) => {
+		var i = 0;
+		while (color[i]) {
+			if (countryCode == color[i].name) {
+				console.log(countryCode);
+			}
+			i++;
+		}
 	};
 
-	const stylingFunction = (context) => {
-		return {
-			fill: chooseColor(context.country),
-			fillOpacity: 1,
-			stroke: "black",
-			strokeWidth: 1,
-			strokeOpacity: 0.2,
-			cursor: "pointer",
-		};
-	};
-
-	const clickAction = (event, countryName, isoCode, value, prefix, suffix) => {
-		console.log(countryName);
+	const stylingFunction = () => {
+		var i = 0;
+		var regions = [];
+		while (color[i]) {
+			var nameObj = {
+				[`${color[i].name}`]: 10,
+			};
+			var scaleArray = [];
+			scaleArray.push(color[i].color);
+			var obj = {
+				values: nameObj,
+				scale: scaleArray,
+				normalizeFunction: "polynomial",
+			};
+			regions.push(obj);
+			i++;
+		}
+		return regions;
 	};
 
 	return (
@@ -67,31 +69,36 @@ export const Maps = () => {
 			<div className="container-fluid">
 				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">Collaborations</h1>
 			</div>
-			<TransformWrapper defaultScale={1} defaultPositionX={200} defaultPositionY={100}>
-				{({ zoomIn, zoomOut, resetTransform, ...rest }) => (
-					<React.Fragment>
-						<div className="tools">
-							<button onClick={zoomIn} className="zoomIcons">
-								<AiOutlineZoomIn />
-							</button>
-							<button onClick={zoomOut} className="zoomIcons">
-								<AiOutlineZoomOut />
-							</button>
-							<button onClick={resetTransform} className="zoomIcons">
-								<MdZoomOutMap />
-							</button>
-						</div>
-						<TransformComponent>
-							<WorldMap
-								size="responsive"
-								data={data}
-								styleFunction={stylingFunction}
-								onClickFunction={clickAction}
-							/>
-						</TransformComponent>
-					</React.Fragment>
-				)}
-			</TransformWrapper>
+			<div>
+				<VectorMap
+					map={"world_mill"}
+					backgroundColor="#3b96ce"
+					containerStyle={{
+						width: "100%",
+						height: heightOfMap,
+					}}
+					onRegionClick={handleClick}
+					containerClassName="map"
+					regionStyle={{
+						initial: {
+							fill: "#e4e4e4",
+							"fill-opacity": 0.9,
+							stroke: "none",
+							"stroke-width": 0,
+							"stroke-opacity": 0,
+						},
+						hover: {
+							"fill-opacity": 0.8,
+							stroke: "#000000",
+							"stroke-width": 0.5,
+							"stroke-opacity": 0.8,
+						},
+					}}
+					series={{
+						regions: stylingFunction(),
+					}}
+				/>
+			</div>
 		</div>
 	);
 };

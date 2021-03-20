@@ -1,31 +1,3 @@
-.Maps div:nth-child(3) div div {
-	text-align: center;
-	background-color: #defbfd !important;
-	margin: auto !important;
-}
-
-.zoomIcons {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 5px;
-	font-size: 20px;
-	margin: 10px;
-	border-radius: 5px;
-	border: 1px solid gray;
-}
-
-.tools {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.Maps div:nth-child(3) div div {
-	border-radius: 10px;
-	border: 1px solid #9bd9ff;
-}
-
-.react-transform-component {
-	margin: auto !important;
+.jvectormap-container svg {
+	cursor: pointer;
 }
