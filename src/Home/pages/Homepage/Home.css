@@ -33,35 +33,6 @@ a:hover {
 	text-decoration: none !important;
 }
 
-.owl-next {
-	position: absolute;
-	top: 180px;
-	right: -20px;
-	font-size: 50px !important;
-	color: rgba(0, 0, 0, 0.4) !important;
-}
-
-.owl-prev {
-	position: absolute;
-	top: 180px;
-	left: -20px;
-	font-size: 50px !important;
-	color: rgba(0, 0, 0, 0.4) !important;
-}
-
-.owl-next:hover,
-.owl-prev:hover {
-	color: black !important;
-	background-color: transparent !important;
-}
-
-@media only screen and (max-width: 1000px) {
-	.owl-next,
-	.owl-prev {
-		color: black !important;
-	}
-}
-
 .newsEvents {
 	display: flex;
 	flex-direction: row;

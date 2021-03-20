@@ -82,7 +82,12 @@ export const Maps = () => {
 							</button>
 						</div>
 						<TransformComponent>
-							<WorldMap size="responsive" data={data} styleFunction={stylingFunction} onClickFunction={clickAction} />
+							<WorldMap
+								size="responsive"
+								data={data}
+								styleFunction={stylingFunction}
+								onClickFunction={clickAction}
+							/>
 						</TransformComponent>
 					</React.Fragment>
 				)}

@@ -7,8 +7,8 @@
 	height: 90px;
 	width: 250px;
 }
-.MHRDBG{
-	background-color: #55868C;
+.MHRDBG {
+	background-color: #dfdfdf;
 }
 .mhrd .card:hover {
 	box-shadow: 0px 0px 4px 1px;
@@ -24,6 +24,11 @@
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
+}
+
+.mhrdCard {
+	border: 2px solid #aaa;
+	overflow: hidden;
 }
 
 @media only screen and (max-width: 1000px) {

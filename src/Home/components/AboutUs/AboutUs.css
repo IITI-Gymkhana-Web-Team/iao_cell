@@ -14,7 +14,7 @@
 
 .iczin {
 	animation-name: aboutZoom;
-	animation-duration: 1s;
+	animation-duration: 0.5s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
 	animation-timing-function: ease;
@@ -31,7 +31,7 @@
 
 .iczout {
 	animation-name: aboutZoomOut;
-	animation-duration: 1s;
+	animation-duration: 0.5s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
 	animation-timing-function: ease;
@@ -59,13 +59,12 @@
 	padding: 20px;
 	margin-bottom: 70px;
 	border-radius: 10px;
-	background-color: #dfdfdf;
 }
 
 .aboutUnderline {
 	width: 30%;
 	height: 4px;
-	background-color: black;
+	background-color: var(--blue);
 	margin: auto;
 	position: relative;
 	border-radius: 5px;

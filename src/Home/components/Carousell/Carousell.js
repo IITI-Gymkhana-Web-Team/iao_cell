@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { image15 } from "../../../assets";
 import "./Carousell.css";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 export const Carousell = () => {
 	const [images, setImages] = useState([
@@ -38,18 +41,26 @@ export const Carousell = () => {
 	]);
 
 	return (
-		<Carousel>
+		<OwlCarousel
+			className="owl-theme"
+			loop
+			margin={10}
+			nav={true}
+			items={1}
+			autoplay={true}
+			autoplaySpeed={1000}
+		>
 			{images.map((img) => {
 				return (
-					<Carousel.Item key={img.id}>
-						<img className="d-block w-100" src={img.img} alt="First slide" />
-						<Carousel.Caption>
-							<h3 className="font-acme">{img.captionHeading}</h3>
-							<p className="font-ubuntu">{img.captionDesc}</p>
-						</Carousel.Caption>
-					</Carousel.Item>
+					<div class="item">
+						<img src={img.img} />
+						<div className="carouselCaption">
+							<p>{img.captionHeading}</p>
+							<p>{img.captionDesc}</p>
+						</div>
+					</div>
 				);
 			})}
-		</Carousel>
+		</OwlCarousel>
 	);
 };

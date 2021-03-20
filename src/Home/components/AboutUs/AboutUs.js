@@ -9,7 +9,7 @@ export const AboutUs = () => {
 	const [zoom3, setZoom3] = useState(false);
 
 	return (
-		<div className="container-fluid mt-3 aboutUs" style={{ borderRadius: "10px" }}>
+		<div className="container-fluid mt-5 aboutUs">
 			<div className="container-fluid pt-5 aboutCards">
 				<div className="aboutCard pb-5">
 					<div

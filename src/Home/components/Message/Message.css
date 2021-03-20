@@ -1,8 +1,12 @@
 .messageBox {
 	background: #4b6cb7; /* fallback for old browsers */
 	background: -webkit-linear-gradient(315deg, #182848, #3668dd); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(315deg, #182848, #3668dd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: linear-gradient(
+		315deg,
+		#182848,
+		#3668dd
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 0 !important;
 	display: flex;
 	flex-direction: column;
 	background-color: transparent;
@@ -16,6 +20,7 @@
 	background-color: transparent;
 	align-items: center;
 	justify-content: center;
+	padding: 0 !important;
 }
 
 .messageBox .card-body {
