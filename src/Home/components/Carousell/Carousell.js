@@ -8,36 +8,11 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 
 export const Carousell = () => {
 	const [images, setImages] = useState([
-		{
-			id: 1,
-			img: image15,
-			captionHeading: "First slide label",
-			captionDesc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-		},
-		{
-			id: 2,
-			img: image15,
-			captionHeading: "Second slide label",
-			captionDesc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-		},
-		{
-			id: 3,
-			img: image15,
-			captionHeading: "Third slide label",
-			captionDesc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-		},
-		{
-			id: 4,
-			img: image15,
-			captionHeading: "Fourth slide label",
-			captionDesc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-		},
-		{
-			id: 5,
-			img: image15,
-			captionHeading: "Fifth slide label",
-			captionDesc: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-		},
+		{ img: image15 },
+		{ img: image15 },
+		{ img: image15 },
+		{ img: image15 },
+		{ img: image15 },
 	]);
 
 	return (
