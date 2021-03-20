@@ -8,7 +8,7 @@ const CollaborationsDropdown = () => {
 			<DropdownSection data-first-dropdown-section>
 				<ul>
 					<HeadingLink>
-						<Link to="/">
+						<Link to="/mou">
 							<Icon /> MOU
 						</Link>
 					</HeadingLink>
@@ -27,16 +27,6 @@ const CollaborationsDropdown = () => {
 							</li>
 						</DropdownSection>
 					</div>
-					{/*<HeadingLink>
-						<a href="https://academic.iiti.ac.in/" target="_blank">
-							<Icon /> Student
-						</a>
-					</HeadingLink>
-					<HeadingLink>
-						<Link to="/">
-							<Icon /> Faculty
-						</Link>
-					</HeadingLink>*/}
 					<HeadingLink noMarginBottom>
 						<Link to="/">
 							<Icon /> Grants
