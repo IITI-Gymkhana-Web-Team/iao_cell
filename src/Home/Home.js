@@ -17,6 +17,10 @@ import { NewsPage } from "./components/NewsPage/Newspage";
 import { EventsPage } from "./components/EventsPage/EventsPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { Mou } from "./components/Collaborations/Mou";
+import { Sparc } from "./components/MHRDPage/Sparc";
+import { Asem } from "./components/MHRDPage/Asem";
+import { Vajra } from "./components/MHRDPage/Vajra";
+import { Gian } from "./components/MHRDPage/Gian";
 
 export const Home = () => {
 	return (
@@ -41,6 +45,10 @@ export const Home = () => {
 					<Route path="/outreach/events" exact component={EventsPage} />
 					<Route path="/OfficeIR" exact component={OfficeIR} />
 					<Route path="/mou" exact component={Mou} />
+					<Route path="/mhrd/sparc" exact component={Sparc} />
+					<Route path="/mhrd/asem" exact component={Asem} />
+					<Route path="/mhrd/vajra" exact component={Vajra} />
+					<Route path="/mhrd/gian" exact component={Gian} />
 				</Switch>
 			</div>
 			<Footer />

@@ -32,8 +32,20 @@ import rajeshkumar from "./rajeshkumar.jpeg";
 import kcpradhan from "./kcpradhan.jpg";
 import neelesh from "./neelesh-jain.jpg";
 import ic from "./ic.png";
+import kapil from "./kapil.jpg";
+import sahu from "./sahu.jpg";
+import nserb from "./nserb.jpg";
+import iitkgp from "./iitkgp.png";
+import antony from "./antony.png";
+import asem2 from "./asem.png";
 
 export {
+	asem2,
+	nserb,
+	antony,
+	sahu,
+	iitkgp,
+	kapil,
 	ic,
 	neelesh,
 	kcpradhan,

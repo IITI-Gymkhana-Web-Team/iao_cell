@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Maps.css";
 import { VectorMap } from "react-jvectormap";
-import { FiZoomIn } from "react-icons/fi";
 
 export const Maps = () => {
 	const [heightOfMap, setHeightOfMap] = useState("520px");

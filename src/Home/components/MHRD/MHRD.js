@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./MHRD.css";
 import { Card, CardDeck } from "react-bootstrap";
 import { asem, vajra, sparc, gian } from "../../../assets";
+import { Link } from "react-router-dom";
 
 export const MHRD = () => {
-	const [images, setImages] = useState([
-		{ img: gian, link: "#" },
-		{ img: vajra, link: "#" },
-		{ img: sparc, link: "#" },
-		{ img: asem, link: "#" },
+	const [images] = useState([
+		{ img: gian, link: "/mhrd/gian" },
+		{ img: vajra, link: "/mhrd/vajra" },
+		{ img: sparc, link: "/mhrd/sparc" },
+		{ img: asem, link: "/mhrd/asem" },
 	]);
 
 	return (
@@ -20,9 +21,9 @@ export const MHRD = () => {
 				{images.map((img, index) => {
 					return (
 						<Card className="mhrdCard" key={index}>
-							<a href={img.link}>
+							<Link to={img.link}>
 								<Card.Img variant="top" src={img.img} />
-							</a>
+							</Link>
 						</Card>
 					);
 				})}
