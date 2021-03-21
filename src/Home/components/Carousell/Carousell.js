@@ -25,10 +25,11 @@ export const Carousell = () => {
 			autoplaySpeed={1500}
 			navSpeed={1500}
 			dotsSpeed={1500}
+			autoplayTimeout={7000}
 		>
 			{images.map((img, index) => {
 				return (
-					<div class="item" key={index}>
+					<div className="item" key={index}>
 						<img src={img.img} />
 					</div>
 				);

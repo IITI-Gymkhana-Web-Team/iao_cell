@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Maps.css";
 import { VectorMap } from "react-jvectormap";
+import { FiZoomIn } from "react-icons/fi";
 
 export const Maps = () => {
 	const [heightOfMap, setHeightOfMap] = useState("520px");
@@ -10,6 +11,12 @@ export const Maps = () => {
 	};
 
 	useEffect(() => {
+		if (document.getElementsByClassName("jvectormap-zoomin")[0] != undefined) {
+			document.getElementsByClassName("jvectormap-zoomin")[0].innerHTML =
+				"<i class='fa fa-search-plus'></i>";
+			document.getElementsByClassName("jvectormap-zoomout")[0].innerHTML =
+				"<i class='fa fa-search-minus'></i>";
+		}
 		window.addEventListener("resize", updateDimensions);
 		return () => window.removeEventListener("resize", updateDimensions);
 	}, [window.innerWidth]);
