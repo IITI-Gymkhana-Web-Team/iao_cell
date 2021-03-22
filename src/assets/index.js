@@ -35,11 +35,13 @@ import ic from "./ic.png";
 import kapil from "./kapil.jpg";
 import sahu from "./sahu.jpg";
 import nserb from "./nserb.jpg";
+import shilpa from "./shilpa.jpg";
 import iitkgp from "./iitkgp.png";
 import antony from "./antony.png";
 import asem2 from "./asem.png";
 
 export {
+	shilpa,
 	asem2,
 	nserb,
 	antony,

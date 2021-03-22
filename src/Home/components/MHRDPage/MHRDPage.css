@@ -29,6 +29,7 @@
 
 .mhrdPage .form-group {
 	width: min(500px, 100%);
+	font-family: Ubuntu;
 }
 
 .mhrdPage form {

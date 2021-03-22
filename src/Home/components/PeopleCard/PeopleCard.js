@@ -1,6 +1,6 @@
 import React from "react";
 import "./PeopleCard.css";
-import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
+// import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export const PeopleCard = ({ person }) => {
 	return (
@@ -16,11 +16,12 @@ export const PeopleCard = ({ person }) => {
 				<p>
 					<a href={"mailto:" + person.email}>{person.email}</a>
 				</p>
-				{/*
+				{person.land && <p>{person.land + " (" + person.extn + ")"}</p>}
+				{person.phno && (
 					<p>
 						<a href={"tel:" + person.phno}>{person.phno}</a>
 					</p>
-				*/}
+				)}
 				{/*
 					<p>
 						{person.fb != "" && (

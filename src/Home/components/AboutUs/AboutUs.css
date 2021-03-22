@@ -59,6 +59,8 @@
 	padding: 20px;
 	margin-bottom: 70px;
 	border-radius: 10px;
+	background-color: #dadada;
+	box-shadow: 0 0 1px 2px #aaa;
 }
 
 .aboutUnderline {
