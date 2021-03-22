@@ -10,14 +10,14 @@
 }
 
 .coords > div {
-	width: max(50%, 400px);
+	width: max(48%, 400px);
 }
 
 .coordCard {
 	display: flex;
 	border: 1px solid #ccc;
 	border-radius: 5px;
-	width: 95%;
+	width: 100%;
 	overflow: hidden;
 	align-items: center;
 }
