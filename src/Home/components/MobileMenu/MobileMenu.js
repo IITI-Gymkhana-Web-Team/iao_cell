@@ -81,7 +81,7 @@ export const MobileMenu = ({ show, setShow }) => {
 					name: "Student",
 					innerLinks: [
 						{ name: "Internships", link: "#", level: "3" },
-						{ name: "PG/PHD", link: "/opportunities/pg_phd_position", level: "3" },
+						{ name: "PG/PHD", link: "/opportunities/pg_phd_post_doc", level: "3" },
 						{ name: "Scholarships", link: "/opportunities/scholarship", level: "3" },
 						{ name: "Post Doc", link: "#", level: "3" },
 					],

@@ -4,7 +4,7 @@ import { Icon, DropdownSection, Heading, HeadingLink } from "./Components";
 import { Link } from "react-router-dom";
 
 const OpportunitiesDropdownEl = styled.div`
-	width: 13rem;
+	width: 15rem;
 `;
 
 const Logo = styled.div`
@@ -64,14 +64,14 @@ const OpportunitiesDropdown = () => {
 								<Link to="/">Internships</Link>
 							</li>
 							<li>
-								<Link to="/opportunities/pg_phd_position">PG/PHD</Link>
+								<Link to="/opportunities/pg_phd_post_doc">PG/PHD/Post Doc</Link>
 							</li>
 							<li>
 								<Link to="/opportunities/scholarship">Scholarships</Link>
 							</li>
-							<li>
+							{/*<li>
 								<Link to="/">Post Doc</Link>
-							</li>
+							</li>*/}
 						</DropdownSection>
 					</div>
 					<HeadingLink noMarginBottom>
