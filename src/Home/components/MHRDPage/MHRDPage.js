@@ -17,7 +17,13 @@ export const MHRDPage = ({ info, name, person, insti, desc }) => {
 							<h5 className="font-acme" style={{ color: "var(--dark-blue)" }}>
 								{person.designation}
 							</h5>
-							<p className="font-ubuntu">{person.email}</p>
+							<a
+								className="font-ubuntu"
+								href={"mailto:" + person.email}
+								style={{ color: "black" }}
+							>
+								{person.email}
+							</a>
 						</div>
 					</div>
 				</div>
