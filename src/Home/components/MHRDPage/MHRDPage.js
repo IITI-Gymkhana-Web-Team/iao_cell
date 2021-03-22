@@ -1,10 +1,16 @@
 import React, { useState } from "react";
 import { Table } from "react-bootstrap";
 import "./MHRDPage.css";
+import { Form } from "react-bootstrap";
 
 export const MHRDPage = ({ info, name, person, insti, desc }) => {
+	const [year, setYear] = useState("None");
+	const [title, setTitle] = useState("");
+	const [iitiPi, setIitiPi] = useState("");
+	const [domain, setDomain] = useState("");
+
 	return (
-		<div className="container mb-5">
+		<div className="container mb-5 mhrdPage">
 			<h1 className="pt-4 mainTitle">{name}</h1>
 			<p className="font-ubuntu">{desc}</p>
 			<div className="coords mt-5">
@@ -56,34 +62,94 @@ export const MHRDPage = ({ info, name, person, insti, desc }) => {
 					</div>
 				)}
 			</div>
-
+			<Form>
+				<Form.Group controlId="exampleForm.ControlInput1">
+					<Form.Label>Search By Title</Form.Label>
+					<Form.Control
+						type="email"
+						placeholder="Use of Hydrogen as a Future Fuel"
+						onChange={(e) => {
+							setTitle(e.target.value);
+						}}
+					/>
+				</Form.Group>
+				<Form.Group controlId="exampleForm.ControlInput2">
+					<Form.Label>Search By IITI PI</Form.Label>
+					<Form.Control
+						type="text"
+						placeholder="Dr. ABC"
+						onChange={(e) => {
+							setIitiPi(e.target.value);
+						}}
+					/>
+				</Form.Group>
+				<Form.Group controlId="exampleForm.ControlInput3">
+					<Form.Label>Search By Domain</Form.Label>
+					<Form.Control
+						type="text"
+						placeholder="Science & Heritage"
+						onChange={(e) => {
+							setDomain(e.target.value);
+						}}
+					/>
+				</Form.Group>
+				<Form.Group controlId="exampleForm.ControlSelect1">
+					<Form.Label>Sort By Year</Form.Label>
+					<Form.Control
+						as="select"
+						onChange={(e) => {
+							setYear(e.target.value);
+						}}
+					>
+						<option value="None">None</option>
+						<option value="2020">2020</option>
+						<option value="2019">2019</option>
+						<option value="2018">2018</option>
+						<option value="2017">2017</option>
+						<option value="2016">2016</option>
+						<option value="2015">2015</option>
+					</Form.Control>
+				</Form.Group>
+			</Form>
 			<h2 className="font-acme">Approved Projects</h2>
 			<Table striped bordered hover variant="success" responsive>
 				<thead>
 					<tr>
-						<th style={{ textAlign: "center" }}>#</th>
-						<th style={{ textAlign: "center" }}>Year</th>
-						<th style={{ textAlign: "center" }}>Domain</th>
-						<th style={{ textAlign: "center" }}>Title</th>
-						<th style={{ textAlign: "center" }}>IITI PI</th>
-						<th style={{ textAlign: "center" }}>Foreign PI</th>
-						<th style={{ textAlign: "center" }}>Foreign University</th>
-						<th style={{ textAlign: "center" }}>Country</th>
+						<th>#</th>
+						<th>Year</th>
+						<th>Domain</th>
+						<th>Title</th>
+						<th>IITI PI</th>
+						<th>Foreign PI</th>
+						<th>Foreign University</th>
+						<th>Country</th>
 					</tr>
 				</thead>
 				<tbody>
 					{info.map((info1, index) => {
 						return (
-							<tr key={index}>
-								<td style={{ textAlign: "center" }}>{index + 1}</td>
-								<td style={{ textAlign: "center" }}>{info1.Year}</td>
-								<td style={{ textAlign: "center" }}>{info1.Domain}</td>
-								<td style={{ textAlign: "center" }}>{info1.Title}</td>
-								<td style={{ textAlign: "center" }}>{info1.Ip}</td>
-								<td style={{ textAlign: "center" }}>{info1.Fp}</td>
-								<td style={{ textAlign: "center" }}>{info1.Fu}</td>
-								<td style={{ textAlign: "center" }}>{info1.Country}</td>
-							</tr>
+							(year == "None" || info1.Year.toLowerCase().indexOf(year) != -1) &&
+							(title == "" ||
+								(info1.Title || "--").toLowerCase().indexOf(title.toLowerCase()) !=
+									-1) &&
+							(domain == "" ||
+								(info1.Domain || "--")
+									.toLowerCase()
+									.indexOf(domain.toLowerCase()) != -1) &&
+							(iitiPi == "" ||
+								(info1.Ip || "--").toLowerCase().indexOf(iitiPi.toLowerCase()) !=
+									-1) && (
+								<tr key={index}>
+									<td>{index + 1}</td>
+									<td>{info1.Year || "--"}</td>
+									<td>{info1.Domain || "--"}</td>
+									<td>{info1.Title || "--"}</td>
+									<td>{info1.Ip || "--"}</td>
+									<td>{info1.Fp || "--"}</td>
+									<td>{info1.Fu || "--"}</td>
+									<td>{info1.Country || "--"}</td>
+								</tr>
+							)
 						);
 					})}
 				</tbody>

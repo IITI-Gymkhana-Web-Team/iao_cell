@@ -6,8 +6,6 @@ export const Vajra = () => {
 	const [info] = useState([
 		{
 			Year: "2020",
-			Domain: "N/A",
-			Title: "N/A",
 			Ip: "Dr. Kiran Bala",
 			Fp: "Prof. Ganti Suryanarayana Murthy*",
 			Fu: "Oregon State University",
@@ -15,8 +13,6 @@ export const Vajra = () => {
 		},
 		{
 			Year: "2020",
-			Domain: "N/A",
-			Title: "N/A",
 			Ip: "Dr. Neelima Satyam Devarakonda",
 			Fp: "Prof. Krishna R Reddy",
 			Fu: "University of Illinois",
@@ -24,8 +20,6 @@ export const Vajra = () => {
 		},
 		{
 			Year: "2020",
-			Domain: "N/A",
-			Title: "N/A",
 			Ip: "Dr. Ritunesh Kumar",
 			Fp: "Prof. Amitabh Narain",
 			Fu: "Michigan Technological University",
@@ -33,8 +27,6 @@ export const Vajra = () => {
 		},
 		{
 			Year: "2020",
-			Domain: "N/A",
-			Title: "N/A",
 			Ip: "Dr. Manish Kumar Goel",
 			Fp: "Prof. Rao Y. Surampalli",
 			Fu: "Global Institute for Energy, Environment, and Sustainability",
@@ -42,8 +34,6 @@ export const Vajra = () => {
 		},
 		{
 			Year: "2017",
-			Domain: "N/A",
-			Title: "N/A",
 			Ip: "Dr. Ritunesh Kumar",
 			Fp: "Prof. Amitabh Narain",
 			Fu: "Michigan Technological University",
@@ -51,8 +41,6 @@ export const Vajra = () => {
 		},
 		{
 			Year: "2017",
-			Domain: "N/A",
-			Title: "N/A",
 			Ip: "Dr. M. Ashok Kumar",
 			Fp: "Prof. Michel Broniatowski",
 			Fu: "Université Pierre et Marie Curie",

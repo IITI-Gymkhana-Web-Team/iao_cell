@@ -6,7 +6,6 @@ export const Asem = () => {
 	const [info] = useState([
 		{
 			Year: "2020",
-			Domain: "N/A",
 			Title: "Cutting Edge Research Problems in the area of Network and Cyber Security",
 			Ip: "Dr. Neminath Hubballi",
 			Fp: "Prof. Muttukrishnan Rajarajan",
@@ -15,7 +14,6 @@ export const Asem = () => {
 		},
 		{
 			Year: "2020",
-			Domain: "N/A",
 			Title:
 				"Nanotechnology, Sensor Technology, Electronics Engineering and Semiconductor Physics",
 			Ip: "Dr. Shaibal Mukherjee",
@@ -25,7 +23,6 @@ export const Asem = () => {
 		},
 		{
 			Year: "2020",
-			Domain: "N/A",
 			Title: "Important of Dual ion Batteries for Future Energy Applications",
 			Ip: "Dr. Biswarup Pathak",
 			Fp: "Prof. Rajeev Ahuja",
@@ -34,7 +31,6 @@ export const Asem = () => {
 		},
 		{
 			Year: "2020",
-			Domain: "N/A",
 			Title:
 				"Unveiling the Cosmic Dawn: Novel Techniques to Study the Reionization of the Early Universe",
 			Ip: "Dr. Suman Majumdar",
@@ -44,7 +40,6 @@ export const Asem = () => {
 		},
 		{
 			Year: "2020",
-			Domain: "N/A",
 			Title: "Photo-active Mesoporous ABO3 Compounds",
 			Ip: "Dr. Rupesh Shivaji Devan",
 			Fp: "Prof. Nelson Dzade",
@@ -53,7 +48,6 @@ export const Asem = () => {
 		},
 		{
 			Year: "2020",
-			Domain: "N/A",
 			Title:
 				"A Digital Narratology of Technology as Literary Actors and Artefacts of Setting in Indian English Novels",
 			Ip: "Ms. Shanmugapriya T (under Dr. Nirmala Menon)",

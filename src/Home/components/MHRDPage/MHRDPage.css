@@ -21,3 +21,20 @@
 	overflow: hidden;
 	align-items: center;
 }
+
+.mhrdPage tr,
+.mhrdPage th {
+	text-align: center;
+}
+
+.mhrdPage .form-group {
+	width: min(500px, 100%);
+}
+
+.mhrdPage form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
