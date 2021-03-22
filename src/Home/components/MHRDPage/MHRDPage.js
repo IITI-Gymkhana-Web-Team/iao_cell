@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import { Table } from "react-bootstrap";
 import "./MHRDPage.css";
 
-export const MHRDPage = ({ info, name, person, insti }) => {
+export const MHRDPage = ({ info, name, person, insti, desc }) => {
 	return (
 		<div className="container mb-5">
-			<div className="container-fluid">
-				<h1 className="p-2 pl-5 pt-4 pr-5 mainTitle text-center">{name}</h1>
-			</div>
+			<h1 className="pt-4 mainTitle">{name}</h1>
+			<p className="font-ubuntu">{desc}</p>
 			<div className="coords mt-5">
 				<div>
 					<h3 className="font-acme">Coordinator</h3>

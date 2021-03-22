@@ -33,15 +33,6 @@ export const Gian = () => {
 			Fu: "Purdue University",
 			Country: "USA",
 		},
-		{
-			Year: "abcd",
-			Domain: "abcd",
-			Title: "abcd",
-			Ip: "abcd",
-			Fp: "abcd",
-			Fu: "abcd",
-			Country: "abcd",
-		},
 	]);
 
 	const [person] = useState({
@@ -57,7 +48,11 @@ export const Gian = () => {
 		link: "https://gian.iitkgp.ac.in/",
 	});
 
+	const [desc] = useState(
+		"Dolor consectetur magna esse amet laborum commodo mollit quis irure. Laboris velit excepteur in veniam in ex. Dolore aliqua esse Lorem sint.Dolor consectetur magna esse amet laborum commodo mollit quis irure. Laboris velit excepteur in veniam in ex. Dolore aliqua esse Lorem sint.Deserunt eiusmod proident incididunt dolore ullamco aliquip nulla. Nulla aliquip officia commodo do qui. Excepteur aliquip quis cupidatat culpa aute consequat eu exercitation. Do voluptate velit excepteur elit nostrud. Culpa ad excepteur Lorem quis consectetur ut nulla sunt consectetur ea in adipisicing. Consequat eiusmod aliqua officia esse ullamco aliquip deserunt."
+	);
+
 	const [name] = useState("GIAN");
 
-	return <MHRDPage info={info} name={name} insti={insti} person={person} />;
+	return <MHRDPage info={info} name={name} desc={desc} insti={insti} person={person} />;
 };
