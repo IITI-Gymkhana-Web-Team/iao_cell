@@ -1,18 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export const Newscard = ({ title, text, date, img }) => {
+export const Newscard = ({ title, text, date, img, index }) => {
 	return (
-		<div className="card mb-3 mb-4">
-			<div className="row g-0">
-				<div className="col-md-4">
-					<img style={{ width: "100%" }} src={img} />
-				</div>
-				<div className="col-md-8" style={{ display: "flex", flexDirection: "column" }}>
-					<div className="card-body">
+		<div className="card">
+			<img src={img} style={{ maxHeight: "300px" }} />
+			<div style={{ display: "flex", flexDirection: "column" }}>
+				<div className="card-body">
+					<Link to={"/outreach/news/" + index}>
 						<h4 className="card-title font-acme">{title}</h4>
-						<p className="card-text">{text}</p>
-						<span className="text-muted">{date}</span>
-					</div>
+					</Link>
+					<p className="text-muted">{date}</p>
+					<p className="card-text">{text.slice(0, 160) + "..."}</p>
 				</div>
 			</div>
 		</div>

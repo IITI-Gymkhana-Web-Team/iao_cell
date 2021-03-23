@@ -1,29 +1,31 @@
 import React from "react";
 import "./OutreachEvent.css";
 import { Card } from "react-bootstrap";
-import { BiCalendar, BiChevronRight } from "react-icons/bi";
-import { IoArrowRedoSharp } from "react-icons/io5";
+import { BiCalendar, BiChevronRight, BiTimeFive } from "react-icons/bi";
 import { FaMapMarkerAlt } from "react-icons/fa";
-export const OutreachEvent = ({ Events, setIndex, i }) => {
+import { Link } from "react-router-dom";
+
+export const OutreachEvent = ({ Events, i }) => {
 	return (
 		<Card className="outreach">
 			<div className="img-holder">
 				<Card.Img variant="top" src={Events.img} />
 			</div>
 			<Card.Body className="font-ubuntu">
-				<Card.Title
-					onClick={() => {
-						setIndex(i);
-						window.scrollTo(0, 0);
-					}}
-					style={{ cursor: "pointer" }}
-				>
-					<span className="font-acme">{Events.title}</span>
-				</Card.Title>
+				<Link to={"/outreach/events/" + i}>
+					<Card.Title>
+						<span className="font-acme">{Events.title}</span>
+					</Card.Title>
+				</Link>
 				<Card.Text className="stuff">
 					<BiCalendar />
 					&nbsp;
-					<span>{Events.duration}</span>
+					<span>{Events.date}</span>
+				</Card.Text>
+				<Card.Text className="stuff">
+					<BiTimeFive />
+					&nbsp;
+					<span>{Events.time}</span>
 				</Card.Text>
 				<Card.Text className="stuff">
 					<FaMapMarkerAlt />
@@ -39,15 +41,6 @@ export const OutreachEvent = ({ Events, setIndex, i }) => {
 						);
 					})}
 				</ul>
-				<Card.Text>
-					<IoArrowRedoSharp
-						onClick={() => {
-							setIndex(i);
-							window.scrollTo(0, 0);
-						}}
-						style={{ fontSize: "20px", cursor: "pointer" }}
-					/>
-				</Card.Text>
 			</Card.Body>
 		</Card>
 	);

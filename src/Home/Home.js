@@ -21,6 +21,9 @@ import { Sparc } from "./components/MHRDPage/Sparc";
 import { Asem } from "./components/MHRDPage/Asem";
 import { Vajra } from "./components/MHRDPage/Vajra";
 import { Gian } from "./components/MHRDPage/Gian";
+import { IndiEvent } from "./components/EventsPage/IndiEvent";
+import { NotFound } from "./components/NotFound/NotFound";
+import { IndiNews } from "./components/NewsPage/IndiNews";
 
 export const Home = () => {
 	return (
@@ -42,13 +45,16 @@ export const Home = () => {
 					<Route path="/opportunities/pg_phd_post_doc" exact component={Pg_Phd} />
 					<Route path="/opportunities/scholarship" exact component={Scholarship} />
 					<Route path="/outreach/news" exact component={NewsPage} />
+					<Route path="/outreach/news/:id" exact component={IndiNews} />
 					<Route path="/outreach/events" exact component={EventsPage} />
+					<Route path="/outreach/events/:id" exact component={IndiEvent} />
 					<Route path="/OfficeIR" exact component={OfficeIR} />
 					<Route path="/mou" exact component={Mou} />
 					<Route path="/mhrd/sparc" exact component={Sparc} />
 					<Route path="/mhrd/asem" exact component={Asem} />
 					<Route path="/mhrd/vajra" exact component={Vajra} />
 					<Route path="/mhrd/gian" exact component={Gian} />
+					<Route component={NotFound} />
 				</Switch>
 			</div>
 			<Footer />
