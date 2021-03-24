@@ -21,10 +21,17 @@
 	overflow: auto;
 }
 
+.mmenuP1 {
+	position: sticky;
+	top: -20px;
+	background-color: #fff;
+	padding-top: 20px;
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+}
+
 .closeIcon {
-	position: absolute;
-	top: 20px;
-	right: 20px;
 	font-size: 30px;
 	cursor: pointer;
 }
@@ -43,8 +50,7 @@
 }
 
 .menuHeading {
-	text-align: center;
-	width: 100%;
+	padding-left: 25px;
 }
 
 .upIcon {
