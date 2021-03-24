@@ -44,15 +44,29 @@ export const MobileMenuLinks = ({ link1, setShow2, show2 }) => {
 			)) ||
 				(typeof link1.innerLinks === "undefined" && (
 					<div className={"menu" + link1.level + " indiMenuLink"}>
-						<Link
-							to={link1.link}
-							onClick={() => {
-								setShow2(false);
-								setShow(false);
-							}}
-						>
-							{link1.name}
-						</Link>
+						{link1.link[0] == "h" && (
+							<a
+								href={link1.link}
+								target="_blank"
+								onClick={() => {
+									setShow2(false);
+									setShow(false);
+								}}
+							>
+								{link1.name}
+							</a>
+						)}
+						{link1.link[0] != "h" && (
+							<Link
+								to={link1.link}
+								onClick={() => {
+									setShow2(false);
+									setShow(false);
+								}}
+							>
+								{link1.name}
+							</Link>
+						)}
 					</div>
 				))}
 		</>
