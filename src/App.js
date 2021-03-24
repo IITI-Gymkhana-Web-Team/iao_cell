@@ -11,8 +11,8 @@ function App() {
 
 	return (
 		<div className="App">
-			{isLoading && <Home />}
-			{!isLoading && <Preloader />}
+			{!isLoading && <Home />}
+			{isLoading && <Preloader />}
 		</div>
 	);
 }
