@@ -6,21 +6,25 @@ import DropdownContainer from "./DropdownContainer";
 import OpportunitiesDropdown from "./DropdownContents/OpportunitiesDropdown";
 import AboutDropdown from "./DropdownContents/AboutDropdown";
 import PeopleDropdown from "./DropdownContents/PeopleDropdown";
+import CommitteeDropdown from "./DropdownContents/CommitteeDropdown";
 import CollaborationsDropdown from "./DropdownContents/CollaborationsDropdown";
 import ResearchDropdown from "./DropdownContents/ResearchDropdown";
 import PsDropdown from "./DropdownContents/PsDropdown";
 import OutreachDropdown from "./DropdownContents/OutreachDropdown";
 import ContactDropdown from "./DropdownContents/ContactDropdown";
+import FacilitiesDropdown from "./DropdownContents/FacilitiesDropdown";
 
 const navbarConfig = [
 	{ href: "/", title: "Home", dropdown: AboutDropdown },
 	{ href: "#", title: "People", dropdown: PeopleDropdown },
+	{ href: "#", title: "Committees", dropdown: CommitteeDropdown },
 	{ href: "#", title: "Collaborations", dropdown: CollaborationsDropdown },
 	{ href: "#", title: "Prospective", dropdown: PsDropdown },
 	{ href: "#", title: "Opportunities", dropdown: OpportunitiesDropdown },
 	{ href: "#", title: "Outreach", dropdown: OutreachDropdown },
 	{ href: "#", title: "Research", dropdown: ResearchDropdown },
-	{ href: "#", title: "Contact", dropdown: ContactDropdown },
+	{ href: "#", title: "Facilities", dropdown: FacilitiesDropdown },
+	{ href: "/OfficeIR", title: "Contact", dropdown: ContactDropdown },
 ];
 
 export default class AnimatedNavbar extends Component {
@@ -64,7 +68,9 @@ export default class AnimatedNavbar extends Component {
 		let direction;
 
 		const currentIndex = this.state.activeIndices[this.state.activeIndices.length - 1];
-		const prevIndex = this.state.activeIndices.length > 1 && this.state.activeIndices[this.state.activeIndices.length - 2];
+		const prevIndex =
+			this.state.activeIndices.length > 1 &&
+			this.state.activeIndices[this.state.activeIndices.length - 2];
 
 		if (typeof currentIndex === "number") CurrentDropdown = navbarConfig[currentIndex].dropdown;
 		if (typeof prevIndex === "number") {
@@ -73,13 +79,26 @@ export default class AnimatedNavbar extends Component {
 		}
 
 		return (
-			<Flipper flipKey={currentIndex} spring={duration === 300 ? "noWobble" : { stiffness: 10, damping: 10 }}>
+			<Flipper
+				flipKey={currentIndex}
+				spring={duration === 300 ? "noWobble" : { stiffness: 10, damping: 10 }}
+			>
 				<Navbar onMouseLeave={this.onMouseLeave}>
 					{navbarConfig.map((n, index) => {
 						return (
-							<NavbarItem key={n.title} href={n.href} title={n.title} index={index} onMouseEnter={this.onMouseEnter}>
+							<NavbarItem
+								key={n.title}
+								href={n.href}
+								title={n.title}
+								index={index}
+								onMouseEnter={this.onMouseEnter}
+							>
 								{currentIndex === index && (
-									<DropdownContainer direction={direction} animatingOut={this.state.animatingOut} duration={duration}>
+									<DropdownContainer
+										direction={direction}
+										animatingOut={this.state.animatingOut}
+										duration={duration}
+									>
 										<CurrentDropdown />
 										{PrevDropdown && <PrevDropdown />}
 									</DropdownContainer>

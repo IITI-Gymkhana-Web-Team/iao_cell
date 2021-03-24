@@ -4,22 +4,17 @@ import { Link } from "react-router-dom";
 
 const PeopleDropdown = () => {
 	return (
-		<div style={{ width: "25.5rem" }}>
+		<div style={{ width: "20rem" }}>
 			<DropdownSection data-first-dropdown-section>
 				<ul>
 					<HeadingLink>
 						<Link to="/people/oia">
-							<Icon /> Office of International Affairs
-						</Link>
-					</HeadingLink>
-					<HeadingLink>
-						<Link to="/people/oc">
-							<Icon /> Outreach Committee
+							<Icon /> International Affairs
 						</Link>
 					</HeadingLink>
 					<HeadingLink noMarginBottom>
 						<Link to="/people/sc">
-							<Icon /> SIR Cell
+							<Icon /> SIA Cell
 						</Link>
 					</HeadingLink>
 				</ul>

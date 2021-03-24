@@ -24,6 +24,7 @@ import { Gian } from "./components/MHRDPage/Gian";
 import { IndiEvent } from "./components/EventsPage/IndiEvent";
 import { NotFound } from "./components/NotFound/NotFound";
 import { IndiNews } from "./components/NewsPage/IndiNews";
+import { CommitteesPage } from "./pages/CommitteesPage/CommitteesPage";
 
 export const Home = () => {
 	return (
@@ -36,7 +37,34 @@ export const Home = () => {
 			<div>
 				<Switch>
 					<Route path="/" exact component={HomePage} />
-					<Route path="/people/:ct" exact component={People} />
+					<Route
+						path="/people/oia"
+						exact
+						component={() => {
+							return <People index={1} />;
+						}}
+					/>
+					<Route
+						path="/people/sc"
+						exact
+						component={() => {
+							return <People index={2} />;
+						}}
+					/>
+					<Route
+						path="/committee/oc"
+						exact
+						component={() => {
+							return <CommitteesPage index={1} />;
+						}}
+					/>
+					<Route
+						path="/committee/mec"
+						exact
+						component={() => {
+							return <CommitteesPage index={2} />;
+						}}
+					/>
 					<Route path="/Aboutiiti" exact component={Aboutiiti} />
 					<Route path="/ProsStud/visa" exact component={Visa} />
 					<Route path="/ProsStud/places" exact component={Places} />
