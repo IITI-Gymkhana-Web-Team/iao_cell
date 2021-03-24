@@ -12,6 +12,14 @@ const CollaborationsDropdown = () => {
 							<Icon /> MOU
 						</Link>
 					</HeadingLink>
+					<div className="d-flex mobDropdown">
+						<DropdownSection>
+							<li><Link to="/mou/asia">Asia</Link></li>
+							<li><Link to="/mou/australia">Australia</Link></li>
+							<li><Link to="/mou/americas">Americas</Link></li>
+							<li><Link to="/mou/europe">Europe</Link></li>
+						</DropdownSection>
+					</div>
 					<HeadingLink>
 						<Icon /> Mobility Exchange
 					</HeadingLink>

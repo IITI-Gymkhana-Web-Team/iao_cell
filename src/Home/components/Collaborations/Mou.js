@@ -22,6 +22,16 @@ export const Mou = () => {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>6</td>
+                                <td >Univesity of Technology Sydney</td>
+                                <td >MoU</td>
+                                <td>Visits by and exchange of students for the purpose of research; Visits by interchange of staff for the purposes of research, teaching, and discussions;<br />Joint research activities; <br />Joint participation in internationally funded research projects;</td>
+                                <td>DOIA<br />&nbsp;DOAA<br />&nbsp;DORD</td>
+                                <td>October 24, 2019</td>
+                                <td>5 Years</td>
+                                <td>Sydney</td>
+                            </tr>
+                            <tr>
                                 <td style={{ textAlign: 'center' }} >1</td >
                                 <td style={{ textAlign: 'center' }}>IMT</td >
                                 <td style={{ textAlign: 'center' }}>September 12, 2018</td >

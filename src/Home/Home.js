@@ -25,6 +25,10 @@ import { IndiEvent } from "./components/EventsPage/IndiEvent";
 import { NotFound } from "./components/NotFound/NotFound";
 import { IndiNews } from "./components/NewsPage/IndiNews";
 import { CommitteesPage } from "./pages/CommitteesPage/CommitteesPage";
+import { Europe } from "./components/Collaborations/Europe";
+import { Asia } from "./components/Collaborations/Asia";
+import { Americas } from "./components/Collaborations/Americas";
+import { Australia } from "./components/Collaborations/Australia";
 
 export const Home = () => {
 	return (
@@ -77,7 +81,10 @@ export const Home = () => {
 					<Route path="/outreach/events" exact component={EventsPage} />
 					<Route path="/outreach/events/:id" exact component={IndiEvent} />
 					<Route path="/OfficeIR" exact component={OfficeIR} />
-					<Route path="/mou" exact component={Mou} />
+					<Route path="/mou/asia" exact component={Asia} />
+					<Route path="/mou/europe" exact component={Europe} />
+					<Route path="/mou/americas" exact component={Americas} />
+					<Route path="/mou/australia" exact component={Australia} />
 					<Route path="/mhrd/sparc" exact component={Sparc} />
 					<Route path="/mhrd/asem" exact component={Asem} />
 					<Route path="/mhrd/vajra" exact component={Vajra} />
