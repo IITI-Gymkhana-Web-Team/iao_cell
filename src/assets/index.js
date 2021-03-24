@@ -28,7 +28,7 @@ import abhinoy from "./abhinoy.webp";
 import manna from "./manna.webp";
 import spatel from "./spatel.webp";
 import bashada from "./bashada.webp";
-import rajeshkumar from "./rajeshkumar.jpeg";
+import rajeshkumar from "./rajeshkumar.webp";
 import kcpradhan from "./kcpradhan.webp";
 import neelesh from "./neelesh-jain.webp";
 import ic from "./ic.webp";
