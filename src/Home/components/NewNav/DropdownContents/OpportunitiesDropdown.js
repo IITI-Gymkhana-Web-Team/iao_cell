@@ -64,7 +64,7 @@ const OpportunitiesDropdown = () => {
 								<Link to="/">Internships</Link>
 							</li>
 							<li>
-								<Link to="/opportunities/pg_phd_post_doc">PG/PHD/Post Doc</Link>
+								<Link to="/opportunities/pg_phd_post_doc">PG/PhD/Post Doc</Link>
 							</li>
 							<li>
 								<Link to="/opportunities/scholarship">Scholarships</Link>
