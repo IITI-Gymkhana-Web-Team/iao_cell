@@ -36,8 +36,7 @@ export default function ({ event, i }) {
 						&nbsp; {event.speakers[0].name}
 					</Card.Text>
 					<Card.Text style={styles.text}>
-						{event.description.slice(0, 80) +
-							(event.description.length > 80 ? "..." : "")}
+						{event.desc.slice(0, 80) + (event.desc.length > 80 ? "..." : "")}
 					</Card.Text>
 				</Card.Body>
 			</Card>
