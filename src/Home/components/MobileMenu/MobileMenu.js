@@ -30,12 +30,21 @@ export const MobileMenu = ({ show, setShow }) => {
 		{
 			name: "Collaborations",
 			innerLinks: [
-				{ name: "MOU", link: "#", level: "2" },
+				{
+					name: "MOU",
+					innerLinks: [
+						{ name: "Asia", link: "/mou/asia", level: "3" },
+						{ name: "Australia", link: "/mou/australia", level: "3" },
+						{ name: "Americas", link: "/mou/americas", level: "3" },
+						{ name: "Europe", link: "/mou/europe", level: "3" },
+					],
+					level: "2",
+				},
 				{
 					name: "Mobility Exchange",
 					innerLinks: [
-						{ name: "Student", link: "#", level: "3" },
-						{ name: "Faculty", link: "#", level: "3" },
+						{ name: "Student", link: "/mobility/student", level: "3" },
+						{ name: "Faculty", link: "/mobility/faculty", level: "3" },
 					],
 					level: "2",
 				},
