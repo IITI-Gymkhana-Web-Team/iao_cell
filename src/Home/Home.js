@@ -75,6 +75,8 @@ export const Home = () => {
 					<Route path="/ProsStud/places" exact component={Places} />
 					<Route path="/ProsStud/admission" exact component={Admission} />
 					<Route path="/ProsStud/programs" exact component={Programs} />
+					<Route path="/ProsFaculty/visa" exact component={Visa} />
+					<Route path="/ProsFaculty/places" exact component={Places} />
 					<Route path="/opportunities/pg_phd_post_doc" exact component={Pg_Phd} />
 					<Route path="/opportunities/scholarship" exact component={Scholarship} />
 					<Route path="/outreach/news" exact component={NewsPage} />

@@ -69,8 +69,12 @@ export const MobileMenu = ({ show, setShow }) => {
 						{
 							name: "Faculty",
 							innerLinks: [
-								{ name: "Visa Process", link: "/ProsStud/visa", level: "4" },
-								{ name: "Places To Visit", link: "/ProsStud/places", level: "4" },
+								{ name: "Visa Process", link: "/ProsFaculty/visa", level: "4" },
+								{
+									name: "Places To Visit",
+									link: "/ProsFaculty/places",
+									level: "4",
+								},
 							],
 							level: "3",
 						},

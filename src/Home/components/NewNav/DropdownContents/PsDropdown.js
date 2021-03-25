@@ -15,10 +15,10 @@ const PsDropdown = () => {
 							<Icon /> Faculty
 						</HeadingLink>
 						<li>
-							<Link to="/ProsStud/visa">Visa Process</Link>
+							<Link to="/ProsFaculty/visa">Visa Process</Link>
 						</li>
 						<li>
-							<Link to="/ProsStud/places">Places to visit</Link>
+							<Link to="/ProsFaculty/places">Places to visit</Link>
 						</li>
 					</DropdownSection>
 					<DropdownSection>
