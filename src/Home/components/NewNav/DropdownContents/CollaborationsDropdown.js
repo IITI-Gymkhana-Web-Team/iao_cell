@@ -14,10 +14,18 @@ const CollaborationsDropdown = () => {
 					</HeadingLink>
 					<div className="d-flex mobDropdown">
 						<DropdownSection>
-							<li><Link to="/mou/asia">Asia</Link></li>
-							<li><Link to="/mou/australia">Australia</Link></li>
-							<li><Link to="/mou/americas">Americas</Link></li>
-							<li><Link to="/mou/europe">Europe</Link></li>
+							<li>
+								<Link to="/mou/asia">Asia</Link>
+							</li>
+							<li>
+								<Link to="/mou/australia">Australia</Link>
+							</li>
+							<li>
+								<Link to="/mou/americas">Americas</Link>
+							</li>
+							<li>
+								<Link to="/mou/europe">Europe</Link>
+							</li>
 						</DropdownSection>
 					</div>
 					<HeadingLink>
@@ -26,12 +34,10 @@ const CollaborationsDropdown = () => {
 					<div className="d-flex mobDropdown">
 						<DropdownSection>
 							<li>
-								<a href="https://academic.iiti.ac.in/" target="_blank">
-									Student
-								</a>
+								<Link to="/mobility/student">Student</Link>
 							</li>
 							<li>
-								<Link to="/">Faculty</Link>
+								<Link to="/mobility/faculty">Faculty</Link>
 							</li>
 						</DropdownSection>
 					</div>

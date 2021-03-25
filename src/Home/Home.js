@@ -25,6 +25,7 @@ import { NotFound } from "./components/NotFound/NotFound";
 import { IndiNews } from "./components/NewsPage/IndiNews";
 import { CommitteesPage } from "./pages/CommitteesPage/CommitteesPage";
 import { Mou2 } from "./components/Collaborations/Mou2";
+import { MobilityExchange } from "./components/MobilityExchange/MobilityExchange";
 
 export const Home = () => {
 	return (
@@ -81,34 +82,48 @@ export const Home = () => {
 						path="/mou/asia"
 						exact
 						component={() => {
-							return <Mou2 name={"ASIA"} />;
+							return <Mou2 name={"Asia"} />;
 						}}
 					/>
 					<Route
 						path="/mou/europe"
 						exact
 						component={() => {
-							return <Mou2 name={"EUROPE"} />;
+							return <Mou2 name={"Europe"} />;
 						}}
 					/>
 					<Route
 						path="/mou/americas"
 						exact
 						component={() => {
-							return <Mou2 name={"AMERICAS"} />;
+							return <Mou2 name={"Americas"} />;
 						}}
 					/>
 					<Route
 						path="/mou/australia"
 						exact
 						component={() => {
-							return <Mou2 name={"AUSTRALIA"} />;
+							return <Mou2 name={"Australia"} />;
 						}}
 					/>
 					<Route path="/mhrd/sparc" exact component={Sparc} />
 					<Route path="/mhrd/asem" exact component={Asem} />
 					<Route path="/mhrd/vajra" exact component={Vajra} />
 					<Route path="/mhrd/gian" exact component={Gian} />
+					<Route
+						path="/mobility/student"
+						exact
+						component={() => {
+							return <MobilityExchange type="student" />;
+						}}
+					/>
+					<Route
+						path="/mobility/faculty"
+						exact
+						component={() => {
+							return <MobilityExchange type="faculty" />;
+						}}
+					/>
 					<Route component={NotFound} />
 				</Switch>
 			</div>
