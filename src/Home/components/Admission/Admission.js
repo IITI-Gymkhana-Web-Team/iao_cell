@@ -121,7 +121,7 @@ export const Admission = () => {
 			<section>
 				<h3 className="font-acme">International Student List</h3>
 				<p>
-					For more information, <Link to="/people/is">Click here</Link>
+					For more information, <Link to="/int/students">Click here</Link>
 				</p>
 			</section>
 		</article>
