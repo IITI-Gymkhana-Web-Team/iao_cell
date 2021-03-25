@@ -1,24 +1,24 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { eventsImg } from "../../assets";
-import { BiCalendar, BiLink } from "react-icons/bi";
+import { BiCalendar } from "react-icons/bi";
 import { BsFillPersonFill } from "react-icons/bs";
 import { AiOutlineClockCircle } from "react-icons/ai";
-import { IoArrowRedo } from "react-icons/io5";
+import { Link } from "react-router-dom";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
-export default function ({ event }) {
+export default function ({ event, i }) {
 	return (
 		<div>
 			<Card className="eventsPage">
 				<div className="img-holder">
-					<Card.Img variant="top" src={eventsImg} />
+					<Card.Img variant="top" src={event.img} />
 				</div>
 				<Card.Body className="font-ubuntu">
-					<a href="#">
+					<Link to={"/outreach/events/" + i}>
 						<Card.Title style={styles.title} className="font-acme">
 							{event["title"]}
 						</Card.Title>
-					</a>
+					</Link>
 					<Card.Text style={styles.text}>
 						<BiCalendar />
 						&nbsp; {event.date}
@@ -27,22 +27,16 @@ export default function ({ event }) {
 						<AiOutlineClockCircle />
 						&nbsp; {event.time}
 					</Card.Text>
-					<Card.Text style={styles.text}>
-						<BiLink />
-						&nbsp; <a href={event.link}>Link</a>
+					<Card.Text className="stuff">
+						<FaMapMarkerAlt />
+						&nbsp;{event.venue}
 					</Card.Text>
 					<Card.Text style={styles.text}>
 						<BsFillPersonFill />
-						&nbsp; {event.organizer}
+						&nbsp; {event.speakers[0].name}
 					</Card.Text>
 					<Card.Text style={styles.text}>
-						{event.description.slice(0, 80) +
-							(event.description.length > 80 ? "..." : "")}
-					</Card.Text>
-					<Card.Text style={styles.text}>
-						<a href="#">
-							<IoArrowRedo style={styles.btn} />
-						</a>
+						{event.desc.slice(0, 80) + (event.desc.length > 80 ? "..." : "")}
 					</Card.Text>
 				</Card.Body>
 			</Card>

@@ -18,7 +18,8 @@
 }
 
 .pdp {
-	height: 100%;
+	min-width: 160px;
+	max-width: 160px;
 }
 
 .personCardBody {

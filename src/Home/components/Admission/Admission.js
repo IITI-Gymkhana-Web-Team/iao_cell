@@ -1,7 +1,9 @@
 import React from "react";
-import { Table, thead, tbody } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 import "./Admission.css";
 import { RiExternalLinkFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
+
 export const Admission = () => {
 	return (
 		<article className="container bg-light pt-3 mt-3 font-ubuntu">
@@ -47,10 +49,11 @@ export const Admission = () => {
 								<br />
 								b) Study In India, Government of India Link
 								<a target="_blank" href="https://www.studyinindia.gov.in/">
+									{" "}
 									<RiExternalLinkFill />
-								</a>{" "}
+								</a>
 								<br />
-								c) Foreign Government Sponsorshipsd
+								c) Foreign Government Sponsorships
 							</td>
 						</tr>
 					</tbody>
@@ -104,6 +107,21 @@ export const Admission = () => {
 					Insurance Premium per annum. The charges for food expenses are not included in
 					the living expenses and the student will have to pay separately as per
 					prevailing rates.
+				</p>
+			</section>
+			<section>
+				<h3 className="font-acme">Admission</h3>
+				<p>
+					For more information,{" "}
+					<a href="https://academic.iiti.ac.in/admission.php" target="_blank">
+						Click here
+					</a>
+				</p>
+			</section>
+			<section>
+				<h3 className="font-acme">International Student List</h3>
+				<p>
+					For more information, <Link to="/int/students">Click here</Link>
 				</p>
 			</section>
 		</article>

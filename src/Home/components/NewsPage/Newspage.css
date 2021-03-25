@@ -1,0 +1,13 @@
+.newsPage .card {
+	flex-direction: column;
+	width: min(100%, 400px);
+	margin: 20px;
+}
+
+.newsPage > div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: center;
+}

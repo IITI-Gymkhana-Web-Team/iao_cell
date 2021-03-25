@@ -15,20 +15,44 @@ export const MobileMenu = ({ show, setShow }) => {
 			name: "People",
 			innerLinks: [
 				{ name: "OIA", link: "/people/oia", level: "2" },
-				{ name: "Outreach Comm.", link: "/people/oc", level: "2" },
 				{ name: "SIR Cell", link: "/people/sc", level: "2" },
+			],
+			level: "1",
+		},
+		{
+			name: "Committees",
+			innerLinks: [
+				{ name: "Outreach Comm.", link: "/committee/oc", level: "2" },
+				{ name: "Mobility Exchange Comm.", link: "/committee/mec", level: "2" },
 			],
 			level: "1",
 		},
 		{
 			name: "Collaborations",
 			innerLinks: [
-				{ name: "MOU", link: "#", level: "2" },
+				{
+					name: "MOU",
+					innerLinks: [
+						{ name: "Asia", link: "/mou/asia", level: "3" },
+						{ name: "Australia", link: "/mou/australia", level: "3" },
+						{ name: "Americas", link: "/mou/americas", level: "3" },
+						{ name: "Europe", link: "/mou/europe", level: "3" },
+					],
+					level: "2",
+				},
 				{
 					name: "Mobility Exchange",
 					innerLinks: [
-						{ name: "Student", link: "#", level: "3" },
-						{ name: "Faculty", link: "#", level: "3" },
+						{ name: "Student", link: "/mobility/student", level: "3" },
+						{ name: "Faculty", link: "/mobility/faculty", level: "3" },
+					],
+					level: "2",
+				},
+				{
+					name: "Intl. Students",
+					innerLinks: [
+						{ name: "Students List", link: "/int/students", level: "3" },
+						{ name: "Testimonials", link: "/int/testimonials", level: "3" },
 					],
 					level: "2",
 				},
@@ -81,7 +105,11 @@ export const MobileMenu = ({ show, setShow }) => {
 					name: "Student",
 					innerLinks: [
 						{ name: "Internships", link: "#", level: "3" },
-						{ name: "PG/PHD", link: "/opportunities/pg_phd_post_doc", level: "3" },
+						{
+							name: "PG/PhD/Post Doc",
+							link: "/opportunities/pg_phd_post_doc",
+							level: "3",
+						},
 						{ name: "Scholarships", link: "/opportunities/scholarship", level: "3" },
 						{ name: "Post Doc", link: "#", level: "3" },
 					],
@@ -105,8 +133,46 @@ export const MobileMenu = ({ show, setShow }) => {
 			level: "1",
 		},
 		{
+			name: "Facilities",
+			innerLinks: [
+				{ name: "Hostels", link: "http://hostel.iiti.ac.in/", level: "2" },
+				{ name: "Eateries", link: "http://eateries.iiti.ac.in/", level: "2" },
+				{ name: "Health Centre", link: "http://people.iiti.ac.in/~medical/", level: "2" },
+				{
+					name: "Counselling Cell",
+					link: "http://iiti.ac.in/page/counselling-cell",
+					level: "2",
+				},
+				{
+					name: "Training and Placement",
+					link: "http://placement.iiti.ac.in/",
+					level: "2",
+				},
+				{
+					name: "Computer and IT Center",
+					link: "http://cc.iiti.ac.in/",
+					level: "2",
+				},
+				{ name: "Nursery School", link: "http://people.iiti.ac.in/~creche/", level: "2" },
+				{ name: "E-Payments", link: "http://iiti.ac.in/page/e-payments", level: "2" },
+				{
+					name: "Smart card facility",
+					link: "http://people.iiti.ac.in/~smartcard/CampusCards.html",
+					level: "2",
+				},
+				{ name: "Transport Booking", link: "http://vbs.iiti.ac.in/", level: "2" },
+				{
+					name: "Green vehicle schedule",
+					link:
+						"https://www.iiti.ac.in/public/storage/Green%20vehicle%20schedule-%202021.pdf",
+					level: "2",
+				},
+			],
+			level: "1",
+		},
+		{
 			name: "Contact",
-			innerLinks: [{ name: "Office of IR", link: "/OfficeIR", level: "2" }],
+			link: "/OfficeIR",
 			level: "1",
 		},
 	]);
@@ -114,8 +180,10 @@ export const MobileMenu = ({ show, setShow }) => {
 	return (
 		<div className="mobileMenuOuter" style={show ? { display: "" } : { display: "none" }}>
 			<div className="mobileMenu">
-				<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
-				<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
+				<div className="mmenuP1">
+					<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
+					<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
+				</div>
 				{links.map((link1) => {
 					return (
 						<div className="indiMenu" key={link1.name}>

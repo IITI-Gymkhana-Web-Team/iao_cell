@@ -1,28 +1,28 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import { Newscard } from "../../reusables/NewsCard";
 import { data } from "./data";
+import "./Newspage.css";
 
 export const NewsPage = () => {
 	return (
 		<>
-			<Container className="places pt-3 mt-3 mb-3 bg-light font-ubuntu">
-				<h1 className="m-1 mb-5 mainTitle text-center">Outreach News</h1>
-				<Row>
+			<div className="places newsPage pt-3 mt-3 mb-3 bg-light font-ubuntu container-fluid">
+				<h1 className="m-1 mb-3 mainTitle text-center">Outreach News</h1>
+				<div>
 					{data.map((news, index) => {
 						return (
-							<Col sm={12} key={index}>
-								<Newscard
-									img={news.image}
-									title={news.title}
-									text={news.text}
-									date={news.date}
-								/>
-							</Col>
+							<Newscard
+								img={news.image}
+								title={news.title}
+								text={news.text}
+								date={news.date}
+								key={index}
+								index={index}
+							/>
 						);
 					})}
-				</Row>
-			</Container>
+				</div>
+			</div>
 		</>
 	);
 };
