@@ -66,7 +66,7 @@ export const MHRDPage = ({ info, name, person, insti, desc }) => {
 				<Form.Group controlId="exampleForm.ControlInput1">
 					<Form.Label>Search By Title</Form.Label>
 					<Form.Control
-						type="email"
+						type="text"
 						placeholder="Use of Hydrogen as a Future Fuel"
 						onChange={(e) => {
 							setTitle(e.target.value);

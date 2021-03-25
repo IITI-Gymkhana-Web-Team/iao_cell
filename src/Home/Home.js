@@ -81,28 +81,28 @@ export const Home = () => {
 						path="/mou/asia"
 						exact
 						component={() => {
-							return <Mou2 name={"asia"} />;
+							return <Mou2 name={"ASIA"} />;
 						}}
 					/>
 					<Route
 						path="/mou/europe"
 						exact
 						component={() => {
-							return <Mou2 name={"europe"} />;
+							return <Mou2 name={"EUROPE"} />;
 						}}
 					/>
 					<Route
 						path="/mou/americas"
 						exact
 						component={() => {
-							return <Mou2 name={"americas"} />;
+							return <Mou2 name={"AMERICAS"} />;
 						}}
 					/>
 					<Route
 						path="/mou/australia"
 						exact
 						component={() => {
-							return <Mou2 name={"australia"} />;
+							return <Mou2 name={"AUSTRALIA"} />;
 						}}
 					/>
 					<Route path="/mhrd/sparc" exact component={Sparc} />

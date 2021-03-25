@@ -1,5 +1,5 @@
 export const data = {
-	asia: [
+	ASIA: [
 		{
 			"S.No.": 1,
 			"Institutions/Organization/Country": "Shinshu University Japan",
@@ -129,7 +129,7 @@ export const data = {
 			"Country with which there is collation": "Japan",
 		},
 	],
-	americas: [
+	AMERICAS: [
 		{
 			"Institutions/Organization/Country": "Fundacao Universidade De Caxias Do Sul",
 			Nature: "MoU",
@@ -197,7 +197,7 @@ export const data = {
 			"Country with which there is collation": "USA",
 		},
 	],
-	australia: [
+	AUSTRALIA: [
 		{
 			"S.No.": 1,
 			"Institutions/Organization/Country": "Univesity of Technology Sydney",
@@ -232,7 +232,7 @@ export const data = {
 			"Country with which there is collation": "Australia",
 		},
 	],
-	europe: [
+	EUROPE: [
 		{
 			"S.No.": 1,
 			"Institutions/Organization/Country": "Western Norway Research Institute",
