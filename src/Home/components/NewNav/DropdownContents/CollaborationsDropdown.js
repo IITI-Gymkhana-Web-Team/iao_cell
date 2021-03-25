@@ -8,9 +8,7 @@ const CollaborationsDropdown = () => {
 			<DropdownSection data-first-dropdown-section>
 				<ul>
 					<HeadingLink>
-						<Link to="/mou">
-							<Icon /> MOU
-						</Link>
+						<Icon /> MOU
 					</HeadingLink>
 					<div className="d-flex mobDropdown">
 						<DropdownSection>
