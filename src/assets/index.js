@@ -39,8 +39,14 @@ import shilpa from "./shilpa.webp";
 import iitkgp from "./iitkgp.webp";
 import antony from "./antony.webp";
 import asem2 from "./asem.webp";
+import sudipta from "./Sudipta.webp";
+import pravin from "./Pravin.webp";
+import sumit from "./Sumit.webp";
 
 export {
+	sudipta,
+	sumit,
+	pravin,
 	shilpa,
 	asem2,
 	nserb,

@@ -26,6 +26,8 @@ import { IndiNews } from "./components/NewsPage/IndiNews";
 import { CommitteesPage } from "./pages/CommitteesPage/CommitteesPage";
 import { Mou2 } from "./components/Collaborations/Mou2";
 import { MobilityExchange } from "./components/MobilityExchange/MobilityExchange";
+import { IntStudents } from "./components/IntStudents/IntStudents";
+import { Testimonials } from "./components/Testimonials/Testimonials";
 
 export const Home = () => {
 	return (
@@ -52,6 +54,8 @@ export const Home = () => {
 							return <People index={2} />;
 						}}
 					/>
+					<Route path="/int/students" exact component={IntStudents} />
+					<Route path="/int/testimonials" exact component={Testimonials} />
 					<Route
 						path="/committee/oc"
 						exact

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const CollaborationsDropdown = () => {
 	return (
-		<div style={{ width: "18rem" }}>
+		<div style={{ width: "21rem" }}>
 			<DropdownSection data-first-dropdown-section>
 				<ul>
 					<HeadingLink>
@@ -38,6 +38,19 @@ const CollaborationsDropdown = () => {
 							</li>
 							<li>
 								<Link to="/mobility/faculty">Faculty</Link>
+							</li>
+						</DropdownSection>
+					</div>
+					<HeadingLink>
+						<Icon /> International Students
+					</HeadingLink>
+					<div className="d-flex mobDropdown">
+						<DropdownSection>
+							<li>
+								<Link to="/int/students">Students List</Link>
+							</li>
+							<li>
+								<Link to="/int/testimonials">Testimonials</Link>
 							</li>
 						</DropdownSection>
 					</div>
