@@ -125,7 +125,7 @@ export const IntStudents = () => {
 					</tr>
 					<tr>
 						<td>2019-20</td>
-						<td>Mr. Premsub Duangprem&nbsp;</td>
+						<td>Mr. Premsub Duangprem</td>
 						<td>HSS-Indian Studies</td>
 						<td>Thailand</td>
 						<td>Spring Semester</td>
