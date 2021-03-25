@@ -11,6 +11,7 @@
 	border: 1px solid #ddd;
 	border-radius: 10px;
 	display: flex;
+	background-color: #fff;
 }
 
 .tcard svg {
