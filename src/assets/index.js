@@ -43,8 +43,68 @@ import sudipta from "./Sudipta.webp";
 import pravin from "./Pravin.webp";
 import sumit from "./Sumit.webp";
 import grp2 from "./grp2.webp";
+import iiti from "./iiti.jpg";
+import iiti2 from "./iiti2.png";
+import hindex from "./hindex.png";
+import citation from "./citation.png";
+import ranks from "./ranks.png";
+import c1 from "./c1.jpg";
+import c2 from "./c2.jpg";
+import d1 from "./d1.jpg";
+import d2 from "./d2.jpg";
+import e1 from "./e1.jpg";
+import e2 from "./e2.jpg";
+import e3 from "./e3.jpg";
+import g from "./g.jpg";
+import gh from "./gh.jpg";
+import h1 from "./h1.jpg";
+import h2 from "./h2.jpg";
+import lh1 from "./lh1.jpg";
+import lh2 from "./lh2.jpg";
+import lh3 from "./lh3.jpg";
+import lh4 from "./lh4.jpg";
+import lh5 from "./lh5.jpg";
+import lh6 from "./lh6.jpg";
+import lr from "./lr.jpg";
+import rnd from "./rnd.jpg";
+import sa from "./sa.jpg";
+import sic from "./sic.jpg";
+import ss1 from "./ss1.jpg";
+import ss2 from "./ss2.jpg";
+import t1 from "./t1.jpg";
+import t2 from "./t2.jpg";
 
 export {
+	c1,
+	c2,
+	d1,
+	d2,
+	e1,
+	e2,
+	e3,
+	g,
+	gh,
+	h1,
+	h2,
+	lh1,
+	lh2,
+	lh3,
+	lh4,
+	lh5,
+	lh6,
+	lr,
+	rnd,
+	sa,
+	sic,
+	ss1,
+	ss2,
+	t1,
+	t2,
+	ranks,
+	hindex,
+	citation,
+	iiti2,
+	iiti,
 	grp2,
 	sudipta,
 	sumit,

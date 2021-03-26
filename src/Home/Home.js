@@ -5,7 +5,6 @@ import { People } from "./pages/Peoplepage/People";
 import { Title } from "./components/Title/Title";
 import { Footer } from "./components/Footer/Footer";
 import { Nav } from "./components/NewNav/index";
-import Aboutiiti from "./pages/Aboutuspage/Aboutiiti";
 import { Places } from "./components/Places/Places";
 import { Visa } from "./components/Visa/Visa";
 import { Admission } from "./components/Admission/Admission";
@@ -28,6 +27,9 @@ import { Mou2 } from "./components/Collaborations/Mou2";
 import { MobilityExchange } from "./components/MobilityExchange/MobilityExchange";
 import { IntStudents } from "./components/IntStudents/IntStudents";
 import { Testimonials } from "./components/Testimonials/Testimonials";
+import { AboutIITI } from "./components/AboutIITI/AboutIITI";
+import { AboutIOA } from "./components/AboutIOA/AboutIOA";
+import { LifeIITI } from "./components/LifeIITI/LifeIITI";
 
 export const Home = () => {
 	return (
@@ -70,7 +72,9 @@ export const Home = () => {
 							return <CommitteesPage index={2} />;
 						}}
 					/>
-					<Route path="/Aboutiiti" exact component={Aboutiiti} />
+					<Route path="/Aboutiiti" exact component={AboutIITI} />
+					<Route path="/Aboutioa" exact component={AboutIOA} />
+					<Route path="/LifeIITI" exact component={LifeIITI} />
 					<Route path="/ProsStud/visa" exact component={Visa} />
 					<Route path="/ProsStud/places" exact component={Places} />
 					<Route path="/ProsStud/admission" exact component={Admission} />
