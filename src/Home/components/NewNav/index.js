@@ -8,7 +8,7 @@ const AppContainer = styled.div`
   background: #046092;
   display: flex;
   flex-direction: column;
-  height: 80px
+  height: 60px
 
   > div:first-of-type {
     flex: 1 0 70vh;
