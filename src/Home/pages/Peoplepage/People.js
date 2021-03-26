@@ -46,6 +46,8 @@ export const People = ({ index }) => {
 					img: thomas,
 					phno: "+91-731-660-3112",
 				},
+			],
+			[
 				{
 					name: "Mr. Vinay Kumar",
 					designation: "Manager",

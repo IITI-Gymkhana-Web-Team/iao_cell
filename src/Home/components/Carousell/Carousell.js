@@ -1,18 +1,12 @@
 import React, { useState } from "react";
-import { image15 } from "../../../assets";
+import { image15, grp2 } from "../../../assets";
 import "./Carousell.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 export const Carousell = () => {
-	const [images, setImages] = useState([
-		{ img: image15 },
-		{ img: image15 },
-		{ img: image15 },
-		{ img: image15 },
-		{ img: image15 },
-	]);
+	const [images] = useState([{ img: image15 }, { img: grp2 }]);
 
 	return (
 		<OwlCarousel

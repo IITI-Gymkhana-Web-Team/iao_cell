@@ -42,8 +42,10 @@ import asem2 from "./asem.webp";
 import sudipta from "./Sudipta.webp";
 import pravin from "./Pravin.webp";
 import sumit from "./Sumit.webp";
+import grp2 from "./grp2.webp";
 
 export {
+	grp2,
 	sudipta,
 	sumit,
 	pravin,
