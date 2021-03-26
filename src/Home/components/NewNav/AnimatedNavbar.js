@@ -27,6 +27,8 @@ const navbarConfig = [
 	{ href: "/OfficeIR", title: "Contact", dropdown: ContactDropdown },
 ];
 
+let nodrop = [0, 9];
+
 export default class AnimatedNavbar extends Component {
 	state = {
 		activeIndices: [],
@@ -94,14 +96,31 @@ export default class AnimatedNavbar extends Component {
 								onMouseEnter={this.onMouseEnter}
 							>
 								{currentIndex === index && (
-									<DropdownContainer
-										direction={direction}
-										animatingOut={this.state.animatingOut}
-										duration={duration}
-									>
-										<CurrentDropdown />
-										{PrevDropdown && <PrevDropdown />}
-									</DropdownContainer>
+									nodrop.indexOf(currentIndex) != -1 ?
+										<div style={{ visibility: 'hidden' }}>
+											<DropdownContainer
+
+												direction={direction}
+												animatingOut={this.state.animatingOut}
+												duration={duration}
+											>
+												<CurrentDropdown />
+												{PrevDropdown && <PrevDropdown />}
+											</DropdownContainer>
+										</div> :
+
+										<div>
+											<DropdownContainer
+
+												direction={direction}
+												animatingOut={this.state.animatingOut}
+												duration={duration}
+											>
+												<CurrentDropdown />
+												{PrevDropdown && <PrevDropdown />}
+											</DropdownContainer>
+										</div>
+
 								)}
 							</NavbarItem>
 						);

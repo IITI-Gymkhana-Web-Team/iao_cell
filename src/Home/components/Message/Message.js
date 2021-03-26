@@ -6,7 +6,7 @@ import "./Message.css";
 export default function Message() {
 	return (
 		<>
-			<div className="container bg-light mt-3 messageBox" style={{ borderRadius: "10px" }}>
+			<div className="container mt-3 messageBox" style={{ borderRadius: "10px" }}>
 				<div className="container-fluid p-3">
 					<div className="card bg-light col-sm-12 border-0">
 						<img src={neelesh} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />
@@ -25,7 +25,7 @@ export default function Message() {
 					</div>
 				</div>
 			</div>
-			<div className="container bg-light mt-5 mb-5 messageBox" style={{ borderRadius: "10px" }}>
+			<div className="container mt-5 mb-5 messageBox" style={{ borderRadius: "10px" }}>
 				<div className="container-fluid p-3">
 					<div className="card bg-light col-sm-12 border-0">
 						<img src={avinash} className="img-thumbnail" alt="img-responsive" style={{ width: "min(70vw,300px)", margin: "auto" }} />

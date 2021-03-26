@@ -1,74 +1,44 @@
 import React from "react";
-// import styled from "styled-components";
-// import { Icon, DropdownSection, Heading, HeadingLink, LinkList } from "./Components";
-// import { Link } from "react-router-dom";
-
-// const AboutDropdownEl = styled.div`
-// 	width: 0rem;
-// 	display: none;
-// `;
-
-// const Flex = styled.div`
-// 	display: flex;
-// 	> div:first-of-type {
-// 		margin-right: 48px;
-// 	}
-// `;
+import { Heading, HeadingLink, LinkList, DropdownSection, Icon } from "./Components";
+import { Link } from "react-router-dom";
 
 const AboutDropdown = () => {
 	return (
-		<>
-			{/*<DropdownSection data-first-dropdown-section>
+		<div style={{ visibility: 'hidden', width: "20rem" }}>
+			<DropdownSection data-first-dropdown-section>
+				<ul>
+					<HeadingLink>
+						<Link to="/people/oia">
+							<Icon /> International Affairs
+						</Link>
+					</HeadingLink>
+					<HeadingLink noMarginBottom>
+						<Link to="/people/sc">
+							<Icon /> SIA Cell
+						</Link>
+					</HeadingLink>
+				</ul>
+			</DropdownSection>
+			{/*<DropdownSection>
 				<div>
-				<Heading>Documentation</Heading>
-				<p>Start integrating Stripe&rsquo;s products and tools</p>
-				<Flex>
-				<div>
-				<h4>Get Started</h4>
-				<LinkList>
-				<li>
-				<a href="/">Elements</a>
-				</li>
-				<li>
-				<a href="/">Checkout</a>
-				</li>
-				<li>
-				<a href="/">Mobile apps</a>
-				</li>
-				</LinkList>
-				</div>
-				<div>
-				<h4>Popular Topics</h4>
-				<LinkList>
-				<li>
-				<a href="/">Apple Pay</a>
-				</li>
-				<li>
-				<a href="/">Testing</a>
-				</li>
-				<li>
-				<a href="/">Launch Checklist</a>
-				</li>
-				</LinkList>
-				</div>
-				</Flex>
+					<Heading>
+						<Icon />
+						From the Blog
+					</Heading>
+					<LinkList marginLeft="25px">
+						<li>
+							<a href="/">Stripe Atlas &rsaquo;</a>
+						</li>
+						<li>
+							<a href="/">Stripe Home &rsaquo;</a>
+						</li>
+						<li>
+							<a href="/">Improved Fraud Detection &rsaquo;</a>
+						</li>
+					</LinkList>
 				</div>
 			</DropdownSection>*/}
-			{/* <DropdownSection>
-				<ul>
-				<HeadingLink>
-				<Link to="/">
-				<Icon /> Home
-				</Link>
-				</HeadingLink>
-				<HeadingLink noMarginBottom>
-				<Link to="/Aboutiiti">
-				<Icon /> About IITI
-				</Link>
-				</HeadingLink>
-				</ul>
-			</DropdownSection> */}
-		</>
+		</div>
 	);
 };
 
