@@ -15,6 +15,8 @@ import {
 	sanchit,
 	shiv,
 	shubham,
+	ankur,
+	neeraj,
 } from "../../../assets";
 import { Committee } from "../../components/Committee/Committee";
 
@@ -83,7 +85,7 @@ export const People = ({ index }) => {
 	});
 
 	const [committee2] = useState({
-		title: "SIA Cell",
+		title: "Student International Affairs Cell",
 		members: [
 			[
 				{
@@ -98,52 +100,87 @@ export const People = ({ index }) => {
 				{
 					email: "ee180002020@iiti.ac.in",
 					name: "Harshitha Kolukuluru",
-					phno: "7675912985",
-					designation: "Coordinator Outreach",
+					phno: "+91 7675912985",
+					designation: "Coordinator",
 					img: harshitha,
+					dept: "Outreach Team",
 				},
+			],
+			[
+				{
+					email: "ce190004005@iiti.ac.in",
+					name: "Neeraj Andrali",
+					phno: "+91 9494574618",
+					designation: "Member",
+					img: neeraj,
+				},
+			],
+			[
 				{
 					email: "me180003014@iiti.ac.in",
 					name: "Chebrolu C S Sai Harsha",
-					phno: "7285925025",
-					designation: "Coordinator P.G/Ph.D./ Postdoctoral",
+					phno: "+91 7285925025",
+					designation: "Coordinator",
 					img: harsha,
+					dept: "P.G/Ph.D./ Postdoctoral Team",
 				},
+			],
+			[
+				{
+					email: "phd1801204004@iiti.ac.in",
+					name: "Sanchit Gupta",
+					phno: "+91 8953623695",
+					designation: "Member",
+					img: sanchit,
+				},
+				{
+					email: "mt2002102012@iiti.ac.in",
+					name: "Shubham Gupta",
+					phno: "+91 9205054395",
+					designation: "Member",
+					img: shubham,
+				},
+			],
+			[
 				{
 					email: "ee180002055@iiti.ac.in",
 					name: "Shiv Kumar",
-					phno: "8789117331",
-					designation: "Coordinator Internship and Student Exchange",
+					phno: "+91 8789117331",
+					designation: "Coordinator",
 					img: shiv,
+					dept: "Internship and Student Exchange Team",
 				},
 			],
 			[
 				{
 					email: "ee190002005@iiti.ac.in",
 					name: "Anupama Sureshbabu",
-					phno: "9539335533",
-					designation: "Member of Web Team, Member Internship and Student Exchange Team",
+					phno: "+91 9539335533",
+					designation: "Member",
 					img: anupama,
 				},
 				{
-					email: "phd1801204004@iiti.ac.in",
-					name: "Sanchit Gupta",
-					phno: "8953623695",
-					designation: "Member P.G/Ph.D./ Postdoctoral Team",
-					img: sanchit,
+					email: "me190003010@iiti.ac.in",
+					name: "Ankur Rai",
+					phno: "+91 9109293807",
+					designation: "Member",
+					img: ankur,
 				},
+			],
+			[
 				{
-					email: "mt2002102012@iiti.ac.in",
-					name: "Shubham Gupta",
-					phno: "9205054395",
-					designation: "Member P.G/Ph.D./ Postdoctoral Team",
-					img: shubham,
+					email: "ee190002005@iiti.ac.in",
+					name: "Anupama Sureshbabu",
+					phno: "+91 9539335533",
+					designation: "Member",
+					img: anupama,
+					dept: "Web Team",
 				},
 				{
 					email: "ee190002043@iiti.ac.in",
 					name: "Pallavi Upadhyay",
-					phno: "7024061841",
-					designation: "Member of Web Team",
+					phno: "+91 7024061841",
+					designation: "Member",
 					img: pallavi,
 				},
 			],

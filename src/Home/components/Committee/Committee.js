@@ -9,12 +9,21 @@ export const Committee = ({ committee }) => {
 			<div className="container-fluid">
 				<h1 className="p-3 m-2 mainTitle text-center">{committee.title}</h1>
 			</div>
-			<div className="peopleCards">
+			<div className="peopleCards mb-5">
 				{committee.members.map((persons) => {
 					return (
 						<Row key={persons[0]["email"]}>
 							{persons.map((person) => {
-								return <PeopleCard person={person} key={person.email} />;
+								return (
+									<>
+										{person.dept && (
+											<h2 className="font-acme text-center mt-5">
+												{person.dept}
+											</h2>
+										)}
+										<PeopleCard person={person} key={person.email} />
+									</>
+								);
 							})}
 						</Row>
 					);

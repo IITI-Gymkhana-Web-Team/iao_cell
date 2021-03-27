@@ -81,8 +81,12 @@ import pallavi from "./pallavi.webp";
 import sanchit from "./sanchit.webp";
 import shiv from "./shiv.webp";
 import shubham from "./shubham.webp";
+import ankur from "./ankur.jpg";
+import neeraj from "./neeraj.jfif";
 
 export {
+	ankur,
+	neeraj,
 	anupama,
 	harsha,
 	harshitha,
