@@ -73,8 +73,24 @@ import ss1 from "./ss1.webp";
 import ss2 from "./ss2.webp";
 import t1 from "./t1.webp";
 import t2 from "./t2.webp";
+import anupama from "./anupama.webp";
+import harsha from "./harsha.webp";
+import harshitha from "./harshitha.webp";
+import nitin from "./nitin.webp";
+import pallavi from "./pallavi.webp";
+import sanchit from "./sanchit.webp";
+import shiv from "./shiv.webp";
+import shubham from "./shubham.webp";
 
 export {
+	anupama,
+	harsha,
+	harshitha,
+	nitin,
+	pallavi,
+	sanchit,
+	shiv,
+	shubham,
 	c1,
 	c2,
 	d1,
