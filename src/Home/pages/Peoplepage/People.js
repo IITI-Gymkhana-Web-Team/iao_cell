@@ -6,7 +6,6 @@ import {
 	satya,
 	thomas,
 	vinu,
-	person,
 	shilpa,
 	anupama,
 	harsha,
