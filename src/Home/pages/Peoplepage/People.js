@@ -17,6 +17,8 @@ import {
 	shubham,
 	ankur,
 	neeraj,
+	jahnavi,
+	kaushik,
 } from "../../../assets";
 import { Committee } from "../../components/Committee/Committee";
 
@@ -114,6 +116,13 @@ export const People = ({ index }) => {
 					designation: "Member",
 					img: neeraj,
 				},
+				{
+					email: "ee190002061@iiti.ac.in",
+					name: "Jahnavi Sunchu",
+					designation: "Member",
+					phno: "+91 1234567890",
+					img: jahnavi,
+				},
 			],
 			[
 				{
@@ -139,6 +148,13 @@ export const People = ({ index }) => {
 					phno: "+91 9205054395",
 					designation: "Member",
 					img: shubham,
+				},
+				{
+					email: "ms2004103004@iiti.ac.in",
+					name: "Kaushik Prince Attar",
+					phno: "+91 9780168339",
+					designation: "Member",
+					img: kaushik,
 				},
 			],
 			[
