@@ -87,8 +87,14 @@ import jahnavi from "./jahnavi.webp";
 import kaushik from "./kaushik.webp";
 import grp3 from "./grp3.png";
 import av2 from "./av2.webp";
+import train from "./train.jpg";
+import plane from "./plane.jpg";
+import bus from "./bus.JPG";
 
 export {
+	bus,
+	plane,
+	train,
 	av2,
 	grp3,
 	jahnavi,
