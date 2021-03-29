@@ -87,11 +87,35 @@ import jahnavi from "./jahnavi.webp";
 import kaushik from "./kaushik.webp";
 import grp3 from "./grp3.png";
 import av2 from "./av2.webp";
-import train from "./train.jpg";
-import plane from "./plane.jpg";
-import bus from "./bus.JPG";
+import train from "./train.webp";
+import plane from "./plane.webp";
+import bus from "./bus.webp";
+import tawa_reservoir from "./tawa_reservoir.webp";
+import pachmarhi from "./pachmarhi.webp";
+import parsili from "./parsili.webp";
+import pench from "./pench.webp";
+import panna from "./panna.webp";
+import white_tiger from "./white_tiger.webp";
+import kanha from "./kanha.webp";
+import Jatashankar from "./jatashankar.webp";
+import chauragh from "./chauragh.webp";
+import buffer_zone from "./buffer_zone.webp";
+import boat_club from "./boat_club.webp";
+import Bandhavgarh from "./bandhavgarh.webp";
 
 export {
+	tawa_reservoir,
+	pachmarhi,
+	parsili,
+	pench,
+	panna,
+	white_tiger,
+	kanha,
+	Jatashankar,
+	chauragh,
+	buffer_zone,
+	boat_club,
+	Bandhavgarh,
 	bus,
 	plane,
 	train,
