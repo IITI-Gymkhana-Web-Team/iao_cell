@@ -19,7 +19,7 @@ const CollaborationsDropdown = () => {
 								<Link to="/mou/australia">Australia</Link>
 							</li>
 							<li>
-								<Link to="/mou/americas">Americas</Link>
+								<Link to="/mou/americas">America</Link>
 							</li>
 							<li>
 								<Link to="/mou/europe">Europe</Link>

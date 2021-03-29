@@ -4,7 +4,7 @@ export const Programs = () => {
 	return (
 		<div className="container bg-light mt-3 mb-3 pt-3 pb-3 font-ubuntu">
 			<div className="page-header">
-				<h3 className="font-acme">IIT Indore offers following Academic Programs</h3>
+				<h3 className="font-acme">IIT Indore offers the following Academic Programs</h3>
 			</div>
 
 			<table className="table table-hover">

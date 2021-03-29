@@ -7,7 +7,7 @@ export const Pg_Phd = () => {
 	console.log(data);
 	return (
 		<div className="container mt-1">
-			<h2 className="pt-4 mainTitle pb-4 text-center">PG/PHD/Post Doc</h2>
+			<h2 className="pt-4 mainTitle pb-4 text-center">PG / PhD / Post Doc</h2>
 			<Table striped bordered hover variant="success" responsive>
 				<tbody>
 					<tr>

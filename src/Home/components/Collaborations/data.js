@@ -17,7 +17,7 @@ export const data = {
 			"Purpose/Title":
 				"Exchanging of scholars, students, academic information and materials to enhance the research and educational process",
 			"Coordinating faculty member": "DOIA\nDOAA\nDORD",
-			"Signed on": "Febr/uary 20,2020",
+			"Signed on": "February 20,2020",
 			Duration: "5 Years",
 			"Country with which there is collation": "Thailand",
 		},
@@ -114,7 +114,7 @@ export const data = {
 			Nature: "MoU",
 			"Purpose/Title": "Academic and Research Collaboration",
 			"Coordinating faculty member": "Registrar",
-			"Signed on": "February 11, 2016",
+			"Signed on": "Febrary 11, 2016",
 			Duration: "5 Years",
 			"Country with which there is collation": "Taiwan",
 		},
@@ -136,7 +136,7 @@ export const data = {
 			"Purpose/Title":
 				"Exchange programs for Professors, Researchers, Students, Administrators, and technical person;\nJoint development of projects and research;\nDevelopment of scholarship programs;\nActivities of attainment of graduate and Post-graduate academic levels.\nExchange of bibliography, programs, didactic, technical and scientific material;\nElaboration of scientific articles and other publications;\nOther forms of cooperation agreed by the parties.",
 			"Coordinating faculty member": "Dr. Bhupesh Lad",
-			"Signed on": "February 12, 2019",
+			"Signed on": "Febrary 12, 2019",
 			Duration: "5 Years",
 			"Country with which there is collation": "Brazil",
 		},
@@ -148,7 +148,7 @@ export const data = {
 			"Coordinating faculty member": "DOIA\nDOAA\nDORF\nDr. Rupesh S. Devan",
 			"Signed on": "May 15, 2018",
 			Duration: "5 Years",
-			"Country with which there is collation": "United States",
+			"Country with which there is collation": "USA",
 		},
 		{
 			"Institutions/Organization/Country": "UT-Battelle, LLC",

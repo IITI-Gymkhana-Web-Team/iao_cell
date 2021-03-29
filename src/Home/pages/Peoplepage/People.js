@@ -120,7 +120,7 @@ export const People = ({ index }) => {
 					email: "ee190002061@iiti.ac.in",
 					name: "Jahnavi Sunchu",
 					designation: "Member",
-					phno: "+91 1234567890",
+					phno: "",
 					img: jahnavi,
 				},
 			],

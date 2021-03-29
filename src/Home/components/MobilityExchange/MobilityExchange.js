@@ -19,7 +19,7 @@ export const MobilityExchange = ({ type }) => {
 					className={region == "Americas" ? "active" : ""}
 					onClick={() => setRegion("Americas")}
 				>
-					Americas
+					America
 				</button>
 				<button
 					className={region == "Europe" ? "active" : ""}
