@@ -38,16 +38,25 @@ export const Maps = () => {
 		{ name: "MY", color: "#ffd700" },
 		{ name: "IN", color: "#ff8c00" },
 		{ name: "TR", color: "#e9967a" },
+		{ name: "CH", color: "#00ff00" },
+		{ name: "TH", color: "#003366" },
+		{ name: "BR", color: "#ffcc00" },
+		{ name: "FR", color: "#660066" },
+		{ name: "IT", color: "#003300" },
+		{ name: "DE", color: "#993300" },
+		{ name: "SE", color: "#0000cc" },
+		{ name: "ES", color: "#ff0000" },
 	];
 
 	const handleClick = (e, countryCode) => {
-		var i = 0;
-		while (color[i]) {
-			if (countryCode == color[i].name) {
-				console.log(countryCode);
-			}
-			i++;
-		}
+		// var i = 0;
+		// while (color[i]) {
+		// 	if (countryCode == color[i].name) {
+		// 		console.log(countryCode);
+		// 	}
+		// 	i++;
+		// }
+		console.log(countryCode);
 	};
 
 	const stylingFunction = () => {
