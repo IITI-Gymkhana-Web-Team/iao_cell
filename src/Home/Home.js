@@ -10,7 +10,6 @@ import { Visa } from "./components/Visa/Visa";
 import { Admission } from "./components/Admission/Admission";
 import { Pg_Phd } from "./components/Pg_Phd/Pg_Phd";
 import { Scholarship } from "./components/Scholarship/Scholarship";
-import OfficeIR from "./pages/Contactpage/OfficeIR";
 import { Programs } from "./components/Programs/Programs";
 import { NewsPage } from "./components/NewsPage/Newspage";
 import { EventsPage } from "./components/EventsPage/EventsPage";
@@ -30,6 +29,7 @@ import { Testimonials } from "./components/Testimonials/Testimonials";
 import { AboutIITI } from "./components/AboutIITI/AboutIITI";
 import { AboutIOA } from "./components/AboutIOA/AboutIOA";
 import { LifeIITI } from "./components/LifeIITI/LifeIITI";
+import ReachUs from "./pages/Contactpage/ReachUs";
 
 export const Home = () => {
 	return (
@@ -87,7 +87,7 @@ export const Home = () => {
 					<Route path="/outreach/news/:id" exact component={IndiNews} />
 					<Route path="/outreach/events" exact component={EventsPage} />
 					<Route path="/outreach/events/:id" exact component={IndiEvent} />
-					<Route path="/OfficeIR" exact component={OfficeIR} />
+					<Route path="/contact" exact component={ReachUs} />
 					<Route
 						path="/mou/asia"
 						exact

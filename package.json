@@ -15,6 +15,7 @@
     "react-dom": "^17.0.1",
     "react-flip-toolkit": "^7.0.13",
     "react-icons": "^4.2.0",
+    "react-iframe": "^1.8.0",
     "react-jvectormap": "0.0.16",
     "react-owl-carousel": "^2.3.3",
     "react-responsive-embed": "^2.1.0",

@@ -1,0 +1,49 @@
+.reachUs .part1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	border-radius: 10px;
+}
+
+.reachUsMap {
+	border: 1px solid #aaa;
+	border-radius: 10px;
+}
+
+.reachUs .card2 {
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+}
+
+.contactIcons {
+	margin-right: 10px;
+}
+
+.days {
+	margin: 0 5px;
+	color: gray;
+}
+
+.reachUs a {
+	color: black;
+}
+
+.reachUs a:hover {
+	color: var(--dark-blue);
+}
+
+.activeDays {
+	color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+	.reachUs {
+		text-align: center;
+	}
+	.reachUs .card2 {
+		margin-bottom: 20px;
+	}
+}
