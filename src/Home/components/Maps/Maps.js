@@ -49,14 +49,14 @@ export const Maps = () => {
 	];
 
 	const handleClick = (e, countryCode) => {
-		// var i = 0;
-		// while (color[i]) {
-		// 	if (countryCode == color[i].name) {
-		// 		console.log(countryCode);
-		// 	}
-		// 	i++;
-		// }
-		console.log(countryCode);
+		var i = 0;
+		while (color[i]) {
+			if (countryCode == color[i].name) {
+				console.log(countryCode);
+			}
+			i++;
+		}
+		// console.log(countryCode);
 	};
 
 	const stylingFunction = () => {
