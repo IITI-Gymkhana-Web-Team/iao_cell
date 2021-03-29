@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { FiLink2 } from "react-icons/fi";
 import { BiTimeFive, BiCalendarCheck } from "react-icons/bi";
-import { Card } from "react-bootstrap";
+import { Card, Table } from "react-bootstrap";
 import { train, plane, bus } from "../../../assets";
 
 export default function ReachUs() {
@@ -146,6 +146,109 @@ export default function ReachUs() {
 						</Card.Text>
 					</Card.Body>
 				</Card>
+			</div>
+			<h1 className="font-acme mt-5 text-center">Emergency Contact Numbers</h1>
+			<div className="container">
+				<p>
+					<br />
+					If you are calling from any medium other than intercom, then dial 0731-660
+					followed by the Extension Number.
+				</p>
+				<p>
+					To download the entire telephone directory,{" "}
+					<a
+						href="https://www.iiti.ac.in/public/storage/directory/Telephone%20directory%20(24.03.2021).pdf"
+						target="_blank"
+					>
+						Click Here
+					</a>
+				</p>
+				<Table striped bordered hover variant="success" responsive className="mb-5 mt-1">
+					<thead>
+						<tr>
+							<th>Location</th>
+							<th>Contact Number</th>
+							<th>Section</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Emergency Control Room</td>
+							<td>3117, 9589518290</td>
+							<td>Emergency</td>
+						</tr>
+						<tr>
+							<td>Ambulance</td>
+							<td>7509062832</td>
+							<td>Health Centre</td>
+						</tr>
+						<tr>
+							<td>Health Centre</td>
+							<td>3433</td>
+							<td>Health Centre</td>
+						</tr>
+						<tr>
+							<td>Security Supervisor</td>
+							<td>6265224771</td>
+							<td>Security</td>
+						</tr>
+						<tr>
+							<td>Gate No. 1</td>
+							<td>3524</td>
+							<td>Security</td>
+						</tr>
+						<tr>
+							<td>Gate No. 2</td>
+							<td>3525</td>
+							<td>Security</td>
+						</tr>
+						<tr>
+							<td>Helium Building</td>
+							<td>3401</td>
+							<td>Security</td>
+						</tr>
+						<tr>
+							<td>JC Bose</td>
+							<td>3460</td>
+							<td>Security</td>
+						</tr>
+						<tr>
+							<td>Transport</td>
+							<td>3557, 7509062831, 7509062834</td>
+							<td>Transport</td>
+						</tr>
+						<tr>
+							<td>Mr. Jagdish Upadhyay</td>
+							<td>9981034224</td>
+							<td>Electrician</td>
+						</tr>
+						<tr>
+							<td>Mr. Manoj Pal</td>
+							<td>9713687778</td>
+							<td>Electrician</td>
+						</tr>
+						<tr>
+							<td>Mr. Ashok Kumar</td>
+							<td>7869865298</td>
+							<td>Electrician</td>
+						</tr>
+						<tr>
+							<td>Mr. Janu</td>
+							<td>9981034220</td>
+							<td>Plumber</td>
+						</tr>
+						<tr>
+							<td>Mr. Keshraj</td>
+							<td>9329880457</td>
+							<td>Plumber</td>
+						</tr>
+						<tr>
+							<td>Mr. Vinod Pal</td>
+							<td>8982076134</td>
+							<td>Plumber</td>
+						</tr>
+					</tbody>
+				</Table>
 			</div>
 		</div>
 	);

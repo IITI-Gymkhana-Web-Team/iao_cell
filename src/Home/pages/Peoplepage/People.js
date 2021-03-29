@@ -185,20 +185,12 @@ export const People = ({ index }) => {
 			],
 			[
 				{
-					email: "cse190001031@iiti.ac.in",
-					name: "Kushaan Gowda",
-					phno: "+91 9770226341",
-					designation: "Coordinator",
-					dept: "Web Team",
-				},
-			],
-			[
-				{
 					email: "ee190002005@iiti.ac.in",
 					name: "Anupama Sureshbabu",
 					phno: "+91 9539335533",
 					designation: "Member",
 					img: anupama,
+					dept: "Web Team",
 				},
 				{
 					email: "ee190002043@iiti.ac.in",

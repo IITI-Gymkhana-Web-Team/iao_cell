@@ -27,11 +27,11 @@
 	color: gray;
 }
 
-.reachUs a {
+.part1 a {
 	color: black;
 }
 
-.reachUs a:hover {
+.part1 a:hover {
 	color: var(--dark-blue);
 }
 
