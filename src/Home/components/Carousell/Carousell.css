@@ -1,7 +1,4 @@
 @media only screen and (max-width: 1000px) {
-	.carousel-caption {
-		display: none !important;
-	}
 	.w-100 {
 		min-height: 300px;
 	}

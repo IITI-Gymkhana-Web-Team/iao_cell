@@ -85,8 +85,12 @@ import ankur from "./ankur.webp";
 import neeraj from "./neeraj.webp";
 import jahnavi from "./jahnavi.webp";
 import kaushik from "./kaushik.webp";
+import grp3 from "./grp3.png";
+import av2 from "./av2.webp";
 
 export {
+	av2,
+	grp3,
 	jahnavi,
 	kaushik,
 	ankur,
