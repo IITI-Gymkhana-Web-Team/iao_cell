@@ -103,7 +103,7 @@ export const Home = () => {
 						}}
 					/>
 					<Route
-						path="/mou/americas"
+						path="/mou/america"
 						exact
 						component={() => {
 							return <Mou2 name={"Americas"} />;
