@@ -10,6 +10,12 @@ import chauragh from "../../../assets/chauragh.jpg";
 import buffer_zone from "../../../assets/buffer_zone.jpg";
 import boat_club from "../../../assets/boat_club.jpg";
 import Bandhavgarh from "../../../assets/bandhavgarh.JPG";
+import rajwada from "../../../assets/rajwada.jpg";
+import gandhihall from "../../../assets/gandhihall.jpg";
+import omkareshwar_temple from "../../../assets/omkareshwar temple.jpg";
+import mandav from "../../../assets/mandav.jpg";
+import pataalpani from "../../../assets/pataalpani.jpg";
+import Mahakaleshwar from "../../../assets/Mahakaleshwar.jpg";
 
 export const data = [
     {
@@ -20,6 +26,66 @@ export const data = [
         eta: {
             car: "12 hr",
             bicycle: "13 hr"
+        }
+    },
+    {
+        title: "Rajwada",
+        description: "Rajwada is a historial palace in Khajuri Bazzar.It is also known as Holkar Palace, it was built by the Holkars of the Maratha Empire about two centuries ago. The palace was constructed by Malhar Rao Holkar, the founder of Holkar Dynasty in 1747.",
+        img: rajwada,
+        location: "https://www.google.co.in/maps/place/Rajwada+Palace/@22.7184562,75.852528,17z/data=!3m1!4b1!4m5!3m4!1s0x3962fd0a3c2422a1:0xb8cf3a1b62708158!8m2!3d22.7184562!4d75.8547167",
+        eta: {
+            car: "1 hr",
+            bicycle: "1 hr"
+        }
+    },
+    {
+        title: "Gandhi Hall",
+        description: "Located at 26 km from IIT Indore, it was built in 1904 as King Edward Hall and inaugurated by the Prince of Wales in 1905, this structure was renamed as Mahatma Gandhi Hall in 1948 after independence. Locally, it is known as the 'Ghants Ghar",
+        img: gandhihall,
+        location: "https://www.google.co.in/maps/place/Gandhi+Hall/@22.7202778,75.8647557,17z/data=!3m1!4b1!4m5!3m4!1s0x3962fd1246ae310b:0x2bf544615bbb4407!8m2!3d22.7202778!4d75.8669444",
+        eta: {
+            car: "1 hr",
+            bicycle: "1 hr"
+        }
+    },
+    {
+        title: "Omkareshwar Temple",
+        description: "Located at 56 km from IIT Indore, Omkareshwar is a town in Khandwa district, south of Indore, known for housing one of the 12 revered Jyotirlings Shriness of Shiva. The shine is located on an island called mandhata in the Narmada River. It is said that the shape of the island is like the symbol aum.",
+        img: omkareshwar_temple,
+        location: "https://www.google.com/maps/place/Mamleshwar+Temple+Omkareshwar+Mahadev+Temple/@22.2422036,76.1484064,17z/data=!3m1!4b1!4m5!3m4!1s0x3962bceeab2fda61:0x8c94ed811600a274!8m2!3d22.2422036!4d76.1505951",
+        eta: {
+            car: "2 hr",
+            bicycle: "2 hr"
+        }
+    },
+    {
+        title: "Mandav (Jahaz Mahal)",
+        description: "Mandu is an ancient fort city in the central Indian state of Madhya Pradesh. It's surrounded by stone walls dotted with darwazas(gateways). It's also known for its Afghan architectural heritage.",
+        img: mandav,
+        location: "https://www.google.com/maps/place/Mandav,+Madhya+Pradesh/@22.3347776,75.3707592,13z/data=!3m1!4b1!4m5!3m4!1s0x396241df36b705c1:0xb18ad666203d2d29!8m2!3d22.3271369!4d75.4053367",
+        eta: {
+            car: "2 hr",
+            bicycle: "2 hr"
+        }
+    },
+    {
+        title: "Pataalpani",
+        description: "Located at a distance of 20 kms from IIT Indore, it is an iconic waterfall in Mhow tehsil near Indore, with a water height of 300 feet. The area around the waterfall is considered to be a popular and interesting picnic and trekking spot.",
+        img: pataalpani,
+        location: "https://www.google.com/maps/place/Patalpani+Waterfall/@22.5038887,75.7899623,15z/data=!3m1!4b1!4m5!3m4!1s0x3962f6d6dce8f7ed:0x8ac425f0eed8430c!8m2!3d22.5038893!4d75.7987171",
+        eta: {
+            car: "1 hr",
+            bicycle: "1 hr"
+        }
+    },
+    {
+        title: "Mahakaleshwar Temple",
+        description: "Located in Ujjain, at a distance of 86 kms from IIT Indore, the Mahakaleshwar Temple houses another Jyotirlinge of Lord Shiva. The temple is situated to the side of holy river Shipra. One of the 12 Jyotirlingas in India, the lingam at the Mahakala is believed to be swayambhu(born of itself).",
+        img: Mahakaleshwar,
+        location: "https://www.google.com/maps/place/Mahakaleshwar+temple+Ujjain/@23.1828267,75.7660653,17z/data=!3m1!4b1!4m5!3m4!1s0x3963745b98301435:0x3e12190241b9baa5!8m2!3d23.1828267!4d75.768254",
+        eta: {
+            car: "1 hr",
+            bicycle: "1 hr"
         }
     },
     {
