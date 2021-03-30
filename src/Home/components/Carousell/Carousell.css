@@ -1,10 +1,17 @@
 @media only screen and (max-width: 1000px) {
-	.carousel-caption {
-		display: none !important;
-	}
 	.w-100 {
 		min-height: 300px;
 	}
+	.owl-theme .item img {
+		height: 300px;
+	}
+}
+
+.owl-theme .item img {
+	max-height: 530px;
+	width: auto !important;
+	max-width: 100%;
+	margin: auto;
 }
 
 .owl-item {

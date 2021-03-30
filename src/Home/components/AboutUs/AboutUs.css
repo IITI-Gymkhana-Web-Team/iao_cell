@@ -55,13 +55,16 @@
 
 .aboutCard {
 	width: 400px;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 70px;
-    border-radius: 5px;
-    background-color: lavender;
-    box-shadow: 1 21 0px 6px #aaa;
-    box-shadow: 1px 1px 14px;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 70px;
+	border-radius: 5px;
+	background-color: lavender;
+}
+
+.aboutCard:hover {
+	box-shadow: 1 21 0px 6px #aaa;
+	box-shadow: 1px 1px 14px;
 }
 
 .aboutUnderline {

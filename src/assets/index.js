@@ -43,8 +43,126 @@ import sudipta from "./Sudipta.webp";
 import pravin from "./Pravin.webp";
 import sumit from "./Sumit.webp";
 import grp2 from "./grp2.webp";
+import iiti from "./iiti.webp";
+import iiti2 from "./iiti2.png";
+import hindex from "./hindex.webp";
+import citation from "./citation.webp";
+import ranks from "./ranks.webp";
+import c1 from "./c1.webp";
+import c2 from "./c2.webp";
+import d1 from "./d1.webp";
+import d2 from "./d2.webp";
+import e1 from "./e1.webp";
+import e2 from "./e2.webp";
+import e3 from "./e3.webp";
+import g from "./g.webp";
+import gh from "./gh.webp";
+import h1 from "./h1.webp";
+import h2 from "./h2.webp";
+import lh1 from "./lh1.webp";
+import lh2 from "./lh2.webp";
+import lh3 from "./lh3.webp";
+import lh4 from "./lh4.webp";
+import lh5 from "./lh5.webp";
+import lh6 from "./lh6.webp";
+import lr from "./lr.webp";
+import rnd from "./rnd.webp";
+import sa from "./sa.webp";
+import sic from "./sic.webp";
+import ss1 from "./ss1.webp";
+import ss2 from "./ss2.webp";
+import t1 from "./t1.webp";
+import t2 from "./t2.webp";
+import anupama from "./anupama.webp";
+import harsha from "./harsha.webp";
+import harshitha from "./harshitha.webp";
+import nitin from "./nitin.webp";
+import pallavi from "./pallavi.webp";
+import sanchit from "./sanchit.webp";
+import shiv from "./shiv.webp";
+import shubham from "./shubham.webp";
+import ankur from "./ankur.webp";
+import neeraj from "./neeraj.webp";
+import jahnavi from "./jahnavi.webp";
+import kaushik from "./kaushik.webp";
+import grp3 from "./grp3.png";
+import av2 from "./av2.webp";
+import train from "./train.webp";
+import plane from "./plane.webp";
+import bus from "./bus.webp";
+import tawa_reservoir from "./tawa_reservoir.webp";
+import pachmarhi from "./pachmarhi.webp";
+import parsili from "./parsili.webp";
+import pench from "./pench.webp";
+import panna from "./panna.webp";
+import white_tiger from "./white_tiger.webp";
+import kanha from "./kanha.webp";
+import Jatashankar from "./jatashankar.webp";
+import chauragh from "./chauragh.webp";
+import buffer_zone from "./buffer_zone.webp";
+import boat_club from "./boat_club.webp";
+import Bandhavgarh from "./bandhavgarh.webp";
 
 export {
+	tawa_reservoir,
+	pachmarhi,
+	parsili,
+	pench,
+	panna,
+	white_tiger,
+	kanha,
+	Jatashankar,
+	chauragh,
+	buffer_zone,
+	boat_club,
+	Bandhavgarh,
+	bus,
+	plane,
+	train,
+	av2,
+	grp3,
+	jahnavi,
+	kaushik,
+	ankur,
+	neeraj,
+	anupama,
+	harsha,
+	harshitha,
+	nitin,
+	pallavi,
+	sanchit,
+	shiv,
+	shubham,
+	c1,
+	c2,
+	d1,
+	d2,
+	e1,
+	e2,
+	e3,
+	g,
+	gh,
+	h1,
+	h2,
+	lh1,
+	lh2,
+	lh3,
+	lh4,
+	lh5,
+	lh6,
+	lr,
+	rnd,
+	sa,
+	sic,
+	ss1,
+	ss2,
+	t1,
+	t2,
+	ranks,
+	hindex,
+	citation,
+	iiti2,
+	iiti,
 	grp2,
 	sudipta,
 	sumit,

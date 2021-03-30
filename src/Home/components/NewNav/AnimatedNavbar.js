@@ -24,7 +24,7 @@ const navbarConfig = [
 	{ href: "#", title: "Outreach", dropdown: OutreachDropdown },
 	{ href: "#", title: "Research", dropdown: ResearchDropdown },
 	{ href: "#", title: "Facilities", dropdown: FacilitiesDropdown },
-	{ href: "/OfficeIR", title: "Contact", dropdown: ContactDropdown },
+	{ href: "/contact", title: "Contact", dropdown: ContactDropdown },
 ];
 
 let nodrop = [0, 9];
@@ -95,23 +95,10 @@ export default class AnimatedNavbar extends Component {
 								index={index}
 								onMouseEnter={this.onMouseEnter}
 							>
-								{currentIndex === index && (
-									nodrop.indexOf(currentIndex) != -1 ?
-										<div style={{ visibility: 'hidden' }}>
+								{currentIndex === index &&
+									(nodrop.indexOf(currentIndex) != -1 ? (
+										<div style={{ visibility: "hidden" }}>
 											<DropdownContainer
-
-												direction={direction}
-												animatingOut={this.state.animatingOut}
-												duration={duration}
-											>
-												<CurrentDropdown />
-												{PrevDropdown && <PrevDropdown />}
-											</DropdownContainer>
-										</div> :
-
-										<div>
-											<DropdownContainer
-
 												direction={direction}
 												animatingOut={this.state.animatingOut}
 												duration={duration}
@@ -120,8 +107,18 @@ export default class AnimatedNavbar extends Component {
 												{PrevDropdown && <PrevDropdown />}
 											</DropdownContainer>
 										</div>
-
-								)}
+									) : (
+										<div>
+											<DropdownContainer
+												direction={direction}
+												animatingOut={this.state.animatingOut}
+												duration={duration}
+											>
+												<CurrentDropdown />
+												{PrevDropdown && <PrevDropdown />}
+											</DropdownContainer>
+										</div>
+									))}
 							</NavbarItem>
 						);
 					})}

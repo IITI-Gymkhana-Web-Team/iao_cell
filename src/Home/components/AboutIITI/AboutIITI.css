@@ -1,0 +1,17 @@
+.aboutIITI img {
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+}
+
+.charts {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.charts img {
+	width: max(400px, 48%);
+}

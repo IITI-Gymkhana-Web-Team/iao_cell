@@ -14,8 +14,8 @@ export const MobileMenu = ({ show, setShow }) => {
 		{
 			name: "People",
 			innerLinks: [
-				{ name: "OIA", link: "/people/oia", level: "2" },
-				{ name: "SIR Cell", link: "/people/sc", level: "2" },
+				{ name: "International Affairs", link: "/people/oia", level: "2" },
+				{ name: "SIA Cell", link: "/people/sc", level: "2" },
 			],
 			level: "1",
 		},
@@ -35,7 +35,7 @@ export const MobileMenu = ({ show, setShow }) => {
 					innerLinks: [
 						{ name: "Asia", link: "/mou/asia", level: "3" },
 						{ name: "Australia", link: "/mou/australia", level: "3" },
-						{ name: "Americas", link: "/mou/americas", level: "3" },
+						{ name: "America", link: "/mou/america", level: "3" },
 						{ name: "Europe", link: "/mou/europe", level: "3" },
 					],
 					level: "2",
@@ -115,7 +115,6 @@ export const MobileMenu = ({ show, setShow }) => {
 							level: "3",
 						},
 						{ name: "Scholarships", link: "/opportunities/scholarship", level: "3" },
-						{ name: "Post Doc", link: "#", level: "3" },
 					],
 					level: "2",
 				},
@@ -140,6 +139,7 @@ export const MobileMenu = ({ show, setShow }) => {
 			name: "Facilities",
 			innerLinks: [
 				{ name: "Hostels", link: "http://hostel.iiti.ac.in/", level: "2" },
+				{ name: "Guest House", link: "#", level: "2" },
 				{ name: "Eateries", link: "http://eateries.iiti.ac.in/", level: "2" },
 				{ name: "Health Centre", link: "http://people.iiti.ac.in/~medical/", level: "2" },
 				{
@@ -176,7 +176,7 @@ export const MobileMenu = ({ show, setShow }) => {
 		},
 		{
 			name: "Contact",
-			link: "/OfficeIR",
+			link: "/contact",
 			level: "1",
 		},
 	]);

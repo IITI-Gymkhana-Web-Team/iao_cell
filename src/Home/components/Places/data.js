@@ -1,21 +1,23 @@
-import tawa_reservoir  from "../../../assets/tawa_reservoir.jpg";
-import pachmarhi from "../../../assets/pachmarhi.jpg";
-import parsili from "../../../assets/parsili.jpg";
-import pench from "../../../assets/pench.jpg";
-import panna from "../../../assets/panna.jpg";
-import white_tiger from "../../../assets/white_tiger.jpg";
-import kanha from "../../../assets/kanha.jpg";
-import Jatashankar from "../../../assets/jatashankar.JPG";
-import chauragh from "../../../assets/chauragh.jpg";
-import buffer_zone from "../../../assets/buffer_zone.jpg";
-import boat_club from "../../../assets/boat_club.jpg";
-import Bandhavgarh from "../../../assets/bandhavgarh.JPG";
-import rajwada from "../../../assets/rajwada.jpg";
-import gandhihall from "../../../assets/gandhihall.jpg";
-import omkareshwar_temple from "../../../assets/omkareshwar temple.jpg";
-import mandav from "../../../assets/mandav.jpg";
-import pataalpani from "../../../assets/pataalpani.jpg";
-import Mahakaleshwar from "../../../assets/Mahakaleshwar.jpg";
+import {
+	tawa_reservoir,
+	pachmarhi,
+	parsili,
+	pench,
+	panna,
+	white_tiger,
+	kanha,
+	Jatashankar,
+	chauragh,
+	buffer_zone,
+	boat_club,
+	Bandhavgarh,
+    rajwada,
+    omkareshwar_temple,
+    gandhihall,
+    mandav,
+    pataalpani,
+    Mahakaleshwar
+} from "../../../assets";
 
 export const data = [
     {
@@ -199,3 +201,4 @@ export const data = [
         }
     },
 ]
+

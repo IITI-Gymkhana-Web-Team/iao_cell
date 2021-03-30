@@ -51,6 +51,8 @@ export const CommitteesPage = ({ index }) => {
 					phno: "+91-731-660-3344",
 					img: abhijeet,
 				},
+			],
+			[
 				{
 					name: "Dr. Dipak Kumar Roy",
 					designation: "CH - Member",
@@ -65,6 +67,8 @@ export const CommitteesPage = ({ index }) => {
 					phno: "+91-7011321121",
 					img: priyansh,
 				},
+			],
+			[
 				{
 					name: "Dr. Gourinath Banda",
 					designation: "CSE - Member",
@@ -78,6 +82,8 @@ export const CommitteesPage = ({ index }) => {
 					phno: "+91-07324-306-884",
 					img: abhinoy,
 				},
+			],
+			[
 				{
 					name: "Dr. Santanu Manna",
 					designation: "MA - Member",
@@ -91,6 +97,8 @@ export const CommitteesPage = ({ index }) => {
 					email: "spatel@iiti.ac.in",
 					img: spatel,
 				},
+			],
+			[
 				{
 					name: "Dr. D. A. Basha",
 					designation: "MEMS - Member",
@@ -104,6 +112,8 @@ export const CommitteesPage = ({ index }) => {
 					phno: "+91 731 2438901",
 					img: rajeshkumar,
 				},
+			],
+			[
 				{
 					name: "Dr. K C Pradhan",
 					designation: "HSS - Member",

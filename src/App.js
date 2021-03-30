@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Preloader } from "./Home/components/Preloader/Preloader";
 import { Home } from "./Home/Home";
 
 function App() {
@@ -9,12 +8,13 @@ function App() {
 		SetIsLoading(false);
 	}, []);
 
-	return (
-		<div className="App">
-			{!isLoading && <Home />}
-			{isLoading && <Preloader />}
-		</div>
-	);
+	if (isLoading) return null;
+	else
+		return (
+			<div className="App">
+				<Home />
+			</div>
+		);
 }
 
 export default App;
