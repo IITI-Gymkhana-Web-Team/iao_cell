@@ -16,9 +16,9 @@ export const Committee = ({ committee }) => {
 							{persons.map((person) => {
 								return (
 									<>
-										{person.dept && (
+										{person.heading && (
 											<h2 className="font-acme text-center mt-5">
-												{person.dept}
+												{person.heading}
 											</h2>
 										)}
 										<PeopleCard person={person} key={person.email} />

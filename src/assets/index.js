@@ -102,8 +102,10 @@ import chauragh from "./chauragh.webp";
 import buffer_zone from "./buffer_zone.webp";
 import boat_club from "./boat_club.webp";
 import Bandhavgarh from "./bandhavgarh.webp";
+import kushaan from "./kushaan.webp";
 
 export {
+	kushaan,
 	tawa_reservoir,
 	pachmarhi,
 	parsili,
