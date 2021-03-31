@@ -41,13 +41,6 @@ export const CommitteesPage = ({ index }) => {
 					img: raghu,
 					phno: "+91-731-660-3329",
 				},
-				{
-					name: "Mr. Tentu Satyanarayan",
-					designation: "IAO - Secretary",
-					email: "drintl@iiti.ac.in",
-					phno: "+91-731-660-3547",
-					img: satya,
-				},
 			],
 			[
 				{
@@ -132,6 +125,13 @@ export const CommitteesPage = ({ index }) => {
 					email: "kcpradhan@iiti.ac.in",
 					phno: "+91-731-2438 700 (Ext. 871)",
 					img: kcpradhan,
+				},
+				{
+					name: "Mr. Tentu Satyanarayan",
+					designation: "IAO - Secretary",
+					email: "drintl@iiti.ac.in",
+					phno: "+91-731-660-3547",
+					img: satya,
 				},
 			],
 		],
