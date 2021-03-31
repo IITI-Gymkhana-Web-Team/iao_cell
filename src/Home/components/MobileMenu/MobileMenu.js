@@ -23,7 +23,7 @@ export const MobileMenu = ({ show, setShow }) => {
 			name: "Committees",
 			innerLinks: [
 				{ name: "Outreach Comm.", link: "/committee/oc", level: "2" },
-				{ name: "Mobility Exchange Comm.", link: "/committee/mec", level: "2" },
+				{ name: "ISMAE Comm.", link: "/committee/mec", level: "2" },
 			],
 			level: "1",
 		},
@@ -33,10 +33,10 @@ export const MobileMenu = ({ show, setShow }) => {
 				{
 					name: "MOU",
 					innerLinks: [
-						{ name: "Asia", link: "/mou/asia", level: "3" },
-						{ name: "Australia", link: "/mou/australia", level: "3" },
-						{ name: "America", link: "/mou/america", level: "3" },
-						{ name: "Europe", link: "/mou/europe", level: "3" },
+						{ name: "Asian Universities", link: "/mou/asia", level: "3" },
+						{ name: "Australian Universities", link: "/mou/australia", level: "3" },
+						{ name: "American Universities", link: "/mou/america", level: "3" },
+						{ name: "European Universities", link: "/mou/europe", level: "3" },
 					],
 					level: "2",
 				},

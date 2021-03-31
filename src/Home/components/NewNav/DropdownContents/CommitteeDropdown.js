@@ -14,7 +14,7 @@ const CommitteeDropdown = () => {
 					</HeadingLink>
 					<HeadingLink noMarginBottom>
 						<Link to="/committee/mec">
-							<Icon /> Mobility Exchange Committee
+							<Icon /> ISMAE Committee
 						</Link>
 					</HeadingLink>
 				</ul>

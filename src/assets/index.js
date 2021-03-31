@@ -111,8 +111,26 @@ import mandav from "./mandav.jpg";
 import pataalpani from "./pataalpani.jpg";
 import ananya from "./ananya.jpg";
 import ashish from "./ashish.jpg";
+import bibek from "./bibek.jpg";
+import ganti from "./ganti.jpg";
+import chelvam from "./chelvam.png";
+import guru from "./guru.jpg";
+import nagendra from "./nagendra.jpg";
+import sghosh from "./sghosh.jpg";
+import sudeshna from "./sudeshna.jpg";
+import suman from "./suman.jpg";
+import sunil from "./sunil.jpg";
 
 export {
+	sunil,
+	suman,
+	sudeshna,
+	sghosh,
+	nagendra,
+	guru,
+	ganti,
+	chelvam,
+	bibek,
 	ashish,
 	ananya,
 	rajwada,

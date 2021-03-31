@@ -13,16 +13,16 @@ const CollaborationsDropdown = () => {
 					<div className="d-flex mobDropdown">
 						<DropdownSection>
 							<li>
-								<Link to="/mou/asia">Asia</Link>
+								<Link to="/mou/asia">Asian Universities</Link>
 							</li>
 							<li>
-								<Link to="/mou/australia">Australia</Link>
+								<Link to="/mou/australia">Australian Universities</Link>
 							</li>
 							<li>
-								<Link to="/mou/america">America</Link>
+								<Link to="/mou/america">American Universities</Link>
 							</li>
 							<li>
-								<Link to="/mou/europe">Europe</Link>
+								<Link to="/mou/europe">European Universities</Link>
 							</li>
 						</DropdownSection>
 					</div>
