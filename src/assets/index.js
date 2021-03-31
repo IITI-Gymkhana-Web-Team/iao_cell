@@ -103,8 +103,20 @@ import buffer_zone from "./buffer_zone.webp";
 import boat_club from "./boat_club.webp";
 import Bandhavgarh from "./bandhavgarh.webp";
 import kushaan from "./kushaan.webp";
+import Mahakaleshwar from "./Mahakaleshwar.jpg";
+import rajwada from "./rajwada.jpg";
+import omkareshwar_temple from "./omkareshwar temple.jpg";
+import gandhihall from "./gandhihall.jpg";
+import mandav from "./mandav.jpg";
+import pataalpani from "./pataalpani.jpg";
 
 export {
+	rajwada,
+	omkareshwar_temple,
+	gandhihall,
+	mandav,
+	pataalpani,
+	Mahakaleshwar,
 	kushaan,
 	tawa_reservoir,
 	pachmarhi,
