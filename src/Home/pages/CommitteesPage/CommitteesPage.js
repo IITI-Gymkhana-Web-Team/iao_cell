@@ -148,13 +148,6 @@ export const CommitteesPage = ({ index }) => {
 					img: sanjay,
 					phno: "+91-731-660-3350",
 				},
-				{
-					name: "Mr. T Satyanarayana",
-					designation: "Secretary",
-					email: "drintl@iiti.ac.in",
-					img: satya,
-					phno: "+91-731-660-3547",
-				},
 			],
 			[
 				{
@@ -241,6 +234,13 @@ export const CommitteesPage = ({ index }) => {
 					email: "sunil@iiti.ac.in",
 					phno: "+91-732-430-6685",
 					img: sunil,
+				},
+				{
+					name: "Mr. T Satyanarayana",
+					designation: "Secretary",
+					email: "drintl@iiti.ac.in",
+					img: satya,
+					phno: "+91-731-660-3547",
 				},
 			],
 		],
