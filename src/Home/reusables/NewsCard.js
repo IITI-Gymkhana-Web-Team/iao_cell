@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 export const Newscard = ({ title, text, date, img, index }) => {
 	return (
 		<div className="card">
-			<img src={img} style={{ maxHeight: "300px" }} />
+			<div style={{ height: "250px" }}>
+				<img src={img} style={{ maxWidth: "100%", maxHeight: "100%" }} />
+			</div>
 			<div style={{ display: "flex", flexDirection: "column" }}>
 				<div className="card-body">
 					<Link to={"/outreach/news/" + index}>

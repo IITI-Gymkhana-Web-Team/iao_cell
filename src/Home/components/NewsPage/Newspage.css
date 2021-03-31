@@ -11,3 +11,7 @@
 	align-items: stretch;
 	justify-content: center;
 }
+
+.newsPage img {
+	height: 300px;
+}
