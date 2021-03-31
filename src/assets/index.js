@@ -109,8 +109,12 @@ import omkareshwar_temple from "./omkareshwar temple.jpg";
 import gandhihall from "./gandhihall.jpg";
 import mandav from "./mandav.jpg";
 import pataalpani from "./pataalpani.jpg";
+import ananya from "./ananya.jpg";
+import ashish from "./ashish.jpg";
 
 export {
+	ashish,
+	ananya,
 	rajwada,
 	omkareshwar_temple,
 	gandhihall,
