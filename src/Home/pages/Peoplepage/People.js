@@ -185,7 +185,7 @@ export const People = ({ index }) => {
 				{
 					email: "ee190002061@iiti.ac.in",
 					name: "Jahnavi Sunchu",
-					phno: "",
+					phno: "+91 8374193242",
 					img: jahnavi,
 					designation: "Outreach Team",
 				},
