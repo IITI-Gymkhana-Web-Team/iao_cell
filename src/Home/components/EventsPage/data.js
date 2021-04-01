@@ -1,7 +1,6 @@
 import {
     img1,
     person,
-    JBJoshi,
     Prof_William,
     raghu,
     Professor_David,
