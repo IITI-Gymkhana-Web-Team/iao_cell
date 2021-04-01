@@ -147,6 +147,25 @@ export default function ReachUs() {
 					</Card.Body>
 				</Card>
 			</div>
+			<h1 className="font-acme mt-5 text-center">Cab Services</h1>
+			<div className="container">
+				<Table striped bordered hover variant="success" responsive className="mb-4 mt-2">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Contact Number</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Sahil Cab Service</td>
+							<td>
+								<a href="tel:+91 78699 02222">+91 78699 02222</a>
+							</td>
+						</tr>
+					</tbody>
+				</Table>
+			</div>
 			<h1 className="font-acme mt-5 text-center">Emergency Contact Numbers</h1>
 			<div className="container">
 				<p>
