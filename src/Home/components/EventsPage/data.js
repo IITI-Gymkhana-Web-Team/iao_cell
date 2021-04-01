@@ -3,7 +3,7 @@ import {
     person,
     JBJoshi,
     Prof_William,
-    ProfRaghu,
+    raghu,
     Professor_David,
 } from "../../../assets";
 
@@ -29,7 +29,7 @@ export const data = [
                 name: "Dr. Raghunath Sahoo",
                 designation:
                     "Convener, Institute Outreach and Associate Dean International Affairs and Outreach",
-                img: ProfRaghu,
+                img: raghu,
             },
         ],
     },
@@ -55,7 +55,7 @@ export const data = [
                 name: "Dr. Raghunath Sahoo",
                 designation:
                     "Convener, Institute Outreach and Associate Dean International Affairs and Outreach",
-                img: ProfRaghu,
+                img: raghu,
             },
         ],
     },
