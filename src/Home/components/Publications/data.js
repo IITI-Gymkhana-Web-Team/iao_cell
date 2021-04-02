@@ -299,16 +299,367 @@ export const data = {
 	],
 	CSE: [
 		{
-			"Name of the Faculty": "Dr. Aruna Tiwari",
+			"Name of the Faculty": "Dr Anirban Sengupta",
 			Department: "CSE",
-			"Funding Agency":
-				"Indo-Norwegian collaboration in intelligent offshore mechatronics systems (INMOST), Norwegian Research Council (RCN) under INTPART Scheme.",
-			"Title of the Grant":
-				"Indo-Norwegian collaboration in intelligent offshore mechatronics systems (INMOST), Norwegian Research Council (RCN) under INTPART Scheme.",
-			"Foreign Collaborator(s)":
-				"Lead Partner in Norway: Prof. Jing Zhou and Prof. Linga Reddy Cenkeramaddi, University of Agder (UiA), Norway",
-			Amount: "56,20,000 NOK (42, 000 NOK for IIT Indore)",
-			"Year of Award - Year of Completion": "2020-2023",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title:
+				"IP Core Protection and Hardware-Assisted Security for Consumer Electronics",
+			"Book/ Journal/ Book chapter/ Conference Name": "IET Book",
+			"Volume/ Page": "ISBN: 978-1-78561-799-7",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"W Hu, CH Chang, Anirban Sengupta, S Bhunia, R Castner, H Li",
+			Title:
+				"An Overview of Hardware Oriented Security and Trust: Threats, Countermeasures and Design Tools",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on CAD",
+			"Volume/ Page": "doi: 10.1109/TCAD.2020.3047976",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"W Hu, CH Chang, Anirban Sengupta, S Bhunia, R Castner, H Li",
+			Title: "Hardware Oriented Security and Trust",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on CAD",
+			"Volume/ Page": "Special issue",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"Anirban Sengupta, Dipanjan Roy, Saraju P Mohanty, Peter Corcoran",
+			Title:
+				"Low-Cost Obfuscated JPEG CODEC IP Core for Secure CE Hardware",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on Consumer Electronics",
+			"Volume/ Page": "vol. 64, pp. 365-374",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Dipanjan Roy, Saraju P Mohanty",
+			Title:
+				"Triple-Phase Watermarking for Reusable IP Core Protection during Architecture Synthesis",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on CAD",
+			"Volume/ Page": "vol. 37, pp. 742 - 755",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"Anirban Sengupta, Saraju P Mohanty, Fernando Pescador, Peter Corcoran",
+			Title:
+				"Multi-Phase Obfuscation of Fault Secured DSP Designs with Enhanced Security Feature",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on Consumer Electronics",
+			"Volume/ Page": "vol. 64, pp. 356-364",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"Anirban Sengupta, Dipanjan Roy, Saraju Mohanty, Peter Corcoran",
+			Title:
+				"DSP Design Protection in CE through Algorithmic Transformation Based Structural Obfuscation",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on Consumer Electronics",
+			"Volume/ Page": "vol. 63, pp. 467 - 476",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Sandip Kundu",
+			Title:
+				"Securing IoT Hardware: Threat models and Reliable, Low-power Design Solutions",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on VLSI",
+			"Volume/ Page": "vol. 25, pp.3265 - 3267",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"S. P. Mohanty, A. Sengupta, P. Guturu, and E. Kougianos",
+			Title:
+				"Everything You Want to Know About Watermarking: From Paper Marks to Hardware Protection",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on Consumer Electronics",
+			"Volume/ Page": "vol. 7, pp. 83--91",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "A. Sengupta, S. Bhadauria, S. P. Mohanty",
+			Title:
+				"TL-HLS: Methodology for Low Cost Hardware Trojan Security Aware Scheduling with Optimal Loop Unrolling Factor during High Level Synthesis",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on CAD",
+			"Volume/ Page": "vol. 36, pp. 655 – 668",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"Anirban Sengupta, F. Lombardi, S.P Mohanty, M. Zwolinski",
+			Title:
+				"Security and Reliability Aware System Design for Mobile Computing Systems",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Access Journal",
+			"Volume/ Page": "vol. 4, pp. 2976 - 2980",
+			Year: "2016",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"Anirban Sengupta, Dipanjan Roy, Saraju Mohanty, Peter Corcoran",
+			Title:
+				"A Framework for Hardware Efficient Reusable IP Core for Grayscale Image CODEC",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Access Journal",
+			"Volume/ Page": "vol. 6, 871 - 882",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, SP Mohanty, Garrett Rose",
+			Title:
+				"Hardware - Assisted Design for Security and Protection of Consumer Electronics",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IET Computers and Digital Techniques",
+			"Volume/ Page": "vol. 12, pp. 249-250",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"Anirban Sengupta, Saumya Bhadauria, and Saraju P. Mohanty",
+			Title: "Low Cost Security Aware High Level Synthesis Methodology",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IET Computers & Digital Techniques",
+			"Volume/ Page": "vpl. 11, pp. 68 - 79",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title: "Editorial: From the Editors Desk",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"EEE VLSI Circuits & Systems Letter",
+			"Volume/ Page": "vol. 4, issue. 1, pp. 1",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title: "Editorial: From the Editors Desk",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"EEE VLSI Circuits & Systems Letter",
+			"Volume/ Page": "vol. 4, issue. 2, pp. 1",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title: "Editorial: From the Editors Desk",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"EEE VLSI Circuits & Systems Letter",
+			"Volume/ Page": "vol. 4, issue. 3, pp. 1",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title: "Editorial: From the Editors Desk",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"EEE VLSI Circuits & Systems Letter",
+			"Volume/ Page": "vol. 4, issue. 4, pp. 1",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title:
+				"Introduction to IP Core Protection and Hardware-Assisted Security of Consumer Electronics",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Saraju P. Mohanty, Anirban Sengupta,",
+			Title:
+				"Security in Consumer Electronics and Internet of Things (IoT)",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title: "Trojan Security Aware DSP IP Core and Integrated Circuits",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title:
+				"IP Core and Integrated Circuit Protection using Robust Watermarking",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title:
+				"Symmetrical Protection of DSP IP Core and Integrated Circuits using Fingerprinting and Watermarking",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title: "Obfuscation of JPEG CODEC IP Core for CE Devices",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title:
+				"Computational Forensic Engineering for Resolving Ownership Conflict of DSP IP Core",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title: "Structural Obfuscation of DSP Cores used in CE Devices",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title: "Functional Obfuscation of DSP Cores used in CE Devices",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title:
+				"Advanced Encryption Standard (AES) and its Hardware Watermarking for Ownership Protection",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
+			Title:
+				"High-Level Synthesis of Digital Circuits in the Nanoscale, Mobile Electronics Era",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Book chapter, IET Book",
+			"Volume/ Page": "e-ISBN: 9781785610004",
+			Year: "2016",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)":
+				"Anirban Sengupta, Shubha Neema, Pallabi Sarkar, Sri Harsha, Saraju P Mohanty, Mrinal Kanti Naskar",
+			Title:
+				"Obfuscation of Fault Secured DSP Design through Hybrid Transformation",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Proceedings of 17th IEEE Computer Society Annual Symposium on VLSI (ISVLSI), Hongkong",
+			"Volume/ Page": "pp. 732 - 737",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta,, Saraju P. Mohanty",
+			Title:
+				"Functional Obfuscation of DSP cores using Robust Logic Locking and Encryption",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Proceedings of 17th IEEE Computer Society Annual Symposium on VLSI (ISVLSI), Hongkong",
+			"Volume/ Page": "pp. 709 - 713",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr Anirban Sengupta",
+			Department: "CSE",
+			"Author(s)": "Anirban Sengupta, Saumya Bhadauria, Saraju Mohanty",
+			Title:
+				"Embedding Low Cost Optimal Watermark During High Level Synthesis for Reusable IP Core Protection",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Proc. of 48th IEEE Int'l Symposium on Circuits & Systems (ISCAS), Montreal",
+			"Volume/ Page": "pp. 974 - 977",
+			Year: "2016",
+		},
+		{
+			"Name of the Faculty": "Dr. Nagendra Kumar",
+			Department: "CSE",
+			"Author(s)":
+				"Nagendra Kumar, Eshwanth Baskaran, Anand Konjengbam & Manish Singh ",
+			Title:
+				"Hashtag recommendation for short social media texts using word-embeddings and external knowledge",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Knowledge and Information Systems",
+			"Volume/ Page": "63",
+			Year: "2021",
 		},
 	],
 	HSS: [
