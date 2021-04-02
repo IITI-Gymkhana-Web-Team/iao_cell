@@ -499,12 +499,169 @@ export const data = {
 		{
 			"Name of the Faculty": "Dr. Rupesh S. Devan",
 			Department: "MEMS",
-			"Funding Agency": "ASEM-DUO, S. Korea",
-			"Title of the Grant":
-				"Experimental and Theroretical insites to photocatalytic activities of nanomaterials.",
-			"Foreign Collaborator(s)": "Dr. Nelson Dzade",
-			Amount: "3000 EURO",
-			"Year of Award - Year of Completion": "2020",
+			"Author(s)":
+				"P. R. Chikate, A. Sharma, S. R. Rondiya, R. W. Cross, N. Y. Dzade, P. M. Shirage, and R. S. Devan*",
+			Title:
+				"Hierarchically interconnected ZnO nanowires for low temperature operated reducing gas sensors: Experimental and DFT studies",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"New J. of Chemistry",
+			"Volume/ Page": "45/1403-1414",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"N. Kitchamsetti, M. S. Ramteke, S. R. Rondiya, S. R. Mulani, M. S. Patil, R. W. Cross, N. Y. Dzade, and R. S. Devan",
+			Title:
+				"DFT and experimental investigations on the photocatalytic activities of NiO nanobelts for removal of organic pollutants",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"J. of Alloys and Compounds",
+			"Volume/ Page": "855/157337",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"N. Kitchamsetti, Y. R. Ma, P. M. Shirage, and R. S. Devan*,",
+			Title:
+				"Mesoporous perovskite of interlocked nickel titanate nanoparticles for efficient electrochemical supercapacitor electrode",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"J. Alloys and Compounds",
+			"Volume/ Page": "833/155134",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"S. M. Ansari, K. C. Ghosh, R. S. Devan, D. Sen, P. U. Sastry, Y. D. Kolekar, and C. V. Ramana,",
+			Title:
+				"Eco-Friendly Synthesis, Crystal Chemistry, and Magnetic Properties of Manganese-Substituted CoFe2O4 Nanoparticles",
+			"Book/ Journal/ Book chapter/ Conference Name": "ACS Omega",
+			"Volume/ Page": "5/19315-19330",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"S. Khirid, R. Biswas, S. Meena, R. A. Patil, Y. R. Ma, R. S. Devan, R. S. Dhayal, and K. K. Haldar",
+			Title:
+				"Designing of Ag2S Nanowires from a Single-Source Molecular Precursor [(PPh3)2AgS2P(OiPr)2] for Hydrogen Evolution Reaction",
+			"Book/ Journal/ Book chapter/ Conference Name": "ChemistrySelect",
+			"Volume/ Page": "5/10593-10598",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"N. Kitchamsetti, P. R. Chikate, R. A. Patil, Y. R. Ma, P. M. Shirage, and R. S. Devan",
+			Title:
+				"Perforated mesoporous NiO nanostructures for enhanced pseudocapacitive performance with ultra-high rate capability and high energy density",
+			"Book/ Journal/ Book chapter/ Conference Name": "CrystEngComm",
+			"Volume/ Page": "21/7130-7140",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"N. Kitchamsetti, R. S. Kalubarme, P. R. Chikate, C. J. Park, Y. R. Ma, P. M. Shirage, and R. S. Devan",
+			Title:
+				"An investigation on the effect of Li-ion cycling on the vertically aligned brookite TiO2 nanostructures",
+			"Book/ Journal/ Book chapter/ Conference Name": "Chemistry Select",
+			"Volume/ Page": "4/6620-6626",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"A. K. Sharma, R. S. Devan, M. Arora, R. Kumar, Y. R. Ma, and J. Nagendra Babu",
+			Title:
+				"Reductive-co-precipitated cellulose immobilized zerovalent iron nanoparticles in ionic liquid/water for Cr(VI) adsorption",
+			"Book/ Journal/ Book chapter/ Conference Name": "Cellulose",
+			"Volume/ Page": "25/5259-5275",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"P. R. Chikate, K. D. Daware, D. Gavhane, Y. R. Ma, R. J. Choudhary, S. I. Patil, M. A. More, D. M. Phase, S. W. Gosavi, P. M. Shirage, and R. S. Devan",
+			Title:
+				"Controlled hetero-architectures of Au nanoparticles decorated ZnO nanowires for enhanced field electron emission displays",
+			"Book/ Journal/ Book chapter/ Conference Name": "ChemistrySelect",
+			"Volume/ Page": "3/) 7891-7899",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"P. R. Chikate, P. K. Bankar, R. J. Choudhary, Y. R. Ma, S. I. Patil, M. A. More, D. M. Phase, P. M. Shirage, and R. S. Devan",
+			Title:
+				"Spitzer shaped ZnO nanostructures for enhancement of field electron emission behaviors",
+			"Book/ Journal/ Book chapter/ Conference Name": "RSC Advances",
+			"Volume/ Page": "8/21664-21670",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"P. Dubey, N. Kaurav, R. S. Devan, G. S. Okram, and Y. K. Kuo",
+			Title:
+				"The effect of stoichiometry on the structural, thermal and electronic properties of thermally decomposed nickel oxide",
+			"Book/ Journal/ Book chapter/ Conference Name": "RSC Advances",
+			"Volume/ Page": "8/5882-5890",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"T. S. Bhat, A. V. Shinde, R. S. Devan, A. M. Teli, Y. R. Ma, J. H. Kim, and P. S. Patil",
+			Title:
+				"Structural and electrochemical analysis of chemically synthesized microcubic architectured lead selenide thin films",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Applied Physics A: Materials Science & Processing",
+			"Volume/ Page": "12/34",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Author(s)":
+				"R. S. Devan*, V. P. Thakare, V. V. Antad, P. R. Chikate, R. T. Khare, M. A. More, R. S. Dhayal, S. I. Patil, Y. R. Ma, and L. Schmidt-Mende",
+			Title:
+				"Nano-hetero-architectures of two-dimensional MoS2@one-dimensional brookite TiO2 nanorods: prominent electron field emission for displays",
+			"Book/ Journal/ Book chapter/ Conference Name": "ACS Omega",
+			"Volume/ Page": "2/2925-2934",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr. Dudekula Althaf Basha",
+			"Author(s)": "R Mahjoub, DA Basha, A Singh, M Ferry, N Stanford",
+			Title:
+				"The contrasting fracture behaviour of twin boundaries and general boundaries–A first principles study based on experimental observation.",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Materials Science and Engineering A",
+			"Volume/ Page": "781",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Dudekula Althaf Basha",
+			"Author(s)": "D. Singh, DA Basha, A Singh, R. Devan, S.S. Hosmani",
+			Title:
+				"Microstructural and Passivation Response of Severely Deformed AISI 304 Steel Surface: The Role of Surface Mechanical Attrition Treatment",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Materials Engineering and Performance",
+			"Volume/ Page": "29",
+			Year: "2020",
 		},
 	],
 	Physics: [
