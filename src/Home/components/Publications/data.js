@@ -666,15 +666,118 @@ export const data = {
 	],
 	Physics: [
 		{
+			"Name of the Faculty": "Debajyoti Sarkar",
+			Department: "Physics",
+			"Author(s)":
+				"Daniel Kabat, Gilad Lifschytz, Phuc Nguyen and Debajyoti Sarkar ",
+			Title:
+				"Endpoint contributions to excited state modular Hamiltonians",
+			"Book/ Journal/ Book chapter/ Conference Name": "JHEP",
+			"Volume/ Page": "12, 128",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Debajyoti Sarkar",
+			Department: "Physics",
+			"Author(s)": "Manus Visser and Debajyoti Sarkar",
+			Title:
+				"The first law of differential entropy and holographic complexity",
+			"Book/ Journal/ Book chapter/ Conference Name": "JHEP",
+			"Volume/ Page": "11, 004",
+			Year: "2020",
+		},
+		{
 			"Name of the Faculty": "Preeti Anand Bhobe",
 			Department: "Physics",
-			"Funding Agency": "DAAD, Germany",
-			"Title of the Grant":
-				"A NEW PASSAGE TO INDIA - Partnership between Leibniz Universität Hannover (LUH) and IIT Indore",
-			"Foreign Collaborator(s)": "Prof. Dr. Herbert Pfnür",
-			Amount:
-				"*this is an institute level project, 20,000-25,000€/year for all the researchers from both sides. ",
-			"Year of Award - Year of Completion": "March 2019 to February 2023",
+			"Author(s)":
+				"S. Chaudhuri, D. Salas, V. Srihari, E. Welter, I. Karaman, and P. A. Bhobe",
+			Title: "Half metallicity in Cr substituted Fe2TiSn",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Nature Scientific Reports",
+			"Volume/ Page": "Vol 11, Pg. 524",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Preeti Anand Bhobe",
+			Department: "Physics",
+			"Author(s)":
+				"Tamalika Samanta, D. Salas, V. Srihari, I. Karaman, and P.A. Bhobe ",
+			Title:
+				"Emergent properties in the natural composite Ni2MnSb0.5Al0.5",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"J. Phy. D: Appl. Phys.",
+			"Volume/ Page": "Vol. 53 225302",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Rajesh Kumar",
+			Department: "Physics",
+			"Author(s)":
+				"Manushree Tanwar, Devesh K. Pathak, Anjali Chaudhary, Alexander S. Krylov, Herbert Pfnur, Ashutosh Sharma, Byungmin Ahn, Sangyeob Lee and Rajesh Kumar",
+			Title:
+				"Pseudo-Anomalous Size Dependent electron-phonon interaction in Graded Energy Band: Solving the Fano Paradox",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"J. Phys. Chem. Lett.,",
+			"Volume/ Page": "12, 2044 ",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Rajesh Kumar",
+			Department: "Physics",
+			"Author(s)":
+				"Devesh K. Pathak Anjali Chaudhary Manushree Tanwar Uttam K. Goutam Herbert Pfnur Rajesh Kumar",
+			Title:
+				"Chronopotentiometric Deposition of Nanocobalt Oxide for Elec- trochromic Auxiliary Active Electrode Application",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Physica Status Solidi-A",
+			"Volume/ Page": "217,  2000173",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Rajesh Kumar",
+			Department: "Physics",
+			"Author(s)":
+				"Anjali Chaudhary, Devesh Kumar Pathak, M Tanwar, Julian Koch, Herbert Pfnur and Rajesh Kum",
+			Title:
+				"Polythiophene-nanoWO3 Bilayer as Electrochromic Infrared Filter: A Transparent Heat Shield",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"J. Mater. Chem. C.",
+			"Volume/ Page": "08, 1773",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Rajesh Kumar",
+			Department: "Physics",
+			"Author(s)":
+				"Suryakant Mishra, P Yogi, A Chaudhary, D Pathak, S Saxena, A Krylov, P.R. Sagdeo & Rajesh Kumar  Ind. J. Phys., 93, 927 (2019)",
+			Title:
+				"Understanding Perceived-Color through Gradual Spectroscopic Variations in Electrochromism",
+			"Book/ Journal/ Book chapter/ Conference Name": "Ind. J. Phys.",
+			"Volume/ Page": "93, 927",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Rajesh Kumar",
+			Department: "Physics",
+			"Author(s)":
+				"A. S. Krylov, S. N. Sofronova, I. A. Gudim, S. N. Krylova, Rajesh Kumar and A. N. Vtyurin",
+			Title:
+				"Manifestation of magnetoelastic interactions in Raman spectra of HoxNd1􀀀xFe3(BO3)4 crystals",
+			"Book/ Journal/ Book chapter/ Conference Name": "J. Adv. Dielect.",
+			"Volume/ Page": "08, 1850011",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Rajesh Kumar",
+			Department: "Physics",
+			"Author(s)":
+				"Manushree Tanwar, Priyanka Yogi, Simran Lambora, Suryakant Mishra, Shailendra K. Saxena, Pankaj R Sagdeo, lexander S. Krylov, Rajesh Kumar",
+			Title:
+				"Generalization of Phonon Connement Model for Interpretation of Raman Line-Shape from Nano- Silicon",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Adv. Mater. Proc. Technol. ",
+			"Volume/ Page": "04, 227",
+			Year: "2018",
 		},
 	],
 };
