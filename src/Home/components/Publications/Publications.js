@@ -22,11 +22,12 @@ export const Publications = ({ dept }) => {
 				cols={[
 					"Name of the Faculty",
 					"Department",
-					"Funding Agency",
-					"Title of the Grant",
-					"Foreign Collaborator(s)",
-					"Amount",
-					"Year of Award - Year of Completion",
+					"Author(s)",
+					"Title",
+					"Book/ Journal/ Book chapter/ Conference Name",
+					"Volume/ Page",
+					"Year",
+					"International Patents",
 				]}
 			/>
 		</div>

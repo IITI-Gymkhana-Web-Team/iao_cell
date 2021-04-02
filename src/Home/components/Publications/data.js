@@ -3,190 +3,262 @@ export const data = {
 		{
 			"Name of the Faculty": "Dr. Sanjay Kumar Singh",
 			Department: "Chemistry",
-			"Funding Agency": "Shastri Indo-Canadian Institute (SICI), Canada",
-			"Title of the Grant":
-				"A synergistic experimental and computational approach to develop novel catalytic processes for upgrading agri-waste biomass/bio-oil to biofuel",
-			"Foreign Collaborator(s)": "Prof. S.H. Mushrif, University of Alberta, Canada",
-			Amount: "Rs 10,00,000/- (Ongoing)",
-			"Year of Award - Year of Completion": "2020-2022",
+			"Author(s)":
+				"Vanitha R. Naina, Sheng Wang, Dmitry I. Sharapa, Michael Zimmermann, Martin Hahsler, Lukas Niebl-Eibenstein, Junjun Wang, Christof Woll, Yuemin Wang, Sanjay K. Singh, Felix Studt, and Silke Behrens*",
+			Title:
+				"Shape-Selective Synthesis of Intermetallic Pd3Pb Nanocrystals and Enhanced Catalytic Properties in the Direct Synthesis of Hydrogen Peroxide",
+			"Book/ Journal/ Book chapter/ Conference Name": "ACS Catalysis",
+			"Volume/ Page": "11, 2288–2301",
+			Year: "2021",
 		},
 		{
 			"Name of the Faculty": "Dr. Sanjay Kumar Singh",
 			Department: "Chemistry",
-			"Funding Agency":
-				"DAAD,(DAAD-IIT Masters Sandwich Scholarship) to Master's student Ms. Vanitha Reddy",
-			"Title of the Grant": "Nanoparticle Catalysts for the Direct Synthesis of H2O2",
-			"Foreign Collaborator(s)":
-				"Dr. Silke Behrens, IKFT, Karlsruhe Institute of Technology, Germany",
-			Amount: "NIL",
-			"Year of Award - Year of Completion": "2019",
+			"Author(s)":
+				"Mahendra K. Awasthi, Rohit K. Rai, Silke Behrens and Sanjay K. Singh*",
+			Title:
+				"Low-temperature hydrogen production from methanol over ruthenium catalyst in water",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Catalysis Science and Technology",
+			"Volume/ Page": "11, 136-142",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+			Department: "Chemistry",
+			"Author(s)":
+				"Rohit K. Rai, Mahendra K. Awasthi, Vipin K. Singh, Sudipta R. Barman, Silke Behrens and Sanjay K. Singh*",
+			Title:
+				"Aqueous Phase Semihydrogenation of Alkynes over Ni-Fe Bimetallic Catalysts",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Catalysis Science and Technology",
+			"Volume/ Page": "10, 4968-4980",
+			Year: "2021",
 		},
 		{
 			"Name of the Faculty": "Dr. Shaikh M. Mobin",
 			Department: "Chemistry",
-			"Foreign Collaborator(s)": "Prof. Jamal Uddin",
+			"Author(s)":
+				"Ghann, William; Sharma, Vinay; Kang, Hyeonggon; Karim, Fahim; Richards, Balvin; Shaikh M. Mobin; Uddin, Jamal; Rahman, Mohammed M.; Hossain, Faruque; Kabir, Humayun",
+			Title:
+				"The synthesis and characterization of carbon dots and their application in dye sensitized solar cell",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"INT. J. HYD. ENERG, 2019, 44, 14580- 14587.",
 		},
 		{
 			"Name of the Faculty": "Dr. Shaikh M. Mobin",
 			Department: "Chemistry",
-			"Foreign Collaborator(s)": "Chang Yeon Lee",
+			"Author(s)":
+				"Tiwari, Pranav; Kaur, Navpreet; Sharma, Vinay; Kang, Hyeonggon; Uddin, Jamal; Shaikh M. Mobin",
+			Title:
+				"Cannabis sativa-derived carbon dots co-doped with N-S: highly efficient nanosensors for temperature and vitamin B12",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"New J. Chem., 2019, 43, 17058-17068.",
 		},
 		{
 			"Name of the Faculty": "Dr. Shaikh M. Mobin",
 			Department: "Chemistry",
-			"Foreign Collaborator(s)":
-				"Prof. Wolfgang Kaim**, Overall ~ 37 publications with Prof. W. Kaim",
+			"Author(s)":
+				"Gupta, Gajendra; Kumari, Pratibha; Ryu, Ji Yeon; Lee, Junseong; Shaikh M. Mobin; Lee, Chang Yeon",
+			Title:
+				"Mitochondrial Localization of Highly Fluorescent and Photostable BODIPY-Based Ruthenium(II), Rhodium(III), and Iridium(III) Metal Complexes",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Inorg. Chem., 2019, 58, 8587-8595",
 		},
 		{
-			"Name of the Faculty": "Dr. Biswarup Pathak",
+			"Name of the Faculty": "Dr. Shaikh M. Mobin",
 			Department: "Chemistry",
-			"Funding Agency":
-				"Scheme for Promotion of Academic and\r\nResearch Collaboration (SPARC)",
-			"Title of the Grant":
-				"Atomistic Modelling of Pt-Nanocluster Based Electrocatalysts for Fuel Cell\r\nApplications",
-			"Foreign Collaborator(s)": "Prof. Rajeev Ahuja (UPPSALA UNIVERSITY)",
-			Amount: "Rs. 74,94,338",
-			"Year of Award - Year of Completion": "2018",
-		},
-		{
-			"Name of the Faculty": "Dr. Biswarup Pathak",
-			Department: "Chemistry",
-			"Funding Agency": "Swedish Funding Agenicies",
-			"Title of the Grant":
-				"Rational Design of Transition Metal Based Nanoalloys/Two Dimensional Materials for Direct Conversion of CO 2 into a Gasoline Fuel",
-			"Foreign Collaborator(s)": "Prof. Rajeev Ahuja (UPPSALA UNIVERSITY)",
-			Amount: "Rs. Aprox. 50 Lakhs",
-			"Year of Award - Year of Completion": "2020",
+			"Author(s)":
+				"Das, Ankita; Ghosh, Prabir; Plebst, Sebastian; Schwederski, Brigitte; Shaikh M. Mobin; Kaim, Wolfgang; Lahiri, Goutam Kumar",
+			Title:
+				"Ancillary Ligand Control of 1 Electronic Structure in oBenzoquinonediimine-Ruthenium Complex Redox Series: Structures, Electron Paramagnetic Resonance (EPR), and Ultraviolet-Visible-Near-Infrared (UV-vis-NIR) Spectroelectrochemistry",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Inorg. Chem., 2015, 54, 3376-3386",
 		},
 		{
 			"Name of the Faculty": "Prof. Suman Mukhopadhyay",
 			Department: "Chemistry",
-			"Funding Agency": "DST",
-			"Title of the Grant":
-				"Metal complex catalysts anchored on\r\nnano‐sized magnetic materials : syntheses and application in hydrocarbons oxidation and hydroisomerization reactions",
-			"Foreign Collaborator(s)": "Dr. Gopal S Mishra",
-			Amount: "5,00,000",
-			"Year of Award - Year of Completion": "22/08/2014-21/07/2017",
+			"Author(s)":
+				"Kelly Machadoa, Suman Mukhopadhyay, Gopal S Mishra., ",
+			Title:
+				"Silica nano-particle supported copper and vanadium complexes have been utilized for study of cyclohexane oxidation reaction",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"J Mol Catalysis A : Chemical,",
+			"Volume/ Page": "139/400",
+			Year: "2015",
 		},
 		{
 			"Name of the Faculty": "Prof. Suman Mukhopadhyay",
 			Department: "Chemistry",
-			"Funding Agency": "DST",
-			"Title of the Grant":
-				"Exploring ruthenium based metallodendrimers for improved anticancer activity and mode of action",
-			"Foreign Collaborator(s)": "Prof. Ivo Grabchev",
-			Amount: "11,82,350",
-			"Year of Award - Year of Completion": "01/09/2019-31/08/2022     ",
+			"Author(s)":
+				"Kelly Machadoa, Suman Mukhopadhyay, Gopal S Mishra., ",
+			Title:
+				"Silica nano-particle supported copper and vanadium complexes have been utilized for study of cyclohexane oxidation reaction",
+			"Book/ Journal/ Book chapter/ Conference Name": "RSC Adv",
+			"Volume/ Page": "5/35675",
+			Year: "2015",
+		},
+		{
+			"Name of the Faculty": "Prof. Suman Mukhopadhyay",
+			Department: "Chemistry",
+			"Author(s)":
+				"Manideepa Saha, Komal M. Vyas, Luisa, M. D. R. S. Martins, Nuno M. R. Martins, Armando J. L. Pombeiro, Shaikh M. Mobin, D, Bhattacherjee, Krishna, P. Bhabak, Suman Mukhopadhyay",
+			Title:
+				"Copper(II) Tetrazolato Complexes : Role in oxidation catalysis and binding",
+			"Book/ Journal/ Book chapter/ Conference Name": "Polyhedron",
+			"Volume/ Page": "132/53",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Prof. Suman Mukhopadhyay",
+			Department: "Chemistry",
+			"Author(s)":
+				"Bidyut Kumar Kundu, Vaishali Chhabra, Novina Malviya, Rakesh Ganguly, Gopal S Mishra, Suman Mukhopadhyay",
+			Title:
+				"Zeolite encapsulated host-guest Cu(II) Schiff base complexes: superior activity towards oxidation reactions over homogenous catalytic systems,",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Microporous Mesoporous Mater",
+			"Volume/ Page": "271/100",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Prof. Suman Mukhopadhyay",
+			Department: "Chemistry",
+			"Author(s)":
+				"Komal Vyas, Deepu Sharma, Sri Krishna Jayadev Magani, Shaikh M Mobin, Suman Mukhopadhyay",
+			Title:
+				"In vitro evaluation of cytotoxicity and antimetastatic properties of novel arene ruthenium(II)‐tetrazolato compounds on human cancer cell lines",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Appl. Organomet. Chem",
+			"Volume/ Page": "in press",
+			Year: "2021",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "Department of Biotechnology-British council",
-			"Title of the Grant": "Diagnosis of Glioblastoma using Zinc Oxide Nanowires",
-			"Foreign Collaborator(s)": "Prof. Paul Roach, Keele University, Staffordshire, UK",
-			Amount: "15,00,000/-",
-			"Year of Award - Year of Completion": "Feb. 2016-July 2016",
+			"Author(s)":
+				"Venkatesh, C., Doorneweerd, D. D., Xia, W., Shen, J., Putt, K. S., Low, P.S.  ",
+			Title:
+				"Folate-targeted verrucarin A reduces the number of activated macrophages in a mouse model of acute peritonitis",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Bioorg. Med. Chem. Lett.",
+			"Volume/ Page": "0",
+			Year: "2021",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "Common wealth, UK",
-			"Title of the Grant":
-				"Biosensor for quantitation of prostate specific membrane antigen (PSMA) in synthetic urine by using zinc oxide nanorods",
-			"Foreign Collaborator(s)": "Prof. Paul Roach, Loughborough University, UK",
-			Amount: "30,00,000/-",
-			"Year of Award - Year of Completion": "Nov.2018-Oct.2019",
+			"Author(s)": "Venkatesh, C., Shen, J., Putt, K. S., Low, P.S.  ",
+			Title:
+				"Evaluation of the Reducing Potential of PSMA-containing Endosomes by FRET Imaging",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Cancer Drug Resistance",
+			"Volume/ Page": "3",
+			Year: "2020",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "DAAD, Germany",
-			"Title of the Grant":
-				"Synthesis and biological evaluation of ligand targeted MRI contrast agent and nanoparticles as theranostic tool for hypoxic solid tumors",
-			"Foreign Collaborator(s)": "Prof. Andreas Kirschning, LUH, Germany",
-			Amount: "Rs.5,25,000/-",
-			"Year of Award - Year of Completion": "Sep. 2018-Mar. 2019",
+			"Author(s)":
+				"Poh, S., Venkatesh, C., Ayala-Lopez, W., Putt, K. S., Low, P. S., ",
+			Title:
+				"Selective liposome targeting of folate receptor positive immune cells in inflammatory diseases",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Nanomedicine:Nanotechnology, Biology, and Medicine",
+			"Volume/ Page": "14, 1033–1043",
+			Year: "2018",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "DST-SERB-Purdue (OVDF)",
-			"Title of the Grant":
-				"A novel prostate specific glutamate carboxypeptidase II inhibitor as a therapeutic agent for amyotrophic lateral sclerosis and targeting moiety for PSMA+ cancers",
-			"Foreign Collaborator(s)": "Prof. Kavita Shah, Purdue University, USA",
-			Amount: "Rs.25,00,000/-",
-			"Year of Award - Year of Completion": "Feb.2019-Jan.2020",
+			"Author(s)":
+				"Poh, S., Venkatesh, C., Lindsay, K., Ayala-Lopez, W., Balasubramanian, V., Putt, K. S., Low, P. S., ",
+			Title:
+				" Folate-conjugated liposomes target and deliver therapeutics to immune cells in a rat model of rheumatoid arthritis",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Nanomedicine(Lond.), ",
+			"Volume/ Page": "12, 2441–2451",
+			Year: "2017",
+			"International Patents":
+				"Ligand Targeted Bio-conjugates with Nanoparticles for Diagnosis and Treatment of Cancers Over-expressing CA IX and PSMA, Venkatesh Chelvam, Andreas Krischning, Gerald Drager, Amit Pandit, Chetan Sharma, Premansh Dudhe, Indian and European patent (in filing), 2021",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency":
-				"German Academic Exchange Service (DAAD) funded project LUH-IIT Indore Partnership (2019-2023) under the “A New Passage to India Program”",
-			"Title of the Grant":
-				"Ligand Targeted NIR Dye/Fe3O4 Nanoconjugates for dual (Optical/MRI) Imaging and Hyperthermia to treat Metastatic Castration Resistant Prostate Cancer",
-			"Foreign Collaborator(s)":
-				"Prof. Andreas Kirschning and Dr. Gerald Drager, LUH, GermanyProf. Andreas Kirschning and Dr. Gerald Drager, LUH, Germany",
-			Amount: "Rs.55,00,000/-",
-			"Year of Award - Year of Completion": "2019-2023",
+			"Author(s)":
+				"Kumar, A., Venkatesh, C., Sakkarapalayam, M., Li, G., Sanchez-Cruz, P., Pinero, N. S., Low, P. S., Alegria, A. E., ",
+			Title:
+				"Synthesis and evaluation of folate-conjugated phenanthraquinones for tumor-targeted oxidative chemotherapy",
+			"Book/ Journal/ Book chapter/ Conference Name": "O J. Med. Chem. ",
+			"Volume/ Page": "6,1–17",
+			Year: "2016",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "Global Initiatives for Acaddemic Netwroks, MHRD, Govt. of India",
-			"Title of the Grant": "Introduction to Principles of Green Chemistry",
-			"Foreign Collaborator(s)":
-				"Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
-			Amount: "USD 12,000",
-			"Year of Award - Year of Completion": "June. 2016",
+			"Author(s)":
+				"Roy, J., Nguygen, T. X., Kandaluru, A. K., Venkatesh, C., Lv, W., Reddy, P.V.N., Low, P. S., Cushman, M. ",
+			Title:
+				"Dupa conjugation of a cytotoxic indenoisoquinoline topoisomerase I inhibitor for selective prostate cancer cell targeting",
+			"Book/ Journal/ Book chapter/ Conference Name": "J. Med. Chem. ",
+			"Volume/ Page": "3094–3103",
+			Year: "2015",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "Global Initiatives for Acaddemic Netwroks, MHRD, Govt. of India",
-			"Title of the Grant": "Modern Photochemistry and Photocatalysis",
-			"Foreign Collaborator(s)": "Prof. Malte Brasholz, University of Rostock, Germany",
-			Amount: "USD 12,000",
-			"Year of Award - Year of Completion": "July. 2016",
+			"Author(s)":
+				"Tsai, E. H. R., Bentz, B. Z., Venkatesh, C., Gaind, V., Webb, K. J., Low, P. S.",
+			Title:
+				" In vivo mouse fluorescence imaging for folate-targeted delivery and release kinetics",
+			"Book/ Journal/ Book chapter/ Conference Name": "Optical Imaging",
+			"Volume/ Page": "5, 2662–2678",
+			Year: "2014",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "Global Initiatives for Acaddemic Netwroks, MHRD, Govt. of India",
-			"Title of the Grant": "Advanced Concepts in the Synthesis of Pharmaceutical Drugs",
-			"Foreign Collaborator(s)":
-				"Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
-			Amount: "USD 8,000",
-			"Year of Award - Year of Completion": "June. 2018",
+			"Author(s)": "Shen, J., Venkatesh, C., Cresswell, G., Low, P. S. ",
+			Title:
+				"Use of folate-conjugated imaging agents to target alternatively activated macrophages in a murine model of asthma",
+			"Book/ Journal/ Book chapter/ Conference Name": "Mol. Pharm. ",
+			"Volume/ Page": "10, 1918–1927",
+			Year: "2013",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "Global Initiatives for Acaddemic Netwroks, MHRD, Govt. of India",
-			"Title of the Grant": "Chemistry and Biology of Carbohydrates",
-			"Foreign Collaborator(s)":
-				"Prof. Fabian Pfrengle, Max-Planck-Institute of Colloids and Interfaces, Germany ",
-			Amount: "USD 12,000",
-			"Year of Award - Year of Completion": "November. 2017",
+			"Author(s)":
+				"Lindsay, K., Venkatesh, C., Charity, W., Mahalingam, S., Scott, P., Sumith, K., Low, P. S., ",
+			Title:
+				" Development of tumor-targeted near infrared probes for fluorescence guided surgery",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Bioconjug. Chem.  ",
+			"Volume/ Page": "24, 1075–1080",
+			Year: "2013",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "Global Initiatives for Acaddemic Netwroks, MHRD, Govt. of India",
-			"Title of the Grant":
-				"Principles of Drug Discovery, Design, and Development: Modern Concepts and Applications",
-			"Foreign Collaborator(s)": "Prof. Apurba Dutta, Univeristy of Kansas, USA",
-			Amount: "USD 12,000",
-			"Year of Award - Year of Completion": "May. 2019",
+			"Author(s)":
+				"Gaind, V., Tsai, H.-R., Webb, K. J., Venkatesh, C., Low, P. S. ",
+			Title:
+				"Small animal optical diffusion tomography with targeted fluorescence, ",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"J. Opt. Soc. Am. A. ",
+			"Volume/ Page": "30, 1146¬–1154",
+			Year: "2013",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "Chemistry",
-			"Funding Agency": "Global Initiatives for Acaddemic Netwroks, MHRD, Govt. of India",
-			"Title of the Grant":
-				"Principles of Ligand-Targeted Drug Delivery: Design and Development of ‘Smart Drugs’",
-			"Foreign Collaborator(s)": "Dr. Madduri Sriniasarao, Purdue Univversity, USA",
-			Amount: "USD 12,000",
-			"Year of Award - Year of Completion": "May. 2020",
+			"Author(s)":
+				"Tsai, H.-R., Bentz, B. Z., Venkatesh, C., Gaind, V., Webb, K. J., Low, P. S. ",
+			Title:
+				"In vivo optical imaging of kinetics in a small animal for folate-targeted drug development",
+			"Book/ Journal/ Book chapter/ Conference Name": "Opt. Life Sci., ",
+			"Volume/ Page": "2013",
+			Year: "2013",
 		},
 	],
 	BSBE: [
@@ -196,7 +268,8 @@ export const data = {
 			"Funding Agency": "Department of Biotechnology-British council",
 			"Title of the Grant":
 				"Diagnosis of Prostate cancer by Prostate Specific Membrane Antigen (PSMA) Targeted Quantum Dots",
-			"Foreign Collaborator(s)": "Prof. Paul Roach, Keele University, Staffordshire, UK",
+			"Foreign Collaborator(s)":
+				"Prof. Paul Roach, Keele University, Staffordshire, UK",
 			Amount: "15,00,000/-",
 			"Year of Award - Year of Completion": "Feb. 2016-July 2016",
 		},
@@ -206,17 +279,20 @@ export const data = {
 			"Funding Agency": "Common wealth, UK",
 			"Title of the Grant":
 				"Design, synthesize and evaluate small molecule targeted nanocarriers for the diagnosis and treatment of prostate cancer.",
-			"Foreign Collaborator(s)": "Prof. Paul Roach, Loughborough University, UK",
+			"Foreign Collaborator(s)":
+				"Prof. Paul Roach, Loughborough University, UK",
 			Amount: "30,00,000/-",
 			"Year of Award - Year of Completion": "Nov.2018-Oct.2019",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "BSBE",
-			"Funding Agency": "Global Initiatives for Acaddemic Netwroks, MHRD, Govt. of India",
+			"Funding Agency":
+				"Global Initiatives for Acaddemic Netwroks, MHRD, Govt. of India",
 			"Title of the Grant":
 				"Chemical Biology: The Integration of Medicine, Biology and Chemistry ",
-			"Foreign Collaborator(s)": "Prof. Kavita Shah, Purdue University, USA",
+			"Foreign Collaborator(s)":
+				"Prof. Kavita Shah, Purdue University, USA",
 			Amount: "USD 12,000",
 			"Year of Award - Year of Completion": "June. 2016",
 		},
@@ -324,7 +400,8 @@ export const data = {
 			Department: "School of HSS",
 			"Funding Agency": "NA",
 			"Title of the Grant": "NA",
-			"Foreign Collaborator(s)": "Dr Andrea Gerlak, Arizona University, USA",
+			"Foreign Collaborator(s)":
+				"Dr Andrea Gerlak, Arizona University, USA",
 			Amount: "None",
 		},
 		{
@@ -350,7 +427,8 @@ export const data = {
 			Department: "School of HSS",
 			"Funding Agency": "Rockefellor Foundation,",
 			"Title of the Grant": "Resilient Cities Network Grant",
-			"Foreign Collaborator(s)": "Dr Umamaheshwar Rajashekhar and Dr. Diane Archer",
+			"Foreign Collaborator(s)":
+				"Dr Umamaheshwar Rajashekhar and Dr. Diane Archer",
 			Amount: "5500 GBP",
 			"Year of Award - Year of Completion": "2015-2016",
 		},
@@ -359,7 +437,8 @@ export const data = {
 			Department: "School of HSS",
 			"Funding Agency": "NIHU, Hiroshima University, Japan",
 			"Title of the Grant": "International Areas Studies Speaker",
-			"Foreign Collaborator(s)": "Dr Miharu yui and Professor Hidenori Okahashi",
+			"Foreign Collaborator(s)":
+				"Dr Miharu yui and Professor Hidenori Okahashi",
 			Amount: "45000 Japanese Yen",
 			"Year of Award - Year of Completion": "2014-2014",
 		},
@@ -391,7 +470,8 @@ export const data = {
 			Department: "Mechanical Engineering",
 			"Funding Agency": "DST:JSPS",
 			"Title of the Grant": "DST:JSPS",
-			"Foreign Collaborator(s)": "Prof.D Nakamura , Kyushu University, Japan",
+			"Foreign Collaborator(s)":
+				"Prof.D Nakamura , Kyushu University, Japan",
 			Amount: "9,00,000 INR",
 			"Year of Award - Year of Completion": "2018-2020",
 		},
