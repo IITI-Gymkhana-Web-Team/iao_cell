@@ -319,7 +319,7 @@ export const data = {
 				"Jason M. Kelly, Fiona P. McDonald, Alejandro Camargo, Amelia Moore, Mark Kesling, Ananya Ghoshal,George Marcus, Paul Stoller,Dominic Boyer, Serenella Iovino, Rebecca Ballestra, Jim Enote, Eduardo S. Brondizio, Ignatius Gutsa,  Cymene Howe , Sue Jackson  and Phil Scarpino. The book is edited by Jason M. Kelly and Fiona P. McDonald.  ",
 			Title:
 				"An Anthropocene Primer (anthropoceneprimer.org) a born-digital, open access, open peer review book hosted online by IUPUI. Version 2.0 of the book is in process and a hard copy of the book with Indiana University Press is also forthcoming.",
-			"Journal Name": "NA",
+			"Book/ Journal/ Book chapter/ Conference Name": "NA",
 			"Volume/ Page": "Version 1.0 published, Version 2.0 forthcoming ",
 			Year: "2017 onwards (Cont.)",
 		},
@@ -337,7 +337,7 @@ export const data = {
 			Department: "School of HSS",
 			"Author(s)": "Gerlak, A., et al.",
 			Title: "Issues and geography in Earth System Governance ",
-			"Journal Name":
+			"Book/ Journal/ Book chapter/ Conference Name":
 				'In: M.Betsill, T.Benney and A. Gerlak "Agency in Earth System Governance Book chapter',
 			"Volume/ Page":
 				"Book Chapter, Published by Cambridge University Press.",
@@ -349,7 +349,7 @@ export const data = {
 			"Author(s)": "Sharma, Pritee and S.N. Kumar",
 			Title:
 				"The Global Governance of Water, energy and food nexus: Allocation and Access for competing demands",
-			"Journal Name":
+			"Book/ Journal/ Book chapter/ Conference Name":
 				"International Environmental Agreements (Springer Nature)",
 			"Volume/ Page": "Vol 20",
 			Year: "2020",
@@ -360,7 +360,8 @@ export const data = {
 			"Author(s)": "Narsimulu, A. et.al.",
 			Title:
 				"Technology Tranfer for Clean Energy Access: Opportunities and Challenges",
-			"Journal Name": "EPFL Workshop Monitor",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"EPFL Workshop Monitor",
 			"Volume/ Page":
 				"available at https://infoscience.epfl.ch/record/229950/files/170718-TTM_Workshop_Takeaways.pdf",
 			Year: "2017",
@@ -372,7 +373,8 @@ export const data = {
 				"Sharma, Pritee, Karanth, A., Burvery, M. and Dubey A. ",
 			Title:
 				"The economic impact of floods and waterlogging on low-income households: lessons from Indore, India",
-			"Journal Name": "IIED Working Paper",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IIED Working Paper",
 			"Volume/ Page": "Available athttps://pubs.iied.org/10789IIED",
 			Year: "2016",
 		},
@@ -382,7 +384,8 @@ export const data = {
 			"Author(s)": "Panda, S., Ruchi Sharma and W.G.Park. ",
 			Title:
 				"Patent protection, technological efforts, and exports: An empirical investigation. ",
-			"Journal Name": "The Journal of Developing Areas",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"The Journal of Developing Areas",
 			"Volume/ Page": "54(2)",
 			Year: "2020",
 		},
@@ -392,7 +395,7 @@ export const data = {
 			"Author(s)": "Ivus, Olena, Manu Jose and Ruchi Sharma",
 			Title:
 				"R&D Tax Credit and Innovation: Evidence from Private Firms in India",
-			"Journal Name": "Research Policy",
+			"Book/ Journal/ Book chapter/ Conference Name": "Research Policy",
 			"Volume/ Page": "50 (1)",
 			Year: "2021",
 		},
@@ -990,7 +993,8 @@ export const data = {
 				"Tejendra Dixit, Anubha Bilgaiyan, IA Palani, Daisuke Nakamura, T Okada, Vipul Singh",
 			Title:
 				"Influence of potassium permanganate on the anisotropic growth and enhanced UV emission of ZnO nanostructures using hydrothermal process for optoelectronic applications",
-			"Journal Name": "Journal of Sol-Gel Science and Technology",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Sol-Gel Science and Technology",
 			"Volume/ Page": "75",
 			Year: "2015",
 		},
@@ -1001,7 +1005,8 @@ export const data = {
 				"Nandini Patra, Siva Krishna Karuturi, Nilesh J Vasa, D Nakamura, M Higashihata, Vipul Singh, IA Palani",
 			Title:
 				"Influence of Ni, Ti and NiTi alloy nanoparticles on hydrothermally grown ZnO nanowires for photoluminescence enhancement",
-			"Journal Name": "Journal of Alloys and Compounds",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Alloys and Compounds",
 			"Volume/ Page": "770",
 			Year: "2019",
 		},
@@ -1012,7 +1017,7 @@ export const data = {
 				"K Akash, SS Mani Prabu, Tobias Gustmann, S Jayachandran, Simon Pauly, IA Palani",
 			Title:
 				"Enhancing the life cycle behaviour of Cu-Al-Ni shape memory alloy bimorph by Mn addition",
-			"Journal Name": "Materials Letters",
+			"Book/ Journal/ Book chapter/ Conference Name": "Materials Letters",
 			"Volume/ Page": "226",
 			Year: "2018",
 		},
@@ -1023,7 +1028,8 @@ export const data = {
 				"N Resnina, IA Palani, S Belyaev, SS Mani Prabu, P Liulchak, U Karaseva, M Manikandan, S Jayachandran, V Bryukhanova, Anshu Sahu, R Bikbaev",
 			Title:
 				"Structure, martensitic transformations and mechanical behaviour of NiTi shape memory alloy produced by wire arc additive manufacturing",
-			"Journal Name": "Journal of Alloys and Compounds",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Alloys and Compounds",
 			"Volume/ Page": "851",
 			Year: "2021",
 		},
@@ -1033,7 +1039,8 @@ export const data = {
 			"Author(s)": "G Dan Sathiaraj, Aurimas Pukenas, Werner Skrotzki",
 			Title:
 				"Texture formation in face-centered cubic high-entropy alloys",
-			"Journal Name": "Journal of Alloys and Compounds",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Alloys and Compounds",
 			"Volume/ Page": "826",
 			Year: "2020",
 		},
@@ -1042,7 +1049,7 @@ export const data = {
 				"G Dan Sathiaraj, Rajib Kalsar, Satyam Suwas, Werner Skrotzki",
 			Title:
 				"Effect of Stacking Fault Energy on Microstructure and Texture Evolution during the Rolling of Non-Equiatomic CrMnFeCoNi High-Entropy Alloys",
-			"Journal Name": "Crystals",
+			"Book/ Journal/ Book chapter/ Conference Name": "Crystals",
 			"Volume/ Page": "10",
 			Year: "2020",
 		},
@@ -1330,6 +1337,377 @@ export const data = {
 				"Adv. Mater. Proc. Technol. ",
 			"Volume/ Page": "04, 227",
 			Year: "2018",
+		},
+	],
+	CE: [
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Nitin Tiwari, Neelima Satyam and Anand J Puppala",
+			Title:
+				"Effect of Synthetic Geotextile on Stabilization of Expansive Subgrades: An Experimental Study",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Materials in Civil Engineering, ASCE",
+			"Volume/ Page": "In Press",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Minu Treesa Abraham, Neelima Satyam and Biswajeet Pradhan",
+			Title:
+				"Forecasting landslides using mobility functions: A case study from Idukki district, India",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Indian Geotechnical Journal, Springer",
+			"Volume/ Page": "In Press",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
+			Title:
+				"Effect of Freeze-Thaw Cycles on Engineering Properties of Biocemented Sand under Different Treatment Conditions",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Engineering Geology, Elsevier",
+			"Volume/ Page": "284 (106022)",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Minu Treesa Abraham, Neelima Satyam, Nakshatram Shreyas, Biswajeet Pradhan, Samuele Segoni, Khairul Nizam Abdul Maulud, Abdullah M. Alamri",
+			Title:
+				"Forecasting landslides using SIGMA model: a case study from Idukki, India",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Geomatics, Natural Hazards and Risk,Taylor & Francis",
+			"Volume/ Page": "In Press",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
+			Title:
+				"Hybrid Bacteria Mediated Cemented Sand: Microcharacterization, Permeability, Strength, Shear Wave Velocity, Stress-Strain, and Durability",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"International Journal of Damage Mechanics, SAGE Publication",
+			"Volume/ Page": "In Press",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Minu Treesa Abraham, Neelima Satyam , Ascanio Rosi, Biswajeet Pradhan and Samuele Segoni",
+			Title:
+				"Usage of antecedent soil moisture for improving the performance of rainfall thresholds for landslide early warning",
+			"Book/ Journal/ Book chapter/ Conference Name": "Catena, Elsevier",
+			"Volume/ Page": "In Press",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
+			Title:
+				"Rock-like Behavior of Biocemented Sand Treated under Non-Sterile Environment and Various Treatment Conditions",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Rock Mechanics and Geotechnical Engineering, Elsevier",
+			"Volume/ Page": "In Press",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
+			Title:
+				"Comparison of Improved Shear Strength of Biotreated Sand using Different Ureolytic Strains and Sterile Conditions",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Soil Use and Management, Wiley",
+			"Volume/ Page": "In Press",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Binh Thai P, Abolfazl J., T. Nguyen-Thoi, T.V. Phong, H. D. Nguyen, Neelima Satyam , Md Masroor, S. Rehman, H. Sajjad, M. Sahana, H. V. Le & I. Prakash",
+			Title:
+				"Ensemble machine learning models based on Reduced Error Pruning Tree for prediction of rainfall-induced landslides",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"International Journal of Digital Earth, Taylor & Francis",
+			"Volume/ Page": "In Press",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Minu Treesa Abraham, Neelima Satyam, Maria Alexandra Bulzinetti, Biswajeet Pradhan, Binh Thai Pham and Samuele Segoni",
+			Title:
+				"Using Field-Based Monitoring to Enhance the Performance of Rainfall Thresholds for Landslide Warning",
+			"Book/ Journal/ Book chapter/ Conference Name": "Water, MDPI",
+			"Volume/ Page": "In Press",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Mehebub S, Binh Thai P, Manas S, Romulus C, Do Xuan T, Rabin C, Neelima Satyam , Huu Duy N, Tran Van P, Hiep Van L, Subodh C, G Areendran, Kashif I and Indra P.",
+			Title:
+				"Rainfall Induced Landslide Susceptibility Mapping Using Novel Hybrid Soft Computing Methods Based on Multi-layer Perceptron Neural Network Classifie",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Geocarto International, Taylor and Francis",
+			"Volume/ Page": "In Press",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Minu Treesa Abraham, Neelima Satyam , Sai Kumar Peddholla Reddy, Biswajeet Pradhan",
+			Title:
+				"Runout modelling and calibration of friction parameters of Kurichermala debris flow, India",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Landslides, Springer",
+			"Volume/ Page": "18",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Meghna Sharma, Neelima Satyam , and Krishna R. Reddy",
+			Title:
+				"State-of-the-Art Review of Emerging and Biogeotechnical Methods for LiquefactionMitigation in Sands",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Hazardous, Toxic, and Radioactive Waste, ASCE",
+			"Volume/ Page": "25 (03120001)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Minu Treesa Abraham, Neelima Satyam , Biswajeet Pradhan, and Abdullah M. Alamri",
+			Title:
+				"IoT-Based Geotechnical Monitoring of Unstable Slopes for Landslide Early Warning in the Darjeeling Himalayas",
+			"Book/ Journal/ Book chapter/ Conference Name": "Sensors, MDPI",
+			"Volume/ Page": "20(9)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
+			Title:
+				"Strength Enhancement and Lead Immobilization of Sand using Consortia of Bacteria and Blue-Green Algae",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Hazardous, Toxic, and Radioactive Waste, ASCE",
+			"Volume/ Page": "24(04020049)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Minu Treesa Abraham, Neelima Satyam, Sai Kushal, Ascanio Rosi, Biswajeet Pradhan and Samuele Segoni",
+			Title:
+				"Rainfall Threshold Estimationand Landslide Forecasting for Kalimpong, India Using SIGMA Model",
+			"Book/ Journal/ Book chapter/ Conference Name": "Water, MDPI",
+			"Volume/ Page": "12 (4) ",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Minu Treesa Abraham , Neelima Satyam, Ascanio Rosi Biswajeet Pradhan and Samuele Segoni",
+			Title:
+				"The Selection of Rain Gauges and Rainfall Parameters in Estimating Intensity-Duration Thresholds for Landslide Occurrence: Case Study from Wayanad (India)",
+			"Book/ Journal/ Book chapter/ Conference Name": "Water, MDPI",
+			"Volume/ Page": "12",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Nitin Tiwari, Neelima Satyam and Sanjay Kumar Shukla",
+			Title:
+				"An experimental study on micro-structural and geotechnical characteristics of expansive clay mixed with EPS granules",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Soils and Foundations, Elsevier ",
+			"Volume/ Page": "60(3)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Minu Treesa Abraham, Neelima Satyam, Biswajeet Pradhan and Abdullah M. Alamri",
+			Title:
+				"Forecasting of Landslides Using Rainfall Severity and Soil Wetness: A Probabilistic Approach for Darjeeling Himalayas",
+			"Book/ Journal/ Book chapter/ Conference Name": "Water, MDPI",
+			"Volume/ Page": "12 (3) ",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
+			Title:
+				"Investigation of various gram-positive bacteria for MICP in Narmada Sand, India",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"International Journal of Geotechnical Engineering",
+			"Volume/ Page": "15(2)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Abhirup Dikshit, Neelima Satyam, Biswajeet Pradhan and Sai Kushal",
+			Title:
+				"Estimating rainfall threshold and temporal probability for landslide occurrences in Darjeeling Himalayas",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Geosciences, Springer",
+			"Volume/ Page": "In Press",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Neelima Satyam",
+			Department: "Civil Engineering ",
+			"Author(s)": "Abhirup Dikshit, Neelima Satyam, Ikuo Towhata",
+			Title:
+				"Early warning system using tilt sensors in Chibo Kalimpong, Darjeeling Himalayas, India",
+			"Book/ Journal/ Book chapter/ Conference Name": "Natural Hazards",
+			"Volume/ Page": "94(2)",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Munir Ahmad Nayak",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Munir Ahmad Nayak; Gabriele Villarini, Kate Cowles, Burhan Ul Wafa",
+			Title:
+				"Bayesian hierarchical models for the frequency of winter heavy precipitation events over the central United States: The role of atmospheric rivers",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Water Resources Research",
+			"Volume/ Page": "56",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Munir Ahmad Nayak",
+			Department: "Civil Engineering ",
+			"Author(s)":
+				"Munir Ahmad Nayak; Jonathan D. Herman; Scott Steinschneider",
+			Title:
+				"Balancing flood risk and water supply in California: Policy search integrating short‐term forecast ensembles with conjunctive use",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Water Resources Research",
+			"Volume/ Page": "54",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Guru Prakash",
+			Department: "Civil Engineering ",
+			"Author(s)": "Dr. Arnold Yuan",
+			Title:
+				"Toward a big data-based approach: A review on degradation models for prognosis of critical infrastructure",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Nondestructive Evaluation, Diagnostics and Prognostics of Engineering Systems",
+			"Volume/ Page": "4",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Guru Prakash",
+			Department: "Civil Engineering ",
+			"Author(s)": "Daijiro Mizutani",
+			Title:
+				"Toward a big data-based approach: A review on degradation models for prognosis of critical infrastructure",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Nondestructive Evaluation, Diagnostics and Prognostics of Engineering Systems",
+			"Volume/ Page": "4",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Abhishek Rajput IIT Indore",
+			Department: "Civil Engineering",
+			"Author(s)": "A Rajput, JH Park, S Hwan Noh, J Kee Paik",
+			Title:
+				"Fresh and sea water immersion corrosion testing on marine structural steel at low temperature",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Ships and Offshore Structures",
+			"Volume/ Page": "15",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Abhishek Rajput IIT Indore",
+			Department: "Civil Engineering",
+			"Author(s)":
+				"Abhishek Rajput, Meral Ak, Sang Jin Kim , Sung Hwan Noh, J Kee Paik",
+			Title:
+				"Effects of the surface preparation on the life of epoxy coating in steel ship plates: an experimental study",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Ships and Offshore Structures",
+			"Volume/ Page": "14",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr. Saikat Sarkar",
+			Department: "Civil Engineering",
+			"Author(s)": "M Nowruzpour, S Sarkar, JN Reddy, D Roy",
+			Title: "A derivative-free upscaled theory for analysis of defects",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of the Mechanics and Physics of Solids",
+			"Volume/ Page": " 122, 489-501",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Dr. Saikat Sarkar",
+			Department: "Civil Engineering",
+			"Author(s)": "S Sarkar, M Nowruzpour, JN Reddy, AR Srinivasa",
+			Title:
+				"A discrete Lagrangian based direct approach to macroscopic modelling",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of the Mechanics and Physics of Solids",
+			"Volume/ Page": "98, 172-180",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr. Saikat Sarkar",
+			Department: "Civil Engineering",
+			"Author(s)": "S Sarkar, JN Reddy",
+			Title:
+				"Exploring the source of non-locality in the Euler–Bernoulli and Timoshenko beam models",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"International Journal of Engineering Science",
+			"Volume/ Page": " 104, 110-115",
+			Year: "2016",
+		},
+		{
+			"Name of the Faculty": "Dr. Saikat Sarkar",
+			Department: "Civil Engineering",
+			"Author(s)": "N Pimprikar, S Sarkar, G Devaraj, D Roy, SR Reid",
+			Title:
+				"A stabilization approach for mesh-free simulations of systems developing shocks or extreme strain localizations",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"International Journal of Mechanical Sciences",
+			"Volume/ Page": " 91, 18-32",
+			Year: "2015",
+		},
+		{
+			"Name of the Faculty": "Dr. Saikat Sarkar",
+			Department: "Civil Engineering",
+			"Author(s)":
+				"TV Varma, B Ungureanu, S Sarkar, R Craster, S Guenneau, S Brûlé",
+			Title:
+				"The influence of structure geometry and material on seismic metamaterial performance",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Frontiers in materials (to be published)",
+			Year: "2021",
 		},
 	],
 };

@@ -266,6 +266,13 @@ export const Home = () => {
 							return <Publications dept={"Physics"} />;
 						}}
 					/>
+					<Route
+						path="/publications/ce"
+						exact
+						component={() => {
+							return <Publications dept={"CE"} />;
+						}}
+					/>
 					<Route path="/mhrd/sparc" exact component={Sparc} />
 					<Route path="/mhrd/asem" exact component={Asem} />
 					<Route path="/mhrd/vajra" exact component={Vajra} />

@@ -13,6 +13,7 @@ export const Publications = ({ dept }) => {
 				{dept == "CSE" && "Computer Science and Engineering"}
 				{dept == "HSS" && "Humanities and Social Sciences"}
 				{dept == "Mathematics" && "Mathematics"}
+				{dept == "CE" && "Civil Engineering"}
 				{dept == "MEMS" &&
 					"Metallurgical Engineering and Material Science"}
 				{dept == "Physics" && "Physics"}

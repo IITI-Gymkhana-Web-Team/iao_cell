@@ -1,5 +1,11 @@
 import React, { useState } from "react";
-import { Heading, HeadingLink, LinkList, DropdownSection, Icon } from "./Components";
+import {
+	Heading,
+	HeadingLink,
+	LinkList,
+	DropdownSection,
+	Icon,
+} from "./Components";
 import { Link } from "react-router-dom";
 
 const CollaborationsDropdown = () => {
@@ -23,16 +29,24 @@ const CollaborationsDropdown = () => {
 						<div className="d-flex mobDropdown">
 							<DropdownSection>
 								<li>
-									<Link to="/mou/asia">Asian Universities</Link>
+									<Link to="/mou/asia">
+										Asian Universities
+									</Link>
 								</li>
 								<li>
-									<Link to="/mou/australia">Australian Universities</Link>
+									<Link to="/mou/australia">
+										Australian Universities
+									</Link>
 								</li>
 								<li>
-									<Link to="/mou/america">American Universities</Link>
+									<Link to="/mou/america">
+										American Universities
+									</Link>
 								</li>
 								<li>
-									<Link to="/mou/europe">European Universities</Link>
+									<Link to="/mou/europe">
+										European Universities
+									</Link>
 								</li>
 							</DropdownSection>
 						</div>
@@ -75,10 +89,14 @@ const CollaborationsDropdown = () => {
 						<div className="d-flex mobDropdown">
 							<DropdownSection>
 								<li>
-									<Link to="/int/students">Students List</Link>
+									<Link to="/int/students">
+										Students List
+									</Link>
 								</li>
 								<li>
-									<Link to="/int/testimonials">Testimonials</Link>
+									<Link to="/int/testimonials">
+										Testimonials
+									</Link>
 								</li>
 							</DropdownSection>
 						</div>
@@ -97,26 +115,35 @@ const CollaborationsDropdown = () => {
 						<div className="d-flex mobDropdown">
 							<DropdownSection>
 								<li>
-									<Link to="/grants/bsbe">Biosciences and Bioengineering</Link>
+									<Link to="/grants/bsbe">
+										Biosciences and Bioengineering
+									</Link>
 								</li>
 								<li>
 									<Link to="/grants/ch">Chemistry</Link>
 								</li>
 								<li>
-									<Link to="/grants/cse">Computer Science and Engineering</Link>
+									<Link to="/grants/cse">
+										Computer Science and Engineering
+									</Link>
 								</li>
 								<li>
-									<Link to="/grants/hss">Humanities and Social Sciences</Link>
+									<Link to="/grants/hss">
+										Humanities and Social Sciences
+									</Link>
 								</li>
 								<li>
 									<Link to="/grants/math">Mathematics</Link>
 								</li>
 								<li>
-									<Link to="/grants/me">Mechanical Engineering</Link>
+									<Link to="/grants/me">
+										Mechanical Engineering
+									</Link>
 								</li>
 								<li>
 									<Link to="/grants/mems">
-										Metallurgical Engineering and Material Science
+										Metallurgical Engineering and Material
+										Science
 									</Link>
 								</li>
 								<li>
@@ -157,18 +184,28 @@ const CollaborationsDropdown = () => {
 									</Link>
 								</li>
 								<li>
-									<Link to="/publications/math">Mathematics</Link>
+									<Link to="/publications/math">
+										Mathematics
+									</Link>
 								</li>
 								<li>
-									<Link to="/publications/me">Mechanical Engineering</Link>
+									<Link to="/publications/me">
+										Mechanical Engineering
+									</Link>
 								</li>
 								<li>
 									<Link to="/publications/mems">
-										Metallurgical Engineering and Material Science
+										Metallurgical Engineering and Material
+										Science
 									</Link>
 								</li>
 								<li>
 									<Link to="/publications/ph">Physics</Link>
+								</li>
+								<li>
+									<Link to="/publications/ce">
+										Civil Engineering
+									</Link>
 								</li>
 							</DropdownSection>
 						</div>
