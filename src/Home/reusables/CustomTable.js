@@ -16,7 +16,7 @@ export const CustomTable = ({ cols, data }) => {
 					return (
 						<tr key={index} style={{ whiteSpace: "pre-wrap" }}>
 							{cols.map((col) => {
-								return <td>{row[col]}</td>;
+								return <td>{row[col] || "-"}</td>;
 							})}
 						</tr>
 					);

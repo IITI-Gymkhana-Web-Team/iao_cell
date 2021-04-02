@@ -30,6 +30,7 @@ import { AboutIITI } from "./components/AboutIITI/AboutIITI";
 import { AboutIOA } from "./components/AboutIOA/AboutIOA";
 import { LifeIITI } from "./components/LifeIITI/LifeIITI";
 import ReachUs from "./pages/Contactpage/ReachUs";
+import { Grants } from "./components/Grants/Grants";
 
 export const Home = () => {
 	return (
@@ -114,6 +115,62 @@ export const Home = () => {
 						exact
 						component={() => {
 							return <Mou2 name={"Australia"} />;
+						}}
+					/>
+					<Route
+						path="/grants/me"
+						exact
+						component={() => {
+							return <Grants dept={"ME"} />;
+						}}
+					/>
+					<Route
+						path="/grants/ch"
+						exact
+						component={() => {
+							return <Grants dept={"Chemistry"} />;
+						}}
+					/>
+					<Route
+						path="/grants/cse"
+						exact
+						component={() => {
+							return <Grants dept={"CSE"} />;
+						}}
+					/>
+					<Route
+						path="/grants/bsbe"
+						exact
+						component={() => {
+							return <Grants dept={"BSBE"} />;
+						}}
+					/>
+					<Route
+						path="/grants/hss"
+						exact
+						component={() => {
+							return <Grants dept={"HSS"} />;
+						}}
+					/>
+					<Route
+						path="/grants/math"
+						exact
+						component={() => {
+							return <Grants dept={"Mathematics"} />;
+						}}
+					/>
+					<Route
+						path="/grants/mems"
+						exact
+						component={() => {
+							return <Grants dept={"MEMS"} />;
+						}}
+					/>
+					<Route
+						path="/grants/ph"
+						exact
+						component={() => {
+							return <Grants dept={"Physics"} />;
 						}}
 					/>
 					<Route path="/mhrd/sparc" exact component={Sparc} />
