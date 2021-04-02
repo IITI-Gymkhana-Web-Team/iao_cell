@@ -313,134 +313,88 @@ export const data = {
 	],
 	HSS: [
 		{
-			"Name of the Faculty": "Dr. Ashok Kumar Mocherla",
+			"Name of the Faculty": "Dr. Ananya Ghoshal",
 			Department: "School of HSS",
-			"Funding Agency": "Arts and Humanities Research Council, UK",
-			"Title of the Grant":
-				"Researc h Networking Grant: Minorities on Campus - Dscrimination, equality and Politics of Nationalism on Indian HE",
-			"Foreign Collaborator(s)": "Dr. Sariya Cheruvellil",
-			Amount: "68,000 UK Pounds",
-			"Year of Award - Year of Completion": "2020 -2022",
+			"Author(s)":
+				"Jason M. Kelly, Fiona P. McDonald, Alejandro Camargo, Amelia Moore, Mark Kesling, Ananya Ghoshal,George Marcus, Paul Stoller,Dominic Boyer, Serenella Iovino, Rebecca Ballestra, Jim Enote, Eduardo S. Brondizio, Ignatius Gutsa,  Cymene Howe , Sue Jackson  and Phil Scarpino. The book is edited by Jason M. Kelly and Fiona P. McDonald.  ",
+			Title:
+				"An Anthropocene Primer (anthropoceneprimer.org) a born-digital, open access, open peer review book hosted online by IUPUI. Version 2.0 of the book is in process and a hard copy of the book with Indiana University Press is also forthcoming.",
+			"Journal Name": "NA",
+			"Volume/Page": "Version 1.0 published, Version 2.0 forthcoming ",
+			Year: "2017 onwards (Cont.)",
 		},
 		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
+			"Name of the Faculty": "Dr. Ananya Ghoshal",
 			Department: "School of HSS",
-			"Funding Agency": "SPARC",
-			"Foreign Collaborator(s)": "Prof. Deborah Sutton",
-			Amount: "55 Lacs",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Funding Agency": "UKEIRI",
-			"Foreign Collaborator(s)": "Prof. Deborah Sutton",
-			Amount: "12 Lacs",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Funding Agency": "University of Kent Grant",
-			"Foreign Collaborator(s)": "Prof. Michael Falk",
-			Amount: "Result Awaited",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Funding Agency": "SPARC",
-			"Foreign Collaborator(s)": "Prof. Francois Pieter",
-			Amount: "Result Awaited",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Funding Agency": "EC Collaborator Grant",
-			"Foreign Collaborator(s)": "Prof. Paul Arthur",
-			Amount: "10,000 AUD",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Funding Agency": "Academic Europaea",
-			"Foreign Collaborator(s)": "Prof. Dorota Kolodeiwieczyk",
-			Amount: "5000 Euros",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Funding Agency": "Open Science Collaborator",
-			"Foreign Collaborator(s)": "Prof. Don O' Donnell",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Foreign Collaborator(s)": "Prof. Marika Preziuso",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Funding Agency": "MOE Grant",
-			"Foreign Collaborator(s)": "Prof. Sumathi Ramaswamy",
-			Amount: "16 Lacs",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Funding Agency": "UNICEF Project",
-			"Foreign Collaborator(s)": "UNICEF",
-			Amount: "42 Lacs",
-		},
-		{
-			"Name of the Faculty": "Dr. Nirmala Menon",
-			Department: "School of HSS",
-			"Funding Agency": "MOE Grant",
-			"Foreign Collaborator(s)": "Prof. Kavita Daiya",
+			"Author(s)":
+				"Jason M. Kelly, Fiona P. McDonald, Alejandro Camargo, Amelia Moore, Mark Kesling, Ananya Ghoshal,George Marcus, Paul Stoller,Dominic Boyer, Serenella Iovino, Rebecca Ballestra, Jim Enote, Eduardo S. Brondizio, Ignatius Gutsa,  Cymene Howe , Sue Jackson  and Phil Scarpino. The book is edited by Jason M. Kelly and Fiona P. McDonald.  ",
+			Title:
+				"Forthcoming book chapter - in 'Scenes from the Anthropocene' to be published by University of California Press as a hard copy volume of critical essays",
+			Year: "Expected by 2021",
 		},
 		{
 			"Name of the Faculty": "Dr. Pritee Sharma",
 			Department: "School of HSS",
-			"Funding Agency": "NA",
-			"Title of the Grant": "NA",
-			"Foreign Collaborator(s)":
-				"Dr Andrea Gerlak, Arizona University, USA",
-			Amount: "None",
+			"Author(s)": "Gerlak, A., et al.",
+			Title: "Issues and geography in Earth System Governance ",
+			"Journal Name":
+				'In: M.Betsill, T.Benney and A. Gerlak "Agency in Earth System Governance Book chapter',
+			"Volume/Page":
+				"Book Chapter, Published by Cambridge University Press.",
+			Year: "2019",
 		},
 		{
 			"Name of the Faculty": "Dr. Pritee Sharma",
 			Department: "School of HSS",
-			"Funding Agency": "NA",
-			"Title of the Grant": "NA",
-			"Foreign Collaborator(s)": "Professor Joyeeta Gupta",
-			Amount: "None",
+			"Author(s)": "Sharma, Pritee and S.N. Kumar",
+			Title:
+				"The Global Governance of Water, energy and food nexus: Allocation and Access for competing demands",
+			"Journal Name":
+				"International Environmental Agreements (Springer Nature)",
+			"Volume/Page": "Vol 20",
+			Year: "2020",
 		},
 		{
 			"Name of the Faculty": "Dr. Pritee Sharma",
 			Department: "School of HSS",
-			"Funding Agency": "EPFL Energy Center",
-			"Title of the Grant": "Workshop Grant Collaborative",
-			"Foreign Collaborator(s)":
-				"Dr Vincent Moreau and Dr Anjali Narsimulu, EPFL Energy Center, Lausanne, Switzerland",
-			Amount: "2500 Euros",
-			"Year of Award - Year of Completion": "2017-2017",
+			"Author(s)": "Narsimulu, A. et.al.",
+			Title:
+				"Technology Tranfer for Clean Energy Access: Opportunities and Challenges",
+			"Journal Name": "EPFL Workshop Monitor",
+			"Volume/Page":
+				"available at https://infoscience.epfl.ch/record/229950/files/170718-TTM_Workshop_Takeaways.pdf",
+			Year: "2017",
 		},
 		{
 			"Name of the Faculty": "Dr. Pritee Sharma",
 			Department: "School of HSS",
-			"Funding Agency": "Rockefellor Foundation,",
-			"Title of the Grant": "Resilient Cities Network Grant",
-			"Foreign Collaborator(s)":
-				"Dr Umamaheshwar Rajashekhar and Dr. Diane Archer",
-			Amount: "5500 GBP",
-			"Year of Award - Year of Completion": "2015-2016",
+			"Author(s)":
+				"Sharma, Pritee, Karanth, A., Burvery, M. and Dubey A. ",
+			Title:
+				"The economic impact of floods and waterlogging on low-income households: lessons from Indore, India",
+			"Journal Name": "IIED Working Paper",
+			"Volume/Page": "Available athttps://pubs.iied.org/10789IIED",
+			Year: "2016",
 		},
 		{
-			"Name of the Faculty": "Dr. Pritee Sharma",
+			"Name of the Faculty": "Dr. Ruchi Sharma",
 			Department: "School of HSS",
-			"Funding Agency": "NIHU, Hiroshima University, Japan",
-			"Title of the Grant": "International Areas Studies Speaker",
-			"Foreign Collaborator(s)":
-				"Dr Miharu yui and Professor Hidenori Okahashi",
-			Amount: "45000 Japanese Yen",
-			"Year of Award - Year of Completion": "2014-2014",
+			"Author(s)": "Panda, S., Ruchi Sharma and W.G.Park. ",
+			Title:
+				"Patent protection, technological efforts, and exports: An empirical investigation. ",
+			"Journal Name": "The Journal of Developing Areas",
+			"Volume/Page": "54(2)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Ruchi Sharma",
+			Department: "School of HSS",
+			"Author(s)": "Ivus, Olena, Manu Jose and Ruchi Sharma",
+			Title:
+				"R&D Tax Credit and Innovation: Evidence from Private Firms in India",
+			"Journal Name": "Research Policy",
+			"Volume/Page": "50 (1)",
+			Year: "2021",
 		},
 	],
 	Mathematics: [
@@ -459,40 +413,65 @@ export const data = {
 		{
 			"Name of the Faculty": "Dr.I.A.Palani",
 			Department: "Mechanical Engineering",
-			"Funding Agency": "DST:JSPS",
-			"Title of the Grant": "DST:JSPS",
-			"Foreign Collaborator(s)": "Prof.T.Okada, Kyushu University, Japan",
-			Amount: "7,00,000 INR",
-			"Year of Award - Year of Completion": "2014-2016",
+			"Author(s)":
+				"Tejendra Dixit, Anubha Bilgaiyan, IA Palani, Daisuke Nakamura, T Okada, Vipul Singh",
+			Title:
+				"Influence of potassium permanganate on the anisotropic growth and enhanced UV emission of ZnO nanostructures using hydrothermal process for optoelectronic applications",
+			"Journal Name": "Journal of Sol-Gel Science and Technology",
+			"Volume/Page": "75",
+			Year: "2015",
 		},
 		{
 			"Name of the Faculty": "Dr.I.A.Palani",
 			Department: "Mechanical Engineering",
-			"Funding Agency": "DST:JSPS",
-			"Title of the Grant": "DST:JSPS",
-			"Foreign Collaborator(s)":
-				"Prof.D Nakamura , Kyushu University, Japan",
-			Amount: "9,00,000 INR",
-			"Year of Award - Year of Completion": "2018-2020",
+			"Author(s)":
+				"Nandini Patra, Siva Krishna Karuturi, Nilesh J Vasa, D Nakamura, M Higashihata, Vipul Singh, IA Palani",
+			Title:
+				"Influence of Ni, Ti and NiTi alloy nanoparticles on hydrothermally grown ZnO nanowires for photoluminescence enhancement",
+			"Journal Name": "Journal of Alloys and Compounds",
+			"Volume/Page": "770",
+			Year: "2019",
 		},
 		{
 			"Name of the Faculty": "Dr.I.A.Palani",
 			Department: "Mechanical Engineering",
-			"Funding Agency": "DST:DAAD",
-			"Title of the Grant": "DST:DAAD",
-			"Foreign Collaborator(s)": "Dr.Simon PaulyIFW dresden,Germany",
-			Amount: "7,76,000 INR",
-			"Year of Award - Year of Completion": "2017-2019",
+			"Author(s)":
+				"K Akash, SS Mani Prabu, Tobias Gustmann, S Jayachandran, Simon Pauly, IA Palani",
+			Title:
+				"Enhancing the life cycle behaviour of Cu-Al-Ni shape memory alloy bimorph by Mn addition",
+			"Journal Name": "Materials Letters",
+			"Volume/Page": "226",
+			Year: "2018",
 		},
 		{
 			"Name of the Faculty": "Dr.I.A.Palani",
 			Department: "Mechanical Engineering",
-			"Funding Agency": "DST:RSF",
-			"Title of the Grant": "DST:RSF",
-			"Foreign Collaborator(s)":
-				"Prof.Natalia Resnina, St petersburg state university, Russia",
-			Amount: "89,00,000 INR",
-			"Year of Award - Year of Completion": "2019-2022",
+			"Author(s)":
+				"N Resnina, IA Palani, S Belyaev, SS Mani Prabu, P Liulchak, U Karaseva, M Manikandan, S Jayachandran, V Bryukhanova, Anshu Sahu, R Bikbaev",
+			Title:
+				"Structure, martensitic transformations and mechanical behaviour of NiTi shape memory alloy produced by wire arc additive manufacturing",
+			"Journal Name": "Journal of Alloys and Compounds",
+			"Volume/Page": "851",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Dan Sathiaraj",
+			Department: "Mechanical",
+			"Author(s)": "G Dan Sathiaraj, Aurimas Pukenas, Werner Skrotzki",
+			Title:
+				"Texture formation in face-centered cubic high-entropy alloys",
+			"Journal Name": "Journal of Alloys and Compounds",
+			"Volume/Page": "826",
+			Year: "2020",
+		},
+		{
+			"Author(s)":
+				"G Dan Sathiaraj, Rajib Kalsar, Satyam Suwas, Werner Skrotzki",
+			Title:
+				"Effect of Stacking Fault Energy on Microstructure and Texture Evolution during the Rolling of Non-Equiatomic CrMnFeCoNi High-Entropy Alloys",
+			"Journal Name": "Crystals",
+			"Volume/Page": "10",
+			Year: "2020",
 		},
 	],
 	MEMS: [
