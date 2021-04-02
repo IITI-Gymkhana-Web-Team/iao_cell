@@ -320,7 +320,7 @@ export const data = {
 			Title:
 				"An Anthropocene Primer (anthropoceneprimer.org) a born-digital, open access, open peer review book hosted online by IUPUI. Version 2.0 of the book is in process and a hard copy of the book with Indiana University Press is also forthcoming.",
 			"Journal Name": "NA",
-			"Volume/Page": "Version 1.0 published, Version 2.0 forthcoming ",
+			"Volume/ Page": "Version 1.0 published, Version 2.0 forthcoming ",
 			Year: "2017 onwards (Cont.)",
 		},
 		{
@@ -339,7 +339,7 @@ export const data = {
 			Title: "Issues and geography in Earth System Governance ",
 			"Journal Name":
 				'In: M.Betsill, T.Benney and A. Gerlak "Agency in Earth System Governance Book chapter',
-			"Volume/Page":
+			"Volume/ Page":
 				"Book Chapter, Published by Cambridge University Press.",
 			Year: "2019",
 		},
@@ -351,7 +351,7 @@ export const data = {
 				"The Global Governance of Water, energy and food nexus: Allocation and Access for competing demands",
 			"Journal Name":
 				"International Environmental Agreements (Springer Nature)",
-			"Volume/Page": "Vol 20",
+			"Volume/ Page": "Vol 20",
 			Year: "2020",
 		},
 		{
@@ -361,7 +361,7 @@ export const data = {
 			Title:
 				"Technology Tranfer for Clean Energy Access: Opportunities and Challenges",
 			"Journal Name": "EPFL Workshop Monitor",
-			"Volume/Page":
+			"Volume/ Page":
 				"available at https://infoscience.epfl.ch/record/229950/files/170718-TTM_Workshop_Takeaways.pdf",
 			Year: "2017",
 		},
@@ -373,7 +373,7 @@ export const data = {
 			Title:
 				"The economic impact of floods and waterlogging on low-income households: lessons from Indore, India",
 			"Journal Name": "IIED Working Paper",
-			"Volume/Page": "Available athttps://pubs.iied.org/10789IIED",
+			"Volume/ Page": "Available athttps://pubs.iied.org/10789IIED",
 			Year: "2016",
 		},
 		{
@@ -383,7 +383,7 @@ export const data = {
 			Title:
 				"Patent protection, technological efforts, and exports: An empirical investigation. ",
 			"Journal Name": "The Journal of Developing Areas",
-			"Volume/Page": "54(2)",
+			"Volume/ Page": "54(2)",
 			Year: "2020",
 		},
 		{
@@ -393,20 +393,593 @@ export const data = {
 			Title:
 				"R&D Tax Credit and Innovation: Evidence from Private Firms in India",
 			"Journal Name": "Research Policy",
-			"Volume/Page": "50 (1)",
+			"Volume/ Page": "50 (1)",
 			Year: "2021",
 		},
 	],
 	Mathematics: [
 		{
-			"Name of the Faculty": "Dr. Santanu Manna",
+			"Name of the Faculty": "Dr. Vinay Kumar Gupta",
 			Department: "Mathematics",
-			"Funding Agency": "Taif University, Saudi Arabia,",
-			"Title of the Grant":
-				"Dynamic behaviour of material due to torsional wave propagation in porous media.",
-			"Foreign Collaborator(s)": "Dr. Saad Nasser Althobaiti,",
-			Amount: "1300 USD",
-			"Year of Award - Year of Completion": "2021",
+			"Author(s)": "Rana, A. S., Gupta, V. K. and Struchtrup, H.",
+			Title:
+				"Coupled constitutive relations: a second law based higher order closure for hydrodynamics",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Proceedings of the Royal Society A",
+			"Volume/ Page": "474, 20180323",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Vinay Kumar Gupta",
+			Department: "Mathematics",
+			"Author(s)": "Gupta, V. K., Shukla, P. and Torrilhon, M.",
+			Title:
+				"Higher-order moment theories for dilute granular gases of smooth hard spheres",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Fluid Mechanics",
+			"Volume/ Page": "836, 451-501",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Vinay Kumar Gupta",
+			Department: "Mathematics",
+			"Author(s)": "Gupta, V. K., Struchtrup, H. and Torrilhon, M.",
+			Title:
+				"Regularized moment equations for binary gas mixtures: Derivation and linear analysis",
+			"Book/ Journal/ Book chapter/ Conference Name": "Physics of Fluids",
+			"Volume/ Page": "28, 042003",
+			Year: "2016",
+		},
+		{
+			"Name of the Faculty": "Dr. Vinay Kumar Gupta",
+			Department: "Mathematics",
+			"Author(s)": "Gupta, V. K. and Torrilhon, M.",
+			Title:
+				"Comparison of relaxation phenomena in binary gas-mixtures of Maxwell molecules and hard spheres",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Computers and Mathematics with Applications",
+			"Volume/ Page": "70, 73-88",
+			Year: "2015",
+		},
+		{
+			"Name of the Faculty": "Dr. Vinay Kumar Gupta",
+			Department: "Mathematics",
+			"Author(s)": "Gupta, V. K. and Torrilhon, M.",
+			Title: "Higher order moment equations for rarefied gas mixtures",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Proceedings of the Royal Society A",
+			"Volume/ Page": "471, 20140754",
+			Year: "2015",
+		},
+		{
+			"Name of the Faculty": "Dr. Vinay Kumar Gupta",
+			Department: "Mathematics",
+			"Author(s)": "Gupta, V. K. and Torrilhon, M.",
+			Title:
+				"Heat flux in binary gas mixtures confined between two parallel plates via moment equations",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"AIP Conference Proceedings",
+			"Volume/ Page": "2132, 120003",
+			Year: "2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Vinay Kumar Gupta",
+			Department: "Mathematics",
+			"Author(s)": "Gupta, V. K. and Torrilhon, M.",
+			Title:
+				"Heat transfer in binary gas mixtures confined in a lid-driven square cavity",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Procedia Engineering",
+			"Volume/ Page": "127, 10-17",
+			Year: "2015",
+		},
+		{
+			"Name of the Faculty": "Dr. Vinay Kumar Gupta",
+			Department: "Mathematics",
+			"Author(s)": "Gupta, V. K. and Torrilhon, M.",
+			Title:
+				"Automated Boltzmann collision integrals for moment equations",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"AIP Conference Proceedings",
+			"Volume/ Page": "1501, 67-74",
+			Year: "2012",
+		},
+		{
+			"Name of the Faculty": "Dr. Mohd. Arshad",
+			Department: "Mathematics",
+			"Author(s)": "Jodra, P., and Arshad, M.",
+			Title:
+				"An intermediate Muth distribution with increasing failure rate",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Communications in Statistics- Theory and Methods",
+			"Volume/ Page": "Accepted",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Sanjeev Singh",
+			Department: "Mathematics",
+			"Author(s)": "A. Baricz, N. Bisht,\n S. Singh,  V. A. Vijesh",
+			Title:
+				"The generalized\n Marcum function of the second kind: Monotonicity patterns and tight bounds",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Computational and Applied Mathematics",
+			"Volume/ Page": "382, Art. 113093",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Sanjeev Singh",
+			Department: "Mathematics",
+			"Author(s)": "A. Baricz, N. Bisht,\n S. Singh,  V. A. Vijesh",
+			Title:
+				"Functional Inequalities and Bounds for the Generalized Marcum Function of the Second Kind",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				" Results in Mathematics",
+			"Volume/ Page": "76, Art. 35",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Sanjeev Singh",
+			Department: "Mathematics",
+			"Author(s)": "I. Aktas, A. Baricz, S. Singh",
+			Title:
+				"Geometric and monotonic properties of hyper-Bessel functions",
+			"Book/ Journal/ Book chapter/ Conference Name": "Ramanujan Journal",
+			"Volume/ Page": "51. 275-295",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Md. Aquil Khan",
+			Department: "Mathematics",
+			"Author(s)": "Khan, M. A., Banerjee, M. and Rieke, R",
+			Title: "An Update Logic for Information Systems",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"International Journal of Approximate Reasoning",
+			"Volume/ Page": "55, 436-456",
+			Year: "2014",
+		},
+		{
+			"Name of the Faculty": "Dr. Md. Aquil Khan",
+			Department: "Mathematics",
+			"Author(s)": "S. Manna, BN Datta, S. Ahmad (Eds)",
+			Title:
+				"Mathematrical Modelling and Scientific Computing with applications",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Springer Proceedings in Matheamtics & Statistics",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"M Khan, MS Obaidat, T Hussain, J Del Ser, N Kumar, M Tanveer, F Doctor",
+			Title:
+				"Fuzzy Logic in Surveillance Big Video Data: Comprehensive Review, Challenges and Research Directions",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"ACM Computing Surveys.",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"Hossein Moosaei, Saeed Ketabchi, Mohamad Razzaghi, M Tanveer",
+			Title: "Generalized Twin Support Vector Machines",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Neural Processing Letters (NEPL), Springer",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"J.J. Virtusio, D.S. Tan, W.H. Cheng, M. Tanveer, and K.L. Hua",
+			Title:
+				" Enabling Artistic Control Over Pattern Density and Stroke Strength",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on Multimedia",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"L. Fang, C. Yin, J. Zhu, C. Ge, M. Tanveer, A. Jolfaei, Z. Cao",
+			Title:
+				"Privacy Protection for Medical Data Sharing in Smart Healthcare",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "M. Tanveer, S. Sharma, K. Muhammad",
+			Title: "Large scale least squares twin SVMs",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"ACM Transactions on Internet Technology",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"B. Cao, S. Fan, J. Zhao, P. Yang, K. Muhammad, M. Tanveer",
+			Title:
+				"Quantum-enhanced multiobjective large-Scale optimization via parallelism",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Swarm and Evolutionary Computation, Elsevier",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "M. Tanveer, P. Khanna, M. Prasad, C.T. Lin ",
+			Title:
+				"Introduction to the Special Issue on Computational Intelligence for Biomedical Data and Imaging",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "M. Tanveer, A. Sharma, P.N. Suganthan",
+			Title:
+				"Least squares K-nearest neighbor-based weighted multi-class twin SVM",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Neurocomputing, Elsevier",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"Z. Yue, S. Ding, L. Zhao, Y. Zhang, Z. Cao, M. Tanveer, A. Jolfaei, X.Zheng",
+			Title:
+				"Privacy-preserving time series medical images analysis using a hybrid deep learning frame-work",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"ACM Transactions on Internet Technology (TOIT)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"C. Gautam, P.K. Mishra, A. Tiwari, B. Richhariya, H.M. Pandey, S. Wang, M. Tanveer",
+			Title:
+				"Minimum variance-embedded deep kernel regularized least square method for one-class classification and its applications to biomedical data",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				" Neural Networks, Elsevier",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "M.A. Ganaie, M. Tanveer, P.N. Suganthan",
+			Title: "Oblique decision tree ensemble via twin bounded SVM",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Expert Systems with Applications, Elsevier",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "Qi Li, Z. Cao, M. Tanveer, H.M. Pandey, C. Wang",
+			Title:
+				"A semantic collaboration method based on uniform knowledge graph",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				" IEEE Internet of Things Journal",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "Q Li, Z Cao, M Tanveer, HM Pandey, C Wang",
+			Title:
+				"An effective reliability evaluation method for power communication network based on community structure",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Transactions on Industry Applications",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"M Khan, T Hussain, M Tanveer, G Sannino, V Albuquerque",
+			Title:
+				"Cost-Effective Video Summarization using Deep CNN with Hierarchical Weighted Fusion for IoT Surveillance Networks",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Internet of Things Journal",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"L Fang, Y Li, X Yun, Z Wen, S Ji, W Meng, Z Cao, M Tanveer",
+			Title:
+				"THP: An SDN-based authentication scheme resistant to multiple attacks in IoT",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"IEEE Internet of Things Journal",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)":
+				"M. Tanveer, B. Richhariya, R.U. Khan, A.H. Rashid, M. Prasad, P. Khanna, C.T. Lin",
+			Title:
+				"Machine learning techniques for the diagnosis of Alzheimer's disease: A review",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "Minghui Hu, Qiushi Shi, P.N. Suganthan, M. Tanveer",
+			Title:
+				"Adaptive Ensemble Variants of Random Vector Functional Link Networks",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"27th International Conference on Neural Information Processing (ICONIP 2020) (Core Rank A)",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "M.A. Ganaie, M. Tanveer, P.N. Suganthan",
+			Title:
+				"Minimum Variance Embedded Random Vector Functional Link Network",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"27th International Conference on Neural Information Processing (ICONIP 2020) (Core Rank A).\n",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "A.H. Rashid, I. Razzak, M. Tanveer ",
+			Title:
+				"RipNet: A lightweight one-class deep neural network for the identification of RIP currents",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"27th International Conference on Neural Information Processing (ICONIP 2020) (Core Rank A).",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. M. Tanveer",
+			Department: "Mathematics",
+			"Author(s)": "M.A. Ganaie, M. Tanveer and P.N. Suganthan",
+			Title:
+				"Regularized robust fuzzy least squares twin support vector machine for class imbalance learning",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"WCCI (IJCNN) 2020 (Core Rank A).\n",
+			Year: "2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Charitha Cherugondi",
+			Department: "Mathematics",
+			"Author(s)": "Timo Aspelmeier, C. Charitha and D. Russell Luke",
+			Title:
+				"Local Linear Convergence of the ADMM/Douglas–Rachford Algorithms without\nStrong Convexity and Application to Statistical Imaging",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"SIAM Journal on Imaging Sciences",
+			Year: "2016",
+		},
+		{
+			"Name of the Faculty": "Dr. Charitha Cherugondi",
+			Department: "Mathematics",
+			"Author(s)": "Timo Aspelmeier, C. Charitha and D. Russell Luke",
+			Title:
+				"Local Linear Convergence of the ADMM/Douglas–Rachford Algorithms without\nStrong Convexity and Application to Statistical Imaging",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"SIAM Journal on Imaging Sciences",
+			Year: "2016",
+		},
+		{
+			"Name of the Faculty": "Dr. Charitha Cherugondi",
+			Department: "Mathematics",
+			"Author(s)": "C. Charitha, Joydeep Dutta and D. Russell Luke",
+			Title:
+				"Lagrange multipliers, (exact) regularization and error bounds for monotone variational inequalities",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Mathematical Programming",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
+			Department: "Mathematics",
+			"Author(s)":
+				"G. Bharali, D. Minda, S. Ponnusamy, and S. K. Sahoo (Editors) ",
+			Title:
+				"The proceedings of the International Symposium on Complex Analysis and Conformal Geometry",
+			"Book/ Journal/ Book chapter/ Conference Name": "J. Analysis",
+			Year: "2013",
+		},
+		{
+			"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
+			Department: "Mathematics",
+			"Author(s)": "R. Klén, Y. Li, S. K. Sahoo, and M. Vuorinen",
+			Title: "On the stability of φ-uniform domains, ",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Monatshefte für Mathematik, 174(2) (2014), 231 - 258.",
+			Year: "2014",
+		},
+		{
+			"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
+			Department: "Mathematics",
+			"Author(s)": "S. Ponnusamy, S. K. Sahoo, and H. Yanagihara, ",
+			Title:
+				"Radius of convexity of partial sums of functions in the close-to-convex family, ",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Non-linear Analysis, 95 (2014), 219 - 228.",
+			Year: "2014",
+		},
+		{
+			"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
+			Department: "Mathematics",
+			"Author(s)": "S. Ponnusamy, S. K. Sahoo, and T. Sugawa, ",
+			Title:
+				"Radius problems associated with pre-Schwarzian and Schwarzian derivatives, ",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Analysis (Berlin), 34(2) (2014), 163 - 171.",
+			Year: "2014",
+		},
+		{
+			"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
+			Department: "Mathematics",
+			"Author(s)": "P. Hästö, R. Klén, S. K. Sahoo, and M. Vuorinen, ",
+			Title: "Geometric properties of φ-uniform domains, ",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"The Journal of Analysis, 24 (1) (2016), 57 - 66.",
+			Year: "2016",
+		},
+		{
+			"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
+			Department: "Mathematics",
+			"Author(s)":
+				"Z. Ibragimov, M. R. Mohapatra, S. K. Sahoo, and X.-H. Zhang, ",
+			Title: "Geometry of the Cassinian metric and its inner metric, ",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Bull. Malaysian Math. Sci. Soc., 40 (1) (2017), 361 - 372.",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
+			Department: "Mathematics",
+			"Author(s)":
+				"Jiaolong Chen, Peijin Li, Swadesh Kumar Sahoo, and Xiantao Wang, ",
+			Title:
+				"On the Lipschitz continuity of certain quasiregular mappings between smooth Jordan domains, ",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Israel J. Math., 220 (2017), 453 - 478.",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
+			Department: "Mathematics",
+			"Author(s)": "R. Klén, M. R. Mohapatra, and S. K. Sahoo, ",
+			Title: "Geometric properties of the Cassinian metric, ",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Mathematische Nachrichten, 290 (2017), 1531 - 1543.",
+			Year: "2017",
+		},
+		{
+			"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
+			Department: "Mathematics",
+			"Author(s)": "S. Ponnusamy, S. K. Sahoo, and T. Sugawa, ",
+			Title:
+				"Hornich operations on functions of bounded boundary rotations and order alpha, ",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Comput. Methods Funct. Theory,19 (3) (2019), 455 - 472.",
+			Year: "2019",
+		},
+		{
+			"Name of the Faculty": "Sk. Safique Ahmad",
+			Department: "Mathematics",
+			"Author(s)": "SS Ahmad, I Ali, and I. Slapnicar ",
+			Title:
+				"Perturbation analysis of matrices over a quaternion division algebra,",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Electron. Tans. Mumer. Anal.(ETNA)",
+			"Volume/ Page": "54",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Sk. Safique Ahmad",
+			Department: "Mathematics",
+			"Author(s)": "S. S. Ahmad and V. Mehrmann",
+			Title:
+				"Perturbation analysis for complex symmetric, skew symmetric, even, and odd matrix polynomials",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Electron. Tans. Mumer. Anal.(ETNA)",
+			"Volume/ Page": "38",
+			Year: "2011",
+		},
+		{
+			"Name of the Faculty": "Sk. Safique Ahmad",
+			Department: "Mathematics",
+			"Author(s)": "S. S. Ahmad and V. Mehrmann",
+			Title:
+				"Backward errors for eigenvalues and eigenvectors of Hermitian, skew-Hermitian, H-even and H-odd matrix polynomials,",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Linear and multilinear Algebra",
+			"Volume/ Page": "61",
+			Year: "2013",
+		},
+		{
+			"Name of the Faculty": "Dr. Anand Parkash ",
+			Department: "Mathematics",
+			"Author(s)": "Nil",
+			Title: "Nil",
+			"Book/ Journal/ Book chapter/ Conference Name": "Nil",
+			"Volume/ Page": "Nil",
+			Year: "Nil",
+		},
+		{
+			"Name of the Faculty": "Dr. Ashisha Kumar",
+			Department: "Mathematics",
+			"Author(s)": "Nil",
+			Title: "Nil",
+			"Book/ Journal/ Book chapter/ Conference Name": "Nil",
+			"Volume/ Page": "Nil",
+			Year: "Nil",
+		},
+		{
+			"Name of the Faculty": "Dr. V. Antony Vijesh ",
+			Department: "Mathematics",
+			"Author(s)": "A. Baricz, N. Bisht,\n S. Singh,  V. A. Vijesh",
+			Title:
+				"The generalized\n Marcum function of the second kind: Monotonicity patterns and tight bounds",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Journal of Computational and Applied Mathematics",
+			"Volume/ Page": "382, Art. 113093",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. V. Antony Vijesh ",
+			Department: "Mathematics",
+			"Author(s)": "A. Baricz, N. Bisht,\n S. Singh,  V. A. Vijesh",
+			Title:
+				"Functional Inequalities and Bounds for the Generalized Marcum Function of the Second Kind",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				" Results in Mathematics",
+			"Volume/ Page": "76, Art. 35",
+			Year: "2021",
+		},
+		{
+			"Name of the Faculty": "Dr. Bibekananda Maji ",
+			Department: "Mathematics",
+			"Author(s)": "Nil",
+			Title: "Nil",
+			"Book/ Journal/ Book chapter/ Conference Name": "Nil",
+			"Volume/ Page": "Nil",
+			Year: "Nil",
+		},
+		{
+			"Name of the Faculty": "Dr. Bapan Ghosh ",
+			Department: "Mathematics",
+			"Author(s)": "Nil",
+			Title: "Nil",
+			"Book/ Journal/ Book chapter/ Conference Name": "Nil",
+			"Volume/ Page": "Nil",
+			Year: "Nil",
+		},
+		{
+			"Name of the Faculty": "Dr. Vijay Kumar Soahni ",
+			Department: "Mathematics",
+			"Author(s)": "Nil",
+			Title: "Nil",
+			"Book/ Journal/ Book chapter/ Conference Name": "Nil",
+			"Volume/ Page": "Nil",
+			Year: "Nil",
+		},
+		{
+			"Name of the Faculty": "Dr. Niraj Kumar Shukla ",
+			Department: "Mathematics",
+			"Author(s)": "Nil",
+			Title: "Nil",
+			"Book/ Journal/ Book chapter/ Conference Name": "Nil",
+			"Volume/ Page": "Nil",
+			Year: "Nil",
 		},
 	],
 	ME: [
@@ -418,7 +991,7 @@ export const data = {
 			Title:
 				"Influence of potassium permanganate on the anisotropic growth and enhanced UV emission of ZnO nanostructures using hydrothermal process for optoelectronic applications",
 			"Journal Name": "Journal of Sol-Gel Science and Technology",
-			"Volume/Page": "75",
+			"Volume/ Page": "75",
 			Year: "2015",
 		},
 		{
@@ -429,7 +1002,7 @@ export const data = {
 			Title:
 				"Influence of Ni, Ti and NiTi alloy nanoparticles on hydrothermally grown ZnO nanowires for photoluminescence enhancement",
 			"Journal Name": "Journal of Alloys and Compounds",
-			"Volume/Page": "770",
+			"Volume/ Page": "770",
 			Year: "2019",
 		},
 		{
@@ -440,7 +1013,7 @@ export const data = {
 			Title:
 				"Enhancing the life cycle behaviour of Cu-Al-Ni shape memory alloy bimorph by Mn addition",
 			"Journal Name": "Materials Letters",
-			"Volume/Page": "226",
+			"Volume/ Page": "226",
 			Year: "2018",
 		},
 		{
@@ -451,7 +1024,7 @@ export const data = {
 			Title:
 				"Structure, martensitic transformations and mechanical behaviour of NiTi shape memory alloy produced by wire arc additive manufacturing",
 			"Journal Name": "Journal of Alloys and Compounds",
-			"Volume/Page": "851",
+			"Volume/ Page": "851",
 			Year: "2021",
 		},
 		{
@@ -461,7 +1034,7 @@ export const data = {
 			Title:
 				"Texture formation in face-centered cubic high-entropy alloys",
 			"Journal Name": "Journal of Alloys and Compounds",
-			"Volume/Page": "826",
+			"Volume/ Page": "826",
 			Year: "2020",
 		},
 		{
@@ -470,7 +1043,7 @@ export const data = {
 			Title:
 				"Effect of Stacking Fault Energy on Microstructure and Texture Evolution during the Rolling of Non-Equiatomic CrMnFeCoNi High-Entropy Alloys",
 			"Journal Name": "Crystals",
-			"Volume/Page": "10",
+			"Volume/ Page": "10",
 			Year: "2020",
 		},
 	],
