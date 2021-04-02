@@ -13,7 +13,7 @@ const CollaborationsDropdown = () => {
 						<Link
 							to="#"
 							onClick={() => {
-								setIndex(1);
+								setIndex(index == 1 ? 0 : 1);
 							}}
 						>
 							<Icon /> MOU
@@ -42,7 +42,7 @@ const CollaborationsDropdown = () => {
 						<Link
 							to="#"
 							onClick={() => {
-								setIndex(2);
+								setIndex(index == 2 ? 0 : 2);
 							}}
 						>
 							<Icon /> Mobility Exchange
@@ -65,7 +65,7 @@ const CollaborationsDropdown = () => {
 						<Link
 							to="#"
 							onClick={() => {
-								setIndex(3);
+								setIndex(index == 3 ? 0 : 3);
 							}}
 						>
 							<Icon /> International Students
@@ -87,7 +87,7 @@ const CollaborationsDropdown = () => {
 						<Link
 							to="#"
 							onClick={() => {
-								setIndex(4);
+								setIndex(index == 4 ? 0 : 4);
 							}}
 						>
 							<Icon /> Grants
@@ -129,7 +129,7 @@ const CollaborationsDropdown = () => {
 						<Link
 							to="#"
 							onClick={() => {
-								setIndex(5);
+								setIndex(index == 5 ? 0 : 5);
 							}}
 						>
 							<Icon /> Publication
