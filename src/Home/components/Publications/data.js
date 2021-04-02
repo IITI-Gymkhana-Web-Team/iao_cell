@@ -265,36 +265,36 @@ export const data = {
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "BSBE",
-			"Funding Agency": "Department of Biotechnology-British council",
-			"Title of the Grant":
-				"Diagnosis of Prostate cancer by Prostate Specific Membrane Antigen (PSMA) Targeted Quantum Dots",
-			"Foreign Collaborator(s)":
-				"Prof. Paul Roach, Keele University, Staffordshire, UK",
-			Amount: "15,00,000/-",
-			"Year of Award - Year of Completion": "Feb. 2016-July 2016",
+			"Author(s)":
+				"Krishnan, M. A.,  Yadav, K.,  Roach, P., Venkatesh, C. ",
+			Title:
+				"Targeted near-infrared nanoprobe for deep-tissue penetration and imaging of prostate cancer",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Biomaterials Science",
+			"Volume/ Page": "0",
+			Year: "2021",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "BSBE",
-			"Funding Agency": "Common wealth, UK",
-			"Title of the Grant":
-				"Design, synthesize and evaluate small molecule targeted nanocarriers for the diagnosis and treatment of prostate cancer.",
-			"Foreign Collaborator(s)":
-				"Prof. Paul Roach, Loughborough University, UK",
-			Amount: "30,00,000/-",
-			"Year of Award - Year of Completion": "Nov.2018-Oct.2019",
+			"Author(s)":
+				"Rangasamy, L., Venkatesh C., Kanduluru, A. K., Srinivasarao, M., Bandara, N. A., You, F., Orellana, E. A., Kasinski, A. L., Low, P. S. ",
+			Title:
+				"New mechanism for release of endosomal contents: Osmotic lysis via nigericin-mediated K+/H+ exchange",
+			"Book/ Journal/ Book chapter/ Conference Name":
+				"Bioconjugate Chem.,",
+			"Volume/ Page": "29, 1047–1059",
+			Year: "2018",
 		},
 		{
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "BSBE",
-			"Funding Agency":
-				"Global Initiatives for Acaddemic Netwroks, MHRD, Govt. of India",
-			"Title of the Grant":
-				"Chemical Biology: The Integration of Medicine, Biology and Chemistry ",
-			"Foreign Collaborator(s)":
-				"Prof. Kavita Shah, Purdue University, USA",
-			Amount: "USD 12,000",
-			"Year of Award - Year of Completion": "June. 2016",
+			"Author(s)": "Poh, S., Venkatesh, C., Low, P. S. ",
+			Title:
+				"Comparison of nanoparticle penetration into solid tumors and sites of inflammation: studies using targeted and non-targeted liposomes",
+			"Book/ Journal/ Book chapter/ Conference Name": "Nanomedicine",
+			"Volume/ Page": "10, 1439–1449",
+			Year: "2015",
 		},
 	],
 	CSE: [
