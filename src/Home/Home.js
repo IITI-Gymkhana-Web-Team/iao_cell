@@ -59,11 +59,7 @@ export const Home = () => {
 						}}
 					/>
 					<Route path="/int/students" exact component={IntStudents} />
-					<Route
-						path="/int/testimonials"
-						exact
-						component={Testimonials}
-					/>
+					<Route path="/int/testimonials" exact component={Testimonials} />
 					<Route
 						path="/committee/oc"
 						exact
@@ -83,48 +79,16 @@ export const Home = () => {
 					<Route path="/LifeIITI" exact component={LifeIITI} />
 					<Route path="/ProsStud/visa" exact component={Visa} />
 					<Route path="/ProsStud/places" exact component={Places} />
-					<Route
-						path="/ProsStud/admission"
-						exact
-						component={Admission}
-					/>
-					<Route
-						path="/ProsStud/programs"
-						exact
-						component={Programs}
-					/>
+					<Route path="/ProsStud/admission" exact component={Admission} />
+					<Route path="/ProsStud/programs" exact component={Programs} />
 					<Route path="/ProsFaculty/visa" exact component={Visa} />
-					<Route
-						path="/ProsFaculty/places"
-						exact
-						component={Places}
-					/>
-					<Route
-						path="/opportunities/pg_phd_post_doc"
-						exact
-						component={Pg_Phd}
-					/>
-					<Route
-						path="/opportunities/scholarship"
-						exact
-						component={Scholarship}
-					/>
+					<Route path="/ProsFaculty/places" exact component={Places} />
+					<Route path="/opportunities/pg_phd_post_doc" exact component={Pg_Phd} />
+					<Route path="/opportunities/scholarship" exact component={Scholarship} />
 					<Route path="/outreach/news" exact component={NewsPage} />
-					<Route
-						path="/outreach/news/:id"
-						exact
-						component={IndiNews}
-					/>
-					<Route
-						path="/outreach/events"
-						exact
-						component={EventsPage}
-					/>
-					<Route
-						path="/outreach/events/:id"
-						exact
-						component={IndiEvent}
-					/>
+					<Route path="/outreach/news/:id" exact component={IndiNews} />
+					<Route path="/outreach/events" exact component={EventsPage} />
+					<Route path="/outreach/events/:id" exact component={IndiEvent} />
 					<Route path="/contact" exact component={ReachUs} />
 					<Route
 						path="/mou/asia"
@@ -154,125 +118,8 @@ export const Home = () => {
 							return <Mou2 name={"Australia"} />;
 						}}
 					/>
-					<Route
-						path="/grants/me"
-						exact
-						component={() => {
-							return <Grants dept={"ME"} />;
-						}}
-					/>
-					<Route
-						path="/grants/ch"
-						exact
-						component={() => {
-							return <Grants dept={"Chemistry"} />;
-						}}
-					/>
-					<Route
-						path="/grants/cse"
-						exact
-						component={() => {
-							return <Grants dept={"CSE"} />;
-						}}
-					/>
-					<Route
-						path="/grants/bsbe"
-						exact
-						component={() => {
-							return <Grants dept={"BSBE"} />;
-						}}
-					/>
-					<Route
-						path="/grants/hss"
-						exact
-						component={() => {
-							return <Grants dept={"HSS"} />;
-						}}
-					/>
-					<Route
-						path="/grants/math"
-						exact
-						component={() => {
-							return <Grants dept={"Mathematics"} />;
-						}}
-					/>
-					<Route
-						path="/grants/mems"
-						exact
-						component={() => {
-							return <Grants dept={"MEMS"} />;
-						}}
-					/>
-					<Route
-						path="/grants/ph"
-						exact
-						component={() => {
-							return <Grants dept={"Physics"} />;
-						}}
-					/>
-					<Route
-						path="/publications/me"
-						exact
-						component={() => {
-							return <Publications dept={"ME"} />;
-						}}
-					/>
-					<Route
-						path="/publications/ch"
-						exact
-						component={() => {
-							return <Publications dept={"Chemistry"} />;
-						}}
-					/>
-					<Route
-						path="/publications/cse"
-						exact
-						component={() => {
-							return <Publications dept={"CSE"} />;
-						}}
-					/>
-					<Route
-						path="/publications/bsbe"
-						exact
-						component={() => {
-							return <Publications dept={"BSBE"} />;
-						}}
-					/>
-					<Route
-						path="/publications/hss"
-						exact
-						component={() => {
-							return <Publications dept={"HSS"} />;
-						}}
-					/>
-					<Route
-						path="/publications/math"
-						exact
-						component={() => {
-							return <Publications dept={"Mathematics"} />;
-						}}
-					/>
-					<Route
-						path="/publications/mems"
-						exact
-						component={() => {
-							return <Publications dept={"MEMS"} />;
-						}}
-					/>
-					<Route
-						path="/publications/ph"
-						exact
-						component={() => {
-							return <Publications dept={"Physics"} />;
-						}}
-					/>
-					<Route
-						path="/publications/ce"
-						exact
-						component={() => {
-							return <Publications dept={"CE"} />;
-						}}
-					/>
+					<Route path="/grants" exact component={Grants} />
+					<Route path="/publications" exact component={Publications} />
 					<Route path="/mhrd/sparc" exact component={Sparc} />
 					<Route path="/mhrd/asem" exact component={Asem} />
 					<Route path="/mhrd/vajra" exact component={Vajra} />

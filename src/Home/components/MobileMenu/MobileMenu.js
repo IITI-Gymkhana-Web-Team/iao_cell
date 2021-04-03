@@ -58,28 +58,12 @@ export const MobileMenu = ({ show, setShow }) => {
 				},
 				{
 					name: "Grants",
-					innerLinks: [
-						{
-							name: "Biosciences and Bioengineering",
-							link: "/grants/bsbe",
-							level: "3",
-						},
-						{ name: "Chemistry", link: "/grants/ch", level: "3" },
-						{
-							name: "Computer Science and Engineering",
-							link: "/grants/cse",
-							level: "3",
-						},
-						{ name: "Humanities and Social Sciences", link: "/grants/hss", level: "3" },
-						{ name: "Mathematics", link: "/grants/math", level: "3" },
-						{ name: "Mechanical Engineering", link: "/grants/me", level: "3" },
-						{
-							name: "Metallurgical Engineering and Material Science",
-							link: "/grants/mems",
-							level: "3",
-						},
-						{ name: "Physics", link: "/grants/ph", level: "3" },
-					],
+					link: "/grants",
+					level: "2",
+				},
+				{
+					name: "Publications",
+					link: "/publications",
 					level: "2",
 				},
 			],
