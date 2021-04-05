@@ -85,6 +85,73 @@ export const data = [
 		],
 	},
 	{
+		title: "Automotive Light-weighting Technologies",
+		time: "6.30 pm",
+		speakers: [
+			{
+				name: "Prof. Raghu Echempati",
+				designation: "Professor, Kettering University Flint, MI, USA",
+				img: ProfRaghu,
+				desc:
+					"Dr. Echempati’s academic career spans over 3 decades as he taught at many Universities in USA and abroad since 1976. These included IIT Delhi, Universityof Florida, The Ohio State University, etc., before joining Kettering University in 1997. He is a member of ASME, ASEE, and SAE. He taught at various universities world-wide as a Fulbright scholar, Erskine fellow, or as a visiting professor. He won several academic and technical awards and grants. He has published over 160 applied research papers in peer-reviewed journals and conference proceedings of repute. He has supervised over 250 undergraduate/graduate and research student theses, reviewed several technical articles, papers, textbooks and research proposals for various domestic and international conferences, journals, scientific bodies and publishers",
+			},
+		],
+		img: automative,
+		venue: "Webex",
+		desc:
+			"Automotive industry traditionally has reduced weight primarily by downsizing. Today, the strategy of downsizing vehicle has reached its limits. The OEMs are also facing substantial increases in Corporate Average Fuel Economy (CAFE) regulations in the U.S. and the other global markets. In this context, engineering students need to understand the underlying contributors that significantly play a role in vehicle Light-weighting. One of the main contributors is the appropriate use of a variety of high strength and lightweight materials to meet the mass (weight) targets. Another aspect and a more challenging issue is that a realization of how OEMs are learning to cost effectively join (weld, rivet, form and cast) lightweight (and often multi) materials on a global platform. How to impart these ideas intoa single platform? The purpose of this talk is to discuss the need and strategic development of undergraduate and graduate level coursematerials on this topic and the best assessment techniques to gauge the understanding of the topics by the students. The teaching and learning experiences of the Prof. Raghu in delivering this webinar is related mechanical student and to general technicalaudience.",
+		date: "22nd February, 2021",
+		oc: [
+			{
+				name: "Dr. Satyanarayan Patel",
+				designation: "Convener",
+				img: person,
+			},
+			{
+				name: "Dr. Harekrishna Yadav",
+				designation: "Member",
+				img: person,
+			},
+			{
+				name: "Dr. Ashish Rajak",
+				designation:
+					"Member & Department of Mechanical Engineering Indian Institute of Technology Indore Indore, India",
+				img: person,
+			},
+		],
+	},
+	{
+		title: "Prosperity Through Science Technology",
+		time: "3.30 pm",
+		speakers: [
+			{
+				name: "Prof. J. B. Joshi",
+				designation: "",
+				img: joshi,
+				desc:
+					"Prof. J. B. Joshi is an Emeritus Professor of Eminence, Institute of Chemical Technology, Mumbai. He has about 20 innovations and 600+ international publications to his credit. Prof. Joshi hasdeveloped novel processes, designs, products and implemented in large, medium and small-scale industry. Designed more than 1000 reactors and extensively participated in Process intensification.His research and teaching interest includeFluid Mechanics, Multiphase Reactor Design, Computational Fluid Dynamics,Atomic Energy, Solar Energy&Bio-Energy.He is the fellow of the FTWNS, FNA, FASc, FNAE and FNASc. He has been bestowed with several awards which include Shantiswarup Bhatnagar Prize forEngineering Sciences, 1991; Padma Bhushan Award, Government of India, 2014; Lifetime Achievement Award, 2017 and many more.",
+			},
+		],
+		img: scitech,
+		venue: "Webex",
+		desc:
+			"Science-including biological, physical, social, behavioral, cultural, engineering, and medical disciplines play an increasingly important role in governmental and institutional response during crises. During global crises the role of scientific community becomes even more critical in nation building by identifying critical problems, determine how our capability can be best used to answer those questions, design and execute the necessary research, and then share those results with decision-makers and the public. The ongoing Covid-19 pandemic has brought to the fore the importance of a thriving scientific ecosystem for dealing with global crises.The popular public lecture series will bring together a group of eminent experts around the world to share their views on the role of science, research, education, and actionable data in nation building during global health crisis. ",
+		date: "5th February, 2021",
+		oc: [
+			{
+				name: "Prof. Avinash Sonawane",
+				designation:
+					"Department of Biosciences and Biomedical Engineering, Dean of International Affairs Outreach, IIT Indore, India",
+				img: person,
+			},
+			{
+				name: "Prof. Tone Tonjum",
+				designation: "Department of Microbiology, University of Oslo, Norway",
+				img: person,
+			},
+		],
+	},
+	{
 		title: "Borametallomimetics - Activation of Small Molecules by Low-valent Boron Species",
 		time: "9pm",
 		speakers: [
@@ -188,73 +255,6 @@ export const data = [
 			},
 		],
 		linkDisabled: true,
-	},
-	{
-		title: "Automotive Light-weighting Technologies",
-		time: "6.30 pm",
-		speakers: [
-			{
-				name: "Prof. Raghu Echempati",
-				designation: "Professor, Kettering University Flint, MI, USA",
-				img: ProfRaghu,
-				desc:
-					"Dr. Echempati’s academic career spans over 3 decades as he taught at many Universities in USA and abroad since 1976. These included IIT Delhi, Universityof Florida, The Ohio State University, etc., before joining Kettering University in 1997. He is a member of ASME, ASEE, and SAE. He taught at various universities world-wide as a Fulbright scholar, Erskine fellow, or as a visiting professor. He won several academic and technical awards and grants. He has published over 160 applied research papers in peer-reviewed journals and conference proceedings of repute. He has supervised over 250 undergraduate/graduate and research student theses, reviewed several technical articles, papers, textbooks and research proposals for various domestic and international conferences, journals, scientific bodies and publishers",
-			},
-		],
-		img: automative,
-		venue: "Webex",
-		desc:
-			"Automotive industry traditionally has reduced weight primarily by downsizing. Today, the strategy of downsizing vehicle has reached its limits. The OEMs are also facing substantial increases in Corporate Average Fuel Economy (CAFE) regulations in the U.S. and the other global markets. In this context, engineering students need to understand the underlying contributors that significantly play a role in vehicle Light-weighting. One of the main contributors is the appropriate use of a variety of high strength and lightweight materials to meet the mass (weight) targets. Another aspect and a more challenging issue is that a realization of how OEMs are learning to cost effectively join (weld, rivet, form and cast) lightweight (and often multi) materials on a global platform. How to impart these ideas intoa single platform? The purpose of this talk is to discuss the need and strategic development of undergraduate and graduate level coursematerials on this topic and the best assessment techniques to gauge the understanding of the topics by the students. The teaching and learning experiences of the Prof. Raghu in delivering this webinar is related mechanical student and to general technicalaudience.",
-		date: "22nd February, 2021",
-		oc: [
-			{
-				name: "Dr. Satyanarayan Patel",
-				designation: "Convener",
-				img: person,
-			},
-			{
-				name: "Dr. Harekrishna Yadav",
-				designation: "Member",
-				img: person,
-			},
-			{
-				name: "Dr. Ashish Rajak",
-				designation:
-					"Member & Department of Mechanical Engineering Indian Institute of Technology Indore Indore, India",
-				img: person,
-			},
-		],
-	},
-	{
-		title: "Prosperity Through Science Technology",
-		time: "3.30 pm",
-		speakers: [
-			{
-				name: "Prof. J. B. Joshi",
-				designation: "",
-				img: joshi,
-				desc:
-					"Prof. J. B. Joshi is an Emeritus Professor of Eminence, Institute of Chemical Technology, Mumbai. He has about 20 innovations and 600+ international publications to his credit. Prof. Joshi hasdeveloped novel processes, designs, products and implemented in large, medium and small-scale industry. Designed more than 1000 reactors and extensively participated in Process intensification.His research and teaching interest includeFluid Mechanics, Multiphase Reactor Design, Computational Fluid Dynamics,Atomic Energy, Solar Energy&Bio-Energy.He is the fellow of the FTWNS, FNA, FASc, FNAE and FNASc. He has been bestowed with several awards which include Shantiswarup Bhatnagar Prize forEngineering Sciences, 1991; Padma Bhushan Award, Government of India, 2014; Lifetime Achievement Award, 2017 and many more.",
-			},
-		],
-		img: scitech,
-		venue: "Webex",
-		desc:
-			"Science-including biological, physical, social, behavioral, cultural, engineering, and medical disciplines play an increasingly important role in governmental and institutional response during crises. During global crises the role of scientific community becomes even more critical in nation building by identifying critical problems, determine how our capability can be best used to answer those questions, design and execute the necessary research, and then share those results with decision-makers and the public. The ongoing Covid-19 pandemic has brought to the fore the importance of a thriving scientific ecosystem for dealing with global crises.The popular public lecture series will bring together a group of eminent experts around the world to share their views on the role of science, research, education, and actionable data in nation building during global health crisis. ",
-		date: "5th February, 2021",
-		oc: [
-			{
-				name: "Prof. Avinash Sonawane",
-				designation:
-					"Department of Biosciences and Biomedical Engineering, Dean of International Affairs Outreach, IIT Indore, India",
-				img: person,
-			},
-			{
-				name: "Prof. Tone Tonjum",
-				designation: "Department of Microbiology, University of Oslo, Norway",
-				img: person,
-			},
-		],
 	},
 	{
 		title: "Role of Science in Nation Building during Global Health Crisis",
