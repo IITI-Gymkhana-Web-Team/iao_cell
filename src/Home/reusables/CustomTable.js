@@ -7,7 +7,7 @@ export const CustomTable = ({ cols, data, sort, vars }) => {
 		while (vars[i]) {
 			if (
 				vars[i].var != "" &&
-				row[cols[vars[i].colValue]].toLowerCase().indexOf(vars[i].var) == -1
+				row[cols[vars[i].colValue]].toLowerCase().indexOf(vars[i].var.toLowerCase()) == -1
 			)
 				return false;
 			i++;
