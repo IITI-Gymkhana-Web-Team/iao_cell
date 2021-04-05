@@ -98,8 +98,7 @@ export const data = [
 		],
 		img: boron,
 		venue: "Webex",
-		desc:
-			"Aliqua duis quis eu ad proident ullamco enim cupidatat sit amet. Officia nisi velit laboris deserunt deserunt veniam pariatur adipisicing officia et nostrud ea. Proident magna aliqua laboris nostrud non. Labore irure voluptate id quis consectetur ut consectetur minim consequat nostrud ex sunt. Commodo laboris adipisicing cupidatat officia voluptate nulla qui ut duis aliquip amet.",
+		desc: "",
 		date: "February, 2021",
 		oc: [
 			{
@@ -125,8 +124,7 @@ export const data = [
 		],
 		img: photocat,
 		venue: "Webex",
-		desc:
-			"Aliqua duis quis eu ad proident ullamco enim cupidatat sit amet. Officia nisi velit laboris deserunt deserunt veniam pariatur adipisicing officia et nostrud ea. Proident magna aliqua laboris nostrud non. Labore irure voluptate id quis consectetur ut consectetur minim consequat nostrud ex sunt. Commodo laboris adipisicing cupidatat officia voluptate nulla qui ut duis aliquip amet.",
+		desc: "",
 		date: "February, 2021",
 		oc: [
 			{
@@ -153,8 +151,7 @@ export const data = [
 		],
 		img: organo,
 		venue: "Webex",
-		desc:
-			"Aliqua duis quis eu ad proident ullamco enim cupidatat sit amet. Officia nisi velit laboris deserunt deserunt veniam pariatur adipisicing officia et nostrud ea. Proident magna aliqua laboris nostrud non. Labore irure voluptate id quis consectetur ut consectetur minim consequat nostrud ex sunt. Commodo laboris adipisicing cupidatat officia voluptate nulla qui ut duis aliquip amet.",
+		desc: "",
 		date: "February, 2021",
 		oc: [
 			{
@@ -180,8 +177,7 @@ export const data = [
 		],
 		img: nano,
 		venue: "Webex",
-		desc:
-			"Aliqua duis quis eu ad proident ullamco enim cupidatat sit amet. Officia nisi velit laboris deserunt deserunt veniam pariatur adipisicing officia et nostrud ea. Proident magna aliqua laboris nostrud non. Labore irure voluptate id quis consectetur ut consectetur minim consequat nostrud ex sunt. Commodo laboris adipisicing cupidatat officia voluptate nulla qui ut duis aliquip amet.",
+		desc: "",
 		date: "February, 2021",
 		oc: [
 			{
@@ -274,8 +270,7 @@ export const data = [
 		],
 		img: health,
 		venue: "Webex",
-		desc:
-			"Aliqua duis quis eu ad proident ullamco enim cupidatat sit amet. Officia nisi velit laboris deserunt deserunt veniam pariatur adipisicing officia et nostrud ea. Proident magna aliqua laboris nostrud non. Labore irure voluptate id quis consectetur ut consectetur minim consequat nostrud ex sunt. Commodo laboris adipisicing cupidatat officia voluptate nulla qui ut duis aliquip amet.",
+		desc: "",
 		date: "13th January, 2021",
 		oc: [
 			{
@@ -473,8 +468,7 @@ export const data = [
 		],
 		img: ramanujan,
 		venue: "Webex",
-		desc:
-			"Aliqua duis quis eu ad proident ullamco enim cupidatat sit amet. Officia nisi velit laboris deserunt deserunt veniam pariatur adipisicing officia et nostrud ea. Proident magna aliqua laboris nostrud non. Labore irure voluptate id quis consectetur ut consectetur minim consequat nostrud ex sunt. Commodo laboris adipisicing cupidatat officia voluptate nulla qui ut duis aliquip amet.",
+		desc: "",
 		date: "Throughout the year.",
 		oc: [
 			{ name: "Dr. Ashisha Kumar", designation: "Convener", img: person },

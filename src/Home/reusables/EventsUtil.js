@@ -35,9 +35,6 @@ export default function ({ event, i }) {
 						<BsFillPersonFill />
 						&nbsp; {event.speakers[0].name}
 					</Card.Text>
-					<Card.Text style={styles.text}>
-						{event.desc.slice(0, 80) + (event.desc.length > 80 ? "..." : "")}
-					</Card.Text>
 				</Card.Body>
 			</Card>
 		</div>

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { data } from "../EventsPage/data";
 
 export const Events = () => {
-	const events = data.slice(0, 3);
+	const events = data.slice(0, 4);
 
 	return (
 		<div className="news events">
