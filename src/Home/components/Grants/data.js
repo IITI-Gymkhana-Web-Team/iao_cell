@@ -21,22 +21,6 @@ export const data = [
 		"Year of Award - Year of Completion": "2019",
 	},
 	{
-		"Name of the Faculty": "Dr. Shaikh M. Mobin",
-		Department: "Chemistry",
-		"Foreign Collaborator(s)": "Prof. Jamal Uddin",
-	},
-	{
-		"Name of the Faculty": "Dr. Shaikh M. Mobin",
-		Department: "Chemistry",
-		"Foreign Collaborator(s)": "Chang Yeon Lee",
-	},
-	{
-		"Name of the Faculty": "Dr. Shaikh M. Mobin",
-		Department: "Chemistry",
-		"Foreign Collaborator(s)":
-			"Prof. Wolfgang Kaim**, Overall ~ 37 publications with Prof. W. Kaim",
-	},
-	{
 		"Name of the Faculty": "Dr. Biswarup Pathak",
 		Department: "Chemistry",
 		"Funding Agency": "Scheme for Promotion of Academic and\r\nResearch Collaboration (SPARC)",
@@ -310,22 +294,6 @@ export const data = [
 		Department: "School of HSS",
 		"Funding Agency": "MOE Grant",
 		"Foreign Collaborator(s)": "Prof. Kavita Daiya",
-	},
-	{
-		"Name of the Faculty": "Dr. Pritee Sharma",
-		Department: "School of HSS",
-		"Funding Agency": "NA",
-		"Title of the Grant": "NA",
-		"Foreign Collaborator(s)": "Dr Andrea Gerlak, Arizona University, USA",
-		Amount: "None",
-	},
-	{
-		"Name of the Faculty": "Dr. Pritee Sharma",
-		Department: "School of HSS",
-		"Funding Agency": "NA",
-		"Title of the Grant": "NA",
-		"Foreign Collaborator(s)": "Professor Joyeeta Gupta",
-		Amount: "None",
 	},
 	{
 		"Name of the Faculty": "Dr. Pritee Sharma",
