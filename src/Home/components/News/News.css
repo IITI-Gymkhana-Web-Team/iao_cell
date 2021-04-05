@@ -81,6 +81,7 @@
 	border: 1px solid #4f3ef5;
 	border-radius: 10px;
 	padding: 5px;
+	transition: all 0.2s ease-in;
 }
 
 .moreStuff:hover {

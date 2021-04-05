@@ -17,7 +17,8 @@ export default function ReachUs() {
 			setWidth("400px");
 			setCard2Width("400px");
 		} else setWidth("650px");
-		if (window.innerWidth <= 1000 && window.innerWidth > 600) setCard2Width("650px");
+		if (window.innerWidth <= 1000 && window.innerWidth > 600)
+			setCard2Width("650px");
 		else setCard2Width("");
 	};
 
@@ -37,7 +38,9 @@ export default function ReachUs() {
 						width: card2Width,
 					}}
 				>
-					<h3 className="font-acme">IIT Indore International Affairs</h3>
+					<h3 className="font-acme">
+						IIT Indore International Affairs
+					</h3>
 					<br />
 					<p>
 						Office of International Affairs and outreach,
@@ -53,12 +56,15 @@ export default function ReachUs() {
 					</p>
 					<p>
 						<FaPhoneAlt className="contactIcons" />
-						<a href="tel:+91 07316603479">+91 0731660 3479</a> /{" "}
-						<a href="tel:+91 07316603573">3573</a>
+						<a href="tel:+91 07316603479">
+							+91 0731660 3479
+						</a> / <a href="tel:+91 07316603573">3573</a>
 					</p>
 					<p>
 						<IoMdMail className="contactIcons" />
-						<a href="mailto:intloffice@iiti.ac.in">intloffice@iiti.ac.in</a>
+						<a href="mailto:intloffice@iiti.ac.in">
+							intloffice@iiti.ac.in
+						</a>
 					</p>
 					<p>
 						<FiLink2 className="contactIcons" />
@@ -92,20 +98,22 @@ export default function ReachUs() {
 			<div className="cardsGrp">
 				<Card className="mt-4" style={{ width: "max(30%,22rem)" }}>
 					<Card.Header>
-						<h3 className="font-acme">From Indore Railway Station</h3>
+						<h3 className="font-acme">
+							From Indore Railway Station
+						</h3>
 					</Card.Header>
 					<Card.Img variant="top" src={train} />
 					<Card.Body>
 						<Card.Text>Distance: Approximately 24.4 Kms</Card.Text>
 						<Card.Text>Travel time: 50 min</Card.Text>
 						<Card.Text>
-							Book Taxi/Auto (fare approx. INR 400-500) up to Campus of IIT Indore,
-							Simrol
+							Book Taxi/Auto (fare approx. INR 400-500) up to
+							Campus of IIT Indore, Simrol
 						</Card.Text>
 						<Card.Text>
-							Please ask your driver to follow the way via Tejaji Nagar, which is the
-							shortest route to reach IIT Indore Simrol 453552 from Indore Railway
-							Station.
+							Please ask your driver to follow the way via Tejaji
+							Nagar, which is the shortest route to reach IIT
+							Indore Simrol 453552 from Indore Railway Station.
 						</Card.Text>
 					</Card.Body>
 				</Card>
@@ -118,13 +126,14 @@ export default function ReachUs() {
 						<Card.Text>Distance: Approximately 35.3 Kms</Card.Text>
 						<Card.Text>Travel time: 1hr 6min</Card.Text>
 						<Card.Text>
-							Book Taxi/Auto (fare approx. INR 800-900) up to Campus of IIT Indore,
-							Simrol
+							Book Taxi/Auto (fare approx. INR 800-900) up to
+							Campus of IIT Indore, Simrol
 						</Card.Text>
 						<Card.Text>
-							Please ask your driver to follow the way via Tejaji Nagar, which is the
-							shortest route to reach Simrol (IIT Indore) from Indore Airport (Devi
-							Ahilya Bai Holkar Airport).
+							Please ask your driver to follow the way via Tejaji
+							Nagar, which is the shortest route to reach Simrol
+							(IIT Indore) from Indore Airport (Devi Ahilya Bai
+							Holkar Airport).
 						</Card.Text>
 					</Card.Body>
 				</Card>
@@ -137,19 +146,27 @@ export default function ReachUs() {
 						<Card.Text>Distance: Approximately 22 Kms</Card.Text>
 						<Card.Text>Travel time: 1hr 10min</Card.Text>
 						<Card.Text>
-							The bus fare from Bhanwarkuan to IIT Indore is INR 25 per person.
+							The bus fare from Bhanwarkuan to IIT Indore is INR
+							25 per person.
 						</Card.Text>
 						<Card.Text>
-							One can board a local bus shuttle service which originates from
-							Bhanwarkuan bus stand (about 5km from railway station) to reach IIT
-							Indore campus.
+							One can board a local bus shuttle service which
+							originates from Bhanwarkuan bus stand (about 5km
+							from railway station) to reach IIT Indore campus.
 						</Card.Text>
 					</Card.Body>
 				</Card>
 			</div>
 			<h1 className="font-acme mt-5 text-center">Cab Services</h1>
 			<div className="container">
-				<Table striped bordered hover variant="success" responsive className="mb-4 mt-2">
+				<Table
+					striped
+					bordered
+					hover
+					variant="success"
+					responsive
+					className="mb-4 mt-2"
+				>
 					<thead>
 						<tr>
 							<th>Name</th>
@@ -160,18 +177,22 @@ export default function ReachUs() {
 						<tr>
 							<td>Sahil Cab Service</td>
 							<td>
-								<a href="tel:+91 78699 02222">+91 78699 02222</a>
+								<a href="tel:+91 78699 02222">
+									+91 78699 02222
+								</a>
 							</td>
 						</tr>
 					</tbody>
 				</Table>
 			</div>
-			<h1 className="font-acme mt-5 text-center">Emergency Contact Numbers</h1>
+			<h1 className="font-acme mt-5 text-center">
+				Emergency Contact Numbers
+			</h1>
 			<div className="container">
 				<p>
 					<br />
-					If you are calling from any medium other than intercom, then dial 0731-660
-					followed by the Extension Number.
+					If you are calling from any medium other than intercom, then
+					dial 0731-660 followed by the Extension Number.
 				</p>
 				<p>
 					To download the entire telephone directory,{" "}
@@ -182,7 +203,14 @@ export default function ReachUs() {
 						Click Here
 					</a>
 				</p>
-				<Table striped bordered hover variant="success" responsive className="mb-5 mt-1">
+				<Table
+					striped
+					bordered
+					hover
+					variant="success"
+					responsive
+					className="mb-5 mt-1"
+				>
 					<thead>
 						<tr>
 							<th>Location</th>

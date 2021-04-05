@@ -7,7 +7,7 @@ export const MobilityExchange = ({ type }) => {
 	const [region, setRegion] = useState("Americas");
 
 	return (
-		<div className="container">
+		<div className="container push-footer">
 			<div className="meButtons">
 				{/*<button
 					className={region == "Asia" ? "active" : ""}
