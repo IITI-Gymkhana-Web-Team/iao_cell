@@ -33,7 +33,7 @@ export const IndiEvent = ({ match }) => {
 				</div>
 
 				<h2 className="font-acme">Organizing Committee</h2>
-				<div className="cardsStuff">
+				<div className="cardsStuff oc">
 					{data[id].oc.map((oc1, i) => {
 						return <PersonCard person={oc1} key={i} />;
 					})}

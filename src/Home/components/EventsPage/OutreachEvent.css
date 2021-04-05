@@ -5,6 +5,10 @@
 	width: min(100%, 400px);
 }
 
+.speakers img {
+	height: 250px;
+}
+
 .backBtn {
 	border-radius: 10px;
 	padding: 5px;
@@ -25,10 +29,15 @@
 	margin: 20px;
 	width: 300px;
 	align-items: center;
+	white-space: pre-wrap;
 }
 
 .pcard div {
 	padding: 20px;
+}
+
+.oc {
+	text-align: center;
 }
 
 .speakers .pcard {

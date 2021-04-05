@@ -9,14 +9,21 @@ export const OutreachEvent = ({ Events, i }) => {
 	return (
 		<Card className="outreach">
 			<div className="img-holder">
-				<Card.Img variant="top" src={Events.img} />
+				<Card.Img variant="top" src={Events.img} style={{ height: "250px" }} />
 			</div>
 			<Card.Body className="font-ubuntu">
-				<Link to={"/outreach/events/" + i}>
+				{Events.linkDisabled && (
 					<Card.Title>
 						<span className="font-acme">{Events.title}</span>
 					</Card.Title>
-				</Link>
+				)}
+				{!Events.linkDisabled && (
+					<Link to={"/outreach/events/" + i}>
+						<Card.Title>
+							<span className="font-acme">{Events.title}</span>
+						</Card.Title>
+					</Link>
+				)}
 				<Card.Text className="stuff">
 					<BiCalendar />
 					&nbsp;
