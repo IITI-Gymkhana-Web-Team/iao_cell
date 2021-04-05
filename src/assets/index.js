@@ -124,9 +124,9 @@ import JBJoshi from "./jbJoshi.webp";
 import Prof_William from "./profWilliam.webp";
 import Professor_David from "./professor_David.webp";
 import ProfRaghu from "./ProfRaghu.webp";
-import atomic from "./atomic.jpg";
-import automative from "./automative.jpg";
-import scitech from "./scitech.jpg";
+import atomic from "./atomic.webp";
+import automative from "./automative.webp";
+import scitech from "./scitech.webp";
 import joshi from "./joshi.png";
 import somak from "./somak.png";
 import sastry from "./sastry.png";
@@ -136,23 +136,23 @@ import jeevant from "./jeevant.png";
 import bishow from "./bishow.png";
 import photocat from "./photocata.png";
 import physics from "./physics.png";
-import nobel from "./nobel.jpg";
-import organo from "./organo.jpg";
-import nano from "./nano.jpg";
-import health from "./health.jpg";
-import boron from "./boron.jpg";
+import nobel from "./nobel.webp";
+import organo from "./organo.webp";
+import nano from "./nano.webp";
+import health from "./health.webp";
+import boron from "./boron.webp";
 
-import ajoy from "./ajoy.jpg";
-import amit from "./amit.jpg";
-import amol from "./amol.jpg";
+import ajoy from "./ajoy.webp";
+import amit from "./amit.webp";
+import amol from "./amol.webp";
 import bm from "./bm.png";
 import dks from "./dks.jpeg";
-import mani from "./mani.jpg";
-import srubabati from "./srubabati.jpg";
-import sunilGupta from "./sunilGupta.jpg";
+import mani from "./mani.webp";
+import srubabati from "./srubabati.webp";
+import sunilGupta from "./sunilGupta.webp";
 import tarun from "./tarun.jpeg";
 import yusuf from "./yusuf.png";
-import ramanujan from "./ramanujan.jpg";
+import ramanujan from "./ramanujan.webp";
 
 export {
 	ramanujan,
