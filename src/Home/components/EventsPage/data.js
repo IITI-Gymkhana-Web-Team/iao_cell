@@ -33,6 +33,9 @@ import {
 	tarun,
 	yusuf,
 	ramanujan,
+	spatel,
+	ashish,
+	avinash,
 } from "../../../assets";
 
 export const data = [
@@ -55,13 +58,15 @@ export const data = [
 		oc: [
 			{
 				name: "Dr. Raghunath Sahoo",
-				designation: "Convener, Institute Outreach and Associate Dean IAO",
+				designation:
+					"Convener, Institute Outreach and Associate Dean IAO",
 				img: raghu,
 			},
 		],
 	},
 	{
-		title: "A New Measure: the revolutionary quantum reform of the international metric system",
+		title:
+			"A New Measure: the revolutionary quantum reform of the international metric system",
 		time: "9:30-11:30 AM IST",
 		speakers: [
 			{
@@ -79,7 +84,8 @@ export const data = [
 		oc: [
 			{
 				name: "Dr. Raghunath Sahoo",
-				designation: "Convener, Institute Outreach and Associate Dean IAO",
+				designation:
+					"Convener, Institute Outreach and Associate Dean IAO",
 				img: raghu,
 			},
 		],
@@ -105,7 +111,7 @@ export const data = [
 			{
 				name: "Dr. Satyanarayan Patel",
 				designation: "Convener",
-				img: person,
+				img: spatel,
 			},
 			{
 				name: "Dr. Harekrishna Yadav",
@@ -116,7 +122,7 @@ export const data = [
 				name: "Dr. Ashish Rajak",
 				designation:
 					"Member & Department of Mechanical Engineering Indian Institute of Technology Indore Indore, India",
-				img: person,
+				img: ashish,
 			},
 		],
 	},
@@ -142,22 +148,25 @@ export const data = [
 				name: "Prof. Avinash Sonawane",
 				designation:
 					"Department of Biosciences and Biomedical Engineering, Dean of International Affairs Outreach, IIT Indore, India",
-				img: person,
+				img: avinash,
 			},
 			{
 				name: "Prof. Tone Tonjum",
-				designation: "Department of Microbiology, University of Oslo, Norway",
+				designation:
+					"Department of Microbiology, University of Oslo, Norway",
 				img: person,
 			},
 		],
 	},
 	{
-		title: "Borametallomimetics - Activation of Small Molecules by Low-valent Boron Species",
+		title:
+			"Borametallomimetics - Activation of Small Molecules by Low-valent Boron Species",
 		time: "9pm",
 		speakers: [
 			{
 				name: "Prof. Dr. Holger",
-				designation: "Professor, Braunschweig University of Würzburg, Germany",
+				designation:
+					"Professor, Braunschweig University of Würzburg, Germany",
 				img: person,
 				desc:
 					"Nulla Lorem commodo Lorem incididunt sint magna ipsum cillum dolor esse deserunt. Occaecat fugiat mollit mollit esse culpa officia enim laboris cupidatat labore sint cillum occaecat ex. Ad nulla eiusmod culpa ipsum commodo magna labore sint fugiat ad. Consequat officia exercitation aliquip sint laboris consequat qui fugiat quis nisi adipisicing duis cillum aute. Commodo ut consequat pariatur ad excepteur.",
@@ -178,7 +187,8 @@ export const data = [
 		linkDisabled: true,
 	},
 	{
-		title: "New photocatalytic reactions: Updates on radical cascades and photooxygenations",
+		title:
+			"New photocatalytic reactions: Updates on radical cascades and photooxygenations",
 		time: "9pm",
 		speakers: [
 			{
@@ -236,7 +246,8 @@ export const data = [
 		speakers: [
 			{
 				name: "Prof. Dr. Silke Behrens",
-				designation: "IKFT, Karlsruhe Institute of Technology (KIT), Germany",
+				designation:
+					"IKFT, Karlsruhe Institute of Technology (KIT), Germany",
 				img: person,
 				desc:
 					"Nulla Lorem commodo Lorem incididunt sint magna ipsum cillum dolor esse deserunt. Occaecat fugiat mollit mollit esse culpa officia enim laboris cupidatat labore sint cillum occaecat ex. Ad nulla eiusmod culpa ipsum commodo magna labore sint fugiat ad. Consequat officia exercitation aliquip sint laboris consequat qui fugiat quis nisi adipisicing duis cillum aute. Commodo ut consequat pariatur ad excepteur.",
@@ -320,7 +331,8 @@ export const data = [
 			},
 			{
 				name: "Prof. Saumitra Das",
-				designation: "Director, National Institute of Biomedical Genomics, Kalyani, WB",
+				designation:
+					"Director, National Institute of Biomedical Genomics, Kalyani, WB",
 				img: saumitra,
 				desc: "Nobel Prize in Medicine",
 			},
@@ -334,7 +346,7 @@ export const data = [
 				name: "Dr. Raghunath Sahoo",
 				designation:
 					"Convener, Institute Outreach and Associate Dean International Affairs and Outreach",
-				img: person,
+				img: raghu,
 			},
 			{
 				name: "Prof. Biswarup Pathak",
@@ -369,7 +381,8 @@ export const data = [
 		speakers: [
 			{
 				name: "Professor Srubabati Goswami",
-				designation: "FASc, FNASc, FNA (Physical Research Laboratory, Ahmedabad)",
+				designation:
+					"FASc, FNASc, FNA (Physical Research Laboratory, Ahmedabad)",
 				img: srubabati,
 				desc:
 					"Title: The Mystery of the Missing Antimatter in the Universe\n(March 2021: To be announced)",
@@ -382,9 +395,11 @@ export const data = [
 			},
 			{
 				name: "Professor Amol Dighe",
-				designation: "FASc, FNA (Tata Institute of Fundamental Research, Mumbai)",
+				designation:
+					"FASc, FNA (Tata Institute of Fundamental Research, Mumbai)",
 				img: amol,
-				desc: "Title: Neutrinos: A new window to see the Universe\n(04 December 2020)",
+				desc:
+					"Title: Neutrinos: A new window to see the Universe\n(04 December 2020)",
 			},
 			{
 				name: "Professor Ajoy Ghatak",
@@ -397,7 +412,8 @@ export const data = [
 				name: "Professor S. M. Yusuf",
 				designation: "FASc, FNASc (BARC, Mumbai IoP, Bhubaneswar)",
 				img: yusuf,
-				desc: "Title: Neutrons for Material Research and Technology\n(17 October 2020)",
+				desc:
+					"Title: Neutrons for Material Research and Technology\n(17 October 2020)",
 			},
 			{
 				name: "Professor Amit Roy",
@@ -415,21 +431,24 @@ export const data = [
 			},
 			{
 				name: "Professor Sunil K. Gupta",
-				designation: "FNASc (Tata Institute of Fundamental Research, Mumbai)",
+				designation:
+					"FNASc (Tata Institute of Fundamental Research, Mumbai)",
 				img: sunilGupta,
 				desc:
 					"Title: Solar Storms and Their Impact on Earth, Studied through Muons\n(10 September 2020)",
 			},
 			{
 				name: "Professor Tarun Souradeep",
-				designation: "FASc, FNASc (IISER Pune, LIGO-India Spokesperson)",
+				designation:
+					"FASc, FNASc (IISER Pune, LIGO-India Spokesperson)",
 				img: tarun,
 				desc:
 					"Title: LIGO-India: Ushering in Gravitational Wave Astronomy\n(25 August 2020)",
 			},
 			{
 				name: "Professor Dinesh Kumar Srivastava",
-				designation: "FNA, FNASc (Homi Bhabha Chair Professor, NIAS, Bengaluru)",
+				designation:
+					"FNA, FNASc (Homi Bhabha Chair Professor, NIAS, Bengaluru)",
 				img: dks,
 				desc:
 					"Title: Climate Change and Energy Options for a Sustainable Future\n(30 June 2020)",
@@ -442,8 +461,9 @@ export const data = [
 		oc: [
 			{
 				name: "Dr. Raghunath Sahoo",
-				designation: "Convener, Institute Outreach and Associate Dean IAO",
-				img: person,
+				designation:
+					"Convener, Institute Outreach and Associate Dean IAO",
+				img: raghu,
 			},
 		],
 	},
