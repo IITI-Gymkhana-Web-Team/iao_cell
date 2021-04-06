@@ -31,7 +31,9 @@
 	align-items: center;
 	white-space: pre-wrap;
 }
-
+.pcard img {
+	min-height: 280px;
+}
 .pcard div {
 	padding: 20px;
 }

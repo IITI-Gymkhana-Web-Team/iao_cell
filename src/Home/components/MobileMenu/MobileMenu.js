@@ -14,7 +14,11 @@ export const MobileMenu = ({ show, setShow }) => {
 		{
 			name: "People",
 			innerLinks: [
-				{ name: "International Affairs", link: "/people/oia", level: "2" },
+				{
+					name: "International Affairs",
+					link: "/people/oia",
+					level: "2",
+				},
 				{ name: "SIA Cell", link: "/people/sc", level: "2" },
 			],
 			level: "1",
@@ -33,26 +37,58 @@ export const MobileMenu = ({ show, setShow }) => {
 				{
 					name: "MOU",
 					innerLinks: [
-						{ name: "Asian Universities", link: "/mou/asia", level: "3" },
-						{ name: "Australian Universities", link: "/mou/australia", level: "3" },
-						{ name: "American Universities", link: "/mou/america", level: "3" },
-						{ name: "European Universities", link: "/mou/europe", level: "3" },
+						{
+							name: "Asian Universities",
+							link: "/mou/asia",
+							level: "3",
+						},
+						{
+							name: "Australian Universities",
+							link: "/mou/australia",
+							level: "3",
+						},
+						{
+							name: "American Universities",
+							link: "/mou/america",
+							level: "3",
+						},
+						{
+							name: "European Universities",
+							link: "/mou/europe",
+							level: "3",
+						},
 					],
 					level: "2",
 				},
 				{
 					name: "Mobility Exchange",
 					innerLinks: [
-						{ name: "Student", link: "/mobility/student", level: "3" },
-						{ name: "Faculty", link: "/mobility/faculty", level: "3" },
+						{
+							name: "Student",
+							link: "/mobility/student",
+							level: "3",
+						},
+						{
+							name: "Faculty",
+							link: "/mobility/faculty",
+							level: "3",
+						},
 					],
 					level: "2",
 				},
 				{
 					name: "Intl. Students",
 					innerLinks: [
-						{ name: "Students List", link: "/int/students", level: "3" },
-						{ name: "Testimonials", link: "/int/testimonials", level: "3" },
+						{
+							name: "Students List",
+							link: "/int/students",
+							level: "3",
+						},
+						{
+							name: "Testimonials",
+							link: "/int/testimonials",
+							level: "3",
+						},
 					],
 					level: "2",
 				},
@@ -78,7 +114,11 @@ export const MobileMenu = ({ show, setShow }) => {
 						{
 							name: "Faculty",
 							innerLinks: [
-								{ name: "Visa Process", link: "/ProsFaculty/visa", level: "4" },
+								{
+									name: "Visa Process",
+									link: "/ProsFaculty/visa",
+									level: "4",
+								},
 								{
 									name: "Places To Visit",
 									link: "/ProsFaculty/places",
@@ -90,10 +130,26 @@ export const MobileMenu = ({ show, setShow }) => {
 						{
 							name: "Student",
 							innerLinks: [
-								{ name: "Admission", link: "/ProsStud/admission", level: "4" },
-								{ name: "Programs", link: "/ProsStud/programs", level: "4" },
-								{ name: "Visa Process", link: "/ProsStud/visa", level: "4" },
-								{ name: "Places To Visit", link: "/ProsStud/places", level: "4" },
+								{
+									name: "Admission",
+									link: "/ProsStud/admission",
+									level: "4",
+								},
+								{
+									name: "Programs",
+									link: "/ProsStud/programs",
+									level: "4",
+								},
+								{
+									name: "Visa Process",
+									link: "/ProsStud/visa",
+									level: "4",
+								},
+								{
+									name: "Places To Visit",
+									link: "/ProsStud/places",
+									level: "4",
+								},
 							],
 							level: "3",
 						},
@@ -123,11 +179,81 @@ export const MobileMenu = ({ show, setShow }) => {
 							link: "/opportunities/pg_phd_post_doc",
 							level: "3",
 						},
-						{ name: "Scholarships", link: "/opportunities/scholarship", level: "3" },
+						{
+							name: "Scholarships",
+							link: "/opportunities/scholarship",
+							level: "3",
+						},
 					],
 					level: "2",
 				},
-				{ name: "Faculty", link: "#", level: "2" },
+				{
+					name: "Faculties",
+					innerLinks: [
+						{
+							name: "Indo-French",
+							link: "http://www.cefipra.org/",
+							level: "3",
+						},
+						{
+							name: "Indo-Japan",
+							link: "https://www.jsps.go.jp/english/",
+							level: "3",
+						},
+						{
+							name: "Indo-Germany",
+							innerLinks: [
+								{
+									name: "Alexander von Humboldt Foundation",
+									link:
+										"https://www.humboldt-foundation.de/en/",
+									level: "4",
+								},
+								{
+									name: "DAAD",
+									link:
+										"https://www.daad.in/en/study-research-in-germany/",
+									level: "4",
+								},
+								{
+									name:
+										"Indo-German Science & Technology Center",
+									link: "https://www.igstc.org/",
+									level: "4",
+								},
+							],
+							level: "3",
+						},
+						{
+							name: "Indo-USA",
+							link: "https://www.iusstf.org/",
+							level: "3",
+						},
+						{
+							name: "Indo-UK",
+							link:
+								"https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/",
+							level: "3",
+						},
+						{
+							name: "Indo-ASEAN",
+							link: "https://aistic.gov.in/ASEAN/HomePage",
+							level: "3",
+						},
+						{
+							name: "Indo-Canada",
+							innerLinks: [
+								{
+									name: "Indo-Shastri Canadian Institute",
+									link: "https://www.shastriinstitute.org/",
+									level: "4",
+								},
+							],
+							level: "3",
+						},
+					],
+					level: "2",
+				},
 			],
 			level: "1",
 		},
@@ -141,16 +267,34 @@ export const MobileMenu = ({ show, setShow }) => {
 		},
 		{
 			name: "Research",
-			innerLinks: [{ name: "R&D @IITI", link: "http://rnd.iiti.ac.in/", level: "2" }],
+			innerLinks: [
+				{
+					name: "R&D @IITI",
+					link: "http://rnd.iiti.ac.in/",
+					level: "2",
+				},
+			],
 			level: "1",
 		},
 		{
 			name: "Facilities",
 			innerLinks: [
-				{ name: "Hostels", link: "http://hostel.iiti.ac.in/", level: "2" },
+				{
+					name: "Hostels",
+					link: "http://hostel.iiti.ac.in/",
+					level: "2",
+				},
 				{ name: "Guest House", link: "#", level: "2" },
-				{ name: "Eateries", link: "http://eateries.iiti.ac.in/", level: "2" },
-				{ name: "Health Centre", link: "http://people.iiti.ac.in/~medical/", level: "2" },
+				{
+					name: "Eateries",
+					link: "http://eateries.iiti.ac.in/",
+					level: "2",
+				},
+				{
+					name: "Health Centre",
+					link: "http://people.iiti.ac.in/~medical/",
+					level: "2",
+				},
 				{
 					name: "Counselling Cell",
 					link: "http://iiti.ac.in/page/counselling-cell",
@@ -166,14 +310,27 @@ export const MobileMenu = ({ show, setShow }) => {
 					link: "http://cc.iiti.ac.in/",
 					level: "2",
 				},
-				{ name: "Nursery School", link: "http://people.iiti.ac.in/~creche/", level: "2" },
-				{ name: "E-Payments", link: "http://iiti.ac.in/page/e-payments", level: "2" },
 				{
-					name: "Smart card facility",
-					link: "http://people.iiti.ac.in/~smartcard/CampusCards.html",
+					name: "Nursery School",
+					link: "http://people.iiti.ac.in/~creche/",
 					level: "2",
 				},
-				{ name: "Transport Booking", link: "http://vbs.iiti.ac.in/", level: "2" },
+				{
+					name: "E-Payments",
+					link: "http://iiti.ac.in/page/e-payments",
+					level: "2",
+				},
+				{
+					name: "Smart card facility",
+					link:
+						"http://people.iiti.ac.in/~smartcard/CampusCards.html",
+					level: "2",
+				},
+				{
+					name: "Transport Booking",
+					link: "http://vbs.iiti.ac.in/",
+					level: "2",
+				},
 				{
 					name: "Green vehicle schedule",
 					link:
@@ -191,16 +348,26 @@ export const MobileMenu = ({ show, setShow }) => {
 	]);
 
 	return (
-		<div className="mobileMenuOuter" style={show ? { display: "" } : { display: "none" }}>
+		<div
+			className="mobileMenuOuter"
+			style={show ? { display: "" } : { display: "none" }}
+		>
 			<div className="mobileMenu">
 				<div className="mmenuP1">
 					<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
-					<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
+					<AiOutlineCloseCircle
+						className="closeIcon"
+						onClick={() => setShow(false)}
+					/>
 				</div>
 				{links.map((link1) => {
 					return (
 						<div className="indiMenu" key={link1.name}>
-							<MobileMenuLinks link1={link1} setShow2={setShow} show2={show} />
+							<MobileMenuLinks
+								link1={link1}
+								setShow2={setShow}
+								show2={show}
+							/>
 						</div>
 					);
 				})}
