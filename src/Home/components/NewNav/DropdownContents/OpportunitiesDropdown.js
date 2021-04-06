@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const OpportunitiesDropdown = () => {
 	return (
-		<div style={{ width: "40rem" }}>
+		<div style={{ width: "50rem" }}>
 			<DropdownSection data-first-dropdown-section noMarginBottom>
 				<div className="d-flex outDropdown">
 					<DropdownSection data-first-dropdown-section noMarginBottom>
@@ -92,13 +92,7 @@ const OpportunitiesDropdown = () => {
 								<HeadingLink>
 									<Icon /> Indo-Canada
 								</HeadingLink>
-								<div
-									style={{
-										textAlign: "right",
-										display: "flex",
-										flexDirection: "column",
-									}}
-								>
+								<div className="d-flex flex-column mb-3 mt-1">
 									<a href="https://www.shastriinstitute.org/">
 										Indo-Shastri Canadian Institute
 									</a>
