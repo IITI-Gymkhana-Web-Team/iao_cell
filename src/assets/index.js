@@ -141,7 +141,6 @@ import organo from "./organo.webp";
 import nano from "./nano.webp";
 import health from "./health.webp";
 import boron from "./boron.webp";
-
 import ajoy from "./ajoy.webp";
 import amit from "./amit.webp";
 import amol from "./amol.webp";
@@ -153,7 +152,13 @@ import sunilGupta from "./sunilGupta.webp";
 import tarun from "./tarun.jpeg";
 import yusuf from "./yusuf.png";
 import ramanujan from "./ramanujan.webp";
-
+import harekrishna from "./Harekrishna.jpg";
+import toneTonjum from "./Tone-Tonjum.jpg";
+import biswarup from "./biswarup.jpg";
+import ruchi from "./ruchi.jpg";
+import nirmala from "./nirmala.jpg";
+import prashant from "./PrashantKodgire.jpg";
+import debasis from "./Dr.DebasisNayak.jpg";
 export {
 	ramanujan,
 	ajoy,
@@ -309,4 +314,11 @@ export {
 	satya,
 	thomas,
 	vinu,
+	harekrishna,
+	toneTonjum,
+	biswarup,
+	ruchi,
+	nirmala,
+	prashant,
+	debasis,
 };

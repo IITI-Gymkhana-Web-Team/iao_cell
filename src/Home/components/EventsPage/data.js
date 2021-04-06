@@ -36,6 +36,13 @@ import {
 	spatel,
 	ashish,
 	avinash,
+	harekrishna,
+	toneTonjum,
+	biswarup,
+	ruchi,
+	nirmala,
+	prashant,
+	debasis,
 } from "../../../assets";
 
 export const data = [
@@ -116,7 +123,7 @@ export const data = [
 			{
 				name: "Dr. Harekrishna Yadav",
 				designation: "Member",
-				img: person,
+				img: harekrishna,
 			},
 			{
 				name: "Dr. Ashish Rajak",
@@ -154,7 +161,7 @@ export const data = [
 				name: "Prof. Tone Tonjum",
 				designation:
 					"Department of Microbiology, University of Oslo, Norway",
-				img: person,
+				img: toneTonjum,
 			},
 		],
 	},
@@ -351,27 +358,27 @@ export const data = [
 			{
 				name: "Prof. Biswarup Pathak",
 				designation: "Professor, Chemistry",
-				img: person,
+				img: biswarup,
 			},
 			{
 				name: "Prof. Ruchi Sharma",
 				designation: "Professor, Economics",
-				img: person,
+				img: ruchi,
 			},
 			{
 				name: "Prof. Nirmala Menon",
 				designation: "Literature/Peace",
-				img: person,
+				img: nirmala,
 			},
 			{
 				name: "Prof. Prashant Kodgire",
-				img: person,
+				img: prashant,
 				designation: "Medicine",
 			},
 			{
 				name: "Prof. Debasis Nayak",
 				designation: "Medicine",
-				img: person,
+				img: debasis,
 			},
 		],
 	},
