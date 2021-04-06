@@ -152,13 +152,13 @@ import sunilGupta from "./sunilGupta.webp";
 import tarun from "./tarun.jpeg";
 import yusuf from "./yusuf.png";
 import ramanujan from "./ramanujan.webp";
-import harekrishna from "./Harekrishna.jpg";
-import toneTonjum from "./Tone-Tonjum.jpg";
-import biswarup from "./biswarup.jpg";
-import ruchi from "./ruchi.jpg";
-import nirmala from "./nirmala.jpg";
-import prashant from "./PrashantKodgire.jpg";
-import debasis from "./Dr.DebasisNayak.jpg";
+import harekrishna from "./Harekrishna.webp";
+import toneTonjum from "./Tone-Tonjum.webp";
+import biswarup from "./biswarup.webp";
+import ruchi from "./ruchi.webp";
+import nirmala from "./nirmala.webp";
+import prashant from "./PrashantKodgire.webp";
+import debasis from "./Dr.DebasisNayak.webp";
 export {
 	ramanujan,
 	ajoy,
