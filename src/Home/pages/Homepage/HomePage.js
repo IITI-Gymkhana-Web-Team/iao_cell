@@ -24,7 +24,7 @@ export const HomePage = () => {
 					<News />
 					<Events />
 				</div>
-				<Maps />
+				{/*<Maps />*/}
 				<MHRD />
 			</div>
 		</div>
