@@ -1,6 +1,4 @@
-import { news } from "../../../assets";
-import chem_talks_news from "../../../assets/chem_talks_news.jpg";
-import nsd2020  from "../../../assets/nsd2020.jpg";
+import { nsd2020, chem_talks_news } from "../../../assets";
 
 export const data = [
 	{
@@ -14,7 +12,7 @@ export const data = [
 		title: "Chemistry Talks",
 		image: chem_talks_news,
 		text:
-			" Chemistry Talks:India celebrates the National Science Day on 28th February to mark the discovery of the Raman effect by Sir C. V. Raman On this occasion, the Department of Chemistry ,Indian Institute of Technology Indore is organizing Chemistry Talks.",
+			" Chemistry Talks: India celebrates the National Science Day on 28th February to mark the discovery of the Raman effect by Sir C. V. Raman On this occasion, the Department of Chemistry ,Indian Institute of Technology Indore is organizing Chemistry Talks.In the month of February, chemistry-based research talks from several eminent speakers across the world have been scheduled.\nChemistry Lectures aim to provide a platform for eminent chemists from all over the world to share and discuss wider aspects of the domain of chemical sciences and allied areas. The webinar is expected to provide a unique opportunity to establish new and ever-lasting bonding between the researchers, and inspire the young students to explore new ways to understand chemistry and its interface.",
 		date: "January 28, 2021",
 	},
 ];

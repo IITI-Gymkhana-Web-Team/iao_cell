@@ -5,7 +5,7 @@ export const Newscard = ({ title, text, date, img, index }) => {
 	return (
 		<div className="card">
 			<div style={{ height: "250px" }}>
-				<img src={img} style={{ maxWidth: "100%", maxHeight: "100%" }} />
+				<img src={img} style={{ maxWidth: "100%", maxHeight: "100%", minWidth: "100%" }} />
 			</div>
 			<div style={{ display: "flex", flexDirection: "column" }}>
 				<div className="card-body">

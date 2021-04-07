@@ -26,6 +26,7 @@
 	padding-right: 10px;
 	min-height: 118px;
 	min-width: 220px;
+	width: 220px;
 }
 
 /* .news .card:hover {
@@ -102,6 +103,7 @@
 	}
 	.news .card-img-top {
 		padding-right: 0px;
+		width: 100%;
 	}
 	.news .mainTitle {
 		padding: 0px !important;
