@@ -44,7 +44,7 @@ import pravin from "./Pravin.webp";
 import sumit from "./Sumit.webp";
 import grp2 from "./grp2.webp";
 import iiti from "./iiti.webp";
-import iiti2 from "./iiti2.png";
+import iiti2 from "./iiti2.webp";
 import hindex from "./hindex.webp";
 import citation from "./citation.webp";
 import ranks from "./ranks.webp";
@@ -127,33 +127,38 @@ import ProfRaghu from "./ProfRaghu.webp";
 import atomic from "./atomic.webp";
 import automative from "./automative.webp";
 import scitech from "./scitech.webp";
-import joshi from "./joshi.png";
-import somak from "./somak.png";
-import sastry from "./sastry.png";
-import saumitra from "./saumitra.png";
-import shor from "./shor.png";
-import jeevant from "./jeevant.png";
-import bishow from "./bishow.png";
-import photocat from "./photocata.png";
-import physics from "./physics.png";
+import joshi from "./joshi.webp";
+import somak from "./somak.webp";
+import sastry from "./sastry.webp";
+import saumitra from "./saumitra.webp";
+import shor from "./shor.webp";
+import jeevant from "./jeevant.webp";
+import bishow from "./bishow.webp";
+import photocat from "./photocata.webp";
+import physics from "./physics.webp";
 import nobel from "./nobel.webp";
 import organo from "./organo.webp";
 import nano from "./nano.webp";
 import health from "./health.webp";
 import boron from "./boron.webp";
-
 import ajoy from "./ajoy.webp";
 import amit from "./amit.webp";
 import amol from "./amol.webp";
-import bm from "./bm.png";
+import bm from "./bm.webp";
 import dks from "./dks.jpeg";
 import mani from "./mani.webp";
 import srubabati from "./srubabati.webp";
 import sunilGupta from "./sunilGupta.webp";
-import tarun from "./tarun.jpeg";
-import yusuf from "./yusuf.png";
+import tarun from "./tarun.webp";
+import yusuf from "./yusuf.webp";
 import ramanujan from "./ramanujan.webp";
-
+import harekrishna from "./Harekrishna.webp";
+import toneTonjum from "./Tone-Tonjum.webp";
+import biswarup from "./biswarup.webp";
+import ruchi from "./ruchi.webp";
+import nirmala from "./nirmala.webp";
+import prashant from "./PrashantKodgire.webp";
+import debasis from "./Dr.DebasisNayak.webp";
 export {
 	ramanujan,
 	ajoy,
@@ -309,4 +314,11 @@ export {
 	satya,
 	thomas,
 	vinu,
+	harekrishna,
+	toneTonjum,
+	biswarup,
+	ruchi,
+	nirmala,
+	prashant,
+	debasis,
 };

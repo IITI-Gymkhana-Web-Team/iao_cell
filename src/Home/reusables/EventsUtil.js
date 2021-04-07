@@ -45,7 +45,6 @@ const styles = {
 	title: {
 		fontWeight: "bolder",
 		borderBottom: "2px solid #e2e2e2 ",
-		width: "fit-content",
 		marginBottom: "5%",
 	},
 	text: {
