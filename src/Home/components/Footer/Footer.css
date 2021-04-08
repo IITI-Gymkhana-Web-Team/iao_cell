@@ -1,3 +1,6 @@
+* a {
+	transition: all 0.2s ease-in-out;
+}
 .footer img {
 	width: 40%;
 }
@@ -124,7 +127,8 @@
 	color: black;
 }
 .event-card {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 .card-img-overlay {
 	position: absolute;
