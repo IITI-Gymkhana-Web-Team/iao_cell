@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import chem_talks_news from "../../assets/chem_talks_news.jpg";
-import nsd2020 from "../../assets/nsd2020.jpg";
+import { chem_talks_news } from "../../assets";
+import { nsd2020 } from "../../assets";
 import { Link } from "react-router-dom";
 
 export default function ({ News, index }) {
@@ -13,7 +13,9 @@ export default function ({ News, index }) {
 				</div>
 				<Card.Body>
 					<Card.Title style={styles.title} className="font-acme">
-						<Link to={"/outreach/news/" + index}>{News["title"]}</Link>
+						<Link to={"/outreach/news/" + index}>
+							{News["title"]}
+						</Link>
 					</Card.Title>
 					<p className="text-muted font-ubuntu">{News["date"]}</p>
 					<Card.Text className="font-ubuntu" style={styles.text}>
