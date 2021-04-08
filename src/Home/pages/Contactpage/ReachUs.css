@@ -61,7 +61,11 @@
 	height: 270px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1205px) {
+	.reachUs .part1 {
+		justify-content: center;
+		align-items: center;
+	}
 	.reachUs {
 		text-align: center;
 	}
