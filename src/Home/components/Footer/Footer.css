@@ -161,3 +161,9 @@
 .footer h4 {
 	color: #007bff;
 }
+.pop-out {
+	transition: all 0.2s ease-out;
+}
+.pop-out:hover {
+	transform: scale(1.5);
+}
