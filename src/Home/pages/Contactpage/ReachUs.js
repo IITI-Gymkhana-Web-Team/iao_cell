@@ -13,7 +13,10 @@ export default function ReachUs() {
 	const [card2Width, setCard2Width] = useState("400px");
 
 	const updateDimensions = () => {
-		if (window.innerWidth <= 600) {
+		if (window.innerWidth <= 350) {
+			setWidth("300px");
+			setCard2Width("300px");
+		} else if (window.innerWidth <= 600) {
 			setWidth("400px");
 			setCard2Width("400px");
 		} else {
@@ -33,9 +36,9 @@ export default function ReachUs() {
 			<h1 className="mt-4 mainTitle mb-3 text-center">Contact Us</h1>
 			<div className="part1 p-4 container">
 				<div
-					className="card2"
+					className="mx-auto card2 mb-3"
 					style={{
-						maxHeight: "500px",
+						minHeight: "500px",
 						width: card2Width,
 					}}
 				>
@@ -86,7 +89,7 @@ export default function ReachUs() {
 					width={width}
 					height="500px"
 					loading="lazy"
-					className="reachUsMap"
+					className="reachUsMap mx-auto"
 				></Iframe>
 			</div>
 			<h1 className="font-acme mt-5 text-center mb-4">How To Reach Us</h1>
