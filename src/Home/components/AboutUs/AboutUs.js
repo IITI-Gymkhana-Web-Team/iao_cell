@@ -27,11 +27,10 @@ export const AboutUs = () => {
 
 						<div className="aboutUnderline"></div>
 						<p className="font-ubuntu mt-3">
-							IIT Indore is an institute of national importance established by the
-							Govt. of India in 2009. Apart from promoting the the culture of
-							excellence and hard work, it maintains a high national rank among the
-							institutions of higher education and is now among the top 10 engineering
-							institutes in the country.
+							IIT Indore, established by the Govt. of India in 2009, promotes the the
+							culture of excellence and hard work. It maintains a high national rank
+							among the institutions of higher education and is now among the top 10
+							engineering institutes in the country.
 						</p>
 					</Link>
 				</div>
@@ -49,10 +48,9 @@ export const AboutUs = () => {
 						<h3 className="font-acme mt-4">About Us</h3>
 						<div className="aboutUnderline"></div>
 						<p className="font-ubuntu mt-3">
-							Cupidatat ea nulla Lorem consectetur laboris adipisicing occaecat qui
-							adipisicing. Anim anim quis ullamco irure proident nisi cupidatat anim
-							labore nisi. Occaecat officia ea reprehenderit aliqua deserunt veniam
-							sint magna qui fugiat minim mollit commodo.
+							IIT Indore is rapidly expanding globally with an aim to internationalize
+							its teaching and research portfolio. Currently, we are collaborating
+							intensely with counties across North America, Europe, Asia, and Oceania.
 						</p>
 					</Link>
 				</div>
