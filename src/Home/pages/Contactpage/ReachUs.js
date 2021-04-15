@@ -96,7 +96,6 @@ export default function ReachUs() {
 					url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5687000959156!2d75.91853441489567!3d22.520359685209645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962efcccbce7145%3A0x784e8cb69818596b!2sIIT%20Indore!5e0!3m2!1sen!2sin!4v1617012970021!5m2!1sen!2sin"
 					width={width}
 					height="500px"
-					styles={{ width: "max(400px, 50%)" }}
 					loading="lazy"
 					className="reachUsMap mx-auto"
 				></Iframe>

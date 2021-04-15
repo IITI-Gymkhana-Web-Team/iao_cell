@@ -1,6 +1,7 @@
 import React from "react";
 // import { Title } from "./components/Title/Title";
 // import { NavBar } from "./components/NavBar/NavBar";
+import { BackVideo } from "../../components/backVideo/backVideo";
 import { Carousell } from "../../components/Carousell/Carousell";
 import { AboutUs } from "../../components/AboutUs/AboutUs";
 import { News } from "../../components/News/News";
@@ -14,6 +15,9 @@ import "./Home.css";
 export const HomePage = () => {
 	return (
 		<div className="home">
+		    <div>
+				<BackVideo />
+			</div>
 			<div className="abc">
 				<Carousell />
 			</div>
