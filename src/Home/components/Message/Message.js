@@ -10,7 +10,7 @@ export default function Message() {
 					<div className="card bg-light col-sm-12 border-0">
 						<img
 							src={neelesh}
-							className="img-thumbnail"
+							className="img"
 							alt="img-responsive"
 							style={{ width: "min(70vw,300px)", margin: "auto" }}
 						/>
@@ -41,7 +41,7 @@ export default function Message() {
 					<div className="card bg-light col-sm-12 border-0">
 						<img
 							src={av2}
-							className="img-thumbnail"
+							className="img"
 							alt="img-responsive"
 							style={{ width: "min(70vw,300px)", margin: "auto" }}
 						/>
