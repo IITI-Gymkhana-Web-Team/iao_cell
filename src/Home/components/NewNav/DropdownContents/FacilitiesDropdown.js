@@ -14,10 +14,10 @@ const FacilitiesDropdown = () => {
 						</a>
 					</HeadingLink>
 					<HeadingLink>
-						<a href="#" target="_blank">
+						<Link to="/guestHouse">
 							<Icon />
 							Guest House
-						</a>
+						</Link>
 					</HeadingLink>
 					<HeadingLink>
 						<a href="http://eateries.iiti.ac.in/" target="_blank">

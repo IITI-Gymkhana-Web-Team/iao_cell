@@ -5,40 +5,34 @@ import { nsd2020 } from "../../assets";
 import { Link } from "react-router-dom";
 
 export default function ({ News, index }) {
-    return (
-        <div>
-            <Card className="newsCard">
-
-                <Card.Body>
-                    <Card.Title style={styles.title} className="font-acme">
-                        <Link to={"/outreach/news/" + index}>
-                            IIT Indore mai corona
-						</Link>
-                    </Card.Title>
-                    <p className="text-muted font-ubuntu">27-12-12</p>
-                    <p className="text-muted font-ubuntu">1:00 PM 1B-201</p>
-                    <Card.Text className="font-ubuntu" style={styles.text}>
-                        lorem lorem lorem lorem
-                        lorem lorem lorem lorem
-                        lorem lorem lorem lorem
-                        lorem lorem lorem lorem
+	return (
+		<div>
+			<Card className="newsCard">
+				<Card.Body>
+					<Card.Title style={styles.title} className="font-acme">
+						<Link to={"/outreach/news/" + index}>Talk</Link>
+					</Card.Title>
+					<p className="text-muted font-ubuntu">27-12-12</p>
+					<p className="text-muted font-ubuntu">1:00 PM 1B-201</p>
+					<Card.Text className="font-ubuntu" style={styles.text}>
+						lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+						lorem lorem lorem lorem
 					</Card.Text>
-                </Card.Body>
-            </Card>
-        </div>
-    );
+				</Card.Body>
+			</Card>
+		</div>
+	);
 }
 
 const styles = {
-    title: {
-        fontWeight: "bolder",
-        borderBottom: "2px solid #e2e2e2 ",
-    },
-    text: {
-        marginTop: "10%",
-
-    },
-    btn: {
-        fontSize: "25px",
-    },
+	title: {
+		fontWeight: "bolder",
+		borderBottom: "2px solid #e2e2e2 ",
+	},
+	text: {
+		marginTop: "10%",
+	},
+	btn: {
+		fontSize: "25px",
+	},
 };

@@ -1,23 +1,33 @@
-.news {
-	/* width: max(400px, 48%) !important; */
-	background-color: #e5e5e5;
-	/* padding: 40px 20px; */
-}
-
 .news .card {
 	margin: auto;
-	/* overflow-y: auto; */
 	font-family: "Lora", serif;
 	border-radius: 0px;
-	/* flex-direction: row; */
 	width: 100%;
 	border: none;
-	background-color: #e5e5e5;
-	margin-bottom: 40px;
+	background-color: lavender;
 }
 
-.NAT .owl-prev,.owl-next{
-	background-color: rgb(208 208 208 / 60%) !important;
+.news .owl-nav {
+	display: none;
+}
+
+.news .owl-carousel:hover .owl-nav {
+	display: initial;
+}
+
+.news .disabled,
+.news .owl-carousel:hover .disabled {
+	display: none;
+}
+
+.NAT .owl-prev,
+.owl-next {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.NAT .owl-prev:hover,
+.owl-next:hover {
+	background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .news .card-img,
@@ -26,16 +36,17 @@
 	border-top-right-radius: 0px !important;
 }
 
-.news .card-img-top {
-	/* padding-right: 10px;
-	min-height: 118px;
-	min-width: 220px;
-	width: 220px; */
+.news1 .owl-item {
+	height: 400px;
 }
 
-/* .news .card:hover {
-	box-shadow: 0px 0px 10px;
-} */
+.owl-item > div {
+	height: 100%;
+}
+
+.newsCard {
+	height: 100%;
+}
 
 .news .owl-stage {
 	margin: 2% 0px;
@@ -50,9 +61,7 @@
 	animation-name: zoomin;
 	animation-duration: 0.5s;
 	animation-fill-mode: forwards;
-	/* The element will retain the style values that is set by the last keyframe */
 	animation-iteration-count: 1;
-	/* can be set to `infinite` too */
 	animation-timing-function: ease-in;
 }
 
@@ -63,6 +72,11 @@
 	100% {
 		transform: scale(1.1);
 	}
+}
+
+.news1 .newsCard:hover {
+	box-shadow: 1 21 0px 6px #aaa;
+	box-shadow: 1px 1px 14px;
 }
 
 .news .card-body {
@@ -76,8 +90,6 @@
 }
 
 .news .img-holder {
-	/* height: 118px; */
-	/* min-width: 220px; */
 	overflow: hidden;
 }
 

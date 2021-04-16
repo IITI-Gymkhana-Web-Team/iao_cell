@@ -32,15 +32,12 @@ import { LifeIITI } from "./components/LifeIITI/LifeIITI";
 import ReachUs from "./pages/Contactpage/ReachUs";
 import { Grants } from "./components/Grants/Grants";
 import { Publications } from "./components/Publications/Publications";
-import { Carouselnews } from "./components/carousel-news/carouselnews";
-import { Announcetalk } from "./components/Announctalk/Announcetalk";
-import { NAT } from "./components/NAT/NAT";
+import { Ghouse } from "./components/Ghouse/Ghouse";
 
 export const Home = () => {
 	return (
 		<Router>
 			<ScrollToTop />
-
 
 			<Title />
 			<div className="mainNav">
@@ -82,6 +79,7 @@ export const Home = () => {
 					<Route path="/Aboutiiti" exact component={AboutIITI} />
 					<Route path="/Aboutioa" exact component={AboutIOA} />
 					<Route path="/LifeIITI" exact component={LifeIITI} />
+					<Route path="/guestHouse" exact component={Ghouse} />
 					<Route path="/ProsStud/visa" exact component={Visa} />
 					<Route path="/ProsStud/places" exact component={Places} />
 					<Route path="/ProsStud/admission" exact component={Admission} />

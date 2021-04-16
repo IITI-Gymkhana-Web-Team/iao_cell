@@ -1,11 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
 .messageBox {
-	background-color: #023047 !important;
+	background-color: #f6f6f6 !important;
 	padding: 0 !important;
 	display: flex;
 	flex-direction: column;
 	background-color: transparent;
 	align-items: center;
 	justify-content: center;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.messageBox h1 {
+	font-family: "Roboto";
+}
+
+.messageBox h1,
+.messageBox h3 {
+	display: inline;
 }
 
 .messageBox .card {
@@ -19,22 +31,43 @@
 
 .messageBox .card-body {
 	background-color: transparent;
+	padding: 0;
+}
+
+.messageBox img {
+	margin: 10px;
+	padding: 0;
+	width: min(70vw, 300px);
+	float: right;
 }
 
 @media only screen and (max-width: 1000px) {
 	.messageBox .card {
-		flex-direction: column;
+		flex-direction: column-reverse;
+	}
+	.messageBox img {
+		margin: 10px auto;
+		float: none;
+	}
+	.messageBox {
+		text-align: center;
+	}
+	.messageBox h1,
+	.messageBox h3 {
+		display: block;
+	}
+	.brtag {
+		display: none;
 	}
 }
 
 .messageBox .bg-light {
-	color: white;
+	color: black;
 	background-color: transparent !important;
 }
 
 .messageBy {
-	color: #fffb00;
-	font-size: 1.3rem;
+	color: #3668dd;
 }
 .img{
 	border-width: 10px;
