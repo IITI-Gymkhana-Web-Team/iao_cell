@@ -124,6 +124,23 @@ export const Admission = () => {
 					For more information, <Link to="/int/students">Click here</Link>
 				</p>
 			</section>
+			<section>
+				<h3 className="font-acme">Other Important Links</h3>
+				<p>
+					<a href="http://asean-iit.in/" target="_blank">
+						http://asean-iit.in/
+					</a>
+					<br />
+					<a href="http://studyinindia.gov.in/" target="_blank">
+						http://studyinindia.gov.in/
+					</a>
+					<br />
+					<a href="http://iccr.gov.in/" target="_blank">
+						http://iccr.gov.in/
+					</a>
+					<br />
+				</p>
+			</section>
 		</article>
 	);
 };
