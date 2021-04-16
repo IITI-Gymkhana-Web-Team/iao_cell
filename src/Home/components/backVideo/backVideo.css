@@ -1,4 +1,3 @@
-
 .video-container {
   position: relative;
   overflow: hidden;
@@ -10,31 +9,62 @@ video {
   height: 100vh;
   vertical-align: middle;
   width: auto;
-  
 }
 
 .content {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.content p {
+
+.Rankings {
+  color: #fff;
+}
+.cardBox {
+  height: 200px;
+  border: none;
+  background-color: unset;
   color: white;
-  font-family: 'Nobile', sans-serif;
+  font-family: "Nobile", sans-serif;
   font-size: 9vw;
   text-decoration: solid;
   text-align: center;
 }
 
+.circle {
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 5px solid rgb(42, 39, 185);
+  color: #000;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+.rankText {
+  font-size: 1.3rem;
+}
+.rankCard {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-@media only screen and (min-width: 1024px)  {
-	video {
-    height: auto;
+@media only screen and (min-width: 1024px) {
+  video {
+    height: 100%;
     vertical-align: middle;
     width: 100vw;
-    
   }
 }
