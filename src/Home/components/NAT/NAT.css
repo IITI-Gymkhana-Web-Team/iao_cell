@@ -1,19 +1,10 @@
-.news {
-	/* width: max(400px, 48%) !important; */
-	background-color: #e5e5e5;
-	/* padding: 40px 20px; */
-}
-
 .news .card {
 	margin: auto;
-	/* overflow-y: auto; */
 	font-family: "Lora", serif;
 	border-radius: 0px;
-	/* flex-direction: row; */
 	width: 100%;
 	border: none;
 	background-color: lavender;
-	margin-bottom: 40px;
 }
 
 .news .owl-nav {
@@ -45,16 +36,17 @@
 	border-top-right-radius: 0px !important;
 }
 
-/* .news .card-img-top {
-	padding-right: 10px;
-	min-height: 118px;
-	min-width: 220px;
-	width: 220px;
-} */
+.news1 .owl-item {
+	height: 400px;
+}
 
-/* .news .card:hover {
-	box-shadow: 0px 0px 10px;
-} */
+.owl-item > div {
+	height: 100%;
+}
+
+.newsCard {
+	height: 100%;
+}
 
 .news .owl-stage {
 	margin: 2% 0px;
@@ -69,9 +61,7 @@
 	animation-name: zoomin;
 	animation-duration: 0.5s;
 	animation-fill-mode: forwards;
-	/* The element will retain the style values that is set by the last keyframe */
 	animation-iteration-count: 1;
-	/* can be set to `infinite` too */
 	animation-timing-function: ease-in;
 }
 
@@ -100,8 +90,6 @@
 }
 
 .news .img-holder {
-	/* height: 118px; */
-	/* min-width: 220px; */
 	overflow: hidden;
 }
 

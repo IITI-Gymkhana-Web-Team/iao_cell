@@ -16,14 +16,14 @@ export const NAT = () => {
 	let text =
 		"Some quick example text to build on the card title and make up the bulk of the card's content.";
 	return (
-		<div class="container bg-light NAT">
-			<div class="row">
-				<div class="col-smm-12 col-lg-8">
-					<div class="news container bg-light">
-						<div class="container-fluid">
+		<div className="container-fluid NAT mt-5 mb-5 pt-5 pb-5">
+			<div className="row">
+				<div className="col-smm-12 col-lg-8">
+					<div className="news container h-100">
+						<div className="container-fluid">
 							<h2 className="pt-5 mainTitle">News</h2>
 						</div>
-						<div class="container-fluid news1" style={{ maxWidth: "1140px" }}>
+						<div className="container-fluid news1" style={{ maxWidth: "1140px" }}>
 							<OwlCarousel
 								className="owl-theme"
 								loop
@@ -35,10 +35,10 @@ export const NAT = () => {
 										items: 1,
 									},
 									760: {
-										items: 2,
+										items: 3,
 									},
 									1000: {
-										items: 3,
+										items: 4,
 									},
 								}}
 								autoplay={true}
@@ -51,11 +51,11 @@ export const NAT = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-lg-4">
-					<div class="news container bg-light mt-5">
+				<div className="col-sm-12 col-lg-4">
+					<div className="news container pt-5">
 						<div>
 							<div style={{ margin: "auto", maxWidth: "400px" }}>
-								<h3 class="mainTitle">Announcements</h3>
+								<h3 className="mainTitle">Announcements</h3>
 								<OwlCarousel
 									className="owl-theme"
 									loop
@@ -95,7 +95,7 @@ export const NAT = () => {
 							</div>
 
 							<div style={{ margin: "auto", maxWidth: "400px" }}>
-								<h3 class="mainTitle">Talks</h3>
+								<h3 className="mainTitle">Talks</h3>
 								<OwlCarousel
 									className="owl-theme"
 									loop
