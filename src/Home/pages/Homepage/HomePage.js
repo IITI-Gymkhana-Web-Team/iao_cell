@@ -1,7 +1,8 @@
 import React from "react";
 // import { Title } from "./components/Title/Title";
 // import { NavBar } from "./components/NavBar/NavBar";
-import { Carousell } from "../../components/Carousell/Carousell";
+import { BackVideo } from "../../components/backVideo/backVideo";
+// import { Carousell } from "../../components/Carousell/Carousell";
 import { AboutUs } from "../../components/AboutUs/AboutUs";
 // import { News } from "../../components/News/News";
 import { Events } from "../../components/Events/Events";
@@ -15,9 +16,12 @@ import { NAT } from "../../components/NAT/NAT";
 export const HomePage = () => {
 	return (
 		<div className="home">
-			<div className="abc">
-				<Carousell />
+			<div>
+				<BackVideo />
 			</div>
+			{/* <div className="abc">
+				<Carousell />
+			</div> */}
 			<div className="container-fluid">
 				<AboutUs />
 				<Message />
