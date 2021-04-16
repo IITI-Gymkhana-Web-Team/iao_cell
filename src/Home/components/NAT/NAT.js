@@ -21,7 +21,7 @@ export const NAT = () => {
 				<div className="col-smm-12 col-lg-8">
 					<div className="news container h-100">
 						<div className="container-fluid">
-							<h2 className="pt-5 mainTitle">News</h2>
+							<h2 className="pt-5 mainTitle">News & Events</h2>
 						</div>
 						<div className="container-fluid news1" style={{ maxWidth: "1140px" }}>
 							<OwlCarousel
@@ -29,7 +29,7 @@ export const NAT = () => {
 								loop
 								nav={true}
 								margin={8}
-								dots={false}
+								dots={true}
 								responsive={{
 									0: {
 										items: 1,
@@ -99,9 +99,9 @@ export const NAT = () => {
 								<OwlCarousel
 									className="owl-theme"
 									loop
-									nav={true}
+									nav={false}
 									margin={8}
-									dots={false}
+									dots={true}
 									responsive={{
 										0: {
 											items: 1,
