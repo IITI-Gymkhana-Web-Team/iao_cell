@@ -159,7 +159,12 @@ import ruchi from "./ruchi.webp";
 import nirmala from "./nirmala.webp";
 import prashant from "./PrashantKodgire.webp";
 import debasis from "./Dr.DebasisNayak.webp";
+import nsd2020 from "./nsd2020.webp";
+import chem_talks_news from "./chem_talks_news.webp";
+
 export {
+	nsd2020,
+	chem_talks_news,
 	ramanujan,
 	ajoy,
 	amit,

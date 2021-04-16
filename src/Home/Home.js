@@ -32,11 +32,16 @@ import { LifeIITI } from "./components/LifeIITI/LifeIITI";
 import ReachUs from "./pages/Contactpage/ReachUs";
 import { Grants } from "./components/Grants/Grants";
 import { Publications } from "./components/Publications/Publications";
+import { Carouselnews } from "./components/carousel-news/carouselnews";
+import { Announcetalk } from "./components/Announctalk/Announcetalk";
+import { NAT } from "./components/NAT/NAT";
 
 export const Home = () => {
 	return (
 		<Router>
 			<ScrollToTop />
+
+
 			<Title />
 			<div className="mainNav">
 				<Nav />

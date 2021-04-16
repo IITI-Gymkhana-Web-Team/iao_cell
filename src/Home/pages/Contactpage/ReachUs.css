@@ -9,6 +9,7 @@
 .reachUsMap {
 	border: 1px solid #aaa;
 	border-radius: 10px;
+	background: url("../../../assets/giphy.gif") center center no-repeat;
 }
 
 .reachUs .card2 {
@@ -61,7 +62,11 @@
 	height: 270px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1205px) {
+	.reachUs .part1 {
+		justify-content: center;
+		align-items: center;
+	}
 	.reachUs {
 		text-align: center;
 	}

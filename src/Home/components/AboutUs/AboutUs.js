@@ -46,7 +46,7 @@ export const AboutUs = () => {
 								className={"aboutCardIcon " + (zoom2 ? "iczin" : "iczout")}
 							/>
 						</div>
-						<h3 className="font-acme mt-4">About IOA</h3>
+						<h3 className="font-acme mt-4">About Us</h3>
 						<div className="aboutUnderline"></div>
 						<p className="font-ubuntu mt-3">
 							Cupidatat ea nulla Lorem consectetur laboris adipisicing occaecat qui
