@@ -37,7 +37,7 @@ export const BackVideo = () => {
 											<GrStar color="#ffd700" />
 											<GrStar color="#ffd700" />
 										</Card.Title>
-										<Card.Text className="rankText">{value.Heading}</Card.Text>
+										<Card.Text className="rankText text-center">{value.Heading}</Card.Text>
 									</Card.Body>
 								</Card>
 							</Col>
