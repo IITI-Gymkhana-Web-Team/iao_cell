@@ -69,3 +69,9 @@
 .messageBy {
 	color: #3668dd;
 }
+.img{
+	border-width: 10px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, rgba(250, 117, 29, 0.3),#e7d31d);
+}
