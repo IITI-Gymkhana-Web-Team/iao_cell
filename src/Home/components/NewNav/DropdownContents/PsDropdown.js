@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const PsDropdown = () => {
 	return (
-		<div style={{ width: "25rem" }}>
+		<div style={{ width: "30rem" }}>
 			<DropdownSection data-first-dropdown-section noMarginBottom>
 				<h3 className="mt-1 ml-3" style={{ color: "#6772e5" }}>
 					INBOUND
@@ -14,29 +14,37 @@ const PsDropdown = () => {
 						<HeadingLink>
 							<Icon /> Faculty
 						</HeadingLink>
-						<li>
-							<Link to="/ProsFaculty/visa">Visa Process</Link>
-						</li>
-						<li>
-							<Link to="/ProsFaculty/places">Places to visit</Link>
-						</li>
+						<div className="d-flex mobDropdown">
+							<DropdownSection>
+								<li>
+									<Link to="/ProsFaculty/visa">Visa Process</Link>
+								</li>
+								<li>
+									<Link to="/ProsFaculty/places">Places to visit</Link>
+								</li>
+							</DropdownSection>
+						</div>
 					</DropdownSection>
 					<DropdownSection>
 						<HeadingLink>
 							<Icon /> Student
 						</HeadingLink>
-						<li>
-							<Link to="/ProsStud/admission">Admission</Link>
-						</li>
-						<li>
-							<Link to="/ProsStud/programs">Programs</Link>
-						</li>
-						<li>
-							<Link to="/ProsStud/visa">Visa Process</Link>
-						</li>
-						<li>
-							<Link to="/ProsStud/places">Places to visit</Link>
-						</li>
+						<div className="d-flex mobDropdown">
+							<DropdownSection>
+								<li>
+									<Link to="/ProsStud/admission">Admission</Link>
+								</li>
+								<li>
+									<Link to="/ProsStud/programs">Programs</Link>
+								</li>
+								<li>
+									<Link to="/ProsStud/visa">Visa Process</Link>
+								</li>
+								<li>
+									<Link to="/ProsStud/places">Places to visit</Link>
+								</li>
+							</DropdownSection>
+						</div>
 					</DropdownSection>
 				</div>
 			</DropdownSection>
