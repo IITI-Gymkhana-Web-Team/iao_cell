@@ -14,10 +14,9 @@ export const Newscard = ({ img, title, description, location, eta, reverse }) =>
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>
-                        <h5><a href={location} target="_blank" ><FiMapPin/>&nbsp;Open In Google Maps</a></h5>
+                        <h5><a href={location} target="_blank" ><FiMapPin />&nbsp;Open In Google Maps</a></h5>
                     </div>
                     <div className="mb-3 ml-3" >
-                        <span style={{ marginRight: '10px' }} ><FaBicycle size={32} /> {eta.bicycle}</span>
                         <span><AiFillCar size={32} /> {eta.bicycle}</span>
                     </div>
                 </div>

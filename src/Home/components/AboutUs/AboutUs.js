@@ -37,7 +37,7 @@ export const AboutUs = () => {
 						</Link>
 					</div>
 				</ScrollAnimation>
-				<ScrollAnimation animateIn="slideInLeft" className="mb-5">
+				<ScrollAnimation animateIn="slideInLeft" className="mb-5" animateOnce="true">
 					<div
 						className="aboutCard"
 						onMouseEnter={() => setZoom2(true)}
@@ -60,7 +60,7 @@ export const AboutUs = () => {
 						</Link>
 					</div>
 				</ScrollAnimation>
-				<ScrollAnimation animateIn="slideInLeft" className="mb-5">
+				<ScrollAnimation animateIn="slideInLeft" className="mb-5" animateOnce="true">
 					<div
 						className="aboutCard"
 						onMouseEnter={() => setZoom3(true)}

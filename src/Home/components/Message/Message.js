@@ -11,7 +11,7 @@ export default function Message() {
 					<div className="container-fluid p-3">
 						<img src={neelesh} className="img-thumbnail" alt="img-responsive" />
 						<div>
-							<h1 style={{ borderBottom: '3px solid gold' }}>Message from our Director</h1>
+							<h1>Message from our Director</h1>
 						</div>
 						<br className="brtag" />
 						<h3 className="font-acme messageBy">Prof. Neelesh Kumar Jain</h3>
@@ -33,7 +33,7 @@ export default function Message() {
 					<div className="container-fluid p-3">
 						<img src={av2} className="img-thumbnail" alt="img-responsive" />
 						<div>
-							<h1 style={{ borderBottom: '3px solid gold' }} >Message from our Dean</h1>
+							<h1 >Message from our Dean</h1>
 						</div>
 						<br className="brtag" />
 						<h3 className="font-acme messageBy">Dr. Avinash Sonawane</h3>
