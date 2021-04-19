@@ -11,8 +11,7 @@ const OpportunitiesDropdown = () => {
 					<DropdownSection data-first-dropdown-section noMarginBottom>
 						<h3
 							className="mt-1 ml-3 mb-0"
-							style={{ color: "#6772e5" }}
-						>
+							style={{ color: "#6772e5" }}>
 							Students
 						</h3>
 						<div className="d-flex outDropdown">
@@ -24,7 +23,11 @@ const OpportunitiesDropdown = () => {
 								<HeadingLink>
 									<Icon />
 									<Link to="/opportunities/pg_phd_post_doc">
-										PG/PhD/Post Doc
+										<span
+											className="special"
+											style={{ textTransform: "none" }}>
+											PG / Ph.D. / Post-Doc
+										</span>
 									</Link>
 								</HeadingLink>
 								<HeadingLink>
@@ -39,8 +42,7 @@ const OpportunitiesDropdown = () => {
 					<DropdownSection>
 						<h3
 							className="mt-1 ml-3 mb-0"
-							style={{ color: "#6772e5" }}
-						>
+							style={{ color: "#6772e5" }}>
 							Faculties
 						</h3>
 						<div className="d-flex outDropdown">

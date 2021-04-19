@@ -175,7 +175,7 @@ export const MobileMenu = ({ show, setShow }) => {
 					innerLinks: [
 						{ name: "Internships", link: "#", level: "3" },
 						{
-							name: "PG/PhD/Post Doc",
+							name: "PG / Ph.D. / Post-Doc",
 							link: "/opportunities/pg_phd_post_doc",
 							level: "3",
 						},
@@ -205,16 +205,19 @@ export const MobileMenu = ({ show, setShow }) => {
 							innerLinks: [
 								{
 									name: "Alexander von Humboldt Foundation",
-									link: "https://www.humboldt-foundation.de/en/",
+									link:
+										"https://www.humboldt-foundation.de/en/",
 									level: "4",
 								},
 								{
 									name: "DAAD",
-									link: "https://www.daad.in/en/study-research-in-germany/",
+									link:
+										"https://www.daad.in/en/study-research-in-germany/",
 									level: "4",
 								},
 								{
-									name: "Indo-German Science & Technology Center",
+									name:
+										"Indo-German Science & Technology Center",
 									link: "https://www.igstc.org/",
 									level: "4",
 								},
@@ -319,7 +322,8 @@ export const MobileMenu = ({ show, setShow }) => {
 				},
 				{
 					name: "Smart card facility",
-					link: "http://people.iiti.ac.in/~smartcard/CampusCards.html",
+					link:
+						"http://people.iiti.ac.in/~smartcard/CampusCards.html",
 					level: "2",
 				},
 				{
@@ -344,16 +348,25 @@ export const MobileMenu = ({ show, setShow }) => {
 	]);
 
 	return (
-		<div className="mobileMenuOuter" style={show ? { display: "" } : { display: "none" }}>
+		<div
+			className="mobileMenuOuter"
+			style={show ? { display: "" } : { display: "none" }}>
 			<div className="mobileMenu">
 				<div className="mmenuP1">
 					<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
-					<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
+					<AiOutlineCloseCircle
+						className="closeIcon"
+						onClick={() => setShow(false)}
+					/>
 				</div>
 				{links.map((link1) => {
 					return (
 						<div className="indiMenu" key={link1.name}>
-							<MobileMenuLinks link1={link1} setShow2={setShow} show2={show} />
+							<MobileMenuLinks
+								link1={link1}
+								setShow2={setShow}
+								show2={show}
+							/>
 						</div>
 					);
 				})}
