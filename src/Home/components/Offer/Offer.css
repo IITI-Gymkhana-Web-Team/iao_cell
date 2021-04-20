@@ -1,4 +1,15 @@
 
+.OfferCar .off:hover {
+	animation-name: zoomin;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	/* The element will retain the style values that is set by the last keyframe */
+	animation-iteration-count: 1;
+	/* can be set to `infinite` too */
+	animation-timing-function: ease-in;
+	box-shadow: 2rem;
+}
+
 @keyframes zoomin {
 	0% {
 		transform: scale(1);
@@ -10,23 +21,30 @@
 
 
 .OfferCar .off .card-img-top{
-	height: 350px;
+	height: 250px;
+	overflow: hidden;
 }
 
 .OfferCar .off {
-	height: 550px;
+	height: 400px;
+	font-family: "Roboto";
 }
-.OfferCar .off h5 {
+
+.OfferCar .owl-stage {
+	margin: 2% 0px;
+}
+.OfferCar .off h6 {
 	color: crimson;
 }
 
-.OfferCar .off:hover  {
-	animation-name: zoomin;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
-	/* The element will retain the style values that is set by the last keyframe */
-	animation-iteration-count: 1;
-	/* can be set to `infinite` too */
-	animation-timing-function: ease-in;
-    box-shadow: 0px 2px 0px 2px #6772e5;
+@media only screen and (max-width: 600px) {
+
+	.OfferCar .off h6 {
+		color: crimson;
+		font-size: large;
+	}
+
+	.OfferCar .off p {
+		font-size: small;
+	}
 }
