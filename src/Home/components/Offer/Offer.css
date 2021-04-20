@@ -1,7 +1,4 @@
-hr{
-    color: #6772e5;
-    width: 20vw;
-}
+
 @keyframes zoomin {
 	0% {
 		transform: scale(1);
@@ -9,6 +6,18 @@ hr{
 	100% {
 		transform: scale(1.1);
 	}
+}
+
+
+.OfferCar .off .card-img-top{
+	height: 350px;
+}
+
+.OfferCar .off {
+	height: 550px;
+}
+.OfferCar .off h5 {
+	color: crimson;
 }
 
 .OfferCar .off:hover  {

@@ -161,8 +161,25 @@ import prashant from "./PrashantKodgire.webp";
 import debasis from "./Dr.DebasisNayak.webp";
 import nsd2020 from "./nsd2020.webp";
 import chem_talks_news from "./chem_talks_news.webp";
-
+import elec from "./elec.webp";
+import mech from "./mech.webp";
+import material from "./material.webp";
+import computer from "./computer.webp";
+import phy from "./phy.webp";
+import bio from "./bio.webp";
+import space from "./space.webp";
+import civil from "./civil.webp";
+import philosophy from "./philosophy.webp";
 export {
+	computer,
+	phy,
+	bio,
+	space,
+	civil,
+	philosophy,
+	material,
+	mech,
+	elec,
 	nsd2020,
 	chem_talks_news,
 	ramanujan,

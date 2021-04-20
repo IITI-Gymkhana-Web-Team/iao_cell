@@ -2,22 +2,20 @@ import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Offer.css";
-import {  grp2, grp3 } from "../../../assets";
+import {  computer,phy,bio,space,civil,philosophy,material,mech, elec,} from "../../../assets";
 
 
 export const Offer = () => {
 
-const [images] = useState([{ img: grp2, head: "Electrical Sciences", text:"electrica"},
-                            { img: grp2, head: "Mechanical Sciences", text:"electrica"},
-                            { img: grp2, head: "Material Sciences", text:"electrica"},
-                            { img: grp2, head: "Computer Sciences", text:"electrica"},
-                            { img: grp2, head: "Natural Sciences", text:"electrica"},
-                            { img: grp2, head: "Life Sciences", text:"electrica"},
-                            { img: grp2, head: "Earth Sciences", text:"electrica"},
-                            { img: grp2, head: "Energy", text:"electrica"},
-                            { img: grp2, head: "Infrastructure", text:"electrica"},
-                            { img: grp2, head: "HSS", text:"electrica"},
-                            { img: grp2, head: "Interdisciplinary", text:"electrica"},
+const [images] = useState([{ img: elec, head: "Electrical Sciences", text: [{item : "Electrical engineering"} , {item : " Communication & Signal Processing"}, {item : " VLSI Design & nanoelectronics"}]},
+                            { img: mech, head: "Mechanical Sciences", text: [{item : "Mechanical engineering"} , {item : " Production & Industrial engineering"}, {item : " Mechanical systems design"}]},
+                            { img: material, head: "Material Sciences", text: [{item : "Metallurgy & Material Sciences"} , {item : " Material Sciences & engineering"}, {item : "Specialization in  Metallurgy"}]},
+                            { img: computer, head: "Computer Sciences", text: [{item : "Computer Science & Engineering"}]},
+                            { img: phy, head: "Natural Sciences",text : [{item : "Chemistry"} , {item : "Physics"}, {item : "Mathematics"}]},
+                            { img: bio, head: "Life Sciences", text: [{item : "Bio-Sciences & Bio-medical Engineering"} , {item : "Biotechnology"}]},
+                            { img: space, head: "Space Sciences", text: [{item : "Astronomy"} , {item : "Astrophysics & Space Engineering"}]},
+                            { img: civil, head: "Infrastructure", text: [{item : "Civil Engineering"}]},
+                            { img: philosophy, head: "HSS", text: [{item : "English"} , {item : "Philosophy"}, {item : "Economics"},{item : "Psychology"},{item : "Sociology"}]}
                             ]);
 const responsive = {
     superLargeDesktop: {
@@ -61,7 +59,11 @@ return (
                                 <img className="card-img-top" src={img.img} alt="Card image cap"/>
                                 <div className="card-body">
                                     <h5 className="card-title text-uppercase">{img.head}</h5>
-                                    <p className="card-text">{img.text}</p>
+                                    {
+                                      img.text.map((item,i) => {
+                                        return (<p className="card-text py-0 my-0" key={i}>{item.item}</p>);
+                                      })
+                                    }
                                 </div>
                             </div>
                         );
