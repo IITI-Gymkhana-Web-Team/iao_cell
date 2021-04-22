@@ -9,9 +9,11 @@ import Announceutil from "../../reusables/Announceutil";
 import Newsutil from "../../reusables/Newsutil";
 import Talkutil from "../../reusables/Talkutil";
 import { data } from "../NewsPage/data";
+import { data as data1 } from "../EventsPage/data";
 
 export const NAT = () => {
-	const news = data;
+	const news = data.slice(0, 4);
+	const events = data1;
 	let title = "Coronavirus Lockdown";
 	let text =
 		"Some quick example text to build on the card title and make up the bulk of the card's content.";
@@ -27,7 +29,7 @@ export const NAT = () => {
 							<OwlCarousel
 								className="owl-theme"
 								loop
-								nav={true}
+								nav={false}
 								margin={8}
 								dots={true}
 								responsive={{
@@ -38,7 +40,7 @@ export const NAT = () => {
 										items: 3,
 									},
 									1000: {
-										items: 4,
+										items: 3,
 									},
 								}}
 								autoplay={true}
@@ -46,6 +48,9 @@ export const NAT = () => {
 							>
 								{news.map((News, i) => {
 									return <Newsutil News={News} key={i} index={i} />;
+								})}
+								{events.map((event, i) => {
+									return <Newsutil News={event} key={i} index={i} />;
 								})}
 							</OwlCarousel>
 						</div>
@@ -95,7 +100,7 @@ export const NAT = () => {
 							</div>
 
 							<div style={{ margin: "auto", maxWidth: "400px" }}>
-								<h3 className="mainTitle">Talks</h3>
+								<h3 className="mainTitle mt-3">Talks</h3>
 								<OwlCarousel
 									className="owl-theme"
 									loop

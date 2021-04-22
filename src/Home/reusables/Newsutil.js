@@ -11,13 +11,16 @@ export default function ({ News, index }) {
 			<Card className="newsCard">
 				<Link to={"/outreach/news/" + index}>
 					<div className="img-holder">
-						<Card.Img variant="top" src={News.image} style={{ minHeight: "150px" }} />
+						<Card.Img
+							variant="top"
+							src={News.image || News.img}
+							style={{ minHeight: "150px" }}
+						/>
 					</div>
 					<Card.Body>
 						<Card.Title style={styles.title} className="font-acme">
 							{News.title}
 						</Card.Title>
-						{/* <p className="text-muted font-ubuntu">27-10-10</p> */}
 						<Card.Text className="font-ubuntu" style={styles.text}>
 							lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
 							lorem lorem lorem lorem

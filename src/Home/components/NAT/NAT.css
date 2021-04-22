@@ -7,7 +7,7 @@
 	background-color: lavender;
 }
 
-.news .owl-nav {
+/* .news .owl-nav {
 	display: none;
 }
 
@@ -18,7 +18,7 @@
 .news .disabled,
 .news .owl-carousel:hover .disabled {
 	display: none;
-}
+} */
 
 .NAT .owl-prev,
 .owl-next {
@@ -91,6 +91,12 @@
 
 .news .img-holder {
 	overflow: hidden;
+	max-height: 170px;
+	height: 170px;
+}
+
+.news .img-holder img {
+	height: 100%;
 }
 
 .moreStuff {

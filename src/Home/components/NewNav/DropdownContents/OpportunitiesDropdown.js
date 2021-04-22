@@ -20,7 +20,11 @@ const OpportunitiesDropdown = () => {
 								</HeadingLink>
 								<HeadingLink>
 									<Icon />
-									<Link to="/opportunities/pg_phd_post_doc">PG/PhD/Post Doc</Link>
+									<Link to="/opportunities/pg_phd_post_doc">
+										<span className="special" style={{ textTransform: "none" }}>
+											PG / Ph.D. / Post-Doc
+										</span>
+									</Link>
 								</HeadingLink>
 								<HeadingLink>
 									<Icon />
