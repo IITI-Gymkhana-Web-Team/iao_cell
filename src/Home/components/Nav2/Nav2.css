@@ -1,0 +1,37 @@
+:root {
+	--pcol: var(--blue);
+	--scol: white;
+	--tspeed: 0.5s;
+	--base-scale: 1.1;
+	--subMenu-width: 13rem;
+
+	--fgrad: #046092;
+	--sgrad: #046092;
+
+	--rm-font-size: 1rem;
+	--sm-font-size: 1rem;
+}
+
+.mainNav > div {
+	box-shadow: none !important;
+	justify-content: space-evenly !important;
+}
+
+.mainNav > div > div:first-child {
+	display: none;
+}
+
+.mainNav > div > div:nth-child(2) {
+	width: 100%;
+}
+
+.mainNav > div > div:nth-child(2) > ul {
+	width: 100%;
+	justify-content: space-evenly !important;
+}
+
+@media only screen and (max-width: 1350px) {
+	.mainNav {
+		display: none !important;
+	}
+}

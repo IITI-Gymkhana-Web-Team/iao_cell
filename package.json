@@ -27,6 +27,7 @@
     "react-scripts": "4.0.2",
     "react-svg-worldmap": "^1.0.44",
     "react-zoom-pan-pinch": "^1.6.1",
+    "reactjs-navbar": "^1.0.2",
     "styled-components": "4.3.2",
     "web-vitals": "^1.1.0"
   },
