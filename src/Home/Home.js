@@ -34,6 +34,7 @@ import { Grants } from "./components/Grants/Grants";
 import { Publications } from "./components/Publications/Publications";
 import { Ghouse } from "./components/Ghouse/Ghouse";
 import { Nav2 } from "./components/Nav2/Nav2";
+import { Btech } from "./components/Btech/Btech";
 
 export const Home = () => {
 	return (
@@ -89,6 +90,7 @@ export const Home = () => {
 					<Route path="/ProsFaculty/visa" exact component={Visa} />
 					<Route path="/ProsFaculty/places" exact component={Places} />
 					<Route path="/opportunities/pg_phd_post_doc" exact component={Pg_Phd} />
+					<Route path="/opportunities/btech" exact component={Btech} />
 					<Route path="/opportunities/scholarship" exact component={Scholarship} />
 					<Route path="/outreach/news" exact component={NewsPage} />
 					<Route path="/outreach/news/:id" exact component={IndiNews} />

@@ -246,6 +246,13 @@ export const Nav2 = () => {
 									},
 								},
 								{
+									title: "B.Tech",
+									isAuth: true,
+									onClick: () => {
+										history.push("/opportunities/btech");
+									},
+								},
+								{
 									title: "Scholarships",
 									isAuth: true,
 									onClick: () => {
