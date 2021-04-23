@@ -15,6 +15,11 @@
 .mainNav > div {
 	box-shadow: none !important;
 	justify-content: space-evenly !important;
+	padding: 0 !important;
+}
+
+.mainNav li {
+	margin: 5px 0 !important;
 }
 
 .mainNav > div > div:first-child {
