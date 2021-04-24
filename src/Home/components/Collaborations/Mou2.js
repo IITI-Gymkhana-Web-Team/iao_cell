@@ -90,7 +90,7 @@ export const Mou2 = ({ name }) => {
 								reg["Coordinating faculty member"]
 									.toLowerCase()
 									.indexOf(faculty.toLowerCase()) != -1) && (
-								<tr key={index} style={{ whiteSpace: "pre-wrap" }}>
+								<tr key={index}>
 									<td>{index + 1}</td>
 									<td>{reg["Institutions/Organization/Country"]}</td>
 									<td>{reg["Nature"]}</td>

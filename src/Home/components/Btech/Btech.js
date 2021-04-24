@@ -20,20 +20,12 @@ export const Btech = () => {
 					{data.map((item, index) => {
 						return (
 							<tr key={index}>
-								<td style={{ whiteSpace: "pre-wrap" }}>{index + 1}</td>
-								<td style={{ whiteSpace: "pre-wrap" }}>
-									{item["Type of Program"] || "-"}
-								</td>
-								<td style={{ whiteSpace: "pre-wrap" }}>
-									{item["Name of Program"] || "-"}
-								</td>
-								<td style={{ whiteSpace: "pre-wrap" }}>
-									{item["Offered by"] || "-"}
-								</td>
-								<td style={{ whiteSpace: "pre-wrap" }}>
-									{item["Deadline"] || "-"}
-								</td>
-								<td style={{ whiteSpace: "pre-wrap", textAlign: "center" }}>
+								<td>{index + 1}</td>
+								<td>{item["Type of Program"] || "-"}</td>
+								<td>{item["Name of Program"] || "-"}</td>
+								<td>{item["Offered by"] || "-"}</td>
+								<td>{item["Deadline"] || "-"}</td>
+								<td style={{ textAlign: "center" }}>
 									<a href={item["Link"] || "#"}>
 										<FiLink></FiLink>
 									</a>
