@@ -10,7 +10,7 @@ export const News = () => {
 	return (
 		<div className="news">
 			<div>
-				<h1 className="pr-5 pb-3 mainTitle">News</h1>
+				<h1 className="pr-5 pb-3 mainTitle">News & Events</h1>
 			</div>
 			<div>
 				{news.map((News, i) => {

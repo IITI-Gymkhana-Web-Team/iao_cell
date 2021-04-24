@@ -75,3 +75,20 @@
   border-image-slice: 1;
   border-image-source: linear-gradient(to left, rgba(250, 117, 29, 0.3),#e7d31d);
 }
+
+@keyframes example {
+	from {
+	opacity: 0;
+	/* position: relative;
+	right:100%; */
+	}
+	to {
+	opacity: 1;
+	/* position: static; */
+}
+}
+
+.messageBox{
+	animation-name: example;
+	animation-duration: 2s;
+}

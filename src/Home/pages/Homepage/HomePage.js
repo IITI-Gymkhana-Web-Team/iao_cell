@@ -13,6 +13,7 @@ import Message from "../../components/Message/Message";
 import "./Home.css";
 import { NAT } from "../../components/NAT/NAT";
 import Counter from "../../components/Counter/Counter";
+import { Offer } from "../../components/Offer/Offer";
 
 export const HomePage = () => {
 	return (
@@ -31,8 +32,10 @@ export const HomePage = () => {
 					<News />
 					<Events />
 				</div> */}
+				<Offer />
 				<NAT />
 				<MHRD />
+
 			</div>
 		</div>
 	);
