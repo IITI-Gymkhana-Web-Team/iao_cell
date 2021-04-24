@@ -35,6 +35,40 @@
 	justify-content: space-evenly !important;
 }
 
+.mainNav > div > div:nth-child(2) > ul > li > span {
+	animation-name: rotateDown;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+@keyframes rotateDown {
+	0% {
+		transform: rotate(315deg);
+	}
+	100% {
+		transform: rotate(135deg);
+	}
+}
+
+.mainNav > div > div:nth-child(2) > ul > li:hover > span {
+	animation-name: rotateUp;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+@keyframes rotateUp {
+	0% {
+		transform: rotate(135deg);
+	}
+	100% {
+		transform: rotate(315deg);
+	}
+}
+
 @media only screen and (max-width: 1350px) {
 	.mainNav {
 		display: none !important;

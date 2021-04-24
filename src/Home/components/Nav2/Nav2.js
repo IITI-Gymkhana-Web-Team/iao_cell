@@ -12,6 +12,7 @@ export const Nav2 = () => {
 				{
 					title: "Home",
 					isAuth: true,
+					icon: null,
 					onClick: () => {
 						history.push("/");
 					},
@@ -19,10 +20,12 @@ export const Nav2 = () => {
 				{
 					title: "People",
 					isAuth: true,
+					icon: null,
 					subItems: [
 						{
 							title: "International Affairs",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								history.push("/people/oia");
 							},
@@ -30,6 +33,7 @@ export const Nav2 = () => {
 						{
 							title: "SIA Cell",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								history.push("/people/sc");
 							},
@@ -39,10 +43,12 @@ export const Nav2 = () => {
 				{
 					title: "Committees",
 					isAuth: true,
+					icon: null,
 					subItems: [
 						{
 							title: "Outreach Committee",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								history.push("/committee/oc");
 							},
@@ -50,6 +56,7 @@ export const Nav2 = () => {
 						{
 							title: "ISMAE Committee",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								history.push("/committee/mec");
 							},
@@ -59,14 +66,17 @@ export const Nav2 = () => {
 				{
 					title: "Collaborations",
 					isAuth: true,
+					icon: null,
 					subItems: [
 						{
 							title: "MOU",
 							isAuth: true,
+							icon: null,
 							subItems: [
 								{
 									title: "Asian Universities",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/mou/asia");
 									},
@@ -74,6 +84,7 @@ export const Nav2 = () => {
 								{
 									title: "Australian Universities",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/mou/australia");
 									},
@@ -81,6 +92,7 @@ export const Nav2 = () => {
 								{
 									title: "American Universities",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/mou/america");
 									},
@@ -88,6 +100,7 @@ export const Nav2 = () => {
 								{
 									title: "European Universities",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/mou/europe");
 									},
@@ -97,10 +110,12 @@ export const Nav2 = () => {
 						{
 							title: "Mobility Exchange",
 							isAuth: true,
+							icon: null,
 							subItems: [
 								{
 									title: "Student",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/mobility/student");
 									},
@@ -108,6 +123,7 @@ export const Nav2 = () => {
 								{
 									title: "Faculty",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/mobility/faculty");
 									},
@@ -117,10 +133,12 @@ export const Nav2 = () => {
 						{
 							title: "International Students",
 							isAuth: true,
+							icon: null,
 							subItems: [
 								{
 									title: "Student List",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/int/students");
 									},
@@ -128,6 +146,7 @@ export const Nav2 = () => {
 								{
 									title: "Testimonials",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/int/testimonials");
 									},
@@ -137,6 +156,7 @@ export const Nav2 = () => {
 						{
 							title: "Grants",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								history.push("/grants");
 							},
@@ -144,6 +164,7 @@ export const Nav2 = () => {
 						{
 							title: "Publications",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								history.push("/publications");
 							},
@@ -153,18 +174,22 @@ export const Nav2 = () => {
 				{
 					title: "Prospective",
 					isAuth: true,
+					icon: null,
 					subItems: [
 						{
 							title: "Inbound",
 							isAuth: true,
+							icon: null,
 							subItems: [
 								{
 									title: "Faculty",
 									isAuth: true,
+									icon: null,
 									subItems: [
 										{
 											title: "Visa Process",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												history.push("/ProsFaculty/visa");
 											},
@@ -172,6 +197,7 @@ export const Nav2 = () => {
 										{
 											title: "Places To Visit",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												history.push("/ProsFaculty/places");
 											},
@@ -181,10 +207,12 @@ export const Nav2 = () => {
 								{
 									title: "Student",
 									isAuth: true,
+									icon: null,
 									subItems: [
 										{
 											title: "Admission",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												history.push("/ProsStud/admission");
 											},
@@ -192,6 +220,7 @@ export const Nav2 = () => {
 										{
 											title: "Programs",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												history.push("/ProsStud/programs");
 											},
@@ -199,6 +228,7 @@ export const Nav2 = () => {
 										{
 											title: "Visa Process",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												history.push("/ProsStud/visa");
 											},
@@ -206,6 +236,7 @@ export const Nav2 = () => {
 										{
 											title: "Places To Visit",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												history.push("/ProsStud/places");
 											},
@@ -217,14 +248,17 @@ export const Nav2 = () => {
 						// {
 						// 	title: "Outbound",
 						// 	isAuth: true,
+						// (icon: null),
 						// 	subItems: [
 						// 		{
 						// 			title: "Faculty",
 						// 			isAuth: true,
+						// (icon: null),
 						// 		},
 						// 		{
 						// 			title: "Student",
 						// 			isAuth: true,
+						// (icon: null),
 						// 		},
 						// 	],
 						// },
@@ -233,14 +267,17 @@ export const Nav2 = () => {
 				{
 					title: "Opportunities",
 					isAuth: true,
+					icon: null,
 					subItems: [
 						{
 							title: "Students",
 							isAuth: true,
+							icon: null,
 							subItems: [
 								{
 									title: "PG / PhD / Post Doc",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/opportunities/pg_phd_post_doc");
 									},
@@ -248,6 +285,7 @@ export const Nav2 = () => {
 								{
 									title: "B.Tech",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/opportunities/btech");
 									},
@@ -255,6 +293,7 @@ export const Nav2 = () => {
 								{
 									title: "Scholarships",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										history.push("/opportunities/scholarship");
 									},
@@ -264,10 +303,12 @@ export const Nav2 = () => {
 						{
 							title: "Faculties",
 							isAuth: true,
+							icon: null,
 							subItems: [
 								{
 									title: "Indo - French",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										window.open("http://www.cefipra.org/");
 									},
@@ -275,6 +316,7 @@ export const Nav2 = () => {
 								{
 									title: "Indo - Japan",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										window.open("https://www.jsps.go.jp/english/");
 									},
@@ -282,10 +324,12 @@ export const Nav2 = () => {
 								{
 									title: "Indo - Germany",
 									isAuth: true,
+									icon: null,
 									subItems: [
 										{
 											title: "Alexander von Humboldt Foundation",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												window.open(
 													"https://www.humboldt-foundation.de/en/"
@@ -295,6 +339,7 @@ export const Nav2 = () => {
 										{
 											title: "DAAD",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												window.open(
 													"https://www.daad.in/en/study-research-in-germany/"
@@ -304,6 +349,7 @@ export const Nav2 = () => {
 										{
 											title: "Indo-German Science & Technology Center",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												window.open("https://www.igstc.org");
 											},
@@ -313,6 +359,7 @@ export const Nav2 = () => {
 								{
 									title: "Indo - USA",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										window.open("https://www.iusstf.org/");
 									},
@@ -320,6 +367,7 @@ export const Nav2 = () => {
 								{
 									title: "Indo - UK",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										window.open(
 											"https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/"
@@ -329,6 +377,7 @@ export const Nav2 = () => {
 								{
 									title: "Indo - Asean",
 									isAuth: true,
+									icon: null,
 									onClick: () => {
 										window.open("https://aistic.gov.in/ASEAN/HomePage");
 									},
@@ -336,10 +385,12 @@ export const Nav2 = () => {
 								{
 									title: "Indo - Canada",
 									isAuth: true,
+									icon: null,
 									subItems: [
 										{
 											title: "Indo-Shastri Canadian Institute",
 											isAuth: true,
+											icon: null,
 											onClick: () => {
 												window.open("https://www.shastriinstitute.org/");
 											},
@@ -353,10 +404,12 @@ export const Nav2 = () => {
 				{
 					title: "Outreach",
 					isAuth: true,
+					icon: null,
 					subItems: [
 						{
 							title: "News",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								history.push("/outreach/news");
 							},
@@ -364,6 +417,7 @@ export const Nav2 = () => {
 						{
 							title: "Events",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								history.push("/outreach/events");
 							},
@@ -373,6 +427,7 @@ export const Nav2 = () => {
 				{
 					title: "Research",
 					isAuth: true,
+					icon: null,
 					onClick: () => {
 						window.open("http://rnd.iiti.ac.in/");
 					},
@@ -380,10 +435,12 @@ export const Nav2 = () => {
 				{
 					title: "Facilities",
 					isAuth: true,
+					icon: null,
 					subItems: [
 						{
 							title: "Hostels",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("http://hostel.iiti.ac.in/");
 							},
@@ -391,6 +448,7 @@ export const Nav2 = () => {
 						{
 							title: "Guest House",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								history.push("/guestHouse");
 							},
@@ -398,6 +456,7 @@ export const Nav2 = () => {
 						{
 							title: "Eateries",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("http://iiti.ac.in/page/campus-facilities");
 							},
@@ -405,6 +464,7 @@ export const Nav2 = () => {
 						{
 							title: "Health Centre",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("http://people.iiti.ac.in/~medical/");
 							},
@@ -412,6 +472,7 @@ export const Nav2 = () => {
 						{
 							title: "Counselling Cell",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("http://iiti.ac.in/page/counselling-cell");
 							},
@@ -419,6 +480,7 @@ export const Nav2 = () => {
 						{
 							title: "Training and Placement",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("placement.iiti.ac.in");
 							},
@@ -426,6 +488,7 @@ export const Nav2 = () => {
 						{
 							title: "Computer and IT Center",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("http://cc.iiti.ac.in/");
 							},
@@ -433,6 +496,7 @@ export const Nav2 = () => {
 						{
 							title: "Nursery School",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("http://people.iiti.ac.in/~creche/");
 							},
@@ -440,6 +504,7 @@ export const Nav2 = () => {
 						{
 							title: "E-Payments",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("http://iiti.ac.in/page/e-payments");
 							},
@@ -447,6 +512,7 @@ export const Nav2 = () => {
 						{
 							title: "Smart card facility",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("http://people.iiti.ac.in/~smartcard/CampusCards.html");
 							},
@@ -454,6 +520,7 @@ export const Nav2 = () => {
 						{
 							title: "Transport Booking",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open("http://vbs.iiti.ac.in/");
 							},
@@ -461,6 +528,7 @@ export const Nav2 = () => {
 						{
 							title: "Green vehicle schedule",
 							isAuth: true,
+							icon: null,
 							onClick: () => {
 								window.open(
 									"https://www.iiti.ac.in/public/storage/Green%20vehicle%20schedule-%202021.pdf"
@@ -472,6 +540,7 @@ export const Nav2 = () => {
 				{
 					title: "Contact",
 					isAuth: true,
+					icon: null,
 					onClick: () => {
 						history.push("/contact");
 					},

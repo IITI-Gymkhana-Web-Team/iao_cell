@@ -8,7 +8,7 @@ import "./backVideo.css";
 
 export const BackVideo = () => {
 	return (
-		<div class="video-container">
+		<div className="video-container">
 			<video
 				controls
 				disablePictureInPicture
@@ -16,17 +16,19 @@ export const BackVideo = () => {
 				muted
 				loop
 				controlsList="nodownload"
-				id="myVideo">
+				id="myVideo"
+			>
 				<source src={videoo} type="video/mp4" />
 			</video>
-			<div class="content">
+			<div className="content">
 				<Row>
-					{data.map((value) => {
+					{data.map((value, index) => {
 						return (
-							<Col lg={4}>
+							<Col lg={4} key={index}>
 								<Card
 									className="text-center m-4 cardBox"
-									style={{ backgroundColor: "transparent" }}>
+									style={{ backgroundColor: "transparent" }}
+								>
 									<Card.Body className="rankCard">
 										<Card.Title>
 											<GrStar color="#ffd700" />

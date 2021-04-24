@@ -6,7 +6,7 @@ import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
 export default function Message() {
 	return (
 		<>
-			<ScrollAnimation animateIn="slideInRight" animateOnce="true">
+			<ScrollAnimation animateIn="slideInRight" animateOnce={true}>
 				<div className="container mt-3 messageBox" style={{ borderRadius: "10px" }}>
 					<div className="container-fluid p-3">
 						<img src={neelesh} className="img-thumbnail" alt="img-responsive" />
@@ -22,9 +22,9 @@ export default function Message() {
 								maxWidth: "700px",
 							}}
 						>
-							<div class="quoteBox">
+							<div className="quoteBox">
 								<FaQuoteLeft className="fa2" />
-								<div class="text ml-4">
+								<div className="text ml-4">
 									<p>
 										Lorem Ipsum is simply dummy text of the printing and
 										typesetting industry. Lorem Ipsum has been the industry's
@@ -39,7 +39,7 @@ export default function Message() {
 					</div>
 				</div>
 			</ScrollAnimation>
-			<ScrollAnimation animateIn="slideInLeft" animateOnce="true">
+			<ScrollAnimation animateIn="slideInLeft" animateOnce={true}>
 				<div className="container mt-3 messageBox" style={{ borderRadius: "10px" }}>
 					<div className="container-fluid p-3">
 						<img src={av2} className="img-thumbnail" alt="img-responsive" />
@@ -55,9 +55,9 @@ export default function Message() {
 								maxWidth: "700px",
 							}}
 						>
-							<div class="quoteBox">
+							<div className="quoteBox">
 								<FaQuoteLeft className="fa2" />
-								<div class="text ml-4">
+								<div className="text ml-4">
 									<p>
 										Lorem Ipsum is simply dummy text of the printing and
 										typesetting industry. Lorem Ipsum has been the industry's

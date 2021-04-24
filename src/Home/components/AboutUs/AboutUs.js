@@ -13,7 +13,7 @@ export const AboutUs = () => {
 	return (
 		<div className="container-fluid aboutUs mb-5">
 			<div className="container-fluid pt-5 pb-3 aboutCards">
-				<ScrollAnimation animateIn="slideInLeft" className="mb-5" animateOnce="true">
+				<ScrollAnimation animateIn="slideInLeft" className="mb-5" animateOnce={true}>
 					<div
 						className="aboutCard"
 						onMouseEnter={() => setZoom1(true)}
@@ -37,7 +37,7 @@ export const AboutUs = () => {
 						</Link>
 					</div>
 				</ScrollAnimation>
-				<ScrollAnimation animateIn="slideInLeft" className="mb-5" animateOnce="true">
+				<ScrollAnimation animateIn="slideInLeft" className="mb-5" animateOnce={true}>
 					<div
 						className="aboutCard"
 						onMouseEnter={() => setZoom2(true)}
@@ -60,7 +60,7 @@ export const AboutUs = () => {
 						</Link>
 					</div>
 				</ScrollAnimation>
-				<ScrollAnimation animateIn="slideInLeft" className="mb-5" animateOnce="true">
+				<ScrollAnimation animateIn="slideInLeft" className="mb-5" animateOnce={true}>
 					<div
 						className="aboutCard"
 						onMouseEnter={() => setZoom3(true)}
