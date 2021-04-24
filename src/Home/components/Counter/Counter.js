@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { data } from "./data";
 import CountUp from "react-countup";
 import { Col, Row, Card } from "react-bootstrap";
@@ -8,8 +8,6 @@ import ScrollAnimation from "react-animate-on-scroll";
 import VisibilitySensor from "react-visibility-sensor";
 
 const Counter = () => {
-	const [once, setOnce] = useState(true);
-
 	return (
 		<div className="counterDiv">
 			<ScrollAnimation animateIn="fadeIn" animateOnce={true}>
