@@ -6,7 +6,7 @@
 }
 
 video {
-  height: 100vh;
+  height: 140vh;
   vertical-align: middle;
   width: auto;
 }
@@ -22,35 +22,40 @@ video {
   align-items: center;
   justify-content: center;
 }
-
-.Rankings {
-  color: #fff;
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .cardBox {
-  height: 200px;
-  border: none;
-  background-color: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 16rem;
   color: white;
   font-family: "Nobile", sans-serif;
-  font-size: 9vw;
-  text-decoration: solid;
-  text-align: center;
 }
-
 .circle {
   border-radius: 50%;
   width: 85px;
   height: 85px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
-  border: 5px solid rgb(42, 39, 185);
-  color: #000;
+  background: rgba(255, 255, 255, 0.4);
+  color: #fff;
   text-align: center;
-  font: 32px Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+.rank {
+  font-size: 2rem;
 }
 .rankText {
+  margin-top: 2rem;
   font-size: 1.3rem;
 }
 .rankCard {

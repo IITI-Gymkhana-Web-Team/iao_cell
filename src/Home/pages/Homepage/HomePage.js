@@ -12,6 +12,7 @@ import { MHRD } from "../../components/MHRD/MHRD";
 import Message from "../../components/Message/Message";
 import "./Home.css";
 import { NAT } from "../../components/NAT/NAT";
+import Counter from "../../components/Counter/Counter";
 
 export const HomePage = () => {
 	return (
@@ -25,6 +26,7 @@ export const HomePage = () => {
 			<div className="container-fluid">
 				<AboutUs />
 				<Message />
+				<Counter />
 				{/* <div className="newsEvents container mt-5">
 					<News />
 					<Events />

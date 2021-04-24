@@ -5,10 +5,10 @@ export const data = [
     },
     {
         Ranking: '10',
-        Heading: 'NIRF 2020 Engineering'
+        Heading: 'Engineering Institute in India - NIRF 2020'
     },
     {
         Ranking: '23',
-        Heading: 'NIRF 2020 Overall'
+        Heading: 'Overall Institute Ranking in India - NIRF 2020'
     }
 ]
