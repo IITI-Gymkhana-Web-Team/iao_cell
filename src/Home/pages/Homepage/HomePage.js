@@ -35,7 +35,6 @@ export const HomePage = () => {
 				<Offer />
 				<NAT />
 				<MHRD />
-
 			</div>
 		</div>
 	);

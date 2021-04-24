@@ -1,9 +1,9 @@
 import React from "react";
 import { data } from "./data";
-import CountUp from 'react-countup';
-import { Col, Row, Card } from 'react-bootstrap';
-import videoo from "../../../assets/noaudio_video2.mp4";
-import { GiStarsStack } from 'react-icons/gi';
+import CountUp from "react-countup";
+import { Col, Row, Card } from "react-bootstrap";
+import videoo from "../../../assets/bgvideo.mp4";
+import { GiStarsStack } from "react-icons/gi";
 import "./backVideo.css";
 
 export const BackVideo = () => {
@@ -36,7 +36,10 @@ export const BackVideo = () => {
 										</Card.Text>
 									</Card.Body>
 								</Card> */}
-								<div className="text-center m-4 cardBox" style={{ backgroundColor: 'transparent' }}>
+								<div
+									className="text-center m-4 cardBox"
+									style={{ backgroundColor: "transparent" }}
+								>
 									<GiStarsStack className="circle" />
 									<CountUp className="rank" end={value.Ranking} duration={8} />
 									<p className="rankText text-center">{value.Heading}</p>

@@ -3,6 +3,7 @@ import { neelesh, av2 } from "../../../assets";
 import "./Message.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
+
 export default function Message() {
 	return (
 		<>
