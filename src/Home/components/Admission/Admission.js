@@ -61,6 +61,63 @@ export const Admission = () => {
 			</section>
 
 			<section>
+				<h3 className=" mb-4 font-acme">Required forms for International Exchange students</h3>
+
+				<Table striped bordered hover variant="success">
+					<thead>
+						<tr>
+							<th>Forms</th>
+							<th style={{ display: 'flex', justifyContent: 'center' }}>Download</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Declaration Form for Anti-Ragging Rules</td>
+
+							<td style={{ display: 'flex', justifyContent: 'center' }}>
+								<a target="_blank" href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Anti-Ragging%20Rules%20&%20Decl..pdf"><RiExternalLinkFill /></a>
+							</td>
+						</tr>
+						<tr>
+
+							<td>Declaration Form for Dining Rules</td>
+							<td style={{ display: 'flex', justifyContent: 'center' }}>
+								<a target="_blank" href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Dining%20Rules%20%20&%20Decl.pdf"><RiExternalLinkFill /></a>
+							</td>
+						</tr>
+						<tr>
+
+							<td>Declaration Form for Internet Usage Policy</td>
+							<td style={{ display: 'flex', justifyContent: 'center' }}>
+								<a target="_blank" href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Internet%20usage%20Policy%20&%20Decl.%20(1).pdf"><RiExternalLinkFill /></a>
+							</td>
+						</tr>
+						<tr>
+
+							<td>Declaration Form for Safety and Security Rules</td>
+							<td style={{ display: 'flex', justifyContent: 'center' }}>
+								<a target="_blank" href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Safety%20&%20Security%20Rules%20&%20Decl.%20(1).pdf"><RiExternalLinkFill /></a>
+							</td>
+						</tr>
+						<tr>
+
+							<td>Library Membership Form for Students</td>
+							<td style={{ display: 'flex', justifyContent: 'center' }}>
+								<a target="_blank" href="http://library.iiti.ac.in/?page_id=41"><RiExternalLinkFill /></a>
+							</td>
+						</tr>
+						<tr>
+
+							<td>Medical Fitness Form</td>
+							<td style={{ display: 'flex', justifyContent: 'center' }}>
+								<a target="_blank" href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Medical%20Fitness%20Form.pdf"><RiExternalLinkFill /></a>
+							</td>
+						</tr>
+					</tbody>
+				</Table>
+			</section>
+
+			<section>
 				<h3 className="font-acme">Selection Procedure</h3>
 				<p>
 					Admission of International Students to IIT Indore's Ph.D., M. Tech., M.S.
