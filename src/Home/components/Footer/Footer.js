@@ -13,7 +13,7 @@ export const Footer = () => {
 						<Col xs={12} lg={3}>
 							<div className="logo">
 								<a href="http://iiti.ac.in" target="_blank">
-									<img src={iiti_2} />
+									<img src={iiti_2} style={{ maxWidth: "170px" }} />
 								</a>
 							</div>
 						</Col>
