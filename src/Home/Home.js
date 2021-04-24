@@ -4,7 +4,7 @@ import { HomePage } from "./pages/Homepage/HomePage";
 import { People } from "./pages/Peoplepage/People";
 import { Title } from "./components/Title/Title";
 import { Footer } from "./components/Footer/Footer";
-import { Nav } from "./components/NewNav/index";
+// import { Nav } from "./components/NewNav/index";
 import { Places } from "./components/Places/Places";
 import { Visa } from "./components/Visa/Visa";
 import { Admission } from "./components/Admission/Admission";
@@ -35,7 +35,7 @@ import { Publications } from "./components/Publications/Publications";
 import { Ghouse } from "./components/Ghouse/Ghouse";
 import { Nav2 } from "./components/Nav2/Nav2";
 import { Btech } from "./components/Btech/Btech";
-
+import { Dean } from "./components/Dean";
 export const Home = () => {
 	return (
 		<Router>
@@ -64,7 +64,11 @@ export const Home = () => {
 						}}
 					/>
 					<Route path="/int/students" exact component={IntStudents} />
-					<Route path="/int/testimonials" exact component={Testimonials} />
+					<Route
+						path="/int/testimonials"
+						exact
+						component={Testimonials}
+					/>
 					<Route
 						path="/committee/oc"
 						exact
@@ -85,17 +89,53 @@ export const Home = () => {
 					<Route path="/guestHouse" exact component={Ghouse} />
 					<Route path="/ProsStud/visa" exact component={Visa} />
 					<Route path="/ProsStud/places" exact component={Places} />
-					<Route path="/ProsStud/admission" exact component={Admission} />
-					<Route path="/ProsStud/programs" exact component={Programs} />
+					<Route
+						path="/ProsStud/admission"
+						exact
+						component={Admission}
+					/>
+					<Route
+						path="/ProsStud/programs"
+						exact
+						component={Programs}
+					/>
 					<Route path="/ProsFaculty/visa" exact component={Visa} />
-					<Route path="/ProsFaculty/places" exact component={Places} />
-					<Route path="/opportunities/pg_phd_post_doc" exact component={Pg_Phd} />
-					<Route path="/opportunities/btech" exact component={Btech} />
-					<Route path="/opportunities/scholarship" exact component={Scholarship} />
+					<Route
+						path="/ProsFaculty/places"
+						exact
+						component={Places}
+					/>
+					<Route
+						path="/opportunities/pg_phd_post_doc"
+						exact
+						component={Pg_Phd}
+					/>
+					<Route
+						path="/opportunities/btech"
+						exact
+						component={Btech}
+					/>
+					<Route
+						path="/opportunities/scholarship"
+						exact
+						component={Scholarship}
+					/>
 					<Route path="/outreach/news" exact component={NewsPage} />
-					<Route path="/outreach/news/:id" exact component={IndiNews} />
-					<Route path="/outreach/events" exact component={EventsPage} />
-					<Route path="/outreach/events/:id" exact component={IndiEvent} />
+					<Route
+						path="/outreach/news/:id"
+						exact
+						component={IndiNews}
+					/>
+					<Route
+						path="/outreach/events"
+						exact
+						component={EventsPage}
+					/>
+					<Route
+						path="/outreach/events/:id"
+						exact
+						component={IndiEvent}
+					/>
 					<Route path="/contact" exact component={ReachUs} />
 					<Route
 						path="/mou/asia"
@@ -126,7 +166,11 @@ export const Home = () => {
 						}}
 					/>
 					<Route path="/grants" exact component={Grants} />
-					<Route path="/publications" exact component={Publications} />
+					<Route
+						path="/publications"
+						exact
+						component={Publications}
+					/>
 					<Route path="/mhrd/sparc" exact component={Sparc} />
 					<Route path="/mhrd/asem" exact component={Asem} />
 					<Route path="/mhrd/vajra" exact component={Vajra} />
@@ -145,6 +189,7 @@ export const Home = () => {
 							return <MobilityExchange type="faculty" />;
 						}}
 					/>
+					<Route path="/dean" component={Dean} />
 					<Route component={NotFound} />
 				</Switch>
 			</div>
