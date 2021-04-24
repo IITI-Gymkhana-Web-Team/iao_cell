@@ -1,9 +1,9 @@
 import React from "react";
 import { data } from "./data";
-import CountUp from "react-countup";
-import { Col, Row, Card } from "react-bootstrap";
-import videoo from "../../../assets/bgvideo.mp4";
-import { GrStar } from "react-icons/gr";
+import CountUp from 'react-countup';
+import { Col, Row, Card } from 'react-bootstrap';
+import videoo from "../../../assets/noaudio_video2.mp4";
+import { GiStarsStack } from 'react-icons/gi';
 import "./backVideo.css";
 
 export const BackVideo = () => {
@@ -24,34 +24,23 @@ export const BackVideo = () => {
 				<Row>
 					{data.map((value, index) => {
 						return (
-							<Col lg={4} key={index}>
-								<Card
-									className="text-center m-4 cardBox"
-									style={{ backgroundColor: "transparent" }}
-								>
+							<Col lg={4} className="column">
+								{/* <Card className="text-center m-4 cardBox" style={{ backgroundColor: 'transparent' }}>
 									<Card.Body className="rankCard">
 										<Card.Title>
-											<GrStar color="#ffd700" />
-											<GrStar color="#ffd700" />
-											<GrStar color="#ffd700" />
-											<GrStar color="#ffd700" />
-											<div className="circle">
-												<CountUp
-													className="rank"
-													end={value.Ranking}
-													duration={8}
-												/>
-											</div>
-											<GrStar color="#ffd700" />
-											<GrStar color="#ffd700" />
-											<GrStar color="#ffd700" />
-											<GrStar color="#ffd700" />
+											<GiStarsStack className="circle" />
+											<div><CountUp className="rank" end={value.Ranking} duration={8} /></div>
 										</Card.Title>
 										<Card.Text className="rankText text-center">
 											{value.Heading}
 										</Card.Text>
 									</Card.Body>
-								</Card>
+								</Card> */}
+								<div className="text-center m-4 cardBox" style={{ backgroundColor: 'transparent' }}>
+									<GiStarsStack className="circle" />
+									<CountUp className="rank" end={value.Ranking} duration={8} />
+									<p className="rankText text-center">{value.Heading}</p>
+								</div>
 							</Col>
 						);
 					})}
