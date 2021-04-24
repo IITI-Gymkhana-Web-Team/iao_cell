@@ -14,7 +14,7 @@ export const NewsPage = () => {
 							<Newscard
 								img={news.image}
 								title={news.title}
-								text={news.text}
+								text={news.desc}
 								date={news.date}
 								key={index}
 								index={index}

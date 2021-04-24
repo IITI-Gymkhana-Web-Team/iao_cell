@@ -8,7 +8,7 @@ export const Publications = () => {
 	const [faculty, setFaculty] = useState("");
 
 	return (
-		<div className="container mhrdPage">
+		<div className="container-fluid mhrdPage">
 			<h1 className="mainTitle mt-4 mb-5 text-center">Publications</h1>
 			<Form>
 				<Form.Group controlId="exampleForm.ControlInput1">

@@ -5,7 +5,7 @@ export const Scholarship = () => {
 		<div className="container mt-5 font-ubuntu">
 			<h2 className="font-acme mb-5">List of Scholarships Deadline in March 2021</h2>
 
-			<div class="panel-body">
+			<div className="panel-body">
 				<h4 className="font-acme">Germany Government Scholarship</h4>
 				<p>
 					Apply For Germany Government Scholarship For International Students. They are
