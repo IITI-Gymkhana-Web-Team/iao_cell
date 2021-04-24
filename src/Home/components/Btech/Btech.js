@@ -26,9 +26,12 @@ export const Btech = () => {
 								<td>{item["Offered by"] || "-"}</td>
 								<td>{item["Deadline"] || "-"}</td>
 								<td style={{ textAlign: "center" }}>
-									<a href={item["Link"] || "#"}>
-										<FiLink></FiLink>
-									</a>
+									{item["Link"] && (
+										<a href={item["Link"]}>
+											<FiLink></FiLink>
+										</a>
+									)}
+									{!item["Link"] && "-"}
 								</td>
 							</tr>
 						);
