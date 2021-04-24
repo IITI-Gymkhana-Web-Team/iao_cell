@@ -1,7 +1,7 @@
 :root {
 	--pcol: var(--blue);
 	--scol: white;
-	--tspeed: 0.5s;
+	--tspeed: 0.2s;
 	--base-scale: 1.1;
 	--subMenu-width: 13rem;
 
