@@ -46,7 +46,7 @@ export const Home = () => {
 				<Nav2 />
 				{/*<Nav />*/}
 			</div>
-			<div>
+			<div className="mainScreen">
 				<Switch>
 					<Route path="/" exact component={HomePage} />
 					<Route
@@ -64,11 +64,7 @@ export const Home = () => {
 						}}
 					/>
 					<Route path="/int/students" exact component={IntStudents} />
-					<Route
-						path="/int/testimonials"
-						exact
-						component={Testimonials}
-					/>
+					<Route path="/int/testimonials" exact component={Testimonials} />
 					<Route
 						path="/committee/oc"
 						exact
@@ -89,53 +85,17 @@ export const Home = () => {
 					<Route path="/guestHouse" exact component={Ghouse} />
 					<Route path="/ProsStud/visa" exact component={Visa} />
 					<Route path="/ProsStud/places" exact component={Places} />
-					<Route
-						path="/ProsStud/admission"
-						exact
-						component={Admission}
-					/>
-					<Route
-						path="/ProsStud/programs"
-						exact
-						component={Programs}
-					/>
+					<Route path="/ProsStud/admission" exact component={Admission} />
+					<Route path="/ProsStud/programs" exact component={Programs} />
 					<Route path="/ProsFaculty/visa" exact component={Visa} />
-					<Route
-						path="/ProsFaculty/places"
-						exact
-						component={Places}
-					/>
-					<Route
-						path="/opportunities/pg_phd_post_doc"
-						exact
-						component={Pg_Phd}
-					/>
-					<Route
-						path="/opportunities/btech"
-						exact
-						component={Btech}
-					/>
-					<Route
-						path="/opportunities/scholarship"
-						exact
-						component={Scholarship}
-					/>
+					<Route path="/ProsFaculty/places" exact component={Places} />
+					<Route path="/opportunities/pg_phd_post_doc" exact component={Pg_Phd} />
+					<Route path="/opportunities/btech" exact component={Btech} />
+					<Route path="/opportunities/scholarship" exact component={Scholarship} />
 					<Route path="/outreach/news" exact component={NewsPage} />
-					<Route
-						path="/outreach/news/:id"
-						exact
-						component={IndiNews}
-					/>
-					<Route
-						path="/outreach/events"
-						exact
-						component={EventsPage}
-					/>
-					<Route
-						path="/outreach/events/:id"
-						exact
-						component={IndiEvent}
-					/>
+					<Route path="/outreach/news/:id" exact component={IndiNews} />
+					<Route path="/outreach/events" exact component={EventsPage} />
+					<Route path="/outreach/events/:id" exact component={IndiEvent} />
 					<Route path="/contact" exact component={ReachUs} />
 					<Route
 						path="/mou/asia"
@@ -166,11 +126,7 @@ export const Home = () => {
 						}}
 					/>
 					<Route path="/grants" exact component={Grants} />
-					<Route
-						path="/publications"
-						exact
-						component={Publications}
-					/>
+					<Route path="/publications" exact component={Publications} />
 					<Route path="/mhrd/sparc" exact component={Sparc} />
 					<Route path="/mhrd/asem" exact component={Asem} />
 					<Route path="/mhrd/vajra" exact component={Vajra} />

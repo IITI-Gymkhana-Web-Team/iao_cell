@@ -24,7 +24,7 @@ export const BackVideo = () => {
 				<Row>
 					{data.map((value, index) => {
 						return (
-							<Col lg={4} className="column">
+							<Col lg={4} className="column" key={index}>
 								{/* <Card className="text-center m-4 cardBox" style={{ backgroundColor: 'transparent' }}>
 									<Card.Body className="rankCard">
 										<Card.Title>

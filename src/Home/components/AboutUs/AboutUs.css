@@ -20,6 +20,11 @@
 	animation-timing-function: ease;
 }
 
+.aboutUs .aboutCard a,
+.aboutUs .aboutCard a:hover {
+	color: black !important;
+}
+
 @keyframes aboutZoom {
 	0% {
 		transform: scale(1);

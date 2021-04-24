@@ -40,3 +40,11 @@ a:hover {
 	background-color: #e5e5e5;
 	justify-content: center;
 }
+
+.mainScreen a {
+	color: #6772e5 !important;
+}
+
+.mainScreen a:hover {
+	color: #4f3ef5 !important;
+}
