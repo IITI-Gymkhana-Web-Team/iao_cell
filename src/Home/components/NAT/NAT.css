@@ -81,8 +81,12 @@
 
 .news .card-body {
 	min-width: min(100%, 220px);
-	/* padding-top: 0; */
 	padding: 25px;
+}
+
+.nande .card-body {
+	max-height: 200px;
+	overflow: hidden;
 }
 
 .news .btn {
@@ -113,6 +117,62 @@
 	color: white;
 }
 
+.NAT .owl-nav {
+	display: none;
+}
+
+.NAT .owl-theme:hover .owl-nav {
+	display: initial;
+}
+
+.NAT .owl-prev span,
+.NAT .owl-next span {
+	font-size: 50px;
+	margin: 10px;
+	position: relative;
+	top: -5px;
+}
+
+.NAT .owl-prev {
+	position: absolute;
+	top: 45%;
+	left: 0;
+	border-radius: 0 10px 10px 0 !important;
+}
+
+.NAT .owl-next {
+	position: absolute;
+	top: 45%;
+	right: 0;
+	border-radius: 10px 0 0 10px !important;
+}
+
+.announcements .owl-prev span,
+.announcements .owl-next span {
+	font-size: 35px;
+	margin: 3px;
+}
+
+.announcements .owl-prev,
+.announcements .owl-next {
+	top: 30%;
+}
+
+.talks .owl-prev span,
+.talks .owl-next span {
+	font-size: 35px;
+	margin: 3px;
+}
+
+.talks .owl-prev,
+.talks .owl-next {
+	top: 40%;
+}
+
+.talksTitle {
+	margin-top: 20px !important;
+}
+
 @media only screen and (max-width: 1000px) {
 	.news .card {
 		flex-direction: column;
@@ -131,5 +191,12 @@
 	.news .mainTitle {
 		padding: 0px !important;
 		padding-bottom: 20px !important;
+	}
+	.NAT .owl-nav {
+		display: none !important;
+	}
+	.talksTitle {
+		margin-bottom: -20px;
+		margin-top: 60px !important;
 	}
 }

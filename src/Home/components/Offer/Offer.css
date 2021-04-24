@@ -42,7 +42,7 @@
 	overflow: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 	.OfferCar .off h4 {
 		color: crimson;
 		font-size: x-large;
@@ -92,6 +92,6 @@
 		display: none;
 	}
 	.owl-theme {
-		padding: 0px;
+		padding: 0px !important;
 	}
 }

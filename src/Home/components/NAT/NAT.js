@@ -1,9 +1,7 @@
 import React from "react";
-// import $ from "jquery";
 import OwlCarousel from "react-owl-carousel";
 import "./NAT.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
-
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Announceutil from "../../reusables/Announceutil";
 import Newsutil from "../../reusables/Newsutil";
@@ -13,7 +11,7 @@ import { data as data1 } from "../EventsPage/data";
 
 export const NAT = () => {
 	const news = data.slice(0, 4);
-	const events = data1;
+	const events = data1.slice(0, 4);
 	let title = "Coronavirus Lockdown";
 	let text =
 		"Some quick example text to build on the card title and make up the bulk of the card's content.";
@@ -27,11 +25,11 @@ export const NAT = () => {
 						</div>
 						<div className="container-fluid news1" style={{ maxWidth: "1140px" }}>
 							<OwlCarousel
-								className="owl-theme"
+								className="owl-theme nande"
 								loop
-								nav={false}
+								nav={true}
 								margin={8}
-								dots={true}
+								dots={false}
 								responsive={{
 									0: {
 										items: 1,
@@ -47,10 +45,12 @@ export const NAT = () => {
 								autoplayHoverPause={true}
 							>
 								{news.map((News, i) => {
-									return <Newsutil News={News} key={i} index={i} />;
+									return <Newsutil News={News} key={i} type="news" index={i} />;
 								})}
 								{events.map((event, i) => {
-									return <Newsutil News={event} key={i} index={i} />;
+									return (
+										<Newsutil News={event} type="events" key={i} index={i} />
+									);
 								})}
 							</OwlCarousel>
 						</div>
@@ -62,11 +62,11 @@ export const NAT = () => {
 							<div style={{ margin: "auto", maxWidth: "400px" }}>
 								<h3 className="mainTitle">Announcements</h3>
 								<OwlCarousel
-									className="owl-theme"
+									className="owl-theme announcements"
 									loop
-									nav={false}
+									nav={true}
 									margin={8}
-									dots={true}
+									dots={false}
 									responsive={{
 										0: {
 											items: 1,
@@ -100,13 +100,13 @@ export const NAT = () => {
 							</div>
 
 							<div style={{ margin: "auto", maxWidth: "400px" }}>
-								<h3 className="mainTitle mt-3">Talks</h3>
+								<h3 className="mainTitle talksTitle">Talks</h3>
 								<OwlCarousel
-									className="owl-theme"
+									className="owl-theme talks"
 									loop
-									nav={false}
+									nav={true}
 									margin={8}
-									dots={true}
+									dots={false}
 									responsive={{
 										0: {
 											items: 1,

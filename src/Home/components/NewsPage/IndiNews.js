@@ -16,21 +16,19 @@ export const IndiNews = ({ match }) => {
 				style={{
 					minHeight: "50vh",
 					padding: "2%",
-				}}>
+				}}
+			>
 				<Link to="/outreach/news">
 					<button className="backBtn btn btn-light">
 						<BiArrowBack /> Back
 					</button>
 				</Link>
 				<div className="eventPart1 mt-4 mb-5">
-					<img
-						src={data[id].image}
-						style={{ minWidth: "400px", minHeight: "250px" }}
-					/>
+					<img src={data[id].image} style={{ minWidth: "400px", minHeight: "250px" }} />
 					<div className="eventPart2">
 						<h2 className="font-acme">{data[id].title}</h2>
 						<p className="text-muted">{data[id].date}</p>
-						<p>{data[id].text}</p>
+						<p>{data[id].desc}</p>
 					</div>
 				</div>
 			</div>

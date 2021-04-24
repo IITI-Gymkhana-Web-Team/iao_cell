@@ -64,7 +64,7 @@ export const Offer = () => {
 		1024: {
 			items: 3,
 		},
-		464: {
+		800: {
 			items: 2,
 		},
 		0: {
