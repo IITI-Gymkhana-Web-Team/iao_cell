@@ -3,6 +3,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./Offer.css";
+import ScrollAnimation from "react-animate-on-scroll";
 import {
 	computer,
 	phy,
@@ -74,31 +75,41 @@ export const Offer = () => {
 
 	return (
 		<div className="OfferCar text-center mb-0">
-			<h1 className="mainTitle text-underline">Programs Offered</h1>
-			<OwlCarousel
-				className="owl-theme"
-				loop={true}
-				nav={true}
-				dots={false}
-				autoplay={true}
-				autoplayTimeout={4000}
-				items={4}
-				responsive={responsive}
-			>
-				{images.map((img, index) => {
-					return (
-						<div className="off card mx-3 mb-0" key={index}>
-							<div className="image-holder">
-								<img className="card-img-top" src={img.img} alt="Card image cap" />
+			<ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+				<h1 className="mainTitle text-underline">Programs Offered</h1>
+			</ScrollAnimation>
+			<ScrollAnimation animateIn="slideInUp" animateOnce={true}>
+				<OwlCarousel
+					className="owl-theme"
+					loop={true}
+					nav={true}
+					dots={false}
+					autoplay={true}
+					autoplayTimeout={4000}
+					items={4}
+					responsive={responsive}
+				>
+					{images.map((img, index) => {
+						return (
+							<div className="off card mx-3 mb-0" key={index}>
+								<div className="image-holder">
+									<img
+										className="card-img-top"
+										src={img.img}
+										alt="Card image cap"
+									/>
+								</div>
+								<div className="card-body">
+									<h4 className="card-title text-uppercase mainTitle">
+										{img.head}
+									</h4>
+									<p className="card-text">{img.text}</p>
+								</div>
 							</div>
-							<div className="card-body">
-								<h4 className="card-title text-uppercase mainTitle">{img.head}</h4>
-								<p className="card-text">{img.text}</p>
-							</div>
-						</div>
-					);
-				})}
-			</OwlCarousel>
+						);
+					})}
+				</OwlCarousel>
+			</ScrollAnimation>
 		</div>
 	);
 };
