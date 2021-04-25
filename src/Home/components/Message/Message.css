@@ -9,6 +9,11 @@
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+.messageBox:hover {
+	box-shadow: 0 0 15px;
 }
 
 .messageBox h1 {

@@ -3,8 +3,11 @@ import { neelesh, av2 } from "../../../assets";
 import "./Message.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
+import { useHistory } from "react-router-dom";
 
 export default function Message() {
+	let history = useHistory();
+
 	return (
 		<>
 			<ScrollAnimation animateIn="slideInRight" animateOnce={true}>
@@ -41,7 +44,13 @@ export default function Message() {
 				</div>
 			</ScrollAnimation>
 			<ScrollAnimation animateIn="slideInLeft" animateOnce={true}>
-				<div className="container mt-3 messageBox" style={{ borderRadius: "10px" }}>
+				<div
+					className="container mt-3 messageBox"
+					style={{ borderRadius: "10px" }}
+					onClick={() => {
+						history.push("/dean");
+					}}
+				>
 					<div className="container-fluid p-3">
 						<img src={av2} className="img-thumbnail" alt="img-responsive" />
 						<div className="mb-2">
