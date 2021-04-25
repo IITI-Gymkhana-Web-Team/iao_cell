@@ -36,6 +36,7 @@ import { Ghouse } from "./components/Ghouse/Ghouse";
 import { Nav2 } from "./components/Nav2/Nav2";
 import { Btech } from "./components/Btech/Btech";
 import { Dean } from "./components/Dean";
+
 export const Home = () => {
 	return (
 		<Router>

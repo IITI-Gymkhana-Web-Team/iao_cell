@@ -1,6 +1,6 @@
 :root {
 	--pcol: var(--dark-blue);
-	--scol: white;
+	--scol: lavender;
 	--tspeed: 0.2s;
 	--base-scale: 1.1;
 	--subMenu-width: 13rem;
@@ -13,6 +13,20 @@
 
 	--blue: #6772e5 !important;
 	--dark-blue: #4f3ef5 !important;
+}
+
+.mainNav li:hover > a {
+	color: var(--dark-blue) !important;
+}
+
+.mainNav > div > div > ul > li:hover > a {
+	color: #fff !important;
+}
+
+.mainNav {
+	position: sticky;
+	top: 0;
+	z-index: 100;
 }
 
 .mainNav > div {
