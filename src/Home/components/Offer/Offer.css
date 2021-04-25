@@ -11,6 +11,10 @@
 	margin-top: 150px;
 }
 
+.OfferCar .card-text {
+	color: black !important;
+}
+
 @keyframes zoomin {
 	0% {
 		transform: scale(1);

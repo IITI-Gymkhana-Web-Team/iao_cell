@@ -69,11 +69,11 @@ export default function Message() {
 								<FaQuoteLeft className="fa2" />
 								<div className="text ml-4">
 									<p>
-										Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry. Lorem Ipsum has been the industry's
-										standard dummy text ever since the 1500s, when an unknown
-										printer took a galley of type and scrambled it to make a
-										type specimen book.
+										We, at International Affairs and Outreach, IIT Indore, deal
+										with the partner Universities across the globe for academic
+										and research collaborations, which facilitate opportunities
+										to IITI and partner institute’s students and faculties for
+										mobility, research, exchange, and internships.
 									</p>
 								</div>
 								<FaQuoteRight className="fa1" />
