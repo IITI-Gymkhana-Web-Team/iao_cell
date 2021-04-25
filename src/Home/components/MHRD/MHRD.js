@@ -14,7 +14,7 @@ export const MHRD = () => {
 	]);
 
 	return (
-		<ScrollAnimation animateIn="zoomIn" animateOnce={true}>
+		<ScrollAnimation animateIn="fadeIn" animateOnce={true}>
 			<div className="MHRDBG container mt-5 mb-5 pb-5">
 				<div className="container-fluid">
 					<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">MHRD Initiatives</h1>

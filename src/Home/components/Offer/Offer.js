@@ -14,6 +14,8 @@ import {
 	material,
 	mech,
 	elec,
+	chem,
+	math,
 } from "../../../assets";
 
 export const Offer = () => {
@@ -23,36 +25,54 @@ export const Offer = () => {
 			head: "Electrical Sciences",
 			text:
 				"Electrical engineering | Communication & Signal Processing | VLSI Design & nanoelectronics",
+			link: "http://ee.iiti.ac.in/",
 		},
 		{
 			img: mech,
 			head: "Mechanical Sciences",
 			text:
 				"Mechanical engineering | Production & Industrial engineering | Mechanical systems design",
+			link: "http://me.iiti.ac.in/",
 		},
 		{
 			img: material,
 			head: "Material Sciences",
 			text:
 				"Metallurgy & Material Sciences | Material Sciences & engineering | Specialization in  Metallurgy",
+			link: "http://mems.iiti.ac.in/",
 		},
-		{ img: computer, head: "Computer Sciences", text: "Computer Science & Engineering" },
-		{ img: phy, head: "Natural Sciences", text: "Chemistry | Physics | Mathematics" },
+		{
+			img: computer,
+			head: "Computer Sciences",
+			text: "Computer Science & Engineering",
+			link: "http://cse.iiti.ac.in/",
+		},
+		{ img: chem, head: "Chemistry", text: "Chemistry", link: "http://chemistry.iiti.ac.in/" },
+		{ img: phy, head: "Physics", text: "Physics", link: "http://physics.iiti.ac.in/" },
+		{ img: math, head: "Mathematics", text: "Mathematics", link: "http://math.iiti.ac.in/" },
 		{
 			img: bio,
 			head: "Life Sciences",
 			text: "Bio-Sciences & Bio-medical Engineering | Biotechnology",
+			link: "http://bsbe.iiti.ac.in/",
 		},
 		{
 			img: space,
 			head: "Space Sciences",
 			text: "Astronomy | Astrophysics & Space Engineering",
+			link: "http://astronomy.iiti.ac.in/",
 		},
-		{ img: civil, head: "Infrastructure", text: "Civil Engineering" },
+		{
+			img: civil,
+			head: "Infrastructure",
+			text: "Civil Engineering",
+			link: "http://ce.iiti.ac.in/",
+		},
 		{
 			img: philosophy,
 			head: "Humanities & Social Sciences",
 			text: "English | Philosophy | Economics | Psychology | Sociology",
+			link: "http://hss.iiti.ac.in/",
 		},
 	]);
 	const responsive = {
@@ -91,21 +111,23 @@ export const Offer = () => {
 				>
 					{images.map((img, index) => {
 						return (
-							<div className="off card mx-3 mb-0" key={index}>
-								<div className="image-holder">
-									<img
-										className="card-img-top"
-										src={img.img}
-										alt="Card image cap"
-									/>
+							<a href={img.link} target="_blank" key={index}>
+								<div className="off card mx-3 mb-0">
+									<div className="image-holder">
+										<img
+											className="card-img-top"
+											src={img.img}
+											alt="Card image cap"
+										/>
+									</div>
+									<div className="card-body">
+										<h4 className="card-title text-uppercase mainTitle">
+											{img.head}
+										</h4>
+										<p className="card-text">{img.text}</p>
+									</div>
 								</div>
-								<div className="card-body">
-									<h4 className="card-title text-uppercase mainTitle">
-										{img.head}
-									</h4>
-									<p className="card-text">{img.text}</p>
-								</div>
-							</div>
+							</a>
 						);
 					})}
 				</OwlCarousel>

@@ -170,7 +170,12 @@ import bio from "./bio.webp";
 import space from "./space.webp";
 import civil from "./civil.webp";
 import philosophy from "./philosophy.webp";
+import chem from "./chem.webp";
+import math from "./math.webp";
+
 export {
+	chem,
+	math,
 	computer,
 	phy,
 	bio,
