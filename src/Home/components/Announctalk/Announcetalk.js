@@ -8,7 +8,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import Announcetalkutil from "../../reusables/Announceutil";
 import Talkutil from "../../reusables/Talkutil";
 export const Announcetalk = () => {
-	let title = "Coronavirus Lockdown";
+	let title = " Lockdown";
 	let text =
 		"Some quick example text to build on the card title and make up the bulk of the card's content.";
 
