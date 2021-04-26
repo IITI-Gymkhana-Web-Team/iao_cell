@@ -15,7 +15,7 @@ export default function ({ announcement }) {
 						</Link>
                     </Card.Title> */}
 					<Card.Text className="font-ubuntu" style={styles.text}>
-						lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+					Observing the first billion years @ IITI (20-31 January 2020)
 					</Card.Text>
 				</Card.Body>
 			</Card>
