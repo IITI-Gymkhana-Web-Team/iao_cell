@@ -143,23 +143,62 @@ export const Nav2 = () => {
 										history.push("/int/students");
 									},
 								},
-								{
-									title: "Testimonials",
-									isAuth: true,
-									icon: null,
-									onClick: () => {
-										history.push("/int/testimonials");
-									},
-								},
 							],
 						},
 						{
-							title: "Grants",
+							title: "International Grants",
 							isAuth: true,
 							icon: null,
-							onClick: () => {
-								history.push("/grants");
-							},
+							subItems: [
+								{
+									title: "Bilateral Intl. Grants",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										history.push("/grants");
+									},
+								},
+								{
+									title: "MHRD Schemes",
+									isAuth: true,
+									icon: null,
+
+									subItems: [
+										{
+											title: "GIAN",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mhrd/gian");
+											},
+										},
+										{
+											title: "VAJRA",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mhrd/vajra");
+											},
+										},
+										{
+											title: "SPARC",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mhrd/sparc");
+											},
+										},
+										{
+											title: "ASEM - DUO",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mhrd/asem");
+											},
+										},
+									],
+								},
+							],
 						},
 						{
 							title: "Publications",
@@ -239,6 +278,14 @@ export const Nav2 = () => {
 											icon: null,
 											onClick: () => {
 												history.push("/ProsStud/places");
+											},
+										},
+										{
+											title: "Visitors' Experience",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/ProsStud/visitors_experience");
 											},
 										},
 									],

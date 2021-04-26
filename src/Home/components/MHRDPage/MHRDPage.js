@@ -112,7 +112,7 @@ export const MHRDPage = ({ info, name, person, insti, desc }) => {
 				</Form.Group>
 			</Form>
 			<h2 className="font-acme">Approved Projects</h2>
-			<Table striped bordered hover variant="success" responsive>
+			<Table striped bordered hover variant="primary" responsive>
 				<thead>
 					<tr>
 						<th>#</th>

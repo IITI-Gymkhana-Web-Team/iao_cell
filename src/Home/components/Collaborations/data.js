@@ -34,13 +34,13 @@ export const data = {
 		},
 		{
 			"S.No.": 4,
-			"Institutions/Organization/Country": "Chonnam National  University, Korea",
+			"Institutions/Organization/Country": "Chonnam National  University, South Korea",
 			Nature: "MoU",
 			"Purpose/Title": "Cooperation in Academic and Research Related Activities;",
 			"Coordinating faculty member": "DOIA\nDOAA\nDOFA\nDORD",
 			"Signed on": "March 15, 2018",
 			Duration: "5 Years",
-			"Country with which there is collation": "Korea",
+			"Country with which there is collation": "South Korea",
 		},
 		{
 			"S.No.": 5,
@@ -78,13 +78,13 @@ export const data = {
 		},
 		{
 			"S.No.": 8,
-			"Institutions/Organization/Country": "Jeju National University, Korea",
+			"Institutions/Organization/Country": "Jeju National University, South Korea",
 			Nature: "MoU",
 			"Purpose/Title": "Academics",
 			"Coordinating faculty member": "DOIA\nDr. Shaibal Mukherjee",
 			"Signed on": "June 26, 2017",
 			Duration: "5 Years",
-			"Country with which there is collation": "Korea",
+			"Country with which there is collation": "South Korea",
 		},
 		{
 			"S.No.": 9,
@@ -200,14 +200,14 @@ export const data = {
 	Australia: [
 		{
 			"S.No.": 1,
-			"Institutions/Organization/Country": "Univesity of Technology Sydney",
+			"Institutions/Organization/Country": "Univesity of Technology Australia",
 			Nature: "MoU",
 			"Purpose/Title":
 				"Visits by and exchange of students for the purpose of research; Visits by interchange of staff for the purposes of research, teaching, and discussions;\nJoint research activities; \nJoint participation in internationally funded research projects;",
 			"Coordinating faculty member": "DOIA\nDOAA\nDORD",
 			"Signed on": "October 24, 2019",
 			Duration: "5 Years",
-			"Country with which there is collation": "Sydney",
+			"Country with which there is collation": "Australia",
 		},
 		{
 			"S.No.": 2,
@@ -299,7 +299,7 @@ export const data = {
 			"Coordinating faculty member": "DOIA\nDOAA\nHOD, Chemistry",
 			"Signed on": "March 14, 2019",
 			Duration: "2 Years",
-			"Country with which there is collation": "London",
+			"Country with which there is collation": "UK",
 		},
 		{
 			"S.No.": 7,
@@ -436,7 +436,7 @@ export const data = {
 			"Coordinating faculty member": "DOAA\nDOIA\nDOFA",
 			"Signed on": "June 30, 2016",
 			Duration: "3 Years",
-			"Country with which there is collation": "London",
+			"Country with which there is collation": "UK",
 		},
 		{
 			"S.No.": 19,

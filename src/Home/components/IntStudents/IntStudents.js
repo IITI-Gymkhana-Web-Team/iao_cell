@@ -8,7 +8,7 @@ export const IntStudents = () => {
 				Degree & Exchange International Students
 			</h1>
 			<h2 className="font-acme">PhD</h2>
-			<Table striped bordered hover variant="success" responsive className="mb-3">
+			<Table striped bordered hover variant="primary" responsive className="mb-3">
 				<thead>
 					<tr>
 						<th>Year</th>
@@ -37,7 +37,7 @@ export const IntStudents = () => {
 			</Table>
 			<p>* Withdrawn admission due to personal reasons.</p>
 			<h2 className="font-acme mt-5">Masters</h2>
-			<Table striped bordered hover variant="success" responsive className="mb-3">
+			<Table striped bordered hover variant="primary" responsive className="mb-3">
 				<thead>
 					<tr>
 						<th>Year</th>
@@ -79,7 +79,7 @@ export const IntStudents = () => {
 				</tbody>
 			</Table>
 			<h2 className="font-acme mt-5">Bachelors</h2>
-			<Table striped bordered hover variant="success" responsive className="mb-5">
+			<Table striped bordered hover variant="primary" responsive className="mb-5">
 				<thead>
 					<tr>
 						<th>Year</th>

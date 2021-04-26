@@ -8,7 +8,7 @@ export const Pg_Phd = () => {
 	return (
 		<div className="container mt-1">
 			<h2 className="pt-4 mainTitle pb-4 text-center">PG / PhD / Post Doc</h2>
-			<Table striped bordered hover variant="success" responsive>
+			<Table striped bordered hover variant="primary" responsive>
 				<tbody>
 					<tr>
 						<th>S.No</th>

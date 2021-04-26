@@ -88,7 +88,7 @@ export const People = ({ index }) => {
 	});
 
 	const [committee2] = useState({
-		title: "Student International Affairs Cell",
+		title: "Students' International Affairs Cell",
 		members: [
 			[
 				{

@@ -5,34 +5,22 @@ import { Form } from "react-bootstrap";
 
 export const Mou2 = ({ name }) => {
 	const [country, setCountry] = useState("");
-	const [title, setTitle] = useState("");
-	const [faculty, setFaculty] = useState("");
 	const [institution, setInstitution] = useState("");
 
 	return (
-		<div className="container mhrdPage">
+		<div className="container-fluid mhrdPage">
 			<h1 className="pt-4 mainTitle text-center mb-5">
 				{name == "Americas" && "MoUs with American Universities"}
 				{name == "Asia" && "MoUs with Asian Universities"}
 				{name == "Australia" && "MoUs with Australian Universities"}
 				{name == "Europe" && "MoUs with European Universities"}
 			</h1>
-			<Form>
-				<Form.Group controlId="exampleForm.ControlInput1">
-					<Form.Label>Search By Title</Form.Label>
-					<Form.Control
-						type="text"
-						placeholder="Academic Cooperation"
-						onChange={(e) => {
-							setTitle(e.target.value);
-						}}
-					/>
-				</Form.Group>
+			<Form className="container">
 				<Form.Group controlId="exampleForm.ControlInput2">
 					<Form.Label>Search By Institution</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="ABC University"
+						placeholder="Enter the name of the Institution"
 						onChange={(e) => {
 							setInstitution(e.target.value);
 						}}
@@ -42,24 +30,14 @@ export const Mou2 = ({ name }) => {
 					<Form.Label>Search By Country</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="India"
+						placeholder="Enter the name of the Country"
 						onChange={(e) => {
 							setCountry(e.target.value);
 						}}
 					/>
 				</Form.Group>
-				<Form.Group controlId="exampleForm.ControlInput4">
-					<Form.Label>Search By Faculty</Form.Label>
-					<Form.Control
-						type="text"
-						placeholder="DOIA"
-						onChange={(e) => {
-							setFaculty(e.target.value);
-						}}
-					/>
-				</Form.Group>
 			</Form>
-			<Table striped bordered hover variant="success" responsive className="mb-5">
+			<Table striped bordered hover variant="primary" responsive className="mb-5">
 				<thead>
 					<tr>
 						<th>#</th>
@@ -79,17 +57,10 @@ export const Mou2 = ({ name }) => {
 								reg["Country with which there is collation"]
 									.toLowerCase()
 									.indexOf(country) != -1) &&
-							(title == "" ||
-								reg["Purpose/Title"].toLowerCase().indexOf(title.toLowerCase()) !=
-									-1) &&
 							(institution == "" ||
 								reg["Institutions/Organization/Country"]
 									.toLowerCase()
-									.indexOf(institution.toLowerCase()) != -1) &&
-							(faculty == "" ||
-								reg["Coordinating faculty member"]
-									.toLowerCase()
-									.indexOf(faculty.toLowerCase()) != -1) && (
+									.indexOf(institution.toLowerCase()) != -1) && (
 								<tr key={index}>
 									<td>{index + 1}</td>
 									<td>{reg["Institutions/Organization/Country"]}</td>

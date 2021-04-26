@@ -16,7 +16,7 @@ export const CustomTable = ({ cols, data, sort, vars }) => {
 	};
 
 	return (
-		<Table striped bordered hover variant="success" responsive className="mb-5">
+		<Table striped bordered hover variant="primary" responsive className="mb-5">
 			<thead>
 				<tr>
 					{cols.map((col) => {
