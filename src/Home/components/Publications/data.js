@@ -1,5 +1,185 @@
 export const data = [
 	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)": "\tKlionsky Daniel et al.,",
+		Title:
+			"Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition)",
+		"Book/ Journal/ Book chapter/ Conference Name": "Autophagy",
+		"Volume/ Page": "1-382",
+		Year: "2021",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Srikanth Karnati, Michael Seimetz, Florian Kleefeldt, Avinash Sonawane, Madhusudhan Thati, Djuro Kosanovic, Norbert Weissmann, Karsten Krüger, Süleyman Ergün",
+		Title:
+			"Chronic obstructive pulmonary disease (COPD) and the cardiovascular system: vascular repair and regeneration as a therapeutic target. ",
+		"Book/ Journal/ Book chapter/ Conference Name": "Frontiers in Cardiovascular Medicine",
+		"Volume/ Page": "NA (In Press)",
+		Year: "2021",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"\tNatalia Mikhailovna Yudintceva, Natalia Arkadievna Mikhailova, Danila Evhenjevich Bobkov, Liudmila Yakovleva, Boris Nikolaev, Alexandr Muraviov, Tatiana Vinogradova, Petr Yablonskiy, Igor Samusenko, Vyacheslav Ryzhov, Vladimir Deriglazov, Gabriele Multhoff, Alexander Klapproth, Wei Bo Li, Barsha Nayak, Avinash Sonawane, Maxim Shevtsov ",
+		Title:
+			"Evaluation of the biodistribution of mesenchymal stem cells in a preclinical renal tuberculosis model by nonlinear magnetic response measurements.",
+		"Book/ Journal/ Book chapter/ Conference Name": "Frontiers in Physics",
+		"Volume/ Page": "NA (In Press)",
+		Year: "2021",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Ananyaashree Behera, Preeti Jain, Geetanjali Ganguli, Mainak Biswas, Avinash Padhi, Kaliprasad Pattanaik, Barsha Nayak, Süleyman Ergün, Mohd. Saqib, Bibhuti Mishra, Srikanth Karnati and Avinash Sonawane ",
+		Title:
+			"Mycobacterium tuberculosis acetyltransferase suppresses oxidative stress by inducing peroxisome formation in macrophages. ",
+		"Book/ Journal/ Book chapter/ Conference Name": "mBio",
+		"Volume/ Page": "NA (Under revision)",
+		Year: "2021",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Sumanta Kumar Naik, Kaliprasad Pattanaik, Jacqueline Eich, Vivien Sparr, Matthias Hauptmann, Barbara Kalsdorf, Nobert Reiling, Wolfgang Liedtke, Wolfgang M. Kuebler, Ulrich E. Schaible and Avinash Sonawane.",
+		Title:
+			"Differential roles of the ion channel TRPV4 in host responses to Mycobacterium tuberculosis early and late in infection. ",
+		"Book/ Journal/ Book chapter/ Conference Name": "iScience",
+		"Volume/ Page": "23 (6), p.101206",
+		Year: "2020",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)": "Pati R, Shevtsov M., and Sonawane A. ",
+		Title: "Nanoparticle Vaccines Against Infectious Diseases.",
+		"Book/ Journal/ Book chapter/ Conference Name": "Frontiers in Immunology",
+		"Volume/ Page": "9, p.2224",
+		Year: "2018",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Mohanty S, Dal Molin M, Ganguli G, Padhi A, JenaP, Selchow P, SenguptaS, Meuli M, Sander P and Sonawane A ",
+		Title:
+			"Mycobacterium tuberculosis EsxO (Rv2346c) promotes bacillary survival by inducing oxidative stress mediated genomic instability in macrophages. ",
+		"Book/ Journal/ Book chapter/ Conference Name": "Tuberculosis (Edinb)",
+		"Volume/ Page": "96:44-57",
+		Year: "2016",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Klionsky DJ, Abdelmohsen K, Abe A, Abedin MJ, Abeliovich H, Acevedo Arozena A. Sonawane A et al.,",
+		Title:
+			"Guidelines for the use and interpretation of assays for monitoring autophagy (3rd edition)",
+		"Book/ Journal/ Book chapter/ Conference Name": "Autophagy",
+		"Volume/ Page": "12(1):1-222",
+		Year: "2016",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Mohanty, S., Jagannathan, L., Ganguli G., Padhi, A., Alaridah, A., Saha, P., Godaly, G.,Banerjee, S., Sonawane, A. ",
+		Title:
+			"Mycobacterium tuberculosis phosphoribosyltransferase modulates antibacterial effector functions leading to evasion of innate immunity in macrophages and Zebra fish. ",
+		"Book/ Journal/ Book chapter/ Conference Name": "J. Biol. Chem",
+		"Volume/ Page": "290(21):13321-43",
+		Year: "2015",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)": "Padhi, A., Sengupta, M., Sengupta, S., Roehm, K., Sonawane, A. ",
+		Title:
+			"Antimicrobial peptides and proteins in mycobacterial therapy: current status and future prospects.",
+		"Book/ Journal/ Book chapter/ Conference Name": "Tuberculosis (Edinb)",
+		"Volume/ Page": "94(4), 363-\r\n73",
+		Year: "2014",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Mehta, R., Verma, S., Sengupta, M., Pati, R., Khatua, B., Jena, R., Sethy, S., Rohm, K., Mandal, C., Sonawane, A. ",
+		Title:
+			"Mutations in subunit interfaces and B-cell epitopes improve antileukemic activities of Escherichia coli L-asparaginase-II: Evaluation of immunogenicity in mice.",
+		"Book/ Journal/ Book chapter/ Conference Name": "J. Biol. Chem",
+		"Volume/ Page": "289(6), 3555-70",
+		Year: "2014",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)": "Verma, S., Mehta, R., Maiti, P., Roehm, K., Sonawane, A. ",
+		Title:
+			"Improvement of stability and enzymatic activity by site-directed mutagenesis of E. coli asparaginase II",
+		"Book/ Journal/ Book chapter/ Conference Name": "Biochim Biophys Acta.",
+		"Volume/ Page": "1844(7), 1219-30",
+		Year: "2014",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Jena, P., Mohanty, S., Mohanty, T., Kallert, S., Morgelin, M., Lindstrom,T., Niels, B., Stenger, S., Sonawane, A.,* Sorensen, O.E.* ",
+		Title:
+			"Azurophil granule proteins constitute the major mycobactericidal proteins in human neutrophils and enhance the intracellular killing of mycobacteria in macrophages.",
+		"Book/ Journal/ Book chapter/ Conference Name": "PLoS ONE",
+		"Volume/ Page": "7(12), e50345",
+		Year: "2012",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)": "Sonawane, A.,* Mohanty, S., Jagannathan, L., Bekolay, A., Banerjee, S., ",
+		Title:
+			"Role of glycans and glycoproteins in disease development by Mycobacterium tuberculosis.",
+		"Book/ Journal/ Book chapter/ Conference Name": "Critical Review in Microbiology",
+		"Volume/ Page": "38(3), 250-266 ",
+		Year: "2012",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Sonawane, A.*, Santos, J., Mishra, B., Jena, P., Progida, C., Sorensen, O.E., Gallo, R., Appelberg, R., Griffiths, G. ",
+		Title:
+			"Cathelicidin is involved in the intra-cellular killing of mycobacteria in macrophages. ",
+		"Book/ Journal/ Book chapter/ Conference Name": "Cellular Microbiology",
+		"Volume/ Page": "13(10),1601-1617 ",
+		Year: "2011",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)": "Jena, P., Mishra. B., Leippe. M., Hasilik, A., Griffiths, G., Sonawane, A. ",
+		Title:
+			"Membrane-active antimicrobial peptides and human placental lysosomal extracts are highly active against mycobacteria. ",
+		"Book/ Journal/ Book chapter/ Conference Name": "Peptides",
+		"Volume/ Page": "32, 881-7",
+		Year: "2011",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Author(s)":
+			"Mishra, B.B., Moura-Alves, P., Sonawane, A., Hacohen, N., Griffiths, G., Moita, L.F., Anes, E. ",
+		Title:
+			"Mycobacterium tuberculosis Protein ESAT-6 is a Potent Activator of the NLRP3/ASC Inflammasome. ",
+		"Book/ Journal/ Book chapter/ Conference Name": "Cellular Microbiology",
+		"Volume/ Page": "12:1046-63",
+		Year: "2010",
+	},
+	{
 		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
 		Department: "Chemistry",
 		"Author(s)":

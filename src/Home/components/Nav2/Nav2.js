@@ -337,6 +337,182 @@ export const Nav2 = () => {
 										history.push("/opportunities/scholarship");
 									},
 								},
+								{
+									title: "Indo - French",
+									isAuth: true,
+									icon: null,
+									subItems: [
+										{
+											title: "Raman-Charpak Fellowship",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"http://www.cefipra.org/Raman_Charpak.aspx"
+												);
+											},
+										},
+										{
+											title: "CEFIPRA-ESONN Fellowship",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"http://www.cefipra.org/Cefipra_ESONN.aspx"
+												);
+											},
+										},
+										{
+											title: "ENS Internship program",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"http://www.ens-lyon.fr/en/studies/admissions/application-research-internship"
+												);
+											},
+										},
+									],
+								},
+								{
+									title: "Indo - Japan",
+									isAuth: true,
+									icon: null,
+									subItems: [
+										{
+											title: "JSPS",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.jsps.go.jp/english/");
+											},
+										},
+										{
+											title: "MEXT Scholarship",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.in.emb-japan.go.jp/Education/japanese_government_scholarships.html"
+												);
+											},
+										},
+									],
+								},
+								{
+									title: "Indo - Germany",
+									isAuth: true,
+									icon: null,
+									subItems: [
+										{
+											title: "Alexander von Humboldt Foundation",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.humboldt-foundation.de/en/"
+												);
+											},
+										},
+										{
+											title: "DAAD",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.daad.in/en/study-research-in-germany/"
+												);
+											},
+										},
+										{
+											title: "Indo-German Science & Technology Center",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.igstc.org");
+											},
+										},
+										{
+											title: "German Language",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.goethe.de/ins/in/en/sta/new.html"
+												);
+											},
+										},
+										{
+											title: "Indo-German Training Centre",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://indien.ahk.de/education/indo-german-training-centre"
+												);
+											},
+										},
+									],
+								},
+								{
+									title: "Indo - USA",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://www.iusstf.org/");
+									},
+								},
+								{
+									title: "Indo - UK",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open(
+											"https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/"
+										);
+									},
+								},
+								{
+									title: "Indo - Asean",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://aistic.gov.in/ASEAN/HomePage");
+									},
+								},
+								{
+									title: "Indo - Canada",
+									isAuth: true,
+									icon: null,
+									subItems: [
+										{
+											title: "Indo-Shastri Canadian Institute",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.shastriinstitute.org/");
+											},
+										},
+										{
+											title: "Indo-Canada Education Council",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://indocanadaeducation.org/");
+											},
+										},
+										{
+											title: "MITACS",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.mitacs.ca/en/programs/globalink/come-to-canada"
+												);
+											},
+										},
+									],
+								},
 							],
 						},
 						{
