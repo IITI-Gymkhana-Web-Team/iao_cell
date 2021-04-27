@@ -108,7 +108,7 @@ export const Nav2 = () => {
 							],
 						},
 						{
-							title: "Mobility Exchange",
+							title: "Mobility",
 							isAuth: true,
 							icon: null,
 							subItems: [
@@ -233,14 +233,6 @@ export const Nav2 = () => {
 												history.push("/ProsFaculty/visa");
 											},
 										},
-										{
-											title: "Places To Visit",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsFaculty/places");
-											},
-										},
 									],
 								},
 								{
@@ -272,25 +264,25 @@ export const Nav2 = () => {
 												history.push("/ProsStud/visa");
 											},
 										},
-										{
-											title: "Places To Visit",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsStud/places");
-											},
-										},
-										{
-											title: "Visitors' Experience",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsStud/visitors_experience");
-											},
-										},
 									],
 								},
 							],
+						},
+						{
+							title: "Places To Visit",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/Pros/places");
+							},
+						},
+						{
+							title: "Visitors' Experience",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/Pros/visitors_experience");
+							},
 						},
 						// {
 						// 	title: "Outbound",
@@ -330,11 +322,11 @@ export const Nav2 = () => {
 									},
 								},
 								{
-									title: "B.Tech",
+									title: "Internships",
 									isAuth: true,
 									icon: null,
 									onClick: () => {
-										history.push("/opportunities/btech");
+										history.push("/opportunities/internships");
 									},
 								},
 								{
@@ -454,19 +446,19 @@ export const Nav2 = () => {
 					icon: null,
 					subItems: [
 						{
-							title: "News",
-							isAuth: true,
-							icon: null,
-							onClick: () => {
-								history.push("/outreach/news");
-							},
-						},
-						{
 							title: "Events",
 							isAuth: true,
 							icon: null,
 							onClick: () => {
 								history.push("/outreach/events");
+							},
+						},
+						{
+							title: "News",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/outreach/news");
 							},
 						},
 					],

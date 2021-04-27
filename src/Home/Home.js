@@ -34,7 +34,7 @@ import { Grants } from "./components/Grants/Grants";
 import { Publications } from "./components/Publications/Publications";
 import { Ghouse } from "./components/Ghouse/Ghouse";
 import { Nav2 } from "./components/Nav2/Nav2";
-import { Btech } from "./components/Btech/Btech";
+import { Internships } from "./components/Internships/Internships";
 import { Dean } from "./components/Dean";
 
 export const Home = () => {
@@ -84,14 +84,13 @@ export const Home = () => {
 					<Route path="/LifeIITI" exact component={LifeIITI} />
 					<Route path="/guestHouse" exact component={Ghouse} />
 					<Route path="/ProsStud/visa" exact component={Visa} />
-					<Route path="/ProsStud/places" exact component={Places} />
 					<Route path="/ProsStud/admission" exact component={Admission} />
 					<Route path="/ProsStud/programs" exact component={Programs} />
-					<Route path="/ProsStud/visitors_experience" exact component={Testimonials} />
+					<Route path="/Pros/places" exact component={Places} />
+					<Route path="/Pros/visitors_experience" exact component={Testimonials} />
 					<Route path="/ProsFaculty/visa" exact component={Visa} />
-					<Route path="/ProsFaculty/places" exact component={Places} />
 					<Route path="/opportunities/pg_phd_post_doc" exact component={Pg_Phd} />
-					<Route path="/opportunities/btech" exact component={Btech} />
+					<Route path="/opportunities/internships" exact component={Internships} />
 					<Route path="/opportunities/scholarship" exact component={Scholarship} />
 					<Route path="/outreach/news" exact component={NewsPage} />
 					<Route path="/outreach/news/:id" exact component={IndiNews} />
