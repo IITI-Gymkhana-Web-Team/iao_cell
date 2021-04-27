@@ -557,14 +557,6 @@ export const Nav2 = () => {
 							},
 						},
 						{
-							title: "Smart card facility",
-							isAuth: true,
-							icon: null,
-							onClick: () => {
-								window.open("http://people.iiti.ac.in/~smartcard/CampusCards.html");
-							},
-						},
-						{
 							title: "Transport Booking",
 							isAuth: true,
 							icon: null,

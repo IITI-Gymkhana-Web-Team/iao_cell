@@ -47,7 +47,6 @@ export const Mou2 = ({ name }) => {
 						<th>Coordinating faculty</th>
 						<th>Signed on</th>
 						<th>Duration</th>
-						<th>Country</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -69,7 +68,6 @@ export const Mou2 = ({ name }) => {
 									<td>{reg["Coordinating faculty member"]}</td>
 									<td>{reg["Signed on"]}</td>
 									<td>{reg["Duration"]}</td>
-									<td>{reg["Country with which there is collation"]}</td>
 								</tr>
 							)
 						);

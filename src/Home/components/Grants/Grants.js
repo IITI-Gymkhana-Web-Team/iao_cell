@@ -25,7 +25,7 @@ export const Grants = () => {
 					<Form.Label>Search By Faculty</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="Dr. ABC"
+						placeholder="Faculty Name"
 						onChange={(e) => {
 							setFaculty(e.target.value);
 						}}
