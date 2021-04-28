@@ -69,7 +69,7 @@ export const Nav2 = () => {
 					icon: null,
 					subItems: [
 						{
-							title: "MOU",
+							title: "MoUs",
 							isAuth: true,
 							icon: null,
 							subItems: [

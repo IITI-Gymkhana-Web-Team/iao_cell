@@ -12,6 +12,7 @@ export const NewsPage = () => {
 					{data.map((news, index) => {
 						return (
 							<Newscard
+								className="text-justify"
 								img={news.image}
 								title={news.title}
 								text={news.desc}

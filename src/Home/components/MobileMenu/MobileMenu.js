@@ -35,7 +35,7 @@ export const MobileMenu = ({ show, setShow }) => {
 			name: "Collaborations",
 			innerLinks: [
 				{
-					name: "MOU",
+					name: "MoUs",
 					innerLinks: [
 						{
 							name: "Asian Universities",

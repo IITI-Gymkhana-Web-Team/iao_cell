@@ -2,7 +2,7 @@ import React from "react";
 import { iiti_2 } from "../../../assets";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
-import { FaInstagram, FaFacebookSquare, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaFacebookSquare, FaLinkedin, FaEnvelope , FaTwitter } from "react-icons/fa";
 
 export const Footer = () => {
 	return (
@@ -47,24 +47,20 @@ export const Footer = () => {
 						<Col xs={12} lg={3}>
 							<div className="links mt-0 font-ubuntu">
 								<h4 className="font-acme">QUICK LINKS</h4>
-								<a target="_blank" href="http://rnd.iiti.ac.in/">
-									Research
+								<a target="_blank" href="https://academic.iiti.ac.in/">
+									Academic
 								</a>
 								<br></br>
-								<a target="_blank" href="http://iiti.ac.in/page/administration">
-									Administration
+								<a target="_blank" href="http://rnd.iiti.ac.in/">
+									Research
 								</a>
 								<br></br>
 								<a target="_blank" href="http://library.iiti.ac.in/">
 									Library
 								</a>
 								<br></br>
-								<a target="_blank" href="http://iiti.ac.in/resources-generation">
-									Resource Generation
-								</a>
-								<br></br>
-								<a target="_blank" href="http://people.iiti.ac.in/~sic/">
-									SIC
+								<a target="_blank" href="http://iiti.ac.in/page/campus-facilities">
+									Campus Facilities
 								</a>
 							</div>
 						</Col>
@@ -74,11 +70,14 @@ export const Footer = () => {
 								<a href="#" target="_blank">
 									<FaInstagram className="pop-out" />
 								</a>
-								<a href="#" target="_blank">
+								<a href="https://www.facebook.com/pages/Indian%20Institute%20of%20Technology%20Indore/112510072096662/" target="_blank">
 									<FaFacebookSquare className="pop-out" />
 								</a>
-								<a href="#" target="_blank">
+								<a href="https://www.linkedin.com/school/iit-indore/" target="_blank">
 									<FaLinkedin className="pop-out" />
+								</a>
+								<a href="https://twitter.com/IITIOfficial" target="_blank">
+									<FaTwitter className="pop-out" />
 								</a>
 							</div>
 						</Col>
