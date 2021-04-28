@@ -6,21 +6,6 @@ export const Scholarship = () => {
 			<h2 className="font-acme mb-5">List of Scholarships Deadline in March 2021</h2>
 
 			<div className="panel-body">
-				<h4 className="font-acme">Germany Government Scholarship</h4>
-				<p>
-					Apply For Germany Government Scholarship For International Students. They are
-					accepting applications from All Nationalities.&nbsp;Requirements of Study in
-					Germany is an entirely easy process. The government each year gives admission
-					to&nbsp;<strong>100,000 Students. Students</strong>&nbsp;having any&nbsp;
-					<strong>Academic Background</strong>&nbsp;are eligible.
-					<br />
-					To Apply&nbsp;
-					<a href="https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?status=3&amp;origin=190&amp;subjectGrps=F&amp;daad=&amp;intention=&amp;q=&amp;page=1&amp;detail=50076777">
-						<strong>Please Visit the Official website of the DAAD.</strong>
-					</a>
-				</p>
-				<br />
-
 				<h4 className="font-acme">University of Alberta Scholarships in Canada</h4>
 				<p>
 					University of Alberta Scholarships in Canada is giving an amazing opportunity to
@@ -38,25 +23,6 @@ export const Scholarship = () => {
 					</a>
 				</p>
 				<br />
-
-				<h4 className="font-acme">Singapore University of Technology Scholarship: </h4>
-
-				<p>
-					Applicants from All over the world can apply for SUTD Singapore Scholarships.
-					Undergraduate Degree, Master Degree &amp; Doctoral degree are available.
-					Singapore University of Technology and Design is ranked at&nbsp;
-					<strong>#507 in QS Global Ranking.</strong>
-					<br />
-					To Apply,{" "}
-					<a href="https://www.sutd.edu.sg/Admissions/Undergraduate/Application/Application-Timeline">
-						<strong>
-							Please&nbsp;Visit the Official website fo the Singapore University of
-							Technology.&nbsp;
-						</strong>
-					</a>
-				</p>
-				<br />
-
 				<h4 className="font-acme">Qatar University Scholarships</h4>
 				<p>
 					<strong>Qatar University Scholarships</strong>&nbsp;2021 for&nbsp;
@@ -107,25 +73,6 @@ export const Scholarship = () => {
 						</strong>
 					</a>
 				</p>
-				<br />
-
-				<h4 className="font-acme">Netherland Government Scholarship</h4>
-				<p>
-					3rd round of OKP Scholarships in the Netherlands&nbsp;is now open for
-					international students across the world. There are many other scholarships for
-					different nationality holders.&nbsp; Netherlands Scholarships Orange Knowledge
-					Program is For&nbsp;
-					<strong>Master Degree Program &amp; Free Short Courses.</strong>
-					<br />
-					To Apply{" "}
-					<a href="https://www.studyinholland.nl/finances/orange-knowledge-programme">
-						<strong>
-							Please&nbsp;Visit the Official link of OKP Netherlands Scholarships
-						</strong>
-					</a>
-				</p>
-				<br />
-
 				<h4 className="font-acme">ICDF Taiwan Scholarship</h4>
 				<p>
 					This is a Fully Funded Scholarship for International Students to continue&nbsp;
@@ -229,57 +176,6 @@ export const Scholarship = () => {
 					</a>
 				</p>
 				<br />
-
-				<h4 className="font-acme">
-					Various French Scholarships offered to Indian Students:
-				</h4>
-				<strong>
-					<p>
-						<a href="https://www.inde.campusfrance.org/scholarships-for-indian-students">
-							https://www.inde.campusfrance.org/scholarships-for-indian-students
-						</a>
-						<br />
-
-						<a href="https://www.inde.campusfrance.org/charpak-scholarship">
-							https://www.inde.campusfrance.org/charpak-scholarship
-						</a>
-						<br />
-
-						<a href="https://www.inde.campusfrance.org/raman-charpak-fellowship">
-							https://www.inde.campusfrance.org/raman-charpak-fellowship
-						</a>
-						<br />
-
-						<a href="https://www.inde.campusfrance.org/">
-							https://www.inde.campusfrance.org/
-						</a>
-						<br />
-
-						<a href="https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence">
-							eiffel-scholarship-program-of-excellence
-						</a>
-						<br />
-
-						<a href="https://www.inde.campusfrance.org/mopga">
-							https://www.inde.campusfrance.org/mopga
-						</a>
-						<br />
-
-						<a href="https://www.inde.campusfrance.org/franco-indian-education-trust-0">
-							https://www.inde.campusfrance.org/franco-indian-education-trust-0
-						</a>
-						<br />
-
-						<a href="https://www.inde.campusfrance.org/co-financed-and-joint-scholarships">
-							https://www.inde.campusfrance.org/co-financed-and-joint-scholarships
-						</a>
-						<br />
-
-						<a href="https://www.inde.campusfrance.org/institutional-and-other-scholarships">
-							https://www.inde.campusfrance.org/institutional-and-other-scholarships
-						</a>
-					</p>
-				</strong>
 			</div>
 		</div>
 	);

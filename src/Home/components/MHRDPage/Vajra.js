@@ -64,7 +64,7 @@ export const Vajra = () => {
 	const [name] = useState("VAJRA");
 
 	const [desc] = useState(
-		"Dolor consectetur magna esse amet laborum commodo mollit quis irure. Laboris velit excepteur in veniam in ex. Dolore aliqua esse Lorem sint.Dolor consectetur magna esse amet laborum commodo mollit quis irure. Laboris velit excepteur in veniam in ex. Dolore aliqua esse Lorem sint.Deserunt eiusmod proident incididunt dolore ullamco aliquip nulla. Nulla aliquip officia commodo do qui. Excepteur aliquip quis cupidatat culpa aute consequat eu exercitation. Do voluptate velit excepteur elit nostrud. Culpa ad excepteur Lorem quis consectetur ut nulla sunt consectetur ea in adipisicing. Consequat eiusmod aliqua officia esse ullamco aliquip deserunt."
+		"VAJRA (Visiting Advanced Joint Research) Faculty Scheme is a dedicated program exclusively for overseas scientists and academicians with emphasis on Non-resident Indians (NRI) and Persons of Indian Origin (PIO) / Overseas Citizen of India (OCI) to work as adjunct / visiting faculty for a specific period of time in Indian Public funded academic and research institutions. The Scheme recognizes the value of collaborative research as a crucial element for information sharing among researchers for updating and acquiring knowledge and skills, and also to draw different perspectives to solve a shared problem. SERB welcomes accomplished Overseas Scientists to take up challenging research problems in the Indian setting."
 	);
 
 	return (

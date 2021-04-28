@@ -67,7 +67,7 @@ export const MHRDPage = ({ info, name, person, insti, desc }) => {
 					<Form.Label>Search By Title</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="Use of Hydrogen as a Future Fuel"
+						placeholder="Enter the title"
 						onChange={(e) => {
 							setTitle(e.target.value);
 						}}
@@ -77,7 +77,7 @@ export const MHRDPage = ({ info, name, person, insti, desc }) => {
 					<Form.Label>Search By IITI PI</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="Dr. ABC"
+						placeholder="Search by IITI PI"
 						onChange={(e) => {
 							setIitiPi(e.target.value);
 						}}
@@ -87,7 +87,7 @@ export const MHRDPage = ({ info, name, person, insti, desc }) => {
 					<Form.Label>Search By Domain</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="Science & Heritage"
+						placeholder="Search by Domain Name"
 						onChange={(e) => {
 							setDomain(e.target.value);
 						}}

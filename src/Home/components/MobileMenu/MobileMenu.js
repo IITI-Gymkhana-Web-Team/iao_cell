@@ -321,12 +321,6 @@ export const MobileMenu = ({ show, setShow }) => {
 					level: "2",
 				},
 				{
-					name: "Smart card facility",
-					link:
-						"http://people.iiti.ac.in/~smartcard/CampusCards.html",
-					level: "2",
-				},
-				{
 					name: "Transport Booking",
 					link: "http://vbs.iiti.ac.in/",
 					level: "2",

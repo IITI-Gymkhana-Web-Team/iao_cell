@@ -108,7 +108,7 @@ export const Nav2 = () => {
 							],
 						},
 						{
-							title: "Mobility Exchange",
+							title: "Mobility",
 							isAuth: true,
 							icon: null,
 							subItems: [
@@ -211,12 +211,12 @@ export const Nav2 = () => {
 					],
 				},
 				{
-					title: "Prospective",
+					title: "Inbound",
 					isAuth: true,
 					icon: null,
 					subItems: [
 						{
-							title: "Inbound",
+							title: "Visitors",
 							isAuth: true,
 							icon: null,
 							subItems: [
@@ -231,14 +231,6 @@ export const Nav2 = () => {
 											icon: null,
 											onClick: () => {
 												history.push("/ProsFaculty/visa");
-											},
-										},
-										{
-											title: "Places To Visit",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsFaculty/places");
 											},
 										},
 									],
@@ -272,47 +264,61 @@ export const Nav2 = () => {
 												history.push("/ProsStud/visa");
 											},
 										},
-										{
-											title: "Places To Visit",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsStud/places");
-											},
-										},
-										{
-											title: "Visitors' Experience",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsStud/visitors_experience");
-											},
-										},
 									],
 								},
 							],
 						},
-						// {
-						// 	title: "Outbound",
-						// 	isAuth: true,
-						// (icon: null),
-						// 	subItems: [
-						// 		{
-						// 			title: "Faculty",
-						// 			isAuth: true,
-						// (icon: null),
-						// 		},
-						// 		{
-						// 			title: "Student",
-						// 			isAuth: true,
-						// (icon: null),
-						// 		},
-						// 	],
-						// },
+						{
+							title: "Opportunity",
+							isAuth: true,
+							icon: null,
+							subItems: [
+								{
+									title: "Study In India",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://studyinindia.gov.in/");
+									},
+								},
+								{
+									title: "ICCR",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://www.iccr.gov.in/");
+									},
+								},
+								{
+									title: "ASEAN India STIC",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://asean-iit.in/");
+									},
+								},
+							],
+						},
+						{
+							title: "Places To Visit",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/Pros/places");
+							},
+						},
+						{
+							title: "Visitors' Experience",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/Pros/visitors_experience");
+							},
+						},
 					],
 				},
 				{
-					title: "Opportunities",
+					title: "Outbound",
 					isAuth: true,
 					icon: null,
 					subItems: [
@@ -330,20 +336,253 @@ export const Nav2 = () => {
 									},
 								},
 								{
-									title: "B.Tech",
+									title: "Internships",
 									isAuth: true,
 									icon: null,
 									onClick: () => {
-										history.push("/opportunities/btech");
+										history.push("/opportunities/internships");
 									},
 								},
 								{
 									title: "Scholarships",
 									isAuth: true,
 									icon: null,
+									subItems: [
+										{
+											title: "China",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"http://www.anso.org.cn/programmes/talent/scholarship/"
+												);
+											},
+										},
+										{
+											title: "Taiwan",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.icdf.org.tw/ct.asp?xItem=12505&CtNode=30316&mp=2"
+												);
+											},
+										},
+										{
+											title: "Spain",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.crg.eu/en/content/training/undergraduates-and-masters"
+												);
+											},
+										},
+										{
+											title: "Austria",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.scholarships.at/default.aspx"
+												);
+											},
+										},
+										{
+											title: "New Zealand",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.nzscholarships.govt.nz/");
+											},
+										},
+										{
+											title: "Thailand",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.ait.ac.th/admissions/scholarships/bangchak-master-scholarships/"
+												);
+											},
+										},
+									],
+								},
+								{
+									title: "Indo - French",
+									isAuth: true,
+									icon: null,
+									subItems: [
+										{
+											title: "Raman-Charpak Fellowship",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"http://www.cefipra.org/Raman_Charpak.aspx"
+												);
+											},
+										},
+										{
+											title: "CEFIPRA-ESONN Fellowship",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"http://www.cefipra.org/Cefipra_ESONN.aspx"
+												);
+											},
+										},
+										{
+											title: "ENS Internship program",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"http://www.ens-lyon.fr/en/studies/admissions/application-research-internship"
+												);
+											},
+										},
+									],
+								},
+								{
+									title: "Indo - Japan",
+									isAuth: true,
+									icon: null,
+									subItems: [
+										{
+											title: "JSPS",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.jsps.go.jp/english/");
+											},
+										},
+										{
+											title: "MEXT Scholarship",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.in.emb-japan.go.jp/Education/japanese_government_scholarships.html"
+												);
+											},
+										},
+									],
+								},
+								{
+									title: "Indo - Germany",
+									isAuth: true,
+									icon: null,
+									subItems: [
+										{
+											title: "Alexander von Humboldt Foundation",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.humboldt-foundation.de/en/"
+												);
+											},
+										},
+										{
+											title: "DAAD",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.daad.in/en/study-research-in-germany/"
+												);
+											},
+										},
+										{
+											title: "Indo-German Science & Technology Center",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.igstc.org");
+											},
+										},
+										{
+											title: "German Language",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.goethe.de/ins/in/en/sta/new.html"
+												);
+											},
+										},
+										{
+											title: "Indo-German Training Centre",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://indien.ahk.de/education/indo-german-training-centre"
+												);
+											},
+										},
+									],
+								},
+								{
+									title: "Indo - USA",
+									isAuth: true,
+									icon: null,
 									onClick: () => {
-										history.push("/opportunities/scholarship");
+										window.open("https://www.iusstf.org/");
 									},
+								},
+								{
+									title: "Indo - UK",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open(
+											"https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/"
+										);
+									},
+								},
+								{
+									title: "Indo - Asean",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://aistic.gov.in/ASEAN/HomePage");
+									},
+								},
+								{
+									title: "Indo - Canada",
+									isAuth: true,
+									icon: null,
+									subItems: [
+										{
+											title: "Indo-Shastri Canadian Institute",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.shastriinstitute.org/");
+											},
+										},
+										{
+											title: "Indo-Canada Education Council",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://indocanadaeducation.org/");
+											},
+										},
+										{
+											title: "MITACS",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.mitacs.ca/en/programs/globalink/come-to-canada"
+												);
+											},
+										},
+									],
 								},
 							],
 						},
@@ -454,19 +693,19 @@ export const Nav2 = () => {
 					icon: null,
 					subItems: [
 						{
-							title: "News",
-							isAuth: true,
-							icon: null,
-							onClick: () => {
-								history.push("/outreach/news");
-							},
-						},
-						{
 							title: "Events",
 							isAuth: true,
 							icon: null,
 							onClick: () => {
 								history.push("/outreach/events");
+							},
+						},
+						{
+							title: "News",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/outreach/news");
 							},
 						},
 					],
@@ -554,14 +793,6 @@ export const Nav2 = () => {
 							icon: null,
 							onClick: () => {
 								window.open("http://iiti.ac.in/page/e-payments");
-							},
-						},
-						{
-							title: "Smart card facility",
-							isAuth: true,
-							icon: null,
-							onClick: () => {
-								window.open("http://people.iiti.ac.in/~smartcard/CampusCards.html");
 							},
 						},
 						{

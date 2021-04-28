@@ -779,7 +779,7 @@ export const Gian = () => {
 	});
 
 	const [desc] = useState(
-		"Dolor consectetur magna esse amet laborum commodo mollit quis irure. Laboris velit excepteur in veniam in ex. Dolore aliqua esse Lorem sint.Dolor consectetur magna esse amet laborum commodo mollit quis irure. Laboris velit excepteur in veniam in ex. Dolore aliqua esse Lorem sint.Deserunt eiusmod proident incididunt dolore ullamco aliquip nulla. Nulla aliquip officia commodo do qui. Excepteur aliquip quis cupidatat culpa aute consequat eu exercitation. Do voluptate velit excepteur elit nostrud. Culpa ad excepteur Lorem quis consectetur ut nulla sunt consectetur ea in adipisicing. Consequat eiusmod aliqua officia esse ullamco aliquip deserunt."
+		"Govt. of India approved a new program titled Global Initiative of Academic Networks (GIAN) in Higher Education aimed at tapping the talent pool of scientists and entrepreneurs, internationally to encourage their engagement with the institutes of Higher Education in India so as to augment the country's existing academic resources, accelerate the pace of quality reform, and elevate India's scientific and technological capacity to global excellence."
 	);
 
 	const [name] = useState("GIAN");

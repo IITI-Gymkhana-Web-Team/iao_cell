@@ -40,7 +40,7 @@ export const Mou2 = ({ name }) => {
 			<Table striped bordered hover variant="primary" responsive className="mb-5">
 				<thead>
 					<tr>
-						<th>#</th>
+						<th>S.No</th>
 						<th>Institution/Organization/Country</th>
 						<th>Nature</th>
 						<th>Purpose/Title</th>
