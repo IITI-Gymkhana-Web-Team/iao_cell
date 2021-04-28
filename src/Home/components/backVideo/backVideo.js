@@ -2,8 +2,9 @@ import React from "react";
 import { data } from "./data";
 import CountUp from "react-countup";
 import { Col, Row, Card } from "react-bootstrap";
-import videoo from "../../../assets/bgvideo.mp4";
+import videoo from "../../../assets/bgvideo2.mp4";
 import { GiStarsStack } from "react-icons/gi";
+import wheat from "../../../assets/wheat.png";
 import "./backVideo.css";
 
 export const BackVideo = () => {
@@ -21,7 +22,7 @@ export const BackVideo = () => {
 				<source src={videoo} type="video/mp4" />
 			</video>
 			<div className="content">
-				<Row>
+				<Row className="row1">
 					{data.map((value, index) => {
 						return (
 							<Col lg={4} className="column" key={index}>
@@ -37,11 +38,40 @@ export const BackVideo = () => {
 									</Card.Body>
 								</Card> */}
 								<div
-									className="text-center m-4 cardBox"
-									style={{ backgroundColor: "transparent" }}
+									className="text-center cardBox"
+									style={{
+										backgroundColor: "transparent",
+									}}
 								>
-									<GiStarsStack className="circle" />
-									<CountUp className="rank" end={value.Ranking} duration={8} />
+									<div
+										style={{
+											display: "flex",
+											justifyContent: "center",
+											alignItems: "center",
+										}}
+									>
+										<img
+											src={wheat}
+											style={{
+												maxWidth: "min(200px,80vw)",
+												position: "absolute",
+											}}
+										/>
+										<div
+											style={{
+												display: "flex",
+											}}
+										>
+											<h1>#&nbsp;</h1>
+											<h1>
+												<CountUp
+													className="rank"
+													end={value.Ranking}
+													duration={4}
+												/>
+											</h1>
+										</div>
+									</div>
 									<p className="rankText text-center">{value.Heading}</p>
 								</div>
 							</Col>
