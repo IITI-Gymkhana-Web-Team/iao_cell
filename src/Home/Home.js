@@ -36,6 +36,7 @@ import { Ghouse } from "./components/Ghouse/Ghouse";
 import { Nav2 } from "./components/Nav2/Nav2";
 import { Internships } from "./components/Internships/Internships";
 import { Dean } from "./components/Dean";
+import { Director } from "./components/Director/Director";
 
 export const Home = () => {
 	return (
@@ -146,6 +147,7 @@ export const Home = () => {
 						}}
 					/>
 					<Route path="/dean" component={Dean} />
+					<Route path="/director" component={Director} />
 					<Route component={NotFound} />
 				</Switch>
 			</div>

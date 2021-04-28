@@ -11,7 +11,13 @@ export default function Message() {
 	return (
 		<>
 			<ScrollAnimation animateIn="slideInRight" animateOnce={true}>
-				<div className="container mt-3 messageBox" style={{ borderRadius: "10px" }}>
+				<div
+					className="container mt-3 messageBox"
+					style={{ borderRadius: "10px" }}
+					onClick={() => {
+						history.push("/director");
+					}}
+				>
 					<div className="container-fluid p-3">
 						<img src={neelesh} className="img-thumbnail" alt="img-responsive" />
 						<div className="mb-2">
@@ -30,11 +36,11 @@ export default function Message() {
 								<FaQuoteLeft className="fa2" />
 								<div className="text ml-4">
 									<p>
-										Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry. Lorem Ipsum has been the industry's
-										standard dummy text ever since the 1500s, when an unknown
-										printer took a galley of type and scrambled it to make a
-										type specimen book.
+										As IIT Indore steps into the next decade, it carries forward
+										the culture of excellence and hard work embedded in its
+										social environment by maximizing the internationalization of
+										higher education globally and enhancing the excellence among
+										the faculties and students.
 									</p>
 								</div>
 								<FaQuoteRight className="fa1" />
