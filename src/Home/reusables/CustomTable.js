@@ -19,6 +19,7 @@ export const CustomTable = ({ cols, data, sort, vars }) => {
 		<Table striped bordered hover variant="primary" responsive className="mb-5">
 			<thead>
 				<tr>
+					<th>#</th>
 					{cols.map((col) => {
 						return <th>{col}</th>;
 					})}
@@ -29,6 +30,7 @@ export const CustomTable = ({ cols, data, sort, vars }) => {
 					return (
 						(!sort || ifAllowed(row)) && (
 							<tr key={index} style={{ whiteSpace: "pre-wrap" }}>
+								<td>{index + 1}</td>
 								{cols.map((col) => {
 									return <td>{row[col] || "-"}</td>;
 								})}
