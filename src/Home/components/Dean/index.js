@@ -8,7 +8,7 @@ export const Dean = () => {
 		<div className="container bg-light font-ubuntu dean pb-5">
 			<h1 className="mb-3">Dean's Message</h1>
 			<img src={av2} alt="dean" />
-			<div>
+			<div className="text-justify">
 				<p>
 					<b>IIT Indore</b> has centralized office for
 					<b> International Affairs and Outreach</b> to oversee and coordinate the
@@ -40,7 +40,7 @@ export const Dean = () => {
 					the world.
 				</p>
 				<p>
-					COVID-19 has given a new dimension to the world. We have a setup of world class
+					We have a setup of world class
 					facilities / teaching aids for conducting online classes / webinars / events for
 					international students. In addition, we are also forming relations with the
 					Embassies of various countries and their Consulates to promote various academic
@@ -50,10 +50,6 @@ export const Dean = () => {
 				<p>
 					We would be happy to hear from the foreign Universities/institutions seeking
 					partnership with IITI, or international students seeking opportunities at IITI.
-					<br />
-					<strong>
-						Please do <Link to="/contact">Contact US</Link>
-					</strong>
 				</p>
 				<h3 className="font-acme text-left mb-0">Professor Avinash Sonawane</h3>
 				<h4 className="font-acme text-left mb-5">

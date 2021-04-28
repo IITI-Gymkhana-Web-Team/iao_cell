@@ -67,7 +67,7 @@ export default function ReachUs() {
 					</p>
 					<p>
 						<FiLink2 className="contactIcons" />
-						<a href="http://iiti.ac.in/">http://iiti.ac.in</a>
+						<a href="/">http://international.iiti.ac.in/</a>
 					</p>
 					{/* <p>
 						<BiTimeFive className="contactIcons" />
@@ -93,7 +93,7 @@ export default function ReachUs() {
 				></Iframe>
 			</div>
 			<h1 className="font-acme mt-5 text-center mb-4">How To Reach Us</h1>
-			<div className="cardsGrp">
+			<div className=" text-justify cardsGrp">
 				<Card className="mt-4" style={{ width: "max(30%,22rem)" }}>
 					<Card.Header>
 						<h3 className="font-acme">From Indore Railway Station</h3>

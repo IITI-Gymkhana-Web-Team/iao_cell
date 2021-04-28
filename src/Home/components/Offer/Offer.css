@@ -30,7 +30,7 @@
 }
 
 .OfferCar .off {
-	height: 400px;
+	height: 350px;
 	font-family: "Roboto";
 }
 
@@ -40,6 +40,7 @@
 
 .OfferCar .off h4 {
 	color: crimson;
+	font-size: large;
 }
 
 .off .image-holder {
@@ -49,10 +50,6 @@
 @media only screen and (max-width: 1000px) {
 	.OfferCar .off h4 {
 		color: crimson;
-		font-size: x-large;
-	}
-
-	.OfferCar .off p {
 		font-size: large;
 	}
 }

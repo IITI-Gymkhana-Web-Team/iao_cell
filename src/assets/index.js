@@ -162,11 +162,17 @@ import debasis from "./Dr.DebasisNayak.webp";
 import nsd2020 from "./nsd2020.webp";
 import chem_talks_news from "./chem_talks_news.webp";
 import elec from "./elec.webp";
+import vlsi from "./vlsi.webp";
+import comm from "./comm.webp";
 import mech from "./mech.webp";
+import prod from "./prod.webp";
+import syst from "./syst.webp";
 import material from "./material.webp";
+import metall from "./metall.webp";
 import computer from "./computer.webp";
 import phy from "./phy.webp";
 import bio from "./bio.webp";
+import bbse from "./bbse.webp";
 import space from "./space.webp";
 import civil from "./civil.webp";
 import philosophy from "./philosophy.webp";
@@ -179,12 +185,18 @@ export {
 	computer,
 	phy,
 	bio,
+	bbse,
 	space,
 	civil,
 	philosophy,
 	material,
+	metall,
 	mech,
+	prod,
+	syst,
 	elec,
+	vlsi,
+	comm,
 	nsd2020,
 	chem_talks_news,
 	ramanujan,

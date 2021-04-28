@@ -17,7 +17,7 @@ export const TestimonialCard = ({ person }) => {
 					<MdLocationOn />
 					{person.country}
 				</p>
-				<p>
+				<p className="text-justify">
 					"<i>{person.text}</i>"
 				</p>
 			</div>

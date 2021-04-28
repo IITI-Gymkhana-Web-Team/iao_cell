@@ -71,7 +71,7 @@ export const NAT = () => {
 								<div style={{ margin: "auto", maxWidth: "400px" }}>
 									<h3 className="mainTitle">Announcements</h3>
 									<OwlCarousel
-										className="owl-theme announcements"
+										className="owl-theme announcements text-justify"
 										loop
 										nav={true}
 										margin={8}
@@ -111,7 +111,7 @@ export const NAT = () => {
 								<div style={{ margin: "auto", maxWidth: "400px" }}>
 									<h3 className="mainTitle talksTitle">Talks</h3>
 									<OwlCarousel
-										className="owl-theme talks"
+										className="owl-theme talks text-justify"
 										loop
 										nav={true}
 										margin={8}

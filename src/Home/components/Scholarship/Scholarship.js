@@ -2,7 +2,7 @@ import React from "react";
 
 export const Scholarship = () => {
 	return (
-		<div className="container mt-5 font-ubuntu">
+		<div className="text-justify container mt-5 font-ubuntu">
 			<h2 className="font-acme mb-5">List of Scholarships Deadline in March 2021</h2>
 
 			<div className="panel-body">

@@ -4,7 +4,7 @@ import policy from "../../../assets/policy.pdf";
 
 export const Ghouse = () => {
 	return (
-		<div className="container font-ubuntu aboutIITI pb-5">
+		<div className="text-justify container font-ubuntu aboutIITI pb-5">
 			<h1 className="mainTitle text-center m-3 mb-5 mt-4">Guest House</h1>
 			<p>
 				At IIT Indore, we have fully furnished guest house of international standards for

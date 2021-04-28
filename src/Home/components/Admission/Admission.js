@@ -9,7 +9,7 @@ export const Admission = () => {
 		<article className="container bg-light pt-3 mt-3 font-ubuntu">
 			<section>
 				<h3 className="font-acme">Admission Category</h3>
-				<p>
+				<p className="text-justify">
 					Anyone who is not a national of India will be considered as an international
 					student for the purposes of admission and fees. International students can seek
 					admission to various Postgraduate and Research Programmes (Ph.D., M.Tech., M.S.
@@ -141,7 +141,7 @@ export const Admission = () => {
 				</Table>
 			</section>
 
-			<section>
+			<section className="text-justify">
 				<h3 className="font-acme">Selection Procedure</h3>
 				<p>
 					Admission of International Students to IIT Indore's Ph.D., M. Tech., M.S.
@@ -165,7 +165,7 @@ export const Admission = () => {
 				</p>
 			</section>
 
-			<section>
+			<section className="text-justify">
 				<h3 className="font-acme">Fees for International Students:</h3>
 				<p>
 					<ul>
@@ -190,7 +190,7 @@ export const Admission = () => {
 					prevailing rates.
 				</p>
 			</section>
-			<section>
+			<section className="text-justify">
 				<h3 className="font-acme">Admission</h3>
 				<p>
 					For more information,{" "}
@@ -199,7 +199,7 @@ export const Admission = () => {
 					</a>
 				</p>
 			</section>
-			<section>
+			<section className="text-justify">
 				<h3 className="font-acme">International Student List</h3>
 				<p>
 					For more information, <Link to="/int/students">Click here</Link>

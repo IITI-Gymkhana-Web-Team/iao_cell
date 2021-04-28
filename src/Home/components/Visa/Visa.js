@@ -17,7 +17,7 @@ export const Visa = () => {
 						<img src={img} style={{ maxWidth: "100%" }} />
 					</div>
 					<div className="blog_commentbox"></div>
-					<div style={{ margin: "auto" }}>
+					<div className="text-justify" style={{ margin: "auto" }}>
 						Whether you are an international student planning to visit IIT Indore for a
 						degree or for short term research/coursework, or you are an international
 						faculty member planning to visit IIT Indore for a conference or research
@@ -63,7 +63,7 @@ export const Visa = () => {
 							</li>
 						</ul>
 					</div>
-					<div style={{ margin: "40px auto" }}>
+					<div className="text-justify" style={{ margin: "40px auto" }}>
 						<h3 className="font-acme">What You Need to Do</h3>
 						<ul>
 							<li>
@@ -87,7 +87,7 @@ export const Visa = () => {
 							</li>
 						</ul>
 					</div>
-					<div style={{ margin: "40px auto" }}>
+					<div className="text-justify" style={{ margin: "40px auto" }}>
 						<h3 className="font-acme"> How to Apply</h3>
 						According to the Bureau of Immigration (BOI), Govt. of India (GOI), all
 						Individual visa seekers need to apply for Indian Visa online at{" "}
@@ -114,7 +114,7 @@ export const Visa = () => {
 						</a>
 						.
 					</div>
-					<div style={{ margin: "40px auto" }}>
+					<div className="text-justify" style={{ margin: "40px auto" }}>
 						<h3 className="font-acme">Registration of Foreigners</h3>
 						If the visa is valid for more than 180 days, registration is compulsory
 						within 14 days of arrival in India. No fee is required to be paid for
@@ -134,7 +134,7 @@ export const Visa = () => {
 						</a>
 						.
 					</div>
-					<div style={{ margin: "40px auto" }}>
+					<div className="text-justify" style={{ margin: "40px auto" }}>
 						<h3 className="font-acme">Visa Extension</h3>
 						As per the BOI, Govt. of India: All Foreigners must submit application for
 						extension of residential permit / visa at least 60 days before the date of
