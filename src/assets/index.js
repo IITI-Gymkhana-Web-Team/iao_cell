@@ -10,7 +10,7 @@ import image2 from "./image2.webp";
 import iiti_2 from "./iiti_2.png";
 import dean from "./dean.webp";
 import iiti_logo_4 from "./iiti_logo_4.png";
-import avinash from "./Avinash_Sonawane.webp";
+import avinash from "./av2.webp";
 import raghu from "./Raghunath.webp";
 import sanjay from "./Sanjay.webp";
 import satya from "./T_Sataynarayana.webp";

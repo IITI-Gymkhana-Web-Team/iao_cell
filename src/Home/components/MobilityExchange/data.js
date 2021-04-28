@@ -108,6 +108,13 @@ export const data = {
 							"DST SERB-Purdue Exchange visit by Ph.D student to Purdue University, West Lafayette, USA",
 						Duration: 2020,
 					},
+					{
+						"#": 2,
+						"Faculty/Student": "Mr. Rohit Kothari (Ph.D.)",
+						Visit:
+							"DST SERB-Purdue Exchange visit by Ph.D student to Purdue University, West Lafayette, USA",
+						Duration: 2020,
+					},
 				],
 			},
 		],
