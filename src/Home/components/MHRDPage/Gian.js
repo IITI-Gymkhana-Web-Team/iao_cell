@@ -784,5 +784,96 @@ export const Gian = () => {
 
 	const [name] = useState("GIAN");
 
-	return <MHRDPage info={info} name={name} desc={desc} insti={insti} person={person} />;
+	const [grants] = useState([
+		{
+			"Name of the Faculty": "Dr. Venkatesh Chelvam",
+			Department: "Chemistry",
+			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
+			"Title of the Grant": "Introduction to Principles of Green Chemistry",
+			"Foreign Collaborator(s)":
+				"Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
+			Amount: "USD 12,000",
+			"Year of Award - Year of Completion": "June. 2016",
+		},
+		{
+			"Name of the Faculty": "Dr. Venkatesh Chelvam",
+			Department: "Chemistry",
+			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
+			"Title of the Grant": "Modern Photochemistry and Photocatalysis",
+			"Foreign Collaborator(s)": "Prof. Malte Brasholz, University of Rostock, Germany",
+			Amount: "USD 12,000",
+			"Year of Award - Year of Completion": "July. 2016",
+		},
+		{
+			"Name of the Faculty": "Dr. Venkatesh Chelvam",
+			Department: "Chemistry",
+			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
+			"Title of the Grant": "Advanced Concepts in the Synthesis of Pharmaceutical Drugs",
+			"Foreign Collaborator(s)":
+				"Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
+			Amount: "USD 8,000",
+			"Year of Award - Year of Completion": "June. 2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Venkatesh Chelvam",
+			Department: "Chemistry",
+			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
+			"Title of the Grant": "Chemistry and Biology of Carbohydrates",
+			"Foreign Collaborator(s)":
+				"Prof. Fabian Pfrengle, Max-Planck-Institute of Colloids and Interfaces, Germany ",
+			Amount: "USD 12,000",
+			"Year of Award - Year of Completion": "November. 2017",
+		},
+		{
+			"Name of the Faculty": "Dr. Venkatesh Chelvam",
+			Department: "Chemistry",
+			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
+			"Title of the Grant":
+				"Principles of Drug Discovery, Design, and Development: Modern Concepts and Applications",
+			"Foreign Collaborator(s)": "Prof. Apurba Dutta, Univeristy of Kansas, USA",
+			Amount: "USD 12,000",
+			"Year of Award - Year of Completion": "May. 2019",
+		},
+		{
+			"Name of the Faculty": "Dr. Venkatesh Chelvam",
+			Department: "Chemistry",
+			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
+			"Title of the Grant":
+				"Principles of Ligand-Targeted Drug Delivery: Design and Development of ‘Smart Drugs’",
+			"Foreign Collaborator(s)": "Dr. Madduri Sriniasarao, Purdue Univversity, USA",
+			Amount: "USD 12,000",
+			"Year of Award - Year of Completion": "May. 2020",
+		},
+		{
+			"Name of the Faculty": "Dr. Venkatesh Chelvam",
+			Department: "BSBE",
+			"Funding Agency": "Department of Biotechnology-British council",
+			"Title of the Grant":
+				"Diagnosis of Prostate cancer by Prostate Specific Membrane Antigen (PSMA) Targeted Quantum Dots",
+			"Foreign Collaborator(s)": "Prof. Paul Roach, Keele University, Staffordshire, UK",
+			Amount: "15,00,000/-",
+			"Year of Award - Year of Completion": "Feb. 2016-July 2016",
+		},
+		{
+			"Name of the Faculty": "Dr. Venkatesh Chelvam",
+			Department: "BSBE",
+			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
+			"Title of the Grant":
+				"Chemical Biology: The Integration of Medicine, Biology and Chemistry ",
+			"Foreign Collaborator(s)": "Prof. Kavita Shah, Purdue University, USA",
+			Amount: "USD 12,000",
+			"Year of Award - Year of Completion": "June. 2016",
+		},
+	]);
+
+	return (
+		<MHRDPage
+			info={info}
+			name={name}
+			desc={desc}
+			insti={insti}
+			person={person}
+			grants={grants}
+		/>
+	);
 };

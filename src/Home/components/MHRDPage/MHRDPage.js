@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { Table } from "react-bootstrap";
 import "./MHRDPage.css";
 import { Form } from "react-bootstrap";
+import { CustomTable } from "../../reusables/CustomTable";
 
-export const MHRDPage = ({ info, name, person, insti, desc }) => {
+export const MHRDPage = ({ info, name, person, insti, desc, grants }) => {
 	const [year, setYear] = useState("None");
 	const [title, setTitle] = useState("");
 	const [iitiPi, setIitiPi] = useState("");
@@ -154,6 +155,23 @@ export const MHRDPage = ({ info, name, person, insti, desc }) => {
 					})}
 				</tbody>
 			</Table>
+			{typeof grants != "undefined" && (
+				<>
+					<h2 className="mainTitle mt-4 mb-3 pt-3">Bilateral International Grants</h2>
+					<CustomTable
+						data={grants}
+						cols={[
+							"Name of the Faculty",
+							"Department",
+							"Funding Agency",
+							"Title of the Grant",
+							"Foreign Collaborator(s)",
+							"Amount",
+							"Year of Award - Year of Completion",
+						]}
+					/>
+				</>
+			)}
 		</div>
 	);
 };

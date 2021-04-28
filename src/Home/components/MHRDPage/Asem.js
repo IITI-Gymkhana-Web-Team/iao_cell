@@ -58,7 +58,8 @@ export const Asem = () => {
 	]);
 
 	const [desc] = useState(
-		"ASEM-DUO was approved in 2000 from ASEM III Summit and commenced in 2001. ASEM-DUO Fellowship Programme has supported exchanges of professors and students in tertiary education field between Asia and Europe under ASEM domain.");
+		"ASEM-DUO was approved in 2000 from ASEM III Summit and commenced in 2001. ASEM-DUO Fellowship Programme has supported exchanges of professors and students in tertiary education field between Asia and Europe under ASEM domain."
+	);
 
 	const [person] = useState({
 		img: kapil,
@@ -75,5 +76,27 @@ export const Asem = () => {
 
 	const [name] = useState("ASEM-DUO");
 
-	return <MHRDPage info={info} desc={desc} name={name} insti={insti} person={person} />;
+	const [grants] = useState([
+		{
+			"Name of the Faculty": "Dr. Rupesh S. Devan",
+			Department: "MEMS",
+			"Funding Agency": "ASEM-DUO, S. Korea",
+			"Title of the Grant":
+				"Experimental and Theroretical insites to photocatalytic activities of nanomaterials.",
+			"Foreign Collaborator(s)": "Dr. Nelson Dzade",
+			Amount: "3000 EURO",
+			"Year of Award - Year of Completion": "2020",
+		},
+	]);
+
+	return (
+		<MHRDPage
+			info={info}
+			desc={desc}
+			name={name}
+			insti={insti}
+			person={person}
+			grants={grants}
+		/>
+	);
 };

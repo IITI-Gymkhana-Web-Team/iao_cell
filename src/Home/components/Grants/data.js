@@ -44,16 +44,6 @@ export const data = [
 	{
 		"Name of the Faculty": "Dr. Biswarup Pathak",
 		Department: "Chemistry",
-		"Funding Agency": "Scheme for Promotion of Academic and\r\nResearch Collaboration (SPARC)",
-		"Title of the Grant":
-			"Atomistic Modelling of Pt-Nanocluster Based Electrocatalysts for Fuel Cell\r\nApplications",
-		"Foreign Collaborator(s)": "Prof. Rajeev Ahuja (UPPSALA UNIVERSITY)",
-		Amount: "Rs. 74,94,338",
-		"Year of Award - Year of Completion": "2018",
-	},
-	{
-		"Name of the Faculty": "Dr. Biswarup Pathak",
-		Department: "Chemistry",
 		"Funding Agency": "Swedish Funding Agenicies",
 		"Title of the Grant":
 			"Rational Design of Transition Metal Based Nanoalloys/Two Dimensional Materials for Direct Conversion of CO 2 into a Gasoline Fuel",
@@ -132,75 +122,7 @@ export const data = [
 		Amount: "Rs.55,00,000/-",
 		"Year of Award - Year of Completion": "2019-2023",
 	},
-	{
-		"Name of the Faculty": "Dr. Venkatesh Chelvam",
-		Department: "Chemistry",
-		"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
-		"Title of the Grant": "Introduction to Principles of Green Chemistry",
-		"Foreign Collaborator(s)":
-			"Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
-		Amount: "USD 12,000",
-		"Year of Award - Year of Completion": "June. 2016",
-	},
-	{
-		"Name of the Faculty": "Dr. Venkatesh Chelvam",
-		Department: "Chemistry",
-		"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
-		"Title of the Grant": "Modern Photochemistry and Photocatalysis",
-		"Foreign Collaborator(s)": "Prof. Malte Brasholz, University of Rostock, Germany",
-		Amount: "USD 12,000",
-		"Year of Award - Year of Completion": "July. 2016",
-	},
-	{
-		"Name of the Faculty": "Dr. Venkatesh Chelvam",
-		Department: "Chemistry",
-		"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
-		"Title of the Grant": "Advanced Concepts in the Synthesis of Pharmaceutical Drugs",
-		"Foreign Collaborator(s)":
-			"Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
-		Amount: "USD 8,000",
-		"Year of Award - Year of Completion": "June. 2018",
-	},
-	{
-		"Name of the Faculty": "Dr. Venkatesh Chelvam",
-		Department: "Chemistry",
-		"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
-		"Title of the Grant": "Chemistry and Biology of Carbohydrates",
-		"Foreign Collaborator(s)":
-			"Prof. Fabian Pfrengle, Max-Planck-Institute of Colloids and Interfaces, Germany ",
-		Amount: "USD 12,000",
-		"Year of Award - Year of Completion": "November. 2017",
-	},
-	{
-		"Name of the Faculty": "Dr. Venkatesh Chelvam",
-		Department: "Chemistry",
-		"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
-		"Title of the Grant":
-			"Principles of Drug Discovery, Design, and Development: Modern Concepts and Applications",
-		"Foreign Collaborator(s)": "Prof. Apurba Dutta, Univeristy of Kansas, USA",
-		Amount: "USD 12,000",
-		"Year of Award - Year of Completion": "May. 2019",
-	},
-	{
-		"Name of the Faculty": "Dr. Venkatesh Chelvam",
-		Department: "Chemistry",
-		"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
-		"Title of the Grant":
-			"Principles of Ligand-Targeted Drug Delivery: Design and Development of ‘Smart Drugs’",
-		"Foreign Collaborator(s)": "Dr. Madduri Sriniasarao, Purdue Univversity, USA",
-		Amount: "USD 12,000",
-		"Year of Award - Year of Completion": "May. 2020",
-	},
-	{
-		"Name of the Faculty": "Dr. Venkatesh Chelvam",
-		Department: "BSBE",
-		"Funding Agency": "Department of Biotechnology-British council",
-		"Title of the Grant":
-			"Diagnosis of Prostate cancer by Prostate Specific Membrane Antigen (PSMA) Targeted Quantum Dots",
-		"Foreign Collaborator(s)": "Prof. Paul Roach, Keele University, Staffordshire, UK",
-		Amount: "15,00,000/-",
-		"Year of Award - Year of Completion": "Feb. 2016-July 2016",
-	},
+
 	{
 		"Name of the Faculty": "Dr. Venkatesh Chelvam",
 		Department: "BSBE",
@@ -210,16 +132,6 @@ export const data = [
 		"Foreign Collaborator(s)": "Prof. Paul Roach, Loughborough University, UK",
 		Amount: "30,00,000/-",
 		"Year of Award - Year of Completion": "Nov.2018-Oct.2019",
-	},
-	{
-		"Name of the Faculty": "Dr. Venkatesh Chelvam",
-		Department: "BSBE",
-		"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
-		"Title of the Grant":
-			"Chemical Biology: The Integration of Medicine, Biology and Chemistry ",
-		"Foreign Collaborator(s)": "Prof. Kavita Shah, Purdue University, USA",
-		Amount: "USD 12,000",
-		"Year of Award - Year of Completion": "June. 2016",
 	},
 	{
 		"Name of the Faculty": "Dr. Aruna Tiwari",
@@ -246,13 +158,6 @@ export const data = [
 	{
 		"Name of the Faculty": "Dr. Nirmala Menon",
 		Department: "School of HSS",
-		"Funding Agency": "SPARC",
-		"Foreign Collaborator(s)": "Prof. Deborah Sutton",
-		Amount: "55 Lacs",
-	},
-	{
-		"Name of the Faculty": "Dr. Nirmala Menon",
-		Department: "School of HSS",
 		"Funding Agency": "UKEIRI",
 		"Foreign Collaborator(s)": "Prof. Deborah Sutton",
 		Amount: "12 Lacs",
@@ -262,13 +167,6 @@ export const data = [
 		Department: "School of HSS",
 		"Funding Agency": "University of Kent Grant",
 		"Foreign Collaborator(s)": "Prof. Michael Falk",
-		Amount: "Result Awaited",
-	},
-	{
-		"Name of the Faculty": "Dr. Nirmala Menon",
-		Department: "School of HSS",
-		"Funding Agency": "SPARC",
-		"Foreign Collaborator(s)": "Prof. Francois Pieter",
 		Amount: "Result Awaited",
 	},
 	{
@@ -389,16 +287,6 @@ export const data = [
 		"Foreign Collaborator(s)": "Prof.Natalia Resnina, St petersburg state university, Russia",
 		Amount: "89,00,000 INR",
 		"Year of Award - Year of Completion": "2019-2022",
-	},
-	{
-		"Name of the Faculty": "Dr. Rupesh S. Devan",
-		Department: "MEMS",
-		"Funding Agency": "ASEM-DUO, S. Korea",
-		"Title of the Grant":
-			"Experimental and Theroretical insites to photocatalytic activities of nanomaterials.",
-		"Foreign Collaborator(s)": "Dr. Nelson Dzade",
-		Amount: "3000 EURO",
-		"Year of Award - Year of Completion": "2020",
 	},
 	{
 		"Name of the Faculty": "Preeti Anand Bhobe",

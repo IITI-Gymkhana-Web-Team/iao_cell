@@ -111,5 +111,42 @@ export const Sparc = () => {
 		"Scheme for Promotion of Academic and Research Collaboration (SPARC) aims at improving the research ecosystem  of India’s Higher Educational Institutions by facilitating academic and research collaborations between Indian   Institutions  and the best institutions in the world from 28 selected nations to jointly solve problems of national  and/or international relevance."
 	);
 
-	return <MHRDPage info={info} name={name} desc={desc} insti={insti} person={person} />;
+	const [grants] = useState([
+		{
+			"Name of the Faculty": "Dr. Biswarup Pathak",
+			Department: "Chemistry",
+			"Funding Agency":
+				"Scheme for Promotion of Academic and\r\nResearch Collaboration (SPARC)",
+			"Title of the Grant":
+				"Atomistic Modelling of Pt-Nanocluster Based Electrocatalysts for Fuel Cell\r\nApplications",
+			"Foreign Collaborator(s)": "Prof. Rajeev Ahuja (UPPSALA UNIVERSITY)",
+			Amount: "Rs. 74,94,338",
+			"Year of Award - Year of Completion": "2018",
+		},
+		{
+			"Name of the Faculty": "Dr. Nirmala Menon",
+			Department: "School of HSS",
+			"Funding Agency": "SPARC",
+			"Foreign Collaborator(s)": "Prof. Deborah Sutton",
+			Amount: "55 Lacs",
+		},
+		{
+			"Name of the Faculty": "Dr. Nirmala Menon",
+			Department: "School of HSS",
+			"Funding Agency": "SPARC",
+			"Foreign Collaborator(s)": "Prof. Francois Pieter",
+			Amount: "Result Awaited",
+		},
+	]);
+
+	return (
+		<MHRDPage
+			info={info}
+			name={name}
+			desc={desc}
+			insti={insti}
+			person={person}
+			grants={grants}
+		/>
+	);
 };
