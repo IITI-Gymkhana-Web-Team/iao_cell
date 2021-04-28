@@ -249,9 +249,34 @@ export default function ReachUs() {
 							<td>Hospitality</td>
 						</tr>
 						<tr>
-							<td>JC Bose</td>
+							<td>JC Bose Hall of Residence</td>
 							<td>3460</td>
 							<td>Security</td>
+						</tr>
+						<tr>
+							<td>APJ Abdul Kalam Hostel Office</td>
+							<td>3462</td>
+							<td>Hall Of Residence</td>
+						</tr>
+						<tr>
+							<td>CV Raman Hostel Office</td>
+							<td>3454</td>
+							<td>Hall Of Residence</td>
+						</tr>
+						<tr>
+							<td>Vikram Sara Bhai Hostel Office</td>
+							<td>3455, 3456</td>
+							<td>Hall Of Residence</td>
+						</tr>
+						<tr>
+							<td>Devi Ahilya Hostel Office</td>
+							<td>3450, 3439</td>
+							<td>Hall Of Residence</td>
+						</tr>
+						<tr>
+							<td>HJ Bhabha Hostel Office</td>
+							<td>3446, 3447</td>
+							<td>Hall Of Residence</td>
 						</tr>
 						<tr>
 							<td>Transport</td>
