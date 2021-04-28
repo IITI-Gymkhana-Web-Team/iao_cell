@@ -108,7 +108,7 @@ export const Sparc = () => {
 	const [name] = useState("SPARC");
 
 	const [desc] = useState(
-		"Dolor consectetur magna esse amet laborum commodo mollit quis irure. Laboris velit excepteur in veniam in ex. Dolore aliqua esse Lorem sint.Dolor consectetur magna esse amet laborum commodo mollit quis irure. Laboris velit excepteur in veniam in ex. Dolore aliqua esse Lorem sint.Deserunt eiusmod proident incididunt dolore ullamco aliquip nulla. Nulla aliquip officia commodo do qui. Excepteur aliquip quis cupidatat culpa aute consequat eu exercitation. Do voluptate velit excepteur elit nostrud. Culpa ad excepteur Lorem quis consectetur ut nulla sunt consectetur ea in adipisicing. Consequat eiusmod aliqua officia esse ullamco aliquip deserunt."
+		"Scheme for Promotion of Academic and Research Collaboration (SPARC) aims at improving the research ecosystem  of India’s Higher Educational Institutions by facilitating academic and research collaborations between Indian   Institutions  and the best institutions in the world from 28 selected nations to jointly solve problems of national  and/or international relevance."
 	);
 
 	return <MHRDPage info={info} name={name} desc={desc} insti={insti} person={person} />;

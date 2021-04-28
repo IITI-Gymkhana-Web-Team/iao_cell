@@ -3,12 +3,7 @@ export const data = {
 		Europe: [
 			{
 				title: "IITI Students visiting TU9s (Germany)",
-				cols: [
-					"#",
-					"IITI Student (under IITI Faculty)",
-					"TU9 Faculty & Institute",
-					"Duration",
-				],
+				cols: ["IITI Student (under IITI Faculty)", "TU9 Faculty & Institute", "Duration"],
 				data: [
 					{
 						"#": 1,
@@ -63,7 +58,6 @@ export const data = {
 			{
 				title: "IITI Students visiting Non-TU9s (Germany)",
 				cols: [
-					"#",
 					"IITI Student (Under IITI Faculty)",
 					"Non-TU9 faculty & Institute",
 					"Duration",
@@ -105,7 +99,7 @@ export const data = {
 		Americas: [
 			{
 				title: "IITI Student visiting USA",
-				cols: ["#", "Faculty/Student", "Visit", "Duration"],
+				cols: ["Faculty/Student", "Visit", "Duration"],
 				data: [
 					{
 						"#": 1,
@@ -122,7 +116,7 @@ export const data = {
 		Europe: [
 			{
 				title: "IITI Faculty Visiting French University",
-				cols: ["#", "IITI Faculty/Student", "Visit", "Duration"],
+				cols: ["IITI Faculty/Student", "Visit", "Duration"],
 				data: [
 					{
 						"#": 1,
@@ -157,12 +151,7 @@ export const data = {
 
 			{
 				title: "IITI Faculty visiting TU9s (Germany)",
-				cols: [
-					"#",
-					"IITI Student (under IITI Faculty)",
-					"TU9 Faculty & Institute",
-					"Duration",
-				],
+				cols: ["IITI Student (under IITI Faculty)", "TU9 Faculty & Institute", "Duration"],
 				data: [
 					{
 						"#": 1,
@@ -291,7 +280,7 @@ export const data = {
 			},
 			{
 				title: "TU9 (Germany) Faculty Visiting IITI",
-				cols: ["#", "TU9 Faculty & Institute", "IITI Faculty", "Duration"],
+				cols: ["TU9 Faculty & Institute", "IITI Faculty", "Duration"],
 				data: [
 					{
 						"#": 1,
@@ -328,7 +317,7 @@ export const data = {
 			},
 			{
 				title: "IITI Faculty visiting Non-TU9s (Germany)",
-				cols: ["#", "IITI Faculty", "Non-TU9 faculty & Institute", "Duration"],
+				cols: ["IITI Faculty", "Non-TU9 faculty & Institute", "Duration"],
 				data: [
 					{
 						"#": 1,
@@ -368,7 +357,7 @@ export const data = {
 			},
 			{
 				title: "Non-TU9s (Germany) Faculty visiting IITI",
-				cols: ["#", "Non-TU9 faculty & Institute", "IITI Faculty", "Duration"],
+				cols: ["Non-TU9 faculty & Institute", "IITI Faculty", "Duration"],
 				data: [
 					{
 						"#": 1,
@@ -396,7 +385,7 @@ export const data = {
 		Americas: [
 			{
 				title: "IITI Faculty visiting USA",
-				cols: ["#", "Faculty/Student", "Visit", "Duration"],
+				cols: ["Faculty/Student", "Visit", "Duration"],
 				data: [
 					{
 						"#": 1,
@@ -409,7 +398,7 @@ export const data = {
 			},
 			{
 				title: "USA Faculty visiting IITI",
-				cols: ["#", "Faculty/Student", "Visit", "Duration"],
+				cols: ["Faculty/Student", "Visit", "Duration"],
 				data: [
 					{
 						"#": 1,
