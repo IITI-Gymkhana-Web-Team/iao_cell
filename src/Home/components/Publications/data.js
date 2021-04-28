@@ -19,7 +19,7 @@ export const data = [
 			"An Anthropocene Primer (Anthropoceneprimer.Org) a Born-digital, Open Access, Open Peer Review Book Hosted Online by IUPUI. ",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Version 2.0 of the book is in process and a hard copy of the book with Indiana University Press is also forthcoming.",
-		"Volume/ Page": "Version 1.0 published, Version 2.0 forthcoming",
+		"Volume/ Page": "Version 1.0 published,\nVersion 2.0 forthcoming",
 		Year: "2017 onwards (Cont.)",
 	},
 	{
@@ -51,7 +51,7 @@ export const data = [
 		Title:
 			"Chronic obstructive pulmonary disease (COPD) and the cardiovascular system: vascular repair and regeneration as a therapeutic target.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Frontiers in Cardiovascular Medicine",
-		"Volume/ Page": "NA (In Press)",
+		"Volume/ Page": "NA\n(In Press)",
 		Year: "2021",
 	},
 	{
@@ -62,7 +62,7 @@ export const data = [
 		Title:
 			"Evaluation of the biodistribution of mesenchymal stem cells in a preclinical renal tuberculosis model by nonlinear magnetic response measurements.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Frontiers in Physics",
-		"Volume/ Page": "NA (In Press)",
+		"Volume/ Page": "NA\n(In Press)",
 		Year: "2021",
 	},
 	{
@@ -73,7 +73,7 @@ export const data = [
 		Title:
 			"Mycobacterium tuberculosis acetyltransferase suppresses oxidative stress by inducing peroxisome formation in macrophages.",
 		"Book/ Journal/ Book chapter/ Conference Name": "mBio",
-		"Volume/ Page": "NA (Under revision)",
+		"Volume/ Page": "NA\n(Under revision)",
 		Year: "2021",
 	},
 	{
@@ -426,7 +426,7 @@ export const data = [
 		Title:
 			"An Overview of Hardware Oriented Security and Trust: Threats, Countermeasures and Design Tools",
 		"Book/ Journal/ Book chapter/ Conference Name": "IEEE Transactions on CAD",
-		"Volume/ Page": "doi: 10.1109/TCAD.2020.3047976",
+		"Volume/ Page": "doi: 10.1109/\nTCAD.2020.3047976",
 		Year: "2020",
 	},
 	{
@@ -957,7 +957,7 @@ export const data = [
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
 		Title: "IP Core Protection and Hardware-Assisted Security for Consumer Electronics",
 		"Book/ Journal/ Book chapter/ Conference Name": "IET Book",
-		"Volume/ Page": "ISBN: 978-1-78561-799-7",
+		"Volume/ Page": "ISBN\n978-1-78561-799-7",
 		Year: "2019",
 	},
 	{
@@ -967,7 +967,7 @@ export const data = [
 		Title:
 			"Introduction to IP Core Protection and Hardware-Assisted Security of Consumer Electronics",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -976,7 +976,7 @@ export const data = [
 		"Author(s)": "Saraju P. Mohanty, Anirban Sengupta,",
 		Title: "Security in Consumer Electronics and Internet of Things (IoT)",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -985,7 +985,7 @@ export const data = [
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
 		Title: "Trojan Security Aware DSP IP Core and Integrated Circuits",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -994,7 +994,7 @@ export const data = [
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
 		Title: "IP Core and Integrated Circuit Protection using Robust Watermarking",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -1004,7 +1004,7 @@ export const data = [
 		Title:
 			"Symmetrical Protection of DSP IP Core and Integrated Circuits using Fingerprinting and Watermarking",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -1013,7 +1013,7 @@ export const data = [
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
 		Title: "Obfuscation of JPEG CODEC IP Core for CE Devices",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -1022,7 +1022,7 @@ export const data = [
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
 		Title: "Computational Forensic Engineering for Resolving Ownership Conflict of DSP IP Core",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -1031,7 +1031,7 @@ export const data = [
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
 		Title: "Structural Obfuscation of DSP Cores used in CE Devices",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -1040,7 +1040,7 @@ export const data = [
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
 		Title: "Functional Obfuscation of DSP Cores used in CE Devices",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -1050,7 +1050,7 @@ export const data = [
 		Title:
 			"Advanced Encryption Standard (AES) and its Hardware Watermarking for Ownership Protection",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 978-1-78561-800-0",
+		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
 	},
 	{
@@ -1495,7 +1495,7 @@ export const data = [
 		Title: "Technology Transfer for Clean Energy Access: Opportunities and Challenges",
 		"Book/ Journal/ Book chapter/ Conference Name": "EPFL Workshop Monitor",
 		"Volume/ Page":
-			"available at https://infoscience.epfl.ch/record/229950/files/170718-TTM_Workshop_Takeaways.pdf",
+			"lk https://infoscience.epfl.ch/record/229950/files/170718-TTM_Workshop_Takeaways.pdf",
 		Year: "2017",
 	},
 	{
@@ -1605,7 +1605,7 @@ export const data = [
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
 		Title: "High-Level Synthesis of Digital Circuits in the Nanoscale, Mobile Electronics Era",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
-		"Volume/ Page": "e-ISBN: 9781785610004",
+		"Volume/ Page": "e-ISBN\n9781785610004",
 		Year: "2016",
 	},
 	{
@@ -1626,7 +1626,7 @@ export const data = [
 		Title:
 			"The Economic Impact of Floods and Waterlogging on Low-Income Households: Lessons from Indore, India",
 		"Book/ Journal/ Book chapter/ Conference Name": "IIED Working Paper",
-		"Volume/ Page": "Available athttps://pubs.iied.org/10789IIED",
+		"Volume/ Page": "lk https://pubs.iied.org/10789IIED",
 		Year: "2016",
 	},
 	{

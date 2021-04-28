@@ -9,9 +9,7 @@ export const Grants = () => {
 
 	return (
 		<div className="container mhrdPage">
-			<h1 className="mainTitle mt-4 mb-5 text-center">
-				Bilateral International Grants
-			</h1>
+			<h1 className="mainTitle mt-4 mb-5 text-center">Bilateral International Grants</h1>
 			<Form>
 				<Form.Group controlId="exampleForm.ControlInput1">
 					<Form.Label>Search By Department</Form.Label>
@@ -27,7 +25,7 @@ export const Grants = () => {
 					<Form.Label>Search By Faculty</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="Enter the name of the faculty"
+						placeholder="Enter the name of the faculty member"
 						onChange={(e) => {
 							setFaculty(e.target.value);
 						}}

@@ -7,12 +7,10 @@ export const PeopleCard = ({ person }) => {
 		<div className="personCard">
 			<img src={person.img} alt={person.name} className="pdp" />
 			<div className="personCardBody font-ubuntu">
-				<h4 className="font-acme upper" style={{ color: "#34639D" }}>
+				<h4 className="font-acme" style={{ color: "#34639D" }}>
 					{person.name}
 				</h4>
-				<h5
-					className="font-acme upper"
-					style={{ color: "rgb(54, 54, 54)" }}>
+				<h5 className="font-acme" style={{ color: "rgb(54, 54, 54)" }}>
 					{person.designation}
 				</h5>
 				<p>

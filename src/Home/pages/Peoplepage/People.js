@@ -29,7 +29,7 @@ export const People = ({ index }) => {
 		members: [
 			[
 				{
-					name: "DR. Avinash Sonawane",
+					name: "Prof. Avinash Sonawane",
 					designation: "Dean",
 					email: "doiao@iiti.ac.in",
 					img: avinash,
@@ -45,7 +45,7 @@ export const People = ({ index }) => {
 					phno: "+91-731-660-3329",
 				},
 				{
-					name: "DR. Sanjay Kumar Singh",
+					name: "Dr. Sanjay Kumar Singh",
 					designation: "Associate Dean",
 					email: "adoiao2@iiti.ac.in",
 					img: sanjay,
@@ -54,7 +54,7 @@ export const People = ({ index }) => {
 			],
 			[
 				{
-					name: "mR. tentu Satyanarayana",
+					name: "Mr. Tentu Satyanarayana",
 					designation: "Joint Registrar",
 					email: "drintl@iiti.ac.in",
 					img: satya,

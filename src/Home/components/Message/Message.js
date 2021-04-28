@@ -56,7 +56,7 @@ export default function Message() {
 						<div className="mb-2">
 							<h1>Dean's Message</h1>
 						</div>
-						<h3 className="font-acme messageBy">Dr. Avinash Sonawane</h3>
+						<h3 className="font-acme messageBy">Prof. Avinash Sonawane</h3>
 						<hr />
 						<div
 							style={{

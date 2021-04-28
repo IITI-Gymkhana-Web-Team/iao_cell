@@ -17,7 +17,7 @@ export const NAT = () => {
 	let text =
 		"Some quick example text to build on the card title and make up the bulk of the card's content.";
 	return (
-		<div className="container-fluid NAT mt-5 mb-5 pt-5 pb-5">
+		<div className="container-fluid NAT mt-3 mb-5 pb-5">
 			<ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={2}>
 				<div className="row">
 					<div className="col-smm-12 col-lg-8">
