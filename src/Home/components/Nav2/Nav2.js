@@ -211,12 +211,12 @@ export const Nav2 = () => {
 					],
 				},
 				{
-					title: "Prospective",
+					title: "Inbound",
 					isAuth: true,
 					icon: null,
 					subItems: [
 						{
-							title: "Inbound",
+							title: "Visitors",
 							isAuth: true,
 							icon: null,
 							subItems: [
@@ -269,6 +269,37 @@ export const Nav2 = () => {
 							],
 						},
 						{
+							title: "Opportunity",
+							isAuth: true,
+							icon: null,
+							subItems: [
+								{
+									title: "Study In India",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://studyinindia.gov.in/");
+									},
+								},
+								{
+									title: "ICCR",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://www.iccr.gov.in/");
+									},
+								},
+								{
+									title: "ASEAN India STIC",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://asean-iit.in/");
+									},
+								},
+							],
+						},
+						{
 							title: "Places To Visit",
 							isAuth: true,
 							icon: null,
@@ -284,27 +315,10 @@ export const Nav2 = () => {
 								history.push("/Pros/visitors_experience");
 							},
 						},
-						// {
-						// 	title: "Outbound",
-						// 	isAuth: true,
-						// (icon: null),
-						// 	subItems: [
-						// 		{
-						// 			title: "Faculty",
-						// 			isAuth: true,
-						// (icon: null),
-						// 		},
-						// 		{
-						// 			title: "Student",
-						// 			isAuth: true,
-						// (icon: null),
-						// 		},
-						// 	],
-						// },
 					],
 				},
 				{
-					title: "Opportunities",
+					title: "Outbound",
 					isAuth: true,
 					icon: null,
 					subItems: [
@@ -333,9 +347,66 @@ export const Nav2 = () => {
 									title: "Scholarships",
 									isAuth: true,
 									icon: null,
-									onClick: () => {
-										history.push("/opportunities/scholarship");
-									},
+									subItems: [
+										{
+											title: "China",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"http://www.anso.org.cn/programmes/talent/scholarship/"
+												);
+											},
+										},
+										{
+											title: "Taiwan",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.icdf.org.tw/ct.asp?xItem=12505&CtNode=30316&mp=2"
+												);
+											},
+										},
+										{
+											title: "Spain",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.crg.eu/en/content/training/undergraduates-and-masters"
+												);
+											},
+										},
+										{
+											title: "Austria",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.scholarships.at/default.aspx"
+												);
+											},
+										},
+										{
+											title: "New Zealand",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.nzscholarships.govt.nz/");
+											},
+										},
+										{
+											title: "Thailand",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open(
+													"https://www.ait.ac.th/admissions/scholarships/bangchak-master-scholarships/"
+												);
+											},
+										},
+									],
 								},
 								{
 									title: "Indo - French",
