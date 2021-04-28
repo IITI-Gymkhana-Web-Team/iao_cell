@@ -52,7 +52,7 @@ export const Publications = () => {
 					<Form.Label>Search By Faculty</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="Enter the name of the faculty"
+						placeholder="Enter the name of the faculty member"
 						onChange={(e) => {
 							setFaculty(e.target.value);
 						}}
