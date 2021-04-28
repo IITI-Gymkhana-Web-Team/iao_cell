@@ -28,7 +28,7 @@ export const Offer = () => {
 	const [images] = useState([
 		{
 			img: elec,
-			head: "Electrical engineering",
+			head: "Electrical Engineering",
 			link: "http://ee.iiti.ac.in/",
 		},
 		{
@@ -38,7 +38,7 @@ export const Offer = () => {
 		},
 		{
 			img: vlsi,
-			head: "VLSI Design & nanoelectronics",
+			head: "VLSI Design & Nanoelectronics",
 			link: "http://ee.iiti.ac.in/",
 		},
 		{
@@ -48,18 +48,13 @@ export const Offer = () => {
 		},
 		{
 			img: prod,
-			head: "Production & Industrial engineering ",
+			head: "Production & Industrial Engineering ",
 			link: "http://me.iiti.ac.in/",
 		},
 		{
 			img: syst,
-			head: "Mechanical systems design",
+			head: "Mechanical Systems Design",
 			link: "http://me.iiti.ac.in/",
-		},
-		{
-			img: material,
-			head: "Material Sciences & engineering",
-			link: "http://mems.iiti.ac.in/",
 		},
 		{
 			img: metall,
@@ -91,8 +86,7 @@ export const Offer = () => {
 		},
 		{
 			img: civil,
-			head: "Infrastructure",
-			text: "Civil Engineering",
+			head: "Civil Engineering",
 			link: "http://ce.iiti.ac.in/",
 		},
 		{
