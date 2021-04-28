@@ -42,7 +42,7 @@ export default function ReachUs() {
 						width: card2Width,
 					}}
 				>
-					<h3 className="font-acme">IIT Indore International Affairs</h3>
+					<h3 className="font-acme">Office of International Affairs and Outreach</h3>
 					<br />
 					<p>
 						Office of International Affairs and outreach,
@@ -234,9 +234,19 @@ export default function ReachUs() {
 							<td>Security</td>
 						</tr>
 						<tr>
-							<td>Helium Building</td>
-							<td>3401</td>
-							<td>Security</td>
+							<td>Guest House</td>
+							<td>+91-731-660-3479, +91-9770446725</td>
+							<td>Hospitality</td>
+						</tr>
+						<tr>
+							<td>Housekeeping Department</td>
+							<td>+91-731-660-3505</td>
+							<td>Hospitality</td>
+						</tr>
+						<tr>
+							<td>Hospitality Department</td>
+							<td>+91-731-660-3442</td>
+							<td>Hospitality</td>
 						</tr>
 						<tr>
 							<td>JC Bose</td>

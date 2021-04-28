@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, HeadingLink, LinkList, DropdownSection, Icon } from "./Components";
+import { HeadingLink, DropdownSection, Icon } from "./Components";
 import { Link } from "react-router-dom";
 
 const FacilitiesDropdown = () => {
@@ -59,15 +59,6 @@ const FacilitiesDropdown = () => {
 						<a href="http://iiti.ac.in/page/e-payments" target="_blank">
 							<Icon />
 							E-Payments
-						</a>
-					</HeadingLink>
-					<HeadingLink>
-						<a
-							href="http://people.iiti.ac.in/~smartcard/CampusCards.html"
-							target="_blank"
-						>
-							<Icon />
-							Smart card facility
 						</a>
 					</HeadingLink>
 					<HeadingLink>

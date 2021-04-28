@@ -6,7 +6,7 @@ export const data = [
 		image: nsd2020,
 		desc:
 			"National Science Day 2020 was organised at IIT Indore  on Feb. 28, 2020, where over 90 students participated and fun learned science with interesting science experiments, demonstrations, talks and various fun activities. ",
-		date: "February 28, 2021",
+		date: "February 28, 2020",
 	},
 	{
 		title: "Chemistry Talks",
