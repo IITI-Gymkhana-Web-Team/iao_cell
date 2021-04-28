@@ -29,7 +29,7 @@ export const Visa = () => {
 								We will work with you and your host (mentor/ collaborator) at IIT
 								Indore to help plan your visit.
 							</li>
-							<li>
+							{/*<li>
 								Once the plan of your academic engagement is finalized, we will ask
 								for your basic information by filling up this{" "}
 								<a
@@ -39,7 +39,7 @@ export const Visa = () => {
 									MHRD Clearance Form
 								</a>
 								. We will also need copies of your passport pages.
-							</li>
+							</li>*/}
 							<li>
 								Upon receiving approval for your visit from concerned authorities,
 								we will issue you an Invitation Letter.
