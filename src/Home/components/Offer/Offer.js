@@ -27,73 +27,73 @@ import {
 export const Offer = () => {
 	const [images] = useState([
 		{
-			img: elec,
-			head: "Electrical Engineering",
-			link: "http://ee.iiti.ac.in/",
+			img: space,
+			head: "Astronomy, Astrophysics and Space Engineering",
+			link: "http://astronomy.iiti.ac.in/",
 		},
-		{
-			img: comm,
-			head: "Communication & Signal Processing",
-			link: "http://ee.iiti.ac.in/",
-		},
-		{
-			img: vlsi,
-			head: "VLSI Design & Nanoelectronics",
-			link: "http://ee.iiti.ac.in/",
-		},
-		{
-			img: mech,
-			head: "Mechanical Engineering",
-			link: "http://me.iiti.ac.in/",
-		},
-		{
-			img: prod,
-			head: "Production & Industrial Engineering ",
-			link: "http://me.iiti.ac.in/",
-		},
-		{
-			img: syst,
-			head: "Mechanical Systems Design",
-			link: "http://me.iiti.ac.in/",
-		},
-		{
-			img: metall,
-			head: "Metallurgy & Material Sciences",
-			link: "http://mems.iiti.ac.in/",
-		},
-		{
-			img: computer,
-			head: "Computer Science & Engineering",
-			link: "http://cse.iiti.ac.in/",
-		},
-		{ img: chem, head: "Chemistry", link: "http://chemistry.iiti.ac.in/" },
-		{ img: phy, head: "Physics", link: "http://physics.iiti.ac.in/" },
-		{ img: math, head: "Mathematics", link: "http://math.iiti.ac.in/" },
 		{
 			img: bbse,
 			head: "Bio-Sciences & Bio-medical Engineering",
 			link: "http://bsbe.iiti.ac.in/",
 		},
-		{
-			img: bio,
-			head: "Biotechnology",
-			link: "http://bsbe.iiti.ac.in/",
-		},
-		{
-			img: space,
-			head: "Astronomy",
-			link: "http://astronomy.iiti.ac.in/",
-		},
+		{ img: chem, head: "Chemistry", link: "http://chemistry.iiti.ac.in/" },
 		{
 			img: civil,
 			head: "Civil Engineering",
 			link: "http://ce.iiti.ac.in/",
 		},
 		{
+			img: computer,
+			head: "Computer Science & Engineering",
+			link: "http://cse.iiti.ac.in/",
+		},
+		{
+			img: elec,
+			head: "Electrical Engineering",
+			link: "http://ee.iiti.ac.in/",
+		},
+		{
 			img: philosophy,
 			head: "Humanities & Social Sciences",
 			link: "http://hss.iiti.ac.in/",
 		},
+		{ img: math, head: "Mathematics", link: "http://math.iiti.ac.in/" },
+		{
+			img: mech,
+			head: "Mechanical Engineering",
+			link: "http://me.iiti.ac.in/",
+		},
+		{
+			img: metall,
+			head: "Metallurgy Engineering & Material Sciences",
+			link: "http://mems.iiti.ac.in/",
+		},
+		{ img: phy, head: "Physics", link: "http://physics.iiti.ac.in/" },
+		// {
+		// 	img: comm,
+		// 	head: "Communication & Signal Processing",
+		// 	link: "http://ee.iiti.ac.in/",
+		// },
+		// {
+		// 	img: vlsi,
+		// 	head: "VLSI Design & Nanoelectronics",
+		// 	link: "http://ee.iiti.ac.in/",
+		// },
+		// {
+		// 	img: prod,
+		// 	head: "Production & Industrial Engineering ",
+		// 	link: "http://me.iiti.ac.in/",
+		// },
+		// {
+		// 	img: syst,
+		// 	head: "Mechanical Systems Design",
+		// 	link: "http://me.iiti.ac.in/",
+		// },
+		// {
+		// 	img: bio,
+		// 	head: "Biotechnology",
+		// 	link: "http://bsbe.iiti.ac.in/",
+		// },
 	]);
 	const responsive = {
 		3000: {
@@ -141,9 +141,7 @@ export const Offer = () => {
 										/>
 									</div>
 									<div className="card-body">
-										<h4 className="card-title text-uppercase mainTitle">
-											{img.head}
-										</h4>
+										<h4 className="card-title mainTitle">{img.head}</h4>
 									</div>
 								</div>
 							</a>

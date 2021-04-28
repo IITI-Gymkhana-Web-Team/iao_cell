@@ -2,7 +2,7 @@ import React from "react";
 import { iiti_2 } from "../../../assets";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
-import { FaInstagram, FaFacebookSquare, FaLinkedin, FaEnvelope , FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebookSquare, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => {
 	return (
@@ -67,13 +67,22 @@ export const Footer = () => {
 						<Col className="social mt-0" xs={12} lg={3}>
 							<h4 className="font-acme">SOCIAL MEDIA</h4>
 							<div>
-								<a href="#" target="_blank">
+								<a
+									href="https://www.instagram.com/iitindoreofficial/?hl=en"
+									target="_blank"
+								>
 									<FaInstagram className="pop-out" />
 								</a>
-								<a href="https://www.facebook.com/pages/Indian%20Institute%20of%20Technology%20Indore/112510072096662/" target="_blank">
+								<a
+									href="https://www.facebook.com/pages/Indian%20Institute%20of%20Technology%20Indore/112510072096662/"
+									target="_blank"
+								>
 									<FaFacebookSquare className="pop-out" />
 								</a>
-								<a href="https://www.linkedin.com/school/iit-indore/" target="_blank">
+								<a
+									href="https://www.linkedin.com/school/iit-indore/"
+									target="_blank"
+								>
 									<FaLinkedin className="pop-out" />
 								</a>
 								<a href="https://twitter.com/IITIOfficial" target="_blank">
