@@ -19,7 +19,7 @@ export const CustomTable = ({ cols, data, sort, vars }) => {
 		<Table striped bordered hover variant="primary" responsive className="mb-5">
 			<thead>
 				<tr>
-					<th>#</th>
+					<th>S.No</th>
 					{cols.map((col) => {
 						return <th>{col}</th>;
 					})}
