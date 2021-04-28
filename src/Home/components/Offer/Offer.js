@@ -8,12 +8,18 @@ import {
 	computer,
 	phy,
 	bio,
+	bbse,
 	space,
 	civil,
 	philosophy,
 	material,
+	metall,
 	mech,
+	prod,
+	syst,
 	elec,
+	vlsi,
+	comm,
 	chem,
 	math,
 } from "../../../assets";
@@ -22,44 +28,65 @@ export const Offer = () => {
 	const [images] = useState([
 		{
 			img: elec,
-			head: "Electrical Sciences",
-			text:
-				"Electrical engineering | Communication & Signal Processing | VLSI Design & nanoelectronics",
+			head: "Electrical engineering",
+			link: "http://ee.iiti.ac.in/",
+		},
+		{
+			img: comm,
+			head: "Communication & Signal Processing",
+			link: "http://ee.iiti.ac.in/",
+		},
+		{
+			img: vlsi,
+			head: "VLSI Design & nanoelectronics",
 			link: "http://ee.iiti.ac.in/",
 		},
 		{
 			img: mech,
-			head: "Mechanical Sciences",
-			text:
-				"Mechanical engineering | Production & Industrial engineering | Mechanical systems design",
+			head: "Mechanical Engineering",
+			link: "http://me.iiti.ac.in/",
+		},
+		{
+			img: prod,
+			head: "Production & Industrial engineering ",
+			link: "http://me.iiti.ac.in/",
+		},
+		{
+			img: syst,
+			head: "Mechanical systems design",
 			link: "http://me.iiti.ac.in/",
 		},
 		{
 			img: material,
-			head: "Material Sciences",
-			text:
-				"Metallurgy & Material Sciences | Material Sciences & engineering | Specialization in  Metallurgy",
+			head: "Material Sciences & engineering",
+			link: "http://mems.iiti.ac.in/",
+		},
+		{
+			img: metall,
+			head: "Metallurgy & Material Sciences",
 			link: "http://mems.iiti.ac.in/",
 		},
 		{
 			img: computer,
-			head: "Computer Sciences",
-			text: "Computer Science & Engineering",
+			head: "Computer Science & Engineering",
 			link: "http://cse.iiti.ac.in/",
 		},
-		{ img: chem, head: "Chemistry", text: "Chemistry", link: "http://chemistry.iiti.ac.in/" },
-		{ img: phy, head: "Physics", text: "Physics", link: "http://physics.iiti.ac.in/" },
-		{ img: math, head: "Mathematics", text: "Mathematics", link: "http://math.iiti.ac.in/" },
+		{ img: chem, head: "Chemistry", link: "http://chemistry.iiti.ac.in/" },
+		{ img: phy, head: "Physics", link: "http://physics.iiti.ac.in/" },
+		{ img: math, head: "Mathematics", link: "http://math.iiti.ac.in/" },
+		{
+			img: bbse,
+			head: "Bio-Sciences & Bio-medical Engineering",
+			link: "http://bsbe.iiti.ac.in/",
+		},
 		{
 			img: bio,
-			head: "Life Sciences",
-			text: "Bio-Sciences & Bio-medical Engineering | Biotechnology",
+			head: "Biotechnology",
 			link: "http://bsbe.iiti.ac.in/",
 		},
 		{
 			img: space,
-			head: "Space Sciences",
-			text: "Astronomy | Astrophysics & Space Engineering",
+			head: "Astronomy",
 			link: "http://astronomy.iiti.ac.in/",
 		},
 		{
@@ -71,7 +98,6 @@ export const Offer = () => {
 		{
 			img: philosophy,
 			head: "Humanities & Social Sciences",
-			text: "English | Philosophy | Economics | Psychology | Sociology",
 			link: "http://hss.iiti.ac.in/",
 		},
 	]);
@@ -124,7 +150,6 @@ export const Offer = () => {
 										<h4 className="card-title text-uppercase mainTitle">
 											{img.head}
 										</h4>
-										<p className="card-text">{img.text}</p>
 									</div>
 								</div>
 							</a>
