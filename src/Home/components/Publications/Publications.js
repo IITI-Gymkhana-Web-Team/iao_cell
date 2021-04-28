@@ -15,7 +15,7 @@ export const Publications = () => {
 					<Form.Label>Search By Department</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="Chemistry"
+						placeholder="Enter the name of the department"
 						onChange={(e) => {
 							setDept(e.target.value);
 						}}
@@ -25,7 +25,7 @@ export const Publications = () => {
 					<Form.Label>Search By Faculty</Form.Label>
 					<Form.Control
 						type="text"
-						placeholder="Dr. ABC"
+						placeholder="Enter the name of the faculty"
 						onChange={(e) => {
 							setFaculty(e.target.value);
 						}}
