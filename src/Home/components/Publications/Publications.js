@@ -10,7 +10,7 @@ export const Publications = () => {
 	return (
 		<div className="container-fluid mhrdPage">
 			<h1 className="mainTitle mt-4 mb-5 text-center">Publications</h1>
-			<Form>
+			<Form className="container">
 				<Form.Group controlId="exampleForm.ControlInput1">
 					<Form.Label>Search By Department</Form.Label>
 					<Form.Control
