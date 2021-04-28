@@ -1,5 +1,26 @@
 export const data = [
 	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Funding Agency": "DST - RFBR Indo-Russian joint research grant",
+		"Title of the Grant":
+			"Developement of theranostic targeted magnetic nanoparticles for diagnostics and treatment of tuberculosis.",
+		"Foreign Collaborator(s)":
+			"Dr. Maxim Shevtsov,  Institute of Cytology of Russian Academy of Sciences, Russia",
+		Amount: "38.92 Lacs",
+		"Year of Award - Year of Completion": "2020 – 2022",
+	},
+	{
+		"Name of the Faculty": "Prof. Avinash Sonawane",
+		Department: "Biosciences and Biomedical Engineering (BSBE)",
+		"Funding Agency": "INTPART, Research Council Norway ",
+		"Title of the Grant": "Reversing antimicrobial resistance (AMR)",
+		"Foreign Collaborator(s)":
+			"Prof. Tone Tonjum,  Head  Medical Microbiology, University of Oslo, Norway",
+		Amount: "100000/year",
+		"Year of Award - Year of Completion": "2020-2023",
+	},
+	{
 		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
 		Department: "Chemistry",
 		"Funding Agency": "Shastri Indo-Canadian Institute (SICI), Canada",

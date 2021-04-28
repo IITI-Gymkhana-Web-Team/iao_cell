@@ -3,10 +3,10 @@ import { data } from "./data";
 import { FiLink } from "react-icons/fi";
 import { Table } from "react-bootstrap";
 
-export const Btech = () => {
+export const Internships = () => {
 	return (
 		<div className="container mt-1">
-			<h2 className="pt-4 mainTitle pb-4 text-center">B Tech</h2>
+			<h2 className="pt-4 mainTitle pb-4 text-center">Internships</h2>
 			<Table striped bordered hover variant="primary" responsive>
 				<tbody>
 					<tr>
