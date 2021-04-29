@@ -34,7 +34,7 @@ export default function Message() {
 						>
 							<div className="quoteBox">
 								<FaQuoteLeft className="fa2" />
-								<div className="text ml-4">
+								<div className="text">
 									<p>
 										As IIT Indore steps into the next decade, it carries forward
 										the culture of excellence and hard work embedded in its
@@ -73,7 +73,7 @@ export default function Message() {
 						>
 							<div className="quoteBox">
 								<FaQuoteLeft className="fa2" />
-								<div className="text ml-4">
+								<div className="text">
 									<p>
 										We, at International Affairs and Outreach, IIT Indore, deal
 										with the partner Universities across the globe for academic

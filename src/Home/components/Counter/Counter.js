@@ -27,6 +27,7 @@ const Counter = () => {
 											display: "flex",
 											justifyContent: "center",
 											alignItems: "center",
+											position: "relative",
 										}}
 									>
 										<img

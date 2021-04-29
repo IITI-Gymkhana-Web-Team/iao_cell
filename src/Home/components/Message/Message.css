@@ -46,6 +46,10 @@
 	float: right;
 }
 
+.quoteBox p {
+	margin-left: 20px;
+}
+
 @media only screen and (max-width: 1000px) {
 	.messageBox .card {
 		flex-direction: column-reverse;
@@ -54,6 +58,10 @@
 		margin: 10px auto;
 		float: none;
 	}
+	.quoteBox p {
+		margin: 0px;
+	}
+
 	.messageBox {
 		text-align: center;
 	}
@@ -86,12 +94,9 @@
 @keyframes example {
 	from {
 		opacity: 0;
-		/* position: relative;
-	right:100%; */
 	}
 	to {
 		opacity: 1;
-		/* position: static; */
 	}
 }
 
