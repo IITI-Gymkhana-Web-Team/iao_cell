@@ -14,7 +14,7 @@
 }
 
 .mainTitle {
-	font-family: "Acme", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 .mainDesc {
@@ -22,7 +22,7 @@
 }
 
 .font-acme {
-	font-family: "Acme", sans-serif !important;
+	font-family: "Roboto", sans-serif !important;
 }
 
 .font-ubuntu {
