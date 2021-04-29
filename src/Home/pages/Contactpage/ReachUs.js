@@ -7,6 +7,8 @@ import { FiLink2 } from "react-icons/fi";
 // import { BiTimeFive, BiCalendarCheck } from "react-icons/bi";
 import { Card, Table } from "react-bootstrap";
 import { train, plane, bus } from "../../../assets";
+import Saitour from "../../../assets/Sai Tour and Travelling.pdf";
+import Sachidananda from "../../../assets/Sachidanand Travels.pdf";
 
 export default function ReachUs() {
 	const [width, setWidth] = useState("600px");
@@ -151,33 +153,44 @@ export default function ReachUs() {
 					</Card.Body>
 				</Card>
 			</div>
-			{/*<h1 className="font-acme mt-5 text-center">Cab Services</h1>
+			<h1 className="font-acme mt-5 text-center">Cab Services</h1>
 			<div className="container">
-				<Table
-					striped
-					bordered
-					hover
-					variant="primary"
-					responsive
-					className="mb-4 mt-2">
+				<Table striped bordered hover variant="primary" responsive className="mb-4 mt-2">
 					<thead>
 						<tr>
 							<th>Name</th>
 							<th>Contact Number</th>
+							<th>Contract</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>Sahil Cab Service</td>
+							<td>Sai Tour & Travelling Services</td>
 							<td>
-								<a href="tel:+91 78699 02222">
-									+91 78699 02222
+								<a href="tel:+91 9479583639">+91 9479583639</a>,
+								<a href="tel:+91 9165168899">+91 9165168899</a>
+							</td>
+							<td>
+								<a href={Saitour} target="_blank">
+									Link
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Sachidananda Tours & Travels</td>
+							<td>
+								<a href="tel:+91 9826027085">+91 9826027085</a>,
+								<a href="tel:+91 9893027085">+91 9893027085</a>
+							</td>
+							<td>
+								<a href={Sachidananda} target="_blank">
+									Link
 								</a>
 							</td>
 						</tr>
 					</tbody>
 				</Table>
-			</div>*/}
+			</div>
 			<h1 className="font-acme mt-5 text-center">Emergency Contact Numbers</h1>
 			<div className="container">
 				<p>
