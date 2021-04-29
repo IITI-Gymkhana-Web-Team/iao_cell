@@ -28,7 +28,7 @@ export const AboutUs = () => {
 							<h3 className="font-acme mt-4">About IITI</h3>
 
 							<div className="aboutUnderline"></div>
-							<p className="font-ubuntu mt-3">
+							<p className="font-ubuntu mt-3 text-justify">
 								IIT Indore, established by the Govt. of India in 2009, promotes the
 								the culture of excellence and hard work. It maintains a high
 								national rank among the institutions of higher education and is now
@@ -51,7 +51,7 @@ export const AboutUs = () => {
 							</div>
 							<h3 className="font-acme mt-4">About Us</h3>
 							<div className="aboutUnderline"></div>
-							<p className="font-ubuntu mt-3">
+							<p className="font-ubuntu mt-3 text-justify">
 								IIT Indore is rapidly expanding globally with an aim to
 								internationalize its teaching and research portfolio. Currently, we
 								are collaborating intensely with counties across North America,
@@ -74,7 +74,7 @@ export const AboutUs = () => {
 							</div>
 							<h3 className="font-acme mt-4">Life @ IITI</h3>
 							<div className="aboutUnderline"></div>
-							<p className="font-ubuntu mt-3">
+							<p className="font-ubuntu mt-3 text-justify">
 								IITI Campus is equipped with accommodation facilities and amenities
 								of international standards with 5 Hall of residence to accommodate
 								students inside the campus in the middle of the nature with
