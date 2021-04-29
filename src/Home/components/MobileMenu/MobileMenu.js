@@ -61,7 +61,7 @@ export const MobileMenu = ({ show, setShow }) => {
 					level: "2",
 				},
 				{
-					name: "Mobility Exchange",
+					name: "Mobility",
 					innerLinks: [
 						{
 							name: "Student",
@@ -84,17 +84,44 @@ export const MobileMenu = ({ show, setShow }) => {
 							link: "/int/students",
 							level: "3",
 						},
-						{
-							name: "Testimonials",
-							link: "/int/testimonials",
-							level: "3",
-						},
 					],
 					level: "2",
 				},
 				{
-					name: "Grants",
-					link: "/grants",
+					name: "International Grants",
+					innerLinks: [
+						{
+							name: "Bilateral Int. Grants",
+							link: "/grants",
+							level: "3",
+						},
+						{
+							name: "MHRD Schemes",
+							innerLinks: [
+								{
+									name: "GIAN",
+									link: "/mhrd/gian",
+									level: "4",
+								},
+								{
+									name: "VAJRA",
+									link: "/mhrd/vajra",
+									level: "4",
+								},
+								{
+									name: "SPARC",
+									link: "/mhrd/sparc",
+									level: "4",
+								},
+								{
+									name: "ASEM - DUO",
+									link: "/mhrd/asem",
+									level: "4",
+								},
+							],
+							level: "3",
+						},
+					],
 					level: "2",
 				},
 				{
@@ -106,10 +133,10 @@ export const MobileMenu = ({ show, setShow }) => {
 			level: "1",
 		},
 		{
-			name: "Prospective",
+			name: "Inbound",
 			innerLinks: [
 				{
-					name: "Inbound",
+					name: "Visitors",
 					innerLinks: [
 						{
 							name: "Faculty",
@@ -117,11 +144,6 @@ export const MobileMenu = ({ show, setShow }) => {
 								{
 									name: "Visa Process",
 									link: "/ProsFaculty/visa",
-									level: "4",
-								},
-								{
-									name: "Places To Visit",
-									link: "/ProsFaculty/places",
 									level: "4",
 								},
 							],
@@ -145,11 +167,6 @@ export const MobileMenu = ({ show, setShow }) => {
 									link: "/ProsStud/visa",
 									level: "4",
 								},
-								{
-									name: "Places To Visit",
-									link: "/ProsStud/places",
-									level: "4",
-								},
 							],
 							level: "3",
 						},
@@ -157,31 +174,198 @@ export const MobileMenu = ({ show, setShow }) => {
 					level: "2",
 				},
 				{
-					name: "Outbound",
+					name: "Opportunity",
 					innerLinks: [
-						{ name: "Faculty", link: "#", level: "3" },
-						{ name: "Student", link: "#", level: "3" },
+						{
+							name: "Study In India",
+							link: "https://studyinindia.gov.in/",
+							level: "3",
+						},
+						{
+							name: "ICCR",
+							link: "https://www.iccr.gov.in/",
+							level: "3",
+						},
+						{
+							name: "ASEAN India STIC",
+							link: "https://asean-iit.in/",
+							level: "3",
+						},
 					],
+					level: "2",
+				},
+				{
+					name: "Places To Visit",
+					link: "/Pros/places",
+					level: "2",
+				},
+				{
+					name: "Visitors' Experience",
+					link: "/Pros/visitors_experience",
 					level: "2",
 				},
 			],
 			level: "1",
 		},
 		{
-			name: "Opportunities",
+			name: "Outbound",
 			innerLinks: [
 				{
 					name: "Student",
 					innerLinks: [
-						{ name: "Internships", link: "#", level: "3" },
+						{
+							name: "Scholarships",
+							innerLinks: [
+								{
+									name: "France",
+									level: "4",
+									innerLinks: [
+										{
+											name: "Raman-Charpak Fellowship",
+											link: "http://www.cefipra.org/Raman_Charpak.aspx",
+											level: "5",
+										},
+										{
+											name: "CEFIPRA-ESONN Fellowship",
+											link: "http://www.cefipra.org/Cefipra_ESONN.aspx",
+											level: "5",
+										},
+										{
+											name: "ENS Internship program",
+											link:
+												"http://www.ens-lyon.fr/en/studies/admissions/application-research-internship",
+											level: "5",
+										},
+									],
+								},
+								{
+									name: "Japan",
+									level: "4",
+									innerLinks: [
+										{
+											name: "JSPS",
+											link: "https://www.jsps.go.jp/english/",
+											level: "5",
+										},
+										{
+											name: "MEXT Scholarship",
+											link:
+												"https://www.in.emb-japan.go.jp/Education/japanese_government_scholarships.html",
+											level: "5",
+										},
+									],
+								},
+								{
+									name: "Germany",
+									level: "4",
+									innerLinks: [
+										{
+											name: "Alexander von Humboldt Foundation",
+											link: "https://www.humboldt-foundation.de/en/",
+											level: "5",
+										},
+										{
+											name: "DAAD",
+											link:
+												"https://www.daad.in/en/study-research-in-germany/",
+											level: "5",
+										},
+										{
+											name: "Indo-German Science & Technology Center",
+											link: "https://www.igstc.org",
+											level: "5",
+										},
+										{
+											name: "German Language",
+											link: "https://www.goethe.de/ins/in/en/sta/new.html",
+											level: "5",
+										},
+										{
+											name: "Indo-German Training Centre",
+											link:
+												"https://indien.ahk.de/education/indo-german-training-centre",
+											level: "5",
+										},
+									],
+								},
+								{
+									name: "Canada",
+									level: "4",
+									innerLinks: [
+										{
+											name: "Indo-Shastri Canadian Institute",
+											link: "https://www.shastriinstitute.org/",
+											level: "5",
+										},
+										{
+											name: "Indo-Canada Education Council",
+											link: "https://indocanadaeducation.org/",
+											level: "5",
+										},
+										{
+											name: "MITACS",
+											link:
+												"https://www.mitacs.ca/en/programs/globalink/come-to-canada",
+											level: "5",
+										},
+									],
+								},
+								{
+									name: "USA",
+									level: "4",
+									link: "https://www.iusstf.org/",
+								},
+								{
+									name: "UK",
+									level: "4",
+									link:
+										"https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/",
+								},
+								{
+									name: "Asean",
+									level: "4",
+									link: "https://aistic.gov.in/ASEAN/HomePage",
+								},
+								{
+									name: "China",
+									level: "4",
+									link: "http://www.anso.org.cn/programmes/talent/scholarship/",
+								},
+								{
+									name: "Taiwan",
+									level: "4",
+									link:
+										"https://www.icdf.org.tw/ct.asp?xItem=12505&CtNode=30316&mp=2",
+								},
+								{
+									name: "Spain",
+									level: "4",
+									link:
+										"https://www.crg.eu/en/content/training/undergraduates-and-masters",
+								},
+								{
+									name: "Austria",
+									level: "4",
+									link: "https://www.scholarships.at/default.aspx",
+								},
+								{
+									name: "New Zealand",
+									level: "4",
+									link: "https://www.nzscholarships.govt.nz/",
+								},
+								{
+									name: "Thailand",
+									level: "4",
+									link:
+										"https://www.ait.ac.th/admissions/scholarships/bangchak-master-scholarships/",
+								},
+							],
+							level: "3",
+						},
+						{ name: "Internships", link: "/opportunities/internships", level: "3" },
 						{
 							name: "PG / Ph.D. / Post-Doc",
 							link: "/opportunities/pg_phd_post_doc",
-							level: "3",
-						},
-						{
-							name: "Scholarships",
-							link: "/opportunities/scholarship",
 							level: "3",
 						},
 					],
@@ -205,19 +389,16 @@ export const MobileMenu = ({ show, setShow }) => {
 							innerLinks: [
 								{
 									name: "Alexander von Humboldt Foundation",
-									link:
-										"https://www.humboldt-foundation.de/en/",
+									link: "https://www.humboldt-foundation.de/en/",
 									level: "4",
 								},
 								{
 									name: "DAAD",
-									link:
-										"https://www.daad.in/en/study-research-in-germany/",
+									link: "https://www.daad.in/en/study-research-in-germany/",
 									level: "4",
 								},
 								{
-									name:
-										"Indo-German Science & Technology Center",
+									name: "Indo-German Science & Technology Center",
 									link: "https://www.igstc.org/",
 									level: "4",
 								},
@@ -260,8 +441,8 @@ export const MobileMenu = ({ show, setShow }) => {
 		{
 			name: "Outreach",
 			innerLinks: [
-				{ name: "News", link: "/outreach/news", level: "2" },
 				{ name: "Events", link: "/outreach/events", level: "2" },
+				{ name: "News", link: "/outreach/news", level: "2" },
 			],
 			level: "1",
 		},
@@ -342,25 +523,16 @@ export const MobileMenu = ({ show, setShow }) => {
 	]);
 
 	return (
-		<div
-			className="mobileMenuOuter"
-			style={show ? { display: "" } : { display: "none" }}>
+		<div className="mobileMenuOuter" style={show ? { display: "" } : { display: "none" }}>
 			<div className="mobileMenu">
 				<div className="mmenuP1">
 					<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
-					<AiOutlineCloseCircle
-						className="closeIcon"
-						onClick={() => setShow(false)}
-					/>
+					<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
 				</div>
 				{links.map((link1) => {
 					return (
 						<div className="indiMenu" key={link1.name}>
-							<MobileMenuLinks
-								link1={link1}
-								setShow2={setShow}
-								show2={show}
-							/>
+							<MobileMenuLinks link1={link1} setShow2={setShow} show2={show} />
 						</div>
 					);
 				})}
