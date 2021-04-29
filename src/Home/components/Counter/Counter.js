@@ -6,7 +6,7 @@ import { GrStar } from "react-icons/gr";
 import "./Counter.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import VisibilitySensor from "react-visibility-sensor";
-import wheat from "../../../assets/wheat.png";
+import { wheat } from "../../../assets";
 
 const Counter = () => {
 	return (

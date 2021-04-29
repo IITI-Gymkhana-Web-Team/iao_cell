@@ -2,9 +2,8 @@ import React from "react";
 import { data } from "./data";
 import CountUp from "react-countup";
 import { Col, Row, Card } from "react-bootstrap";
-import videoo from "../../../assets/bgvideo4.mp4";
 import { GiStarsStack } from "react-icons/gi";
-import wheat from "../../../assets/wheat.png";
+import { wheat, videoo } from "../../../assets";
 import "./backVideo.css";
 
 export const BackVideo = () => {

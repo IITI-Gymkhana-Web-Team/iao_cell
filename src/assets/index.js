@@ -2,7 +2,6 @@ import asem from "./asemDuo.webp";
 import gian from "./gian.webp";
 import sparc from "./sparc.webp";
 import vajra from "./vajra.webp";
-import img1 from "./img1.jpeg";
 import image14 from "./image14.webp";
 import image15 from "./image15.webp";
 import unnamed from "./unnamed.webp";
@@ -145,7 +144,7 @@ import ajoy from "./ajoy.webp";
 import amit from "./amit.webp";
 import amol from "./amol.webp";
 import bm from "./bm.webp";
-import dks from "./dks.jpeg";
+import dks from "./dks.webp";
 import mani from "./mani.webp";
 import srubabati from "./srubabati.webp";
 import sunilGupta from "./sunilGupta.webp";
@@ -178,8 +177,12 @@ import civil from "./civil.webp";
 import philosophy from "./philosophy.webp";
 import chem from "./chem.webp";
 import math from "./math.webp";
+import wheat from "./wheat-min.png";
+import videoo from "./bgvideo4.mp4";
 
 export {
+	videoo,
+	wheat,
 	chem,
 	math,
 	computer,
@@ -339,7 +342,6 @@ export {
 	gian,
 	sparc,
 	vajra,
-	img1,
 	image14,
 	image15,
 	unnamed,

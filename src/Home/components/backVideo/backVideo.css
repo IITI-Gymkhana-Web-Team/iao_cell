@@ -39,7 +39,7 @@ video {
 	width: 16rem;
 	color: white;
 	font-family: "Nobile", sans-serif;
-	background-image: url("../../../assets/wheat.png");
+	/* background-image: url("../../../assets/wheat.png"); */
 	margin: 0 80px;
 }
 .circle {
