@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
 	d1,
 	d2,
@@ -21,11 +21,52 @@ import {
 	t2,
 } from "../../../assets";
 import "./Life.css";
+import Iframe from "react-iframe";
 
 export const LifeIITI = () => {
+	const [width, setWidth] = useState("650px");
+	const [height, setHeight] = useState("366px");
+
+	const updateDimensions = () => {
+		if (window.innerWidth <= 350) {
+			setWidth("300px");
+			setHeight("169px");
+		} else if (window.innerWidth <= 600) {
+			setWidth("400px");
+			setHeight("225px");
+		} else {
+			setWidth("650px");
+			setHeight("366px");
+		}
+	};
+
+	useEffect(() => {
+		updateDimensions();
+		window.addEventListener("resize", updateDimensions);
+		return () => window.removeEventListener("resize", updateDimensions);
+	}, [window.innerWidth]);
+
 	return (
 		<div className="container font-ubuntu lifeIITI text-justify">
 			<h1 className="mainTitle text-center m-3">Campus Life At IITI</h1>
+			<div
+				style={{
+					display: "flex",
+					justifyContent: "center",
+					alignItems: "center",
+				}}
+				className="mb-5 mt-5"
+			>
+				<Iframe
+					width={width}
+					height={height}
+					src="https://www.youtube.com/embed/ASnDC7AhP3k"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></Iframe>
+			</div>
 			<p>
 				IITI Campus is equipped with accommodation facilities and amenities of international
 				standards with a 05 Hall of residence to accommodate students inside the campus in
