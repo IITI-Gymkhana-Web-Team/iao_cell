@@ -523,8 +523,11 @@ export const MobileMenu = ({ show, setShow }) => {
 	]);
 
 	return (
-		<div className="mobileMenuOuter" style={show ? { display: "" } : { display: "none" }}>
-			<div className="mobileMenu">
+		<div className={show ? "mobileMenuOuter" : "mobileMenuOuter disappear"}>
+			<div
+				className="mobileMenu"
+				className={show ? "mobileMenu showMe" : "mobileMenu dontShowMe"}
+			>
 				<div className="mmenuP1">
 					<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
 					<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
