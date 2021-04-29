@@ -1,8 +1,12 @@
 .aboutIITI img {
-	margin: 5px;
+	margin: 10px;
 	padding: 5px;
 	border: 1px solid #aaa;
 	border-radius: 10px;
+}
+
+.aboutIITI {
+	text-align: justify;
 }
 
 .charts {

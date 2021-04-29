@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const AboutIOA = () => {
 	return (
-		<div className="container pb-5">
+		<div className="container pb-5 text-justify">
 			<h1 className="mainTitle text-center m-3 mb-4">About Us</h1>
 			<h3 className="mainTitle mt-5">International Affairs and Outreach</h3>
 			<p>
