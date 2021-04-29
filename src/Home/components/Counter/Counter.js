@@ -15,11 +15,23 @@ const Counter = () => {
 				<Row>
 					{data.map((value, index) => {
 						return (
-							<Col lg={4} key={index}>
+							<Col
+								lg={4}
+								key={index}
+								style={{
+									display: "flex",
+									justifyContent: "center",
+									alignItems: "center",
+								}}
+							>
 								<div
 									className="text-center cardBox"
 									style={{
 										backgroundColor: "transparent",
+										display: "flex",
+										justifyContent: "center",
+										alignItems: "center",
+										flexDirection: "column",
 									}}
 								>
 									<div

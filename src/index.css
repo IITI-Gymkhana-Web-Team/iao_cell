@@ -12,6 +12,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
 	background-color: #f6f6f6 !important;
+	max-width: 100vw;
 }
 
 code {
@@ -41,4 +42,8 @@ code {
 
 td {
 	white-space: pre-wrap !important;
+}
+
+.row {
+	max-width: 100vw;
 }

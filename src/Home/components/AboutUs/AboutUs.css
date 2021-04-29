@@ -67,6 +67,7 @@
 	background-color: lavender;
 	transition: all 0.2s ease-in;
 	height: 100%;
+	max-width: 90vw;
 }
 
 .aboutCard:hover {
