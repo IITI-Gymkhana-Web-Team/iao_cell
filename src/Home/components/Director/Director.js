@@ -8,33 +8,44 @@ export const Director = () => {
 			<img src={neelesh} alt="dean" />
 			<div className="text-justify">
 				<p>
-					Since its inception IIT Indore has been collaborating with the various
-					Universities across the globe. We are exploring the possibilities to maximize
-					the internationalization of higher education globally to enhance the excellence
-					among the faculties and students.
-				</p>
-				<p>
 					As IIT Indore steps into the next decade, it carries forward the culture of
-					excellence and hard work embedded in its social environment. It maintains a high
-					national rank among the institutions of higher education and is now among the
-					top 10 engineering institutes in the country. Over the last eight years, our
-					graduating students have been engaged with the best corporations, in India and
-					worldwide, across different verticals. Many have also chosen the less travelled
-					path of entrepreneurship. It is indeed a proud moment for us when our students
-					contribute to the society by creating jobs and changing lives. Our faculty
-					colleagues, in the last one decade, have also shown immense perseverance to
-					attain new heights of excellence. The teaching and research climate in the
-					institute has been supported by efficient administration.
+					excellence and hard work embedded in its working and social environment. It
+					maintains a high national rank among the institutions of higher education and is
+					now among the top 10 engineering institutes in the country. Over the last eight
+					years, our graduating students have been engaged with best of national and
+					international organizations across different verticals. Many of them have also
+					chosen the less travelled path of entrepreneurship. It is indeed a proud moment
+					for us when our students contribute to the society by creating jobs and changing
+					lives. Our faculty colleagues have been showing immense perseverance to attain
+					new heights of excellence in research, teaching, collaboration, and recently
+					some of them ventured into the entrepreneurial field also. Teaching and research
+					climate in the Institute has always been supported by the efficient
+					administration.
 				</p>
 				<p>
-					Ministry of Education, Govt. of India has taken a special initiative to increase
-					the international perception of IITs by increasing the number of faculties and
-					students through various programs such as SII, ASEAN, ICCR fellowships for the
-					students and schemes like GIAN, VAJRA, SPARC for the faculty members. Recently,
-					IIT Indore has increased the intake of foreign students to 25 % in our PG
-					programs. I am sure that in years to come we will have a significant number of
-					international faculties and students and that will improve our excellence in
-					academics and research.
+					Since its inception IIT Indore has been collaborating with renowned Universities
+					across the globe. In line with the greater emphasis given in New Education
+					Policy (NEP) 2020 and various international and national ranking systems, our
+					focus now is to maximize internationalization at IIT Indore to bring global
+					competitiveness and excellence among the faculty members and students. To
+					achieve this, we have increased the intake of international students from 10% to
+					25% in all our PG programs in March 2021. Hybrid and online mode of teaching and
+					research supervision have made greater involvement of international faculty in
+					teaching and PG/PhD thesis supervision much easier. Therefore, we will maximize
+					use of various initiatives of Ministry of Education (MoE), Govt. of India such
+					as GIAN, VAJRA, SPARC, etc. to significantly increase involvement of
+					international faculty members in teaching and research at IIT Indore. Efforts
+					will also be made to recruit international faculty members for 5 year or more
+					duration as per Govt. of India policy.
+				</p>
+				<p>
+					We will focus on different region of the globe to maximize admission of
+					international student using various of MoE such as Study-in-India (SII), ASEAN
+					Fellowship program for PhD admission, ICCR fellowships for the international
+					students and our own brand image and initiatives. I am sure that very soon IIT
+					Indore will have a significant number of international faculties and students
+					imparting us global excellence and competitiveness edge in academics, research,
+					and entrepreneurship.
 				</p>
 				<h3 className="font-acme text-left mb-0">Professor Neelesh Kumar Jain</h3>
 				<h4 className="font-acme text-left mb-5">Director, IIT Indore</h4>
