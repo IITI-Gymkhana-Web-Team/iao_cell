@@ -1295,4 +1295,308 @@ module.exports = [
 		Website:
 			"https://academicpositions.com/ad/fraunhofer-itwm-kaiserslautern/2020/research-assistant-system-software-development/1522k Here",
 	},
+
+	{
+		"Nature of job": "Postdoc Research Fellow ",
+		Name: "Postdoc Research Fellow in Civil/Structural Engineering",
+		University: "Zhejiang University",
+		Country: "Hangzhou, China",
+		"Application End Date": "28-06-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253128/postdoc-research-fellow-in-civil-structural-engineering/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoctoral Researcher Fellow ",
+		Name:
+			"Postdoctoral Researcher Fellow in Industrial Systems Safety, Optimization and Control",
+		University: "Zhejiang University",
+		Country: "Hangzhou, China",
+		"Application End Date": "28-06-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253127/postdoctoral-researcher-fellow-in-industrial-systems-safety-optimization-and-control/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoctoral Research Fellow ",
+		Name: "Postdoctoral Research Fellow in Plant Phenotyping",
+		University: "Zhejiang University",
+		Country: "Hangzhou, China",
+		"Application End Date": "28-06-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253121/postdoctoral-research-fellow-in-plant-phenotyping/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoctoral Research Fellow ",
+		Name:
+			"Postdoctoral Fellowship Program, Researcher in Intelligent Molecule and Material Discovery",
+		University: "Zhejiang University",
+		Country: "Hangzhou, China",
+		"Application End Date": "28-06-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253113/postdoctoral-fellowship-program-researcher-in-intelligent-molecule-and-material-discovery/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoctoral Fellowship Program",
+		Name: "Postdoctoral Fellowship Program, Recruiting Researcher in Synthetic Biology",
+		University: "Zhejiang University",
+		Country: "Hangzhou, China",
+		"Application End Date": "28-06-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253112/postdoctoral-fellowship-program-recruiting-researcher-in-synthetic-biology/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoctoral Fellow",
+		Name: "Postdoctoral Fellow in Medicine",
+		University: "Zhejiang University",
+		Country: "Hangzhou, China",
+		"Application End Date": "28-06-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253105/postdoctoral-fellow-in-medicine/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Research Fellow",
+		Name: "Research Fellow, Biomedical Engineering",
+		University: "National University Of Singapore(NUS)",
+		Country: "Singapore",
+		"Application End Date": "30-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253086/research-fellow-biomedical-engineering/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Research Fellow",
+		Name:
+			"Research Fellow, Biomarker Discovery, Assay Development and Nanomaterials Engineering, iHealthtech",
+		University: "National University Of Singapore(NUS)",
+		Country: "Singapore",
+		"Application End Date": "29-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253008/research-fellow-biomarker-discovery-assay-development-and-nanomaterials-engineering-ihealthtech/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Research Fellow",
+		Name: "Research Fellow, Theoretical Chemistry",
+		University: "National University Of Singapore(NUS)",
+		Country: "Singapore",
+		"Application End Date": "29-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253030/research-fellow-theoretical-chemistry/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Research Fellow",
+		Name: "Research Fellow, Paediatric Brain Health",
+		University: "National University Of Singapore(NUS)",
+		Country: "Singapore",
+		"Application End Date": "27-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252807/research-fellow-paediatric-brain-health/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Research Fellow",
+		Name: "Research Fellow, Photonics",
+		University: "National University Of Singapore(NUS)",
+		Country: "Singapore",
+		"Application End Date": "27-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252806/research-fellow-photonics/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Research Fellow and Postdoc",
+		Name: "Postdoctoral Fellow, Research Fellow, Chemical and Biomolecular Engineering",
+		University: "National University Of Singapore(NUS)",
+		Country: "Singapore",
+		"Application End Date": "27-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252804/postdoctoral-fellow-research-fellow-chemical-and-biomolecular-engineering/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Postdoctoral Fellow, International Relations of Southeast Asia",
+		University: "National University Of Singapore(NUS)",
+		Country: "Singapore",
+		"Application End Date": "27-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252803/postdoctoral-fellow-international-relations-of-southeast-asia/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoctoral Position",
+		Name: "Postdoctoral Position in Food Science and Consumer Insight",
+		University: "Norwegian University Of Science and Technology(NTNU)",
+		Country: "Trondheim, Norway",
+		"Application End Date": "22-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252678/postdoctoral-position-in-food-science-and-consumer-insight/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoctoral Researcher Fellow ",
+		Name: "Postdoctoral Researcher in Environmental Psychology",
+		University: "Norwegian University Of Science and Technology(NTNU)",
+		Country: "Trondheim, Norway",
+		"Application End Date": "16-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252685/postdoctoral-researcher-in-environmental-psychology/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Post-Doctoral Researcher and Lecture",
+		Name: "Post-Doctoral Researcher and Lecturer in Auditory Science",
+		University: "Norwegian University Of Science and Technology(NTNU)",
+		Country: "Trondheim, Norway",
+		"Application End Date": "24-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252780/post-doctoral-researcher-and-lecturer-in-auditory-science/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoctoral Position",
+		Name:
+			"Postdoctoral Position in Dielectric Condition Assessment of Back-up Hydro Generator Stator Bars",
+		University: "Norwegian University Of Science and Technology(NTNU)",
+		Country: "Trondheim, Norway",
+		"Application End Date": "20-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252784/postdoctoral-position-in-dielectric-condition-assessment-of-back-up-hydro-generator-stator-bars/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow, Department of Electrical and Electronic Engineering",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "31-10-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253056/post-doctoral-fellow-department-of-electrical-and-electronic-engineering/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow in Mental Well-being and End-of-Life Communication",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "31-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/253057/post-doctoral-fellow-in-mental-well-being-and-end-of-life-communication/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow, School of Public Health",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "31-08-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252948/post-doctoral-fellow-school-of-public-health/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow in Oral Biofilm Research",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "31-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252949/post-doctoral-fellow-in-oral-biofilm-research/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow in Biomedical Engineering and Biofunctional Materials",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "31-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252950/post-doctoral-fellow-in-biomedical-engineering-and-biofunctional-materials/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow, Department of Microbiology",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "26-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252952/post-doctoral-fellow-department-of-microbiology/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow, Department of Clinical Oncology",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "26-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252953/post-doctoral-fellow-department-of-clinical-oncology/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow in Cancer Biology",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "31-08-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252863/post-doctoral-fellow-in-cancer-biology/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow, Faculty of Social Sciences",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "21-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/252195/post-doctoral-fellow-faculty-of-social-sciences/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "Postdoc Fellow",
+		Name: "Post-doctoral Fellow, Department of Psychiatry",
+		University: "The University of Hong Kong",
+		Country: "Pok Fu Lam, Hong Kong",
+		"Application End Date": "20-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/251709/post-doctoral-fellow-department-of-psychiatry/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "PhD Studentship",
+		Name: "PhD Studentship, Machine Learning Methods to Assist Passive Sonar Operations",
+		University: "University of Southampton",
+		Country: "Southampton, UK",
+		"Application End Date": "14-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/251559/phd-studentship-machine-learning-methods-to-assist-passive-sonar-operations/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "PhD Studentship",
+		Name: "PhD Studentship, Artificial Intelligence for the Future of Society",
+		University: "University of Southampton",
+		Country: "Southampton, UK",
+		"Application End Date": "01-06-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/251650/phd-studentship-artificial-intelligence-for-the-future-of-society/?LinkSource=SimilarJobPlatform",
+	},
+	{
+		"Nature of job": "PhD Studentship",
+		Name: "PhD Studentship, Metallic Cylinders for Safe Storage of Hydrogen Fuel Onboard Ships",
+		University: "University of Southampton",
+		Country: "Southampton, UK",
+		"Application End Date": "31-08-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/251246/phd-studentship-metallic-cylinders-for-safe-storage-of-hydrogen-fuel-onboard-ships/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "PhD Studentship",
+		Name:
+			"PhD Studentship, Modelling Resilience in Automated Transport Systems with Human Factors Methods",
+		University: "University of Southampton",
+		Country: "Southampton, UK",
+		"Application End Date": "31-07-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/251074/phd-studentship-modelling-resilience-in-automated-transport-systems-with-human-factors-methods/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "PhD Studentship",
+		Name:
+			"PhD Studentship, 3D Semantic Scene Understanding with Computer Vision and Artificial Intelligence",
+		University: "University of Southampton",
+		Country: "Southampton, UK",
+		"Application End Date": "11-05-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/250855/phd-studentship-3d-semantic-scene-understanding-with-computer-vision-and-artificial-intelligence/?LinkSource=PremiumListing",
+	},
+	{
+		"Nature of job": "PhD Studentship",
+		Name: "PhD Studentship, Silicon Photonics for Ocean Pollutant Monitoring",
+		University: "University of Southampton",
+		Country: "Southampton, UK",
+		"Application End Date": "31-08-2021",
+		Website:
+			"https://www.timeshighereducation.com/unijobs/listing/250854/phd-studentship-silicon-photonics-for-ocean-pollutant-monitoring/?LinkSource=SimilarJobPlatform",
+	},
 ];
