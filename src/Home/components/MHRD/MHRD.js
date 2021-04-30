@@ -18,7 +18,7 @@ export const MHRD = () => {
 			<div className="MHRDBG container mt-3 mb-5 pb-5">
 				<div className="container-fluid">
 					<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle text-center">
-						Ministry of Education (MoE) Initiatives
+						Ministry of Education (MoE) India Initiatives
 					</h1>
 				</div>
 				<CardDeck className="container-fluid mt-4 mhrd">
