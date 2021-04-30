@@ -196,26 +196,6 @@ module.exports = [
 		Website: "https://webapps.unitn.it/Apply/en/Web/Home/dott",
 	},
 	{
-		"Nature of job": "PhD position(self funded) ",
-		Name:
-			"Enhancing the performance, condition, safety and reliability of offshore wind energy infrastructure systems using optimal design, inspections, structural health monitoring and structural control",
-		University: "Aberdeen University ",
-		Country: "scotland, united kingdom",
-		"Application End Date": "all year round",
-		Website:
-			"https://www.findaphd.com/phds/project/enhancing-the-performance-condition-safety-and-reliability-of-offshore-wind-energy-infrastructure-systems-using-optimal-design-inspections-structural-health-monitoring-and-structural-control/?p121770",
-	},
-	{
-		"Nature of job": "PhD position(self funded) ",
-		Name:
-			"Knowledge Enabled Machine Learning for Intelligent Reliability Optimisation of Automotive Systems",
-		University: "University of Bradford",
-		Country: "Bradford, united kingdom",
-		"Application End Date": "all year round",
-		Website:
-			"https://www.findaphd.com/phds/project/knowledge-enabled-machine-learning-for-intelligent-reliability-optimisation-of-automotive-systems/?p122107",
-	},
-	{
 		"Nature of job": "Funded PhD Project",
 		Name:
 			"Development of machine learning, mathematical optimisation and algorithmic techniques for materials chemistry problems",
@@ -224,25 +204,6 @@ module.exports = [
 		"Application End Date": "30-04-2021",
 		Website:
 			"https://www.findaphd.com/phds/project/development-of-machine-learning-mathematical-optimisation-and-algorithmic-techniques-for-materials-chemistry-problems/?p121362",
-	},
-	{
-		"Nature of job": "PhD position(self funded) ",
-		Name:
-			"The use of deep learning and machine learning for the optimisation of space propulsion technologies",
-		University: "Kingston University",
-		Country: "London, united kingdom",
-		"Application End Date": "all year round",
-		Website:
-			"https://www.findaphd.com/phds/project/the-use-of-deep-learning-and-machine-learning-for-the-optimisation-of-space-propulsion-technologies/?p100376",
-	},
-	{
-		"Nature of job": "PhD position(self funded) ",
-		Name: "Interpretable machine learning for the medical domain",
-		University: "Keele University",
-		Country: "Stoke on Trent, United kingdom",
-		"Application End Date": "all year round",
-		Website:
-			"https://www.findaphd.com/phds/project/interpretable-machine-learning-for-the-medical-domain/?p121924",
 	},
 	{
 		"Nature of job": "Funded PhD Project",
