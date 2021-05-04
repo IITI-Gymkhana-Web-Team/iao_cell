@@ -87,7 +87,34 @@
 	}
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1500px) {
+	.mainNav a {
+		font-size: 14px !important;
+	}
+	:root {
+		--subMenu-width: 9rem;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.mainNav a {
+		font-size: 13px !important;
+	}
+	:root {
+		--subMenu-width: 10rem;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.mainNav a {
+		font-size: 13px !important;
+	}
+	:root {
+		--subMenu-width: 8.5rem;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
 	.mainNav {
 		display: none !important;
 	}
