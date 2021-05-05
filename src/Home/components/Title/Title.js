@@ -8,17 +8,29 @@ import { MobileMenu } from "../MobileMenu/MobileMenu";
 
 export const Title = () => {
 	const [show, setShow] = useState(false);
+	const [i, setI] = useState(0);
 
 	return (
 		<div className="Title">
 			<Navbar bg="light" variant="light" className="ba">
 				<div className="container-fluid">
 					<Navbar.Brand href="/">
-						<img src={iiti_logo_4} style={{ width: '100%' }} alt="logo" className="titleLogo" />
+						<img
+							src={iiti_logo_4}
+							style={{ width: "100%" }}
+							alt="logo"
+							className="titleLogo"
+						/>
 					</Navbar.Brand>
-					<BiMenu className="burger" onClick={() => setShow(true)} />
+					<BiMenu
+						className="burger"
+						onClick={() => {
+							setI(1);
+							setShow(true);
+						}}
+					/>
 				</div>
-				<MobileMenu show={show} setShow={setShow} />
+				<MobileMenu show={show} setShow={setShow} i={i} setI={setI} />
 			</Navbar>
 		</div>
 	);

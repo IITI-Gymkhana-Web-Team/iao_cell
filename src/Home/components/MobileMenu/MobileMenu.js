@@ -4,7 +4,7 @@ import "./MobileMenu.css";
 import { MobileMenuLinks } from "./MobileMenuLinks";
 // import { BsFillSquareFill } from "react-icons/bs";
 
-export const MobileMenu = ({ show, setShow }) => {
+export const MobileMenu = ({ show, setShow, i }) => {
 	const [links] = useState([
 		{
 			name: "Home",
@@ -523,23 +523,31 @@ export const MobileMenu = ({ show, setShow }) => {
 	]);
 
 	return (
-		<div className={show ? "mobileMenuOuter" : "mobileMenuOuter disappear"}>
-			<div
-				className="mobileMenu"
-				className={show ? "mobileMenu showMe" : "mobileMenu dontShowMe"}
-			>
-				<div className="mmenuP1">
-					<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
-					<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
-				</div>
-				{links.map((link1) => {
-					return (
-						<div className="indiMenu" key={link1.name}>
-							<MobileMenuLinks link1={link1} setShow2={setShow} show2={show} />
+		<>
+			{i == 1 && (
+				<div className={show ? "mobileMenuOuter" : "mobileMenuOuter disappear"}>
+					<div className={show ? "mobileMenu" : "mobileMenu dontShowMe"}>
+						<div className="mmenuP1">
+							<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
+							<AiOutlineCloseCircle
+								className="closeIcon"
+								onClick={() => setShow(false)}
+							/>
 						</div>
-					);
-				})}
-			</div>
-		</div>
+						{links.map((link1) => {
+							return (
+								<div className="indiMenu" key={link1.name}>
+									<MobileMenuLinks
+										link1={link1}
+										setShow2={setShow}
+										show2={show}
+									/>
+								</div>
+							);
+						})}
+					</div>
+				</div>
+			)}
+		</>
 	);
 };
