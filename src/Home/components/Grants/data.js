@@ -299,4 +299,15 @@ export const data = [
 			"*this is an institute level project, 20,000-25,000€/year for all the researchers from both sides. ",
 		"Year of Award - Year of Completion": "March 2019 to February 2023",
 	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Funding Agency": "Max Planck Society",
+		"Title of the Grant":
+			"SAJEMA : Simulating AGN Jets in the Era of Multi-messenger Astronomy",
+		"Foreign Collaborator(s)": "Prof. Christian Fendt",
+		Amount:
+			"60,000 Euros (20000 Euros per year)",
+			"Year of Award - Year of Completion": "July 2019- June 2025 (3 years + 2 years)",
+	},
 ];
