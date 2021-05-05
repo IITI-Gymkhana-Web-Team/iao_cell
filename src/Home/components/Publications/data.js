@@ -2003,4 +2003,126 @@ export const data = [
 		"Volume/ Page": "12:1046-63",
 		Year: "2010",
 	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Dominguez-Fernandez, P., Bruggen, M., Vazza, F., Banda-Barragan, W. E., Rajpurohit, K., Mignone, A., Mukherjee, D., & Vaidya, B.",
+		Title:
+			"Morphology of radio relics - I. What causes the substructure of synchrotron emission?",
+		"Book/ Journal/ Book chapter/ Conference Name": "Monthly Notices of the Royal Astronomical Society",
+		"Volume/ Page": "500; 795-816",
+		Year: "2021",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Mukherjee, Dipanjan, Bodo, Gianluigi, Mignone, Andrea, Rossi, Paola, & Vaidya, Bhargav",
+		Title:
+			"Simulating the dynamics and non-thermal emission of relativistic magnetized jets I. Dynamics",
+		"Book/ Journal/ Book chapter/ Conference Name": "Monthly Notices of the Royal Astronomical Society",
+		"Volume/ Page": "499; 681-701",
+		Year: "2020",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Kumar, Sandeep, Paul, Arghyadeep, & Vaidya, Bhargav",
+		Title:
+			"A comparison study of extrapolation models and empirical relations in forecasting solar wind",
+		"Book/ Journal/ Book chapter/ Conference Name": "rontiers in Astronomy and Space Sciences",
+		"Volume/ Page": "7; 92",
+		Year: "2020",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Dabhade, P., Mahato, M., Bagchi, J., Saikia, D. J., Combes, F., Sankhyayan, S., Röttgering, H. J. A., Ho, L. C., Gaikwad, M., Raychaudhury, S., Vaidya, B., & Guiderdoni, B.",
+		Title:
+			"Search and analysis of giant radio galaxies with associated nuclei (SAGAN). I. New sample and multi-wavelength studies",
+		"Book/ Journal/ Book chapter/ Conference Name": "Astronomy and Astrophysics",
+		"Volume/ Page": "642; A153",
+		Year: "2020",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Dabhade, P., Mahato, M., Bagchi, J., Saikia, D. J., Combes, F., Sankhyayan, S., Röttgering, H. J. A., Ho, L. C., Gaikwad, M., Raychaudhury, S., Vaidya, B., & Guiderdoni, B.",
+		Title:
+			"Search and analysis of giant radio galaxies with associated nuclei (SAGAN). I. New sample and multi-wavelength studies",
+		"Book/ Journal/ Book chapter/ Conference Name": "Astronomy and Astrophysics",
+		"Volume/ Page": "642; A153",
+		Year: "2020",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Mignone, A., Vaidya, B., Puzzoni, E., Mukherjee, D., Bodo, G., & Flock, M.",
+		Title:
+			"Particle-Gas Hybrid Schemes in the PLUTO Code",
+		"Book/ Journal/ Book chapter/ Conference Name": "Journal of Physics Conference Series",
+		"Volume/ Page": "1623; 012007",
+		Year: "2020",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Mignone, A., Flock, M., & Vaidya, B.",
+		Title:
+			"A Particle Module for the PLUTO Code. III. Dust",
+		"Book/ Journal/ Book chapter/ Conference Name": "The Astrophysical Journal Supplement Series",
+		"Volume/ Page": "244; 38;",
+		Year: "2019",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Singh, K. K., Meintjes, P. J., van Soelen, B., Ramamonjisoa, F. A., & Vaidya, B.",
+		Title:
+			"Optical polarization properties of February 2010 outburst of the blazar Mrk 421",
+		"Book/ Journal/ Book chapter/ Conference Name": "Astrophysics and Space Science",
+		"Volume/ Page": "364; 88",
+		Year: "2019",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Vaidya Bhargav, Mignone, Andrea, Bodo, Gianluigi, Rossi, Paola, & Massaglia, Silvano",
+		Title:
+			"A Particle Module for the PLUTO Code. II. Hybrid Framework for Modeling Nonthermal Emission from Relativistic Magnetized Flows",
+		"Book/ Journal/ Book chapter/ Conference Name": "The Astrophysical Journal",
+		"Volume/ Page": "865; 144",
+		Year: "2019",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Mignone, A., Bodo, G., Vaidya, B., & Mattia, G.",
+		Title:
+			"A Particle Module for the PLUTO Code. I. An Implementation of the MHD-PIC Equations",
+		"Book/ Journal/ Book chapter/ Conference Name": "The Astrophysical Journal",
+		"Volume/ Page": "859; 13;",
+		Year: "2018",
+	},
+	{
+		"Name of the Faculty": "Prof. Bhargav Vaidya",
+		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
+		"Author(s)":
+			"Vaidya, Bhargav, Prasad, Deovrat, Mignone, Andrea, Sharma, Prateek, & Rickler, Luca",
+		Title:
+			"Scalable explicit implementation of anisotropic diffusion with Runge-Kutta-Legendre super-time stepping",
+		"Book/ Journal/ Book chapter/ Conference Name": "Monthly Notices of the Royal Astronomical Society",
+		"Volume/ Page": "472; 3147-3160",
+		Year: "2017",
+	},
+
 ];
