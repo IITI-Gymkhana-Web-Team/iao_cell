@@ -401,6 +401,13 @@ export const data = {
 							"DST SERB-Purdue University, USA Exchange visit at Purdue University, West Lafayette, USA",
 						Duration: 2020,
 					},
+					{
+						"#": 2,
+						"Faculty/Student": "Dr. Ananya Ghoshal",
+						Visit:
+							"The University of Chicago, Illinois\nSpeaker at the Chicago Colloquium on Digital Humanities and Computer Science (DHCS)",
+						Duration: 2019,
+					},
 				],
 			},
 			{
