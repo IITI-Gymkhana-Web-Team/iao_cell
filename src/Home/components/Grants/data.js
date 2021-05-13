@@ -122,7 +122,6 @@ export const data = [
 		Amount: "Rs.55,00,000/-",
 		"Year of Award - Year of Completion": "2019-2023",
 	},
-
 	{
 		"Name of the Faculty": "Dr. Venkatesh Chelvam",
 		Department: "BSBE",
@@ -132,6 +131,16 @@ export const data = [
 		"Foreign Collaborator(s)": "Prof. Paul Roach, Loughborough University, UK",
 		Amount: "30,00,000/-",
 		"Year of Award - Year of Completion": "Nov.2018-Oct.2019",
+	},
+	{
+		"Name of the Faculty": "Dr. Venkatesh Chelvam",
+		Department: "BSBE",
+		"Funding Agency": "Department of Biotechnology-British council",
+		"Title of the Grant":
+			"Diagnosis of Prostate cancer by Prostate Specific Membrane Antigen (PSMA) Targeted Quantum Dots",
+		"Foreign Collaborator(s)": "Prof. Paul Roach, Keele University, Staffordshire, UK",
+		Amount: "15,00,000/-",
+		"Year of Award - Year of Completion": "Feb. 2016-July 2016",
 	},
 	{
 		"Name of the Faculty": "Dr. Aruna Tiwari",
@@ -295,8 +304,7 @@ export const data = [
 		"Title of the Grant":
 			"A NEW PASSAGE TO INDIA - Partnership between Leibniz Universität Hannover (LUH) and IIT Indore",
 		"Foreign Collaborator(s)": "Prof. Dr. Herbert Pfnür",
-		Amount:
-			"*this is an institute level project, 20,000-25,000€/year for all the researchers from both sides. ",
+		Amount: "*this is an institute level project, 20,000-25,000€/year for all the researchers from both sides. ",
 		"Year of Award - Year of Completion": "March 2019 to February 2023",
 	},
 	{
@@ -306,8 +314,7 @@ export const data = [
 		"Title of the Grant":
 			"SAJEMA : Simulating AGN Jets in the Era of Multi-messenger Astronomy",
 		"Foreign Collaborator(s)": "Prof. Christian Fendt",
-		Amount:
-			"60,000 Euros (20000 Euros per year)",
-			"Year of Award - Year of Completion": "July 2019- June 2025 (3 years + 2 years)",
+		Amount: "60,000 Euros (20000 Euros per year)",
+		"Year of Award - Year of Completion": "July 2019- June 2025 (3 years + 2 years)",
 	},
 ];

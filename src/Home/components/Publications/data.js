@@ -4,8 +4,7 @@ export const data = [
 		Department: "School of HSS",
 		"Author(s)":
 			"Jason M. Kelly, Fiona P. McDonald, Alejandro Camargo, Amelia Moore, Mark Kesling, Ananya Ghoshal,George Marcus, Paul Stoller,Dominic Boyer, Serenella Iovino, Rebecca Ballestra, Jim Enote, Eduardo S. Brondizio, Ignatius Gutsa, Cymene Howe , Sue Jackson and Phil Scarpino. The book is edited by Jason M. Kelly and Fiona P. McDonald.",
-		Title:
-			"Forthcoming book chapter - in 'Scenes from the Anthropocene' to be published by University of California Press as a hard copy volume of critical essays",
+		Title: "Forthcoming book chapter - in 'Scenes from the Anthropocene' to be published by University of California Press as a hard copy volume of critical essays",
 		"Book/ Journal/ Book chapter/ Conference Name": "-",
 		"Volume/ Page": "-",
 		Year: "Expected by 2021",
@@ -15,8 +14,7 @@ export const data = [
 		Department: "School of HSS",
 		"Author(s)":
 			"Jason M. Kelly, Fiona P. McDonald, Alejandro Camargo, Amelia Moore, Mark Kesling, Ananya Ghoshal,George Marcus, Paul Stoller,Dominic Boyer, Serenella Iovino, Rebecca Ballestra, Jim Enote, Eduardo S. Brondizio, Ignatius Gutsa, Cymene Howe , Sue Jackson and Phil Scarpino. The book is edited by Jason M. Kelly and Fiona P. McDonald.",
-		Title:
-			"An Anthropocene Primer (Anthropoceneprimer.Org) a Born-digital, Open Access, Open Peer Review Book Hosted Online by IUPUI. ",
+		Title: "An Anthropocene Primer (Anthropoceneprimer.Org) a Born-digital, Open Access, Open Peer Review Book Hosted Online by IUPUI. ",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Version 2.0 of the book is in process and a hard copy of the book with Indiana University Press is also forthcoming.",
 		"Volume/ Page": "Version 1.0 published,\nVersion 2.0 forthcoming",
@@ -27,8 +25,7 @@ export const data = [
 		Department: "Civil Engineering",
 		"Author(s)":
 			"Minu Treesa Abraham, Neelima Satyam , Sai Kumar Peddholla Reddy, Biswajeet Pradhan",
-		Title:
-			"Runout Modelling and Calibration of Friction Parameters of Kurichermala Debris Flow, India",
+		Title: "Runout Modelling and Calibration of Friction Parameters of Kurichermala Debris Flow, India",
 		"Book/ Journal/ Book chapter/ Conference Name": "Landslides, Springer",
 		"Volume/ Page": "18",
 		Year: "-",
@@ -37,8 +34,7 @@ export const data = [
 		"Name of the Faculty": "Prof. Avinash Sonawane",
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)": "Klionsky Daniel et al.,",
-		Title:
-			"Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition)",
+		Title: "Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition)",
 		"Book/ Journal/ Book chapter/ Conference Name": "Autophagy",
 		"Volume/ Page": "1-382",
 		Year: "2021",
@@ -48,8 +44,7 @@ export const data = [
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Srikanth Karnati, Michael Seimetz, Florian Kleefeldt, Avinash Sonawane, Madhusudhan Thati, Djuro Kosanovic, Norbert Weissmann, Karsten Krüger, Süleyman Ergün",
-		Title:
-			"Chronic obstructive pulmonary disease (COPD) and the cardiovascular system: vascular repair and regeneration as a therapeutic target.",
+		Title: "Chronic obstructive pulmonary disease (COPD) and the cardiovascular system: vascular repair and regeneration as a therapeutic target.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Frontiers in Cardiovascular Medicine",
 		"Volume/ Page": "NA\n(In Press)",
 		Year: "2021",
@@ -59,8 +54,7 @@ export const data = [
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Natalia Mikhailovna Yudintceva, Natalia Arkadievna Mikhailova, Danila Evhenjevich Bobkov, Liudmila Yakovleva, Boris Nikolaev, Alexandr Muraviov, Tatiana Vinogradova, Petr Yablonskiy, Igor Samusenko, Vyacheslav Ryzhov, Vladimir Deriglazov, Gabriele Multhoff, Alexander Klapproth, Wei Bo Li, Barsha Nayak, Avinash Sonawane, Maxim Shevtsov",
-		Title:
-			"Evaluation of the biodistribution of mesenchymal stem cells in a preclinical renal tuberculosis model by nonlinear magnetic response measurements.",
+		Title: "Evaluation of the biodistribution of mesenchymal stem cells in a preclinical renal tuberculosis model by nonlinear magnetic response measurements.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Frontiers in Physics",
 		"Volume/ Page": "NA\n(In Press)",
 		Year: "2021",
@@ -70,8 +64,7 @@ export const data = [
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Ananyaashree Behera, Preeti Jain, Geetanjali Ganguli, Mainak Biswas, Avinash Padhi, Kaliprasad Pattanaik, Barsha Nayak, Süleyman Ergün, Mohd. Saqib, Bibhuti Mishra, Srikanth Karnati and Avinash Sonawane",
-		Title:
-			"Mycobacterium tuberculosis acetyltransferase suppresses oxidative stress by inducing peroxisome formation in macrophages.",
+		Title: "Mycobacterium tuberculosis acetyltransferase suppresses oxidative stress by inducing peroxisome formation in macrophages.",
 		"Book/ Journal/ Book chapter/ Conference Name": "mBio",
 		"Volume/ Page": "NA\n(Under revision)",
 		Year: "2021",
@@ -87,12 +80,109 @@ export const data = [
 		Year: "2021",
 	},
 	{
+		"Author(s)":
+			"Vanitha R. Naina, Sheng Wang, Dmitry I. Sharapa, Michael Zimmermann, Martin Hahsler, Lukas Niebl-Eibenstein, Junjun Wang, Christof Woll, Yuemin Wang, Sanjay K. Singh, Felix Studt, and Silke Behrens*",
+		Title: "Shape-Selective Synthesis of Intermetallic Pd3Pb Nanocrystals and Enhanced Catalytic Properties in the Direct Synthesis of Hydrogen Peroxide",
+		"Book/ Journal/ Book chapter/ Conference Name": "ACS Catalysis",
+		"Volume/ Page": "11, 2288–2301",
+		Year: "2021",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
+		"Author(s)": "Mahendra K. Awasthi, Rohit K. Rai, Silke Behrens and Sanjay K. Singh*",
+		Title: "Low-temperature hydrogen production from methanol over ruthenium catalyst in water",
+		"Book/ Journal/ Book chapter/ Conference Name": "Catalysis Science and Technology",
+		"Volume/ Page": "11, 136-142",
+		Year: "2021",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
+		"Author(s)":
+			"SK Nazmul Hasan MD Dostagir, Mahendra Kumar Awasthi, Ankit Kumar, Kavita Gupta, Silke Behrens, Abhijit Shrotri, and Sanjay K. Singh*",
+		Title: "Selective Catalysis for Room-temperature Hydrogenation of Biomass-derived Compounds over Supported NiPd Catalysts in Water",
+		"Book/ Journal/ Book chapter/ Conference Name": "ACS Sustainable Chem. Eng.,",
+		"Volume/ Page": "7, 9352-9359",
+		Year: "2019",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
+		"Author(s)":
+			"Gurpreet Kaur, Rohit K. Rai., Deepika Tyagi, Xin Yao, Pei-Zhou Li, Xin-Chun Yang, Yanli Zhao, Qiang Xu, and Sanjay K. Singh*",
+		Title: "Room-temperature synthesis of bimetallic Co-Zn based Zeolitic Imidazolate Frameworks in water for enhanced CO2 and H2 uptakes",
+		"Book/ Journal/ Book chapter/ Conference Name": "J. Mater. Chem. A",
+		"Volume/ Page": "4, 14887-15248",
+		Year: "2016",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
+		"Author(s)": "Ajay Dhankhar, Rohit K. Rai, Deepika Tyagi, Xin Yao, and Sanjay K. Singh*",
+		Title: "Synergistic Catalysis with MIL-101 Stabilized Highly Active Bimetallic NiPd and CuPd Alloy Nanoparticle Catalysts for C-C Coupling Reactions",
+		"Book/ Journal/ Book chapter/ Conference Name": "Chemistry Select",
+		"Volume/ Page": "1, 3223-3227",
+		Year: "2016",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
+		"Author(s)":
+			"Ambikesh D. Dwivedi, Chinky Binnani, Deepika Tyagi, Kuber S. Rawat, Pei-Zhou Li, Yanli Zhao, Shaikh M. Mobin, Biswarup Pathak, and Sanjay K. Singh*",
+		Title: "Troponate-/Aminotroponate Ruthenium-Arene complexes: Synthesis, Structure and Ligand Tuned Mechanistic Pathway for Direct C-H bond Arylation with Arylchlorides in water,",
+		"Book/ Journal/ Book chapter/ Conference Name": "Inorganic Chemistry",
+		"Volume/ Page": "55, 6739-6749",
+		Year: "2016",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
+		"Author(s)":
+			"Deepika Tyagi, Chinky Binnani, Rohit K. Rai, Ambikesh D. Dwivedi, Kavita Gupta, Pei-Zhou Li, Yanli Zhao and Sanjay K. Singh*",
+		Title: "Ruthenium Catalysed Oxidative Homocoupling of Arylboronic Acids in Water: Ligand Tuned Reactivity and Mechanistic Study,",
+		"Book/ Journal/ Book chapter/ Conference Name": "Inorganic Chemistry",
+		"Volume/ Page": "55, 6332-6343",
+		Year: "2016",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
+		"Author(s)":
+			"Rohit K. Rai, Kavita Gupta, Deepika Tyagi, Arup Mahata, Silke Behrens, Xinchun Yang, Qiang Xu, Biswarup Pathak and Sanjay K. Singh*",
+		Title: "Access to highly active Ni-Pd bimetallic nanoparticle catalysts for C-C coupling reactions,",
+		"Book/ Journal/ Book chapter/ Conference Name": "Catalysis Science and Technology",
+		"Volume/ Page": "6, 5567-5579",
+		Year: "2016",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
+		"Author(s)":
+			"Rohit Kumar Rai, Kavita Gupta, Silke Behrens, Jun Li, Qiang Xu, and Sanjay Kumar Singh*",
+		Title: "Highly Active Bimetallic Ni-Pd Alloy Nanoparticles Catalyzed Suzuki-Miyaura Reactions",
+		"Book/ Journal/ Book chapter/ Conference Name": "ChemCatChem",
+		"Volume/ Page": "7, 1806-1812",
+		Year: "2015",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
+		"Author(s)":
+			"Rohit K. Rai, Arup Mahata, Sushobhan Mukhopadhyay, Sampa Gupta, Pei-Zhou Li, Kim T. Nguyen, Yanli Zhao, Biswarup Pathak, and Sanjay K. Singh*",
+		Title: "Room-temperature Chemoselective Reduction of Nitro groups using Non-noble Metal Nanocatalysts in water,",
+		"Book/ Journal/ Book chapter/ Conference Name": "Inorganic Chemistry",
+		"Volume/ Page": "53, 2904-2909",
+		Year: "2014",
+		Department: "Chemistry",
+		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
+	},
+	{
 		"Name of the Faculty": "Prof. Suman Mukhopadhyay",
 		Department: "Chemistry",
 		"Author(s)":
 			"Komal Vyas, Deepu Sharma, Sri Krishna Jayadev Magani, Shaikh M Mobin, Suman Mukhopadhyay",
-		Title:
-			"In Vitro Evaluation of Cytotoxicity and Antimetastatic Properties of Novel Arene Ruthenium(II)‐Tetrazolato Compounds on Human Cancer Cell Lines",
+		Title: "In Vitro Evaluation of Cytotoxicity and Antimetastatic Properties of Novel Arene Ruthenium(II)‐Tetrazolato Compounds on Human Cancer Cell Lines",
 		"Book/ Journal/ Book chapter/ Conference Name": "Appl. Organomet. Chem",
 		"Volume/ Page": "in press",
 		Year: "2021",
@@ -101,8 +191,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Venkatesh Chelvam",
 		Department: "Chemistry",
 		"Author(s)": "Venkatesh, C., Doorneweerd, D. D., Xia, W., Shen, J., Putt, K. S., Low, P.S.",
-		Title:
-			"Folate-Targeted Verrucarin a Reduces The Number of Activated Macrophages in a Mouse Model of Acute Peritonitis",
+		Title: "Folate-Targeted Verrucarin a Reduces The Number of Activated Macrophages in a Mouse Model of Acute Peritonitis",
 		"Book/ Journal/ Book chapter/ Conference Name": "Bioorg. Med. Chem. Lett.",
 		"Volume/ Page": "0",
 		Year: "2021",
@@ -111,8 +200,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Venkatesh Chelvam",
 		Department: "BSBE",
 		"Author(s)": "Krishnan, M. A., Yadav, K., Roach, P., Venkatesh, C.",
-		Title:
-			"Targeted Near-Infrared Nanoprobe for Deep-Tissue Penetration and Imaging of Prostate Cancer",
+		Title: "Targeted Near-Infrared Nanoprobe for Deep-Tissue Penetration and Imaging of Prostate Cancer",
 		"Book/ Journal/ Book chapter/ Conference Name": "Biomaterials Science",
 		"Volume/ Page": "0",
 		Year: "2021",
@@ -121,8 +209,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Nagendra Kumar",
 		Department: "CSE",
 		"Author(s)": "Nagendra Kumar, Eshwanth Baskaran, Anand Konjengbam & Manish Singh",
-		Title:
-			"Hashtag Recommendation for Short Social Media Texts Using Word-Embeddings and External Knowledge",
+		Title: "Hashtag Recommendation for Short Social Media Texts Using Word-Embeddings and External Knowledge",
 		"Book/ Journal/ Book chapter/ Conference Name": "Knowledge and Information Systems",
 		"Volume/ Page": "63",
 		Year: "2021",
@@ -150,8 +237,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Sanjeev Singh",
 		Department: "Mathematics",
 		"Author(s)": "A. Baricz, N. Bisht, S. Singh, V. A. Vijesh",
-		Title:
-			"The Generalized Marcum Function of the Second Kind: Monotonicity Patterns and Tight Bounds",
+		Title: "The Generalized Marcum Function of the Second Kind: Monotonicity Patterns and Tight Bounds",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Journal of Computational and Applied Mathematics",
 		"Volume/ Page": "382, Art. 113093",
@@ -161,8 +247,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Sanjeev Singh",
 		Department: "Mathematics",
 		"Author(s)": "A. Baricz, N. Bisht, S. Singh, V. A. Vijesh",
-		Title:
-			"Functional Inequalities and Bounds for the Generalized Marcum Function of the Second Kind",
+		Title: "Functional Inequalities and Bounds for the Generalized Marcum Function of the Second Kind",
 		"Book/ Journal/ Book chapter/ Conference Name": "Results in Mathematics",
 		"Volume/ Page": "76, Art. 35",
 		Year: "2021",
@@ -171,8 +256,7 @@ export const data = [
 		"Name of the Faculty": "Dr. M. Tanveer",
 		Department: "Mathematics",
 		"Author(s)": "M Khan, MS Obaidat, T Hussain, J Del Ser, N Kumar, M Tanveer, F Doctor",
-		Title:
-			"Fuzzy Logic in Surveillance Big Video Data: Comprehensive Review, Challenges and Research Directions",
+		Title: "Fuzzy Logic in Surveillance Big Video Data: Comprehensive Review, Challenges and Research Directions",
 		"Book/ Journal/ Book chapter/ Conference Name": "ACM Computing Surveys.",
 		"Volume/ Page": "-",
 		Year: "2021",
@@ -200,8 +284,7 @@ export const data = [
 		"Name of the Faculty": "Dr. V. Antony Vijesh",
 		Department: "Mathematics",
 		"Author(s)": "A. Baricz, N. Bisht, S. Singh, V. A. Vijesh",
-		Title:
-			"The Generalized Marcum Function of the Second Kind: Monotonicity Patterns and Tight Bounds",
+		Title: "The Generalized Marcum Function of the Second Kind: Monotonicity Patterns and Tight Bounds",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Journal of Computational and Applied Mathematics",
 		"Volume/ Page": "382, Art. 113093",
@@ -211,8 +294,7 @@ export const data = [
 		"Name of the Faculty": "Dr. V. Antony Vijesh",
 		Department: "Mathematics",
 		"Author(s)": "A. Baricz, N. Bisht, S. Singh, V. A. Vijesh",
-		Title:
-			"Functional Inequalities and Bounds for the Generalized Marcum Function of the Second Kind",
+		Title: "Functional Inequalities and Bounds for the Generalized Marcum Function of the Second Kind",
 		"Book/ Journal/ Book chapter/ Conference Name": "Results in Mathematics",
 		"Volume/ Page": "76, Art. 35",
 		Year: "2021",
@@ -222,8 +304,7 @@ export const data = [
 		Department: "Mechanical Engineering",
 		"Author(s)":
 			"N Resnina, IA Palani, S Belyaev, SS Mani Prabu, P Liulchak, U Karaseva, M Manikandan, S Jayachandran, V Bryukhanova, Anshu Sahu, R Bikbaev",
-		Title:
-			"Structure, Martensitic Transformations and Mechanical Behaviour of NiTi Shape Memory Alloy Produced by Wire Arc Additive Manufacturing",
+		Title: "Structure, Martensitic Transformations and Mechanical Behaviour of NiTi Shape Memory Alloy Produced by Wire Arc Additive Manufacturing",
 		"Book/ Journal/ Book chapter/ Conference Name": "Journal of Alloys and Compounds",
 		"Volume/ Page": "851",
 		Year: "2021",
@@ -233,8 +314,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"P. R. Chikate, A. Sharma, S. R. Rondiya, R. W. Cross, N. Y. Dzade, P. M. Shirage, and R. S. Devan*",
-		Title:
-			"Hierarchically Interconnected ZnO Nanowires for Low Temperature Operated Reducing Gas Sensors: Experimental and DFT Studies",
+		Title: "Hierarchically Interconnected ZnO Nanowires for Low Temperature Operated Reducing Gas Sensors: Experimental and DFT Studies",
 		"Book/ Journal/ Book chapter/ Conference Name": "New J. of Chemistry",
 		"Volume/ Page": "45/1403-1414",
 		Year: "2021",
@@ -244,8 +324,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"N. Kitchamsetti, M. S. Ramteke, S. R. Rondiya, S. R. Mulani, M. S. Patil, R. W. Cross, N. Y. Dzade, and R. S. Devan",
-		Title:
-			"DFT and Experimental Investigations on the Photocatalytic Activities of NiO Nanobelts for Removal of Organic Pollutants",
+		Title: "DFT and Experimental Investigations on the Photocatalytic Activities of NiO Nanobelts for Removal of Organic Pollutants",
 		"Book/ Journal/ Book chapter/ Conference Name": "J. of Alloys and Compounds",
 		"Volume/ Page": "855/157337",
 		Year: "2021",
@@ -264,8 +343,7 @@ export const data = [
 		Department: "Physics",
 		"Author(s)":
 			"Manushree Tanwar, Devesh K. Pathak, Anjali Chaudhary, Alexander S. Krylov, Herbert Pfnur, Ashutosh Sharma, Byungmin Ahn, Sangyeob Lee and Rajesh Kumar",
-		Title:
-			"Pseudo-Anomalous Size Dependent Electron-Phonon Interaction in Graded Energy Band: Solving the Fano Paradox",
+		Title: "Pseudo-Anomalous Size Dependent Electron-Phonon Interaction in Graded Energy Band: Solving the Fano Paradox",
 		"Book/ Journal/ Book chapter/ Conference Name": "J. Phys. Chem. Lett.,",
 		"Volume/ Page": "12, 2044",
 		Year: "2021",
@@ -274,8 +352,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Nitin Tiwari, Neelima Satyam and Anand J Puppala",
-		Title:
-			"Effect of Synthetic Geotextile on Stabilization of Expansive Subgrades: An Experimental Study",
+		Title: "Effect of Synthetic Geotextile on Stabilization of Expansive Subgrades: An Experimental Study",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Journal of Materials in Civil Engineering, ASCE",
 		"Volume/ Page": "In Press",
@@ -285,8 +362,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Minu Treesa Abraham, Neelima Satyam and Biswajeet Pradhan",
-		Title:
-			"Forecasting Landslides using Mobility Functions: A Case Study from Idukki District, India",
+		Title: "Forecasting Landslides using Mobility Functions: A Case Study from Idukki District, India",
 		"Book/ Journal/ Book chapter/ Conference Name": "Indian Geotechnical Journal, Springer",
 		"Volume/ Page": "In Press",
 		Year: "2021",
@@ -295,8 +371,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
-		Title:
-			"Effect of Freeze-Thaw Cycles on Engineering Properties of Biocemented Sand under Different Treatment Conditions",
+		Title: "Effect of Freeze-Thaw Cycles on Engineering Properties of Biocemented Sand under Different Treatment Conditions",
 		"Book/ Journal/ Book chapter/ Conference Name": "Engineering Geology, Elsevier",
 		"Volume/ Page": "284 (106022)",
 		Year: "2021",
@@ -316,8 +391,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
-		Title:
-			"Hybrid Bacteria Mediated Cemented Sand: Microcharacterization, Permeability, Strength, Shear Wave Velocity, Stress-Strain, and Durability",
+		Title: "Hybrid Bacteria Mediated Cemented Sand: Microcharacterization, Permeability, Strength, Shear Wave Velocity, Stress-Strain, and Durability",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"International Journal of Damage Mechanics, SAGE Publication",
 		"Volume/ Page": "In Press",
@@ -328,8 +402,7 @@ export const data = [
 		Department: "Civil Engineering",
 		"Author(s)":
 			"Minu Treesa Abraham, Neelima Satyam , Ascanio Rosi, Biswajeet Pradhan and Samuele Segoni",
-		Title:
-			"Usage of Antecedent Soil Moisture for Improving the Performance of Rainfall Thresholds for Landslide Early Warning",
+		Title: "Usage of Antecedent Soil Moisture for Improving the Performance of Rainfall Thresholds for Landslide Early Warning",
 		"Book/ Journal/ Book chapter/ Conference Name": "Catena, Elsevier",
 		"Volume/ Page": "In Press",
 		Year: "2021",
@@ -338,8 +411,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
-		Title:
-			"Rock-like Behavior of Biocemented Sand Treated under Non-Sterile Environment and Various Treatment Conditions",
+		Title: "Rock-like Behavior of Biocemented Sand Treated under Non-Sterile Environment and Various Treatment Conditions",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Journal of Rock Mechanics and Geotechnical Engineering, Elsevier",
 		"Volume/ Page": "In Press",
@@ -349,8 +421,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
-		Title:
-			"Comparison of Improved Shear Strength of Biotreated Sand using Different Ureolytic Strains and Sterile Conditions",
+		Title: "Comparison of Improved Shear Strength of Biotreated Sand using Different Ureolytic Strains and Sterile Conditions",
 		"Book/ Journal/ Book chapter/ Conference Name": "Soil Use and Management, Wiley",
 		"Volume/ Page": "In Press",
 		Year: "2021",
@@ -360,8 +431,7 @@ export const data = [
 		Department: "Civil Engineering",
 		"Author(s)":
 			"Binh Thai P, Abolfazl J., T. Nguyen-Thoi, T.V. Phong, H. D. Nguyen, Neelima Satyam , Md Masroor, S. Rehman, H. Sajjad, M. Sahana, H. V. Le & I. Prakash",
-		Title:
-			"Ensemble Machine Learning Models based on Reduced Error Pruning Tree for Prediction of Rainfall-Induced Landslides",
+		Title: "Ensemble Machine Learning Models based on Reduced Error Pruning Tree for Prediction of Rainfall-Induced Landslides",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"International Journal of Digital Earth, Taylor & Francis",
 		"Volume/ Page": "In Press",
@@ -371,8 +441,7 @@ export const data = [
 		"Name of the Faculty": "Guru Prakash",
 		Department: "Civil Engineering",
 		"Author(s)": "Dr. Arnold Yuan",
-		Title:
-			"Toward a Big Data-based Approach: A Review on Degradation Models for Prognosis of Critical Infrastructure",
+		Title: "Toward a Big Data-based Approach: A Review on Degradation Models for Prognosis of Critical Infrastructure",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Journal of Nondestructive Evaluation, Diagnostics and Prognostics of Engineering Systems",
 		"Volume/ Page": "4",
@@ -382,8 +451,7 @@ export const data = [
 		"Name of the Faculty": "Guru Prakash",
 		Department: "Civil Engineering",
 		"Author(s)": "Daijiro Mizutani",
-		Title:
-			"Toward a Big Data-based Approach: A Review on Degradation Models for Prognosis of Critical Infrastructure",
+		Title: "Toward a Big Data-based Approach: A Review on Degradation Models for Prognosis of Critical Infrastructure",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Journal of Nondestructive Evaluation, Diagnostics and Prognostics of Engineering Systems",
 		"Volume/ Page": "4",
@@ -393,22 +461,49 @@ export const data = [
 		"Name of the Faculty": "Dr. Saikat Sarkar",
 		Department: "Civil Engineering",
 		"Author(s)": "TV Varma, B Ungureanu, S Sarkar, R Craster, S Guenneau, S Brûlé",
-		Title:
-			"The Influence of Structure Geometry and Material on Seismic Metamaterial Performance",
+		Title: "The Influence of Structure Geometry and Material on Seismic Metamaterial Performance",
 		"Book/ Journal/ Book chapter/ Conference Name": "Frontiers in materials (to be published)",
 		"Volume/ Page": "-",
 		Year: "2021",
+	},
+	{
+		"Author(s)":
+			"Uttpal Ananda, Bashir Adelodunb,c, Alberto Pivatod, S. Sureshe, Omkar Indarif, Shweta Jakhmolaf, Hem Chandra Jhaf, Pawan Kumar Jhag, Vijay Tripathih,*, Francesco Di Maria",
+		Title: "A review of the presence of SARS-CoV-2 RNA in wastewater and airborne particulates and its use for virus spreading surveillance",
+		"Book/ Journal/ Book chapter/ Conference Name": "Environmental Research",
+		"Volume/ Page": "oi.org/10.1016/j.envres.2021.110929",
+		Year: "2021",
+		"Name of the Faculty": "Dr. Hem Chandra Jha",
+		Department: "BSBE",
+	},
+	{
+		"Author(s)": "Omkar Indari, Rajesh Chandramohanadas, Hem Chandra Jha",
+		Title: "Epstein–Barr virus infection modulates blood–brain barrier cells and its co-infection with Plasmodium falciparum induces RBC adhesion",
+		"Book/ Journal/ Book chapter/ Conference Name": "Pathogens and Disease",
+		"Volume/ Page": "doi.org/10.1093/femspd/ftaa080",
+		Year: "2021",
+		"Name of the Faculty": "Dr. Hem Chandra Jha",
+		Department: "BSBE",
 	},
 	{
 		"Name of the Faculty": "Prof. Avinash Sonawane",
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Sumanta Kumar Naik, Kaliprasad Pattanaik, Jacqueline Eich, Vivien Sparr, Matthias Hauptmann, Barbara Kalsdorf, Nobert Reiling, Wolfgang Liedtke, Wolfgang M. Kuebler, Ulrich E. Schaible and Avinash Sonawane.",
-		Title:
-			"Differential roles of the ion channel TRPV4 in host responses to Mycobacterium tuberculosis early and late in infection.",
+		Title: "Differential roles of the ion channel TRPV4 in host responses to Mycobacterium tuberculosis early and late in infection.",
 		"Book/ Journal/ Book chapter/ Conference Name": "iScience",
 		"Volume/ Page": "23 (6), p.101206",
 		Year: "2020",
+	},
+	{
+		"Author(s)":
+			"Yonggang Pei, Nicky Hwang, Fengchao Lang, Fengchao Lang, Lanlan Zhou, Josiah Hiu-yuen Wong, Rajnish Kumar Singh,Hem Chandra Jha, Wafik S. El-Deiry, Yanming Du, Erle S. Robertson",
+		Title: "Quassinoid analogs with enhanced efficacy for treatment of hematologic malignancies target the PI3Kγ isoform",
+		"Book/ Journal/ Book chapter/ Conference Name": "Communication Biology",
+		"Volume/ Page": "ttps://doi.org/10.1038/s42003-020-099",
+		Year: "2020",
+		"Name of the Faculty": "Dr. Hem Chandra Jha",
+		Department: "BSBE",
 	},
 	{
 		"Name of the Faculty": "Dr. Venkatesh Chelvam",
@@ -420,11 +515,20 @@ export const data = [
 		Year: "2020",
 	},
 	{
+		"Author(s)":
+			"Yonggang Pei, Josiah Hiu-yuen Wong, Hem Chandra Jha, Tian Tian, Zhi Wei, Erle S. Robertson",
+		Title: "Epstein-Barr Virus Facilitates Expression of KLF14 by Regulating the Cooperative Binding of the E2F-Rb-HDAC Complex in Latent Infection",
+		"Book/ Journal/ Book chapter/ Conference Name": "Journal of Virology",
+		"Volume/ Page": "10.1128/JVI.01209-20",
+		Year: "2020",
+		"Name of the Faculty": "Dr. Hem Chandra Jha",
+		Department: "BSBE",
+	},
+	{
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "W Hu, CH Chang, Anirban Sengupta, S Bhunia, R Castner, H Li",
-		Title:
-			"An Overview of Hardware Oriented Security and Trust: Threats, Countermeasures and Design Tools",
+		Title: "An Overview of Hardware Oriented Security and Trust: Threats, Countermeasures and Design Tools",
 		"Book/ Journal/ Book chapter/ Conference Name": "IEEE Transactions on CAD",
 		"Volume/ Page": "doi: 10.1109/\nTCAD.2020.3047976",
 		Year: "2020",
@@ -442,8 +546,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Pritee Sharma",
 		Department: "School of HSS",
 		"Author(s)": "Sharma, Pritee and S.N. Kumar",
-		Title:
-			"The Global Governance of Water, Energy and Food Nexus: Allocation and Access for Competing Demands",
+		Title: "The Global Governance of Water, Energy and Food Nexus: Allocation and Access for Competing Demands",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"International Environmental Agreements (Springer Nature)",
 		"Volume/ Page": "Vol 20",
@@ -519,8 +622,7 @@ export const data = [
 		"Name of the Faculty": "Dr. M. Tanveer",
 		Department: "Mathematics",
 		"Author(s)": "M. Tanveer, P. Khanna, M. Prasad, C.T. Lin",
-		Title:
-			"Introduction to the Special Issue on Computational Intelligence for Biomedical Data and Imaging",
+		Title: "Introduction to the Special Issue on Computational Intelligence for Biomedical Data and Imaging",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
 		"Volume/ Page": "-",
@@ -539,8 +641,7 @@ export const data = [
 		"Name of the Faculty": "Dr. M. Tanveer",
 		Department: "Mathematics",
 		"Author(s)": "Z. Yue, S. Ding, L. Zhao, Y. Zhang, Z. Cao, M. Tanveer, A. Jolfaei, X.Zheng",
-		Title:
-			"Privacy-preserving Time Series Medical Images Analysis Using a Hybrid Deep Learning Frame-work",
+		Title: "Privacy-preserving Time Series Medical Images Analysis Using a Hybrid Deep Learning Frame-work",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"ACM Transactions on Internet Technology (TOIT)",
 		"Volume/ Page": "-",
@@ -551,8 +652,7 @@ export const data = [
 		Department: "Mathematics",
 		"Author(s)":
 			"C. Gautam, P.K. Mishra, A. Tiwari, B. Richhariya, H.M. Pandey, S. Wang, M. Tanveer",
-		Title:
-			"Minimum Variance-Embedded Deep Kernel Regularized Least Square Method for One-class Classification and its Applications to Biomedical Data",
+		Title: "Minimum Variance-Embedded Deep Kernel Regularized Least Square Method for One-class Classification and its Applications to Biomedical Data",
 		"Book/ Journal/ Book chapter/ Conference Name": "Neural Networks, Elsevier",
 		"Volume/ Page": "-",
 		Year: "2020",
@@ -580,8 +680,7 @@ export const data = [
 		"Name of the Faculty": "Dr. M. Tanveer",
 		Department: "Mathematics",
 		"Author(s)": "Q Li, Z Cao, M Tanveer, HM Pandey, C Wang",
-		Title:
-			"An Effective Reliability Evaluation Method for Power Communication Network Based on Community Structure",
+		Title: "An Effective Reliability Evaluation Method for Power Communication Network Based on Community Structure",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"IEEE Transactions on Industry Applications",
 		"Volume/ Page": "-",
@@ -591,8 +690,7 @@ export const data = [
 		"Name of the Faculty": "Dr. M. Tanveer",
 		Department: "Mathematics",
 		"Author(s)": "M Khan, T Hussain, M Tanveer, G Sannino, V Albuquerque",
-		Title:
-			"Cost-Effective Video Summarization using Deep CNN with Hierarchical Weighted Fusion for IoT Surveillance Networks",
+		Title: "Cost-Effective Video Summarization using Deep CNN with Hierarchical Weighted Fusion for IoT Surveillance Networks",
 		"Book/ Journal/ Book chapter/ Conference Name": "IEEE Internet of Things Journal",
 		"Volume/ Page": "-",
 		Year: "2020",
@@ -641,8 +739,7 @@ export const data = [
 		"Name of the Faculty": "Dr. M. Tanveer",
 		Department: "Mathematics",
 		"Author(s)": "A.H. Rashid, I. Razzak, M. Tanveer",
-		Title:
-			"RipNet: A Lightweight One-class Deep Neural Network for the Identification of RIP Currents",
+		Title: "RipNet: A Lightweight One-class Deep Neural Network for the Identification of RIP Currents",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"27th International Conference on Neural Information Processing (ICONIP 2020) (Core Rank A).",
 		"Volume/ Page": "-",
@@ -652,8 +749,7 @@ export const data = [
 		"Name of the Faculty": "Dr. M. Tanveer",
 		Department: "Mathematics",
 		"Author(s)": "M.A. Ganaie, M. Tanveer and P.N. Suganthan",
-		Title:
-			"Regularized Robust Fuzzy Least Squares Twin Support Vector Machine for Class Imbalance Learning",
+		Title: "Regularized Robust Fuzzy Least Squares Twin Support Vector Machine for Class Imbalance Learning",
 		"Book/ Journal/ Book chapter/ Conference Name": "WCCI (IJCNN) 2020 (Core Rank A).",
 		"Volume/ Page": "-",
 		Year: "2020",
@@ -671,8 +767,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Dan Sathiaraj",
 		Department: "Mechanical Engineering",
 		"Author(s)": "G Dan Sathiaraj, Rajib Kalsar, Satyam Suwas, Werner Skrotzki",
-		Title:
-			"Effect of Stacking Fault Energy on Microstructure and Texture Evolution during the Rolling of Non-Equiatomic CrMnFeCoNi High-Entropy Alloys",
+		Title: "Effect of Stacking Fault Energy on Microstructure and Texture Evolution during the Rolling of Non-Equiatomic CrMnFeCoNi High-Entropy Alloys",
 		"Book/ Journal/ Book chapter/ Conference Name": "Crystals",
 		"Volume/ Page": "10",
 		Year: "2020",
@@ -681,8 +776,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Rupesh S. Devan",
 		Department: "MEMS",
 		"Author(s)": "N. Kitchamsetti, Y. R. Ma, P. M. Shirage, and R. S. Devan*,",
-		Title:
-			"Mesoporous Perovskite of Interlocked Nickel Titanate Nanoparticles for Efficient Electrochemical Supercapacitor Electrode",
+		Title: "Mesoporous Perovskite of Interlocked Nickel Titanate Nanoparticles for Efficient Electrochemical Supercapacitor Electrode",
 		"Book/ Journal/ Book chapter/ Conference Name": "J. Alloys and Compounds",
 		"Volume/ Page": "833/155134",
 		Year: "2020",
@@ -692,8 +786,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"S. M. Ansari, K. C. Ghosh, R. S. Devan, D. Sen, P. U. Sastry, Y. D. Kolekar, and C. V. Ramana,",
-		Title:
-			"Eco-Friendly Synthesis, Crystal Chemistry, and Magnetic Properties of Manganese-Substituted CoFe2O4 Nanoparticles",
+		Title: "Eco-Friendly Synthesis, Crystal Chemistry, and Magnetic Properties of Manganese-Substituted CoFe2O4 Nanoparticles",
 		"Book/ Journal/ Book chapter/ Conference Name": "ACS Omega",
 		"Volume/ Page": "5/19315-19330",
 		Year: "2020",
@@ -703,8 +796,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"S. Khirid, R. Biswas, S. Meena, R. A. Patil, Y. R. Ma, R. S. Devan, R. S. Dhayal, and K. K. Haldar",
-		Title:
-			"Designing of Ag2S Nanowires from a Single-Source Molecular Precursor [(PPh3)2AgS2P(OiPr)2] for Hydrogen Evolution Reaction",
+		Title: "Designing of Ag2S Nanowires from a Single-Source Molecular Precursor [(PPh3)2AgS2P(OiPr)2] for Hydrogen Evolution Reaction",
 		"Book/ Journal/ Book chapter/ Conference Name": "ChemistrySelect",
 		"Volume/ Page": "5/10593-10598",
 		Year: "2020",
@@ -713,8 +805,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Dudekula Althaf Basha",
 		Department: "MEMS",
 		"Author(s)": "R Mahjoub, DA Basha, A Singh, M Ferry, N Stanford",
-		Title:
-			"The Contrasting Fracture Behaviour of Twin Boundaries and General Boundaries–A First Principles Study Based on Experimental Observation.",
+		Title: "The Contrasting Fracture Behaviour of Twin Boundaries and General Boundaries–A First Principles Study Based on Experimental Observation.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Materials Science and Engineering A",
 		"Volume/ Page": "781",
 		Year: "2020",
@@ -723,8 +814,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Dudekula Althaf Basha",
 		Department: "MEMS",
 		"Author(s)": "D. Singh, DA Basha, A Singh, R. Devan, S.S. Hosmani",
-		Title:
-			"Microstructural and Passivation Response of Severely Deformed AISI 304 Steel Surface: The Role of Surface Mechanical Attrition Treatment",
+		Title: "Microstructural and Passivation Response of Severely Deformed AISI 304 Steel Surface: The Role of Surface Mechanical Attrition Treatment",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Journal of Materials Engineering and Performance",
 		"Volume/ Page": "29",
@@ -762,8 +852,7 @@ export const data = [
 		Department: "Physics",
 		"Author(s)":
 			"Devesh K. Pathak Anjali Chaudhary Manushree Tanwar Uttam K. Goutam Herbert Pfnur Rajesh Kumar",
-		Title:
-			"Chronopotentiometric Deposition of Nanocobalt Oxide for Elec-trochromic Auxiliary Active Electrode Application",
+		Title: "Chronopotentiometric Deposition of Nanocobalt Oxide for Elec-trochromic Auxiliary Active Electrode Application",
 		"Book/ Journal/ Book chapter/ Conference Name": "Physica Status Solidi-A",
 		"Volume/ Page": "217, 2000173",
 		Year: "2020",
@@ -773,8 +862,7 @@ export const data = [
 		Department: "Physics",
 		"Author(s)":
 			"Anjali Chaudhary, Devesh Kumar Pathak, M Tanwar, Julian Koch, Herbert Pfnur and Rajesh Kum",
-		Title:
-			"Polythiophene-nanoWO3 Bilayer as Electrochromic Infrared Filter: A Transparent Heat Shield",
+		Title: "Polythiophene-nanoWO3 Bilayer as Electrochromic Infrared Filter: A Transparent Heat Shield",
 		"Book/ Journal/ Book chapter/ Conference Name": "J. Mater. Chem. C.",
 		"Volume/ Page": "08, 1773",
 		Year: "2020",
@@ -784,8 +872,7 @@ export const data = [
 		Department: "Civil Engineering",
 		"Author(s)":
 			"Minu Treesa Abraham, Neelima Satyam, Maria Alexandra Bulzinetti, Biswajeet Pradhan, Binh Thai Pham and Samuele Segoni",
-		Title:
-			"Using Field-Based Monitoring to Enhance the Performance of Rainfall Thresholds for Landslide Warning",
+		Title: "Using Field-Based Monitoring to Enhance the Performance of Rainfall Thresholds for Landslide Warning",
 		"Book/ Journal/ Book chapter/ Conference Name": "Water, MDPI",
 		"Volume/ Page": "In Press",
 		Year: "2020",
@@ -795,8 +882,7 @@ export const data = [
 		Department: "Civil Engineering",
 		"Author(s)":
 			"Mehebub S, Binh Thai P, Manas S, Romulus C, Do Xuan T, Rabin C, Neelima Satyam , Huu Duy N, Tran Van P, Hiep Van L, Subodh C, G Areendran, Kashif I and Indra P.",
-		Title:
-			"Rainfall Induced Landslide Susceptibility Mapping Using Novel Hybrid Soft Computing Methods Based on Multi-layer Perceptron Neural Network Classifie",
+		Title: "Rainfall Induced Landslide Susceptibility Mapping Using Novel Hybrid Soft Computing Methods Based on Multi-layer Perceptron Neural Network Classifie",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Geocarto International, Taylor and Francis",
 		"Volume/ Page": "In Press",
@@ -806,8 +892,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Meghna Sharma, Neelima Satyam , and Krishna R. Reddy",
-		Title:
-			"State-of-the-Art Review of Emerging and Biogeotechnical Methods for LiquefactionMitigation in Sands",
+		Title: "State-of-the-Art Review of Emerging and Biogeotechnical Methods for LiquefactionMitigation in Sands",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Journal of Hazardous, Toxic, and Radioactive Waste, ASCE",
 		"Volume/ Page": "25 (03120001)",
@@ -818,8 +903,7 @@ export const data = [
 		Department: "Civil Engineering",
 		"Author(s)":
 			"Minu Treesa Abraham, Neelima Satyam , Biswajeet Pradhan, and Abdullah M. Alamri",
-		Title:
-			"IoT-Based Geotechnical Monitoring of Unstable Slopes for Landslide Early Warning in the Darjeeling Himalayas",
+		Title: "IoT-Based Geotechnical Monitoring of Unstable Slopes for Landslide Early Warning in the Darjeeling Himalayas",
 		"Book/ Journal/ Book chapter/ Conference Name": "Sensors, MDPI",
 		"Volume/ Page": "20(9)",
 		Year: "2020",
@@ -828,8 +912,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Meghna Sharma, Neelima Satyam and Krishna R. Reddy",
-		Title:
-			"Strength Enhancement and Lead Immobilization of Sand using Consortia of Bacteria and Blue-Green Algae",
+		Title: "Strength Enhancement and Lead Immobilization of Sand using Consortia of Bacteria and Blue-Green Algae",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Journal of Hazardous, Toxic, and Radioactive Waste, ASCE",
 		"Volume/ Page": "24(04020049)",
@@ -840,8 +923,7 @@ export const data = [
 		Department: "Civil Engineering",
 		"Author(s)":
 			"Minu Treesa Abraham, Neelima Satyam, Sai Kushal, Ascanio Rosi, Biswajeet Pradhan and Samuele Segoni",
-		Title:
-			"Rainfall Threshold Estimationand Landslide Forecasting for Kalimpong, India Using SIGMA Model",
+		Title: "Rainfall Threshold Estimationand Landslide Forecasting for Kalimpong, India Using SIGMA Model",
 		"Book/ Journal/ Book chapter/ Conference Name": "Water, MDPI",
 		"Volume/ Page": "12 (4)",
 		Year: "2020",
@@ -851,8 +933,7 @@ export const data = [
 		Department: "Civil Engineering",
 		"Author(s)":
 			"Minu Treesa Abraham , Neelima Satyam, Ascanio Rosi Biswajeet Pradhan and Samuele Segoni",
-		Title:
-			"The Selection of Rain Gauges and Rainfall Parameters in Estimating Intensity-Duration Thresholds for Landslide Occurrence: Case Study from Wayanad (India)",
+		Title: "The Selection of Rain Gauges and Rainfall Parameters in Estimating Intensity-Duration Thresholds for Landslide Occurrence: Case Study from Wayanad (India)",
 		"Book/ Journal/ Book chapter/ Conference Name": "Water, MDPI",
 		"Volume/ Page": "12",
 		Year: "2020",
@@ -861,8 +942,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Nitin Tiwari, Neelima Satyam and Sanjay Kumar Shukla",
-		Title:
-			"An Experimental Study on Micro-structural and Geotechnical Characteristics of Expansive Clay Mixed with EPS Granules",
+		Title: "An Experimental Study on Micro-structural and Geotechnical Characteristics of Expansive Clay Mixed with EPS Granules",
 		"Book/ Journal/ Book chapter/ Conference Name": "Soils and Foundations, Elsevier",
 		"Volume/ Page": "60(3)",
 		Year: "2020",
@@ -872,8 +952,7 @@ export const data = [
 		Department: "Civil Engineering",
 		"Author(s)":
 			"Minu Treesa Abraham, Neelima Satyam, Biswajeet Pradhan and Abdullah M. Alamri",
-		Title:
-			"Forecasting of Landslides Using Rainfall Severity and Soil Wetness: A Probabilistic Approach for Darjeeling Himalayas",
+		Title: "Forecasting of Landslides Using Rainfall Severity and Soil Wetness: A Probabilistic Approach for Darjeeling Himalayas",
 		"Book/ Journal/ Book chapter/ Conference Name": "Water, MDPI",
 		"Volume/ Page": "12 (3)",
 		Year: "2020",
@@ -892,8 +971,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Abhirup Dikshit, Neelima Satyam, Biswajeet Pradhan and Sai Kushal",
-		Title:
-			"Estimating Rainfall Threshold and Temporal Probability for Landslide Occurrences in Darjeeling Himalayas",
+		Title: "Estimating Rainfall Threshold and Temporal Probability for Landslide Occurrences in Darjeeling Himalayas",
 		"Book/ Journal/ Book chapter/ Conference Name": "Geosciences, Springer",
 		"Volume/ Page": "In Press",
 		Year: "2020",
@@ -902,8 +980,7 @@ export const data = [
 		"Name of the Faculty": "Munir Ahmad Nayak",
 		Department: "Civil Engineering",
 		"Author(s)": "Munir Ahmad Nayak; Gabriele Villarini, Kate Cowles, Burhan Ul Wafa",
-		Title:
-			"Bayesian Hierarchical Models for the Frequency of Winter Heavy Precipitation Events over the Central United States: The Role of Atmospheric Rivers",
+		Title: "Bayesian Hierarchical Models for the Frequency of Winter Heavy Precipitation Events over the Central United States: The Role of Atmospheric Rivers",
 		"Book/ Journal/ Book chapter/ Conference Name": "Water Resources Research",
 		"Volume/ Page": "56",
 		Year: "2020",
@@ -912,8 +989,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Abhishek Rajput IIT Indore",
 		Department: "Civil Engineering",
 		"Author(s)": "A Rajput, JH Park, S Hwan Noh, J Kee Paik",
-		Title:
-			"Fresh and Sea Water Immersion Corrosion Testing on Marine Structural Steel at Low Temperature",
+		Title: "Fresh and Sea Water Immersion Corrosion Testing on Marine Structural Steel at Low Temperature",
 		"Book/ Journal/ Book chapter/ Conference Name": "Ships and Offshore Structures",
 		"Volume/ Page": "15",
 		Year: "2020",
@@ -923,8 +999,7 @@ export const data = [
 		Department: "Chemistry",
 		"Author(s)":
 			"Ghann, William; Sharma, Vinay; Kang, Hyeonggon; Karim, Fahim; Richards, Balvin; Shaikh M. Mobin; Uddin, Jamal; Rahman, Mohammed M.; Hossain, Faruque; Kabir, Humayun",
-		Title:
-			"The Synthesis and Characterization of Carbon Dots and their Application in Dye Sensitized Solar Cell",
+		Title: "The Synthesis and Characterization of Carbon Dots and their Application in Dye Sensitized Solar Cell",
 		"Book/ Journal/ Book chapter/ Conference Name": "INT. J. HYD. ENERG",
 		"Volume/ Page": "44, 14580- 14587",
 		Year: "2019",
@@ -934,8 +1009,7 @@ export const data = [
 		Department: "Chemistry",
 		"Author(s)":
 			"Tiwari, Pranav; Kaur, Navpreet; Sharma, Vinay; Kang, Hyeonggon; Uddin, Jamal; Shaikh M. Mobin",
-		Title:
-			"Cannabis sativa-Derived Carbon Dots Co-Doped with N-S: Highly Efficient Nanosensors for Temperature and Vitamin B12",
+		Title: "Cannabis sativa-Derived Carbon Dots Co-Doped with N-S: Highly Efficient Nanosensors for Temperature and Vitamin B12",
 		"Book/ Journal/ Book chapter/ Conference Name": "New J. Chem.",
 		"Volume/ Page": "43, 17058-17068",
 		Year: "2019",
@@ -945,8 +1019,7 @@ export const data = [
 		Department: "Chemistry",
 		"Author(s)":
 			"Gupta, Gajendra; Kumari, Pratibha; Ryu, Ji Yeon; Lee, Junseong; Shaikh M. Mobin; Lee, Chang Yeon",
-		Title:
-			"Mitochondrial Localization of Highly Fluorescent and Photostable BODIPY-Based Ruthenium(II), Rhodium(III), and Iridium(III) Metal Complexes",
+		Title: "Mitochondrial Localization of Highly Fluorescent and Photostable BODIPY-Based Ruthenium(II), Rhodium(III), and Iridium(III) Metal Complexes",
 		"Book/ Journal/ Book chapter/ Conference Name": "Inorg. Chem.",
 		"Volume/ Page": "58, 8587-8595",
 		Year: "2019",
@@ -964,8 +1037,7 @@ export const data = [
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
-		Title:
-			"Introduction to IP Core Protection and Hardware-Assisted Security of Consumer Electronics",
+		Title: "Introduction to IP Core Protection and Hardware-Assisted Security of Consumer Electronics",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
 		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
@@ -1001,8 +1073,7 @@ export const data = [
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
-		Title:
-			"Symmetrical Protection of DSP IP Core and Integrated Circuits using Fingerprinting and Watermarking",
+		Title: "Symmetrical Protection of DSP IP Core and Integrated Circuits using Fingerprinting and Watermarking",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
 		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
@@ -1047,8 +1118,7 @@ export const data = [
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "Anirban Sengupta, Saraju P. Mohanty",
-		Title:
-			"Advanced Encryption Standard (AES) and its Hardware Watermarking for Ownership Protection",
+		Title: "Advanced Encryption Standard (AES) and its Hardware Watermarking for Ownership Protection",
 		"Book/ Journal/ Book chapter/ Conference Name": "Book chapter, IET Book",
 		"Volume/ Page": "e-ISBN\n978-1-78561-800-0",
 		Year: "2019",
@@ -1077,8 +1147,7 @@ export const data = [
 		Department: "Mechanical Engineering",
 		"Author(s)":
 			"Nandini Patra, Siva Krishna Karuturi, Nilesh J Vasa, D Nakamura, M Higashihata, Vipul Singh, IA Palani",
-		Title:
-			"Influence of Ni, Ti and NiTi Alloy Nanoparticles on Hydrothermally Grown ZnO Nanowires for Photoluminescence Enhancement",
+		Title: "Influence of Ni, Ti and NiTi Alloy Nanoparticles on Hydrothermally Grown ZnO Nanowires for Photoluminescence Enhancement",
 		"Book/ Journal/ Book chapter/ Conference Name": "Journal of Alloys and Compounds",
 		"Volume/ Page": "770",
 		Year: "2019",
@@ -1088,8 +1157,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"N. Kitchamsetti, P. R. Chikate, R. A. Patil, Y. R. Ma, P. M. Shirage, and R. S. Devan",
-		Title:
-			"Perforated Mesoporous NiO Nanostructures for Enhanced Pseudocapacitive performance with Ultra-High Rate Capability and High Energy Density",
+		Title: "Perforated Mesoporous NiO Nanostructures for Enhanced Pseudocapacitive performance with Ultra-High Rate Capability and High Energy Density",
 		"Book/ Journal/ Book chapter/ Conference Name": "CrystEngComm",
 		"Volume/ Page": "21/7130-7140",
 		Year: "2019",
@@ -1099,8 +1167,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"N. Kitchamsetti, R. S. Kalubarme, P. R. Chikate, C. J. Park, Y. R. Ma, P. M. Shirage, and R. S. Devan",
-		Title:
-			"An Investigation on the Effect of Li-ion Cycling on the Vertically Aligned Brookite TiO2 Nanostructures",
+		Title: "An Investigation on the Effect of Li-ion Cycling on the Vertically Aligned Brookite TiO2 Nanostructures",
 		"Book/ Journal/ Book chapter/ Conference Name": "Chemistry Select",
 		"Volume/ Page": "4/6620-6626",
 		Year: "2019",
@@ -1110,8 +1177,7 @@ export const data = [
 		Department: "Physics",
 		"Author(s)":
 			"Suryakant Mishra, P Yogi, A Chaudhary, D Pathak, S Saxena, A Krylov, P.R. Sagdeo & Rajesh Kumar Ind. J. Phys., 93, 927 (2019)",
-		Title:
-			"Understanding Perceived-Color through Gradual Spectroscopic Variations in Electrochromism",
+		Title: "Understanding Perceived-Color through Gradual Spectroscopic Variations in Electrochromism",
 		"Book/ Journal/ Book chapter/ Conference Name": "Ind. J. Phys.",
 		"Volume/ Page": "93, 927",
 		Year: "2019",
@@ -1120,8 +1186,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Abhishek Rajput IIT Indore",
 		Department: "Civil Engineering",
 		"Author(s)": "Abhishek Rajput, Meral Ak, Sang Jin Kim , Sung Hwan Noh, J Kee Paik",
-		Title:
-			"Effects of the Surface Preparation on the Life of Epoxy Coating in Steel Ship Plates: An Experimental Study",
+		Title: "Effects of the Surface Preparation on the Life of Epoxy Coating in Steel Ship Plates: An Experimental Study",
 		"Book/ Journal/ Book chapter/ Conference Name": "Ships and Offshore Structures",
 		"Volume/ Page": "14",
 		Year: "2019",
@@ -1137,6 +1202,36 @@ export const data = [
 		Year: "2019",
 	},
 	{
+		"Author(s)":
+			"Rajnish Kumar Singh, Fengchao Lang, Yonggang Pei, Hem Chandra Jha, Erle S. Robertson",
+		Title: "Metabolic reprogramming of Kaposi’s sarcoma associated herpes virus infected B-cells in hypoxia",
+		"Book/ Journal/ Book chapter/ Conference Name": "Plos Pathogens",
+		"Volume/ Page": "doi.org/10.1371/journal.ppat.1007062",
+		Year: "2018",
+		"Name of the Faculty": "Dr. Hem Chandra Jha",
+		Department: "BSBE",
+	},
+	{
+		"Author(s)":
+			"Saurabh Pandey, Hem Chandra Jha, Sanket Kumar Shukla, Meghan K. Shirley, Erle S. Robertson",
+		Title: "Epigenetic Regulation of Tumor Suppressors by Helicobacter pylori Enhances EBV-Induced Proliferation of Gastric Epithelial Cells",
+		"Book/ Journal/ Book chapter/ Conference Name": "mBio",
+		"Volume/ Page": "10.1128/mBio.00649-18 ",
+		Year: "2018",
+		"Name of the Faculty": "Dr. Hem Chandra Jha",
+		Department: "BSBE",
+	},
+	{
+		"Author(s)":
+			"Fengchao Lang, Zhiguo Sun, Yonggang Pei, Rajnish Kumar Singh, Hem Chandra Jha, Erle S. Robertson",
+		Title: "Shugoshin 1 is dislocated by KSHV-encoded LANA inducing aneuploidy",
+		"Book/ Journal/ Book chapter/ Conference Name": "Plos Pathogens",
+		"Volume/ Page": "doi.org/10.1371/journal.ppat.1007253",
+		Year: "2018",
+		"Name of the Faculty": "Dr. Hem Chandra Jha",
+		Department: "BSBE",
+	},
+	{
 		"Name of the Faculty": "Prof. Avinash Sonawane",
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)": "Pati R, Shevtsov M., and Sonawane A.",
@@ -1150,8 +1245,7 @@ export const data = [
 		Department: "Chemistry",
 		"Author(s)":
 			"Bidyut Kumar Kundu, Vaishali Chhabra, Novina Malviya, Rakesh Ganguly, Gopal S Mishra, Suman Mukhopadhyay",
-		Title:
-			"Zeolite Encapsulated Host-guest Cu(II) Schiff Base Complexes: Superior Activity Towards Oxidation Reactions over Homogenous Catalytic Systems,",
+		Title: "Zeolite Encapsulated Host-guest Cu(II) Schiff Base Complexes: Superior Activity Towards Oxidation Reactions over Homogenous Catalytic Systems,",
 		"Book/ Journal/ Book chapter/ Conference Name": "Microporous Mesoporous Mater",
 		"Volume/ Page": "271/100",
 		Year: "2018",
@@ -1160,8 +1254,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Venkatesh Chelvam",
 		Department: "Chemistry",
 		"Author(s)": "Poh, S., Venkatesh, C., Ayala-Lopez, W., Putt, K. S., Low, P. S.,",
-		Title:
-			"Selective Liposome Targeting of Folate Receptor Positive Immune Cells in Inflammatory Diseases",
+		Title: "Selective Liposome Targeting of Folate Receptor Positive Immune Cells in Inflammatory Diseases",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Nanomedicine: Nanotechnology, Biology, and Medicine",
 		"Volume/ Page": "14, 1033–1043",
@@ -1172,8 +1265,7 @@ export const data = [
 		Department: "BSBE",
 		"Author(s)":
 			"Rangasamy, L., Venkatesh C., Kanduluru, A. K., Srinivasarao, M., Bandara, N. A., You, F., Orellana, E. A., Kasinski, A. L., Low, P. S.",
-		Title:
-			"New Mechanism for Release of Endosomal Contents: Osmotic Lysis Via Nigericin-Mediated K+/H+ Exchange",
+		Title: "New Mechanism for Release of Endosomal Contents: Osmotic Lysis Via Nigericin-Mediated K+/H+ Exchange",
 		"Book/ Journal/ Book chapter/ Conference Name": "Bioconjugate Chem.,",
 		"Volume/ Page": "29, 1047–1059",
 		Year: "2018",
@@ -1191,8 +1283,7 @@ export const data = [
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "Anirban Sengupta, Dipanjan Roy, Saraju P Mohanty",
-		Title:
-			"Triple-Phase Watermarking for Reusable IP Core Protection during Architecture Synthesis",
+		Title: "Triple-Phase Watermarking for Reusable IP Core Protection during Architecture Synthesis",
 		"Book/ Journal/ Book chapter/ Conference Name": "IEEE Transactions on CAD",
 		"Volume/ Page": "vol. 37, pp. 742 - 755",
 		Year: "2018",
@@ -1201,8 +1292,7 @@ export const data = [
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "Anirban Sengupta, Saraju P Mohanty, Fernando Pescador, Peter Corcoran",
-		Title:
-			"Multi-Phase Obfuscation of Fault Secured DSP Designs with Enhanced Security Feature",
+		Title: "Multi-Phase Obfuscation of Fault Secured DSP Designs with Enhanced Security Feature",
 		"Book/ Journal/ Book chapter/ Conference Name": "IEEE Transactions on Consumer Electronics",
 		"Volume/ Page": "vol. 64, pp. 356-364",
 		Year: "2018",
@@ -1286,8 +1376,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Vinay Kumar Gupta",
 		Department: "Mathematics",
 		"Author(s)": "Rana, A. S., Gupta, V. K. and Struchtrup, H.",
-		Title:
-			"Coupled Constitutive Relations: a Second Law Based Higher Order Closure for Hydrodynamics",
+		Title: "Coupled Constitutive Relations: a Second Law Based Higher Order Closure for Hydrodynamics",
 		"Book/ Journal/ Book chapter/ Conference Name": "Proceedings of the Royal Society A",
 		"Volume/ Page": "474, 20180323",
 		Year: "2018",
@@ -1305,8 +1394,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Vinay Kumar Gupta",
 		Department: "Mathematics",
 		"Author(s)": "Gupta, V. K. and Torrilhon, M.",
-		Title:
-			"Heat Flux in Binary Gas Mixtures Confined Between Two Parallel Plates via Moment Equations",
+		Title: "Heat Flux in Binary Gas Mixtures Confined Between Two Parallel Plates via Moment Equations",
 		"Book/ Journal/ Book chapter/ Conference Name": "AIP Conference Proceedings",
 		"Volume/ Page": "2132, 120003",
 		Year: "2018",
@@ -1316,8 +1404,7 @@ export const data = [
 		Department: "Mechanical Engineering",
 		"Author(s)":
 			"K Akash, SS Mani Prabu, Tobias Gustmann, S Jayachandran, Simon Pauly, IA Palani",
-		Title:
-			"Enhancing the Life Cycle Behaviour of Cu-Al-Ni Shape Memory Alloy Bimorph by Mn Addition",
+		Title: "Enhancing the Life Cycle Behaviour of Cu-Al-Ni Shape Memory Alloy Bimorph by Mn Addition",
 		"Book/ Journal/ Book chapter/ Conference Name": "Materials Letters",
 		"Volume/ Page": "226",
 		Year: "2018",
@@ -1327,8 +1414,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"A. K. Sharma, R. S. Devan, M. Arora, R. Kumar, Y. R. Ma, and J. Nagendra Babu",
-		Title:
-			"Reductive-co-precipitated Cellulose Immobilized Zerovalent Iron Nanoparticles in Ionic Liquid/Water for Cr(VI) Adsorption",
+		Title: "Reductive-co-precipitated Cellulose Immobilized Zerovalent Iron Nanoparticles in Ionic Liquid/Water for Cr(VI) Adsorption",
 		"Book/ Journal/ Book chapter/ Conference Name": "Cellulose",
 		"Volume/ Page": "25/5259-5275",
 		Year: "2018",
@@ -1338,8 +1424,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"P. R. Chikate, K. D. Daware, D. Gavhane, Y. R. Ma, R. J. Choudhary, S. I. Patil, M. A. More, D. M. Phase, S. W. Gosavi, P. M. Shirage, and R. S. Devan",
-		Title:
-			"Controlled Hetero-architectures of Au Nanoparticles Decorated ZnO Nanowires for Enhanced Field Electron Emission Displays",
+		Title: "Controlled Hetero-architectures of Au Nanoparticles Decorated ZnO Nanowires for Enhanced Field Electron Emission Displays",
 		"Book/ Journal/ Book chapter/ Conference Name": "Chemistry Select",
 		"Volume/ Page": "3/) 7891-7899",
 		Year: "2018",
@@ -1349,8 +1434,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"P. R. Chikate, P. K. Bankar, R. J. Choudhary, Y. R. Ma, S. I. Patil, M. A. More, D. M. Phase, P. M. Shirage, and R. S. Devan",
-		Title:
-			"Spitzer Shaped ZnO Nanostructures for Enhancement of Field Electron Emission Behaviors",
+		Title: "Spitzer Shaped ZnO Nanostructures for Enhancement of Field Electron Emission Behaviors",
 		"Book/ Journal/ Book chapter/ Conference Name": "RSC Advances",
 		"Volume/ Page": "8/21664-21670",
 		Year: "2018",
@@ -1359,8 +1443,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Rupesh S. Devan",
 		Department: "MEMS",
 		"Author(s)": "P. Dubey, N. Kaurav, R. S. Devan, G. S. Okram, and Y. K. Kuo",
-		Title:
-			"The Effect of Stoichiometry on the Structural, Thermal and Electronic Properties of Thermally Decomposed Nickel Oxide",
+		Title: "The Effect of Stoichiometry on the Structural, Thermal and Electronic Properties of Thermally Decomposed Nickel Oxide",
 		"Book/ Journal/ Book chapter/ Conference Name": "RSC Advances",
 		"Volume/ Page": "8/5882-5890",
 		Year: "2018",
@@ -1370,8 +1453,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"T. S. Bhat, A. V. Shinde, R. S. Devan, A. M. Teli, Y. R. Ma, J. H. Kim, and P. S. Patil",
-		Title:
-			"Structural and Electrochemical Analysis of Chemically Synthesized Microcubic Architectured lead Selenide Thin Films",
+		Title: "Structural and Electrochemical Analysis of Chemically Synthesized Microcubic Architectured lead Selenide Thin Films",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Applied Physics A: Materials Science & Processing",
 		"Volume/ Page": "Dec-34",
@@ -1382,8 +1464,7 @@ export const data = [
 		Department: "Physics",
 		"Author(s)":
 			"A. S. Krylov, S. N. Sofronova, I. A. Gudim, S. N. Krylova, Rajesh Kumar and A. N. Vtyurin",
-		Title:
-			"Manifestation of Magnetoelastic Interactions in Raman Spectra Of HoxNd1􀀀xFe3(BO3)4 Crystals",
+		Title: "Manifestation of Magnetoelastic Interactions in Raman Spectra Of HoxNd1􀀀xFe3(BO3)4 Crystals",
 		"Book/ Journal/ Book chapter/ Conference Name": "J. Adv. Dielect.",
 		"Volume/ Page": "08, 1850011",
 		Year: "2018",
@@ -1393,8 +1474,7 @@ export const data = [
 		Department: "Physics",
 		"Author(s)":
 			"Manushree Tanwar, Priyanka Yogi, Simran Lambora, Suryakant Mishra, Shailendra K. Saxena, Pankaj R Sagdeo, lexander S. Krylov, Rajesh Kumar",
-		Title:
-			"Generalization of Phonon Connement Model for Interpretation of Raman Line-Shape from Nano- Silicon",
+		Title: "Generalization of Phonon Connement Model for Interpretation of Raman Line-Shape from Nano- Silicon",
 		"Book/ Journal/ Book chapter/ Conference Name": "Adv. Mater. Proc. Technol.",
 		"Volume/ Page": "04, 227",
 		Year: "2018",
@@ -1403,8 +1483,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Neelima Satyam",
 		Department: "Civil Engineering",
 		"Author(s)": "Abhirup Dikshit, Neelima Satyam, Ikuo Towhata",
-		Title:
-			"Early Warning System using Tilt Sensors in Chibo Kalimpong, Darjeeling Himalayas, India",
+		Title: "Early Warning System using Tilt Sensors in Chibo Kalimpong, Darjeeling Himalayas, India",
 		"Book/ Journal/ Book chapter/ Conference Name": "Natural Hazards",
 		"Volume/ Page": "94(2)",
 		Year: "2018",
@@ -1413,11 +1492,20 @@ export const data = [
 		"Name of the Faculty": "Munir Ahmad Nayak",
 		Department: "Civil Engineering",
 		"Author(s)": "Munir Ahmad Nayak; Jonathan D. Herman; Scott Steinschneider",
-		Title:
-			"Balancing Flood Risk and Water Supply in California: Policy Search Integrating Short‐term Forecast Ensembles with Conjunctive Use",
+		Title: "Balancing Flood Risk and Water Supply in California: Policy Search Integrating Short‐term Forecast Ensembles with Conjunctive Use",
 		"Book/ Journal/ Book chapter/ Conference Name": "Water Resources Research",
 		"Volume/ Page": "54",
 		Year: "2018",
+	},
+	{
+		"Author(s)":
+			"Yonggang Pei, Shuvomoy Banerjee, Hem Chandra Jha, Zhiguo Sun, Erle S. Robertson",
+		Title: "An essential EBV latent antigen 3C binds Bcl6 for targeted degradation and cell proliferation",
+		"Book/ Journal/ Book chapter/ Conference Name": "Plos Pathogens",
+		"Volume/ Page": "doi.org/10.1371/journal.ppat.1006500",
+		Year: "2017",
+		"Name of the Faculty": "Dr. Hem Chandra Jha",
+		Department: "BSBE",
 	},
 	{
 		"Name of the Faculty": "Prof. Suman Mukhopadhyay",
@@ -1434,8 +1522,7 @@ export const data = [
 		Department: "Chemistry",
 		"Author(s)":
 			"Poh, S., Venkatesh, C., Lindsay, K., Ayala-Lopez, W., Balasubramanian, V., Putt, K. S., Low, P. S.,",
-		Title:
-			"Folate-conjugated Liposomes Target and Deliver Therapeutics to Immune Cells in a Rat Model of Rheumatoid Arthritis",
+		Title: "Folate-conjugated Liposomes Target and Deliver Therapeutics to Immune Cells in a Rat Model of Rheumatoid Arthritis",
 		"Book/ Journal/ Book chapter/ Conference Name": "Nanomedicine(Lond.),",
 		"Volume/ Page": "12, 2441–2451",
 		Year: "2017",
@@ -1444,8 +1531,7 @@ export const data = [
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "Anirban Sengupta, Dipanjan Roy, Saraju Mohanty, Peter Corcoran",
-		Title:
-			"DSP Design Protection in CE through Algorithmic Transformation Based Structural Obfuscation",
+		Title: "DSP Design Protection in CE through Algorithmic Transformation Based Structural Obfuscation",
 		"Book/ Journal/ Book chapter/ Conference Name": "IEEE Transactions on Consumer Electronics",
 		"Volume/ Page": "vol. 63, pp. 467 - 476",
 		Year: "2017",
@@ -1463,8 +1549,7 @@ export const data = [
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "S. P. Mohanty, A. Sengupta, P. Guturu, and E. Kougianos",
-		Title:
-			"Everything You Want to Know About Watermarking: From Paper Marks to Hardware Protection",
+		Title: "Everything You Want to Know About Watermarking: From Paper Marks to Hardware Protection",
 		"Book/ Journal/ Book chapter/ Conference Name": "IEEE Transactions on Consumer Electronics",
 		"Volume/ Page": "vol. 7, pp. 83--91",
 		Year: "2017",
@@ -1473,8 +1558,7 @@ export const data = [
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "A. Sengupta, S. Bhadauria, S. P. Mohanty",
-		Title:
-			"TL-HLS: Methodology for Low Cost Hardware Trojan Security Aware Scheduling with Optimal Loop Unrolling Factor during High Level Synthesis",
+		Title: "TL-HLS: Methodology for Low Cost Hardware Trojan Security Aware Scheduling with Optimal Loop Unrolling Factor during High Level Synthesis",
 		"Book/ Journal/ Book chapter/ Conference Name": "IEEE Transactions on CAD",
 		"Volume/ Page": "vol. 36, pp. 655 – 668",
 		Year: "2017",
@@ -1502,8 +1586,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Charitha Cherugondi",
 		Department: "Mathematics",
 		"Author(s)": "C. Charitha, Joydeep Dutta and D. Russell Luke",
-		Title:
-			"Lagrange Multipliers, (exact) Regularization and Error Bounds for Monotone Variational Inequalities",
+		Title: "Lagrange Multipliers, (exact) Regularization and Error Bounds for Monotone Variational Inequalities",
 		"Book/ Journal/ Book chapter/ Conference Name": "Mathematical Programming",
 		"Volume/ Page": "-",
 		Year: "2017",
@@ -1521,8 +1604,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
 		Department: "Mathematics",
 		"Author(s)": "Jiaolong Chen, Peijin Li, Swadesh Kumar Sahoo, and Xiantao Wang,",
-		Title:
-			"On the Lipschitz Continuity of Certain Quasiregular Mappings between Smooth Jordan Domains",
+		Title: "On the Lipschitz Continuity of Certain Quasiregular Mappings between Smooth Jordan Domains",
 		"Book/ Journal/ Book chapter/ Conference Name": "Israel J. Math.",
 		"Volume/ Page": "220, 453 - 478",
 		Year: "2017",
@@ -1541,8 +1623,7 @@ export const data = [
 		Department: "MEMS",
 		"Author(s)":
 			"R. S. Devan*, V. P. Thakare, V. V. Antad, P. R. Chikate, R. T. Khare, M. A. More, R. S. Dhayal, S. I. Patil, Y. R. Ma, and L. Schmidt-Mende",
-		Title:
-			"Nano-hetero-architectures of Two-dimensional MoS2@one-dimensional Brookite TiO2 Nanorods: Prominent Electron Field Emission for Displays",
+		Title: "Nano-hetero-architectures of Two-dimensional MoS2@one-dimensional Brookite TiO2 Nanorods: Prominent Electron Field Emission for Displays",
 		"Book/ Journal/ Book chapter/ Conference Name": "ACS Omega",
 		"Volume/ Page": "2/2925-2934",
 		Year: "2017",
@@ -1558,12 +1639,20 @@ export const data = [
 		Year: "2017",
 	},
 	{
+		"Author(s)": "Hem C. Jha, Yonggang Pei and Erle S. Robertson",
+		Title: "Epstein–Barr Virus: Diseases Linked to Infection and Transformation",
+		"Book/ Journal/ Book chapter/ Conference Name": "Front. Microbiol",
+		"Volume/ Page": "doi.org/10.3389/fmicb.2016.01602",
+		Year: "2016",
+		"Name of the Faculty": "Dr. Hem Chandra Jha",
+		Department: "BSBE",
+	},
+	{
 		"Name of the Faculty": "Prof. Avinash Sonawane",
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Mohanty S, Dal Molin M, Ganguli G, Padhi A, JenaP, Selchow P, SenguptaS, Meuli M, Sander P and Sonawane A",
-		Title:
-			"Mycobacterium tuberculosis EsxO (Rv2346c) promotes bacillary survival by inducing oxidative stress mediated genomic instability in macrophages.",
+		Title: "Mycobacterium tuberculosis EsxO (Rv2346c) promotes bacillary survival by inducing oxidative stress mediated genomic instability in macrophages.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Tuberculosis (Edinb)",
 		"Volume/ Page": "96:44-57",
 		Year: "2016",
@@ -1573,8 +1662,7 @@ export const data = [
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Klionsky DJ, Abdelmohsen K, Abe A, Abedin MJ, Abeliovich H, Acevedo Arozena A. Sonawane A et al.,",
-		Title:
-			"Guidelines for the use and interpretation of assays for monitoring autophagy (3rd edition)",
+		Title: "Guidelines for the use and interpretation of assays for monitoring autophagy (3rd edition)",
 		"Book/ Journal/ Book chapter/ Conference Name": "Autophagy",
 		"Volume/ Page": "12(1):1-222",
 		Year: "2016",
@@ -1584,8 +1672,7 @@ export const data = [
 		Department: "Chemistry",
 		"Author(s)":
 			"Kumar, A., Venkatesh, C., Sakkarapalayam, M., Li, G., Sanchez-Cruz, P., Pinero, N. S., Low, P. S., Alegria, A. E.,",
-		Title:
-			"Synthesis and Evaluation of Folate-Conjugated Phenanthraquinones for Tumor-Targeted Oxidative Chemotherapy",
+		Title: "Synthesis and Evaluation of Folate-Conjugated Phenanthraquinones for Tumor-Targeted Oxidative Chemotherapy",
 		"Book/ Journal/ Book chapter/ Conference Name": "O J. Med. Chem.",
 		"Volume/ Page": "6,1–17",
 		Year: "2016",
@@ -1612,8 +1699,7 @@ export const data = [
 		"Name of the Faculty": "Dr Anirban Sengupta",
 		Department: "CSE",
 		"Author(s)": "Anirban Sengupta, Saumya Bhadauria, Saraju Mohanty",
-		Title:
-			"Embedding Low Cost Optimal Watermark During High Level Synthesis for Reusable IP Core Protection",
+		Title: "Embedding Low Cost Optimal Watermark During High Level Synthesis for Reusable IP Core Protection",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Proc. of 48th IEEE Int'l Symposium on Circuits & Systems (ISCAS), Montreal",
 		"Volume/ Page": "pp. 974 - 977",
@@ -1623,8 +1709,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Pritee Sharma",
 		Department: "School of HSS",
 		"Author(s)": "Sharma, Pritee, Karanth, A., Burvery, M. and Dubey A.",
-		Title:
-			"The Economic Impact of Floods and Waterlogging on Low-Income Households: Lessons from Indore, India",
+		Title: "The Economic Impact of Floods and Waterlogging on Low-Income Households: Lessons from Indore, India",
 		"Book/ Journal/ Book chapter/ Conference Name": "IIED Working Paper",
 		"Volume/ Page": "lk https://pubs.iied.org/10789IIED",
 		Year: "2016",
@@ -1633,8 +1718,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Vinay Kumar Gupta",
 		Department: "Mathematics",
 		"Author(s)": "Gupta, V. K., Struchtrup, H. and Torrilhon, M.",
-		Title:
-			"Regularized Moment Equations for Binary Gas Mixtures: Derivation and Linear Analysis",
+		Title: "Regularized Moment Equations for Binary Gas Mixtures: Derivation and Linear Analysis",
 		"Book/ Journal/ Book chapter/ Conference Name": "Physics of Fluids",
 		"Volume/ Page": "28, 042003",
 		Year: "2016",
@@ -1643,8 +1727,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Charitha Cherugondi",
 		Department: "Mathematics",
 		"Author(s)": "Timo Aspelmeier, C. Charitha and D. Russell Luke",
-		Title:
-			"Local Linear Convergence of the ADMM/Douglas–Rachford Algorithms without Strong Convexity and Application to Statistical Imaging",
+		Title: "Local Linear Convergence of the ADMM/Douglas–Rachford Algorithms without Strong Convexity and Application to Statistical Imaging",
 		"Book/ Journal/ Book chapter/ Conference Name": "SIAM Journal on Imaging Sciences",
 		"Volume/ Page": "-",
 		Year: "2016",
@@ -1653,8 +1736,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Charitha Cherugondi",
 		Department: "Mathematics",
 		"Author(s)": "Timo Aspelmeier, C. Charitha and D. Russell Luke",
-		Title:
-			"Local Linear Convergence of the ADMM/Douglas–Rachford Algorithms without Strong Convexity and Application to Statistical Imaging",
+		Title: "Local Linear Convergence of the ADMM/Douglas–Rachford Algorithms without Strong Convexity and Application to Statistical Imaging",
 		"Book/ Journal/ Book chapter/ Conference Name": "SIAM Journal on Imaging Sciences",
 		"Volume/ Page": "-",
 		Year: "2016",
@@ -1672,8 +1754,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Saikat Sarkar",
 		Department: "Civil Engineering",
 		"Author(s)": "S Sarkar, JN Reddy",
-		Title:
-			"Exploring the Source of Non-locality in the Euler–Bernoulli and Timoshenko Beam Models",
+		Title: "Exploring the Source of Non-locality in the Euler–Bernoulli and Timoshenko Beam Models",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"International Journal of Engineering Science",
 		"Volume/ Page": "104, 110-115",
@@ -1684,8 +1765,7 @@ export const data = [
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Mohanty, S., Jagannathan, L., Ganguli G., Padhi, A., Alaridah, A., Saha, P., Godaly, G.,Banerjee, S., Sonawane, A.",
-		Title:
-			"Mycobacterium tuberculosis phosphoribosyltransferase modulates antibacterial effector functions leading to evasion of innate immunity in macrophages and Zebra fish.",
+		Title: "Mycobacterium tuberculosis phosphoribosyltransferase modulates antibacterial effector functions leading to evasion of innate immunity in macrophages and Zebra fish.",
 		"Book/ Journal/ Book chapter/ Conference Name": "J. Biol. Chem",
 		"Volume/ Page": "290(21):13321-43",
 		Year: "2015",
@@ -1695,8 +1775,7 @@ export const data = [
 		Department: "Chemistry",
 		"Author(s)":
 			"Das, Ankita; Ghosh, Prabir; Plebst, Sebastian; Schwederski, Brigitte; Shaikh M. Mobin; Kaim, Wolfgang; Lahiri, Goutam Kumar",
-		Title:
-			"Ancillary Ligand Control of 1 Electronic Structure in oBenzoquinonediimine-Ruthenium Complex Redox Series: Structures, Electron Paramagnetic Resonance (EPR), and Ultraviolet-Visible-Near-Infrared (UV-vis-NIR) Spectroelectrochemistry",
+		Title: "Ancillary Ligand Control of 1 Electronic Structure in oBenzoquinonediimine-Ruthenium Complex Redox Series: Structures, Electron Paramagnetic Resonance (EPR), and Ultraviolet-Visible-Near-Infrared (UV-vis-NIR) Spectroelectrochemistry",
 		"Book/ Journal/ Book chapter/ Conference Name": "Inorg. Chem.",
 		"Volume/ Page": "54, 3376-3386",
 		Year: "2015",
@@ -1705,8 +1784,7 @@ export const data = [
 		"Name of the Faculty": "Prof. Suman Mukhopadhyay",
 		Department: "Chemistry",
 		"Author(s)": "Kelly Machadoa, Suman Mukhopadhyay, Gopal S Mishra.,",
-		Title:
-			"Silica Nano-particle Supported Copper and Vanadium Complexes Have Been Utilized for Study of Cyclohexane Oxidation Reaction",
+		Title: "Silica Nano-particle Supported Copper and Vanadium Complexes Have Been Utilized for Study of Cyclohexane Oxidation Reaction",
 		"Book/ Journal/ Book chapter/ Conference Name": "J Mol Catalysis A : Chemical",
 		"Volume/ Page": "139/400",
 		Year: "2015",
@@ -1715,8 +1793,7 @@ export const data = [
 		"Name of the Faculty": "Prof. Suman Mukhopadhyay",
 		Department: "Chemistry",
 		"Author(s)": "Kelly Machadoa, Suman Mukhopadhyay, Gopal S Mishra.,",
-		Title:
-			"Silica Nano-particle Supported Copper and Vanadium Complexes Have Been Utilized for Study of Cyclohexane Oxidation Reaction",
+		Title: "Silica Nano-particle Supported Copper and Vanadium Complexes Have Been Utilized for Study of Cyclohexane Oxidation Reaction",
 		"Book/ Journal/ Book chapter/ Conference Name": "RSC Adv.",
 		"Volume/ Page": "5/35675",
 		Year: "2015",
@@ -1726,8 +1803,7 @@ export const data = [
 		Department: "Chemistry",
 		"Author(s)":
 			"Roy, J., Nguygen, T. X., Kandaluru, A. K., Venkatesh, C., Lv, W., Reddy, P.V.N., Low, P. S., Cushman, M.",
-		Title:
-			"Dupa Conjugation of a Cytotoxic Indenoisoquinoline Topoisomerase I Inhibitor for Selective Prostate Cancer Cell Targeting",
+		Title: "Dupa Conjugation of a Cytotoxic Indenoisoquinoline Topoisomerase I Inhibitor for Selective Prostate Cancer Cell Targeting",
 		"Book/ Journal/ Book chapter/ Conference Name": "J. Med. Chem.",
 		"Volume/ Page": "3094–3103",
 		Year: "2015",
@@ -1736,8 +1812,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Venkatesh Chelvam",
 		Department: "BSBE",
 		"Author(s)": "Poh, S., Venkatesh, C., Low, P. S.",
-		Title:
-			"Comparison of Nanoparticle Penetration into Solid Tumors and Sites of Inflammation: Studies Using Targeted and Non-Targeted Liposomes",
+		Title: "Comparison of Nanoparticle Penetration into Solid Tumors and Sites of Inflammation: Studies Using Targeted and Non-Targeted Liposomes",
 		"Book/ Journal/ Book chapter/ Conference Name": "Nanomedicine",
 		"Volume/ Page": "10, 1439–1449",
 		Year: "2015",
@@ -1746,8 +1821,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Vinay Kumar Gupta",
 		Department: "Mathematics",
 		"Author(s)": "Gupta, V. K. and Torrilhon, M.",
-		Title:
-			"Comparison of Relaxation Phenomena in Binary Gas-Mixtures of Maxwell Molecules and Hard Spheres",
+		Title: "Comparison of Relaxation Phenomena in Binary Gas-Mixtures of Maxwell Molecules and Hard Spheres",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"Computers and Mathematics with Applications",
 		"Volume/ Page": "70, 73-88",
@@ -1776,8 +1850,7 @@ export const data = [
 		Department: "Mechanical Engineering",
 		"Author(s)":
 			"Tejendra Dixit, Anubha Bilgaiyan, IA Palani, Daisuke Nakamura, T Okada, Vipul Singh",
-		Title:
-			"Influence of Potassium Permanganate on the Anisotropic Growth and Enhanced UV Emission of ZnO Nanostructures using Hydrothermal Process for Optoelectronic Applications",
+		Title: "Influence of Potassium Permanganate on the Anisotropic Growth and Enhanced UV Emission of ZnO Nanostructures using Hydrothermal Process for Optoelectronic Applications",
 		"Book/ Journal/ Book chapter/ Conference Name": "Journal of Sol-Gel Science and Technology",
 		"Volume/ Page": "75",
 		Year: "2015",
@@ -1786,8 +1859,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Saikat Sarkar",
 		Department: "Civil Engineering",
 		"Author(s)": "N Pimprikar, S Sarkar, G Devaraj, D Roy, SR Reid",
-		Title:
-			"A Stabilization Approach for Mesh-free Simulations of Systems Developing Shocks or Extreme Strain Localizations",
+		Title: "A Stabilization Approach for Mesh-free Simulations of Systems Developing Shocks or Extreme Strain Localizations",
 		"Book/ Journal/ Book chapter/ Conference Name":
 			"International Journal of Mechanical Sciences",
 		"Volume/ Page": "91, 18-32",
@@ -1797,8 +1869,7 @@ export const data = [
 		"Name of the Faculty": "Prof. Avinash Sonawane",
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)": "Padhi, A., Sengupta, M., Sengupta, S., Roehm, K., Sonawane, A.",
-		Title:
-			"Antimicrobial peptides and proteins in mycobacterial therapy: current status and future prospects.",
+		Title: "Antimicrobial peptides and proteins in mycobacterial therapy: current status and future prospects.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Tuberculosis (Edinb)",
 		"Volume/ Page": "94(4), 363- 73",
 		Year: "2014",
@@ -1808,8 +1879,7 @@ export const data = [
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Mehta, R., Verma, S., Sengupta, M., Pati, R., Khatua, B., Jena, R., Sethy, S., Rohm, K., Mandal, C., Sonawane, A.",
-		Title:
-			"Mutations in subunit interfaces and B-cell epitopes improve antileukemic activities of Escherichia coli L-asparaginase-II: Evaluation of immunogenicity in mice.",
+		Title: "Mutations in subunit interfaces and B-cell epitopes improve antileukemic activities of Escherichia coli L-asparaginase-II: Evaluation of immunogenicity in mice.",
 		"Book/ Journal/ Book chapter/ Conference Name": "J. Biol. Chem",
 		"Volume/ Page": "289(6), 3555-70",
 		Year: "2014",
@@ -1818,8 +1888,7 @@ export const data = [
 		"Name of the Faculty": "Prof. Avinash Sonawane",
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)": "Verma, S., Mehta, R., Maiti, P., Roehm, K., Sonawane, A.",
-		Title:
-			"Improvement of stability and enzymatic activity by site-directed mutagenesis of E. coli asparaginase II",
+		Title: "Improvement of stability and enzymatic activity by site-directed mutagenesis of E. coli asparaginase II",
 		"Book/ Journal/ Book chapter/ Conference Name": "Biochim Biophys Acta.",
 		"Volume/ Page": "1844(7), 1219-30",
 		Year: "2014",
@@ -1829,8 +1898,7 @@ export const data = [
 		Department: "Chemistry",
 		"Author(s)":
 			"Tsai, E. H. R., Bentz, B. Z., Venkatesh, C., Gaind, V., Webb, K. J., Low, P. S.",
-		Title:
-			"In Vivo Mouse Fluorescence Imaging for Folate-Targeted Delivery and Release Kinetics",
+		Title: "In Vivo Mouse Fluorescence Imaging for Folate-Targeted Delivery and Release Kinetics",
 		"Book/ Journal/ Book chapter/ Conference Name": "Optical Imaging",
 		"Volume/ Page": "5, 2662–2678",
 		Year: "2014",
@@ -1876,8 +1944,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Venkatesh Chelvam",
 		Department: "Chemistry",
 		"Author(s)": "Shen, J., Venkatesh, C., Cresswell, G., Low, P. S.",
-		Title:
-			"Use of Folate-Conjugated Imaging Agents to Target Alternatively Activated Macrophages in a Murine Model of Asthma",
+		Title: "Use of Folate-Conjugated Imaging Agents to Target Alternatively Activated Macrophages in a Murine Model of Asthma",
 		"Book/ Journal/ Book chapter/ Conference Name": "Mol. Pharm.",
 		"Volume/ Page": "10, 1918–1927",
 		Year: "2013",
@@ -1905,8 +1972,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Venkatesh Chelvam",
 		Department: "Chemistry",
 		"Author(s)": "Tsai, H.-R., Bentz, B. Z., Venkatesh, C., Gaind, V., Webb, K. J., Low, P. S.",
-		Title:
-			"In Vivo Optical Imaging of Kinetics in a Small Animal for Folate-Targeted Drug Development",
+		Title: "In Vivo Optical Imaging of Kinetics in a Small Animal for Folate-Targeted Drug Development",
 		"Book/ Journal/ Book chapter/ Conference Name": "Opt. Life Sci.,",
 		"Volume/ Page": "2013",
 		Year: "2013",
@@ -1915,8 +1981,7 @@ export const data = [
 		"Name of the Faculty": "Dr. Swadesh Kumar Sahoo",
 		Department: "Mathematics",
 		"Author(s)": "G. Bharali, D. Minda, S. Ponnusamy, and S. K. Sahoo (Editors)",
-		Title:
-			"The Proceedings of the International Symposium on Complex Analysis and Conformal Geometry",
+		Title: "The Proceedings of the International Symposium on Complex Analysis and Conformal Geometry",
 		"Book/ Journal/ Book chapter/ Conference Name": "J. Analysis",
 		"Volume/ Page": "-",
 		Year: "2013",
@@ -1925,8 +1990,7 @@ export const data = [
 		"Name of the Faculty": "Sk. Safique Ahmad",
 		Department: "Mathematics",
 		"Author(s)": "S. S. Ahmad and V. Mehrmann",
-		Title:
-			"Backward Errors for Eigenvalues and Eigenvectors of Hermitian, Skew-Hermitian, H-even and H-odd Matrix Polynomials,",
+		Title: "Backward Errors for Eigenvalues and Eigenvectors of Hermitian, Skew-Hermitian, H-even and H-odd Matrix Polynomials,",
 		"Book/ Journal/ Book chapter/ Conference Name": "Linear and multilinear Algebra",
 		"Volume/ Page": "61",
 		Year: "2013",
@@ -1945,8 +2009,7 @@ export const data = [
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Jena, P., Mohanty, S., Mohanty, T., Kallert, S., Morgelin, M., Lindstrom,T., Niels, B., Stenger, S., Sonawane, A.,* Sorensen, O.E.*",
-		Title:
-			"Azurophil granule proteins constitute the major mycobactericidal proteins in human neutrophils and enhance the intracellular killing of mycobacteria in macrophages.",
+		Title: "Azurophil granule proteins constitute the major mycobactericidal proteins in human neutrophils and enhance the intracellular killing of mycobacteria in macrophages.",
 		"Book/ Journal/ Book chapter/ Conference Name": "PLoS ONE",
 		"Volume/ Page": "7(12), e50345",
 		Year: "2012",
@@ -1955,8 +2018,7 @@ export const data = [
 		"Name of the Faculty": "Prof. Avinash Sonawane",
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)": "Sonawane, A.,* Mohanty, S., Jagannathan, L., Bekolay, A., Banerjee, S.,",
-		Title:
-			"Role of glycans and glycoproteins in disease development by Mycobacterium tuberculosis.",
+		Title: "Role of glycans and glycoproteins in disease development by Mycobacterium tuberculosis.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Critical Review in Microbiology",
 		"Volume/ Page": "38(3), 250-266",
 		Year: "2012",
@@ -1965,8 +2027,7 @@ export const data = [
 		"Name of the Faculty": "Sk. Safique Ahmad",
 		Department: "Mathematics",
 		"Author(s)": "S. S. Ahmad and V. Mehrmann",
-		Title:
-			"Perturbation Analysis for Complex Symmetric, Skew Symmetric, Even, and Odd Matrix Polynomials",
+		Title: "Perturbation Analysis for Complex Symmetric, Skew Symmetric, Even, and Odd Matrix Polynomials",
 		"Book/ Journal/ Book chapter/ Conference Name": "Electron. Tans. Mumer. Anal.(ETNA)",
 		"Volume/ Page": "38",
 		Year: "2011",
@@ -1976,8 +2037,7 @@ export const data = [
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Sonawane, A.*, Santos, J., Mishra, B., Jena, P., Progida, C., Sorensen, O.E., Gallo, R., Appelberg, R., Griffiths, G.",
-		Title:
-			"Cathelicidin is involved in the intra-cellular killing of mycobacteria in macrophages.",
+		Title: "Cathelicidin is involved in the intra-cellular killing of mycobacteria in macrophages.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Cellular Microbiology",
 		"Volume/ Page": "13(10),1601-1617",
 		Year: "2011",
@@ -1986,8 +2046,7 @@ export const data = [
 		"Name of the Faculty": "Prof. Avinash Sonawane",
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)": "Jena, P., Mishra. B., Leippe. M., Hasilik, A., Griffiths, G., Sonawane, A.",
-		Title:
-			"Membrane-active antimicrobial peptides and human placental lysosomal extracts are highly active against mycobacteria.",
+		Title: "Membrane-active antimicrobial peptides and human placental lysosomal extracts are highly active against mycobacteria.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Peptides",
 		"Volume/ Page": "32, 881-7",
 		Year: "2011",
@@ -1997,8 +2056,7 @@ export const data = [
 		Department: "Biosciences and Biomedical Engineering (BSBE)",
 		"Author(s)":
 			"Mishra, B.B., Moura-Alves, P., Sonawane, A., Hacohen, N., Griffiths, G., Moita, L.F., Anes, E.",
-		Title:
-			"Mycobacterium tuberculosis Protein ESAT-6 is a Potent Activator of the NLRP3/ASC Inflammasome.",
+		Title: "Mycobacterium tuberculosis Protein ESAT-6 is a Potent Activator of the NLRP3/ASC Inflammasome.",
 		"Book/ Journal/ Book chapter/ Conference Name": "Cellular Microbiology",
 		"Volume/ Page": "12:1046-63",
 		Year: "2010",
@@ -2008,9 +2066,9 @@ export const data = [
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
 		"Author(s)":
 			"Dominguez-Fernandez, P., Bruggen, M., Vazza, F., Banda-Barragan, W. E., Rajpurohit, K., Mignone, A., Mukherjee, D., & Vaidya, B.",
-		Title:
-			"Morphology of radio relics - I. What causes the substructure of synchrotron emission?",
-		"Book/ Journal/ Book chapter/ Conference Name": "Monthly Notices of the Royal Astronomical Society",
+		Title: "Morphology of radio relics - I. What causes the substructure of synchrotron emission?",
+		"Book/ Journal/ Book chapter/ Conference Name":
+			"Monthly Notices of the Royal Astronomical Society",
 		"Volume/ Page": "500; 795-816",
 		Year: "2021",
 	},
@@ -2019,19 +2077,17 @@ export const data = [
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
 		"Author(s)":
 			"Mukherjee, Dipanjan, Bodo, Gianluigi, Mignone, Andrea, Rossi, Paola, & Vaidya, Bhargav",
-		Title:
-			"Simulating the dynamics and non-thermal emission of relativistic magnetized jets I. Dynamics",
-		"Book/ Journal/ Book chapter/ Conference Name": "Monthly Notices of the Royal Astronomical Society",
+		Title: "Simulating the dynamics and non-thermal emission of relativistic magnetized jets I. Dynamics",
+		"Book/ Journal/ Book chapter/ Conference Name":
+			"Monthly Notices of the Royal Astronomical Society",
 		"Volume/ Page": "499; 681-701",
 		Year: "2020",
 	},
 	{
 		"Name of the Faculty": "Prof. Bhargav Vaidya",
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
-		"Author(s)":
-			"Kumar, Sandeep, Paul, Arghyadeep, & Vaidya, Bhargav",
-		Title:
-			"A comparison study of extrapolation models and empirical relations in forecasting solar wind",
+		"Author(s)": "Kumar, Sandeep, Paul, Arghyadeep, & Vaidya, Bhargav",
+		Title: "A comparison study of extrapolation models and empirical relations in forecasting solar wind",
 		"Book/ Journal/ Book chapter/ Conference Name": "rontiers in Astronomy and Space Sciences",
 		"Volume/ Page": "7; 92",
 		Year: "2020",
@@ -2041,8 +2097,7 @@ export const data = [
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
 		"Author(s)":
 			"Dabhade, P., Mahato, M., Bagchi, J., Saikia, D. J., Combes, F., Sankhyayan, S., Röttgering, H. J. A., Ho, L. C., Gaikwad, M., Raychaudhury, S., Vaidya, B., & Guiderdoni, B.",
-		Title:
-			"Search and analysis of giant radio galaxies with associated nuclei (SAGAN). I. New sample and multi-wavelength studies",
+		Title: "Search and analysis of giant radio galaxies with associated nuclei (SAGAN). I. New sample and multi-wavelength studies",
 		"Book/ Journal/ Book chapter/ Conference Name": "Astronomy and Astrophysics",
 		"Volume/ Page": "642; A153",
 		Year: "2020",
@@ -2052,8 +2107,7 @@ export const data = [
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
 		"Author(s)":
 			"Dabhade, P., Mahato, M., Bagchi, J., Saikia, D. J., Combes, F., Sankhyayan, S., Röttgering, H. J. A., Ho, L. C., Gaikwad, M., Raychaudhury, S., Vaidya, B., & Guiderdoni, B.",
-		Title:
-			"Search and analysis of giant radio galaxies with associated nuclei (SAGAN). I. New sample and multi-wavelength studies",
+		Title: "Search and analysis of giant radio galaxies with associated nuclei (SAGAN). I. New sample and multi-wavelength studies",
 		"Book/ Journal/ Book chapter/ Conference Name": "Astronomy and Astrophysics",
 		"Volume/ Page": "642; A153",
 		Year: "2020",
@@ -2061,10 +2115,8 @@ export const data = [
 	{
 		"Name of the Faculty": "Prof. Bhargav Vaidya",
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
-		"Author(s)":
-			"Mignone, A., Vaidya, B., Puzzoni, E., Mukherjee, D., Bodo, G., & Flock, M.",
-		Title:
-			"Particle-Gas Hybrid Schemes in the PLUTO Code",
+		"Author(s)": "Mignone, A., Vaidya, B., Puzzoni, E., Mukherjee, D., Bodo, G., & Flock, M.",
+		Title: "Particle-Gas Hybrid Schemes in the PLUTO Code",
 		"Book/ Journal/ Book chapter/ Conference Name": "Journal of Physics Conference Series",
 		"Volume/ Page": "1623; 012007",
 		Year: "2020",
@@ -2072,11 +2124,10 @@ export const data = [
 	{
 		"Name of the Faculty": "Prof. Bhargav Vaidya",
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
-		"Author(s)":
-			"Mignone, A., Flock, M., & Vaidya, B.",
-		Title:
-			"A Particle Module for the PLUTO Code. III. Dust",
-		"Book/ Journal/ Book chapter/ Conference Name": "The Astrophysical Journal Supplement Series",
+		"Author(s)": "Mignone, A., Flock, M., & Vaidya, B.",
+		Title: "A Particle Module for the PLUTO Code. III. Dust",
+		"Book/ Journal/ Book chapter/ Conference Name":
+			"The Astrophysical Journal Supplement Series",
 		"Volume/ Page": "244; 38;",
 		Year: "2019",
 	},
@@ -2085,8 +2136,7 @@ export const data = [
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
 		"Author(s)":
 			"Singh, K. K., Meintjes, P. J., van Soelen, B., Ramamonjisoa, F. A., & Vaidya, B.",
-		Title:
-			"Optical polarization properties of February 2010 outburst of the blazar Mrk 421",
+		Title: "Optical polarization properties of February 2010 outburst of the blazar Mrk 421",
 		"Book/ Journal/ Book chapter/ Conference Name": "Astrophysics and Space Science",
 		"Volume/ Page": "364; 88",
 		Year: "2019",
@@ -2096,8 +2146,7 @@ export const data = [
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
 		"Author(s)":
 			"Vaidya Bhargav, Mignone, Andrea, Bodo, Gianluigi, Rossi, Paola, & Massaglia, Silvano",
-		Title:
-			"A Particle Module for the PLUTO Code. II. Hybrid Framework for Modeling Nonthermal Emission from Relativistic Magnetized Flows",
+		Title: "A Particle Module for the PLUTO Code. II. Hybrid Framework for Modeling Nonthermal Emission from Relativistic Magnetized Flows",
 		"Book/ Journal/ Book chapter/ Conference Name": "The Astrophysical Journal",
 		"Volume/ Page": "865; 144",
 		Year: "2019",
@@ -2105,10 +2154,8 @@ export const data = [
 	{
 		"Name of the Faculty": "Prof. Bhargav Vaidya",
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
-		"Author(s)":
-			"Mignone, A., Bodo, G., Vaidya, B., & Mattia, G.",
-		Title:
-			"A Particle Module for the PLUTO Code. I. An Implementation of the MHD-PIC Equations",
+		"Author(s)": "Mignone, A., Bodo, G., Vaidya, B., & Mattia, G.",
+		Title: "A Particle Module for the PLUTO Code. I. An Implementation of the MHD-PIC Equations",
 		"Book/ Journal/ Book chapter/ Conference Name": "The Astrophysical Journal",
 		"Volume/ Page": "859; 13;",
 		Year: "2018",
@@ -2118,11 +2165,10 @@ export const data = [
 		Department: "Discipline of Astronomy, Astrophysics and Space Engineering (DAASE)",
 		"Author(s)":
 			"Vaidya, Bhargav, Prasad, Deovrat, Mignone, Andrea, Sharma, Prateek, & Rickler, Luca",
-		Title:
-			"Scalable explicit implementation of anisotropic diffusion with Runge-Kutta-Legendre super-time stepping",
-		"Book/ Journal/ Book chapter/ Conference Name": "Monthly Notices of the Royal Astronomical Society",
+		Title: "Scalable explicit implementation of anisotropic diffusion with Runge-Kutta-Legendre super-time stepping",
+		"Book/ Journal/ Book chapter/ Conference Name":
+			"Monthly Notices of the Royal Astronomical Society",
 		"Volume/ Page": "472; 3147-3160",
 		Year: "2017",
 	},
-
 ];
