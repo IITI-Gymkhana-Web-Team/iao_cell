@@ -40,7 +40,7 @@ import { Director } from "./components/Director/Director";
 
 export const Home = () => {
 	return (
-		<Router>
+		<Router basename="/">
 			<ScrollToTop />
 
 			<Title />
