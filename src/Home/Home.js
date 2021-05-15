@@ -133,17 +133,59 @@ export const Home = () => {
 					<Route path="/mhrd/vajra" exact component={Vajra} />
 					<Route path="/mhrd/gian" exact component={Gian} />
 					<Route
-						path="/mobility/student"
+						path="/mobility/student/america"
 						exact
 						component={() => {
-							return <MobilityExchange type="student" />;
+							return <MobilityExchange type="student" category="America" />;
 						}}
 					/>
 					<Route
-						path="/mobility/faculty"
+						path="/mobility/student/europe"
 						exact
 						component={() => {
-							return <MobilityExchange type="faculty" />;
+							return <MobilityExchange type="student" category="Europe" />;
+						}}
+					/>
+					<Route
+						path="/mobility/faculty/asia"
+						exact
+						component={() => {
+							return <MobilityExchange type="faculty" category="Asia" />;
+						}}
+					/>
+					<Route
+						path="/mobility/faculty/america"
+						exact
+						component={() => {
+							return <MobilityExchange type="faculty" category="America" />;
+						}}
+					/>
+					<Route
+						path="/mobility/faculty/africa"
+						exact
+						component={() => {
+							return <MobilityExchange type="faculty" category="Africa" />;
+						}}
+					/>
+					<Route
+						path="/mobility/faculty/australia"
+						exact
+						component={() => {
+							return <MobilityExchange type="faculty" category="Australia" />;
+						}}
+					/>
+					<Route
+						path="/mobility/faculty/europe"
+						exact
+						component={() => {
+							return <MobilityExchange type="faculty" category="Europe" />;
+						}}
+					/>
+					<Route
+						path="/mobility/faculty/others"
+						exact
+						component={() => {
+							return <MobilityExchange type="faculty" category="OtherCountries" />;
 						}}
 					/>
 					<Route path="/dean" component={Dean} />

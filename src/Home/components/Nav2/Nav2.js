@@ -275,8 +275,7 @@ export const Nav2 = () => {
 													},
 												},
 												{
-													title:
-														"Indo-German Science & Technology Center",
+													title: "Indo-German Science & Technology Center",
 													isAuth: true,
 													icon: null,
 													onClick: () => {
@@ -600,17 +599,79 @@ export const Nav2 = () => {
 									title: "Student",
 									isAuth: true,
 									icon: null,
-									onClick: () => {
-										history.push("/mobility/student");
-									},
+									subItems: [
+										{
+											title: "America",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mobility/student/america");
+											},
+										},
+										{
+											title: "Europe",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mobility/student/europe");
+											},
+										},
+									],
 								},
 								{
 									title: "Faculty",
 									isAuth: true,
 									icon: null,
-									onClick: () => {
-										history.push("/mobility/faculty");
-									},
+									subItems: [
+										{
+											title: "Africa",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mobility/faculty/africa");
+											},
+										},
+										{
+											title: "America",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mobility/faculty/america");
+											},
+										},
+										{
+											title: "Asia",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mobility/faculty/asia");
+											},
+										},
+										{
+											title: "Australia",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mobility/faculty/australia");
+											},
+										},
+										{
+											title: "Europe",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mobility/faculty/europe");
+											},
+										},
+										{
+											title: "Other Countries",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												history.push("/mobility/faculty/others");
+											},
+										},
+									],
 								},
 							],
 						},

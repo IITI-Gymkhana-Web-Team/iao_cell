@@ -65,12 +65,54 @@ export const MobileMenu = ({ show, setShow, i }) => {
 					innerLinks: [
 						{
 							name: "Student",
-							link: "/mobility/student",
+							innerLinks: [
+								{
+									name: "America",
+									link: "/mobility/student/america",
+									level: "4",
+								},
+								{
+									name: "Europe",
+									link: "/mobility/student/europe",
+									level: "4",
+								},
+							],
 							level: "3",
 						},
 						{
 							name: "Faculty",
-							link: "/mobility/faculty",
+							innerLinks: [
+								{
+									name: "Africa",
+									link: "/mobility/faculty/africa",
+									level: "4",
+								},
+								{
+									name: "America",
+									link: "/mobility/faculty/america",
+									level: "4",
+								},
+								{
+									name: "Asia",
+									link: "/mobility/faculty/asia",
+									level: "4",
+								},
+								{
+									name: "Australia",
+									link: "/mobility/faculty/australia",
+									level: "4",
+								},
+								{
+									name: "Europe",
+									link: "/mobility/faculty/europe",
+									level: "4",
+								},
+								{
+									name: "Other Countries",
+									link: "/mobility/faculty/others",
+									level: "4",
+								},
+							],
 							level: "3",
 						},
 					],
@@ -232,8 +274,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 										},
 										{
 											name: "ENS Internship program",
-											link:
-												"http://www.ens-lyon.fr/en/studies/admissions/application-research-internship",
+											link: "http://www.ens-lyon.fr/en/studies/admissions/application-research-internship",
 											level: "5",
 										},
 									],
@@ -249,8 +290,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 										},
 										{
 											name: "MEXT Scholarship",
-											link:
-												"https://www.in.emb-japan.go.jp/Education/japanese_government_scholarships.html",
+											link: "https://www.in.emb-japan.go.jp/Education/japanese_government_scholarships.html",
 											level: "5",
 										},
 									],
@@ -266,8 +306,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 										},
 										{
 											name: "DAAD",
-											link:
-												"https://www.daad.in/en/study-research-in-germany/",
+											link: "https://www.daad.in/en/study-research-in-germany/",
 											level: "5",
 										},
 										{
@@ -282,8 +321,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 										},
 										{
 											name: "Indo-German Training Centre",
-											link:
-												"https://indien.ahk.de/education/indo-german-training-centre",
+											link: "https://indien.ahk.de/education/indo-german-training-centre",
 											level: "5",
 										},
 									],
@@ -304,8 +342,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 										},
 										{
 											name: "MITACS",
-											link:
-												"https://www.mitacs.ca/en/programs/globalink/come-to-canada",
+											link: "https://www.mitacs.ca/en/programs/globalink/come-to-canada",
 											level: "5",
 										},
 									],
@@ -318,8 +355,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 								{
 									name: "UK",
 									level: "4",
-									link:
-										"https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/",
+									link: "https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/",
 								},
 								{
 									name: "Asean",
@@ -334,14 +370,12 @@ export const MobileMenu = ({ show, setShow, i }) => {
 								{
 									name: "Taiwan",
 									level: "4",
-									link:
-										"https://www.icdf.org.tw/ct.asp?xItem=12505&CtNode=30316&mp=2",
+									link: "https://www.icdf.org.tw/ct.asp?xItem=12505&CtNode=30316&mp=2",
 								},
 								{
 									name: "Spain",
 									level: "4",
-									link:
-										"https://www.crg.eu/en/content/training/undergraduates-and-masters",
+									link: "https://www.crg.eu/en/content/training/undergraduates-and-masters",
 								},
 								{
 									name: "Austria",
@@ -356,8 +390,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 								{
 									name: "Thailand",
 									level: "4",
-									link:
-										"https://www.ait.ac.th/admissions/scholarships/bangchak-master-scholarships/",
+									link: "https://www.ait.ac.th/admissions/scholarships/bangchak-master-scholarships/",
 								},
 							],
 							level: "3",
@@ -412,8 +445,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 						},
 						{
 							name: "Indo-UK",
-							link:
-								"https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/",
+							link: "https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/",
 							level: "3",
 						},
 						{
@@ -508,8 +540,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 				},
 				{
 					name: "Green vehicle schedule",
-					link:
-						"https://www.iiti.ac.in/public/storage/Green%20vehicle%20schedule-%202021.pdf",
+					link: "https://www.iiti.ac.in/public/storage/Green%20vehicle%20schedule-%202021.pdf",
 					level: "2",
 				},
 			],
