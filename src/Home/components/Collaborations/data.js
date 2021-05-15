@@ -242,7 +242,7 @@ export const data = {
 			Nature: "Agreement",
 			"Purpose/Title":
 				"Transnational Partnership for Excellent Research and Education in Disruptive Technologies for a resilient future",
-			"Coordinating faculty member": "DORD",
+			"Coordinating faculty member": "DORD\r\nDr. Abhishek Srivastava, CSE",
 			"Signed on": "August 11, 2020",
 			Duration: "3 Years",
 			"Country with which there is collation": "Norway",
