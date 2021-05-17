@@ -12,8 +12,7 @@ export const data = {
 		},
 		{
 			"S.No.": "2",
-			"Institutions/Organization/Country":
-				"Rajamangala University of Technology PHRA Nakhon, Bangkok",
+			"Institutions/Organization/Country": "Rajamangala University of Technology PHRA Nakhon, Bangkok",
 			Nature: "MoU",
 			"Purpose/Title":
 				"Exchanging of scholars, students, academic information and materials to enhance the research and educational process",
@@ -89,8 +88,7 @@ export const data = {
 		},
 		{
 			"S.No.": "9",
-			"Institutions/Organization/Country":
-				"Ming Chi University Of Technology, New Taipei City",
+			"Institutions/Organization/Country": "Ming Chi University Of Technology, New Taipei City",
 			Nature: "MoU",
 			"Purpose/Title":
 				"Academic and Research Collaboration, Scholarship Program to Ph.D. students       \r\nunder Joint Supervision",
@@ -133,8 +131,7 @@ export const data = {
 
 	Americas: [
 		{
-			"Institutions/Organization/Country":
-				"Fundacao University Of Caxias Do Sul, Caxias Do Sul",
+			"Institutions/Organization/Country": "Fundacao University Of Caxias Do Sul, Caxias Do Sul",
 			Nature: "MoU",
 			"Purpose/Title":
 				"Exchange programs for Professors, Researchers, Students, Administrators, and technical person;\r\nJoint development of projects and research;\r\nDevelopment of scholarship programs;\r\nActivities of attainment of graduate and Post-graduate academic levels.\r\nExchange of bibliography, programs, didactic, technical and scientific material;\r\nElaboration of scientific articles and other publications;\r\nOther forms of cooperation agreed by the parties.",
@@ -227,8 +224,7 @@ export const data = {
 			"S.No.": "3",
 			"Institutions/Organization/Country": "Deakin University, Geelong",
 			Nature: "MoU",
-			"Purpose/Title":
-				"Research activities, possible short-course programs and joint research degree",
+			"Purpose/Title": "Research activities, possible short-course programs and joint research degree",
 			"Coordinating faculty member": "DOIA\r\nDORD\r\nDr. Raghunath Sahoo",
 			"Signed on": "March 6, 2013",
 			Duration: "5 Years",
@@ -251,8 +247,7 @@ export const data = {
 			"S.No.": "2",
 			"Institutions/Organization/Country": "University of Florence, Florence",
 			Nature: "Agreement",
-			"Purpose/Title":
-				"Cultural and Scientific Cooperation between the dept of earth sciences",
+			"Purpose/Title": "Cultural and Scientific Cooperation between the dept of earth sciences",
 			"Coordinating faculty member": "DOIA\r\nDORD\r\nHOD, CE",
 			"Signed on": "December 23, 2019",
 			Duration: "7 years",
@@ -260,8 +255,7 @@ export const data = {
 		},
 		{
 			"S.No.": "3",
-			"Institutions/Organization/Country":
-				"National Polytechnic Institute of Toulouse, Toulouse",
+			"Institutions/Organization/Country": "National Polytechnic Institute of Toulouse, Toulouse",
 			Nature: "Agreement",
 			"Purpose/Title":
 				"Exchange of materials in education and research, in particular, to promote international information;                                                                                                                              Exchange of faculty members and Research Scholars;\r\nOne way exchange of students;\r\nJoint research and meetings for education and research;                                                         \r\nTechnical assistance;                                                                                                          Utilizing a hybrid online learning model for graduate training;",
@@ -276,7 +270,7 @@ export const data = {
 			Nature: "Collaborative Agreement",
 			"Purpose/Title":
 				"To perform collaborative research activities according to the collaborative research program",
-			"Coordinating faculty member": "DOIA\r\nDOAA\r\nDOFA",
+			"Coordinating faculty member": "DOIA\r\nDOAA\r\nDr. Bhargava Vaidya",
 			"Signed on": "July 1, 2019",
 			Duration: "3 Years",
 			"Country with which there is collation": "Germany",
@@ -349,8 +343,7 @@ export const data = {
 		},
 		{
 			"S.No.": "11",
-			"Institutions/Organization/Country":
-				"Department of Engineering, University of Messina, Messina",
+			"Institutions/Organization/Country": "Department of Engineering, University of Messina, Messina",
 			Nature: "MoU",
 			"Purpose/Title":
 				"Students and academic and administrative staff exchanges;\r\nJoint research activities;\r\nExchanges of academic materials",
@@ -449,8 +442,7 @@ export const data = {
 		},
 		{
 			"S.No.": "20",
-			"Institutions/Organization/Country":
-				"Technical University of Braunschweig (TU Braunschweig), Braunschweig",
+			"Institutions/Organization/Country": "Technical University of Braunschweig (TU Braunschweig), Braunschweig",
 			Nature: "MoU",
 			"Purpose/Title": "Academic and Research",
 			"Coordinating faculty member": "DOIA\r\nDOAA",
@@ -511,8 +503,7 @@ export const data = {
 		},
 		{
 			"S.No.": "26",
-			"Institutions/Organization/Country":
-				"Fraunhofer - Society for the Promotion of Applied Research, Munich",
+			"Institutions/Organization/Country": "Fraunhofer - Society for the Promotion of Applied Research, Munich",
 			Nature: "MoU",
 			"Purpose/Title": "Academic",
 			"Coordinating faculty member": "DOIA\r\nDOAA",
