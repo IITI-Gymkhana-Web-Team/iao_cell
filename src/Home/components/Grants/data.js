@@ -26,7 +26,7 @@ export const data = [
 		"Funding Agency": "INTPART, Research Council Norway ",
 		"Title of the Grant": "Reversing antimicrobial resistance (AMR)",
 		"Foreign Collaborator(s)": "Prof. Tone Tonjum,  Head  Medical Microbiology, University of Oslo, Norway",
-		Amount: "100000/year",
+		Amount: "100000 NOK/year",
 		"Year of Award - Year of Completion": "2020 - 2023",
 	},
 	{
