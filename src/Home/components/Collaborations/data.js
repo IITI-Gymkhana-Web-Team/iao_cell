@@ -234,6 +234,28 @@ export const data = {
 	Europe: [
 		{
 			"S.No.": "1",
+			"Institutions/Organization/Country": "Universitàdeglistudi Di Udine",
+			Nature: "MoU",
+			"Purpose/Title":
+				"a) exchange of information, as well as exchange of experiences in research and practice in cooperation\nb) joint events, conferences, workshops and presentations with the goal of exchanging of scientific and technical experiences\nc) development, acquisition and conducting of joint projects\nd) joint publications by co-workers of both the Institutes\ne) exchange of co-workers from both the Institutes",
+			"Coordinating faculty member": "Dr. Neelima Satyam",
+			"Signed on": "May 24, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Italy",
+		},
+		{
+			"S.No.": "1",
+			"Institutions/Organization/Country":
+				"The faculty of Electrical Engineering, Computer Science and Information Technology Osijek, within Josip Juraj Strossmayer University of Osijek",
+			Nature: "MoU",
+			"Purpose/Title": "General agreement for academic, scientific, technological and cultural cooperation",
+			"Coordinating faculty member": "Director\r\nDOIAO",
+			"Signed on": "May 24, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Croatia",
+		},
+		{
+			"S.No.": "1",
 			"Institutions/Organization/Country": "Western Norway Research Institute, Sogndal",
 			Nature: "Agreement",
 			"Purpose/Title":
