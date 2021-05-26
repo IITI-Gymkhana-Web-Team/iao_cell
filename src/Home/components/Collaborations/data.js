@@ -280,7 +280,7 @@ export const data = {
 			"Institutions/Organization/Country": "National Polytechnic Institute of Toulouse, Toulouse",
 			Nature: "Agreement",
 			"Purpose/Title":
-				"Exchange of materials in education and research, in particular, to promote international information;                                                                                                                              Exchange of faculty members and Research Scholars;\r\nOne way exchange of students;\r\nJoint research and meetings for education and research;                                                         \r\nTechnical assistance;                                                                                                          Utilizing a hybrid online learning model for graduate training;",
+				"Exchange of materials in education and research, in particular, to promote international information;\r\nExchange of faculty members and Research Scholars;\r\nOne way exchange of students;\r\nJoint research and meetings for education and research;\r\nTechnical assistance;\r\nUtilizing a hybrid online learning model for graduate training;",
 			"Coordinating faculty member": "DOIA\r\nDOAA",
 			"Signed on": "October 23, 2019",
 			Duration: "5 Years",

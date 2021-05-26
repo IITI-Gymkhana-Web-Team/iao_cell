@@ -48,16 +48,6 @@ export const data = [
 		Year: "2021",
 	},
 	{
-		"Name of the Faculty": "Prof. Avinash Sonawane",
-		Department: "Biosciences and Biomedical Engineering (BSBE)",
-		"Author(s)":
-			"Ananyaashree Behera, Preeti Jain, Geetanjali Ganguli, Mainak Biswas, Avinash Padhi, Kaliprasad Pattanaik, Barsha Nayak, Süleyman Ergün, Mohd. Saqib, Bibhuti Mishra, Srikanth Karnati and Avinash Sonawane",
-		Title: "Mycobacterium Tuberculosis Acetyltransferase Suppresses Oxidative Stress by inducing Peroxisome Formation in Macrophages.",
-		"Book/ Journal/ Book chapter/ Conference Name": "mBio",
-		"Volume/ Page": "NA\n(Under revision)",
-		Year: "2021",
-	},
-	{
 		"Name of the Faculty": "Dr. Sanjay Kumar Singh",
 		Department: "Chemistry",
 		"Author(s)":
