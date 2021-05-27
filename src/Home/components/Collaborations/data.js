@@ -266,6 +266,17 @@ export const data = {
 		},
 		{
 			"S.No.": "2",
+			"Institutions/Organization/Country": "Forschungszentrum Borstel - Leibniz Lung Center",
+			Nature: "MoU",
+			"Purpose/Title":
+				"(i) Exchange of faculty and experts\n(ii) Exchange of students for academic education, training, practical experience, and research\n(iii) Exchange of technologies\n(iv) Cooperative research\n(v) Technical assistance and/or training\n(vi) Other cooperative efforts as mutually agreed from time to time.",
+			"Coordinating faculty member": "Director\r\nDOIAO",
+			"Signed on": "April 30, 2021",
+			Duration: "5 years",
+			"Country with which there is collation": "Germany",
+		},
+		{
+			"S.No.": "2",
 			"Institutions/Organization/Country":
 				"Dipartimento di Scienze Biomedichedell’ Università di Sassari (UNISS); Sassari, Italy",
 			Nature: "MoU",
