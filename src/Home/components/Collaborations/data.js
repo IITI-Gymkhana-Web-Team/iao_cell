@@ -131,6 +131,16 @@ export const data = {
 
 	Americas: [
 		{
+			"Institutions/Organization/Country": "The Governors of The University of Alberta",
+			Nature: "MoU",
+			"Purpose/Title":
+				"Exchange of faculty members, research scientists, and postdoctoral associates\n• Exchange of students\n• Exchange of administrative staff\n• Joint supervision of M.S. and Ph.D. students\n• Development of curricula\n• Exchange of academic information and materials\n• Exchange of periodicals and other publications\n• Submission and execution of joint research programs\n• Organization of joint research programs\n• Organization of joint conferences\n• Organization of other academic exchanges agreeable to both Institute(s)/University",
+			"Coordinating faculty member": "DOIAO",
+			"Signed on": "May 25, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Canada",
+		},
+		{
 			"Institutions/Organization/Country": "Fundacao University Of Caxias Do Sul, Caxias Do Sul",
 			Nature: "MoU",
 			"Purpose/Title":
@@ -238,7 +248,7 @@ export const data = {
 			Nature: "MoU",
 			"Purpose/Title":
 				"a) exchange of information, as well as exchange of experiences in research and practice in cooperation\nb) joint events, conferences, workshops and presentations with the goal of exchanging of scientific and technical experiences\nc) development, acquisition and conducting of joint projects\nd) joint publications by co-workers of both the Institutes\ne) exchange of co-workers from both the Institutes",
-			"Coordinating faculty member": "Dr. Neelima Satyam",
+			"Coordinating faculty member": "DOIAO\r\nDr. Neelima Satyam",
 			"Signed on": "May 24, 2021",
 			Duration: "5 Years",
 			"Country with which there is collation": "Italy",
@@ -253,6 +263,17 @@ export const data = {
 			"Signed on": "May 24, 2021",
 			Duration: "5 Years",
 			"Country with which there is collation": "Croatia",
+		},
+		{
+			"S.No.": "2",
+			"Institutions/Organization/Country":
+				"Dipartimento di Scienze Biomedichedell’ Università di Sassari (UNISS); Sassari, Italy",
+			Nature: "MoU",
+			"Purpose/Title": "Academic collaboration",
+			"Coordinating faculty member": "Director\r\nDOIAO",
+			"Signed on": "April 9, 2021",
+			Duration: "5 years",
+			"Country with which there is collation": "Italy",
 		},
 		{
 			"S.No.": "1",
