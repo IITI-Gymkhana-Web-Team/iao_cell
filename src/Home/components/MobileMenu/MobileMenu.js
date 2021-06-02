@@ -428,9 +428,15 @@ export const MobileMenu = ({ show, setShow, i }) => {
 							level: "3",
 						},
 						{
-							name: "ISG",
-							link: "https://www.indianstudentsgermany.org/",
+							name: "Useful Links",
 							level: "3",
+							innerLinks: [
+								{
+									name: "ISG",
+									link: "https://www.indianstudentsgermany.org/",
+									level: "4",
+								},
+							],
 						},
 					],
 					level: "2",

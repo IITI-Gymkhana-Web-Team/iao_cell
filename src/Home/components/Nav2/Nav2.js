@@ -465,12 +465,19 @@ export const Nav2 = () => {
 									},
 								},
 								{
-									title: "ISG",
+									title: "Useful Links",
 									isAuth: true,
 									icon: null,
-									onClick: () => {
-										window.open("https://www.indianstudentsgermany.org/");
-									},
+									subItems: [
+										{
+											title: "ISG",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.indianstudentsgermany.org/");
+											},
+										},
+									],
 								},
 							],
 						},
