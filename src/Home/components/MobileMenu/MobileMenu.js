@@ -233,6 +233,32 @@ export const MobileMenu = ({ show, setShow, i }) => {
 							link: "https://asean-iit.in/",
 							level: "3",
 						},
+						{
+							name: "MHRD Schemes",
+							innerLinks: [
+								{
+									name: "GIAN",
+									level: "4",
+									link: "https://gian.iitkgp.ac.in/",
+								},
+								{
+									name: "VAJRA",
+									level: "4",
+									link: "http://www.serb.gov.in/vajra.php",
+								},
+								{
+									name: "SPARC",
+									level: "4",
+									link: "https://sparc.iitkgp.ac.in",
+								},
+								{
+									name: "ASEM - DUO",
+									level: "4",
+									link: "http://www.asemduo.org/02_programs/programs_09.php",
+								},
+							],
+							level: "3",
+						},
 					],
 					level: "2",
 				},
@@ -401,6 +427,11 @@ export const MobileMenu = ({ show, setShow, i }) => {
 							link: "/opportunities/pg_phd_post_doc",
 							level: "3",
 						},
+						{
+							name: "ISG",
+							link: "https://www.indianstudentsgermany.org/",
+							level: "3",
+						},
 					],
 					level: "2",
 				},
@@ -560,19 +591,12 @@ export const MobileMenu = ({ show, setShow, i }) => {
 					<div className={show ? "mobileMenu" : "mobileMenu dontShowMe"}>
 						<div className="mmenuP1">
 							<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
-							<AiOutlineCloseCircle
-								className="closeIcon"
-								onClick={() => setShow(false)}
-							/>
+							<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
 						</div>
 						{links.map((link1) => {
 							return (
 								<div className="indiMenu" key={link1.name}>
-									<MobileMenuLinks
-										link1={link1}
-										setShow2={setShow}
-										show2={show}
-									/>
+									<MobileMenuLinks link1={link1} setShow2={setShow} show2={show} />
 								</div>
 							);
 						})}

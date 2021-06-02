@@ -150,6 +150,45 @@ export const Nav2 = () => {
 										window.open("https://asean-iit.in/");
 									},
 								},
+								{
+									title: "MHRD Schemes",
+									isAuth: true,
+									icon: null,
+									subItems: [
+										{
+											title: "GIAN",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://gian.iitkgp.ac.in/");
+											},
+										},
+										{
+											title: "VAJRA",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("http://www.serb.gov.in/vajra.php");
+											},
+										},
+										{
+											title: "SPARC",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://sparc.iitkgp.ac.in");
+											},
+										},
+										{
+											title: "ASEM - DUO",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("http://www.asemduo.org/02_programs/programs_09.php");
+											},
+										},
+									],
+								},
 							],
 						},
 						{
@@ -195,9 +234,7 @@ export const Nav2 = () => {
 													isAuth: true,
 													icon: null,
 													onClick: () => {
-														window.open(
-															"http://www.cefipra.org/Raman_Charpak.aspx"
-														);
+														window.open("http://www.cefipra.org/Raman_Charpak.aspx");
 													},
 												},
 												{
@@ -205,9 +242,7 @@ export const Nav2 = () => {
 													isAuth: true,
 													icon: null,
 													onClick: () => {
-														window.open(
-															"http://www.cefipra.org/Cefipra_ESONN.aspx"
-														);
+														window.open("http://www.cefipra.org/Cefipra_ESONN.aspx");
 													},
 												},
 												{
@@ -232,9 +267,7 @@ export const Nav2 = () => {
 													isAuth: true,
 													icon: null,
 													onClick: () => {
-														window.open(
-															"https://www.jsps.go.jp/english/"
-														);
+														window.open("https://www.jsps.go.jp/english/");
 													},
 												},
 												{
@@ -259,9 +292,7 @@ export const Nav2 = () => {
 													isAuth: true,
 													icon: null,
 													onClick: () => {
-														window.open(
-															"https://www.humboldt-foundation.de/en/"
-														);
+														window.open("https://www.humboldt-foundation.de/en/");
 													},
 												},
 												{
@@ -287,9 +318,7 @@ export const Nav2 = () => {
 													isAuth: true,
 													icon: null,
 													onClick: () => {
-														window.open(
-															"https://www.goethe.de/ins/in/en/sta/new.html"
-														);
+														window.open("https://www.goethe.de/ins/in/en/sta/new.html");
 													},
 												},
 												{
@@ -314,9 +343,7 @@ export const Nav2 = () => {
 													isAuth: true,
 													icon: null,
 													onClick: () => {
-														window.open(
-															"https://www.shastriinstitute.org/"
-														);
+														window.open("https://www.shastriinstitute.org/");
 													},
 												},
 												{
@@ -324,9 +351,7 @@ export const Nav2 = () => {
 													isAuth: true,
 													icon: null,
 													onClick: () => {
-														window.open(
-															"https://indocanadaeducation.org/"
-														);
+														window.open("https://indocanadaeducation.org/");
 													},
 												},
 												{
@@ -372,9 +397,7 @@ export const Nav2 = () => {
 											isAuth: true,
 											icon: null,
 											onClick: () => {
-												window.open(
-													"http://www.anso.org.cn/programmes/talent/scholarship/"
-												);
+												window.open("http://www.anso.org.cn/programmes/talent/scholarship/");
 											},
 										},
 										{
@@ -402,9 +425,7 @@ export const Nav2 = () => {
 											isAuth: true,
 											icon: null,
 											onClick: () => {
-												window.open(
-													"https://www.scholarships.at/default.aspx"
-												);
+												window.open("https://www.scholarships.at/default.aspx");
 											},
 										},
 										{
@@ -443,6 +464,14 @@ export const Nav2 = () => {
 										history.push("/opportunities/pg_phd_post_doc");
 									},
 								},
+								{
+									title: "ISG",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open("https://www.indianstudentsgermany.org/");
+									},
+								},
 							],
 						},
 						{
@@ -476,9 +505,7 @@ export const Nav2 = () => {
 											isAuth: true,
 											icon: null,
 											onClick: () => {
-												window.open(
-													"https://www.humboldt-foundation.de/en/"
-												);
+												window.open("https://www.humboldt-foundation.de/en/");
 											},
 										},
 										{
@@ -486,9 +513,7 @@ export const Nav2 = () => {
 											isAuth: true,
 											icon: null,
 											onClick: () => {
-												window.open(
-													"https://www.daad.in/en/study-research-in-germany/"
-												);
+												window.open("https://www.daad.in/en/study-research-in-germany/");
 											},
 										},
 										{
