@@ -151,6 +151,16 @@ export const Nav2 = () => {
 									},
 								},
 								{
+									title: "UKIERI Mobility Programme",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										window.open(
+											"https://www.britishcouncil.in/programmes/higher-education/ukieri/ukieri-mobility-programme-study-india"
+										);
+									},
+								},
+								{
 									title: "MHRD Schemes",
 									isAuth: true,
 									icon: null,
@@ -225,58 +235,65 @@ export const Nav2 = () => {
 									icon: null,
 									subItems: [
 										{
-											title: "France",
+											title: "UK",
 											isAuth: true,
 											icon: null,
 											subItems: [
 												{
-													title: "Raman-Charpak Fellowship",
-													isAuth: true,
-													icon: null,
-													onClick: () => {
-														window.open("http://www.cefipra.org/Raman_Charpak.aspx");
-													},
-												},
-												{
-													title: "CEFIPRA-ESONN Fellowship",
-													isAuth: true,
-													icon: null,
-													onClick: () => {
-														window.open("http://www.cefipra.org/Cefipra_ESONN.aspx");
-													},
-												},
-												{
-													title: "ENS Internship program",
+													title: "British Council India",
 													isAuth: true,
 													icon: null,
 													onClick: () => {
 														window.open(
-															"http://www.ens-lyon.fr/en/studies/admissions/application-research-internship"
+															"https://www.britishcouncil.in/study-uk/scholarships"
 														);
 													},
 												},
-											],
-										},
-										{
-											title: "Japan",
-											isAuth: true,
-											icon: null,
-											subItems: [
 												{
-													title: "JSPS",
-													isAuth: true,
-													icon: null,
-													onClick: () => {
-														window.open("https://www.jsps.go.jp/english/");
-													},
-												},
-												{
-													title: "MEXT Scholarship",
+													title: "UKRI India",
 													isAuth: true,
 													icon: null,
 													onClick: () => {
 														window.open(
-															"https://www.in.emb-japan.go.jp/Education/japanese_government_scholarships.html"
+															"https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/"
+														);
+													},
+												},
+												{
+													title: "Charles Wallace India Trust",
+													isAuth: true,
+													icon: null,
+													onClick: () => {
+														window.open("https://www.charleswallaceindiatrust.com/");
+													},
+												},
+												{
+													title: "Commonwealth Scholarships",
+													isAuth: true,
+													icon: null,
+													onClick: () => {
+														window.open(
+															"https://www.britishcouncil.in/study-uk/scholarships/commonwealth-scholarships"
+														);
+													},
+												},
+												{
+													title: "GREAT Scholarships India",
+													isAuth: true,
+													icon: null,
+													onClick: () => {
+														window.open(
+															"https://study-uk.britishcouncil.org/scholarships/great-scholarships/india"
+														);
+													},
+												},
+												{
+													title: "Newton Bhabha Fund",
+													isAuth: true,
+													icon: null,
+													onClick: () => {
+														window.open(
+															"https://www.britishcouncil.in/programmes/higher-education/newton-fund"
 														);
 													},
 												},
@@ -334,6 +351,39 @@ export const Nav2 = () => {
 											],
 										},
 										{
+											title: "France",
+											isAuth: true,
+											icon: null,
+											subItems: [
+												{
+													title: "Raman-Charpak Fellowship",
+													isAuth: true,
+													icon: null,
+													onClick: () => {
+														window.open("http://www.cefipra.org/Raman_Charpak.aspx");
+													},
+												},
+												{
+													title: "CEFIPRA-ESONN Fellowship",
+													isAuth: true,
+													icon: null,
+													onClick: () => {
+														window.open("http://www.cefipra.org/Cefipra_ESONN.aspx");
+													},
+												},
+												{
+													title: "ENS Internship program",
+													isAuth: true,
+													icon: null,
+													onClick: () => {
+														window.open(
+															"http://www.ens-lyon.fr/en/studies/admissions/application-research-internship"
+														);
+													},
+												},
+											],
+										},
+										{
 											title: "Canada",
 											isAuth: true,
 											icon: null,
@@ -367,21 +417,36 @@ export const Nav2 = () => {
 											],
 										},
 										{
+											title: "Japan",
+											isAuth: true,
+											icon: null,
+											subItems: [
+												{
+													title: "JSPS",
+													isAuth: true,
+													icon: null,
+													onClick: () => {
+														window.open("https://www.jsps.go.jp/english/");
+													},
+												},
+												{
+													title: "MEXT Scholarship",
+													isAuth: true,
+													icon: null,
+													onClick: () => {
+														window.open(
+															"https://www.in.emb-japan.go.jp/Education/japanese_government_scholarships.html"
+														);
+													},
+												},
+											],
+										},
+										{
 											title: "USA",
 											isAuth: true,
 											icon: null,
 											onClick: () => {
 												window.open("https://www.iusstf.org/");
-											},
-										},
-										{
-											title: "UK",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												window.open(
-													"https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/"
-												);
 											},
 										},
 										{
@@ -475,6 +540,14 @@ export const Nav2 = () => {
 											icon: null,
 											onClick: () => {
 												window.open("https://www.indianstudentsgermany.org/");
+											},
+										},
+										{
+											title: "British Council India",
+											isAuth: true,
+											icon: null,
+											onClick: () => {
+												window.open("https://www.britishcouncil.in/");
 											},
 										},
 									],

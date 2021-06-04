@@ -234,6 +234,11 @@ export const MobileMenu = ({ show, setShow, i }) => {
 							level: "3",
 						},
 						{
+							name: "UKIERI Mobility Programme",
+							link: "https://www.britishcouncil.in/programmes/higher-education/ukieri/ukieri-mobility-programme-study-india",
+							level: "3",
+						},
+						{
 							name: "MHRD Schemes",
 							innerLinks: [
 								{
@@ -374,14 +379,45 @@ export const MobileMenu = ({ show, setShow, i }) => {
 									],
 								},
 								{
+									name: "UK",
+									level: "4",
+									innerLinks: [
+										{
+											name: "British Council India",
+											link: "https://www.britishcouncil.in/study-uk/scholarships",
+											level: "5",
+										},
+										{
+											name: "UKRI India",
+											link: "https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/",
+											level: "5",
+										},
+										{
+											name: "Charles Wallace India Trust",
+											link: "https://www.charleswallaceindiatrust.com/",
+											level: "5",
+										},
+										{
+											name: "Commonwealth Scholarships",
+											link: "https://www.britishcouncil.in/study-uk/scholarships/commonwealth-scholarships",
+											level: "5",
+										},
+										{
+											name: "GREAT Scholarships India",
+											link: "https://study-uk.britishcouncil.org/scholarships/great-scholarships/india",
+											level: "5",
+										},
+										{
+											name: "Newton Bhabha Fund",
+											link: "https://www.britishcouncil.in/programmes/higher-education/newton-fund",
+											level: "5",
+										},
+									],
+								},
+								{
 									name: "USA",
 									level: "4",
 									link: "https://www.iusstf.org/",
-								},
-								{
-									name: "UK",
-									level: "4",
-									link: "https://www.ukri.org/our-work/collaborating-internationally/our-international-offices/ukri-india/",
 								},
 								{
 									name: "Asean",
@@ -434,6 +470,11 @@ export const MobileMenu = ({ show, setShow, i }) => {
 								{
 									name: "ISG",
 									link: "https://www.indianstudentsgermany.org/",
+									level: "4",
+								},
+								{
+									name: "British Council India",
+									link: "https://www.britishcouncil.in/",
 									level: "4",
 								},
 							],
