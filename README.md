@@ -1,1 +1,1 @@
-# SIR Cell IITI
+# International Affairs & outreach, IIT Indore
