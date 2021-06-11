@@ -28,7 +28,7 @@ export const IndiNews = ({ match }) => {
 					<div className="eventPart2">
 						<h2 className="font-acme">{data[id].title}</h2>
 						<p className="text-muted">{data[id].date}</p>
-						<p>{data[id].desc}</p>
+						<p style={{ whiteSpace: "pre-wrap" }}>{data[id].desc}</p>
 					</div>
 				</div>
 			</div>

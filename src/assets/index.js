@@ -177,10 +177,12 @@ import civil from "./civil.webp";
 import philosophy from "./philosophy.webp";
 import chem from "./chem.webp";
 import math from "./math.webp";
+import ai from "./ai.webp";
 import wheat from "./wheat-min.png";
 import videoo from "./bgvideo4.mp4";
 
 export {
+	ai,
 	videoo,
 	wheat,
 	chem,
