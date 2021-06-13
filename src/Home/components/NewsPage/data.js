@@ -4,7 +4,7 @@ export const data = [
 	{
 		title: "Impact of the Digital Revolution on Higher Education",
 		image: ai,
-		desc: "Dr. Aruna Tiwari, Associate Professor, CSE, IIT Indore was invited (on June 8, 2021) from The Internationalist Podcast for the Association of Commonwealth Universities UK as one of the guest speakers (as an AI Expert) from India. She has participated in The Internationalist Podcast Interview along with another guest, Professor Ian Goldin from University of Oxford UK.\nThe podcast series explored the impact of the digital revolution on higher education. The final episode looks at technology in wider society in the future and how higher education can influence how it's used.",
+		desc: 'Dr. Aruna Tiwari, Associate Professor, CSE represented IIT Indore as an Artificial Intelligence expert in the Internationalist Podcast series on  "Impact of the digital revolution on higher education", organized by the Association of Commonwealth Universities, UK on June 8, 2021.',
 		date: "June 8, 2021",
 	},
 	{
