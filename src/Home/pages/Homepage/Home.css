@@ -48,3 +48,11 @@ a:hover {
 .mainScreen a:hover {
 	color: #4f3ef5 !important;
 }
+
+.myCustomTable a {
+	color: #0028ff !important;
+}
+
+.myCustomTable a:hover {
+	color: #100298 !important;
+}
