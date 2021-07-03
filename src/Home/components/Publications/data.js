@@ -1,5 +1,15 @@
 export const data = [
 	{
+		"Name of the Faculty": "Dr. Anil Kumar",
+		Department: "Physics",
+		"Author(s)":
+			"Anil Kumar, M. Kamal Warshi, Archna Sagdeo, Matthew Krzystyniak, Svemir Rudi, T. Adroja, Ivan da Silva, P. R. Sagdeo",
+		Title: "Origin of natural and magnetic field induced polar order in orthorhombic PrFe<sub>&frac12;</sub>Cr<sub>&frac12;</sub>O<sub>3</sub>",
+		"Book/ Journal/ Book chapter/ Conference Name": "Physical Review B",
+		"Volume/ Page": "104 (3) / 035101",
+		Year: "2021",
+	},
+	{
 		"Name of the Faculty": "Dr. Ananya Ghoshal",
 		Department: "School of HSS",
 		"Author(s)":

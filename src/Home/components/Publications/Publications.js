@@ -24,10 +24,7 @@ export const Publications = () => {
 	const ifAllowed = (row) => {
 		var i = 0;
 		while (vars[i]) {
-			if (
-				vars[i].var != "" &&
-				row[cols[vars[i].colValue]].toLowerCase().indexOf(vars[i].var.toLowerCase()) == -1
-			)
+			if (vars[i].var != "" && row[cols[vars[i].colValue]].toLowerCase().indexOf(vars[i].var.toLowerCase()) == -1)
 				return false;
 			i++;
 		}
@@ -81,23 +78,22 @@ export const Publications = () => {
 									<td>{row["Name of the Faculty"]}</td>
 									<td>{row["Department"]}</td>
 									<td>{row["Author(s)"]}</td>
-									<td>{row["Title"]}</td>
+									<td
+										dangerouslySetInnerHTML={{
+											__html: row["Title"],
+										}}
+									/>
 									<td>{row["Book/ Journal/ Book chapter/ Conference Name"]}</td>
-									{row["Volume/ Page"][0] == "l" &&
-										row["Volume/ Page"][1] == "k" && (
-											<td>
-												<a
-													href={row["Volume/ Page"].slice(3)}
-													target="_blank"
-												>
-													Link
-												</a>
-											</td>
-										)}
-									{row["Volume/ Page"][0] != "l" &&
-										row["Volume/ Page"][1] != "k" && (
-											<td>{row["Volume/ Page"]}</td>
-										)}
+									{row["Volume/ Page"][0] == "l" && row["Volume/ Page"][1] == "k" && (
+										<td>
+											<a href={row["Volume/ Page"].slice(3)} target="_blank">
+												Link
+											</a>
+										</td>
+									)}
+									{row["Volume/ Page"][0] != "l" && row["Volume/ Page"][1] != "k" && (
+										<td>{row["Volume/ Page"]}</td>
+									)}
 
 									<td>{row["Year"]}</td>
 								</tr>
