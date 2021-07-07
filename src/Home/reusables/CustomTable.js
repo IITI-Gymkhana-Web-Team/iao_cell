@@ -29,21 +29,21 @@ export const CustomTable = ({ cols, data, sort, vars }) => {
 							<tr key={index} style={{ whiteSpace: "pre-wrap" }}>
 								<td>{index + 1}</td>
 								{cols.map((col) => {
-									if (row[col + "Link"]) {
-										return (
-											<td>
-												<a
-													href={row[`${col}Link`]}
-													target="_blank"
-													style={{ color: "#0028ff !important" }}
-												>
-													{row[col] || "-"}
-												</a>
-											</td>
-										);
-									} else {
-										return <td>{row[col] || "-"}</td>;
-									}
+									// if (row[col + "Link"]) {
+									// 	return (
+									// 		<td>
+									// 			<a
+									// 				href={row[`${col}Link`]}
+									// 				target="_blank"
+									// 				style={{ color: "#0028ff !important" }}
+									// 			>
+									// 				{row[col] || "-"}
+									// 			</a>
+									// 		</td>
+									// 	);
+									// } else {
+									return <td>{row[col] || "-"}</td>;
+									// }
 								})}
 							</tr>
 						)

@@ -92,11 +92,11 @@ export const People = ({ index }) => {
 		members: [
 			[
 				{
-					email: "phd1801204006@iiti.ac.in",
-					name: "Nitin Tiwari",
-					phno: "+91 8817109170",
+					email: "phd1801204004@iiti.ac.in",
+					name: "Sanchit Gupta",
+					phno: "+91 8953623695",
+					img: sanchit,
 					designation: "Head",
-					img: nitin,
 				},
 			],
 			[
