@@ -135,21 +135,12 @@ export const People = ({ index }) => {
 			[
 				{
 					heading: "Members",
-					email: "phd1801204004@iiti.ac.in",
-					name: "Sanchit Gupta",
-					phno: "+91 8953623695",
-					img: sanchit,
-					designation: "P.G/Ph.D./Postdoctoral Team",
-				},
-				{
 					email: "mt2002102012@iiti.ac.in",
 					name: "Shubham Gupta",
 					phno: "+91 9205054395",
 					img: shubham,
 					designation: "P.G/Ph.D./Postdoctoral Team",
 				},
-			],
-			[
 				{
 					email: "ms2004103004@iiti.ac.in",
 					name: "Kaushik Prince Attar",
@@ -157,6 +148,8 @@ export const People = ({ index }) => {
 					img: kaushik,
 					designation: "P.G/Ph.D./Postdoctoral Team",
 				},
+			],
+			[
 				{
 					email: "ee190002005@iiti.ac.in",
 					name: "Anupama S",
@@ -164,8 +157,6 @@ export const People = ({ index }) => {
 					img: anupama,
 					designation: "Internship and Student Exchange Team, Web Team",
 				},
-			],
-			[
 				{
 					email: "me190003010@iiti.ac.in",
 					name: "Ankur Rai",
@@ -173,6 +164,8 @@ export const People = ({ index }) => {
 					img: ankur,
 					designation: "Internship and Student Exchange Team",
 				},
+			],
+			[
 				{
 					email: "ce190004005@iiti.ac.in",
 					name: "Neeraj Andrali",
@@ -180,8 +173,6 @@ export const People = ({ index }) => {
 					img: neeraj,
 					designation: "Outreach Team",
 				},
-			],
-			[
 				{
 					email: "ee190002061@iiti.ac.in",
 					name: "Jahnavi Sunchu",
@@ -189,6 +180,8 @@ export const People = ({ index }) => {
 					img: jahnavi,
 					designation: "Outreach Team",
 				},
+			],
+			[
 				{
 					email: "ee190002043@iiti.ac.in",
 					name: "Pallavi Upadhyay",
