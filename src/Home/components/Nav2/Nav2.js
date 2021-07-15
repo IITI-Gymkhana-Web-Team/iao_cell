@@ -77,47 +77,13 @@ export const Nav2 = () => {
 									title: "Faculty",
 									isAuth: true,
 									icon: null,
-									subItems: [
-										{
-											title: "Visa Process",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsFaculty/visa");
-											},
-										},
-									],
+									subItems: [],
 								},
 								{
 									title: "Student",
 									isAuth: true,
 									icon: null,
-									subItems: [
-										{
-											title: "Admission",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsStud/admission");
-											},
-										},
-										{
-											title: "Programs",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsStud/programs");
-											},
-										},
-										{
-											title: "Visa Process",
-											isAuth: true,
-											icon: null,
-											onClick: () => {
-												history.push("/ProsStud/visa");
-											},
-										},
-									],
+									subItems: [],
 								},
 							],
 						},
@@ -200,6 +166,30 @@ export const Nav2 = () => {
 									],
 								},
 							],
+						},
+						{
+							title: "Admission",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/admission");
+							},
+						},
+						{
+							title: "Programs",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/programs");
+							},
+						},
+						{
+							title: "Visa Process",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/visa");
+							},
 						},
 						{
 							title: "Places To Visit",

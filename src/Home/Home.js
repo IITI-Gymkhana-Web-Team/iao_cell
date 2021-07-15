@@ -84,9 +84,9 @@ export const Home = () => {
 					<Route path="/Aboutioa" exact component={AboutIOA} />
 					<Route path="/LifeIITI" exact component={LifeIITI} />
 					<Route path="/guestHouse" exact component={Ghouse} />
-					<Route path="/ProsStud/visa" exact component={Visa} />
-					<Route path="/ProsStud/admission" exact component={Admission} />
-					<Route path="/ProsStud/programs" exact component={Programs} />
+					<Route path="/visa" exact component={Visa} />
+					<Route path="/admission" exact component={Admission} />
+					<Route path="/programs" exact component={Programs} />
 					<Route path="/Pros/places" exact component={Places} />
 					<Route path="/Pros/visitors_experience" exact component={Testimonials} />
 					<Route path="/ProsFaculty/visa" exact component={Visa} />
