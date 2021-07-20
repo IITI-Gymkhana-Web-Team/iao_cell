@@ -207,6 +207,14 @@ export const Nav2 = () => {
 								history.push("/Pros/visitors_experience");
 							},
 						},
+						{
+							title: "Life @ IITI",
+							isAuth: true,
+							icon: null,
+							onClick: () => {
+								history.push("/LifeIITI");
+							},
+						},
 					],
 				},
 				{
