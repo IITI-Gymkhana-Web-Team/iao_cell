@@ -14,6 +14,8 @@ import "./Home.css";
 import { NAT } from "../../components/NAT/NAT";
 import Counter from "../../components/Counter/Counter";
 import { Offer } from "../../components/Offer/Offer";
+import EmbedVideo from "../../components/EmbedVideo/EmbedVideo";
+import NewsSideCard from "../../components/NewsSideCard/NewsSideCard";
 
 export const HomePage = () => {
 	return (
@@ -25,7 +27,9 @@ export const HomePage = () => {
 				<Carousell />
 			</div> */}
 			<div className="container-fluid">
-				<AboutUs />
+				{/* <AboutUs /> */}
+				<NewsSideCard />
+				<EmbedVideo />
 				<Message />
 				<Counter />
 				{/* <div className="newsEvents container mt-5">
@@ -33,7 +37,7 @@ export const HomePage = () => {
 					<Events />
 				</div> */}
 				<Offer />
-				<NAT />
+				{/* <NAT /> */}
 				<MHRD />
 			</div>
 		</div>
