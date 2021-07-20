@@ -987,6 +987,15 @@ export const data = {
 				cols: ["Name of the Faculty", "Department", "Visit", "Duration"],
 				data: [
 					{
+						"Sr. No.": "28.   ",
+						"Name of the Faculty": "Dr. Ananya Ghoshal",
+						"Name of the FacultyLink": "https://iiti.irins.org/profile/93843",
+						Department: "School of Humanities and Social Sciences",
+						Visit: "Stanford University, California, USA. Speaker at Exploring Humanities Pedagogies: Conversations, Commonalities, and Connections (Virtual Conference due to COVID restrictions)",
+						Duration: "Jul, 2021",
+					},
+					{
+						"Sr. No.": "21. ",
 						"Name of the Faculty": "Dr Anirban Sengupta",
 						"Name of the FacultyLink": "https://iiti.irins.org/profile/93753",
 						Department: "Computer Science and Engineering",
@@ -1068,13 +1077,21 @@ export const data = {
 						"Name of the FacultyLink": "https://iiti.irins.org/profile/60464",
 						Department: "Chemistry",
 						Visit: "Dr. Shaikh delivered an Invited talk at University of Chicago in the IURS.",
-						Duration: "May, 2014.",
+						Duration: "May, 2014",
+					},
+					{
+						"Sr. No.": "28.   ",
+						"Name of the Faculty": "Dr. Ananya Ghoshal",
+						"Name of the FacultyLink": "https://iiti.irins.org/profile/93843",
+						Department: "School of Humanities and Social Sciences",
+						Visit: "MIT, Cambridge, USA. Speaker at Conference titled 'Media in Transition 8'",
+						Duration: "May, 2013",
 					},
 					{
 						"Name of the Faculty": "Dr. Ananya Ghoshal",
 						"Name of the FacultyLink": "https://iiti.irins.org/profile/93843",
 						Department: "School of Humanities and Social Sciences",
-						Visit: "MIT, Cambridge, USA Conference titled 'Media in Transition 7",
+						Visit: "MIT, Cambridge, USA Conference titled 'Media in Transition 7'",
 						Duration: "May, 2011",
 					},
 					{
@@ -1088,7 +1105,7 @@ export const data = {
 						"Name of the Faculty": "Dr. Ananya Ghoshal",
 						"Name of the FacultyLink": "https://iiti.irins.org/profile/93843",
 						Department: "School of Humanities and Social Sciences",
-						Visit: "MIT, Cambridge, USA Conference titled 'Media in Transition 6",
+						Visit: "MIT, Cambridge, USA Conference titled 'Media in Transition 6'",
 						Duration: "Apr, 2009",
 					},
 				],
