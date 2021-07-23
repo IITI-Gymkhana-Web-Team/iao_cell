@@ -1,67 +1,61 @@
 .embed-video {
-  margin-top: 3rem;
-  margin-bottom: 5rem;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
 }
 .embed-video-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: fit-content;
-  word-wrap: break-word;
-  height: 100%;
-  font-family: "Titillium Web", sans-serif, Source Sans Pro, Helvetica Neue,
-    Helvetica, Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
+	width: fit-content;
+	word-wrap: break-word;
+	height: 100%;
+	font-family: "Titillium Web", sans-serif, Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .embed-video-title {
-  font-size: 3rem;
-  color: rgb(2, 2, 2);
-  font-weight: 400;
-  text-align: left;
-  padding-bottom: 0;
-  margin-bottom: 0;
+	font-size: 3rem;
+	color: rgb(2, 2, 2);
+	font-weight: 400;
+	text-align: left;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 .embed-video-text {
-  color: #585858;
-  text-align: justify;
-  font-size: 18px;
+	color: #585858;
+	text-align: justify;
+	font-size: 18px;
 }
 .embed-video-btn:hover,
 .embed-video-btn:active,
 .embed-video-btn:visited {
-  background-color: #efefef !important;
+	background-color: #efefef !important;
 }
 .embed-video-content hr {
-  padding-top: 0;
-  margin-top: 0px;
-  border: 0;
-  height: 5px;
-  width: 40%;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0)
-  );
+	padding-top: 0;
+	margin-top: 0px;
+	border: 0;
+	height: 5px;
+	width: 40%;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 .video-responsive {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 @media only screen and (max-width: 992px) {
-  .embed-video-content {
-    margin-bottom: 1rem;
-  }
-  .embed-video.row {
-    margin: 3rem;
-  }
-  .embed-video-div {
-    height: 400px;
-  }
-  .embed-video-text {
-    text-align: center;
-  }
+	.embed-video-content {
+		margin-bottom: 1rem;
+	}
+	.embed-video.row {
+		margin: 3rem;
+	}
+	.embed-video-div {
+		height: 400px;
+	}
+	.embed-video-text {
+		text-align: center;
+	}
 }

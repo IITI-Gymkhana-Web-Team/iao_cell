@@ -8,7 +8,7 @@ const EmbedVideo = () => {
 		<Row className="embed-video">
 			<Col md="12" lg="5">
 				<div className="embed-video-content">
-					<p className="embed-video-title text-center">
+					<p className="embed-video-title">
 						About <span style={{ color: "#3668dd" }}>IIT Indore</span>
 					</p>
 					<hr />
@@ -27,7 +27,7 @@ const EmbedVideo = () => {
 					</Link>
 				</div>
 			</Col>
-			<Col md="12" lg="5" className="embed-video-div">
+			<Col md="12" lg="6" className="embed-video-div">
 				<div className="video-responsive">
 					<iframe
 						width="100%"
