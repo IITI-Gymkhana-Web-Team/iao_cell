@@ -195,6 +195,7 @@ export default function ReachUs() {
 					<a
 						href="https://www.iiti.ac.in/public/storage/directory/Telephone%20directory%20(24.03.2021).pdf"
 						target="_blank"
+						rel="noreferrer"
 					>
 						Click Here
 					</a>

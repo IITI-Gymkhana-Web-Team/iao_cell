@@ -14,18 +14,17 @@ const NewsSideCard = () => {
 
 	var pos = 150;
 
-	const handleScroll = () => {
-		mainRef.current.scrollTop = pos;
-		if (pos === 750) pos = 0;
-		else pos += 1;
-	};
+	// const handleScroll = () => {
+	// };
 
 	useEffect(() => {
 		const interval = setInterval(() => {
-			handleScroll();
+			mainRef.current.scrollTop = pos;
+			if (pos === 750) pos = 0;
+			else pos += 1;
 		}, 1);
 		return () => clearInterval(interval);
-	}, [handleScroll]);
+	}, []);
 
 	return (
 		<Row className="mt-5">

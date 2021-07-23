@@ -430,7 +430,6 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									target="_blank"
 									rel="noreferrer"
-									style={{ color: "inherit" }}
 									href="http://cse.iiti.ac.in/"
 								>
 									MS (Research) in Computer Science and Engineering

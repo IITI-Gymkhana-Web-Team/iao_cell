@@ -126,10 +126,11 @@ export const MHRDPage = ({ info, name, person, insti, desc, grants }) => {
 					{info.map((info1, index) => {
 						return (
 							(year === "None" || info1.Year.toLowerCase().indexOf(year) !== -1) &&
-							(title === "" || (info1.Title || "--").toLowerCase().indexOf(title.toLowerCase()) != -1) &&
+							(title === "" || (info1.Title || "--").toLowerCase().indexOf(title.toLowerCase()) !== -1) &&
 							(domain === "" ||
 								(info1.Domain || "--").toLowerCase().indexOf(domain.toLowerCase()) !== -1) &&
-							(iitiPi === "" || (info1.Ip || "--").toLowerCase().indexOf(iitiPi.toLowerCase()) != -1) && (
+							(iitiPi === "" ||
+								(info1.Ip || "--").toLowerCase().indexOf(iitiPi.toLowerCase()) !== -1) && (
 								<tr key={index}>
 									<td>{index + 1}</td>
 									<td>{info1.Year || "--"}</td>

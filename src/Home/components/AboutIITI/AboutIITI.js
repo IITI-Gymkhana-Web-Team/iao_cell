@@ -319,7 +319,7 @@ export const AboutIITI = () => {
 			<p>
 				<br />
 				For more information about IIT Indore, please visit -{" "}
-				<a href="http://iiti.ac.in/" target="_blank">
+				<a href="http://iiti.ac.in/" target="_blank" rel="noreferrer">
 					http://iiti.ac.in/
 				</a>
 			</p>
