@@ -12,12 +12,11 @@ const NewsSideCard = () => {
 	const news = data.slice(0, 4);
 	const events = data1.slice(0, 4);
 
-	var pos = 150;
-
 	// const handleScroll = () => {
 	// };
 
 	useEffect(() => {
+		var pos = 150;
 		const interval = setInterval(() => {
 			mainRef.current.scrollTop = pos;
 			if (pos === 750) pos = 0;
