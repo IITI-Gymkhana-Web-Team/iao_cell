@@ -10,15 +10,13 @@ export const Maps = () => {
 	};
 
 	useEffect(() => {
-		if (document.getElementsByClassName("jvectormap-zoomin")[0] != undefined) {
-			document.getElementsByClassName("jvectormap-zoomin")[0].innerHTML =
-				"<i class='fa fa-search-plus'></i>";
-			document.getElementsByClassName("jvectormap-zoomout")[0].innerHTML =
-				"<i class='fa fa-search-minus'></i>";
+		if (document.getElementsByClassName("jvectormap-zoomin")[0] !== undefined) {
+			document.getElementsByClassName("jvectormap-zoomin")[0].innerHTML = "<i class='fa fa-search-plus'></i>";
+			document.getElementsByClassName("jvectormap-zoomout")[0].innerHTML = "<i class='fa fa-search-minus'></i>";
 		}
 		window.addEventListener("resize", updateDimensions);
 		return () => window.removeEventListener("resize", updateDimensions);
-	}, [window.innerWidth]);
+	}, []);
 
 	const color = [
 		{ name: "US", color: "#ffa500" },
@@ -51,7 +49,7 @@ export const Maps = () => {
 	const handleClick = (e, countryCode) => {
 		var i = 0;
 		while (color[i]) {
-			if (countryCode == color[i].name) {
+			if (countryCode === color[i].name) {
 				console.log(countryCode);
 			}
 			i++;

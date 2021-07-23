@@ -1,8 +1,8 @@
 import React from "react";
 import { data } from "./data";
 import CountUp from "react-countup";
-import { Col, Row, Card } from "react-bootstrap";
-import { GrStar } from "react-icons/gr";
+import { Col, Row } from "react-bootstrap";
+// import { GrStar } from "react-icons/gr";
 import "./Counter.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import VisibilitySensor from "react-visibility-sensor";
@@ -48,6 +48,7 @@ const Counter = () => {
 												maxWidth: "min(200px,80vw)",
 												position: "absolute",
 											}}
+											alt="wheat"
 										/>
 										<div
 											style={{
@@ -56,16 +57,9 @@ const Counter = () => {
 										>
 											<h1>#&nbsp;</h1>
 											<h1>
-												<CountUp
-													className="rank"
-													end={value.Ranking}
-													duration={4}
-												>
+												<CountUp className="rank" end={value.Ranking} duration={4}>
 													{({ countUpRef, start }) => (
-														<VisibilitySensor
-															onChange={start}
-															delayedCall
-														>
+														<VisibilitySensor onChange={start} delayedCall>
 															<span ref={countUpRef} />
 														</VisibilitySensor>
 													)}

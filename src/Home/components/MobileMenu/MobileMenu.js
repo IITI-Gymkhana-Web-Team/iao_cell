@@ -558,13 +558,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 		},
 		{
 			name: "Research",
-			innerLinks: [
-				{
-					name: "R&D @IITI",
-					link: "http://rnd.iiti.ac.in/",
-					level: "2",
-				},
-			],
+			link: "http://rnd.iiti.ac.in/",
 			level: "1",
 		},
 		{
@@ -633,7 +627,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 
 	return (
 		<>
-			{i == 1 && (
+			{i === 1 && (
 				<div className={show ? "mobileMenuOuter" : "mobileMenuOuter disappear"}>
 					<div className={show ? "mobileMenu" : "mobileMenu dontShowMe"}>
 						<div className="mmenuP1">

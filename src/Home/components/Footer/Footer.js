@@ -2,7 +2,7 @@ import React from "react";
 import { iiti_2 } from "../../../assets";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
-import { FaInstagram, FaFacebookSquare, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebookSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => {
 	return (
@@ -12,8 +12,8 @@ export const Footer = () => {
 					<Row>
 						<Col xs={12} lg={3}>
 							<div className="logo">
-								<a href="http://iiti.ac.in" target="_blank">
-									<img src={iiti_2} style={{ maxWidth: "170px" }} />
+								<a href="http://iiti.ac.in" target="_blank" rel="noreferrer">
+									<img alt="IITI" src={iiti_2} style={{ maxWidth: "170px" }} />
 								</a>
 							</div>
 						</Col>
@@ -24,10 +24,10 @@ export const Footer = () => {
 								<a
 									href="https://goo.gl/maps/fKyPMk9qdPgYG35t7"
 									target="_blank"
+									rel="noreferrer"
 									style={{ color: "white" }}
 								>
-									Indian Institute of Technology Indore, Khandwa Road, Simrol,
-									Indore 453552, INDIA
+									Indian Institute of Technology Indore, Khandwa Road, Simrol, Indore 453552, INDIA
 								</a>
 								<div className="phonetext" style={{ color: "white" }}>
 									Phone No:{" "}
@@ -35,10 +35,9 @@ export const Footer = () => {
 										+91 07316603479
 									</a>
 									<br></br>
-									Email:{" "}
-									<a href="mailto:intloffice@iiti.ac.in">intloffice@iiti.ac.in</a>
+									Email: <a href="mailto:intloffice@iiti.ac.in">intloffice@iiti.ac.in</a>
 									<br></br>
-									<a href="https://goo.gl/maps/qmEGMw6uednJPnGd8" target="_blank">
+									<a href="https://goo.gl/maps/qmEGMw6uednJPnGd8" target="_blank" rel="noreferrer">
 										(22.5204° N, 75.9207° E)
 									</a>
 								</div>
@@ -47,19 +46,19 @@ export const Footer = () => {
 						<Col xs={12} lg={3}>
 							<div className="links mt-0 font-ubuntu">
 								<h4 className="font-acme">QUICK LINKS</h4>
-								<a target="_blank" href="https://academic.iiti.ac.in/">
+								<a target="_blank" rel="noreferrer" href="https://academic.iiti.ac.in/">
 									Academic
 								</a>
 								<br></br>
-								<a target="_blank" href="http://rnd.iiti.ac.in/">
+								<a target="_blank" rel="noreferrer" href="http://rnd.iiti.ac.in/">
 									Research
 								</a>
 								<br></br>
-								<a target="_blank" href="http://library.iiti.ac.in/">
+								<a target="_blank" rel="noreferrer" href="http://library.iiti.ac.in/">
 									Library
 								</a>
 								<br></br>
-								<a target="_blank" href="http://iiti.ac.in/page/campus-facilities">
+								<a target="_blank" rel="noreferrer" href="http://iiti.ac.in/page/campus-facilities">
 									Campus Facilities
 								</a>
 							</div>
@@ -70,22 +69,21 @@ export const Footer = () => {
 								<a
 									href="https://www.instagram.com/iitindoreofficial/?hl=en"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<FaInstagram className="pop-out" />
 								</a>
 								<a
 									href="https://www.facebook.com/pages/Indian%20Institute%20of%20Technology%20Indore/112510072096662/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<FaFacebookSquare className="pop-out" />
 								</a>
-								<a
-									href="https://www.linkedin.com/school/iit-indore/"
-									target="_blank"
-								>
+								<a href="https://www.linkedin.com/school/iit-indore/" target="_blank" rel="noreferrer">
 									<FaLinkedin className="pop-out" />
 								</a>
-								<a href="https://twitter.com/IITIOfficial" target="_blank">
+								<a href="https://twitter.com/IITIOfficial" target="_blank" rel="noreferrer">
 									<FaTwitter className="pop-out" />
 								</a>
 							</div>

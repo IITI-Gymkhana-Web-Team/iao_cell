@@ -6,7 +6,7 @@ import { AiOutlineClockCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
-export default function ({ event, i }) {
+export default function EventsUtil({ event, i }) {
 	return (
 		<div>
 			<Card className="eventsPage">

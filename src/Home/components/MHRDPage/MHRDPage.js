@@ -18,44 +18,40 @@ export const MHRDPage = ({ info, name, person, insti, desc, grants }) => {
 				<div>
 					<h3 className="font-acme">Coordinator</h3>
 					<div className="coordCard mb-5">
-						<img src={person.img} />
+						<img alt="person" src={person.img} />
 						<div className="ml-3">
 							<h4 className="font-acme">{person.name}</h4>
 							<h5 className="font-acme" style={{ color: "var(--dark-blue)" }}>
 								{person.designation}
 							</h5>
-							<a
-								className="font-ubuntu"
-								href={"mailto:" + person.email}
-								style={{ color: "black" }}
-							>
+							<a className="font-ubuntu" href={"mailto:" + person.email} style={{ color: "black" }}>
 								{person.email}
 							</a>
 						</div>
 					</div>
 				</div>
-				{insti.title == "Application Link" && (
+				{insti.title === "Application Link" && (
 					<div>
 						<h3 className="font-acme">Application Link</h3>
 						<div className="coordCard mb-5">
-							<img src={insti.img} />
+							<img alt="person" src={insti.img} />
 							<div className="ml-3">
 								<h4 className="font-acme">Link</h4>
-								<a href={insti.link} className="font-ubuntu" target="_blank">
+								<a href={insti.link} className="font-ubuntu" target="_blank" rel="noreferrer">
 									{insti.link}
 								</a>
 							</div>
 						</div>
 					</div>
 				)}
-				{insti.title != "Application Link" && (
+				{insti.title !== "Application Link" && (
 					<div>
 						<h3 className="font-acme">Coordinating Institute</h3>
 						<div className="coordCard mb-5">
-							<img src={insti.img} />
+							<img alt="person" src={insti.img} />
 							<div className="ml-3">
 								<h4 className="font-acme">{insti.name}</h4>
-								<a className="font-ubuntu" target="_blank" herf={insti.link}>
+								<a className="font-ubuntu" target="_blank" rel="noreferrer" href={insti.link}>
 									{insti.link}
 								</a>
 							</div>
@@ -129,17 +125,11 @@ export const MHRDPage = ({ info, name, person, insti, desc, grants }) => {
 				<tbody>
 					{info.map((info1, index) => {
 						return (
-							(year == "None" || info1.Year.toLowerCase().indexOf(year) != -1) &&
-							(title == "" ||
-								(info1.Title || "--").toLowerCase().indexOf(title.toLowerCase()) !=
-									-1) &&
-							(domain == "" ||
-								(info1.Domain || "--")
-									.toLowerCase()
-									.indexOf(domain.toLowerCase()) != -1) &&
-							(iitiPi == "" ||
-								(info1.Ip || "--").toLowerCase().indexOf(iitiPi.toLowerCase()) !=
-									-1) && (
+							(year === "None" || info1.Year.toLowerCase().indexOf(year) !== -1) &&
+							(title === "" || (info1.Title || "--").toLowerCase().indexOf(title.toLowerCase()) != -1) &&
+							(domain === "" ||
+								(info1.Domain || "--").toLowerCase().indexOf(domain.toLowerCase()) !== -1) &&
+							(iitiPi === "" || (info1.Ip || "--").toLowerCase().indexOf(iitiPi.toLowerCase()) != -1) && (
 								<tr key={index}>
 									<td>{index + 1}</td>
 									<td>{info1.Year || "--"}</td>
@@ -155,7 +145,7 @@ export const MHRDPage = ({ info, name, person, insti, desc, grants }) => {
 					})}
 				</tbody>
 			</Table>
-			{typeof grants != "undefined" && (
+			{typeof grants !== "undefined" && (
 				<>
 					<h2 className="mainTitle mt-4 mb-3 pt-3">Bilateral International Grants</h2>
 					<CustomTable

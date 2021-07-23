@@ -10,7 +10,6 @@ import {
 	anupama,
 	harsha,
 	harshitha,
-	nitin,
 	pallavi,
 	sanchit,
 	shiv,
@@ -195,8 +194,8 @@ export const People = ({ index }) => {
 
 	return (
 		<div className="container-fluid">
-			{index == 1 && <Committee committee={committee1} />}
-			{index == 2 && <Committee committee={committee2} />}
+			{index === 1 && <Committee committee={committee1} />}
+			{index === 2 && <Committee committee={committee2} />}
 		</div>
 	);
 };

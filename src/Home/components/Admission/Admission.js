@@ -10,10 +10,9 @@ export const Admission = () => {
 			<section>
 				<h3 className="font-acme">Admission Category</h3>
 				<p className="text-justify">
-					Anyone who is not a national of India will be considered as an international
-					student for the purposes of admission and fees. International students can seek
-					admission to various Postgraduate and Research Programmes (Ph.D., M.Tech., M.S.
-					(Research) and M.Sc.) under the following categories:
+					Anyone who is not a national of India will be considered as an international student for the
+					purposes of admission and fees. International students can seek admission to various Postgraduate
+					and Research Programmes (Ph.D., M.Tech., M.S. (Research) and M.Sc.) under the following categories:
 				</p>
 				<Table striped bordered hover variant="primary">
 					<thead>
@@ -32,23 +31,20 @@ export const Admission = () => {
 						<tr>
 							<td>2</td>
 							<td>ISW (International Sponsored by Industry or NGO)</td>
-							<td>
-								a) Industry Sponsorship b) NGO (Non-Government Organization)
-								Sponsorship
-							</td>
+							<td>a) Industry Sponsorship b) NGO (Non-Government Organization) Sponsorship</td>
 						</tr>
 						<tr>
 							<td>3</td>
 							<td> GSW (International Sponsored by Government organization)</td>
 							<td>
 								a) ICCR Scholarship of Government of India Link{" "}
-								<a target="_blank" href="http://a2ascholarships.iccr.gov.in/">
+								<a target="_blank" rel="noreferrer" href="http://a2ascholarships.iccr.gov.in/">
 									{" "}
 									<RiExternalLinkFill />
 								</a>
 								<br />
 								b) Study In India, Government of India Link
-								<a target="_blank" href="https://www.studyinindia.gov.in/">
+								<a target="_blank" rel="noreferrer" href="https://www.studyinindia.gov.in/">
 									{" "}
 									<RiExternalLinkFill />
 								</a>
@@ -61,9 +57,7 @@ export const Admission = () => {
 			</section>
 
 			<section>
-				<h3 className=" mb-4 font-acme">
-					Required forms for International Exchange students
-				</h3>
+				<h3 className=" mb-4 font-acme">Required forms for International Exchange students</h3>
 
 				<Table striped bordered hover variant="primary">
 					<thead>
@@ -79,6 +73,7 @@ export const Admission = () => {
 							<td style={{ textAlign: "center" }}>
 								<a
 									target="_blank"
+									rel="noreferrer"
 									href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Anti-Ragging%20Rules%20&%20Decl..pdf"
 								>
 									<RiExternalLinkFill />
@@ -90,6 +85,7 @@ export const Admission = () => {
 							<td style={{ textAlign: "center" }}>
 								<a
 									target="_blank"
+									rel="noreferrer"
 									href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Dining%20Rules%20%20&%20Decl.pdf"
 								>
 									<RiExternalLinkFill />
@@ -101,6 +97,7 @@ export const Admission = () => {
 							<td style={{ textAlign: "center" }}>
 								<a
 									target="_blank"
+									rel="noreferrer"
 									href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Internet%20usage%20Policy%20&%20Decl.%20(1).pdf"
 								>
 									<RiExternalLinkFill />
@@ -112,6 +109,7 @@ export const Admission = () => {
 							<td style={{ textAlign: "center" }}>
 								<a
 									target="_blank"
+									rel="noreferrer"
 									href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Safety%20&%20Security%20Rules%20&%20Decl.%20(1).pdf"
 								>
 									<RiExternalLinkFill />
@@ -121,7 +119,7 @@ export const Admission = () => {
 						<tr>
 							<td>Library Membership Form for Students</td>
 							<td style={{ textAlign: "center" }}>
-								<a target="_blank" href="http://library.iiti.ac.in/?page_id=41">
+								<a target="_blank" rel="noreferrer" href="http://library.iiti.ac.in/?page_id=41">
 									<RiExternalLinkFill />
 								</a>
 							</td>
@@ -131,6 +129,7 @@ export const Admission = () => {
 							<td style={{ textAlign: "center" }}>
 								<a
 									target="_blank"
+									rel="noreferrer"
 									href="https://academic.iiti.ac.in/New_student/Declaration%20Form/Medical%20Fitness%20Form.pdf"
 								>
 									<RiExternalLinkFill />
@@ -144,9 +143,8 @@ export const Admission = () => {
 			<section className="text-justify">
 				<h3 className="font-acme">Selection Procedure</h3>
 				<p>
-					Admission of International Students to IIT Indore's Ph.D., M. Tech., M.S.
-					(Research) and M.Sc. programs require the below besides the academic
-					requirements:
+					Admission of International Students to IIT Indore's Ph.D., M. Tech., M.S. (Research) and M.Sc.
+					programs require the below besides the academic requirements:
 					<ul>
 						<li>
 							a valid score of TOEFL/IELTS <strong>or equivalent</strong>
@@ -157,11 +155,10 @@ export const Admission = () => {
 					</ul>
 				</p>
 				<p>
-					Students seeking admission in any one of the aforesaid categories (at Sr. No. 1)
-					will have to satisfy the minimum eligibility criteria for admission to the
-					programmes as prescribed by the Institute. But merely fulfilling the minimum
-					eligibility criteria does not guarantee the selection of a candidate into any
-					program.
+					Students seeking admission in any one of the aforesaid categories (at Sr. No. 1) will have to
+					satisfy the minimum eligibility criteria for admission to the programmes as prescribed by the
+					Institute. But merely fulfilling the minimum eligibility criteria does not guarantee the selection
+					of a candidate into any program.
 				</p>
 			</section>
 
@@ -176,25 +173,24 @@ export const Admission = () => {
 							Living expenses per semester* - <strong>600 USD</strong>
 						</li>
 						<li>
-							If an international student registers up to two courses then the fee
-							will be <strong>200 USD</strong> per course per semester, whereas the
-							living expense will remain the same.
+							If an international student registers up to two courses then the fee will be{" "}
+							<strong>200 USD</strong> per course per semester, whereas the living expense will remain the
+							same.
 						</li>
 					</ul>
 				</p>
 				<p>
-					* Living Expenses per semester include accommodation charges, registration fee,
-					refundable security deposits, one-time admission fee and charges towards Group
-					Insurance Premium per annum. The charges for food expenses are not included in
-					the living expenses and the student will have to pay separately as per
-					prevailing rates.
+					* Living Expenses per semester include accommodation charges, registration fee, refundable security
+					deposits, one-time admission fee and charges towards Group Insurance Premium per annum. The charges
+					for food expenses are not included in the living expenses and the student will have to pay
+					separately as per prevailing rates.
 				</p>
 			</section>
 			<section className="text-justify">
 				<h3 className="font-acme">Admission</h3>
 				<p>
 					For more information,{" "}
-					<a href="https://academic.iiti.ac.in/admission.php" target="_blank">
+					<a href="https://academic.iiti.ac.in/admission.php" target="_blank" rel="noreferrer">
 						Click here
 					</a>
 				</p>
