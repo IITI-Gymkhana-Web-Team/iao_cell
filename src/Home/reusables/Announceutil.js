@@ -1,8 +1,8 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { chem_talks_news } from "../../assets";
-import { nsd2020 } from "../../assets";
-import { Link } from "react-router-dom";
+// import { chem_talks_news } from "../../assets";
+// import { nsd2020 } from "../../assets";
+// import { Link } from "react-router-dom";
 
 export default function ({ announcement }) {
 	return (
@@ -15,7 +15,7 @@ export default function ({ announcement }) {
 						</Link>
                     </Card.Title> */}
 					<Card.Text className="font-ubuntu" style={styles.text}>
-					Observing the first billion years @ IITI (20-31 January 2020)
+						Observing the first billion years @ IITI (20-31 January 2020)
 					</Card.Text>
 				</Card.Body>
 			</Card>

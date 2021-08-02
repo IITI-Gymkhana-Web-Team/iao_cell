@@ -22,6 +22,7 @@ export const Programs = () => {
 								<a
 									style={{ color: "inherit" }}
 									target="_blank"
+									rel="noreferrer"
 									href="http://cse.iiti.ac.in/"
 								>
 									Computer Science and Engineering
@@ -38,6 +39,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://ee.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Electrical Engineering
 								</a>
@@ -53,6 +55,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://me.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Mechanical Engineering
 								</a>
@@ -69,6 +72,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://ce.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Civil Engineering
 								</a>
@@ -85,6 +89,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://mems.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Metallurgy Engineering and Materials Science
 								</a>
@@ -99,8 +104,8 @@ export const Programs = () => {
 				<thead>
 					<tr>
 						<th>
-							2. Master of Technology (MTech) with provision of converting to MTech +
-							PhD dual degree at the end of 3rd Semester{" "}
+							2. Master of Technology (MTech) with provision of converting to MTech + PhD dual degree at
+							the end of 3rd Semester{" "}
 						</th>
 					</tr>
 				</thead>
@@ -114,9 +119,9 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://ee.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									Electrical Engineering with specialization in Communication and
-									Signal Processing
+									Electrical Engineering with specialization in Communication and Signal Processing
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2013-14)</font>
@@ -130,9 +135,9 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://ee.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									Electrical Engineering with specialization in VLSI Design and
-									Nanoelectronics
+									Electrical Engineering with specialization in VLSI Design and Nanoelectronics
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2017-18)</font>
@@ -146,9 +151,9 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://me.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									Mechanical Engineering with specialization in Production and
-									Industrial Engineering
+									Mechanical Engineering with specialization in Production and Industrial Engineering
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2013-14)</font>
@@ -163,9 +168,9 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://me.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									Mechanical Engineering with specialization in Mechanical Systems
-									Design
+									Mechanical Engineering with specialization in Mechanical Systems Design
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2018-19)</font>
@@ -180,9 +185,10 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://mems.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									Metallurgy Engineering and Materials Science with specialization
-									in Materials Science and Engineering
+									Metallurgy Engineering and Materials Science with specialization in Materials
+									Science and Engineering
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2015-16)</font>
@@ -197,9 +203,10 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://mems.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									Metallurgy Engineering and Materials Science with specialization
-									in Metallurgy Engineering
+									Metallurgy Engineering and Materials Science with specialization in Metallurgy
+									Engineering
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2018-19)</font>
@@ -212,8 +219,8 @@ export const Programs = () => {
 				<thead>
 					<tr>
 						<th>
-							3. Two-year Master of Science (MSc) with provision of converting to MSc
-							+ PhD dual degree at the end of 3rd Semester{" "}
+							3. Two-year Master of Science (MSc) with provision of converting to MSc + PhD dual degree at
+							the end of 3rd Semester{" "}
 						</th>
 					</tr>
 				</thead>
@@ -227,6 +234,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://chemistry.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Chemistry
 								</a>
@@ -241,6 +249,7 @@ export const Programs = () => {
 								<a
 									style={{ color: "inherit" }}
 									target="_blank"
+									rel="noreferrer"
 									href="http://physics.iiti.ac.in/"
 								>
 									Physics
@@ -256,6 +265,7 @@ export const Programs = () => {
 								<a
 									style={{ color: "inherit" }}
 									target="_blank"
+									rel="noreferrer"
 									href="http://math.iiti.ac.in/"
 								>
 									Mathematics
@@ -272,6 +282,7 @@ export const Programs = () => {
 								<a
 									style={{ color: "inherit" }}
 									target="_blank"
+									rel="noreferrer"
 									href="http://bsbe.iiti.ac.in/"
 								>
 									Biotechnology
@@ -294,8 +305,8 @@ export const Programs = () => {
 				<thead>
 					<tr>
 						<th>
-							4. Five-year BTech + MTech (only for eligible BTech students of IIT
-							Indore at the end of 6th semester){" "}
+							4. Five-year BTech + MTech (only for eligible BTech students of IIT Indore at the end of 6th
+							semester){" "}
 						</th>
 					</tr>
 				</thead>
@@ -309,9 +320,9 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://ee.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									BTech in Electrical Engineering with MTech in Communication and
-									Signal Processing
+									BTech in Electrical Engineering with MTech in Communication and Signal Processing
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2014-15)</font>
@@ -325,9 +336,9 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://ee.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									BTech in Electrical Engineering with MTech in VLSI Design and
-									Nanoelectronics
+									BTech in Electrical Engineering with MTech in VLSI Design and Nanoelectronics
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2017-18)</font>
@@ -341,9 +352,9 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://me.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									BTech in Mechanical Engineering with MTech in Production and
-									Industrial Engineering
+									BTech in Mechanical Engineering with MTech in Production and Industrial Engineering
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2014-15)</font>
@@ -358,9 +369,9 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://me.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									BTech in Mechanical Engineering with MTech in Mechanical Systems
-									Design
+									BTech in Mechanical Engineering with MTech in Mechanical Systems Design
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2018-19)</font>
@@ -375,9 +386,10 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://mems.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									BTech in Metallurgy Engineering and Materials Science with MTech
-									in Materials Science and Engineering
+									BTech in Metallurgy Engineering and Materials Science with MTech in Materials
+									Science and Engineering
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2019-20)</font>
@@ -391,9 +403,10 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://mems.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
-									BTech in Metallurgy Engineering and Materials Science with MTech
-									in Metallurgy Engineering
+									BTech in Metallurgy Engineering and Materials Science with MTech in Metallurgy
+									Engineering
 								</a>
 							</font>{" "}
 							<font color="green">(from AY 2019-20)</font>
@@ -408,7 +421,6 @@ export const Programs = () => {
 						<th>5. MS(Research)</th>
 					</tr>
 				</thead>
-
 				<tbody>
 					<tr>
 						<td>
@@ -417,7 +429,7 @@ export const Programs = () => {
 								<a
 									style={{ color: "inherit" }}
 									target="_blank"
-									style={{ color: "inherit" }}
+									rel="noreferrer"
 									href="http://cse.iiti.ac.in/"
 								>
 									MS (Research) in Computer Science and Engineering
@@ -434,6 +446,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://ee.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									MS (Research) in Electrical Engineering{" "}
 								</a>
@@ -449,6 +462,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://me.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									MS (Research) in Mechanical Engineering{" "}
 								</a>
@@ -475,6 +489,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://cse.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Computer Science and Engineering
 								</a>
@@ -490,6 +505,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://ee.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Electrical Engineering
 								</a>
@@ -505,6 +521,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://me.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Mechanical Engineering
 								</a>
@@ -521,6 +538,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://ce.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Civil Engineering
 								</a>
@@ -537,6 +555,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://mems.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Metallurgy Engineering and Materials Science
 								</a>
@@ -552,6 +571,7 @@ export const Programs = () => {
 								<a
 									style={{ color: "inherit" }}
 									target="_blank"
+									rel="noreferrer"
 									href="http://bsbe.iiti.ac.in/"
 								>
 									Bio-sciences and Bio-medical Engineering
@@ -569,6 +589,7 @@ export const Programs = () => {
 									style={{ color: "inherit" }}
 									href="http://chemistry.iiti.ac.in/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Chemistry
 								</a>
@@ -584,6 +605,7 @@ export const Programs = () => {
 								<a
 									style={{ color: "inherit" }}
 									target="_blank"
+									rel="noreferrer"
 									href="http://physics.iiti.ac.in/"
 								>
 									Physics
@@ -600,6 +622,7 @@ export const Programs = () => {
 								<a
 									style={{ color: "inherit" }}
 									target="_blank"
+									rel="noreferrer"
 									href="http://math.iiti.ac.in/"
 								>
 									Mathematics
@@ -645,8 +668,7 @@ export const Programs = () => {
 					</tr>
 					<tr>
 						<td>
-							&nbsp;&nbsp;6.15{" "}
-							<font color="blue">Astronomy, Astrophysics and Space Engineering</font>{" "}
+							&nbsp;&nbsp;6.15 <font color="blue">Astronomy, Astrophysics and Space Engineering</font>{" "}
 							<font color="green">(from AY 2016-17)</font>
 						</td>
 					</tr>

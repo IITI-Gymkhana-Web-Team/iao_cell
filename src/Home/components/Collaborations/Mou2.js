@@ -10,10 +10,10 @@ export const Mou2 = ({ name }) => {
 	return (
 		<div className="container-fluid mhrdPage">
 			<h1 className="pt-4 mainTitle text-center mb-5">
-				{name == "Americas" && "MoUs with American Universities"}
-				{name == "Asia" && "MoUs with Asian Universities"}
-				{name == "Australia" && "MoUs with Australian Universities"}
-				{name == "Europe" && "MoUs with European Universities"}
+				{name === "Americas" && "MoUs with American Universities"}
+				{name === "Asia" && "MoUs with Asian Universities"}
+				{name === "Australia" && "MoUs with Australian Universities"}
+				{name === "Europe" && "MoUs with European Universities"}
 			</h1>
 			<Form className="container">
 				<Form.Group controlId="exampleForm.ControlInput2">
@@ -53,14 +53,12 @@ export const Mou2 = ({ name }) => {
 				<tbody>
 					{data[name].map((reg, index) => {
 						return (
-							(country == "" ||
-								reg["Country with which there is collation"]
-									.toLowerCase()
-									.indexOf(country) != -1) &&
-							(institution == "" ||
+							(country === "" ||
+								reg["Country with which there is collation"].toLowerCase().indexOf(country) !== -1) &&
+							(institution === "" ||
 								reg["Institutions/Organization/Country"]
 									.toLowerCase()
-									.indexOf(institution.toLowerCase()) != -1) && (
+									.indexOf(institution.toLowerCase()) !== -1) && (
 								<tr key={index}>
 									<td>{index + 1}</td>
 									<td>{reg["Institutions/Organization/Country"]}</td>

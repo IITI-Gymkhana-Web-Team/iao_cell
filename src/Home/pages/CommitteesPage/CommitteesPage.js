@@ -3,7 +3,6 @@ import {
 	rajeshkumar,
 	raghu,
 	satya,
-	person,
 	mc,
 	abhijeet,
 	dipak,
@@ -248,8 +247,8 @@ export const CommitteesPage = ({ index }) => {
 
 	return (
 		<div className="container-fluid">
-			{index == 1 && <Committee committee={committee1} />}
-			{index == 2 && <Committee committee={committee2} />}
+			{index === 1 && <Committee committee={committee1} />}
+			{index === 2 && <Committee committee={committee2} />}
 		</div>
 	);
 };

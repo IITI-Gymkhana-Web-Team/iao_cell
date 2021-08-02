@@ -6,7 +6,7 @@ export const MobileMenuLinks = ({ link1, setShow2, show2 }) => {
 	const [show, setShow] = useState(false);
 
 	useEffect(() => {
-		if (show2 == false) setShow(false);
+		if (show2 === false) setShow(false);
 	}, [show2]);
 
 	return (
@@ -25,29 +25,20 @@ export const MobileMenuLinks = ({ link1, setShow2, show2 }) => {
 						{link1.name}
 						<HiOutlineChevronDown className={show ? "upIcon" : "downIcon"} />
 					</span>
-					<div
-						style={show ? { display: "" } : { display: "none" }}
-						className="innerIndiMenu"
-					>
+					<div style={show ? { display: "" } : { display: "none" }} className="innerIndiMenu">
 						{link1.innerLinks.map((link2) => {
-							return (
-								<MobileMenuLinks
-									link1={link2}
-									show2={show}
-									setShow2={setShow2}
-									key={link2.name}
-								/>
-							);
+							return <MobileMenuLinks link1={link2} show2={show} setShow2={setShow2} key={link2.name} />;
 						})}
 					</div>
 				</div>
 			)) ||
 				(typeof link1.innerLinks === "undefined" && (
 					<div className={"menu" + link1.level + " indiMenuLink"}>
-						{link1.link[0] == "h" && (
+						{link1.link[0] === "h" && (
 							<a
 								href={link1.link}
 								target="_blank"
+								rel="noreferrer"
 								onClick={() => {
 									setShow2(false);
 									setShow(false);
@@ -56,7 +47,7 @@ export const MobileMenuLinks = ({ link1, setShow2, show2 }) => {
 								{link1.name}
 							</a>
 						)}
-						{link1.link[0] != "h" && (
+						{link1.link[0] !== "h" && (
 							<Link
 								to={link1.link}
 								onClick={() => {

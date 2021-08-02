@@ -31,7 +31,7 @@ export default function ReachUs() {
 	useEffect(() => {
 		window.addEventListener("resize", updateDimensions);
 		return () => window.removeEventListener("resize", updateDimensions);
-	}, [window.innerWidth]);
+	}, []);
 
 	return (
 		<div className="container-fluid reachUs font-ubuntu mb-5">
@@ -60,8 +60,7 @@ export default function ReachUs() {
 					</p>
 					<p>
 						<FaPhoneAlt className="contactIcons" />
-						<a href="tel:+91 07316603479">+91 0731660 3479</a> /{" "}
-						<a href="tel:+91 07316603573">3573</a>
+						<a href="tel:+91 07316603479">+91 0731660 3479</a> / <a href="tel:+91 07316603573">3573</a>
 					</p>
 					<p>
 						<IoMdMail className="contactIcons" />
@@ -105,13 +104,11 @@ export default function ReachUs() {
 						<Card.Text>Distance: Approximately 24.4 Kms</Card.Text>
 						<Card.Text>Travel time: 50 min</Card.Text>
 						<Card.Text>
-							Book Taxi/Auto (fare approx. INR 400-500) up to Campus of IIT Indore,
-							Simrol
+							Book Taxi/Auto (fare approx. INR 400-500) up to Campus of IIT Indore, Simrol
 						</Card.Text>
 						<Card.Text>
-							Please ask your driver to follow the way via Tejaji Nagar, which is the
-							shortest route to reach IIT Indore Simrol 453552 from Indore Railway
-							Station.
+							Please ask your driver to follow the way via Tejaji Nagar, which is the shortest route to
+							reach IIT Indore Simrol 453552 from Indore Railway Station.
 						</Card.Text>
 					</Card.Body>
 				</Card>
@@ -124,13 +121,11 @@ export default function ReachUs() {
 						<Card.Text>Distance: Approximately 35.3 Kms</Card.Text>
 						<Card.Text>Travel time: 1hr 6min</Card.Text>
 						<Card.Text>
-							Book Taxi/Auto (fare approx. INR 800-900) up to Campus of IIT Indore,
-							Simrol
+							Book Taxi/Auto (fare approx. INR 800-900) up to Campus of IIT Indore, Simrol
 						</Card.Text>
 						<Card.Text>
-							Please ask your driver to follow the way via Tejaji Nagar, which is the
-							shortest route to reach Simrol (IIT Indore) from Indore Airport (Devi
-							Ahilya Bai Holkar Airport).
+							Please ask your driver to follow the way via Tejaji Nagar, which is the shortest route to
+							reach Simrol (IIT Indore) from Indore Airport (Devi Ahilya Bai Holkar Airport).
 						</Card.Text>
 					</Card.Body>
 				</Card>
@@ -142,13 +137,10 @@ export default function ReachUs() {
 					<Card.Body>
 						<Card.Text>Distance: Approximately 22 Kms</Card.Text>
 						<Card.Text>Travel time: 1hr 10min</Card.Text>
+						<Card.Text>The bus fare from Bhanwarkuan to IIT Indore is INR 25 per person.</Card.Text>
 						<Card.Text>
-							The bus fare from Bhanwarkuan to IIT Indore is INR 25 per person.
-						</Card.Text>
-						<Card.Text>
-							One can board a local bus shuttle service which originates from
-							Bhanwarkuan bus stand (about 5km from railway station) to reach IIT
-							Indore campus.
+							One can board a local bus shuttle service which originates from Bhanwarkuan bus stand (about
+							5km from railway station) to reach IIT Indore campus.
 						</Card.Text>
 					</Card.Body>
 				</Card>
@@ -171,7 +163,7 @@ export default function ReachUs() {
 								<a href="tel:+91 9165168899">+91 9165168899</a>
 							</td>
 							<td>
-								<a href={Saitour} target="_blank">
+								<a href={Saitour} target="_blank" rel="noreferrer">
 									Link
 								</a>
 							</td>
@@ -183,7 +175,7 @@ export default function ReachUs() {
 								<a href="tel:+91 9893027085">+91 9893027085</a>
 							</td>
 							<td>
-								<a href={Sachidananda} target="_blank">
+								<a href={Sachidananda} target="_blank" rel="noreferrer">
 									Link
 								</a>
 							</td>
@@ -195,14 +187,15 @@ export default function ReachUs() {
 			<div className="container">
 				<p>
 					<br />
-					If you are calling from any medium other than intercom, then dial 0731-660
-					followed by the Extension Number.
+					If you are calling from any medium other than intercom, then dial 0731-660 followed by the Extension
+					Number.
 				</p>
 				<p>
 					To download the entire telephone directory,{" "}
 					<a
 						href="https://www.iiti.ac.in/public/storage/directory/Telephone%20directory%20(24.03.2021).pdf"
 						target="_blank"
+						rel="noreferrer"
 					>
 						Click Here
 					</a>

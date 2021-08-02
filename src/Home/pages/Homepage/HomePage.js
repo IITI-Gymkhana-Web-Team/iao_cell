@@ -3,19 +3,20 @@ import React from "react";
 // import { NavBar } from "./components/NavBar/NavBar";
 import { BackVideo } from "../../components/backVideo/backVideo";
 // import { Carousell } from "../../components/Carousell/Carousell";
-import { AboutUs } from "../../components/AboutUs/AboutUs";
+// import { AboutUs } from "../../components/AboutUs/AboutUs";
 // import { News } from "../../components/News/News";
-import { Events } from "../../components/Events/Events";
+// import { Events } from "../../components/Events/Events";
 // import { Links } from "./components/Links";
-import { Maps } from "../../components/Maps/Maps";
+// import { Maps } from "../../components/Maps/Maps";
 import { MHRD } from "../../components/MHRD/MHRD";
 import Message from "../../components/Message/Message";
 import "./Home.css";
-import { NAT } from "../../components/NAT/NAT";
+// import { NAT } from "../../components/NAT/NAT";
 import Counter from "../../components/Counter/Counter";
 import { Offer } from "../../components/Offer/Offer";
 import EmbedVideo from "../../components/EmbedVideo/EmbedVideo";
-import NewsSideCard from "../../components/NewsSideCard/NewsSideCard";
+// import NewsSideCard from "../../components/NewsSideCard/NewsSideCard";
+import CarousellCards from "../../components/CarousellCards/CarousellCards";
 
 export const HomePage = () => {
 	return (
@@ -28,8 +29,9 @@ export const HomePage = () => {
 			</div> */}
 			<div className="container-fluid">
 				{/* <AboutUs /> */}
-				<NewsSideCard />
+				{/* <NewsSideCard /> */}
 				<EmbedVideo />
+				<CarousellCards />
 				<Message />
 				<Counter />
 				{/* <div className="newsEvents container mt-5">

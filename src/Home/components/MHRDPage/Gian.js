@@ -7,8 +7,7 @@ export const Gian = () => {
 		{
 			"S. No.": 1,
 			Year: "2020",
-			Title:
-				"Two Phase Flows in a Micro and Milli Channels: Theoretical Backgrounds and Numerical Proofs",
+			Title: "Two Phase Flows in a Micro and Milli Channels: Theoretical Backgrounds and Numerical Proofs",
 			Ip: "Dr. Ritunesh Kumar",
 			Fp: "Dr. Abive Rufat",
 			Fu: "St. Petersburg State Institute of Technology",
@@ -28,8 +27,7 @@ export const Gian = () => {
 		{
 			"S. No.": 3,
 			Year: "2020",
-			Title:
-				'Principles of Ligand - Targeted Drug Delivery: Design and Development of "Smart Drugs"',
+			Title: 'Principles of Ligand - Targeted Drug Delivery: Design and Development of "Smart Drugs"',
 			Ip: "Dr. Venkatesh Chelvam",
 			Fp: "Dr. Shrinivasarao Madduri",
 			Fu: "Purdue University",
@@ -39,8 +37,7 @@ export const Gian = () => {
 		{
 			"S. No.": 1,
 			Year: "2019",
-			Title:
-				"One Dimensional Metal-Oxide Nanostructures: Recent Developments in Synthesis, Characteristics and Applications",
+			Title: "One Dimensional Metal-Oxide Nanostructures: Recent Developments in Synthesis, Characteristics and Applications",
 			Ip: "Dr. Parasharam M. Shirage & Dr. Rupesh S. Devan",
 			Fp: "Prof. Yuan-Ron Ma",
 			Fu: "National Dong Hwa University",
@@ -50,8 +47,7 @@ export const Gian = () => {
 		{
 			"S. No.": 2,
 			Year: "2019",
-			Title:
-				"Principles of Drug Discovery, Design and Development: Modern Concepts and Applications",
+			Title: "Principles of Drug Discovery, Design and Development: Modern Concepts and Applications",
 			Ip: "Dr. Chelvam Venkatesh",
 			Fp: "Prof. Apurba Dutta",
 			Fu: "University of Kansas",
@@ -91,7 +87,6 @@ export const Gian = () => {
 		{
 			"S. No.": 6,
 			Year: "2019",
-			Year: "2019",
 			Title: "Advance combustion modelling with computational fluid mechanics",
 			Ip: "Dr. Shanmugam Dhinakaran",
 			Fp: "Prof. Weeratunge Malalasekera",
@@ -122,8 +117,7 @@ export const Gian = () => {
 		{
 			"S. No.": 3,
 			Year: "2018",
-			Title:
-				"Biological Treatment of Metals and Metalloids Laden Wastewater: Microbiology, Process Technology and Resource Recovery",
+			Title: "Biological Treatment of Metals and Metalloids Laden Wastewater: Microbiology, Process Technology and Resource Recovery",
 			Ip: "Dr. Kiran Bala",
 			Fp: "Prof.  Eric Van Hullebusch",
 			Fu: "Université de Paris",
@@ -143,8 +137,7 @@ export const Gian = () => {
 		{
 			"S. No.": 5,
 			Year: "2018",
-			Title:
-				"Economics of Science,Technology and Innovation: Empirical Approaches and Randomized Control Trials(RCTs)",
+			Title: "Economics of Science,Technology and Innovation: Empirical Approaches and Randomized Control Trials(RCTs)",
 			Ip: "Dr. Ruchi Sharma",
 			Fp: "Prof.  Ina Ganguli",
 			Fu: "University of Massachusetts Amherst",
@@ -214,8 +207,7 @@ export const Gian = () => {
 		{
 			"S. No.": 12,
 			Year: "2018",
-			Title:
-				"Fundamentals of Solid State Physics: From Theoretical and Computational Concepts to Recent Applications in Information Technology",
+			Title: "Fundamentals of Solid State Physics: From Theoretical and Computational Concepts to Recent Applications in Information Technology",
 			Ip: "Dr. M. Anbarasu",
 			Fp: "Prof.  Riccardo Mazzarello",
 			Fu: "RWTH Aachen University",
@@ -245,8 +237,7 @@ export const Gian = () => {
 		{
 			"S. No.": 15,
 			Year: "2018",
-			Title:
-				"Inorganic Chemistry of Imaging: Magnetic Resonance and Optical Imaging with Coordination Complexes",
+			Title: "Inorganic Chemistry of Imaging: Magnetic Resonance and Optical Imaging with Coordination Complexes",
 			Ip: "Dr. Mobin Shaikh",
 			Fp: "Prof.  Janet R. Morrow",
 			Fu: "State University of New York",
@@ -396,8 +387,7 @@ export const Gian = () => {
 		{
 			"S. No.": 10,
 			Year: "2017",
-			Title:
-				"Small Scale Combined Heat and Power Generation Units: Modelling of Thermal-Hydraulic Issues, System Design and Operation",
+			Title: "Small Scale Combined Heat and Power Generation Units: Modelling of Thermal-Hydraulic Issues, System Design and Operation",
 			Ip: "Dr. Ritunesh Kumar",
 			Fp: "Prof. Dariusz Mikielewicz",
 			Fu: "Gdansk University of Technology",
@@ -417,8 +407,7 @@ export const Gian = () => {
 		{
 			"S. No.": 12,
 			Year: "2017",
-			Title:
-				"Fundamentals and Applications of Absorption Heat Pumps and Refrigeration Systems",
+			Title: "Fundamentals and Applications of Absorption Heat Pumps and Refrigeration Systems",
 			Ip: "Dr. Subba Reddy Daggumati",
 			Fp: "Prof. Alberto Coronas",
 			Fu: "Universitat Rovira i Virgili",
@@ -428,8 +417,7 @@ export const Gian = () => {
 		{
 			"S. No.": 13,
 			Year: "2017",
-			Title:
-				"Next Generation Solar Cells in The Realm of Future Energy Challenges: From Materials Design to Device Architectures",
+			Title: "Next Generation Solar Cells in The Realm of Future Energy Challenges: From Materials Design to Device Architectures",
 			Ip: "Dr. Vipul Singh",
 			Fp: "Prof. Shyam Sudhir Pandey",
 			Fu: "Kyushu Institute of Technology",
@@ -449,8 +437,7 @@ export const Gian = () => {
 		{
 			"S. No.": 15,
 			Year: "2017",
-			Title:
-				"New Developments in Global Political Theory: Comparative, Decolonial and Indian Political Theory",
+			Title: "New Developments in Global Political Theory: Comparative, Decolonial and Indian Political Theory",
 			Ip: "Dr. Bharath Kumar",
 			Fp: "Prof. Aakash Singh Rathore",
 			Fu: "University of Luiss",
@@ -500,8 +487,7 @@ export const Gian = () => {
 		{
 			"S. No.": 20,
 			Year: "2017",
-			Title:
-				"Advances and Opportunities in Passive Micro and Miniature Technologies for Energy and Thermal Systems",
+			Title: "Advances and Opportunities in Passive Micro and Miniature Technologies for Energy and Thermal Systems",
 			Ip: "Dr. Shanmugam Dhinakaran",
 			Fp: "Prof. Amir Faghri",
 			Fu: "University of Connecticut",
@@ -631,8 +617,7 @@ export const Gian = () => {
 		{
 			"S. No.": 12,
 			Year: "2016",
-			Title:
-				"Linear and Nonlinear Systems and Optimization with Applications in Medical Imaging, Optimal Design, and Graphics",
+			Title: "Linear and Nonlinear Systems and Optimization with Applications in Medical Imaging, Optimal Design, and Graphics",
 			Ip: "Dr. Kapil Ahuja",
 			Fp: "Prof. Eric de Sturler",
 			Fu: "University of Illinois",
@@ -662,8 +647,7 @@ export const Gian = () => {
 		{
 			"S. No.": 15,
 			Year: "2016",
-			Title:
-				"Microreactors: Mathematical Modelling of Hydrodynamics, Heat and Mass Transfer, Design and Fabrication",
+			Title: "Microreactors: Mathematical Modelling of Hydrodynamics, Heat and Mass Transfer, Design and Fabrication",
 			Ip: "Dr. Ritunesh Kumar",
 			Fp: "Prof. Rufat Abiev",
 			Fu: "St. Petersburg State Institute of Technology (Technical University)",
@@ -693,8 +677,7 @@ export const Gian = () => {
 		{
 			"S. No.": 18,
 			Year: "2016",
-			Title:
-				"An Advanced Introduction to The Finite Volume Methods in Computational Fluid Dynamics (with Open Foam)",
+			Title: "An Advanced Introduction to The Finite Volume Methods in Computational Fluid Dynamics (with Open Foam)",
 			Ip: "Dr. Shanmugam Dhinakaran",
 			Fp: "Prof. Marwan Darwish",
 			Fu: "American University of Beirut",
@@ -744,8 +727,7 @@ export const Gian = () => {
 		{
 			"S. No.": 23,
 			Year: "2016",
-			Title:
-				"Flow, heat and Mass Transfer Through Porous Media and Critical Thermal Issues in 3D chips",
+			Title: "Flow, heat and Mass Transfer Through Porous Media and Critical Thermal Issues in 3D chips",
 			Ip: "Dr. Shanmugam Dhinakaran",
 			Fp: "--",
 			Fu: "--",
@@ -755,8 +737,7 @@ export const Gian = () => {
 		{
 			"S. No.": 24,
 			Year: "2016",
-			Title:
-				"Fundamentals and Applications of The Principles of Optimization to Various Disciplines – Engineering, Business, Life Sciences",
+			Title: "Fundamentals and Applications of The Principles of Optimization to Various Disciplines – Engineering, Business, Life Sciences",
 			Ip: "Dr. Sarika Jalan",
 			Fp: "Prof. Chandrasekhar Putcha",
 			Fu: "California State University",
@@ -790,8 +771,7 @@ export const Gian = () => {
 			Department: "Chemistry",
 			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
 			"Title of the Grant": "Introduction to Principles of Green Chemistry",
-			"Foreign Collaborator(s)":
-				"Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
+			"Foreign Collaborator(s)": "Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
 			Amount: "USD 12,000",
 			"Year of Award - Year of Completion": "June. 2016",
 		},
@@ -809,8 +789,7 @@ export const Gian = () => {
 			Department: "Chemistry",
 			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
 			"Title of the Grant": "Advanced Concepts in the Synthesis of Pharmaceutical Drugs",
-			"Foreign Collaborator(s)":
-				"Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
+			"Foreign Collaborator(s)": "Prof. Ram Mohan, Illinois Wesleyan University, Bloomington, USA",
 			Amount: "USD 8,000",
 			"Year of Award - Year of Completion": "June. 2018",
 		},
@@ -858,22 +837,12 @@ export const Gian = () => {
 			"Name of the Faculty": "Dr. Venkatesh Chelvam",
 			Department: "BSBE",
 			"Funding Agency": "Global Initiatives for Academic Networks, MHRD, Govt. of India",
-			"Title of the Grant":
-				"Chemical Biology: The Integration of Medicine, Biology and Chemistry ",
+			"Title of the Grant": "Chemical Biology: The Integration of Medicine, Biology and Chemistry ",
 			"Foreign Collaborator(s)": "Prof. Kavita Shah, Purdue University, USA",
 			Amount: "USD 12,000",
 			"Year of Award - Year of Completion": "June. 2016",
 		},
 	]);
 
-	return (
-		<MHRDPage
-			info={info}
-			name={name}
-			desc={desc}
-			insti={insti}
-			person={person}
-			grants={grants}
-		/>
-	);
+	return <MHRDPage info={info} name={name} desc={desc} insti={insti} person={person} grants={grants} />;
 };

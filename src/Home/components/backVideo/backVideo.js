@@ -1,23 +1,15 @@
 import React from "react";
 import { data } from "./data";
 import CountUp from "react-countup";
-import { Col, Row, Card } from "react-bootstrap";
-import { GiStarsStack } from "react-icons/gi";
+import { Col, Row } from "react-bootstrap";
+// import { GiStarsStack } from "react-icons/gi";
 import { wheat, videoo } from "../../../assets";
 import "./backVideo.css";
 
 export const BackVideo = () => {
 	return (
 		<div className="video-container">
-			<video
-				controls
-				disablePictureInPicture
-				autoPlay
-				muted
-				loop
-				controlsList="nodownload"
-				id="myVideo"
-			>
+			<video controls disablePictureInPicture autoPlay muted loop controlsList="nodownload" id="myVideo">
 				<source src={videoo} type="video/mp4" />
 			</video>
 			<div className="content">
@@ -55,6 +47,7 @@ export const BackVideo = () => {
 												maxWidth: "min(200px,80vw)",
 												position: "absolute",
 											}}
+											alt="wheat"
 										/>
 										<div
 											style={{
@@ -63,11 +56,7 @@ export const BackVideo = () => {
 										>
 											<h1>#&nbsp;</h1>
 											<h1>
-												<CountUp
-													className="rank"
-													end={value.Ranking}
-													duration={4}
-												/>
+												<CountUp className="rank" end={value.Ranking} duration={4} />
 											</h1>
 										</div>
 									</div>

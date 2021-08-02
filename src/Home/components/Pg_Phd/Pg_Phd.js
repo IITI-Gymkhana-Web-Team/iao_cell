@@ -29,7 +29,7 @@ export const Pg_Phd = () => {
 								<td>{item["Country"]}</td>
 								<td>{item["Application End Date"]}</td>
 								<td style={{ textAlign: "center" }}>
-									<a href={item["Website"]} target="_blank">
+									<a href={item["Website"]} target="_blank" rel="noreferrer">
 										<FiLink></FiLink>
 									</a>
 								</td>

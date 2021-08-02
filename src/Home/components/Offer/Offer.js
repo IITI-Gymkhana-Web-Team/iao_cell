@@ -4,25 +4,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./Offer.css";
 import ScrollAnimation from "react-animate-on-scroll";
-import {
-	computer,
-	phy,
-	bio,
-	bbse,
-	space,
-	civil,
-	philosophy,
-	material,
-	metall,
-	mech,
-	prod,
-	syst,
-	elec,
-	vlsi,
-	comm,
-	chem,
-	math,
-} from "../../../assets";
+import { computer, phy, bbse, space, civil, philosophy, metall, mech, elec, chem, math } from "../../../assets";
 
 export const Offer = () => {
 	const [images] = useState([
@@ -69,32 +51,8 @@ export const Offer = () => {
 			link: "http://mems.iiti.ac.in/",
 		},
 		{ img: phy, head: "Physics", link: "http://physics.iiti.ac.in/" },
-		// {
-		// 	img: comm,
-		// 	head: "Communication & Signal Processing",
-		// 	link: "http://ee.iiti.ac.in/",
-		// },
-		// {
-		// 	img: vlsi,
-		// 	head: "VLSI Design & Nanoelectronics",
-		// 	link: "http://ee.iiti.ac.in/",
-		// },
-		// {
-		// 	img: prod,
-		// 	head: "Production & Industrial Engineering ",
-		// 	link: "http://me.iiti.ac.in/",
-		// },
-		// {
-		// 	img: syst,
-		// 	head: "Mechanical Systems Design",
-		// 	link: "http://me.iiti.ac.in/",
-		// },
-		// {
-		// 	img: bio,
-		// 	head: "Biotechnology",
-		// 	link: "http://bsbe.iiti.ac.in/",
-		// },
 	]);
+
 	const responsive = {
 		3000: {
 			items: 5,
@@ -131,14 +89,10 @@ export const Offer = () => {
 				>
 					{images.map((img, index) => {
 						return (
-							<a href={img.link} target="_blank" key={index}>
+							<a href={img.link} target="_blank" rel="noreferrer" key={index}>
 								<div className="off card mx-3 mb-0">
 									<div className="image-holder">
-										<img
-											className="card-img-top"
-											src={img.img}
-											alt="Card image cap"
-										/>
+										<img className="card-img-top" src={img.img} alt="Card" />
 									</div>
 									<div className="card-body">
 										<h4 className="card-title mainTitle">{img.head}</h4>

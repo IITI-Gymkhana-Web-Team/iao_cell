@@ -17,7 +17,7 @@ export const IndiEvent = ({ match }) => {
 					</button>
 				</Link>
 				<div className="eventPart1 mt-4 mb-5">
-					<img src={data[id].img} />
+					<img src={data[id].img} alt="event" />
 					<div className="eventPart2">
 						<h2 className="font-acme">{data[id].title}</h2>
 						<p>{data[id].date + " @" + data[id].time}</p>

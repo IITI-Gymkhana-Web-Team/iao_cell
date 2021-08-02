@@ -5,7 +5,10 @@ export const CustomTable = ({ cols, data, sort, vars }) => {
 	const ifAllowed = (row) => {
 		var i = 0;
 		while (vars[i]) {
-			if (vars[i].var != "" && row[cols[vars[i].colValue]].toLowerCase().indexOf(vars[i].var.toLowerCase()) == -1)
+			if (
+				vars[i].var !== "" &&
+				row[cols[vars[i].colValue]].toLowerCase().indexOf(vars[i].var.toLowerCase()) === -1
+			)
 				return false;
 			i++;
 		}
