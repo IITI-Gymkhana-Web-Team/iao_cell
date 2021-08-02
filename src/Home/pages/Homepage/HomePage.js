@@ -15,7 +15,8 @@ import "./Home.css";
 import Counter from "../../components/Counter/Counter";
 import { Offer } from "../../components/Offer/Offer";
 import EmbedVideo from "../../components/EmbedVideo/EmbedVideo";
-import NewsSideCard from "../../components/NewsSideCard/NewsSideCard";
+// import NewsSideCard from "../../components/NewsSideCard/NewsSideCard";
+import CarousellCards from "../../components/CarousellCards/CarousellCards";
 
 export const HomePage = () => {
 	return (
@@ -28,8 +29,9 @@ export const HomePage = () => {
 			</div> */}
 			<div className="container-fluid">
 				{/* <AboutUs /> */}
-				<NewsSideCard />
+				{/* <NewsSideCard /> */}
 				<EmbedVideo />
+				<CarousellCards />
 				<Message />
 				<Counter />
 				{/* <div className="newsEvents container mt-5">
