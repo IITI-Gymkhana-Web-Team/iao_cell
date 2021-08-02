@@ -1,3 +1,14 @@
+.owl-card {
+  cursor: pointer;
+}
+.owl-card .owl-prev,
+.owl-card .owl-next {
+  display: none !important;
+}
+.owl-card:hover .owl-prev,
+.owl-card:hover .owl-next {
+  display: block !important;
+}
 .carousel-row {
   margin: 1.3rem;
 }
@@ -5,8 +16,7 @@
 .owl-card .owl-next {
   position: absolute;
   top: 40%;
-  background-color: rgb(105, 78, 223) !important;
-  color: white !important;
+  color: black !important;
 }
 
 .owl-card .owl-prev {
@@ -18,10 +28,13 @@
   right: 0px;
   border-radius: 5px 0 0 5px !important;
 }
-
+.owl-card .owl-prev:hover,
+.owl-card .owl-next:hover {
+  background-color: transparent !important;
+}
 .owl-card .owl-prev span,
 .owl-card .owl-next span {
-  font-size: 25px !important;
+  font-size: 45px !important;
   margin: 0 10px !important;
   position: relative;
   top: -5px;
