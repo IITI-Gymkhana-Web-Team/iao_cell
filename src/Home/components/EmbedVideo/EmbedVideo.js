@@ -6,7 +6,7 @@ import "./EmbedVideo.css";
 const EmbedVideo = () => {
 	return (
 		<Row className="embed-video">
-			<Col md="12" lg="5">
+			<Col md="12" lg="4">
 				<div className="embed-video-content">
 					<p className="embed-video-title">
 						About <span style={{ color: "#3668dd" }}>IIT Indore</span>
@@ -27,9 +27,11 @@ const EmbedVideo = () => {
 					</Link>
 				</div>
 			</Col>
-			<Col md="12" lg="6" className="embed-video-div">
+			<Col md="12" lg="4" className="embed-video-div m-0 p-0">
 				<div className="video-responsive">
+					<p className="embed-title">A Short Video about IITI</p>
 					<iframe
+						className="embed-iframe"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/Thjsxz31rRk"
@@ -38,6 +40,17 @@ const EmbedVideo = () => {
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen
 					></iframe>
+				</div>
+			</Col>
+			<Col md="12" lg="4">
+				<div className="announce">
+					<p className="announce-title text-left">
+						Announcements
+					</p>
+					<hr />
+					<p className="announce-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
 				</div>
 			</Col>
 		</Row>
