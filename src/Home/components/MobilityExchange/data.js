@@ -736,6 +736,13 @@ export const data = {
 				cols: ["Name of the Faculty", "Department", "Visit", "Duration"],
 				data: [
 					{
+						"Name of the Faculty": "Dr. Bhargav Vaidya",
+						Visit: "Dr. Benoit Commercon, ENS Lyon, France",
+						"Name of the FacultyLink": "https://iiti.irins.org/profile/93693",
+						Department: "Astronomy, Astrophysics and Space Engineering",
+						Duration: "Oct, 2019",
+					},
+					{
 						"#": 1,
 						"Name of the Faculty": "Dr. Kapil Ahuja",
 						"Name of the FacultyLink": "http://people.iiti.ac.in/~kahuja/",
@@ -756,7 +763,7 @@ export const data = {
 						"Name of the Faculty": "Dr. Mrigendra Dubey",
 						"Name of the FacultyLink": "https://www.iiti.ac.in/people/~mdubey/",
 						Department: "Metallurgy Engineering and Materials Science",
-						Visit: 'Invited Research Visitor in France (CNRS- Rennes, Paris VI University and ENS-Lyon){" "}',
+						Visit: "Invited Research Visitor in France (CNRS- Rennes, Paris VI University and ENS-Lyon)",
 						Duration: 2016,
 					},
 					{
