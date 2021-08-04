@@ -131,6 +131,17 @@ export const data = {
 
 	Americas: [
 		{
+			"Institutions/Organization/Country":
+				"Foundation for Innovation and Social Entrepreneurship (FISE), Texas Global Health Security Innovation Consortium(TEXGHS) and Health Innovation Exchange (HIEx)",
+			Nature: "MoU",
+			"Purpose/Title":
+				"The areas in which IIT INDORE, FISE, TEXGHS and HIEx shall collaborate and the terms and conditions by which they will operate.",
+			"Coordinating faculty member": "Director\r\nDoIAO",
+			"Signed on": "Aug 3, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "United Nations",
+		},
+		{
 			"Institutions/Organization/Country": "The Governors of The University of Alberta",
 			Nature: "MoU",
 			"Purpose/Title":
@@ -242,6 +253,17 @@ export const data = {
 		},
 	],
 	Europe: [
+		{
+			"S.No.": "1",
+			"Institutions/Organization/Country": "The University of Gothenburg",
+			Nature: "MoU",
+			"Purpose/Title":
+				"a) Exchange of faculty and experts\nb) Exchange of students for Academic education, training, practical experience, and research\nc) Cooperative research\nd) Technical assistance and/or training\ne) Other cooperative efforts as Mutually agreed from time to time.",
+			"Coordinating faculty member": "DoIAO\r\nDoR&D\r\nDr. Devendra Deshmukh",
+			"Signed on": "Jun 15, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Sweden",
+		},
 		{
 			"S.No.": "1",
 			"Institutions/Organization/Country": "Universitàdeglistudi Di Udine",
