@@ -25,7 +25,7 @@
 .embed-video-text {
   color: #585858;
   text-align: justify;
-  font-size: 18px;
+  font-size: 15px;
 }
 .embed-video-btn:hover,
 .embed-video-btn:active,
@@ -68,12 +68,14 @@
   flex-direction: column;
   width: fit-content;
   align-items: center;
+  justify-content: center;
   height: 100%;
+  padding: 0.5rem;
   font-family: "Titillium Web", sans-serif, Source Sans Pro, Helvetica Neue,
     Helvetica, Arial, sans-serif;
 }
 .announce-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #2dccfa;
   font-weight: 400;
   text-align: left;
@@ -81,9 +83,11 @@
   margin-bottom: 0;
 }
 .announce-text {
-  color: rgb(2, 2, 2);
+  overflow-y: scroll;
+  height: 300px;
+  color: #585858;
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1rem;
   word-wrap: break-word;
 }
 .announce hr {
@@ -99,9 +103,14 @@
     rgba(0, 0, 0, 0)
   );
 }
+@media only screen and (max-width: 1300px) {
+  .announce-title {
+    font-size: 2rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .announce-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .embed-video-title {
     font-size: 2.5rem;
