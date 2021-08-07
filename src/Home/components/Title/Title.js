@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Title.css";
 import { BiMenu } from "react-icons/bi";
 import { MobileMenu } from "../MobileMenu/MobileMenu";
+import { CustomNavbar } from "./CustomNavbar";
 
 export const Title = () => {
 	const [show, setShow] = useState(false);
@@ -15,13 +16,9 @@ export const Title = () => {
 			<Navbar bg="light" variant="light" className="ba">
 				<div className="container-fluid">
 					<Navbar.Brand href="/">
-						<img
-							src={iiti_logo_4}
-							style={{ width: "100%" }}
-							alt="logo"
-							className="titleLogo"
-						/>
+						<img src={iiti_logo_4} style={{ width: "100%" }} alt="logo" className="titleLogo" />
 					</Navbar.Brand>
+					<CustomNavbar />
 					<BiMenu
 						className="burger"
 						onClick={() => {

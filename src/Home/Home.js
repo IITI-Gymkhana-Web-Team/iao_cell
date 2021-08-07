@@ -45,7 +45,7 @@ export const Home = () => {
 
 			<Title />
 			<div className="mainNav">
-				<Nav2 />
+				{/*<Nav2 />*/}
 				{/*<Nav />*/}
 			</div>
 			<div className="mainScreen">

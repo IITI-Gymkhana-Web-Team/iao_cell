@@ -1,0 +1,143 @@
+.customNavbar {
+	display: flex;
+	align-items: center;
+}
+
+.customNavbar p {
+	margin-bottom: 5px;
+}
+
+.customNavbar a {
+	color: #000;
+	opacity: 0.6;
+}
+
+.customNavbar a:hover {
+	color: #000;
+	opacity: 1;
+}
+
+.nh1 {
+	font-size: 1.5rem;
+	color: #0047ec;
+}
+
+.nh2 {
+	font-size: 1.2rem;
+	color: #2a4c9b;
+	/* opacity: 0.8; */
+}
+
+.nh3 {
+	font-size: 1rem;
+}
+
+.mainLink {
+	margin: 0 10px;
+	position: relative;
+	cursor: pointer;
+}
+
+.mainLink-heading,
+.mainLink-heading a {
+	background-color: transparent;
+	padding: 10px;
+	border-radius: 15px;
+	color: #fff !important;
+	opacity: 1;
+}
+
+.mainLink > div {
+	height: 0;
+	width: 90%;
+	position: fixed;
+	background-color: #fff;
+	border-radius: 5px;
+	top: 90px;
+	margin: auto;
+	left: 5%;
+	cursor: default;
+	z-index: 200;
+	color: #000;
+	overflow: hidden;
+	display: none;
+	/* animation-name: navNoHover;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease; */
+}
+
+.mainLink:hover > div {
+	animation-name: navHover;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	padding: 30px 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.8);
+}
+
+.mainLink:hover .mainLink-heading,
+.mainLink:hover .mainLink-heading a {
+	color: var(--titleBgColor) !important;
+	background-color: #fff;
+}
+
+@keyframes navHover {
+	0% {
+		height: 0;
+	}
+	100% {
+		overflow: auto;
+		height: 80vh;
+	}
+}
+
+@keyframes navNoHover {
+	0% {
+		height: 80vh;
+		overflow: hidden;
+	}
+	100% {
+		height: 0;
+	}
+}
+
+.searchBox {
+	width: 200px;
+}
+
+@media only screen and (max-width: 1500px) {
+	.customNavbar a,
+	.customNavbar p {
+		font-size: 14px !important;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.customNavbar a,
+	.customNavbar p {
+		font-size: 13px !important;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.customNavbar a,
+	.customNavbar p {
+		font-size: 15px !important;
+	}
+	.searchBox {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.customNavbar {
+		display: none !important;
+	}
+}

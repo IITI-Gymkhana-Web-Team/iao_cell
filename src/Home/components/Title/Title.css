@@ -4,6 +4,9 @@
 
 .Title {
 	width: 100%;
+	position: sticky;
+	top: 0px;
+	z-index: 30;
 }
 
 .ba .navbar-brand {
@@ -21,8 +24,8 @@
 }
 
 .ba .container-fluid {
-	padding-left: 60px !important;
-	padding-right: 60px !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
 }
 
 .ba .container-fluid > a {
@@ -53,11 +56,6 @@
 	}
 	.ba .container-fluid {
 		padding-left: 20px !important;
-	}
-	.Title {
-		position: sticky;
-		top: 0px;
-		z-index: 30;
 	}
 	.titleLogo {
 		margin-left: -10px;
