@@ -47,16 +47,13 @@ export default function ReachUs() {
 					<h3 className="font-acme">Office of International Affairs and Outreach</h3>
 					<br />
 					<p>
-						Office of International Affairs and outreach,
+						International Affairs and Outreach
 						<br />
-						Abhinandan bhavan, 7th Floor, west wing,
+						Indian Institute of Technology Indore
 						<br />
-						Indian Institute of Technology Indore,
+						Khandwa Road, Simrol, Indore 453552
 						<br />
-						Khandwa Road, Simrol,
-						<br /> Indore - 453552
-						<br />
-						Madhya Pradesh,India
+						Madhya Pradesh, India
 					</p>
 					<p>
 						<FaPhoneAlt className="contactIcons" />
@@ -68,7 +65,7 @@ export default function ReachUs() {
 					</p>
 					<p>
 						<FiLink2 className="contactIcons" />
-						<a href="/">http://international.iiti.ac.in/</a>
+						<a href="https://iiti.ac.in/">IIT Indore</a>
 					</p>
 					{/* <p>
 						<BiTimeFive className="contactIcons" />

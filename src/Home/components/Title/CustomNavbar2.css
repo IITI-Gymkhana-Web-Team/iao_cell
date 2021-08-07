@@ -1,0 +1,75 @@
+.customNavbar2 {
+	display: flex;
+	align-items: center;
+}
+
+.customNavbar2 p {
+	margin-bottom: 5px;
+}
+
+.customNavbar2 a {
+	color: #000;
+	opacity: 0.6;
+}
+
+.customNavbar2 a:hover {
+	color: #000;
+	opacity: 1;
+}
+
+.mainLink2 {
+	margin: 0 10px;
+	position: relative;
+	cursor: pointer;
+}
+
+.mainLink-heading2,
+.mainLink-heading2 a {
+	background-color: transparent;
+	padding: 5px;
+	border-radius: 15px;
+	color: #fff !important;
+	opacity: 1;
+}
+
+/* .mainLink2:hover .mainLink-heading2,
+.mainLink2:hover .mainLink-heading2 a {
+	color: var(--titleBgColor) !important;
+	background-color: #fff;
+} */
+
+.searchBox2 {
+	width: 200px;
+	border-radius: 15px;
+	padding: 5px 10px;
+}
+
+@media only screen and (max-width: 1500px) {
+	.customNavbar2 a,
+	.customNavbar2 p {
+		font-size: 14px !important;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.customNavbar2 a,
+	.customNavbar2 p {
+		font-size: 13px !important;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.customNavbar2 a,
+	.customNavbar2 p {
+		font-size: 15px !important;
+	}
+	.searchBox2 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.customNavbar2 {
+		display: none !important;
+	}
+}

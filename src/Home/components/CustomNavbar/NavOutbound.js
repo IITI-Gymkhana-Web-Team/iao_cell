@@ -10,7 +10,7 @@ export const NavOutbound = () => {
 			</p>
 			<div style={{ justifyContent: "space-between" }}>
 				<div style={{ width: "70%" }}>
-					<p className="navHeading nh1 mb-3">Students</p>
+					<p className="navHeading nh1 mb-3">For Students</p>
 					<div className="d-flex flex-wrap" style={{ justifyContent: "space-between" }}>
 						<div className="mb-3">
 							<p className="navHeading nh2">UK Scholarships</p>
@@ -186,63 +186,71 @@ export const NavOutbound = () => {
 						</div>
 						<div className="mb-3">
 							<p className="navHeading nh2">Other Scholarships</p>
-							<div>
-								<p>
-									<a href="https://www.iusstf.org/" target="_blank" rel="noreferrer">
-										USA
-									</a>
-								</p>
-								<p>
-									<a href="https://aistic.gov.in/ASEAN/HomePage" target="_blank" rel="noreferrer">
-										Asean
-									</a>
-								</p>
-								<p>
-									<a
-										href="http://www.anso.org.cn/programmes/talent/scholarship/"
-										target="_blank"
-										rel="noreferrer"
-									>
-										China
-									</a>
-								</p>
-								<p>
-									<a
-										href="https://www.icdf.org.tw/ct.asp?xItem=12505&CtNode=30316&mp=2"
-										target="_blank"
-										rel="noreferrer"
-									>
-										Taiwan
-									</a>
-								</p>
-								<p>
-									<a
-										href="https://www.crg.eu/en/content/training/undergraduates-and-masters"
-										target="_blank"
-										rel="noreferrer"
-									>
-										Spain
-									</a>
-								</p>
-								<p>
-									<a href="https://www.scholarships.at/default.aspx" target="_blank" rel="noreferrer">
-										Austria
-									</a>
-								</p>
-								<p>
-									<a href="https://www.nzscholarships.govt.nz/" target="_blank" rel="noreferrer">
-										New Zealand
-									</a>
-								</p>
-								<p>
-									<a
-										href="https://www.ait.ac.th/admissions/scholarships/bangchak-master-scholarships/"
-										target="_blank"
-										rel="noreferrer"
-									>
-										Thailand
-									</a>
-								</p>
+							<div className="d-flex">
+								<div style={{ marginRight: "20px" }}>
+									<p>
+										<a href="https://www.iusstf.org/" target="_blank" rel="noreferrer">
+											USA
+										</a>
+									</p>
+									<p>
+										<a href="https://aistic.gov.in/ASEAN/HomePage" target="_blank" rel="noreferrer">
+											Asean
+										</a>
+									</p>
+									<p>
+										<a
+											href="http://www.anso.org.cn/programmes/talent/scholarship/"
+											target="_blank"
+											rel="noreferrer"
+										>
+											China
+										</a>
+									</p>
+									<p>
+										<a
+											href="https://www.icdf.org.tw/ct.asp?xItem=12505&CtNode=30316&mp=2"
+											target="_blank"
+											rel="noreferrer"
+										>
+											Taiwan
+										</a>
+									</p>
+								</div>
+								<div>
+									<p>
+										<a
+											href="https://www.crg.eu/en/content/training/undergraduates-and-masters"
+											target="_blank"
+											rel="noreferrer"
+										>
+											Spain
+										</a>
+									</p>
+									<p>
+										<a
+											href="https://www.scholarships.at/default.aspx"
+											target="_blank"
+											rel="noreferrer"
+										>
+											Austria
+										</a>
+									</p>
+									<p>
+										<a href="https://www.nzscholarships.govt.nz/" target="_blank" rel="noreferrer">
+											New Zealand
+										</a>
+									</p>
+									<p>
+										<a
+											href="https://www.ait.ac.th/admissions/scholarships/bangchak-master-scholarships/"
+											target="_blank"
+											rel="noreferrer"
+										>
+											Thailand
+										</a>
+									</p>
+								</div>
 							</div>
 						</div>
 						<div className="mb-3">
@@ -269,7 +277,7 @@ export const NavOutbound = () => {
 					</div>
 				</div>
 				<div style={{ maxWidth: "30%" }}>
-					<p className="navHeading nh1 mb-3">Faculties</p>
+					<p className="navHeading nh1 mb-3">For Faculties</p>
 					<div
 						className="d-flex flex-wrap"
 						style={{ justifyContent: "space-between", flexDirection: "column" }}

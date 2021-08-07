@@ -1,6 +1,10 @@
 .customNavbar {
 	display: flex;
 	align-items: center;
+	background-color: rgb(0, 46, 83);
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 5px;
 }
 
 .customNavbar p {
@@ -19,13 +23,16 @@
 
 .nh1 {
 	font-size: 1.5rem;
-	color: #0047ec;
+	color: rgb(27, 94, 211);
+	/* font-weight: bold; */
+	font-family: Roboto;
 }
 
 .nh2 {
 	font-size: 1.2rem;
 	color: #2a4c9b;
 	/* opacity: 0.8; */
+	font-family: Roboto;
 }
 
 .nh3 {
@@ -49,13 +56,13 @@
 
 .mainLink > div {
 	height: 0;
-	width: 90%;
+	width: 90vw;
 	position: fixed;
 	background-color: #fff;
 	border-radius: 5px;
-	top: 90px;
+	top: 165px;
 	margin: auto;
-	left: 5%;
+	left: 5vw;
 	cursor: default;
 	z-index: 200;
 	color: #000;
@@ -74,7 +81,7 @@
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
 	animation-timing-function: ease;
-	padding: 30px 40px;
+	padding: 20px 20px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -94,13 +101,13 @@
 	}
 	100% {
 		overflow: auto;
-		height: 80vh;
+		height: 70vh;
 	}
 }
 
 @keyframes navNoHover {
 	0% {
-		height: 80vh;
+		height: 70vh;
 		overflow: hidden;
 	}
 	100% {

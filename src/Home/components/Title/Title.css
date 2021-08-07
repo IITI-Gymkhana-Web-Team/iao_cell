@@ -1,5 +1,5 @@
 :root {
-	--titleBgColor: #082a8d;
+	--titleBgColor: rgb(0, 30, 54);
 }
 
 .Title {
@@ -14,8 +14,8 @@
 }
 
 .titleLogo {
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 90px;
 	padding: 5px 0px;
 }
 
@@ -24,8 +24,8 @@
 }
 
 .ba .container-fluid {
-	padding-left: 20px !important;
-	padding-right: 20px !important;
+	padding-left: 60px !important;
+	padding-right: 60px !important;
 }
 
 .ba .container-fluid > a {

@@ -37,16 +37,19 @@ import { Ghouse } from "./components/Ghouse/Ghouse";
 import { Internships } from "./components/Internships/Internships";
 import { Dean } from "./components/Dean";
 import { Director } from "./components/Director/Director";
+import { CustomNavbar } from "./components/CustomNavbar/CustomNavbar";
 
 export const Home = () => {
 	return (
 		<Router basename="/">
 			<ScrollToTop />
-
-			<Title />
-			<div className="mainNav">
-				{/*<Nav2 />*/}
-				{/*<Nav />*/}
+			<div style={{ position: "sticky", top: "0", zIndex: "200" }}>
+				<Title />
+				<div className="mainNav">
+					{/*<Nav2 />*/}
+					{/*<Nav />*/}
+					<CustomNavbar />
+				</div>
 			</div>
 			<div className="mainScreen">
 				<Switch>
