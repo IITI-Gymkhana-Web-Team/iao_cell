@@ -33,7 +33,7 @@ import ReachUs from "./pages/Contactpage/ReachUs";
 import { Grants } from "./components/Grants/Grants";
 import { Publications } from "./components/Publications/Publications";
 import { Ghouse } from "./components/Ghouse/Ghouse";
-import { Nav2 } from "./components/Nav2/Nav2";
+// import { Nav2 } from "./components/Nav2/Nav2";
 import { Internships } from "./components/Internships/Internships";
 import { Dean } from "./components/Dean";
 import { Director } from "./components/Director/Director";
