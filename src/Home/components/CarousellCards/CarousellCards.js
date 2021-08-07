@@ -88,10 +88,12 @@ const CarousellCards = () => {
     };
 
     return (
-        <Row className="carousel-row">
+        <Row className="carousel-row mt-5">
+            <div className="carousel-row-title">
+                <p className="owl-card-title">EVENTS & RESEARCH HIGHLIGHTS</p>
+            </div>
             <Col md={12} lg={4}>
                 <div className="owl-card text-center">
-                    <p className="owl-card-title">RESEARCH HIGHLIGHTS</p>
                     <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
                         <OwlCarousel
                             className="owl-theme"
@@ -122,7 +124,6 @@ const CarousellCards = () => {
             </Col>
             <Col md={12} lg={4}>
                 <div className="owl-card text-center mb-0">
-                    <p className="owl-card-title">NEWS & EVENTS</p>
                     <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
                         <OwlCarousel
                             className="owl-theme"
@@ -152,7 +153,6 @@ const CarousellCards = () => {
             </Col>
             <Col md={12} lg={4}>
                 <div className="owl-card text-center">
-                    <p className="owl-card-title">TALKS & ACTIVITIES</p>
                     <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
                         <OwlCarousel
                             className="owl-theme"
