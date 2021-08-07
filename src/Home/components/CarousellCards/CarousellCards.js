@@ -90,7 +90,7 @@ const CarousellCards = () => {
     return (
         <Row className="carousel-row mt-5">
             <div className="carousel-row-title">
-                <p className="owl-card-title">EVENTS & RESEARCH HIGHLIGHTS</p>
+                <p className="owl-card-title">NEWS & ACTIVITIES</p>
             </div>
             <Col md={12} lg={4}>
                 <div className="owl-card text-center">
