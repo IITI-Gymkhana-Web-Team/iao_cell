@@ -96,6 +96,10 @@
     padding-right: 0.3rem;
     margin-bottom: 1rem;
   }
+  .carousel-div {
+    height: fit-content !important;
+    padding: 1rem;
+  }
 }
 @media only screen and (max-width: 992px) {
   .owl-card {
@@ -110,9 +114,6 @@
 @media only screen and (max-width: 500px) {
   .carousel-row {
     margin: 0.2rem;
-  }
-  .carousel-div {
-    height: 280px;
   }
   .carousel-card-img {
     height: 150px;
