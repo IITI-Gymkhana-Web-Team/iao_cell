@@ -3,7 +3,7 @@ import "./CarouselCards.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import ScrollAnimation from "react-animate-on-scroll";
 import { nsd2020, chem_talks_news, ai, d1, d2, gandhihall, g } from "../../../assets";
 
@@ -88,24 +88,52 @@ const CarousellCards = () => {
     };
 
     return (
-        <Row className="carousel-row mt-5">
-            <div className="carousel-row-title">
+        <Container fluid>
+            <Row className="carousel-row mt-5">
                 <p className="owl-card-title">NEWS & ACTIVITIES</p>
-            </div>
-            <Col md={12} lg={4}>
-                <div className="owl-card text-center">
-                    <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
-                        <OwlCarousel
-                            className="owl-theme"
-                            loop={true}
-                            nav={true}
-                            dots={false}
-                            autoplay={true}
-                            autoplayTimeout={4000}
-                            items={3}
-                            responsive={responsive}
-                        >
-                            {data1.map((card, index) => {
+                <Col md={12} lg={4}>
+                    <div className="owl-card text-center">
+                        <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
+                            <OwlCarousel
+                                className="owl-theme"
+                                loop={true}
+                                nav={true}
+                                dots={false}
+                                autoplay={true}
+                                autoplayTimeout={4000}
+                                items={3}
+                                responsive={responsive}
+                            >
+                                {data1.map((card, index) => {
+                                    return (
+                                        <div className="carousel-card" key={index}>
+                                            <img className="carousel-card-img" variant="top" src={card.img} alt={card.title} />
+                                            <div className="carousel-div">
+                                                <p className="carousel-title">{card.title}</p>
+                                                <p className="carousel-text">
+                                                    {card.desc}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </OwlCarousel>
+                        </ScrollAnimation>
+                    </div>
+                </Col>
+                <Col md={12} lg={4}>
+                    <div className="owl-card text-center mb-0">
+                        <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
+                            <OwlCarousel
+                                className="owl-theme"
+                                loop={true}
+                                nav={true}
+                                dots={false}
+                                autoplay={true}
+                                autoplayTimeout={4000}
+                                items={3}
+                                responsive={responsive}
+                            >{data2.map((card, index) => {
                                 return (
                                     <div className="carousel-card" key={index}>
                                         <img className="carousel-card-img" variant="top" src={card.img} alt={card.title} />
@@ -118,69 +146,41 @@ const CarousellCards = () => {
                                     </div>
                                 );
                             })}
-                        </OwlCarousel>
-                    </ScrollAnimation>
-                </div>
-            </Col>
-            <Col md={12} lg={4}>
-                <div className="owl-card text-center mb-0">
-                    <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
-                        <OwlCarousel
-                            className="owl-theme"
-                            loop={true}
-                            nav={true}
-                            dots={false}
-                            autoplay={true}
-                            autoplayTimeout={4000}
-                            items={3}
-                            responsive={responsive}
-                        >{data2.map((card, index) => {
-                            return (
-                                <div className="carousel-card" key={index}>
-                                    <img className="carousel-card-img" variant="top" src={card.img} alt={card.title} />
-                                    <div className="carousel-div">
-                                        <p className="carousel-title">{card.title}</p>
-                                        <p className="carousel-text">
-                                            {card.desc}
-                                        </p>
+                            </OwlCarousel>
+                        </ScrollAnimation>
+                    </div>
+                </Col>
+                <Col md={12} lg={4}>
+                    <div className="owl-card text-center">
+                        <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
+                            <OwlCarousel
+                                className="owl-theme"
+                                loop={true}
+                                nav={true}
+                                dots={false}
+                                autoplay={true}
+                                autoplayTimeout={4000}
+                                items={3}
+                                responsive={responsive}
+                            >{data3.map((card, index) => {
+                                return (
+                                    <div className="carousel-card" key={index}>
+                                        <img className="carousel-card-img" variant="top" src={card.img} alt={card.title} />
+                                        <div className="carousel-div">
+                                            <p className="carousel-title">{card.title}</p>
+                                            <p className="carousel-text">
+                                                {card.desc}
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            );
-                        })}
-                        </OwlCarousel>
-                    </ScrollAnimation>
-                </div>
-            </Col>
-            <Col md={12} lg={4}>
-                <div className="owl-card text-center">
-                    <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
-                        <OwlCarousel
-                            className="owl-theme"
-                            loop={true}
-                            nav={true}
-                            dots={false}
-                            autoplay={true}
-                            autoplayTimeout={4000}
-                            items={3}
-                            responsive={responsive}
-                        >{data3.map((card, index) => {
-                            return (
-                                <div className="carousel-card" key={index}>
-                                    <img className="carousel-card-img" variant="top" src={card.img} alt={card.title} />
-                                    <div className="carousel-div">
-                                        <p className="carousel-title">{card.title}</p>
-                                        <p className="carousel-text">
-                                            {card.desc}
-                                        </p>
-                                    </div>
-                                </div>
-                            );
-                        })}
-                        </OwlCarousel>
-                    </ScrollAnimation>
-                </div>
-            </Col>
-        </Row>
+                                );
+                            })}
+                            </OwlCarousel>
+                        </ScrollAnimation>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
     );
 }
 
