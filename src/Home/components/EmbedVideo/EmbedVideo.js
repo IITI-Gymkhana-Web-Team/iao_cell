@@ -19,15 +19,14 @@ const EmbedVideo = () => {
 			<Col md="12" lg="3">
 				<div className="embed-video-content">
 					<p className="embed-video-title">
-						About <span style={{ color: "#3668dd" }}>IIT Indore</span>
+						About IIT Indore
 					</p>
 					<hr />
 					<p className="embed-video-text">
 						Indian Institute of Technology Indore, located in Madhya Pradesh,
 						is an institute of national importance established by the Government of India in 2009.
 						<br /> Over the last eight years, our graduating students have been engaged with the best
-						corporations in India and worldwide, across different verticals. Many have also chosen the
-						less-traveled path of entrepreneurship. It is indeed a proud moment for us when our students
+						corporations in India and worldwide, across different verticals. It is indeed a proud moment for us when our students
 						contribute to society by creating jobs and changing lives.
 					</p>
 					<Link to="/Aboutiiti" className="embed-video-btn btn btn-outline-secondary">
@@ -37,11 +36,9 @@ const EmbedVideo = () => {
 			</Col>
 			<Col md="12" lg="6" className="embed-video-div m-0 p-0">
 				<div className="video-responsive">
-					<p className="embed-title">A Short Video about IITI</p>
+					<p className="embed-title mb-0">A Short Video about IITI</p>
 					<iframe
 						className="embed-iframe"
-						width="100%"
-						height="100%"
 						src="https://www.youtube.com/embed/Thjsxz31rRk"
 						title="YouTube video player"
 						frameborder="0"
@@ -50,13 +47,13 @@ const EmbedVideo = () => {
 					></iframe>
 				</div>
 			</Col>
-			<Col md="12" lg="3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+			<Col md="12" lg="3">
 				<div className="announce">
 					<p className="announce-title text-left">
 						Announcements
 					</p>
 					<hr />
-					<ListGroup variant="flush" ref={mainRef} className="announce-text">
+					<ListGroup variant="flush" ref={mainRef} className="announce-text mt-2">
 						<ListGroupItem>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						</ListGroupItem>
