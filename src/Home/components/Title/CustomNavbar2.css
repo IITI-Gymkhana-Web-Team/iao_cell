@@ -18,9 +18,9 @@
 }
 
 .mainLink2 {
-	margin: 0 10px;
+	margin: 0;
 	position: relative;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 .mainLink-heading2,
@@ -40,7 +40,7 @@
 
 .searchBox2 {
 	width: 200px;
-	border-radius: 15px;
+	border-radius: 5px;
 	padding: 5px 10px;
 }
 

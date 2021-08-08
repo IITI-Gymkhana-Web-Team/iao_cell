@@ -180,8 +180,12 @@ import math from "./math.webp";
 import ai from "./ai.webp";
 import wheat from "./wheat-min.png";
 import videoo from "./bgvideo4.mp4";
+import chemR from "./sks_acscatal_chem.gif";
+import phyR from "./prs_phyrevb_phy.gif";
 
 export {
+	phyR,
+	chemR,
 	ai,
 	videoo,
 	wheat,

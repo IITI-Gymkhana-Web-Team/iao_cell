@@ -14,7 +14,7 @@ export const Title = () => {
 	return (
 		<div className="Title">
 			<Navbar bg="light" variant="light" className="ba">
-				<div className="container-fluid">
+				<div className="container">
 					<Navbar.Brand href="/">
 						<img src={iiti_logo_4} alt="logo" className="titleLogo" />
 					</Navbar.Brand>

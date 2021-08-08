@@ -40,7 +40,7 @@ export const LifeIITI = () => {
 				<Iframe
 					width={width}
 					height={height}
-					src="https://www.youtube.com/embed/ASnDC7AhP3k"
+					src="https://www.youtube.com/embed/Thjsxz31rRk"
 					title="YouTube video player"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

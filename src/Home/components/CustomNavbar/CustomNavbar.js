@@ -9,11 +9,13 @@ import { NavOutreach } from "./NavOutreach";
 export const CustomNavbar = () => {
 	return (
 		<div className="customNavbar font-ubuntu">
-			<NavAboutUs />
-			<NavInbound />
-			<NavOutbound />
-			<NavCooperation />
-			<NavOutreach />
+			<div className="container customNavbar">
+				<NavAboutUs />
+				<NavInbound />
+				<NavOutbound />
+				<NavCooperation />
+				<NavOutreach />
+			</div>
 		</div>
 	);
 };
