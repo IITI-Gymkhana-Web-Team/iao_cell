@@ -15,28 +15,9 @@ const EmbedVideo = () => {
 		return () => clearInterval(interval);
 	}, []);
 	return (
-		<Row className="embed-video">
-			<Col md="12" lg="3">
-				<div className="embed-video-content">
-					<p className="embed-video-title">
-						About IIT Indore
-					</p>
-					<hr />
-					<p className="embed-video-text">
-						Indian Institute of Technology Indore, located in Madhya Pradesh,
-						is an institute of national importance established by the Government of India in 2009.
-						<br /> Over the last eight years, our graduating students have been engaged with the best
-						corporations in India and worldwide, across different verticals. It is indeed a proud moment for us when our students
-						contribute to society by creating jobs and changing lives.
-					</p>
-					<Link to="/Aboutiiti" className="embed-video-btn btn btn-outline-secondary">
-						Read More
-					</Link>
-				</div>
-			</Col>
-			<Col md="12" lg="6" className="embed-video-div m-0 p-0">
+		<Row className="embed-video container m-auto mt-4" style={{ marginTop: "50px !important" }}>
+			<Col md="12" lg="8" className="embed-video-div m-0 p-0" style={{ marginTop: "100px !important" }}>
 				<div className="video-responsive">
-					<p className="embed-title mb-0">A Short Video about IITI</p>
 					<iframe
 						className="embed-iframe"
 						src="https://www.youtube.com/embed/Thjsxz31rRk"
@@ -47,31 +28,17 @@ const EmbedVideo = () => {
 					></iframe>
 				</div>
 			</Col>
-			<Col md="12" lg="3">
+			<Col md="12" lg="4" style={{ paddingRight: "0" }}>
 				<div className="announce">
-					<p className="announce-title text-left">
-						Announcements
-					</p>
+					<p className="announce-title text-left">Announcements</p>
 					<hr />
 					<ListGroup variant="flush" ref={mainRef} className="announce-text mt-2">
-						<ListGroupItem>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</ListGroupItem>
-						<ListGroupItem>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</ListGroupItem>
-						<ListGroupItem>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</ListGroupItem>
-						<ListGroupItem>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</ListGroupItem>
-						<ListGroupItem>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</ListGroupItem>
-						<ListGroupItem>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</ListGroupItem>
+						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
+						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
+						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
+						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
+						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
+						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
 					</ListGroup>
 				</div>
 			</Col>

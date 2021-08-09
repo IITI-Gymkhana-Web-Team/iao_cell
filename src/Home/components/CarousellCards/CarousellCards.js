@@ -88,7 +88,7 @@ const CarousellCards = () => {
 	return (
 		<Container>
 			<Row className="carousel-row mt-5 mb-5">
-				<p className="owl-card-title">NEWS & ACTIVITIES</p>
+				<h2 className="owl-card-title font-acme mb-3">News & Activities</h2>
 				<Col md={12} lg={4}>
 					<div className="owl-card text-center">
 						<ScrollAnimation animateIn="slideInUp" animateOnce={true}>

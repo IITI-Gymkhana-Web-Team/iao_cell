@@ -8,7 +8,7 @@ import "./backVideo.css";
 
 export const BackVideo = () => {
 	return (
-		<div className="video-container">
+		<div className="video-container" style={{maxHeight: '80vh'}}>
 			<video controls disablePictureInPicture autoPlay muted loop controlsList="nodownload" id="myVideo">
 				<source src={videoo} type="video/mp4" />
 			</video>

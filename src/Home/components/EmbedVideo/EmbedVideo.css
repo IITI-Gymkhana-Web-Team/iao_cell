@@ -1,7 +1,9 @@
 .embed-video {
-	margin-top: 3rem;
+	margin-top: 5rem;
 	margin-bottom: 1rem;
 	padding: 1rem;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 .embed-video-content {
 	display: flex;
@@ -59,7 +61,8 @@
 	padding: 10px;
 	height: 100%;
 	width: 100%;
-	background-color: #c7d4f2;
+	/* background-color: #c7d4f2; */
+	padding-left: 0;
 }
 .announce {
 	display: flex;
@@ -69,6 +72,8 @@
 	justify-content: flex-start;
 	height: 100%;
 	padding: 0.5rem;
+	padding-right: 0;
+	padding-top: 0;
 	font-family: "Titillium Web", sans-serif, Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .announce-title {

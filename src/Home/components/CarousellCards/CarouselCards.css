@@ -44,8 +44,8 @@
 }
 .carousel-title {
 	padding-top: 0.5rem;
-	padding-bottom: 1rem;
-	font-size: 1.7rem;
+	padding-bottom: 0.25rem;
+	font-size: 1.3rem;
 	font-weight: 600;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #000;
@@ -53,17 +53,20 @@
 	text-align: left !important;
 }
 .carousel-text {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	text-align: justify;
 }
 .owl-card-title {
 	text-align: left;
 	font-size: 2rem;
-	color: #fff;
-	background-color: #3760c0;
 	font-weight: 400;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
-		sans-serif;
+}
+.owl-card-underline {
+	height: 5px;
+	width: 200px;
+	background-color: cornflowerblue;
+	margin-top: -15px;
+	margin-bottom: 40px;
 }
 .carousel-div {
 	display: flex;

@@ -21,7 +21,7 @@ import CarousellCards from "../../components/CarousellCards/CarousellCards";
 export const HomePage = () => {
 	return (
 		<div className="home">
-			<div>
+			<div style={{ marginBottom: "50px" }}>
 				<BackVideo />
 			</div>
 			{/* <div className="abc">
