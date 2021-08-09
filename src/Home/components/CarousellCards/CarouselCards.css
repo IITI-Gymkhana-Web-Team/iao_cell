@@ -9,9 +9,9 @@
 .owl-card:hover .owl-next {
 	display: block !important;
 }
-.carousel-row {
+/* .carousel-row {
 	margin: 1.3rem;
-}
+} */
 .owl-card .owl-prev,
 .owl-card .owl-next {
 	position: absolute;

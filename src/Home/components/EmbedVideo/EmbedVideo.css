@@ -4,6 +4,7 @@
 	padding: 1rem;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
+	max-width: 1140px !important;
 }
 .embed-video-content {
 	display: flex;
