@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiChevronDown } from "react-icons/fi";
 
-export const NavOutbound = () => {
+export const NavOutbound = ({ setVal, highlight }) => {
 	const [show, setShow] = useState(false);
 
 	const hideNav = () => {
@@ -13,9 +13,18 @@ export const NavOutbound = () => {
 		setShow(true);
 	};
 
+	const handleLinkClick = () => {
+		setVal(3);
+		hideNav();
+	};
+
 	return (
 		<div className="mainLink" onMouseLeave={hideNav}>
-			<p className="mainLink-heading" onMouseEnter={showNav}>
+			<p
+				className="mainLink-heading"
+				onMouseEnter={showNav}
+				style={highlight ? { color: "#fff", backgroundColor: "#0066b9" } : {}}
+			>
 				Outbound <FiChevronDown />
 			</p>
 			{show && (
@@ -25,7 +34,7 @@ export const NavOutbound = () => {
 							For Students
 						</p>
 						<div className="d-flex flex-wrap" style={{ justifyContent: "space-between" }}>
-							<div className="mb-3">
+							<div className="mb-3 mr-3">
 								<p className="navHeading nh2">UK Scholarships</p>
 								<div>
 									<p>
@@ -84,7 +93,7 @@ export const NavOutbound = () => {
 									</p>
 								</div>
 							</div>
-							<div className="mb-3">
+							<div className="mb-3 mr-3">
 								<p className="navHeading nh2">German Scholarships</p>
 								<div>
 									<p>
@@ -130,7 +139,7 @@ export const NavOutbound = () => {
 									</p>
 								</div>
 							</div>
-							<div className="mb-3">
+							<div className="mb-3 mr-3">
 								<p className="navHeading nh2">French Scholarships</p>
 								<div>
 									<p>
@@ -158,7 +167,7 @@ export const NavOutbound = () => {
 									</p>
 								</div>
 							</div>
-							<div className="mb-3">
+							<div className="mb-3 mr-3">
 								<p className="navHeading nh2">Canadian Scholarships</p>
 								<div>
 									<p>
@@ -182,7 +191,7 @@ export const NavOutbound = () => {
 									</p>
 								</div>
 							</div>
-							<div className="mb-3">
+							<div className="mb-3 mr-3">
 								<p className="navHeading nh2">Japanese Scholarships</p>
 								<div>
 									<p>
@@ -201,7 +210,7 @@ export const NavOutbound = () => {
 									</p>
 								</div>
 							</div>
-							<div className="mb-3">
+							<div className="mb-3 mr-3">
 								<p className="navHeading nh2">Other Scholarships</p>
 								<div className="d-flex">
 									<div style={{ marginRight: "20px" }}>
@@ -278,16 +287,16 @@ export const NavOutbound = () => {
 									</div>
 								</div>
 							</div>
-							<div className="mb-3">
+							<div className="mb-3 mr-3">
 								<p className="navHeading nh2">Other Links</p>
 								<div>
 									<p>
-										<Link onClick={hideNav} to="/opportunities/internships">
+										<Link onClick={handleLinkClick} to="/opportunities/internships">
 											Internships
 										</Link>
 									</p>
 									<p>
-										<Link onClick={hideNav} to="/opportunities/pg_phd_post_doc">
+										<Link onClick={handleLinkClick} to="/opportunities/pg_phd_post_doc">
 											PG / PhD / Post Doc
 										</Link>
 									</p>

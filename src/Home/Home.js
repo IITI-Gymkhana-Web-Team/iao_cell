@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HomePage } from "./pages/Homepage/HomePage";
 import { People } from "./pages/Peoplepage/People";
@@ -40,15 +40,17 @@ import { Director } from "./components/Director/Director";
 import { CustomNavbar } from "./components/CustomNavbar/CustomNavbar";
 
 export const Home = () => {
+	const [val, setVal] = useState(0);
+
 	return (
 		<Router basename="/">
 			<ScrollToTop />
 			<div style={{ position: "sticky", top: "0", zIndex: "200" }}>
-				<Title />
+				<Title setVal={setVal} />
 				<div className="mainNav">
 					{/*<Nav2 />*/}
 					{/*<Nav />*/}
-					<CustomNavbar />
+					<CustomNavbar val={val} setVal={setVal} />
 				</div>
 			</div>
 			<div className="mainScreen">

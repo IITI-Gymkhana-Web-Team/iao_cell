@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
-
 .customNavbar {
 	display: flex;
 	align-items: center;
 	background-color: rgb(0, 46, 83);
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
-	padding: 5px;
+	padding: 0;
 }
 
 .customNavbar p {
@@ -42,7 +40,7 @@
 }
 
 .mainLink {
-	margin: 0 10px;
+	margin: 0;
 	position: relative;
 	cursor: pointer;
 }
@@ -50,12 +48,14 @@
 .mainLink-heading,
 .mainLink-heading a {
 	background-color: transparent;
-	padding: 10px;
+	padding: 10px 25px;
 	/* border-radius: 15px 15px 0 0; */
 	color: #fff !important;
 	opacity: 1;
-	font-size: 18px;
-	font-family: "Roboto Slab";
+	font-size: 20px;
+	font-family: "Arial", sans-serif;
+	font-weight: 700;
+	margin-bottom: 0px !important;
 }
 
 .mainLink > div {
@@ -64,7 +64,7 @@
 	position: fixed;
 	background-color: #fff;
 	border-radius: 5px;
-	top: 175px;
+	top: 165px;
 	margin: auto;
 	left: 5vw;
 	cursor: default;
@@ -90,14 +90,14 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: flex-start;
-	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.8);
+	/* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.8); */
 }
 
 .mainLink:hover .mainLink-heading,
 .mainLink:hover .mainLink-heading a {
-	color: var(--titleBgColor) !important;
-	background-color: #fff;
-	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.8);
+	color: #00467f !important;
+	background-color: #fff !important;
+	/* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.8); */
 }
 
 @keyframes navHover {

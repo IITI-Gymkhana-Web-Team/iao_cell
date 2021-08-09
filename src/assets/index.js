@@ -8,7 +8,7 @@ import unnamed from "./unnamed.webp";
 import image2 from "./image2.webp";
 import iiti_2 from "./iiti_2.png";
 import dean from "./dean.webp";
-import iiti_logo_4 from "./iiti_logo_4.png";
+import iiti_logo_4 from "./iiti_logo_4_1.png";
 import avinash from "./av2.webp";
 import raghu from "./Raghunath.webp";
 import sanjay from "./Sanjay.webp";

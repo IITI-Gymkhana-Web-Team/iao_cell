@@ -7,7 +7,7 @@ import { BiMenu } from "react-icons/bi";
 import { MobileMenu } from "../MobileMenu/MobileMenu";
 import { CustomNavbar } from "./CustomNavbar";
 
-export const Title = () => {
+export const Title = ({ setVal }) => {
 	const [show, setShow] = useState(false);
 	const [i, setI] = useState(0);
 
@@ -18,7 +18,7 @@ export const Title = () => {
 					<Navbar.Brand href="/">
 						<img src={iiti_logo_4} alt="logo" className="titleLogo" />
 					</Navbar.Brand>
-					<CustomNavbar />
+					<CustomNavbar setVal={setVal} />
 					<BiMenu
 						className="burger"
 						onClick={() => {

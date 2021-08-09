@@ -2,14 +2,18 @@ import React from "react";
 import "./CustomNavbar2.css";
 import { Link } from "react-router-dom";
 import { ImHome } from "react-icons/im";
-import { IoCallSharp } from "react-icons/io5";
 
-export const CustomNavbar = () => {
+export const CustomNavbar = ({ setVal }) => {
 	return (
 		<div className="customNavbar2 font-ubuntu">
 			<div className="mainLink2">
 				<p className="mainLink-heading2">
-					<Link to="/">
+					<Link
+						to="/"
+						onClick={() => {
+							setVal(0);
+						}}
+					>
 						<ImHome />
 					</Link>
 				</p>
@@ -19,8 +23,13 @@ export const CustomNavbar = () => {
 			</div>
 			<div className="mainLink2 mr-3">
 				<p className="mainLink-heading2">
-					<Link to="/contact">
-						<IoCallSharp />
+					<Link
+						to="/contact"
+						onClick={() => {
+							setVal(1);
+						}}
+					>
+						Reach Us
 					</Link>
 				</p>
 			</div>

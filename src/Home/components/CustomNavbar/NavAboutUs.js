@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiChevronDown } from "react-icons/fi";
 
-export const NavAboutUs = () => {
+export const NavAboutUs = ({ setVal, highlight }) => {
 	const [show, setShow] = useState(false);
 
 	const hideNav = () => {
@@ -13,9 +13,18 @@ export const NavAboutUs = () => {
 		setShow(true);
 	};
 
+	const handleLinkClick = () => {
+		setVal(1);
+		hideNav();
+	};
+
 	return (
 		<div className="mainLink" onMouseLeave={hideNav}>
-			<p className="mainLink-heading" onMouseEnter={showNav}>
+			<p
+				className="mainLink-heading"
+				onMouseEnter={showNav}
+				style={highlight ? { color: "#fff", backgroundColor: "#0066b9" } : {}}
+			>
 				About Us <FiChevronDown />
 			</p>
 			{show && (
@@ -24,17 +33,17 @@ export const NavAboutUs = () => {
 						<p className="navHeading nh1">About Us</p>
 						<div>
 							<p>
-								<Link onClick={hideNav} to="/Aboutioa">
+								<Link onClick={handleLinkClick} to="/Aboutioa">
 									About IAO
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/Aboutiiti">
+								<Link onClick={handleLinkClick} to="/Aboutiiti">
 									About IITI
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/LifeIITI">
+								<Link onClick={handleLinkClick} to="/LifeIITI">
 									Campus Life @ IITI
 								</Link>
 							</p>
@@ -44,22 +53,22 @@ export const NavAboutUs = () => {
 						<p className="navHeading nh1">People</p>
 						<div>
 							<p>
-								<Link onClick={hideNav} to="/people/oia">
+								<Link onClick={handleLinkClick} to="/people/oia">
 									International Affairs
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/people/sc">
+								<Link onClick={handleLinkClick} to="/people/sc">
 									SIA Cell
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/committee/oc">
+								<Link onClick={handleLinkClick} to="/committee/oc">
 									Outreach Committee
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/committee/mec">
+								<Link onClick={handleLinkClick} to="/committee/mec">
 									ISMAE Committee
 								</Link>
 							</p>
@@ -75,7 +84,7 @@ export const NavAboutUs = () => {
 									</a>
 								</p>
 								<p>
-									<Link onClick={hideNav} to="/guestHouse">
+									<Link onClick={handleLinkClick} to="/guestHouse">
 										Guest House
 									</Link>
 								</p>
@@ -135,7 +144,7 @@ export const NavAboutUs = () => {
 					</div>
 
 					<div>
-						<p className="navHeading nh1">Research</p>
+						<p className="navHeading nh1">Academics and Research</p>
 						<div>
 							<p>
 								<a href="http://rnd.iiti.ac.in/" target="_blank" rel="noreferrer">
@@ -153,12 +162,12 @@ export const NavAboutUs = () => {
 						<p className="navHeading nh1">Engage With Us</p>
 						<div>
 							<p>
-								<Link onClick={hideNav} to="/contact">
+								<Link onClick={handleLinkClick} to="/contact">
 									Contact
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/outreach/news">
+								<Link onClick={handleLinkClick} to="/outreach/news">
 									News & Events
 								</Link>
 							</p>

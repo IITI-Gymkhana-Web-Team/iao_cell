@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiChevronDown } from "react-icons/fi";
 
-export const NavInbound = () => {
+export const NavInbound = ({ setVal, highlight }) => {
 	const [show, setShow] = useState(false);
 
 	const hideNav = () => {
@@ -13,44 +13,58 @@ export const NavInbound = () => {
 		setShow(true);
 	};
 
+	const handleLinkClick = () => {
+		setVal(2);
+		hideNav();
+	};
+
 	return (
 		<div className="mainLink" onMouseLeave={hideNav}>
-			<p className="mainLink-heading" onMouseEnter={showNav}>
+			<p
+				className="mainLink-heading"
+				onMouseEnter={showNav}
+				style={highlight ? { color: "#fff", backgroundColor: "#0066b9" } : {}}
+			>
 				Inbound <FiChevronDown />
 			</p>
 			{show && (
-				<div style={{ width: "70%", left: "15%", maxHeight: "50vh" }}>
+				<div style={{ width: "90%", left: "5%", maxHeight: "50vh" }}>
 					<div>
 						<p className="navHeading nh1">Visitors</p>
 						<div>
 							<p>
-								<Link onClick={hideNav} to="/Pros/visitors_experience">
+								<Link onClick={handleLinkClick} to="/Pros/visitors_experience">
 									Visitors' Experience
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/Pros/places">
+								<Link onClick={handleLinkClick} to="/Pros/places">
 									Places To Visit
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/int/students">
+								<Link onClick={handleLinkClick} to="/int/students">
 									Intl. Students' List
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/LifeIITI">
+								<Link onClick={handleLinkClick} to="/LifeIITI">
 									Campus Life@IITI
 								</Link>
+							</p>
+						</div>
+					</div>
+					<div>
+						<p className="navHeading nh1">Academics and Research</p>
+						<div>
+							<p>
+								<a href="http://rnd.iiti.ac.in/" target="_blank" rel="noreferrer">
+									Research and Development
+								</a>
 							</p>
 							<p>
 								<a href="https://academic.iiti.ac.in/" target="_blank" rel="noreferrer">
 									Academic Programs
-								</a>
-							</p>
-							<p>
-								<a href="http://rnd.iiti.ac.in/" target="_blank" rel="noreferrer">
-									Research and Development
 								</a>
 							</p>
 						</div>
@@ -59,17 +73,17 @@ export const NavInbound = () => {
 						<p className="navHeading nh1">Students</p>
 						<div>
 							<p>
-								<Link onClick={hideNav} to="/admission">
+								<Link onClick={handleLinkClick} to="/admission">
 									Admission
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/programs">
+								<Link onClick={handleLinkClick} to="/programs">
 									Programs
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/visa">
+								<Link onClick={handleLinkClick} to="/visa">
 									Visa Process
 								</Link>
 							</p>
@@ -79,7 +93,7 @@ export const NavInbound = () => {
 						<p className="navHeading nh1">Researchers</p>
 						<div>
 							<p>
-								<Link onClick={hideNav} to="/visa">
+								<Link onClick={handleLinkClick} to="/visa">
 									Visa Process
 								</Link>
 							</p>
@@ -118,22 +132,22 @@ export const NavInbound = () => {
 						<p className="navHeading nh1">MHRD Schemes</p>
 						<div>
 							<p>
-								<Link onClick={hideNav} to="/mhrd/gian">
+								<Link onClick={handleLinkClick} to="/mhrd/gian">
 									GIAN
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/mhrd/vajra">
+								<Link onClick={handleLinkClick} to="/mhrd/vajra">
 									VAJRA
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/mhrd/sparc">
+								<Link onClick={handleLinkClick} to="/mhrd/sparc">
 									SPARC
 								</Link>
 							</p>
 							<p>
-								<Link onClick={hideNav} to="/mhrd/asem">
+								<Link onClick={handleLinkClick} to="/mhrd/asem">
 									ASEM - DUO
 								</Link>
 							</p>
