@@ -1,4 +1,5 @@
-.customNavbar {
+.customNavbar,
+.customNavbarLinks {
 	display: flex;
 	align-items: center;
 	background-color: rgb(0, 46, 83);
@@ -50,7 +51,7 @@
 	background-color: transparent;
 	padding: 10px 25px;
 	/* border-radius: 15px 15px 0 0; */
-	color: #fff !important;
+	color: #fff;
 	opacity: 1;
 	font-size: 20px;
 	font-family: "Arial", sans-serif;
@@ -58,28 +59,17 @@
 	margin-bottom: 0px !important;
 }
 
-.mainLink > div {
+.navDiv .mainLink > div {
 	height: 0;
 	width: 90vw;
-	position: fixed;
+	/* position: absolute; */
 	background-color: #fff;
 	border-radius: 5px;
-	top: 165px;
 	margin: auto;
-	left: 5vw;
 	cursor: default;
 	z-index: 200;
 	color: #000;
 	overflow: hidden;
-	display: none;
-	/* animation-name: navNoHover;
-	animation-duration: 0.2s;
-	animation-fill-mode: forwards;
-	animation-iteration-count: 1;
-	animation-timing-function: ease; */
-}
-
-.mainLink:hover > div {
 	animation-name: navHover;
 	animation-duration: 0.5s;
 	animation-fill-mode: forwards;
@@ -90,15 +80,13 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: flex-start;
-	/* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.8); */
 }
 
-.mainLink:hover .mainLink-heading,
+/* .mainLink:hover .mainLink-heading,
 .mainLink:hover .mainLink-heading a {
 	color: #00467f !important;
 	background-color: #fff !important;
-	/* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.8); */
-}
+} */
 
 @keyframes navHover {
 	0% {
