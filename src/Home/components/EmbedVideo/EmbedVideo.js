@@ -1,9 +1,23 @@
-import React, { useEffect, useRef,useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import "./EmbedVideo.css";
 
 const EmbedVideo = () => {
+	const [announcements, setAnnouncements] = useState([]);
+
+	useEffect(() => {
+		setAnnouncements([
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		]);
+	}, []);
+
 	const mainRef = useRef(null);
 	useEffect(() => {
 		if (mainRef.current) {
@@ -16,16 +30,6 @@ const EmbedVideo = () => {
 			return () => clearInterval(interval);
 		}
 	}, []);
-
-	const [announcements, setAnnouncements] = useState([
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-	]);
 
 	return (
 		<Row className="embed-video container m-auto mt-4">

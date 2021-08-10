@@ -5,7 +5,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Col, Container, Row } from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
-import { nsd2020, chem_talks_news, ai, d2, g, chemR, phyR } from "../../../assets";
+import { chemR, phyR } from "../../../assets";
 import { data as newsData } from "../NewsPage/data";
 import { data as eventsData } from "../EventsPage/data";
 
