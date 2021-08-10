@@ -34,7 +34,7 @@ export const CustomNavbar = ({ val, setVal }) => {
 	};
 
 	return (
-		<div className="customNavbar font-ubuntu" style={{ overflow: "visible", height: "50px" }}>
+		<div className="customNavbar font-ubuntu" style={{ overflow: "visible", height: "50px", width: "100vw" }}>
 			<div onMouseLeave={hideMyDiv} style={{ overflow: "visible", height: "50px" }}>
 				<div className="customNavbarLinks">
 					<div className="mainLink">

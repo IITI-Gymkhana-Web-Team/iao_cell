@@ -62,7 +62,6 @@
 .navDiv .mainLink > div {
 	height: 0;
 	width: 90vw;
-	/* position: absolute; */
 	background-color: #fff;
 	border-radius: 5px;
 	margin: auto;
@@ -81,12 +80,6 @@
 	justify-content: space-between;
 	align-items: flex-start;
 }
-
-/* .mainLink:hover .mainLink-heading,
-.mainLink:hover .mainLink-heading a {
-	color: #00467f !important;
-	background-color: #fff !important;
-} */
 
 @keyframes navHover {
 	0% {
