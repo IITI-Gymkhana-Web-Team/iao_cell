@@ -18,7 +18,7 @@ export const NavOutreach = ({ handleLinkClick }) => {
 						</div>
 						<div className="outreachDivs">
 							<Link to="/" onClick={linkClick}>
-								<p className="navHeading nh1">Public lectures</p>
+								<p className="navHeading nh1">Public Lectures</p>
 							</Link>
 						</div>
 						<div className="outreachDivs">
@@ -38,7 +38,7 @@ export const NavOutreach = ({ handleLinkClick }) => {
 						</div>
 						<div className="outreachDivs">
 							<Link to="/" onClick={linkClick}>
-								<p className="navHeading nh1">Visits of School kids</p>
+								<p className="navHeading nh1">Visits of School Kids</p>
 							</Link>
 						</div>
 					</div>

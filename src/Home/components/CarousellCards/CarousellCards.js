@@ -6,62 +6,26 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Col, Container, Row } from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 import { nsd2020, chem_talks_news, ai, d2, g, chemR, phyR } from "../../../assets";
+import { data as newsData } from "../NewsPage/data";
+import { data as eventsData } from "../EventsPage/data";
 
 const CarousellCards = () => {
 	const data1 = [
 		{
-			img: chemR,
+			image: chemR,
 			title: "Direct H2O2 synthesis",
 			desc: "Catalysis group, IIT Indore and KIT Germany reported their work on shape-selective Pd3Pb nanocrystals based catalysts for direct H2O2 synthesis. Their findings inferred the tuning in electronic structure and lack of Pd ensembles retarted O-O cleavage.",
 			link: "https://pubs.acs.org/doi/abs/10.1021/acscatal.0c03561",
 		},
 		{
-			img: phyR,
+			image: phyR,
 			title: "Origin of natural and magnetic field induced polar order",
 			desc: "The group of Dr. Sagdeo, IIT Indore and STFC Rutherford Appleton Laboratory, UK have reported the possible origin of natural and magnetic field induced switchable polar order near room temperature (RT) in PrFe1/2Cr1/2O3",
 			link: "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.035101",
 		},
 	];
-	const data2 = [
-		{
-			img: nsd2020,
-			title: "Lorem Ipsum",
-			desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			link: "http://astronomy.iiti.ac.in/",
-		},
-		{
-			img: d2,
-			title: "Lorem Ipsum",
-			desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-			link: "http://bsbe.iiti.ac.in/",
-		},
-		{
-			img: chem_talks_news,
-			title: "Lorem Ipsum",
-			desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-			link: "http://chemistry.iiti.ac.in/",
-		},
-	];
-	const data3 = [
-		{
-			img: nsd2020,
-			title: "Lorem Ipsum",
-			desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			link: "http://astronomy.iiti.ac.in/",
-		},
-		{
-			img: ai,
-			title: "Lorem Ipsum",
-			desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-			link: "http://bsbe.iiti.ac.in/",
-		},
-		{
-			img: g,
-			title: "Lorem Ipsum",
-			desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-			link: "http://chemistry.iiti.ac.in/",
-		},
-	];
+	const data2 = newsData.slice(0, 5);
+	const data3 = eventsData.slice(0, 5);
 
 	const responsive = {
 		3000: {
@@ -114,7 +78,7 @@ const CarousellCards = () => {
 											<img
 												className="carousel-card-img"
 												variant="top"
-												src={card.img}
+												src={card.image}
 												alt={card.title}
 											/>
 											<div className="carousel-div">
@@ -147,13 +111,13 @@ const CarousellCards = () => {
 											className="carousel-card"
 											key={index}
 											onClick={() => {
-												openURL(card.link);
+												// openURL(card.link);
 											}}
 										>
 											<img
 												className="carousel-card-img"
 												variant="top"
-												src={card.img}
+												src={card.image}
 												alt={card.title}
 											/>
 											<div className="carousel-div">
@@ -186,7 +150,7 @@ const CarousellCards = () => {
 											className="carousel-card"
 											key={index}
 											onClick={() => {
-												openURL(card.link);
+												// openURL(card.link);
 											}}
 										>
 											<img
@@ -197,7 +161,9 @@ const CarousellCards = () => {
 											/>
 											<div className="carousel-div">
 												<p className="carousel-title">{card.title}</p>
-												<p className="carousel-text">{card.desc}</p>
+												<p className="carousel-text">
+													{card.desc !== "" ? card.desc : card.speakers[0].desc}
+												</p>
 											</div>
 										</div>
 									);
