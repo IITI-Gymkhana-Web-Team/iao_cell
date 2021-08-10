@@ -6,13 +6,15 @@ import "./EmbedVideo.css";
 const EmbedVideo = () => {
 	const mainRef = useRef(null);
 	useEffect(() => {
-		var pos = 100;
-		const interval = setInterval(() => {
-			mainRef.current.scrollTop = pos;
-			if (pos === 437) pos = 0;
-			else pos += 1;
-		}, 2);
-		return () => clearInterval(interval);
+		if (mainRef.current) {
+			var pos = 100;
+			const interval = setInterval(() => {
+				mainRef.current.scrollTop = pos;
+				if (pos === 437) pos = 0;
+				else pos += 1;
+			}, 2);
+			return () => clearInterval(interval);
+		}
 	}, []);
 	return (
 		<Row className="embed-video container m-auto mt-4">
