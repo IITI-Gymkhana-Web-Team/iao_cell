@@ -21,9 +21,9 @@ export default function Message() {
 					<div className="container-fluid p-3">
 						<img src={neelesh} className="img-thumbnail" alt="img-responsive" />
 						<div className="mb-2">
-							<h1>Director's Message</h1>
+							<h2>Director's Message</h2>
 						</div>
-						<h3 className="font-acme messageBy">Prof. Neelesh Kumar Jain</h3>
+						<h4 className="font-acme messageBy">Prof. Neelesh Kumar Jain</h4>
 						<hr />
 						<div
 							style={{
@@ -36,11 +36,10 @@ export default function Message() {
 								<FaQuoteLeft className="fa2" />
 								<div className="text">
 									<p>
-										As IIT Indore steps into the next decade, it carries forward
-										the culture of excellence and hard work embedded in its
-										social environment by maximizing the internationalization of
-										higher education globally and enhancing the excellence among
-										the faculties and students.
+										As IIT Indore steps into the next decade, it carries forward the culture of
+										excellence and hard work embedded in its social environment by maximizing the
+										internationalization of higher education globally and enhancing the excellence
+										among the faculties and students.
 									</p>
 								</div>
 								<FaQuoteRight className="fa1" />
@@ -60,9 +59,9 @@ export default function Message() {
 					<div className="container-fluid p-3">
 						<img src={av2} className="img-thumbnail" alt="img-responsive" />
 						<div className="mb-2">
-							<h1>Dean's Message</h1>
+							<h2>Dean's Message</h2>
 						</div>
-						<h3 className="font-acme messageBy">Prof. Avinash Sonawane</h3>
+						<h4 className="font-acme messageBy">Prof. Avinash Sonawane</h4>
 						<hr />
 						<div
 							style={{
@@ -75,11 +74,10 @@ export default function Message() {
 								<FaQuoteLeft className="fa2" />
 								<div className="text">
 									<p>
-										We, at International Affairs and Outreach, IIT Indore, deal
-										with the partner Universities across the globe for academic
-										and research collaborations, which facilitate opportunities
-										to IITI and partner institute’s students and faculties for
-										mobility, research, exchange, and internships.
+										We, at International Affairs and Outreach, IIT Indore, deal with the partner
+										Universities across the globe for academic and research collaborations, which
+										facilitate opportunities to IITI and partner institute’s students and faculties
+										for mobility, research, exchange, and internships.
 									</p>
 								</div>
 								<FaQuoteRight className="fa1" />

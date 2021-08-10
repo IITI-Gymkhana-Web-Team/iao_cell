@@ -16,12 +16,12 @@
 	box-shadow: 0 0 15px;
 }
 
-.messageBox h1 {
+.messageBox h2 {
 	font-family: "Roboto";
 }
 
-.messageBox h1,
-.messageBox h3 {
+.messageBox h2,
+.messageBox h4 {
 	display: inline;
 }
 
@@ -65,8 +65,8 @@
 	.messageBox {
 		text-align: center;
 	}
-	.messageBox h1,
-	.messageBox h3 {
+	.messageBox h2,
+	.messageBox h4 {
 		display: block;
 	}
 	.brtag {
@@ -108,7 +108,7 @@
 .quoteBox {
 	position: relative;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.25rem;
 	font-style: italic;
 }
 .fa1 {
@@ -130,17 +130,12 @@ hr {
 	border: 0;
 	height: 1px;
 	width: 40%;
-	background-image: linear-gradient(
-		to right,
-		rgba(0, 0, 0, 0),
-		rgba(0, 0, 0, 0.75),
-		rgba(0, 0, 0, 0)
-	);
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 @media only screen and (max-width: 800px) {
-	.messageBox h1,
-	.messageBox h3 {
+	.messageBox h2,
+	.messageBox h4 {
 		font-size: 1.7rem !important;
 	}
 	.messageBox p {

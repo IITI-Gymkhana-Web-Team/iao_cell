@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef,useState } from "react";
 import { Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import "./EmbedVideo.css";
@@ -16,6 +16,17 @@ const EmbedVideo = () => {
 			return () => clearInterval(interval);
 		}
 	}, []);
+
+	const [announcements, setAnnouncements] = useState([
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	]);
+
 	return (
 		<Row className="embed-video container m-auto mt-4">
 			<Col md="12" lg="8" className="embed-video-div m-0 p-0" style={{ marginTop: "100px !important" }}>
@@ -32,15 +43,16 @@ const EmbedVideo = () => {
 			</Col>
 			<Col md="12" lg="4" style={{ paddingRight: "0" }}>
 				<div className="announce">
-					<p className="announce-title text-left">Announcements</p>
+					<p className="announce-title text-left font-acme">Announcements</p>
 					<hr />
 					<ListGroup variant="flush" ref={mainRef} className="announce-text mt-2">
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
+						{announcements.map((announcement, index) => {
+							return (
+								<ListGroupItem key={index} className="font-ubuntu" style={{ fontSize: "1rem" }}>
+									{announcement}
+								</ListGroupItem>
+							);
+						})}
 					</ListGroup>
 				</div>
 			</Col>
