@@ -21,6 +21,7 @@ import { Gian } from "./components/MHRDPage/Gian";
 import { IndiEvent } from "./components/EventsPage/IndiEvent";
 import { NotFound } from "./components/NotFound/NotFound";
 import { IndiNews } from "./components/NewsPage/IndiNews";
+import { Nsd } from "./components/Nsd/Nsd";
 import { CommitteesPage } from "./pages/CommitteesPage/CommitteesPage";
 import { Mou2 } from "./components/Collaborations/Mou2";
 import { MobilityExchange } from "./components/MobilityExchange/MobilityExchange";
@@ -100,6 +101,7 @@ export const Home = () => {
 					<Route path="/opportunities/scholarship" exact component={Scholarship} />
 					<Route path="/outreach/news" exact component={NewsPage} />
 					<Route path="/outreach/news/:id" exact component={IndiNews} />
+					<Route path="/outreach/Nsd" exact component={Nsd} />
 					<Route path="/outreach/events" exact component={EventsPage} />
 					<Route path="/outreach/events/:id" exact component={IndiEvent} />
 					<Route path="/contact" exact component={ReachUs} />
