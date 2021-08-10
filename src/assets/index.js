@@ -182,8 +182,20 @@ import wheat from "./wheat-min.png";
 import videoo from "./bgvideo4.mp4";
 import chemR from "./sks_acscatal_chem.gif";
 import phyR from "./prs_phyrevb_phy.gif";
+import college from "./college.jpg";
+import conference from "./conference.jpg";
+import events from "./events.jpg";
+import lecture from "./lecture.jpg";
+import school from "./school.jpg";
+import science from "./science.jpg";
 
 export {
+	college,
+	conference,
+	events,
+	lecture,
+	school,
+	science,
 	phyR,
 	chemR,
 	ai,

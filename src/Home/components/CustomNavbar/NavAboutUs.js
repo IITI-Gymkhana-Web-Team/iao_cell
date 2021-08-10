@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import iaoBrochure from "../../../assets/Institute Brochure-IAO.pdf";
 
 export const NavAboutUs = ({ handleLinkClick }) => {
 	const linkClick = () => {
@@ -26,6 +27,16 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 							<Link onClick={linkClick} to="/LifeIITI">
 								Campus Life @ IITI
 							</Link>
+						</p>
+						<p>
+							<Link onClick={linkClick} to="/Pros/places">
+								Places To Visit
+							</Link>
+						</p>
+						<p>
+							<a href={iaoBrochure} target="_blank" rel="noreferrer">
+								IAO Brochure
+							</a>
 						</p>
 					</div>
 				</div>

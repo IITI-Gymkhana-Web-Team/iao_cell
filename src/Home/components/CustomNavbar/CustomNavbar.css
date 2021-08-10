@@ -81,6 +81,48 @@
 	align-items: flex-start;
 }
 
+.outreachDivs {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 10px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 10px;
+	max-width: 15%;
+}
+
+.outreachDivs p {
+	color: #fff !important;
+}
+
+.outreachDivs:nth-child(1) {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("../../../assets/conference.jpg");
+	background-size: cover;
+}
+.outreachDivs:nth-child(2) {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/lecture.jpg");
+	background-size: cover;
+}
+.outreachDivs:nth-child(3) {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/science.jpg");
+	background-size: cover;
+}
+.outreachDivs:nth-child(4) {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/college.jpg");
+	background-size: cover;
+}
+.outreachDivs:nth-child(5) {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/events.jpg");
+	background-size: cover;
+}
+.outreachDivs:nth-child(6) {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/school.jpg");
+	background-size: cover;
+}
+
 @keyframes navHover {
 	0% {
 		height: 0;
