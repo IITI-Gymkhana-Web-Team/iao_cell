@@ -32,7 +32,7 @@ export const NavOutreach = ({ handleLinkClick }) => {
 							</Link>
 						</div>
 						<div className="outreachDivs">
-							<Link to="/" onClick={linkClick}>
+							<Link to="/outreach/events" onClick={linkClick}>
 								<p className="navHeading nh1">Events & Activities</p>
 							</Link>
 						</div>
