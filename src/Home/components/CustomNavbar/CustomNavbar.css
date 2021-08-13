@@ -8,8 +8,18 @@
 	padding: 0;
 }
 
+.customNavbarLinks {
+	height: 100%;
+}
+
 .customNavbar p {
 	margin-bottom: 5px;
+}
+
+.mainLink-heading {
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
 
 .customNavbar a {
@@ -44,6 +54,7 @@
 	margin: 0;
 	position: relative;
 	cursor: pointer;
+	height: 100%;
 }
 
 .mainLink-heading,
