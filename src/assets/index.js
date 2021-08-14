@@ -188,8 +188,16 @@ import events from "./events1.webp";
 import lecture from "./lecture.webp";
 import school from "./school.webp";
 import science from "./science.webp";
+import nsd1 from "./nsd1.jpg";
+import nsd2 from "./nsd2.jpg";
+import nsd3 from "./nsd3.jpg";
+import nsd4 from "./nsd4.jpg";
 
 export {
+	nsd1,
+	nsd2,
+	nsd3,
+	nsd4,
 	college,
 	conference,
 	events,

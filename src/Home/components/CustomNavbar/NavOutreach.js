@@ -65,7 +65,14 @@ export const NavOutreach = ({ handleLinkClick }) => {
 					</div>
 				</div>
 				<div>
-					<p className="navHeading nh1">National Science Day</p>
+					<p className="navHeading nh1">Events & Activities</p>
+					<div>
+						<p>
+							<Link onClick={linkClick} to="/outreach/nsd">
+								National Science Day
+							</Link>
+						</p>
+					</div>
 				</div>
 				<div>
 					<p className="navHeading nh1">Visits of School Kids</p>
