@@ -5,6 +5,7 @@
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	max-width: 1140px !important;
+	justify-content: space-between !important;
 }
 .embed-video-content {
 	display: flex;
