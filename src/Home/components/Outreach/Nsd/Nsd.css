@@ -1,18 +1,15 @@
-
-
 .nsdPage .card {
 	flex-direction: column;
 	width: min(100%, 400px);
-    background-color: rgb(248, 249, 250);
+	background-color: rgb(248, 249, 250);
 	margin: 10px;
-	pointer-events: none;
+	/* pointer-events: none; */
 }
 
-.nsdPage .card .card-body{
+.nsdPage .card .card-body {
 	margin-left: 0px;
 	padding-left: 0px;
 }
-
 
 .nsdPage > div {
 	display: flex;

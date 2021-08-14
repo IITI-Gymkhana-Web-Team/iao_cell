@@ -11,17 +11,17 @@ import { Admission } from "./components/Admission/Admission";
 import { Pg_Phd } from "./components/Pg_Phd/Pg_Phd";
 import { Scholarship } from "./components/Scholarship/Scholarship";
 import { Programs } from "./components/Programs/Programs";
-import { NewsPage } from "./components/NewsPage/Newspage";
-import { EventsPage } from "./components/EventsPage/EventsPage";
+import { NewsPage } from "./components/Outreach/NewsPage/Newspage";
+import { EventsPage } from "./components/Outreach/EventsPage/EventsPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { Sparc } from "./components/MHRDPage/Sparc";
 import { Asem } from "./components/MHRDPage/Asem";
 import { Vajra } from "./components/MHRDPage/Vajra";
 import { Gian } from "./components/MHRDPage/Gian";
-import { IndiEvent } from "./components/EventsPage/IndiEvent";
+import { IndiEvent } from "./components/Outreach/EventsPage/IndiEvent";
 import { NotFound } from "./components/NotFound/NotFound";
-import { IndiNews } from "./components/NewsPage/IndiNews";
-import { Nsd } from "./components/Nsd/Nsd";
+import { IndiNews } from "./components/Outreach/NewsPage/IndiNews";
+import { Nsd } from "./components/Outreach/Nsd/Nsd";
 import { CommitteesPage } from "./pages/CommitteesPage/CommitteesPage";
 import { Mou2 } from "./components/Collaborations/Mou2";
 import { MobilityExchange } from "./components/MobilityExchange/MobilityExchange";
@@ -39,6 +39,7 @@ import { Internships } from "./components/Internships/Internships";
 import { Dean } from "./components/Dean";
 import { Director } from "./components/Director/Director";
 import { CustomNavbar } from "./components/CustomNavbar/CustomNavbar";
+import { Outreach } from "./components/Outreach/Outreach";
 
 export const Home = () => {
 	const [val, setVal] = useState(0);
@@ -103,7 +104,8 @@ export const Home = () => {
 					<Route path="/outreach/news/:id" exact component={IndiNews} />
 					<Route path="/outreach/Nsd" exact component={Nsd} />
 					<Route path="/outreach/events" exact component={EventsPage} />
-					<Route path="/outreach/events/:id" exact component={IndiEvent} />
+					<Route path="/outreach/events/:name" exact component={IndiEvent} />
+					<Route path="/outreach/:name" exact component={Outreach} />
 					<Route path="/contact" exact component={ReachUs} />
 					<Route
 						path="/mou/asia"

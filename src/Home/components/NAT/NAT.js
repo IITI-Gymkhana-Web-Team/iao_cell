@@ -6,16 +6,15 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import Announceutil from "../../reusables/Announceutil";
 import Newsutil from "../../reusables/Newsutil";
 import Talkutil from "../../reusables/Talkutil";
-import { data } from "../NewsPage/data";
-import { data as data1 } from "../EventsPage/data";
+import { data } from "../Outreach/NewsPage/data";
+import { data as data1 } from "../Outreach/EventsPage/data";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const NAT = () => {
 	const news = data.slice(0, 4);
 	const events = data1.slice(0, 4);
 	let title = "Coronavirus Lockdown";
-	let text =
-		"Some quick example text to build on the card title and make up the bulk of the card's content.";
+	let text = "Some quick example text to build on the card title and make up the bulk of the card's content.";
 	return (
 		<div className="container-fluid NAT mt-3 mb-5 pb-5">
 			<ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={2}>
@@ -47,19 +46,10 @@ export const NAT = () => {
 									autoplayHoverPause={true}
 								>
 									{news.map((News, i) => {
-										return (
-											<Newsutil News={News} key={i} type="news" index={i} />
-										);
+										return <Newsutil News={News} key={i} type="news" index={i} />;
 									})}
 									{events.map((event, i) => {
-										return (
-											<Newsutil
-												News={event}
-												type="events"
-												key={i}
-												index={i}
-											/>
-										);
+										return <Newsutil News={event} type="events" key={i} index={i} />;
 									})}
 								</OwlCarousel>
 							</div>

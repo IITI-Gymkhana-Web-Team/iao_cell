@@ -1,13 +1,13 @@
 import React from "react";
-import { NsdCards } from "../../reusables/NsdCards";
+import { NsdCards } from "../../../reusables/NsdCards";
 import { data } from "./data";
-import "./Nsd.css";
+// import "./NobelLaureate.css";
 
-export const Nsd = () => {
+export const NobelLaureate = () => {
 	return (
 		<>
 			<div className="places nsdPage pt-3 mt-3 mb-3 bg-light font-ubuntu container-fluid">
-				<h1 className="m-1 mb-3 mainTitle text-center">National Science day</h1>
+				<h1 className="m-1 mb-4 mainTitle text-center">Nobel Laureate Lectures</h1>
 				<div>
 					{data.map((cards, index) => {
 						return (
@@ -15,9 +15,10 @@ export const Nsd = () => {
 								className="text-justify"
 								img={cards.image}
 								title={cards.title}
-								text={cards.desc}
+								text={cards.desc !== "" ? cards.desc : cards.speakers[0].desc}
 								key={index}
 								index={index}
+								name={cards.name}
 							/>
 						);
 					})}

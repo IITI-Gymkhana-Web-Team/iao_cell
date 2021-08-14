@@ -2,7 +2,7 @@ import React from "react";
 import Newsutil from "../../reusables/Newsutil";
 import "./News.css";
 import { Link } from "react-router-dom";
-import { data } from "../NewsPage/data";
+import { data } from "../Outreach/NewsPage/data";
 
 export const News = () => {
 	const news = data.slice(0, 4);

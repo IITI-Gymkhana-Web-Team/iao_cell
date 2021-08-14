@@ -1,4 +1,4 @@
-import { nsd2020, chem_talks_news, ai } from "../../../assets";
+import { nsd2020, chem_talks_news, ai } from "../../../../assets";
 
 export const data = [
 	{

@@ -6,8 +6,8 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Col, Container, Row } from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 import { chemR, phyR } from "../../../assets";
-import { data as newsData } from "../NewsPage/data";
-import { data as eventsData } from "../EventsPage/data";
+import { data as newsData } from "../Outreach/NewsPage/data";
+import { data as eventsData } from "../Outreach/EventsPage/data";
 
 const CarousellCards = () => {
 	const data1 = [

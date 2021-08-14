@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Card, ListGroup, Row, Col } from "react-bootstrap";
-import { data } from "../NewsPage/data";
-import { data as data1 } from "../EventsPage/data";
+import { data } from "../Outreach/NewsPage/data";
+import { data as data1 } from "../Outreach/EventsPage/data";
 import "./NewsSideCard.css";
 
 const NewsSideCard = () => {

@@ -13,17 +13,17 @@ export const NavOutreach = ({ handleLinkClick }) => {
 					<p className="navHeading nh1">Lecture Series</p>
 					<div>
 						<p>
-							<Link onClick={linkClick} to="/Pros/visitors_experience">
+							<Link onClick={linkClick} to="/outreach/nobel">
 								Nobel Laureate Lectures
 							</Link>
 						</p>
 						<p>
-							<Link onClick={linkClick} to="/Pros/places">
+							<Link onClick={linkClick} to="/outreach/events/frontiers">
 								Frontiers in Physics
 							</Link>
 						</p>
 						<p>
-							<Link onClick={linkClick} to="/int/students">
+							<Link onClick={linkClick} to="/outreach/events/ramanujan">
 								Hardy Ramanujan Lecture Series
 							</Link>
 						</p>
@@ -31,17 +31,17 @@ export const NavOutreach = ({ handleLinkClick }) => {
 							<p className="navHeading nh2 mt-3">Public Lectures</p>
 							<div>
 								<p>
-									<Link onClick={linkClick} to="/Pros/visitors_experience">
+									<Link onClick={linkClick} to="/outreach/events/automotive">
 										Automotive Light-weighting Technologies
 									</Link>
 								</p>
 								<p>
-									<Link onClick={linkClick} to="/Pros/places">
+									<Link onClick={linkClick} to="/outreach/events/prosperity">
 										Prosperity Through Science Technology
 									</Link>
 								</p>
 								<p>
-									<Link onClick={linkClick} to="/int/students">
+									<Link onClick={linkClick} to="/outreach/events/health">
 										Role of Science in Nation Building during Global Health Crisis
 									</Link>
 								</p>
@@ -53,14 +53,14 @@ export const NavOutreach = ({ handleLinkClick }) => {
 					<p className="navHeading nh1">Conferences and Seminars</p>
 					<div>
 						<p>
-							<a href="http://rnd.iiti.ac.in/" target="_blank" rel="noreferrer">
+							<Link onClick={linkClick} to="/outreach/chem">
 								Chemistry Talks
-							</a>
+							</Link>
 						</p>
 						<p>
-							<a href="https://academic.iiti.ac.in/" target="_blank" rel="noreferrer">
+							<Link to="/outreach/events/nobelPrizes" onClick={linkClick}>
 								Nobel Prizes-2020
-							</a>
+							</Link>
 						</p>
 					</div>
 				</div>
