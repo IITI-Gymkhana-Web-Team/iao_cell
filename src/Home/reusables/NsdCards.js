@@ -11,7 +11,7 @@ export const NsdCards = ({ title, text, img, index, name }) => {
 	return (
 		<div className="card border-0" style={{ backgroundColor: "#fff", cursor: "pointer" }} onClick={handleCardClick}>
 			<div style={{ height: "250px" }}>
-				<img src={img} style={{ maxWidth: "100%", maxHeight: "100%", minWidth: "100%" }} />
+				<img src={img} style={{ maxWidth: "100%", maxHeight: "100%", minWidth: "100%" }} alt="" />
 			</div>
 			<div style={{ display: "flex", flexDirection: "column" }}>
 				<div className="card-body p-2 mt-2">
