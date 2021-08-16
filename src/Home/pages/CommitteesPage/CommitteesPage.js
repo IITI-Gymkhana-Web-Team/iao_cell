@@ -142,7 +142,7 @@ export const CommitteesPage = ({ index }) => {
 		members: [
 			[
 				{
-					name: "Dr. Sanjay K. singh",
+					name: "Dr. Sanjay K. Singh",
 					designation: "Convener",
 					email: "adoiao2@iiti.ac.in",
 					img: sanjay,

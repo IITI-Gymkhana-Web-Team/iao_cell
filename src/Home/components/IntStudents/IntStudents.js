@@ -4,9 +4,7 @@ import { Table } from "react-bootstrap";
 export const IntStudents = () => {
 	return (
 		<div className="container">
-			<h1 className="pt-4 mainTitle text-center mb-5">
-				Degree & Exchange International Students
-			</h1>
+			<h1 className="pt-4 mainTitle text-center mb-5">Degree & Exchange International Students</h1>
 			<h2 className="font-acme">PhD</h2>
 			<Table striped bordered hover variant="primary" responsive className="mb-3">
 				<thead>
@@ -19,6 +17,13 @@ export const IntStudents = () => {
 					</tr>
 				</thead>
 				<tbody>
+					<tr>
+						<td>2021</td>
+						<td>Mr. Asrul Munazar</td>
+						<td>Ph.D. (HSS)</td>
+						<td>Indonesia</td>
+						<td>ASEAN</td>
+					</tr>
 					<tr>
 						<td>2020</td>
 						<td>Mr. Son Thanh Ngo*</td>
@@ -48,6 +53,13 @@ export const IntStudents = () => {
 					</tr>
 				</thead>
 				<tbody>
+					<tr>
+						<td>2021-23</td>
+						<td>Mr. Sumantra Aarya</td>
+						<td>M.Tech. (PIE)</td>
+						<td>Nepal</td>
+						<td>ISF (International Self-Financed)</td>
+					</tr>
 					<tr>
 						<td>2020-22</td>
 						<td>Mr. Musa Alhassan Shittu</td>
