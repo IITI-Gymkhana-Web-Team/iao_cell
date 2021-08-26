@@ -1,12 +1,6 @@
-import { nsd2020, chem_talks_news, ai, pareshTalk } from "../../../assets";
+import { nsd2020, chem_talks_news, ai } from "../../../assets";
 
 export const data = [
-	{
-		title: "Forecasting Crude Oil Futures Prices Using the Kalman Filter and News",
-		image: pareshTalk,
-		desc: "This talk looks at an empirical application of a mathematical tool familiar to engineers and mathematicians in a less familiar area. In particular, the speaker will be looking at forecasting the prices of certain financial derivative products called futures, using the Kalman filter. The annual trade volume in global futures markets is over 11 trillion USD (around three times India's GDP), so that accurate short-term forecasting of futures prices is an important practical problem. The speaker will also look at enhancing the results of Kalman filter-based forecasting using an exogenous source of information (news sentiment), which falls under the moniker 'explainable AI'. Moreover, he will demonstrate results of numerical experiments with real financial market data. This talk should provide a window to the fascinating world of financial mathematics for mathematicians and engineers.",
-		date: "August 27, 2021",
-	},
 	{
 		title: "Impact of the Digital Revolution on Higher Education",
 		image: ai,
