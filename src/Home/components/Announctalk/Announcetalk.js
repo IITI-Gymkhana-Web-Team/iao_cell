@@ -9,8 +9,7 @@ import Announcetalkutil from "../../reusables/Announceutil";
 import Talkutil from "../../reusables/Talkutil";
 export const Announcetalk = () => {
 	let title = " Lockdown";
-	let text =
-		"Some quick example text to build on the card title and make up the bulk of the card's content.";
+	let text = "Some quick example text to build on the card title and make up the bulk of the card's content.";
 
 	return (
 		<div className="news container bg-light mt-5">
@@ -62,24 +61,6 @@ export const Announcetalk = () => {
 						},
 					}}
 				>
-					<div>
-						<Talkutil text={text} title={title} />
-					</div>
-					<div>
-						<Talkutil text={text} title={title} />
-					</div>
-					<div>
-						<Talkutil text={text} title={title} />
-					</div>
-					<div>
-						<Talkutil text={text} title={title} />
-					</div>
-					<div>
-						<Talkutil text={text} title={title} />
-					</div>
-					<div>
-						<Talkutil text={text} title={title} />
-					</div>
 					<div>
 						<Talkutil text={text} title={title} />
 					</div>
