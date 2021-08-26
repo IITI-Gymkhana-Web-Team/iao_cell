@@ -180,8 +180,12 @@ import math from "./math.webp";
 import ai from "./ai.webp";
 import wheat from "./wheat-min.png";
 import videoo from "./bgvideo4.mp4";
+import paresh from "./paresh.jpg";
+import pareshTalk from "./pareshTalk.png";
 
 export {
+	pareshTalk,
+	paresh,
 	ai,
 	videoo,
 	wheat,

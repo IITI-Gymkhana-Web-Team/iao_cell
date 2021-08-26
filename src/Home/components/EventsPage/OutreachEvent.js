@@ -39,15 +39,15 @@ export const OutreachEvent = ({ Events, i }) => {
 					&nbsp;{Events.venue}
 				</Card.Text>
 				<Card.Text>Speaker(s)</Card.Text>
-				<ul>
+				<div>
 					{Events.speakers.map((speaker, index) => {
 						return (
-							<li key={index}>
+							<p key={index} style={{ marginBottom: 0 }}>
 								<BiChevronRight /> {speaker.name}
-							</li>
+							</p>
 						);
 					})}
-				</ul>
+				</div>
 			</Card.Body>
 		</Card>
 	);
