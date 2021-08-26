@@ -10,7 +10,7 @@ export default function () {
 			<Card className="newsCard">
 				<Card.Body>
 					<Card.Title style={styles.title} className="font-acme">
-						<Link to={"/outreach/news/0"}>Lecture by Dr. Paresh Date</Link>
+						<Link to={"/outreach/events/0"}>Lecture by Dr. Paresh Date</Link>
 					</Card.Title>
 					<p className="text-muted font-ubuntu">Aug 27, 2021</p>
 					<p className="text-muted font-ubuntu">2:00 PM - 3:00 PM</p>
