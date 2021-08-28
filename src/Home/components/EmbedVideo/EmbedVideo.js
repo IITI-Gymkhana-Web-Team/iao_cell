@@ -3,14 +3,29 @@ import { Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import "./EmbedVideo.css";
 
+const announcements = [
+	{
+		id: 1,
+		desc: "IIT Indore welcomes the newly admitted International Students"
+	},
+	{
+		id: 2,
+		desc: "French Embassy delegates are visiting IIT Indore on Sep. 03,2021"
+	},
+	{
+		id: 3,
+		desc: "Web-session on DAAD scholarship is scheduled on Sep. 17,2021"
+	}
+]
+
 const EmbedVideo = () => {
 	const mainRef = useRef(null);
 	useEffect(() => {
 		if (mainRef.current) {
-			var pos = 100;
+			var pos = 30;
 			const interval = setInterval(() => {
 				mainRef.current.scrollTop = pos;
-				if (pos === 437) pos = 0;
+				if (pos === 164) pos = 0;
 				else pos += 1;
 			}, 2);
 			return () => clearInterval(interval);
@@ -35,12 +50,9 @@ const EmbedVideo = () => {
 					<p className="announce-title text-left">Announcements</p>
 					<hr />
 					<ListGroup variant="flush" ref={mainRef} className="announce-text mt-2">
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
-						<ListGroupItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</ListGroupItem>
+						{announcements.map((item) => (
+							<ListGroupItem key={item.id} >{item.desc}</ListGroupItem>
+						))}
 					</ListGroup>
 				</div>
 			</Col>
