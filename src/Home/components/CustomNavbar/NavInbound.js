@@ -44,7 +44,7 @@ export const NavInbound = ({ setVal, highlight }) => {
 							</p>
 							<p>
 								<Link onClick={handleLinkClick} to="/int/students">
-									Intl. Students' List
+									International Student's List
 								</Link>
 							</p>
 							<p>
@@ -78,9 +78,9 @@ export const NavInbound = ({ setVal, highlight }) => {
 								</Link>
 							</p>
 							<p>
-								<Link onClick={handleLinkClick} to="/programs">
+								<a onClick={handleLinkClick} href="https://academic.iiti.ac.in/academic_program.php">
 									Programs
-								</Link>
+								</a>
 							</p>
 							<p>
 								<Link onClick={handleLinkClick} to="/visa">
