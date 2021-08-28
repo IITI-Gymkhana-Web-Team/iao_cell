@@ -12,7 +12,7 @@ export default function Message() {
 		<>
 			<ScrollAnimation animateIn="slideInRight" animateOnce={true}>
 				<div
-					className="container mt-3 messageBox"
+					className="container mt-1 messageBox"
 					style={{ borderRadius: "10px" }}
 					onClick={() => {
 						history.push("/director");

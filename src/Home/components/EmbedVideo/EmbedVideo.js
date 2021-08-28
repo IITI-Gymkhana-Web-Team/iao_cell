@@ -32,7 +32,7 @@ const EmbedVideo = () => {
 		}
 	}, []);
 	return (
-		<Row className="embed-video container m-auto mt-4">
+		<Row className="embed-video container m-auto">
 			<Col md="12" lg="8" className="embed-video-div m-0 p-0" style={{ marginTop: "100px !important" }}>
 				<div className="video-responsive">
 					<iframe

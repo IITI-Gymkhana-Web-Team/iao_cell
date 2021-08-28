@@ -87,7 +87,7 @@ const CarousellCards = () => {
 
 	return (
 		<Container>
-			<Row className="carousel-row mt-5 mb-5">
+			<Row className="carousel-row mt-1 mb-5">
 				<h2 className="owl-card-title font-acme mb-3">News & Activities</h2>
 				<Col md={12} lg={4}>
 					<div className="owl-card text-center">
