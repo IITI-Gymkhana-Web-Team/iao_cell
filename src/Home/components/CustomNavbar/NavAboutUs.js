@@ -108,6 +108,11 @@ export const NavAboutUs = ({ setVal, highlight }) => {
 										Counselling Cell
 									</a>
 								</p>
+								<p>
+									<a href="http://www.iitindore.kvs.ac.in/" target="_blank" rel="noreferrer">
+										KV IIT Indore
+									</a>
+								</p>
 							</div>
 							<div>
 								<p>
