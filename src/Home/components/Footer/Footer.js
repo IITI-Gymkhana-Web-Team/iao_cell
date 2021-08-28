@@ -27,19 +27,23 @@ export const Footer = () => {
 									rel="noreferrer"
 									style={{ color: "white" }}
 								>
-									Indian Institute of Technology Indore, Khandwa Road, Simrol, Indore 453552, INDIA
+									International Affairs and Outreach Office<br />
+									7th Floor, West Wing, Abhinandan Bhavan<br />
+									Indian Institute of Technology Indore<br />
+									Khandwa Road, Simrol, Indore 453552<br />
+									Madhya Pradesh, India
 								</a>
 								<div className="phonetext" style={{ color: "white" }}>
-									Phone No:{" "}
+									Tel No:{" "}
 									<a href="tel:+91 07316603479" style={{ color: "white" }}>
-										+91 07316603479
+										+91 07316603479 / 3573
 									</a>
 									<br></br>
 									Email: <a href="mailto:intloffice@iiti.ac.in">intloffice@iiti.ac.in</a>
 									<br></br>
-									<a href="https://goo.gl/maps/qmEGMw6uednJPnGd8" target="_blank" rel="noreferrer">
+									{/* <a href="https://goo.gl/maps/qmEGMw6uednJPnGd8" target="_blank" rel="noreferrer">
 										(22.5204° N, 75.9207° E)
-									</a>
+									</a> */}
 								</div>
 							</div>
 						</Col>
