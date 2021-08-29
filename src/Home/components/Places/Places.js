@@ -8,7 +8,7 @@ export const Places = () => {
 	return (
 		<>
 			<Container className="places pt-3 mt-3 mb-3 bg-light">
-				<h1 className="mainTitle text-center mb-5">Places To Visit</h1>
+				<h2 className="mainTitle text-center mb-5">Places To Visit</h2>
 				<Row>
 					{data.map((place, index) => {
 						if (index % 2) {

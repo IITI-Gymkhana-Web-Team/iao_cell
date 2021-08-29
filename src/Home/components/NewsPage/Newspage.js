@@ -7,7 +7,7 @@ export const NewsPage = () => {
 	return (
 		<>
 			<div className="places newsPage pt-3 mt-3 mb-3 bg-light font-ubuntu container-fluid">
-				<h1 className="m-1 mb-3 mainTitle text-center">Outreach News</h1>
+				<h2 className="m-1 mb-3 mainTitle text-center">Outreach News</h2>
 				<div>
 					{data.map((news, index) => {
 						return (

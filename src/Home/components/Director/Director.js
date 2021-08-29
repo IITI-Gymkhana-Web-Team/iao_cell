@@ -4,7 +4,7 @@ import { neelesh } from "../../../assets";
 export const Director = () => {
 	return (
 		<div className="container bg-light font-ubuntu dean pb-5">
-			<h1 className="mb-3">Director's Message</h1>
+			<h2 className="mb-3">Director's Message</h2>
 			<img src={neelesh} alt="dean" />
 			<div className="text-justify">
 				<p>

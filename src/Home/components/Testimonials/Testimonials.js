@@ -5,7 +5,7 @@ import { data } from "./data";
 export const Testimonials = () => {
 	return (
 		<div className="container">
-			<h1 className="p-2 text-center mainTitle mt-3">Visitors' Experience</h1>
+			<h2 className="p-2 text-center mainTitle mt-3">Visitors' Experience</h2>
 			{data.map((person) => {
 				return <TestimonialCard person={person} />;
 			})}

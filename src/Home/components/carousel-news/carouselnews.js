@@ -14,7 +14,7 @@ export const Carouselnews = () => {
 	return (
 		<div className="news container bg-light mt-5">
 			<div className="container-fluid">
-				<h1 className="p-2 pl-5 pt-5 pr-5 mainTitle">News</h1>
+				<h2 className="p-2 pl-5 pt-5 pr-5 mainTitle">News</h2>
 			</div>
 			<div className="container-fluid" style={{ maxWidth: "1140px" }}>
 				<OwlCarousel

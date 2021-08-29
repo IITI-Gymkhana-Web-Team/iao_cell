@@ -173,7 +173,7 @@ export const NavAboutUs = ({ setVal, highlight }) => {
 							</p>
 							<p>
 								<Link onClick={handleLinkClick} to="/outreach/news">
-									News & Events
+									News and Activities
 								</Link>
 							</p>
 						</div>

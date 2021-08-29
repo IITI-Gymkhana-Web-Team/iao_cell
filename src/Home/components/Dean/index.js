@@ -6,7 +6,7 @@ import "./Dean.css";
 export const Dean = () => {
 	return (
 		<div className="container bg-light font-ubuntu dean pb-5">
-			<h1 className="mb-3">Dean's Message</h1>
+			<h2 className="mb-3">Dean's Message</h2>
 			<img src={av2} alt="dean" />
 			<div className="text-justify">
 				<p>

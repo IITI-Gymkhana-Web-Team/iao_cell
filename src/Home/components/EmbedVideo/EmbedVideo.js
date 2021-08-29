@@ -24,9 +24,11 @@ const EmbedVideo = () => {
 		if (mainRef.current) {
 			var pos = 30;
 			const interval = setInterval(() => {
-				mainRef.current.scrollTop = pos;
-				if (pos === 164) pos = 0;
-				else pos += 1;
+				if (mainRef.current) {
+					mainRef.current.scrollTop = pos;
+					if (pos === 164) pos = 0;
+					else pos += 1;
+				}
 			}, 2);
 			return () => clearInterval(interval);
 		}

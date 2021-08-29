@@ -7,7 +7,7 @@ export const Committee = ({ committee }) => {
 	return (
 		<>
 			<div className="container-fluid">
-				<h1 className="p-3 m-2 mainTitle text-center">{committee.title}</h1>
+				<h2 className="p-3 m-2 mainTitle text-center">{committee.title}</h2>
 			</div>
 			<div className="peopleCards mb-5">
 				{committee.members.map((persons) => {

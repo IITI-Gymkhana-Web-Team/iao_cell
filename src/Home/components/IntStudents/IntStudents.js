@@ -4,9 +4,9 @@ import { Table } from "react-bootstrap";
 export const IntStudents = () => {
 	return (
 		<div className="container">
-			<h1 className="pt-4 mainTitle text-center mb-5">
+			<h2 className="pt-4 mainTitle text-center mb-5">
 				Degree & Exchange International Students
-			</h1>
+			</h2>
 			<h2 className="font-acme">PhD</h2>
 			<Table striped bordered hover variant="primary" responsive className="mb-3">
 				<thead>

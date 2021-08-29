@@ -5,7 +5,7 @@ import "./AboutIITI.css";
 export const AboutIITI = () => {
 	return (
 		<div className="container font-ubuntu aboutIITI pb-5">
-			<h1 className="mainTitle text-center m-3">About IITI</h1>
+			<h2 className="mainTitle text-center m-3">About IITI</h2>
 			<img alt="about IITI" src={iiti} style={{ float: "right", maxWidth: "max(400px,45%)" }} />
 			<p>
 				Indian Institute of Technology Indore, located in Madhya Pradesh, known as IIT Indore or IITI, is an

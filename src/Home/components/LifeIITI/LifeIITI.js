@@ -28,7 +28,7 @@ export const LifeIITI = () => {
 
 	return (
 		<div className="container font-ubuntu lifeIITI text-justify">
-			<h1 className="mainTitle text-center m-3">Campus Life At IITI</h1>
+			<h2 className="mainTitle text-center m-3">Campus Life At IITI</h2>
 			<div
 				style={{
 					display: "flex",
