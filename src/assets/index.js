@@ -192,8 +192,20 @@ import nsd1 from "./nsd1.jpg";
 import nsd2 from "./nsd2.jpg";
 import nsd3 from "./nsd3.jpg";
 import nsd4 from "./nsd4.jpg";
+import chemtalks from "./chemtalks.jpg";
+import profholger from "./profholger.jpg";
+import profjean from "./profjean.png";
+import profsilke from "./profsilke.png";
+import profmalte from "./profmalte.jpg";
+import tridib from "./tridib.jpg";
 
 export {
+	tridib,
+	profjean,
+	profsilke,
+	profmalte,
+	profholger,
+	chemtalks,
 	nsd1,
 	nsd2,
 	nsd3,

@@ -40,6 +40,7 @@ import { Dean } from "./components/Dean";
 import { Director } from "./components/Director/Director";
 import { CustomNavbar } from "./components/CustomNavbar/CustomNavbar";
 import { Outreach } from "./components/Outreach/Outreach";
+import { ChemTalks } from "./components/Chemtalks/Chemtalks";
 
 export const Home = () => {
 	const [val, setVal] = useState(0);
@@ -107,6 +108,7 @@ export const Home = () => {
 					<Route path="/outreach/events/:name" exact component={IndiEvent} />
 					<Route path="/outreach/:name" exact component={Outreach} />
 					<Route path="/contact" exact component={ReachUs} />
+					<Route path="/chemtalks" exact component={ChemTalks} />
 					<Route
 						path="/mou/asia"
 						exact
