@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Newscard = ({ title, text, date, img, index }) => {
+export const Newscard = ({ title, text, date, img, name }) => {
 	return (
 		<div className="card">
 			<div style={{ height: "250px" }}>
@@ -9,7 +9,7 @@ export const Newscard = ({ title, text, date, img, index }) => {
 			</div>
 			<div style={{ display: "flex", flexDirection: "column" }}>
 				<div className="card-body">
-					<Link to={"/outreach/news/" + index}>
+					<Link to={"/outreach/news/" + name}>
 						<h4 className="card-title font-acme">{title}</h4>
 					</Link>
 					<p className="text-muted">{date}</p>

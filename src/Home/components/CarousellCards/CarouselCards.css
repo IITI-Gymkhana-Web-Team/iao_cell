@@ -1,130 +1,129 @@
 .owl-card {
-  cursor: pointer;
+	cursor: pointer;
 }
 .owl-card .owl-prev,
 .owl-card .owl-next {
-  display: none !important;
+	display: none !important;
 }
 .owl-card:hover .owl-prev,
 .owl-card:hover .owl-next {
-  display: block !important;
+	display: block !important;
 }
 /* .carousel-row {
 	margin: 1.3rem;
 } */
 .owl-card .owl-prev,
 .owl-card .owl-next {
-  position: absolute;
-  top: 30%;
-  color: #000 !important;
+	position: absolute;
+	top: 30%;
+	color: #000 !important;
 }
 
 .owl-card .owl-prev {
-  left: 0px;
-  border-radius: 0 5px 5px 0 !important;
+	left: 0px;
+	border-radius: 0 5px 5px 0 !important;
 }
 .carousel-card {
-  overflow-y: scroll;
+	overflow-y: hidden;
 }
 .owl-card .owl-next {
-  right: 0px;
-  border-radius: 5px 0 0 5px !important;
+	right: 0px;
+	border-radius: 5px 0 0 5px !important;
 }
 .owl-card .owl-prev:hover,
 .owl-card .owl-next:hover {
-  background-color: transparent !important;
+	background-color: transparent !important;
 }
 .owl-card .owl-prev span,
 .owl-card .owl-next span {
-  font-size: 55px !important;
-  margin: 0 2px !important;
-  position: relative;
-  top: -5px;
+	font-size: 55px !important;
+	margin: 0 2px !important;
+	position: relative;
+	top: -5px;
 }
 .carousel-card-img {
-  height: 200px;
+	height: 200px;
 }
 .carousel-title {
-  padding-top: 0.5rem;
-  padding-bottom: 0.25rem;
-  font-size: 1.3rem;
-  font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000;
-  border-bottom: 4px solid #2dccfa;
-  text-align: left !important;
+	padding-top: 0.5rem;
+	padding-bottom: 0.25rem;
+	font-size: 1.3rem;
+	font-weight: 600;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	border-bottom: 4px solid #2dccfa;
+	text-align: left !important;
 }
 .carousel-text {
-  font-size: 1rem;
-  text-align: justify;
+	font-size: 1rem;
+	text-align: justify;
 }
 .owl-card-title {
-  text-align: left;
-  font-size: 2rem;
-  font-weight: 400;
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 400;
 }
 .owl-card-underline {
-  height: 5px;
-  width: 200px;
-  background-color: cornflowerblue;
-  margin-top: -15px;
-  margin-bottom: 40px;
+	height: 5px;
+	width: 200px;
+	background-color: cornflowerblue;
+	margin-top: -15px;
+	margin-bottom: 40px;
 }
 .carousel-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 250px;
-  font-family: "Titillium Web", sans-serif, Source Sans Pro, Helvetica Neue,
-    Helvetica, Arial, sans-serif;
-  background-color: #fff;
-  padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: 250px;
+	font-family: "Titillium Web", sans-serif, Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+	background-color: #fff;
+	padding: 10px;
 }
 @media only screen and (max-width: 451px) {
-  .owl-card-title {
-    font-size: 1rem;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-    margin-bottom: 1rem;
-  }
+	.owl-card-title {
+		font-size: 1rem;
+		padding-left: 0.3rem;
+		padding-right: 0.3rem;
+		margin-bottom: 1rem;
+	}
 }
 @media only screen and (max-width: 501px) {
-  .owl-card-title {
-    font-size: 1.5rem;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-    margin-bottom: 1rem;
-  }
-  .carousel-div {
-    height: fit-content !important;
-    padding: 1rem;
-  }
+	.owl-card-title {
+		font-size: 1.5rem;
+		padding-left: 0.3rem;
+		padding-right: 0.3rem;
+		margin-bottom: 1rem;
+	}
+	.carousel-div {
+		height: fit-content !important;
+		padding: 1rem;
+	}
 }
 @media only screen and (max-width: 992px) {
-  .carousel-card {
-    overflow-y: hidden;
-  }
-  .owl-card {
-    padding: 1rem;
-  }
-  .carousel-div {
-    height: 100%;
-    padding: 0.5rem;
-  }
+	.carousel-card {
+		overflow-y: hidden;
+	}
+	.owl-card {
+		padding: 1rem;
+	}
+	.carousel-div {
+		height: 100%;
+		padding: 0.5rem;
+	}
 }
 @media only screen and (max-width: 500px) {
-  .carousel-row {
-    margin: 0.2rem;
-  }
-  .carousel-card-img {
-    height: 150px;
-  }
-  .carousel-title {
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-  .carousel-text {
-    font-size: 0.9rem;
-  }
+	.carousel-row {
+		margin: 0.2rem;
+	}
+	.carousel-card-img {
+		height: 150px;
+	}
+	.carousel-title {
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
+	.carousel-text {
+		font-size: 0.9rem;
+	}
 }

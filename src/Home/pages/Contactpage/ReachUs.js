@@ -47,7 +47,9 @@ export default function ReachUs() {
 					<h3 className="font-acme">Office of International Affairs and Outreach</h3>
 					<br />
 					<p>
-						International Affairs and Outreach
+						International Affairs and Outreach Office
+						<br />
+						7th Floor, West Wing, Abhinandan Bhavan
 						<br />
 						Indian Institute of Technology Indore
 						<br />

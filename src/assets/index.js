@@ -192,8 +192,18 @@ import nsd1 from "./nsd1.jpg";
 import nsd2 from "./nsd2.jpg";
 import nsd3 from "./nsd3.jpg";
 import nsd4 from "./nsd4.jpg";
+import NSDImg from "./NSDImg.jpeg";
+import FrenchConsultImg from "./FrenchConsultationVisit.jpeg";
+import BUL from "./BUL.jpeg";
+import NIDB from "./NIDB&IITI.jpeg";
+import MoU from "./MoUwithUoAIITI.jpeg";
 
 export {
+	NSDImg,
+	FrenchConsultImg,
+	BUL,
+	NIDB,
+	MoU,
 	nsd1,
 	nsd2,
 	nsd3,

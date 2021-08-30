@@ -9,7 +9,11 @@ export const IndiNews = ({ match }) => {
 
 	console.log(id);
 
-	if (id >= 0 && id < data.length)
+	const currData = data.filter((dat) => {
+		return dat.name === id;
+	});
+
+	if (currData.length > 0)
 		return (
 			<div
 				className="indiEvent font-ubuntu container-fluid"
@@ -24,11 +28,19 @@ export const IndiNews = ({ match }) => {
 					</button>
 				</Link>
 				<div className="eventPart1 mt-4 mb-5">
-					<img alt="News" src={data[id].image} style={{ minWidth: "400px", minHeight: "250px" }} />
+					<img alt="News" src={currData[0].image} style={{ minWidth: "400px", minHeight: "250px" }} />
 					<div className="eventPart2">
-						<h2 className="font-acme">{data[id].title}</h2>
-						<p className="text-muted">{data[id].date}</p>
-						<p style={{ whiteSpace: "pre-wrap" }}>{data[id].desc}</p>
+						<h2 className="font-acme">{currData[0].title}</h2>
+						<p className="text-muted">{currData[0].date}</p>
+						<p style={{ whiteSpace: "pre-wrap" }}>{currData[0].desc}</p>
+						{currData[0].link !== "" && currData[0].link !== undefined && (
+							<p style={{ whiteSpace: "pre-wrap" }}>
+								To know more,{" "}
+								<a href={currData[0].link} target="_blank" rel="noreferrer">
+									Click Here
+								</a>
+							</p>
+						)}
 					</div>
 				</div>
 			</div>
