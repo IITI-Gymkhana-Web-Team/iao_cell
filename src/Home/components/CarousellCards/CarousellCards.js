@@ -5,14 +5,12 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Col, Container, Row } from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
-import { chemR, phyR } from "../../../assets";
-import NSDImg from "../../../assets/NSDImg.jpeg";
-import FrenchConsultImg from "../../../assets/FrenchConsultationVisit.jpeg";
-import BUL from "../../../assets/BUL.jpeg";
-import NIDB from "../../../assets/NIDB&IITI.jpeg";
-import MoU from "../../../assets/MoUwithUoAIITI.jpeg";
+import { chemR, phyR, NSDImg, FrenchConsultImg, BUL, NIDB, MoU } from "../../../assets";
+import { useHistory } from "react-router-dom";
 
 const CarousellCards = () => {
+	const history = useHistory();
+
 	const data1 = [
 		{
 			image: BUL,
@@ -24,7 +22,7 @@ const CarousellCards = () => {
 			image: NIDB,
 			title: "National Institute of Design Bhopal visited IIT Indore",
 			desc: "Officials from National Institute of Design, Bhopal visited International Affairs & Outreach office, IIT Indore on August 23, 2021. During the visit, we had a constructive discussion with NID team to extend our support to establish international office at NID Bhopal. ",
-			link: "",
+			link: "/outreach/news/nidBhopal",
 		},
 		{
 			image: phyR,
@@ -38,7 +36,7 @@ const CarousellCards = () => {
 			image: FrenchConsultImg,
 			title: "French Consulate General in Mumbai visited IIT Indore",
 			desc: "Mrs. Sonia Barbry, French Consulate General in Mumbai and Mr. Thomas Simoes, Director, Alliance Francaise, Bhopal visited IIT Indore on March 18, 2021, and had fruitful discussions on escalating and strengthening the bilateral research work, exchange of students and faculties and many more aspects. ",
-			link: "",
+			link: "/outreach/news/frenchConsulate",
 		},
 		{
 			image: NSDImg,
@@ -80,8 +78,9 @@ const CarousellCards = () => {
 		},
 	};
 
-	const openURL = (url) => {
-		window.open(url);
+	const handleCardClick = (url) => {
+		if (url[0] === "h") window.open(url);
+		else history.push(url);
 	};
 
 	return (
@@ -107,7 +106,7 @@ const CarousellCards = () => {
 											className="carousel-card"
 											key={index}
 											onClick={() => {
-												openURL(card.link);
+												handleCardClick(card.link);
 											}}
 										>
 											<img
@@ -146,7 +145,7 @@ const CarousellCards = () => {
 											className="carousel-card"
 											key={index}
 											onClick={() => {
-												// openURL(card.link);
+												handleCardClick(card.link);
 											}}
 										>
 											<img
@@ -185,7 +184,7 @@ const CarousellCards = () => {
 											className="carousel-card"
 											key={index}
 											onClick={() => {
-												// openURL(card.link);
+												handleCardClick(card.link);
 											}}
 										>
 											<img
