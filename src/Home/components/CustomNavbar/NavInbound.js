@@ -13,33 +13,6 @@ export const NavInbound = ({ handleLinkClick }) => {
 				<div>
 					<p className="navHeading nh1">Visitors</p>
 					<div>
-<<<<<<< HEAD
-						<p>
-							<Link onClick={linkClick} to="/Pros/visitors_experience">
-								Visitors' Experience
-							</Link>
-						</p>
-						<p>
-							<Link onClick={linkClick} to="/Pros/places">
-								Places To Visit
-							</Link>
-						</p>
-						<p>
-							<Link onClick={linkClick} to="/int/students">
-								Intl. Students' List
-							</Link>
-						</p>
-						<p>
-							<Link onClick={linkClick} to="/LifeIITI">
-								Campus Life@IITI
-							</Link>
-						</p>
-						<p>
-							<a href={iaoBrochure} target="_blank" rel="noreferrer">
-								IAO Brochure
-							</a>
-						</p>
-=======
 						<p className="navHeading nh1">Visitors</p>
 						<div>
 							<p>
@@ -63,7 +36,6 @@ export const NavInbound = ({ handleLinkClick }) => {
 								</Link>
 							</p>
 						</div>
->>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 					</div>
 				</div>
 				<div>
@@ -84,28 +56,6 @@ export const NavInbound = ({ handleLinkClick }) => {
 				<div>
 					<p className="navHeading nh1">Students</p>
 					<div>
-<<<<<<< HEAD
-						<p>
-							<Link onClick={linkClick} to="/admission">
-								Admission
-							</Link>
-						</p>
-						<p>
-							<Link onClick={linkClick} to="/programs">
-								Programs
-							</Link>
-						</p>
-						<p>
-							<Link onClick={linkClick} to="/visa">
-								Visa Process
-							</Link>
-						</p>
-						<p>
-							<a href={iaoBrochure} target="_blank" rel="noreferrer">
-								IAO Brochure
-							</a>
-						</p>
-=======
 						<p className="navHeading nh1">Students</p>
 						<div>
 							<p>
@@ -124,7 +74,6 @@ export const NavInbound = ({ handleLinkClick }) => {
 								</Link>
 							</p>
 						</div>
->>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 					</div>
 				</div>
 				<div>

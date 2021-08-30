@@ -1,20 +1,10 @@
 .embed-video {
-<<<<<<< HEAD
-	margin-top: 5rem;
-	margin-bottom: 1rem;
-	padding: 1rem;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-	max-width: 1140px !important;
-	justify-content: space-between !important;
-=======
   margin-top: 5rem;
   margin-bottom: 1rem;
   padding: 1rem;
   padding-left: 0 !important;
   padding-right: 0 !important;
   max-width: 1140px !important;
->>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 }
 .embed-video-content {
   display: flex;

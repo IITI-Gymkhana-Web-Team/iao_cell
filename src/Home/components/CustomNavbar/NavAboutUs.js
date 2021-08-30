@@ -100,8 +100,6 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 								</a>
 							</p>
 						</div>
-<<<<<<< HEAD
-=======
 					</div>
 					<div>
 						<p className="navHeading nh1">Facilities</p>
@@ -179,7 +177,6 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 
 					<div>
 						<p className="navHeading nh1">Academics and Research</p>
->>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 						<div>
 							<p>
 								<a href="http://cc.iiti.ac.in/" target="_blank" rel="noreferrer">
@@ -197,24 +194,9 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 								</a>
 							</p>
 							<p>
-<<<<<<< HEAD
-								<a href="http://vbs.iiti.ac.in/" target="_blank" rel="noreferrer">
-									Transport Booking
-								</a>
-							</p>
-							<p>
-								<a
-									href="https://www.iiti.ac.in/public/storage/Green%20vehicle%20schedule-%202021.pdf"
-									target="_blank"
-									rel="noreferrer"
-								>
-									Green vehicle schedule
-								</a>
-=======
 								<Link onClick={handleLinkClick} to="/outreach/news">
 									News and Activities
 								</Link>
->>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 							</p>
 						</div>
 					</div>

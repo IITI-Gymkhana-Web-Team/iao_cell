@@ -49,13 +49,8 @@ const EmbedVideo = () => {
 	}, []);
 
 	return (
-<<<<<<< HEAD
-		<Row className="embed-video container m-auto mt-4">
-			<Col md="12" lg="7" className="embed-video-div m-0 p-0" style={{ marginTop: "100px !important" }}>
-=======
 		<Row className="embed-video container m-auto">
 			<Col md="12" lg="8" className="embed-video-div m-0 p-0" style={{ marginTop: "100px !important" }}>
->>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 				<div className="video-responsive">
 					<iframe
 						className="embed-iframe"
@@ -72,19 +67,9 @@ const EmbedVideo = () => {
 					<p className="announce-title text-left font-acme">Announcements</p>
 					<hr />
 					<ListGroup variant="flush" ref={mainRef} className="announce-text mt-2">
-<<<<<<< HEAD
-						{announcements.map((announcement, index) => {
-							return (
-								<ListGroupItem key={index} className="font-ubuntu" style={{ fontSize: "1rem" }}>
-									{announcement}
-								</ListGroupItem>
-							);
-						})}
-=======
 						{announcements.map((item) => (
 							<ListGroupItem key={item.id} >{item.desc}</ListGroupItem>
 						))}
->>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 					</ListGroup>
 				</div>
 			</Col>

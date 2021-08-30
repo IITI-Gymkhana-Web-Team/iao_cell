@@ -1,13 +1,9 @@
-<<<<<<< HEAD:src/Home/components/Outreach/NewsPage/data.js
-import { nsd2020, chem_talks_news, ai } from "../../../../assets";
-=======
-import { nsd2020, chem_talks_news, ai, chemR, phyR } from "../../../assets";
-import NSDImg from "../../../assets/NSDImg.jpeg";
-import FrenchConsultImg from "../../../assets/FrenchConsultationVisit.jpeg";
-import BUL from "../../../assets/BUL.jpeg";
-import NIDB from "../../../assets/NIDB&IITI.jpeg";
-import MoU from "../../../assets/MoUwithUoAIITI.jpeg";
->>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9:src/Home/components/NewsPage/data.js
+import { nsd2020, chem_talks_news, ai, chemR, phyR } from "../../../../assets";
+import NSDImg from "../../../../assets/NSDImg.jpeg";
+import FrenchConsultImg from "../../../../assets/FrenchConsultationVisit.jpeg";
+import BUL from "../../../../assets/BUL.jpeg";
+import NIDB from "../../../../assets/NIDB&IITI.jpeg";
+import MoU from "../../../../assets/MoUwithUoAIITI.jpeg";
 
 export const data = [
 	{
