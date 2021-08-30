@@ -7,7 +7,7 @@ import { SpeakerCards } from "./SpeakerCards";
 
 export const ChemTalks = () => {
 	return (
-		<div className="container font-ubuntu aboutIITI pb-5">
+		<div className="container font-ubuntu aboutIITI pb-5 chemtalks">
 			<div className="headrow row mb-5">
 				<div className="headimg col-xl-6 col-md-12 col-sm-12">
 					<img src={chemtalks} alt="" />

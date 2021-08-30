@@ -1,49 +1,47 @@
 .headrow {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-flex;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-flex;
 }
-.headrow .headimg{
-    display: inline-flex;
+.headrow .headimg {
+	display: inline-flex;
 }
-.headrow .headimg img{
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+.headrow .headimg img {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .headrow .headtext {
-    margin: auto;
-    text-align: justify;
+	margin: auto;
+	text-align: justify;
 }
 .card {
-    background-color: transparent;
-    border: 0ch;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+	background-color: transparent;
+	border: 0ch;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
-.card .card-img-top {
-    height: 240px;
+.chemtalks .card .card-img-top {
+	height: 240px;
 }
-
-
 
 .speakers {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .organisers {
-    margin-top: 10px;
-    text-align: left;
+	margin-top: 10px;
+	text-align: left;
 }
 
 @media only screen and (max-width: 1030px) {
-	.headrow .headimg img{
-        width: 80vw;
-    }
-    .card .card-img-top {
-        height: 240px;
-        max-width:80vw ;
-    }
+	.headrow .headimg img {
+		width: 80vw;
+	}
+	.card .card-img-top {
+		height: 240px;
+		max-width: 80vw;
+	}
 }
