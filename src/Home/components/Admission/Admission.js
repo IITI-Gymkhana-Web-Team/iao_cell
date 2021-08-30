@@ -49,7 +49,13 @@ export const Admission = () => {
 									<RiExternalLinkFill />
 								</a>
 								<br />
-								c) Foreign Government Sponsorships
+								c) ASEAN Scholarship, Government of India Link
+								<a target="_blank" rel="noreferrer" href="https://www.asean-iit.in/">
+									{" "}
+									<RiExternalLinkFill />
+								</a>
+								<br />
+								d) Foreign Government Sponsorships
 							</td>
 						</tr>
 					</tbody>

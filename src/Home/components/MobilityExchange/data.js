@@ -40,6 +40,11 @@ export const data = {
 						"TU9 Faculty & Institute": "Prof. Dr. -Ing. Tobias Ortmaier LU Hannover",
 						Duration: "May 2015 - July 2015",
 					},
+					{
+						"IITI Student (under IITI Faculty)": "Ms. Vanitha N. Reddy (Dr. Sanjay K. Singh)",
+						"TU9 Faculty & Institute": "Prof. Silke Behrens, KIT Karlsruhe",
+						Duration: "Sept 2018 - May 2019",
+					},
 				],
 			},
 			{

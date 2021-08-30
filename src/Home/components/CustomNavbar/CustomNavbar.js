@@ -102,7 +102,7 @@ export const CustomNavbar = ({ val, setVal }) => {
 									: {}
 							}
 						>
-							Cooperation & Engagement <FiChevronDown />
+							Cooperation & Engagements <FiChevronDown />
 						</p>
 					</div>
 					<div className="mainLink">

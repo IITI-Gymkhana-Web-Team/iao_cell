@@ -82,6 +82,11 @@ export const NavOutbound = ({ handleLinkClick }) => {
 									</a>
 								</p>
 								<p>
+									<a href="https://www.indianstudentsgermany.org/" target="_blank" rel="noreferrer">
+										ISG
+									</a>
+								</p>
+								<p>
 									<a
 										href="https://www.daad.in/en/study-research-in-germany/"
 										target="_blank"
@@ -256,7 +261,7 @@ export const NavOutbound = ({ handleLinkClick }) => {
 							</div>
 						</div>
 						<div className="mb-3 mr-3">
-							<p className="navHeading nh2">Other Links</p>
+							<p className="navHeading nh2">Other Important Opportunities</p>
 							<div>
 								<p>
 									<Link onClick={linkClick} to="/opportunities/internships">
@@ -267,16 +272,6 @@ export const NavOutbound = ({ handleLinkClick }) => {
 									<Link onClick={linkClick} to="/opportunities/pg_phd_post_doc">
 										PG / PhD / Post Doc
 									</Link>
-								</p>
-								<p>
-									<a href="https://www.indianstudentsgermany.org/" target="_blank" rel="noreferrer">
-										ISG
-									</a>
-								</p>
-								<p>
-									<a href="https://www.britishcouncil.in/" target="_blank" rel="noreferrer">
-										British Council India
-									</a>
 								</p>
 							</div>
 						</div>

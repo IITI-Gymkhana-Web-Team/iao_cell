@@ -131,7 +131,7 @@ export const data = {
 
 	Americas: [
 		{
-			"Institutions/Organization/Country": "The Governors of The University of Alberta",
+			"Institutions/Organization/Country": "The University of Alberta",
 			Nature: "MoU",
 			"Purpose/Title":
 				"Exchange of faculty members, research scientists, and postdoctoral associates\n• Exchange of students\n• Exchange of administrative staff\n• Joint supervision of M.S. and Ph.D. students\n• Development of curricula\n• Exchange of academic information and materials\n• Exchange of periodicals and other publications\n• Submission and execution of joint research programs\n• Organization of joint research programs\n• Organization of joint conferences\n• Organization of other academic exchanges agreeable to both Institute(s)/University",
@@ -171,7 +171,7 @@ export const data = {
 			"Country with which there is collation": "USA",
 		},
 		{
-			"Institutions/Organization/Country": "The University of Wiscosin, Madison",
+			"Institutions/Organization/Country": "University of Wiscosin, Madison",
 			Nature: "MoU",
 			"Purpose/Title": "Specific Astro Physical Research Projects",
 			"Coordinating faculty member": "DOIA\r\nDOAA",
