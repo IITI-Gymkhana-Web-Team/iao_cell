@@ -13,7 +13,6 @@ export const NavInbound = ({ handleLinkClick }) => {
 				<div>
 					<p className="navHeading nh1">Visitors</p>
 					<div>
-						<p className="navHeading nh1">Visitors</p>
 						<div>
 							<p>
 								<Link onClick={handleLinkClick} to="/Pros/visitors_experience">
@@ -56,7 +55,6 @@ export const NavInbound = ({ handleLinkClick }) => {
 				<div>
 					<p className="navHeading nh1">Students</p>
 					<div>
-						<p className="navHeading nh1">Students</p>
 						<div>
 							<p>
 								<Link onClick={handleLinkClick} to="/admission">
@@ -64,7 +62,11 @@ export const NavInbound = ({ handleLinkClick }) => {
 								</Link>
 							</p>
 							<p>
-								<a onClick={handleLinkClick} href="https://academic.iiti.ac.in/academic_program.php">
+								<a
+									href="https://academic.iiti.ac.in/academic_program.php"
+									target="_blank"
+									rel="noreferrer"
+								>
 									Programs
 								</a>
 							</p>

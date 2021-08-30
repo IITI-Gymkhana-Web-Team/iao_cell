@@ -67,42 +67,7 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 				</div>
 				<div>
 					<p className="navHeading nh1">Facilities</p>
-					<div style={{ display: "flex" }}>
-						<div style={{ marginRight: "40px" }}>
-							<p>
-								<a href="http://hostel.iiti.ac.in/" target="_blank" rel="noreferrer">
-									Hostels
-								</a>
-							</p>
-							<p>
-								<Link onClick={linkClick} to="/guestHouse">
-									Guest House
-								</Link>
-							</p>
-							<p>
-								<a href="http://iiti.ac.in/page/campus-facilities" target="_blank" rel="noreferrer">
-									Eateries
-								</a>
-							</p>
-							<p>
-								<a href="http://people.iiti.ac.in/~medical/" target="_blank" rel="noreferrer">
-									Health Centre
-								</a>
-							</p>
-							<p>
-								<a href="http://iiti.ac.in/page/e-payments" target="_blank" rel="noreferrer">
-									E-Payments
-								</a>
-							</p>
-							<p>
-								<a href="http://iiti.ac.in/page/counselling-cell" target="_blank" rel="noreferrer">
-									Counselling Cell
-								</a>
-							</p>
-						</div>
-					</div>
 					<div>
-						<p className="navHeading nh1">Facilities</p>
 						<div style={{ display: "flex" }}>
 							<div style={{ marginRight: "40px" }}>
 								<p>
@@ -133,11 +98,6 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 								<p>
 									<a href="http://iiti.ac.in/page/counselling-cell" target="_blank" rel="noreferrer">
 										Counselling Cell
-									</a>
-								</p>
-								<p>
-									<a href="http://www.iitindore.kvs.ac.in/" target="_blank" rel="noreferrer">
-										KV IIT Indore
 									</a>
 								</p>
 							</div>
@@ -171,33 +131,12 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 										Green vehicle schedule
 									</a>
 								</p>
+								<p>
+									<a href="http://www.iitindore.kvs.ac.in/" target="_blank" rel="noreferrer">
+										KV IIT Indore
+									</a>
+								</p>
 							</div>
-						</div>
-					</div>
-
-					<div>
-						<p className="navHeading nh1">Academics and Research</p>
-						<div>
-							<p>
-								<a href="http://cc.iiti.ac.in/" target="_blank" rel="noreferrer">
-									Computer and IT Center
-								</a>
-							</p>
-							<p>
-								<a href="http://placement.iiti.ac.in" target="_blank" rel="noreferrer">
-									Training and Placement
-								</a>
-							</p>
-							<p>
-								<a href="http://people.iiti.ac.in/~creche/" target="_blank" rel="noreferrer">
-									Nursery School
-								</a>
-							</p>
-							<p>
-								<Link onClick={handleLinkClick} to="/outreach/news">
-									News and Activities
-								</Link>
-							</p>
 						</div>
 					</div>
 				</div>
@@ -227,7 +166,7 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 						</p>
 						<p>
 							<Link onClick={linkClick} to="/outreach/news">
-								News & Events
+								News and Activities
 							</Link>
 						</p>
 					</div>

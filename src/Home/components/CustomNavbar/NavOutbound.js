@@ -121,6 +121,21 @@ export const NavOutbound = ({ handleLinkClick }) => {
 							</div>
 						</div>
 						<div className="mb-3 mr-3">
+							<p className="navHeading nh2">Other Important Opportunities</p>
+							<div>
+								<p>
+									<Link onClick={linkClick} to="/opportunities/internships">
+										Internships
+									</Link>
+								</p>
+								<p>
+									<Link onClick={linkClick} to="/opportunities/pg_phd_post_doc">
+										PG / PhD / Post Doc
+									</Link>
+								</p>
+							</div>
+						</div>
+						<div className="mb-3 mr-3">
 							<p className="navHeading nh2">French Scholarships</p>
 							<div>
 								<p>
@@ -258,21 +273,6 @@ export const NavOutbound = ({ handleLinkClick }) => {
 										</a>
 									</p>
 								</div>
-							</div>
-						</div>
-						<div className="mb-3 mr-3">
-							<p className="navHeading nh2">Other Important Opportunities</p>
-							<div>
-								<p>
-									<Link onClick={linkClick} to="/opportunities/internships">
-										Internships
-									</Link>
-								</p>
-								<p>
-									<Link onClick={linkClick} to="/opportunities/pg_phd_post_doc">
-										PG / PhD / Post Doc
-									</Link>
-								</p>
 							</div>
 						</div>
 					</div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import "./EmbedVideo.css";
@@ -6,33 +6,19 @@ import "./EmbedVideo.css";
 const announcements = [
 	{
 		id: 1,
-		desc: "IIT Indore welcomes the newly admitted International Students"
+		desc: "IIT Indore welcomes the newly admitted International Students",
 	},
 	{
 		id: 2,
-		desc: "French Embassy delegates are visiting IIT Indore on Sep. 03,2021"
+		desc: "French Embassy delegates are visiting IIT Indore on Sep. 03,2021",
 	},
 	{
 		id: 3,
-		desc: "Web-session on DAAD scholarship is scheduled on Sep. 17,2021"
-	}
-]
+		desc: "Web-session on DAAD scholarship is scheduled on Sep. 17,2021",
+	},
+];
 
 const EmbedVideo = () => {
-	const [announcements, setAnnouncements] = useState([]);
-
-	useEffect(() => {
-		setAnnouncements([
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		]);
-	}, []);
-
 	const mainRef = useRef(null);
 	useEffect(() => {
 		if (mainRef.current) {
@@ -68,7 +54,7 @@ const EmbedVideo = () => {
 					<hr />
 					<ListGroup variant="flush" ref={mainRef} className="announce-text mt-2">
 						{announcements.map((item) => (
-							<ListGroupItem key={item.id} >{item.desc}</ListGroupItem>
+							<ListGroupItem key={item.id}>{item.desc}</ListGroupItem>
 						))}
 					</ListGroup>
 				</div>
