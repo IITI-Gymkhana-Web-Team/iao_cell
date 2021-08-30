@@ -9,12 +9,12 @@ export const Mou2 = ({ name }) => {
 
 	return (
 		<div className="container-fluid mhrdPage">
-			<h1 className="pt-4 mainTitle text-center mb-5">
+			<h2 className="pt-4 mainTitle text-center mb-5">
 				{name === "Americas" && "MoUs with American Universities"}
 				{name === "Asia" && "MoUs with Asian Universities"}
 				{name === "Australia" && "MoUs with Australian Universities"}
 				{name === "Europe" && "MoUs with European Universities"}
-			</h1>
+			</h2>
 			<Form className="container">
 				<Form.Group controlId="exampleForm.ControlInput2">
 					<Form.Label>Search By Institution</Form.Label>

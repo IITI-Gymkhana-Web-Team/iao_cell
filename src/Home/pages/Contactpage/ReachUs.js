@@ -35,7 +35,7 @@ export default function ReachUs() {
 
 	return (
 		<div className="container-fluid reachUs font-ubuntu mb-5">
-			<h1 className="mt-4 mainTitle mb-3 text-center">Contact Us</h1>
+			<h2 className="mt-4 mainTitle mb-3 text-center">Contact Us</h2>
 			<div className="part1 p-4 container">
 				<div
 					className="mx-auto card2 mb-3"
@@ -90,7 +90,7 @@ export default function ReachUs() {
 					className="reachUsMap mx-auto"
 				></Iframe>
 			</div>
-			<h1 className="font-acme mt-5 text-center mb-4">How To Reach Us</h1>
+			<h2 className="font-acme mt-5 text-center mb-4">How To Reach Us</h2>
 			<div className=" text-justify cardsGrp">
 				<Card className="mt-4" style={{ width: "max(30%,22rem)" }}>
 					<Card.Header>
@@ -142,7 +142,7 @@ export default function ReachUs() {
 					</Card.Body>
 				</Card>
 			</div>
-			<h1 className="font-acme mt-5 text-center">Cab Services</h1>
+			<h2 className="font-acme mt-5 text-center">Cab Services</h2>
 			<div className="container">
 				<Table striped bordered hover variant="primary" responsive className="mb-4 mt-2">
 					<thead>
@@ -180,7 +180,7 @@ export default function ReachUs() {
 					</tbody>
 				</Table>
 			</div>
-			<h1 className="font-acme mt-5 text-center">Emergency Contact Numbers</h1>
+			<h2 className="font-acme mt-5 text-center">Emergency Contact Numbers</h2>
 			<div className="container">
 				<p>
 					<br />

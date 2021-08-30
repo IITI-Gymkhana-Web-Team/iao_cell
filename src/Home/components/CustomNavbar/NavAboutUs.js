@@ -100,6 +100,86 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 								</a>
 							</p>
 						</div>
+<<<<<<< HEAD
+=======
+					</div>
+					<div>
+						<p className="navHeading nh1">Facilities</p>
+						<div style={{ display: "flex" }}>
+							<div style={{ marginRight: "40px" }}>
+								<p>
+									<a href="http://hostel.iiti.ac.in/" target="_blank" rel="noreferrer">
+										Hostels
+									</a>
+								</p>
+								<p>
+									<Link onClick={handleLinkClick} to="/guestHouse">
+										Guest House
+									</Link>
+								</p>
+								<p>
+									<a href="http://iiti.ac.in/page/campus-facilities" target="_blank" rel="noreferrer">
+										Eateries
+									</a>
+								</p>
+								<p>
+									<a href="http://people.iiti.ac.in/~medical/" target="_blank" rel="noreferrer">
+										Health Centre
+									</a>
+								</p>
+								<p>
+									<a href="http://iiti.ac.in/page/e-payments" target="_blank" rel="noreferrer">
+										E-Payments
+									</a>
+								</p>
+								<p>
+									<a href="http://iiti.ac.in/page/counselling-cell" target="_blank" rel="noreferrer">
+										Counselling Cell
+									</a>
+								</p>
+								<p>
+									<a href="http://www.iitindore.kvs.ac.in/" target="_blank" rel="noreferrer">
+										KV IIT Indore
+									</a>
+								</p>
+							</div>
+							<div>
+								<p>
+									<a href="http://cc.iiti.ac.in/" target="_blank" rel="noreferrer">
+										Computer and IT Center
+									</a>
+								</p>
+								<p>
+									<a href="http://placement.iiti.ac.in" target="_blank" rel="noreferrer">
+										Training and Placement
+									</a>
+								</p>
+								<p>
+									<a href="http://people.iiti.ac.in/~creche/" target="_blank" rel="noreferrer">
+										Nursery School
+									</a>
+								</p>
+								<p>
+									<a href="http://vbs.iiti.ac.in/" target="_blank" rel="noreferrer">
+										Transport Booking
+									</a>
+								</p>
+								<p>
+									<a
+										href="https://www.iiti.ac.in/public/storage/Green%20vehicle%20schedule-%202021.pdf"
+										target="_blank"
+										rel="noreferrer"
+									>
+										Green vehicle schedule
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<p className="navHeading nh1">Academics and Research</p>
+>>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 						<div>
 							<p>
 								<a href="http://cc.iiti.ac.in/" target="_blank" rel="noreferrer">
@@ -117,6 +197,7 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 								</a>
 							</p>
 							<p>
+<<<<<<< HEAD
 								<a href="http://vbs.iiti.ac.in/" target="_blank" rel="noreferrer">
 									Transport Booking
 								</a>
@@ -129,6 +210,11 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 								>
 									Green vehicle schedule
 								</a>
+=======
+								<Link onClick={handleLinkClick} to="/outreach/news">
+									News and Activities
+								</Link>
+>>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 							</p>
 						</div>
 					</div>

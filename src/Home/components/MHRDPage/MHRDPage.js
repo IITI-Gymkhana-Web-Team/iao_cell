@@ -12,7 +12,7 @@ export const MHRDPage = ({ info, name, person, insti, desc, grants }) => {
 
 	return (
 		<div className="container mb-5 mhrdPage">
-			<h1 className="pt-4 mainTitle">{name}</h1>
+			<h2 className="pt-4 mainTitle">{name}</h2>
 			<p className="font-ubuntu text-justify">{desc}</p>
 			<div className="coords mt-5">
 				<div>

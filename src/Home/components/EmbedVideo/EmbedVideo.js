@@ -3,6 +3,21 @@ import { Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import "./EmbedVideo.css";
 
+const announcements = [
+	{
+		id: 1,
+		desc: "IIT Indore welcomes the newly admitted International Students"
+	},
+	{
+		id: 2,
+		desc: "French Embassy delegates are visiting IIT Indore on Sep. 03,2021"
+	},
+	{
+		id: 3,
+		desc: "Web-session on DAAD scholarship is scheduled on Sep. 17,2021"
+	}
+]
+
 const EmbedVideo = () => {
 	const [announcements, setAnnouncements] = useState([]);
 
@@ -21,19 +36,26 @@ const EmbedVideo = () => {
 	const mainRef = useRef(null);
 	useEffect(() => {
 		if (mainRef.current) {
-			var pos = 100;
+			var pos = 30;
 			const interval = setInterval(() => {
-				mainRef.current.scrollTop = pos;
-				if (pos === 437) pos = 0;
-				else pos += 1;
+				if (mainRef.current) {
+					mainRef.current.scrollTop = pos;
+					if (pos === 164) pos = 0;
+					else pos += 1;
+				}
 			}, 2);
 			return () => clearInterval(interval);
 		}
 	}, []);
 
 	return (
+<<<<<<< HEAD
 		<Row className="embed-video container m-auto mt-4">
 			<Col md="12" lg="7" className="embed-video-div m-0 p-0" style={{ marginTop: "100px !important" }}>
+=======
+		<Row className="embed-video container m-auto">
+			<Col md="12" lg="8" className="embed-video-div m-0 p-0" style={{ marginTop: "100px !important" }}>
+>>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 				<div className="video-responsive">
 					<iframe
 						className="embed-iframe"
@@ -50,6 +72,7 @@ const EmbedVideo = () => {
 					<p className="announce-title text-left font-acme">Announcements</p>
 					<hr />
 					<ListGroup variant="flush" ref={mainRef} className="announce-text mt-2">
+<<<<<<< HEAD
 						{announcements.map((announcement, index) => {
 							return (
 								<ListGroupItem key={index} className="font-ubuntu" style={{ fontSize: "1rem" }}>
@@ -57,6 +80,11 @@ const EmbedVideo = () => {
 								</ListGroupItem>
 							);
 						})}
+=======
+						{announcements.map((item) => (
+							<ListGroupItem key={item.id} >{item.desc}</ListGroupItem>
+						))}
+>>>>>>> 2b7d077a0235b6d8adcf39ab18275b84dfab98a9
 					</ListGroup>
 				</div>
 			</Col>

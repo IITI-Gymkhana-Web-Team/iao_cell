@@ -9,7 +9,7 @@ export const Grants = () => {
 
 	return (
 		<div className="container-fluid mhrdPage">
-			<h1 className="mainTitle mt-4 mb-5 text-center">Bilateral International Grants</h1>
+			<h2 className="mainTitle mt-4 mb-5 text-center">Bilateral International Grants</h2>
 			<Form className="container">
 				<Form.Group controlId="exampleForm.ControlInput1">
 					<Form.Label>Search By Department</Form.Label>

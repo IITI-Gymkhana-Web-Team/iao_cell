@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const AboutIOA = () => {
 	return (
 		<div className="container pb-5 text-justify">
-			<h1 className="mainTitle text-center m-3 mb-4">About Us</h1>
+			<h2 className="mainTitle text-center m-3 mb-4">About Us</h2>
 			<h3 className="mainTitle mt-5">International Affairs and Outreach</h3>
 			<p>
 				IIT Indore is rapidly expanding globally with an aim to internationalize its

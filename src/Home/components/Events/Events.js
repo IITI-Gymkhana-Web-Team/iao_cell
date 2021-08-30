@@ -12,7 +12,7 @@ export const Events = () => {
 	return (
 		<div className="news events">
 			<div>
-				<h1 className="pr-5 pb-3 mainTitle">Events</h1>
+				<h2 className="pr-5 pb-3 mainTitle">Events</h2>
 			</div>
 			<div>
 				{events.map((event, i) => {
