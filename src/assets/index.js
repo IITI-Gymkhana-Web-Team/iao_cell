@@ -197,6 +197,12 @@ import FrenchConsultImg from "./FrenchConsultationVisit.jpeg";
 import BUL from "./BUL.jpeg";
 import NIDB from "./NIDB&IITI.jpeg";
 import MoU from "./MoUwithUoAIITI.jpeg";
+import chemtalks from "./chemtalks.jpg";
+import profholger from "./profholger.jpg";
+import profjean from "./profjean.png";
+import profsilke from "./profsilke.png";
+import profmalte from "./profmalte.jpg";
+import tridib from "./tridib.jpg";
 
 export {
 	NSDImg,
@@ -204,6 +210,12 @@ export {
 	BUL,
 	NIDB,
 	MoU,
+	tridib,
+	profjean,
+	profsilke,
+	profmalte,
+	profholger,
+	chemtalks,
 	nsd1,
 	nsd2,
 	nsd3,

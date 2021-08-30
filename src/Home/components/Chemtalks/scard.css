@@ -1,0 +1,32 @@
+.scard .scardimg img {
+	width: 150px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scard .scardimg{
+	display: inline-flex;
+}
+
+.scard {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	display: flex;
+	background-color: #fff;
+    height: fit-content;
+}
+
+.scard svg {
+	font-size: 35px;
+	padding-right: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.scard {
+		flex-direction: column;
+		text-align: center;
+	}
+}
