@@ -14,6 +14,7 @@ export const Mou2 = ({ name }) => {
 				{name == "Asia" && "MoUs with Asian Universities"}
 				{name == "Australia" && "MoUs with Australian Universities"}
 				{name == "Europe" && "MoUs with European Universities"}
+				{name == "Africa" && "MoUs with African Universities"}
 			</h1>
 			<Form className="container">
 				<Form.Group controlId="exampleForm.ControlInput2">
@@ -54,9 +55,7 @@ export const Mou2 = ({ name }) => {
 					{data[name].map((reg, index) => {
 						return (
 							(country == "" ||
-								reg["Country with which there is collation"]
-									.toLowerCase()
-									.indexOf(country) != -1) &&
+								reg["Country with which there is collation"].toLowerCase().indexOf(country) != -1) &&
 							(institution == "" ||
 								reg["Institutions/Organization/Country"]
 									.toLowerCase()

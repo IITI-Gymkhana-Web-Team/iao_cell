@@ -686,6 +686,14 @@ export const Nav2 = () => {
 									},
 								},
 								{
+									title: "African Universities",
+									isAuth: true,
+									icon: null,
+									onClick: () => {
+										history.push("/mou/africa");
+									},
+								},
+								{
 									title: "European Universities",
 									isAuth: true,
 									icon: null,

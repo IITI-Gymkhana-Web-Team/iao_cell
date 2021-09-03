@@ -271,7 +271,31 @@ export const data = {
 			"Country with which there is collation": "Australia",
 		},
 	],
+	Africa: [
+		{
+			"S.No.": "1",
+			"Institutions/Organization/Country": "University of Johannesburg",
+			Nature: "MoU",
+			"Purpose/Title":
+				"1. Exchange of the academic employees\n2. Exchange of the students\n3. Joint research, collaborative research projects and the exchange of academic information and materials and \n4. Other activities as may be mutually agreed upon.",
+			"Coordinating faculty member": "Director\r\nDOIA",
+			"Signed on": "Sep 1, 2021",
+			Duration: "3 Years",
+			"Country with which there is collation": "South Africa",
+		},
+	],
 	Europe: [
+		{
+			"S.No.": "1",
+			"Institutions/Organization/Country": "Aristotle University of Thessaloniki, Greece",
+			Nature: "MoU",
+			"Purpose/Title":
+				"1. Exchange of students,\n2. Exchange of academic staff\n3. Exchange of Information\n4. Special Projects\n5. faculty Members visits",
+			"Coordinating faculty member": "Dr. Manish Kumar Goyal\r\nDoIAO\r\nDirector",
+			"Signed on": "Aug 30, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Greece",
+		},
 		{
 			"S.No.": "1",
 			"Institutions/Organization/Country": "The University of Gothenburg",

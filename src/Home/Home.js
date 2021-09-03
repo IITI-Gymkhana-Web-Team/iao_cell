@@ -126,6 +126,13 @@ export const Home = () => {
 							return <Mou2 name={"Australia"} />;
 						}}
 					/>
+					<Route
+						path="/mou/africa"
+						exact
+						component={() => {
+							return <Mou2 name={"Africa"} />;
+						}}
+					/>
 					<Route path="/grants" exact component={Grants} />
 					<Route path="/publications" exact component={Publications} />
 					<Route path="/mhrd/sparc" exact component={Sparc} />
