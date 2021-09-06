@@ -41,6 +41,7 @@ import { Director } from "./components/Director/Director";
 import { CustomNavbar } from "./components/CustomNavbar/CustomNavbar";
 import { Outreach } from "./components/Outreach/Outreach";
 import { ChemTalks } from "./components/Chemtalks/Chemtalks";
+import { IntVisitors } from "./components/IntVisitors/IntVisitors";
 
 export const Home = () => {
 	const [val, setVal] = useState(0);
@@ -74,6 +75,7 @@ export const Home = () => {
 						}}
 					/>
 					<Route path="/int/students" exact component={IntStudents} />
+					<Route path="/int/visitors" exact component={IntVisitors} />
 					<Route
 						path="/committee/oc"
 						exact

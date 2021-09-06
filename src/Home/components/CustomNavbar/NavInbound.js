@@ -30,6 +30,11 @@ export const NavInbound = ({ handleLinkClick }) => {
 								</Link>
 							</p>
 							<p>
+								<Link onClick={handleLinkClick} to="/int/visitors">
+									International Visitors
+								</Link>
+							</p>
+							<p>
 								<Link onClick={handleLinkClick} to="/LifeIITI">
 									Campus Life@IITI
 								</Link>

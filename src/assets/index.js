@@ -203,8 +203,68 @@ import profjean from "./profjean.png";
 import profsilke from "./profsilke.png";
 import profmalte from "./profmalte.jpg";
 import tridib from "./tridib.jpg";
+import deborah from "./deborah.webp";
+import deepak from "./deepak.webp";
+import garrelt from "./garrelt.webp";
+import garreltAix from "./garreltAix.webp";
+import gaurav from "./gaurav.webp";
+import gerald from "./gerald.webp";
+import ina from "./ina.webp";
+import ivan from "./ivan.webp";
+import jenny from "./jenny.webp";
+import jules from "./jules.webp";
+import katrin from "./katrin.webp";
+import kavita from "./kavita.webp";
+import kumar from "./kumar.webp";
+import leyva from "./leyva.webp";
+import ma from "./ma.webp";
+import mahesh from "./mahesh.webp";
+import mikhail from "./mikhail.webp";
+import narain from "./narain.webp";
+import nath from "./nath.webp";
+import oleg from "./oleg.webp";
+import omer from "./omer.webp";
+import pattnaik from "./pattnaik.webp";
+import paul from "./paul.webp";
+import rajeev from "./rajeev.webp";
+import ram from "./ram.webp";
+import ramesh from "./ramesh.webp";
+import sajida from "./sajida.webp";
+import shripad from "./shripad.webp";
+import tharmalingam from "./tharmalingam.webp";
+import vatsala from "./vatsala.webp";
 
 export {
+	deborah,
+	deepak,
+	garrelt,
+	garreltAix,
+	gaurav,
+	gerald,
+	ina,
+	ivan,
+	jenny,
+	jules,
+	katrin,
+	kavita,
+	kumar,
+	leyva,
+	ma,
+	mahesh,
+	mikhail,
+	narain,
+	nath,
+	oleg,
+	omer,
+	pattnaik,
+	paul,
+	rajeev,
+	ram,
+	ramesh,
+	sajida,
+	shripad,
+	tharmalingam,
+	vatsala,
 	NSDImg,
 	FrenchConsultImg,
 	BUL,

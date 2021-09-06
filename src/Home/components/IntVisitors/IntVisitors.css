@@ -1,0 +1,21 @@
+.visitorCardDiv {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.visitorCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 10px;
+	padding: 10px;
+	max-width: 270px;
+}
+
+.visitorCard img {
+	height: 250px;
+	width: 250px;
+}
