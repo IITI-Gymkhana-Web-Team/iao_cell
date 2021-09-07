@@ -34,7 +34,7 @@ export const MobileMenuLinks = ({ link1, setShow2, show2 }) => {
 			)) ||
 				(typeof link1.innerLinks === "undefined" && (
 					<div className={"menu" + link1.level + " indiMenuLink"}>
-						{link1.link[0] === "h" && (
+						{(link1.link[0] === "h" || link1.document) && (
 							<a
 								href={link1.link}
 								target="_blank"
@@ -47,7 +47,7 @@ export const MobileMenuLinks = ({ link1, setShow2, show2 }) => {
 								{link1.name}
 							</a>
 						)}
-						{link1.link[0] !== "h" && (
+						{link1.link[0] !== "h" && !link1.document && (
 							<Link
 								to={link1.link}
 								onClick={() => {

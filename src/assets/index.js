@@ -233,8 +233,16 @@ import sajida from "./sajida.webp";
 import shripad from "./shripad.webp";
 import tharmalingam from "./tharmalingam.webp";
 import vatsala from "./vatsala.webp";
+import malte from "./malte.png";
+import halet from "./halet.png";
+import holger from "./holger.jpg";
+import silke from "./silke.jpg";
 
 export {
+	malte,
+	halet,
+	holger,
+	silke,
 	deborah,
 	deepak,
 	garrelt,

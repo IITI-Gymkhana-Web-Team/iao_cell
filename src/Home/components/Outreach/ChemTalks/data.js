@@ -1,4 +1,4 @@
-import { person, boron, photocat, organo, nano } from "../../../../assets";
+import { person, boron, photocat, organo, nano, malte, halet, holger, silke } from "../../../../assets";
 
 export const data = [
 	{
@@ -9,7 +9,7 @@ export const data = [
 			{
 				name: "Prof. Dr. Holger",
 				designation: "Professor, Braunschweig University of Würzburg, Germany",
-				image: person,
+				image: holger,
 				desc: "Nulla Lorem commodo Lorem incididunt sint magna ipsum cillum dolor esse deserunt. Occaecat fugiat mollit mollit esse culpa officia enim laboris cupidatat labore sint cillum occaecat ex. Ad nulla eiusmod culpa ipsum commodo magna labore sint fugiat ad. Consequat officia exercitation aliquip sint laboris consequat qui fugiat quis nisi adipisicing duis cillum aute. Commodo ut consequat pariatur ad excepteur.",
 			},
 		],
@@ -34,7 +34,7 @@ export const data = [
 			{
 				name: "Prof. Dr. Malte Brasholz",
 				designation: "Professor, University of Rostock, Germany",
-				image: person,
+				image: malte,
 				desc: "Nulla Lorem commodo Lorem incididunt sint magna ipsum cillum dolor esse deserunt. Occaecat fugiat mollit mollit esse culpa officia enim laboris cupidatat labore sint cillum occaecat ex. Ad nulla eiusmod culpa ipsum commodo magna labore sint fugiat ad. Consequat officia exercitation aliquip sint laboris consequat qui fugiat quis nisi adipisicing duis cillum aute. Commodo ut consequat pariatur ad excepteur.",
 			},
 		],
@@ -60,7 +60,7 @@ export const data = [
 				name: "Prof. Jean-François Halet",
 				designation:
 					"Professor, Université de Rennes, CNRS, ISCR (Institut des Sciences Chimiques de Rennes), France",
-				image: person,
+				image: halet,
 				desc: "Nulla Lorem commodo Lorem incididunt sint magna ipsum cillum dolor esse deserunt. Occaecat fugiat mollit mollit esse culpa officia enim laboris cupidatat labore sint cillum occaecat ex. Ad nulla eiusmod culpa ipsum commodo magna labore sint fugiat ad. Consequat officia exercitation aliquip sint laboris consequat qui fugiat quis nisi adipisicing duis cillum aute. Commodo ut consequat pariatur ad excepteur.",
 			},
 		],
@@ -85,7 +85,7 @@ export const data = [
 			{
 				name: "Prof. Dr. Silke Behrens",
 				designation: "IKFT, Karlsruhe Institute of Technology (KIT), Germany",
-				image: person,
+				image: silke,
 				desc: "Nulla Lorem commodo Lorem incididunt sint magna ipsum cillum dolor esse deserunt. Occaecat fugiat mollit mollit esse culpa officia enim laboris cupidatat labore sint cillum occaecat ex. Ad nulla eiusmod culpa ipsum commodo magna labore sint fugiat ad. Consequat officia exercitation aliquip sint laboris consequat qui fugiat quis nisi adipisicing duis cillum aute. Commodo ut consequat pariatur ad excepteur.",
 			},
 		],
