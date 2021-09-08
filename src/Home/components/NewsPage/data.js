@@ -4,6 +4,12 @@ export const data = [
 	{
 		title: "Impact of the Digital Revolution on Higher Education",
 		image: ai,
+		desc: "Ms. Shalini Singh, Ph.D. Scholar, Department of Mechanical Engineering, IIT Indore has received the OVDF fellowship to pursue her research  studies in the University of Alberta.\nTitle of the Research work: “Customized Shape Memory Alloy (SMA) Structures using Plasma and Wire Arc Additive Manufacturing”\nMentoring Faculty from Canada: Prof. Ahmed Qureshi, Associate Professor, Faculty of Engineering, Mechanical Engineering Deptt., University of Alberta, Canada\nMentoring Faculty from IIT Indore: Dr. I. A. Palani, Department of Mechanical Engineering\nDuration:1 year (Jan. 2022-Jan. 2023)",
+		date: "Sep 3, 2021",
+	},
+	{
+		title: "Impact of the Digital Revolution on Higher Education",
+		image: ai,
 		desc: 'Dr. Aruna Tiwari, Associate Professor, CSE represented IIT Indore as an Artificial Intelligence expert in the Internationalist Podcast series on  "Impact of the digital revolution on higher education", organized by the Association of Commonwealth Universities, UK on June 8, 2021.',
 		date: "June 8, 2021",
 	},

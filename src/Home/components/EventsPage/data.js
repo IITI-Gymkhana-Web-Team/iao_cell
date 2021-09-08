@@ -46,9 +46,41 @@ import {
 	abhinoy,
 	paresh,
 	pareshTalk,
+	global_health_crisis_iv,
+	gagandeep,
+	tone,
 } from "../../../assets";
 
 export const data = [
+	{
+		title: "Role of Science in Nation Building during Global Health Crisis (IV)",
+		time: "4:30 PM IST",
+		speakers: [
+			{
+				name: "Prof. Gagandeep Kang",
+				designation: "Vice-Chair of the Board of Coalition of Epidemic Preparedness Innovations",
+				desc: "Professor Kang conducts inter-disciplinary research on viral infections, nutrition and child health. Her team has evaluated vaccines in pre-clinical and clinical phase 1-3 trials for enteric infections and coordinated multi-site surveillance studies to develop national disease burden estimates. She is a member of many WHO advisory committees, is the vice-Chair of the Board of Coalition of Epidemic Preparedness Innovations and chairs the Immunization Technical Advisory Group for the WHO’s South East Asian Region. She also served as Executive Director, Translational Health Science and Technology Institute, Faridabad, an autonomous institute of the DBT, Government of India. She was awarded the prestigious Infosys Prize in Life Sciences for her contributions to understanding the history of rotavirus and other infectious diseases. In 2019, she became the first Indian woman to be elected as a Fellow of the Royal Society.",
+				img: gagandeep,
+			},
+		],
+		img: global_health_crisis_iv,
+		venue: "Webex",
+		desc: "IIT Indore in association with University of Oslo is organizing a public lecture series on the topic “Role of Science in Nation Building during Global Health Crisis”. This event is sponsored by INTPART, Research Council of Norway.\nScience-including biological, physical, social, behavioral, cultural, engineering, and medical disciplines play an increasingly important role in governmental and institutional response during crises. During global crises the role of scientific community becomes even more critical in nation building by identifying critical problems, determine how our capability can be best used to answer those questions, design and execute the necessary research, and then share those results with decision-makers and the public. The ongoing Covid-19 pandemic has brought to the fore the importance of a thriving scientific ecosystem for dealing with global crises. The popular public lecture series will bring together a group of eminent experts around the world to share their views on the role of science, research, education, and actionable data in nation building during global health crisis.\nIn this way, we plan to establish a large virtual academic platform that will include participants not only from premier institutes in India but will also involve participation of students and young faculties from a group of institutions, which have limited scientific exposure in terms of research and higher education largely due to their presence at remotest part of India.",
+		date: "15th September, 2021",
+		oc: [
+			{
+				name: "Prof. Avinash Sonawane",
+				designation:
+					"Department of Biosciences and Biomedical Engineering & Dean, International Affairs & Outreach, IIT Indore, India",
+				img: avinash,
+			},
+			{
+				name: "Prof. Tone Tonjum",
+				designation: "Department of Microbiology, University of Oslo, Norway",
+				img: tone,
+			},
+		],
+	},
 	{
 		title: "Forecasting Crude Oil Futures Prices Using the Kalman Filter and News",
 		time: "2:00 PM - 3:00 PM IST",

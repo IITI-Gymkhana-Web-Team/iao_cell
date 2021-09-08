@@ -182,8 +182,14 @@ import wheat from "./wheat-min.png";
 import videoo from "./bgvideo4.mp4";
 import paresh from "./paresh.jpg";
 import pareshTalk from "./pareshTalk.png";
+import global_health_crisis_iv from "./global_health_crisis_iv.jpg";
+import tone from "./tone.jpg";
+import gagandeep from "./gagandeep.jpg";
 
 export {
+	gagandeep,
+	tone,
+	global_health_crisis_iv,
 	pareshTalk,
 	paresh,
 	ai,
