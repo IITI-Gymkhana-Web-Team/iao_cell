@@ -53,7 +53,7 @@ export const NavOutreach = ({ handleLinkClick }) => {
 					<p className="navHeading nh1">Conferences and Seminars</p>
 					<div>
 						<p>
-							<Link onClick={linkClick} to="/outreach/chem">
+							<Link onClick={linkClick} to="/chemtalks">
 								Chemistry Talks
 							</Link>
 						</p>

@@ -1,11 +1,10 @@
 .scard .scardimg img {
 	width: 150px;
 	height: 200px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
-.scard .scardimg{
+.scard .scardimg {
 	display: inline-flex;
 }
 
@@ -16,7 +15,7 @@
 	border-radius: 10px;
 	display: flex;
 	background-color: #fff;
-    height: fit-content;
+	height: fit-content;
 }
 
 .scard svg {

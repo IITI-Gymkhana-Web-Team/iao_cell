@@ -10,14 +10,14 @@ export const SpeakerCards = ({ person }) => {
 				<img src={person.img} alt="person" />
 			</div>
 			<div className="p-2 pl-4 pr-4">
-                <h4 className="font-acme">{person.topic}</h4>
-				<h2 className="font-acme">{person.name}</h2>
-				<p>
-                    <MdAccountBalance/>
+				<h5 className="font-acme">{person.topic}</h5>
+				<h4 className="font-acme">{person.name}</h4>
+				<p style={{ marginBottom: 10, marginTop: 30 }}>
+					<MdAccountBalance />
 					{person.university}
 				</p>
-                <p>
-                    <VscCalendar/>
+				<p style={{ marginBottom: 0 }}>
+					<VscCalendar />
 					{person.datetime}
 				</p>
 			</div>
