@@ -58,7 +58,8 @@ export const data = [
 		speakers: [
 			{
 				name: "Prof. Gagandeep Kang",
-				designation: "Vice-Chair of the Board of Coalition of Epidemic Preparedness Innovations",
+				designation:
+					"Professor of Microbiology Wellcome Trust Research Laboratory Division of Gastrointestinal Sciences Christian Medical College, Vellore, India",
 				desc: "Professor Kang conducts inter-disciplinary research on viral infections, nutrition and child health. Her team has evaluated vaccines in pre-clinical and clinical phase 1-3 trials for enteric infections and coordinated multi-site surveillance studies to develop national disease burden estimates. She is a member of many WHO advisory committees, is the vice-Chair of the Board of Coalition of Epidemic Preparedness Innovations and chairs the Immunization Technical Advisory Group for the WHO’s South East Asian Region. She also served as Executive Director, Translational Health Science and Technology Institute, Faridabad, an autonomous institute of the DBT, Government of India. She was awarded the prestigious Infosys Prize in Life Sciences for her contributions to understanding the history of rotavirus and other infectious diseases. In 2019, she became the first Indian woman to be elected as a Fellow of the Royal Society.",
 				img: gagandeep,
 			},
