@@ -1,10 +1,10 @@
-import { nsd2020, chem_talks_news, ai } from "../../../assets";
+import { nsd2020, chem_talks_news, ai, uoa } from "../../../assets";
 
 export const data = [
 	{
-		title: "Impact of the Digital Revolution on Higher Education",
-		image: ai,
-		desc: "Ms. Shalini Singh, Ph.D. Scholar, Department of Mechanical Engineering, IIT Indore has received the OVDF fellowship to pursue her research  studies in the University of Alberta.\nTitle of the Research work: “Customized Shape Memory Alloy (SMA) Structures using Plasma and Wire Arc Additive Manufacturing”\nMentoring Faculty from Canada: Prof. Ahmed Qureshi, Associate Professor, Faculty of Engineering, Mechanical Engineering Deptt., University of Alberta, Canada\nMentoring Faculty from IIT Indore: Dr. I. A. Palani, Department of Mechanical Engineering\nDuration:1 year (Jan. 2022-Jan. 2023)",
+		title: "Ms. Shalini Singh, Ph.D. Scholar, Dept. of Mechanical Engineering, IIT Indore has received the OVDF fellowship to pursue her research  studies in the University of Alberta.",
+		image: uoa,
+		desc: "Title of the Research work: “Customized Shape Memory Alloy (SMA) Structures using Plasma and Wire Arc Additive Manufacturing”\nMentoring Faculty from Canada: Prof. Ahmed Qureshi, Associate Professor, Faculty of Engineering, Mechanical Engineering Deptt., University of Alberta, Canada\nMentoring Faculty from IIT Indore: Dr. I. A. Palani, Department of Mechanical Engineering\nDuration:1 year (Jan. 2022-Jan. 2023)",
 		date: "Sep 3, 2021",
 	},
 	{

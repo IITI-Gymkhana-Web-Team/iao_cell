@@ -185,6 +185,7 @@ import pareshTalk from "./pareshTalk.png";
 import global_health_crisis_iv from "./global_health_crisis_iv.jpg";
 import tone from "./tone.jpg";
 import gagandeep from "./gagandeep.jpg";
+import uoa from "./uoa.jpeg";
 
 export {
 	gagandeep,
@@ -374,4 +375,5 @@ export {
 	nirmala,
 	prashant,
 	debasis,
+	uoa,
 };
