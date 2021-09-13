@@ -1,6 +1,12 @@
-import { nsd2020, chem_talks_news, ai, uoa } from "../../../assets";
+import { nsd2020, chem_talks_news, ai, uoa, virtualBooth } from "../../../assets";
 
 export const data = [
+	{
+		title: "IIT Indore is participating in the PAN IIT Global Virtual Technology Summit PI-WOT 2021",
+		image: virtualBooth,
+		desc: "This summit is aimed to showcase the excellence of each IIT in academics, research, and innovations, and reaching out to the IIT Alumni, Industries, and Investors. We are also going to set up one virtual booth representing IIT Indore.\nThe IIT Exhibition Area is now open to receive visitors and will continue during the Summit (17th and 18th September) and close on 18th September when the Summit concludes.You can visit all the IIT Exhibition Area at any time ( 24*7 it is open) of your convenience. You may invite your colleague and friends to join the Summit and also visit the IIT Exhibition Area by sharing the following link with them to register for this event: https://piwot.paniit.org/register-now.php . Participation is open to all.",
+		date: "Sep 13, 2021",
+	},
 	{
 		title: "Ms. Shalini Singh, Ph.D. Scholar, Dept. of Mechanical Engineering, IIT Indore has received the OVDF fellowship to pursue her research  studies in the University of Alberta.",
 		image: uoa,

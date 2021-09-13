@@ -287,6 +287,18 @@ export const data = {
 	Europe: [
 		{
 			"S.No.": "1",
+			"Institutions/Organization/Country":
+				"Wigner Research Centre for Physics, Hungarian Academy of Sciences, Budapest",
+			Nature: "MoU",
+			"Purpose/Title":
+				"Collaboration between participants in mutually agreed areas in general and high-energy nuclear physics in particular.",
+			"Coordinating faculty member": "DoIAO\r\nDr. Raghunath Sahoo",
+			"Signed on": "Sept 07, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Hungary",
+		},
+		{
+			"S.No.": "1",
 			"Institutions/Organization/Country": "Aristotle University of Thessaloniki, Greece",
 			Nature: "MoU",
 			"Purpose/Title":

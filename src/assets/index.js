@@ -185,9 +185,11 @@ import pareshTalk from "./pareshTalk.png";
 import global_health_crisis_iv from "./global_health_crisis_iv.jpg";
 import tone from "./tone.jpg";
 import gagandeep from "./gagandeep.jpg";
+import virtualBooth from "./virtualBooth.jpg";
 import uoa from "./uoa.jpeg";
 
 export {
+	virtualBooth,
 	gagandeep,
 	tone,
 	global_health_crisis_iv,
