@@ -55,6 +55,20 @@ export const IntStudents = () => {
 				<tbody>
 					<tr>
 						<td>2021-23</td>
+						<td>Mr. Akah Precious Chiemena</td>
+						<td>M.Tech. (CSP)</td>
+						<td>Nigeria</td>
+						<td>ICCR</td>
+					</tr>
+					<tr>
+						<td>2021-23</td>
+						<td>Mr. Akash Yadav</td>
+						<td>M.Tech. (PIE)</td>
+						<td>Nepal</td>
+						<td>Nepal Scholarship</td>
+					</tr>
+					<tr>
+						<td>2021-23</td>
 						<td>Mr. Sumantra Aarya</td>
 						<td>M.Tech. (PIE)</td>
 						<td>Nepal</td>
