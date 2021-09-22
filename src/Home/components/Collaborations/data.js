@@ -450,17 +450,17 @@ export const data = {
 			Duration: "5 Years",
 			"Country with which there is collation": "France",
 		},
-		{
-			"S.No.": "8",
-			"Institutions/Organization/Country": "University of Strasbourg, Strasbourg",
-			Nature: "MoU",
-			"Purpose/Title":
-				"Exchange of faculty members, researchers, administrative staff\r\nExchange of students \r\nJoint supervision of thesis\r\nDevelopment of joint research projects\r\nOrganization of mutual courses and joint seminars",
-			"Coordinating faculty member": "DOIA\r\nDOAA\r\nDr. I. A. Palani",
-			"Signed on": "June 13, 2018",
-			Duration: "2 Years",
-			"Country with which there is collation": "France",
-		},
+		// {
+		// 	"S.No.": "8",
+		// 	"Institutions/Organization/Country": "University of Strasbourg, Strasbourg",
+		// 	Nature: "MoU",
+		// 	"Purpose/Title":
+		// 		"Exchange of faculty members, researchers, administrative staff\r\nExchange of students \r\nJoint supervision of thesis\r\nDevelopment of joint research projects\r\nOrganization of mutual courses and joint seminars",
+		// 	"Coordinating faculty member": "DOIA\r\nDOAA\r\nDr. I. A. Palani",
+		// 	"Signed on": "June 13, 2018",
+		// 	Duration: "2 Years",
+		// 	"Country with which there is collation": "France",
+		// },
 		{
 			"S.No.": "9",
 			"Institutions/Organization/Country": "ECAM, Lyon",
