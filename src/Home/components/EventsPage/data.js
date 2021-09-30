@@ -49,9 +49,35 @@ import {
 	global_health_crisis_iv,
 	gagandeep,
 	tone,
+	FLYER_Maths_Seminar,
+	bruce,
+	manna,
+	bibek,
+	ashisha,
 } from "../../../assets";
 
 export const data = [
+	{
+		title: "A public Lecture by Prof. Bruce C. Berndt from the University of Illinois at Urbana-Champaign, USA",
+		time: "7:30 PM IST",
+		speakers: [
+			{
+				name: "Prof. Bruce C. Berndt",
+				designation: "University of Illinois, Urbana-Champaign, USA",
+				desc: "Prof. Bruce C. Berndt is one of the world's foremost mathematicians in the work of Srinivasa Ramanujan. Prof. Berndt received Ph.D. from the University of Wisconsin in 1966. After an Assistant Lectureship at the University of Glasgow for one year, he joined as an Assistant Professor at the University of Illinois in 1967. During his 52 years of teaching and research at UIUC, he has supervised 37 doctoral students and published more than 270 research papers. In 1996, Prof. Berndt received the Steel Prize from the American Mathematical Society for editing Ramanujan's Notebooks. He published five volumes on Ramanujan's notebooks with Springer during 1985-1998, and then together with Prof. George Andrews, he published five volumes on Ramanujan's lost notebook with Springer during 2005-2018. Prof. Berndt is the founding editor of the International Journal of Number Theory.",
+				img: bruce,
+			},
+		],
+		img: FLYER_Maths_Seminar,
+		venue: "Webex",
+		desc: "Link for Live Streaming: https://iiti.ac.in/live\nWebex Link: https://iiti.webex.com/meet/seminar_maths\nWe begin with an account of Ramanujan’s life. Histories of Ramanujan’s (earlier) notebooks and lost notebook will be given. I will then describe my involvement with Ramanujan’s notebooks and lost notebook during the past 47 years. The lecture will conclude with some examples taken from Ramanujan’s notebooks and his lost notebook. Most of the lecture will be accessible to a general audience.",
+		date: "5th October, 2021",
+		oc: [
+			{ name: "Dr. Ashisha Kumar", designation: "Department of Mathematics, IIT Indore", img: ashisha },
+			{ name: "Dr. Santanu Manna", designation: "Department of Mathematics, IIT Indore", img: manna },
+			{ name: "Dr. Bibekananda Maji", designation: "Department of Mathematics, IIT Indore", img: bibek },
+		],
+	},
 	{
 		title: "Role of Science in Nation Building during Global Health Crisis (IV)",
 		time: "4:30 PM IST",
@@ -515,9 +541,9 @@ export const data = [
 		desc: "",
 		date: "Throughout the year.",
 		oc: [
-			{ name: "Dr. Ashisha Kumar", designation: "Convener", img: person },
+			{ name: "Dr. Ashisha Kumar", designation: "Convener", img: ashisha },
 			{ name: "Dr. Santanu Manna", designation: "", img: person },
-			{ name: "Dr. Bibekananda Maji", designation: "", img: person },
+			{ name: "Dr. Bibekananda Maji", designation: "", img: bibek },
 		],
 		linkDisabled: true,
 	},

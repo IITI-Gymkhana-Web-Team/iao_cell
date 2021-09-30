@@ -187,8 +187,14 @@ import tone from "./tone.jpg";
 import gagandeep from "./gagandeep.jpg";
 import virtualBooth from "./virtualBooth.jpg";
 import uoa from "./uoa.jpeg";
+import FLYER_Maths_Seminar from "./FLYER_Maths_Seminar.jpg";
+import bruce from "./bruce.jpg";
+import ashisha from "./ashisha.jpg";
 
 export {
+	ashisha,
+	bruce,
+	FLYER_Maths_Seminar,
 	virtualBooth,
 	gagandeep,
 	tone,

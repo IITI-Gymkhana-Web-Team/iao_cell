@@ -21,7 +21,7 @@ export const IndiEvent = ({ match }) => {
 					<div className="eventPart2">
 						<h2 className="font-acme">{data[id].title}</h2>
 						<p>{data[id].date + " @" + data[id].time}</p>
-						<p>{data[id].desc}</p>
+						<p style={{ whiteSpace: "pre-wrap" }}>{data[id].desc}</p>
 					</div>
 				</div>
 
