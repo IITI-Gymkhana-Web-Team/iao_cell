@@ -1,0 +1,62 @@
+.counterDiv {
+	background-image: linear-gradient(rgba(61, 120, 255, 0.6), rgba(61, 120, 255, 0.6)),
+		url("../../../../../assets/grp2.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	height: 100%;
+	margin-top: 2rem;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 20px;
+	max-width: 100vw;
+}
+
+.counterDiv::before {
+	background-color: rgba(0, 0, 0, 0.7);
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.rankCardBox {
+	height: 200px;
+	border: none;
+	background-color: unset;
+	color: white;
+	font-family: "Nobile", sans-serif;
+	font-size: 9vw;
+	text-decoration: solid;
+	text-align: center;
+}
+
+.cardCircle {
+	border-radius: 50%;
+	width: 85px;
+	height: 85px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	border: 5px solid rgb(42, 39, 185);
+	color: #000;
+	text-align: center;
+	font: 32px Arial, sans-serif;
+}
+
+.rankHeading {
+	font-size: 1.3rem;
+}
+
+.rankCards {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

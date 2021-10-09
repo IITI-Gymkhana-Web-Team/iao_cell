@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Home } from "./Home/Home";
+import { NoAuth } from "./NoAuth/NoAuth";
 
 function App() {
 	const [isLoading, SetIsLoading] = useState(true);
@@ -12,7 +12,7 @@ function App() {
 	else
 		return (
 			<div className="App">
-				<Home />
+				<NoAuth />
 			</div>
 		);
 }
