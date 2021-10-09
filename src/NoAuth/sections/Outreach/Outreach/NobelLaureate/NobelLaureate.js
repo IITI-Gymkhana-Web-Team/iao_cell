@@ -1,5 +1,5 @@
 import React from "react";
-import { NsdCards } from "../../../reusables/NsdCards";
+import { NsdCards } from "../../../../reusables/NsdCards";
 import { data } from "./data";
 // import "./NobelLaureate.css";
 

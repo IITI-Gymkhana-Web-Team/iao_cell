@@ -1,7 +1,6 @@
 import React from "react";
 import "./Chemtalks.css";
-import { chemtalks, dipak, sanjay, tridib, chelvam } from "../../../assets";
-// import { Link } from "react-router-dom";
+import { chemtalks, dipak, sanjay, tridib, chelvam } from "../../../../assets";
 import { data } from "./data";
 import { SpeakerCards } from "./SpeakerCards";
 

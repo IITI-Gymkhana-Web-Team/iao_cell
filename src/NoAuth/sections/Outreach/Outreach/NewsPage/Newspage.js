@@ -1,5 +1,5 @@
 import React from "react";
-import { Newscard } from "../../../reusables/NewsCard";
+import { Newscard } from "../../../../reusables/NewsCard";
 import { data } from "./data";
 import "./Newspage.css";
 

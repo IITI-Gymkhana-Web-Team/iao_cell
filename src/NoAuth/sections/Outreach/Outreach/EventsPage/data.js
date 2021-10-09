@@ -47,7 +47,7 @@ import {
 	holger,
 	silke,
 	dipak,
-} from "../../../../assets";
+} from "../../../../../assets";
 
 export const data = [
 	{

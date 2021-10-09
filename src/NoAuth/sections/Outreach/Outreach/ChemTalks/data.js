@@ -1,4 +1,4 @@
-import { person, boron, photocat, organo, nano, malte, halet, holger, silke } from "../../../../assets";
+import { person, boron, photocat, organo, nano, malte, halet, holger, silke } from "../../../../../assets";
 
 export const data = [
 	{

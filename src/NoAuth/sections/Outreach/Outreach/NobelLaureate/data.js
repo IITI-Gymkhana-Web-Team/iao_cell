@@ -1,4 +1,4 @@
-import { Professor_David, grp3, raghu, Prof_William } from "../../../../assets";
+import { Professor_David, grp3, raghu, Prof_William } from "../../../../../assets";
 
 export const data = [
 	{

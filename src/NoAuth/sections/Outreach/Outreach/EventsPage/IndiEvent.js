@@ -2,7 +2,7 @@ import React from "react";
 import { PersonCard } from "./PersonCard";
 import { data } from "./data";
 // import { Link } from "react-router-dom";
-import { NotFound } from "../../../sections/Others";
+import { NotFound } from "../../../Others";
 // import { BiArrowBack } from "react-icons/bi";
 
 export const IndiEvent = ({ match }) => {

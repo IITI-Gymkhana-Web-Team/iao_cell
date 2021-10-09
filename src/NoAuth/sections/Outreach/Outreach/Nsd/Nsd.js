@@ -1,5 +1,5 @@
 import React from "react";
-import { nsd1, nsd2, nsd3, nsd4 } from "../../../../assets";
+import { nsd1, nsd2, nsd3, nsd4 } from "../../../../../assets";
 import "./Nsd.css";
 import { Link } from "react-router-dom";
 

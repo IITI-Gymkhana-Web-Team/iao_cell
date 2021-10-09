@@ -1,20 +1,12 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import { NewsPage } from "./components/Outreach/NewsPage/Newspage";
-import { EventsPage } from "./components/Outreach/EventsPage/EventsPage";
-import { IndiEvent } from "./components/Outreach/EventsPage/IndiEvent";
-import { IndiNews } from "./components/Outreach/NewsPage/IndiNews";
-import { Nsd } from "./components/Outreach/Nsd/Nsd";
-import { Internships } from "./components/Internships/Internships";
-import { Outreach } from "./components/Outreach/Outreach";
-import { ChemTalks } from "./components/Chemtalks/Chemtalks";
-
 import { Home } from "./sections/Home/Home";
 import { People, CommitteesPage, AboutIITI, AboutIOA, LifeIITI, Ghouse } from "./sections/AboutUs";
 import { Places, Visa, Admission, Programs, IntStudents, Testimonials, IntVisitors } from "./sections/Inbound";
-import { Pg_Phd, Scholarship } from "./sections/Outbound";
+import { Pg_Phd, Scholarship, Internships } from "./sections/Outbound";
 import { Mou2, Sparc, Asem, Vajra, Gian, MobilityExchange, Publications, Grants } from "./sections/CoopNEngage";
+import { NewsPage, EventsPage, IndiEvent, IndiNews, Nsd, Outreach, ChemTalks } from "./sections/Outreach";
 import { Dean, Director, NotFound } from "./sections/Others";
 import ReachUs from "./sections/ReachUs/ReachUs";
 import { Title, Footer, ScrollToTop, CustomNavbar } from "./components";

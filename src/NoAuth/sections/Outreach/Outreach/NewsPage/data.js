@@ -1,4 +1,4 @@
-import { chem_talks_news, ai, chemR, phyR, NSDImg, FrenchConsultImg, BUL, NIDB, MoU } from "../../../../assets";
+import { chem_talks_news, ai, chemR, phyR, NSDImg, FrenchConsultImg, BUL, NIDB, MoU } from "../../../../../assets";
 
 export const data = [
 	{
