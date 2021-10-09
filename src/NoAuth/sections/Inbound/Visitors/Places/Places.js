@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Newscard } from "../../reusables/PlaceCard";
+import { Newscard } from "../../../../reusables/PlaceCard";
 import { data } from "./data";
 import "./Places.css";
 

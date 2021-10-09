@@ -29,7 +29,7 @@ import {
 	shripad,
 	tharmalingam,
 	vatsala,
-} from "../../../assets";
+} from "../../../../../assets";
 export const data = [
 	{
 		name: "Prof. Asit K. Pattnaik",

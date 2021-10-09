@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MHRDPage } from "./MHRDPage";
-import { antony, nserb } from "../../../assets";
+import { antony, nserb } from "../../../../assets";
 
 export const Vajra = () => {
 	const [info] = useState([
@@ -71,8 +71,8 @@ export const Vajra = () => {
 		<div>
 			<MHRDPage info={info} desc={desc} name={name} insti={insti} person={person} />
 			<p className="container" style={{ marginTop: "-20px" }}>
-				*Since, Prof. Ganti Suryanarayana Murthy is now a regular faculty at IIT Indore,
-				this Award could not be availed.
+				*Since, Prof. Ganti Suryanarayana Murthy is now a regular faculty at IIT Indore, this Award could not be
+				availed.
 			</p>
 		</div>
 	);

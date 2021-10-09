@@ -1,5 +1,5 @@
 import React from "react";
-import { NotFound } from "../NotFound/NotFound";
+import { NotFound } from "../../sections/Others";
 import { ChemTalks } from "./ChemTalks/ChemTalks";
 import { NobelLaureate } from "./NobelLaureate/NobelLaureate";
 import { Nsd } from "./Nsd/Nsd";

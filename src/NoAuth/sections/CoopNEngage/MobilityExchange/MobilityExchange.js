@@ -1,6 +1,6 @@
 import React from "react";
 import { data } from "./data";
-import { CustomTable } from "../../reusables/CustomTable";
+import { CustomTable } from "../../../reusables/CustomTable";
 import "./mePage.css";
 
 export const MobilityExchange = ({ type, category }) => {

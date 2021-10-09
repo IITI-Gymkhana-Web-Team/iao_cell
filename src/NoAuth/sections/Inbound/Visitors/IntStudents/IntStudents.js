@@ -1,13 +1,11 @@
 import React from "react";
 import { Table } from "react-bootstrap";
-import IntStudentsImg from "../../../assets/intStudents.jpeg";
+import IntStudentsImg from "../../../../../assets/intStudents.jpeg";
 
 export const IntStudents = () => {
 	return (
 		<div className="container">
-			<h2 className="pt-4 mainTitle text-center mb-3">
-				Degree & Exchange International Students
-			</h2>
+			<h2 className="pt-4 mainTitle text-center mb-3">Degree & Exchange International Students</h2>
 			<div className="d-flex justify-content-center align-items-center mb-3">
 				<img src={IntStudentsImg} alt="Int-students-img" width="100%" height="100%" />
 			</div>

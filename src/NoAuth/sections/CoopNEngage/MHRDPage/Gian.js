@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MHRDPage } from "./MHRDPage";
-import { sahu, iitkgp } from "../../../assets";
+import { sahu, iitkgp } from "../../../../assets";
 
 export const Gian = () => {
 	const [info] = useState([

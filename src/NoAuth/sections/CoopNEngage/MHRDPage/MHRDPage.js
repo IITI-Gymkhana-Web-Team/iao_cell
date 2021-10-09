@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Table } from "react-bootstrap";
 import "./MHRDPage.css";
 import { Form } from "react-bootstrap";
-import { CustomTable } from "../../reusables/CustomTable";
+import { CustomTable } from "../../../reusables/CustomTable";
 
 export const MHRDPage = ({ info, name, person, insti, desc, grants }) => {
 	const [year, setYear] = useState("None");

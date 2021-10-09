@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../assets/visaimg.webp";
+import img from "../../../../../assets/visaimg.webp";
 export const Visa = () => {
 	return (
 		<>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MHRDPage } from "./MHRDPage";
-import { kapil, asem2 } from "../../../assets";
+import { kapil, asem2 } from "../../../../assets";
 
 export const Asem = () => {
 	const [info] = useState([
@@ -14,8 +14,7 @@ export const Asem = () => {
 		},
 		{
 			Year: "2020",
-			Title:
-				"Nanotechnology, Sensor Technology, Electronics Engineering and Semiconductor Physics",
+			Title: "Nanotechnology, Sensor Technology, Electronics Engineering and Semiconductor Physics",
 			Ip: "Dr. Shaibal Mukherjee",
 			Fp: "Prof. Omer Nour",
 			Fu: "Linkoping University",
@@ -31,8 +30,7 @@ export const Asem = () => {
 		},
 		{
 			Year: "2020",
-			Title:
-				"Unveiling the Cosmic Dawn: Novel Techniques to Study the Reionization of the Early Universe",
+			Title: "Unveiling the Cosmic Dawn: Novel Techniques to Study the Reionization of the Early Universe",
 			Ip: "Dr. Suman Majumdar",
 			Fp: "Prof. Garrelt Mellema",
 			Fu: "Stockholm University",
@@ -48,8 +46,7 @@ export const Asem = () => {
 		},
 		{
 			Year: "2020",
-			Title:
-				"A Digital Narratology of Technology as Literary Actors and Artefacts of Setting in Indian English Novels",
+			Title: "A Digital Narratology of Technology as Literary Actors and Artefacts of Setting in Indian English Novels",
 			Ip: "Ms. Shanmugapriya T (under Dr. Nirmala Menon)",
 			Fp: "Ms. Rianna Price (under Dr. Sutton Deborah)",
 			Fu: "Lancaster University",
@@ -89,14 +86,5 @@ export const Asem = () => {
 		},
 	]);
 
-	return (
-		<MHRDPage
-			info={info}
-			desc={desc}
-			name={name}
-			insti={insti}
-			person={person}
-			grants={grants}
-		/>
-	);
+	return <MHRDPage info={info} desc={desc} name={name} insti={insti} person={person} grants={grants} />;
 };

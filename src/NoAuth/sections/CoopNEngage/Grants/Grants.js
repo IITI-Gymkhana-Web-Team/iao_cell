@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CustomTable } from "../../reusables/CustomTable";
+import { CustomTable } from "../../../reusables/CustomTable";
 import { data } from "./data";
 import { Form } from "react-bootstrap";
 

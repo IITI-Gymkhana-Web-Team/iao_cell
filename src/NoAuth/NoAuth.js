@@ -1,47 +1,23 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home } from "./sections/Home/Home";
-import { People } from "./sections/AboutUs/People/People";
-import { Title } from "./components/NavbarMain/Title/Title";
-import { Footer } from "./components/Footer/Footer";
-// import { Nav } from "./components/NewNav/index";
-import { Places } from "./components/Places/Places";
-import { Visa } from "./components/Visa/Visa";
-import { Admission } from "./components/Admission/Admission";
-import { Pg_Phd } from "./components/Pg_Phd/Pg_Phd";
-import { Scholarship } from "./components/Scholarship/Scholarship";
-import { Programs } from "./components/Programs/Programs";
+
 import { NewsPage } from "./components/Outreach/NewsPage/Newspage";
 import { EventsPage } from "./components/Outreach/EventsPage/EventsPage";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import { Sparc } from "./components/MHRDPage/Sparc";
-import { Asem } from "./components/MHRDPage/Asem";
-import { Vajra } from "./components/MHRDPage/Vajra";
-import { Gian } from "./components/MHRDPage/Gian";
 import { IndiEvent } from "./components/Outreach/EventsPage/IndiEvent";
-import { NotFound } from "./components/NotFound/NotFound";
 import { IndiNews } from "./components/Outreach/NewsPage/IndiNews";
 import { Nsd } from "./components/Outreach/Nsd/Nsd";
-import { CommitteesPage } from "./sections/AboutUs/People/CommitteesPage";
-import { Mou2 } from "./components/Collaborations/Mou2";
-import { MobilityExchange } from "./components/MobilityExchange/MobilityExchange";
-import { IntStudents } from "./components/IntStudents/IntStudents";
-import { Testimonials } from "./components/Testimonials/Testimonials";
-import { AboutIITI } from "./sections/AboutUs/AboutUs/AboutIITI/AboutIITI";
-import { AboutIOA } from "./sections/AboutUs/AboutUs/AboutIOA/AboutIOA";
-import { LifeIITI } from "./sections/AboutUs/AboutUs/LifeIITI/LifeIITI";
-import ReachUs from "./sections/ReachUs/ReachUs";
-import { Grants } from "./components/Grants/Grants";
-import { Publications } from "./components/Publications/Publications";
-import { Ghouse } from "./sections/AboutUs/OtherComponents/Ghouse/Ghouse";
-// import { Nav2 } from "./components/Nav2/Nav2";
 import { Internships } from "./components/Internships/Internships";
-import { Dean } from "./components/Dean";
-import { Director } from "./components/Director/Director";
-import { CustomNavbar } from "./components/NavbarMain/CustomNavbar/CustomNavbar";
 import { Outreach } from "./components/Outreach/Outreach";
 import { ChemTalks } from "./components/Chemtalks/Chemtalks";
-import { IntVisitors } from "./components/IntVisitors/IntVisitors";
+
+import { Home } from "./sections/Home/Home";
+import { People, CommitteesPage, AboutIITI, AboutIOA, LifeIITI, Ghouse } from "./sections/AboutUs";
+import { Places, Visa, Admission, Programs, IntStudents, Testimonials, IntVisitors } from "./sections/Inbound";
+import { Pg_Phd, Scholarship } from "./sections/Outbound";
+import { Mou2, Sparc, Asem, Vajra, Gian, MobilityExchange, Publications, Grants } from "./sections/CoopNEngage";
+import { Dean, Director, NotFound } from "./sections/Others";
+import ReachUs from "./sections/ReachUs/ReachUs";
+import { Title, Footer, ScrollToTop, CustomNavbar } from "./components";
 
 export const NoAuth = () => {
 	const [val, setVal] = useState(0);
@@ -52,8 +28,6 @@ export const NoAuth = () => {
 			<div style={{ position: "sticky", top: "0", zIndex: "200" }}>
 				<Title setVal={setVal} />
 				<div className="mainNav">
-					{/*<Nav2 />*/}
-					{/*<Nav />*/}
 					<CustomNavbar val={val} setVal={setVal} />
 				</div>
 			</div>

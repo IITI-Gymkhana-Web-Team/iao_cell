@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { MHRDPage } from "./MHRDPage";
-import { kapil, iitkgp } from "../../../assets";
+import { kapil, iitkgp } from "../../../../assets";
 
 export const Sparc = () => {
 	const [info] = useState([
 		{
 			Year: "2018-19",
 			Domain: "Technologies for Rural and Women Empowerment",
-			Title:
-				"6G Connectivity for Sustainable Development Targeted at Rural and Remote Communities",
+			Title: "6G Connectivity for Sustainable Development Targeted at Rural and Remote Communities",
 			Ip: "Prof. Vimal Bhatia",
 			Fp: "Prof. Sudhir Sharan Dixit",
 			Fu: "University of Oulu",
@@ -35,8 +34,7 @@ export const Sparc = () => {
 		{
 			Year: "2018-19",
 			Domain: "Advanced Functional and Meta Materials",
-			Title:
-				"Atomistic Modelling of Pt-Nanocluster Based Electrocatalysts for Fuel Cell Applications",
+			Title: "Atomistic Modelling of Pt-Nanocluster Based Electrocatalysts for Fuel Cell Applications",
 			Ip: "Dr. Biswarup Pathak",
 			Fp: "Prof. Rajeev Ahuja",
 			Fu: "Uppsala University",
@@ -45,8 +43,7 @@ export const Sparc = () => {
 		{
 			Year: "2018-19",
 			Domain: "Advanced Sensors, Electronics and Communication",
-			Title:
-				"Edge Caching for High Capacity Wireless Networks exploiting Big Data Analytics and Machine Learning",
+			Title: "Edge Caching for High Capacity Wireless Networks exploiting Big Data Analytics and Machine Learning",
 			Ip: "Prof. Vimal Bhatia",
 			Fp: "Prof. Tharmalingam Ratnarajah",
 			Fu: "University of Edinburgh",
@@ -64,8 +61,7 @@ export const Sparc = () => {
 		{
 			Year: "2018-19",
 			Domain: "Digital Humanities",
-			Title:
-				"A Digital Narratology of Technology as Literary Actors and Artefacts of Settings in Indian English Novels",
+			Title: "A Digital Narratology of Technology as Literary Actors and Artefacts of Settings in Indian English Novels",
 			Ip: "Dr. Nirmala Menon",
 			Fp: "Prof. Deborah Sutton",
 			Fu: "Lancaster University",
@@ -74,8 +70,7 @@ export const Sparc = () => {
 		{
 			Year: "2018-19",
 			Domain: "Basic Sciences - Physical Sc., Chemical Sc., Biological Sc.",
-			Title:
-				"Imaging the First Billion Years of the Universe with Next-Generation Telescopes",
+			Title: "Imaging the First Billion Years of the Universe with Next-Generation Telescopes",
 			Ip: "Dr. Suman Majumdar",
 			Fp: "Prof. Garrelt Mellema",
 			Fu: "Stockholm University",
@@ -115,8 +110,7 @@ export const Sparc = () => {
 		{
 			"Name of the Faculty": "Dr. Biswarup Pathak",
 			Department: "Chemistry",
-			"Funding Agency":
-				"Scheme for Promotion of Academic and\r\nResearch Collaboration (SPARC)",
+			"Funding Agency": "Scheme for Promotion of Academic and\r\nResearch Collaboration (SPARC)",
 			"Title of the Grant":
 				"Atomistic Modelling of Pt-Nanocluster Based Electrocatalysts for Fuel Cell\r\nApplications",
 			"Foreign Collaborator(s)": "Prof. Rajeev Ahuja (UPPSALA UNIVERSITY)",
@@ -139,14 +133,5 @@ export const Sparc = () => {
 		},
 	]);
 
-	return (
-		<MHRDPage
-			info={info}
-			name={name}
-			desc={desc}
-			insti={insti}
-			person={person}
-			grants={grants}
-		/>
-	);
+	return <MHRDPage info={info} name={name} desc={desc} insti={insti} person={person} grants={grants} />;
 };

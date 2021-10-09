@@ -1,6 +1,6 @@
 import React from "react";
 import { data } from "./data";
-import { NotFound } from "../../NotFound/NotFound";
+import { NotFound } from "../../../sections/Others";
 import { Link } from "react-router-dom";
 import { BiArrowBack } from "react-icons/bi";
 
