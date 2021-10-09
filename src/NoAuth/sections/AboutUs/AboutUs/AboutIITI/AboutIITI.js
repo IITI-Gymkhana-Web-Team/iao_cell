@@ -1,5 +1,5 @@
 import React from "react";
-import { iiti, iiti2, c1, c2, rnd, sa, sic, hindex, citation, ranks } from "../../../assets";
+import { iiti, iiti2, c1, c2, rnd, sa, sic, hindex, citation, ranks } from "../../../../../assets";
 import "./AboutIITI.css";
 
 export const AboutIITI = () => {

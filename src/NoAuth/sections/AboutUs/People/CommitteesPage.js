@@ -25,8 +25,8 @@ import {
 	sudeshna,
 	suman,
 	sunil,
-} from "../../../assets";
-import { Committee } from "../../components/Committee/Committee";
+} from "../../../../assets";
+import { Committee } from "./Committee/Committee";
 
 export const CommitteesPage = ({ index }) => {
 	const [committee1] = useState({

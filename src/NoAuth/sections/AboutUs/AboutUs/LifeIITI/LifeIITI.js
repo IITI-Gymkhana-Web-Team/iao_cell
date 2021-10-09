@@ -1,5 +1,25 @@
 import React, { useState, useEffect } from "react";
-import { d1, d2, e1, e2, e3, g, gh, h1, h2, lh1, lh2, lh3, lh4, lh5, lr, ss1, ss2, t1, t2 } from "../../../assets";
+import {
+	d1,
+	d2,
+	e1,
+	e2,
+	e3,
+	g,
+	gh,
+	h1,
+	h2,
+	lh1,
+	lh2,
+	lh3,
+	lh4,
+	lh5,
+	lr,
+	ss1,
+	ss2,
+	t1,
+	t2,
+} from "../../../../../assets";
 import "./Life.css";
 import Iframe from "react-iframe";
 

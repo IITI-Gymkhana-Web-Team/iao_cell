@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { HomePage } from "./pages/Homepage/HomePage";
-import { People } from "./pages/Peoplepage/People";
+import { Home } from "./sections/Home/Home";
+import { People } from "./sections/AboutUs/People/People";
 import { Title } from "./components/NavbarMain/Title/Title";
 import { Footer } from "./components/Footer/Footer";
 // import { Nav } from "./components/NewNav/index";
@@ -22,18 +22,18 @@ import { IndiEvent } from "./components/Outreach/EventsPage/IndiEvent";
 import { NotFound } from "./components/NotFound/NotFound";
 import { IndiNews } from "./components/Outreach/NewsPage/IndiNews";
 import { Nsd } from "./components/Outreach/Nsd/Nsd";
-import { CommitteesPage } from "./pages/CommitteesPage/CommitteesPage";
+import { CommitteesPage } from "./sections/AboutUs/People/CommitteesPage";
 import { Mou2 } from "./components/Collaborations/Mou2";
 import { MobilityExchange } from "./components/MobilityExchange/MobilityExchange";
 import { IntStudents } from "./components/IntStudents/IntStudents";
 import { Testimonials } from "./components/Testimonials/Testimonials";
-import { AboutIITI } from "./components/AboutIITI/AboutIITI";
-import { AboutIOA } from "./components/AboutIOA/AboutIOA";
-import { LifeIITI } from "./components/LifeIITI/LifeIITI";
-import ReachUs from "./pages/Contactpage/ReachUs";
+import { AboutIITI } from "./sections/AboutUs/AboutUs/AboutIITI/AboutIITI";
+import { AboutIOA } from "./sections/AboutUs/AboutUs/AboutIOA/AboutIOA";
+import { LifeIITI } from "./sections/AboutUs/AboutUs/LifeIITI/LifeIITI";
+import ReachUs from "./sections/ReachUs/ReachUs";
 import { Grants } from "./components/Grants/Grants";
 import { Publications } from "./components/Publications/Publications";
-import { Ghouse } from "./components/Ghouse/Ghouse";
+import { Ghouse } from "./sections/AboutUs/OtherComponents/Ghouse/Ghouse";
 // import { Nav2 } from "./components/Nav2/Nav2";
 import { Internships } from "./components/Internships/Internships";
 import { Dean } from "./components/Dean";
@@ -59,7 +59,7 @@ export const NoAuth = () => {
 			</div>
 			<div className="mainScreen">
 				<Switch>
-					<Route path="/" exact component={HomePage} />
+					<Route path="/" exact component={Home} />
 					<Route
 						path="/people/oia"
 						exact

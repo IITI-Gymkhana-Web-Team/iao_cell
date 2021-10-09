@@ -8,7 +8,7 @@ import EmbedVideo from "./components/EmbedVideo/EmbedVideo";
 import CarousellCards from "./components/CarousellCards/CarousellCards";
 import "./Home.css";
 
-export const HomePage = () => {
+export const Home = () => {
 	return (
 		<div className="home">
 			<div style={{ marginBottom: "50px" }}>

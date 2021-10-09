@@ -1,6 +1,6 @@
 import React from "react";
-import { gh } from "../../../assets";
-import policy from "../../../assets/policy.pdf";
+import { gh } from "../../../../../assets";
+import policy from "../../../../../assets/policy.pdf";
 
 export const Ghouse = () => {
 	return (

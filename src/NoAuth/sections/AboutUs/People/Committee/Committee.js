@@ -17,9 +17,7 @@ export const Committee = ({ committee }) => {
 								return (
 									<>
 										{person.heading && (
-											<h2 className="font-acme text-center mt-5">
-												{person.heading}
-											</h2>
+											<h2 className="font-acme text-center mt-5">{person.heading}</h2>
 										)}
 										<PeopleCard person={person} key={person.email} />
 									</>

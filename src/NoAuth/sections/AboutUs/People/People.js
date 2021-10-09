@@ -18,8 +18,8 @@ import {
 	jahnavi,
 	kaushik,
 	kushaan,
-} from "../../../assets";
-import { Committee } from "../../components/Committee/Committee";
+} from "../../../../assets";
+import { Committee } from "./Committee/Committee";
 
 export const People = ({ index }) => {
 	const [committee1] = useState({
