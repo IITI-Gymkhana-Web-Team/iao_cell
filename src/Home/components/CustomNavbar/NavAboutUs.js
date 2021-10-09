@@ -76,7 +76,7 @@ export const NavAboutUs = ({ handleLinkClick }) => {
 									</a>
 								</p>
 								<p>
-									<Link onClick={handleLinkClick} to="/guestHouse">
+									<Link onClick={linkClick} to="/guestHouse">
 										Guest House
 									</Link>
 								</p>

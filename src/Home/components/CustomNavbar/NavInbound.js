@@ -15,27 +15,27 @@ export const NavInbound = ({ handleLinkClick }) => {
 					<div>
 						<div>
 							<p>
-								<Link onClick={handleLinkClick} to="/Pros/visitors_experience">
+								<Link onClick={linkClick} to="/Pros/visitors_experience">
 									Visitors' Experience
 								</Link>
 							</p>
 							<p>
-								<Link onClick={handleLinkClick} to="/Pros/places">
+								<Link onClick={linkClick} to="/Pros/places">
 									Places To Visit
 								</Link>
 							</p>
 							<p>
-								<Link onClick={handleLinkClick} to="/int/students">
+								<Link onClick={linkClick} to="/int/students">
 									International Student's List
 								</Link>
 							</p>
 							<p>
-								<Link onClick={handleLinkClick} to="/int/visitors">
+								<Link onClick={linkClick} to="/int/visitors">
 									International Visitors
 								</Link>
 							</p>
 							<p>
-								<Link onClick={handleLinkClick} to="/LifeIITI">
+								<Link onClick={linkClick} to="/LifeIITI">
 									Campus Life@IITI
 								</Link>
 							</p>
@@ -62,7 +62,7 @@ export const NavInbound = ({ handleLinkClick }) => {
 					<div>
 						<div>
 							<p>
-								<Link onClick={handleLinkClick} to="/admission">
+								<Link onClick={linkClick} to="/admission">
 									Admission
 								</Link>
 							</p>
@@ -76,7 +76,7 @@ export const NavInbound = ({ handleLinkClick }) => {
 								</a>
 							</p>
 							<p>
-								<Link onClick={handleLinkClick} to="/visa">
+								<Link onClick={linkClick} to="/visa">
 									Visa Process
 								</Link>
 							</p>

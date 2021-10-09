@@ -6,6 +6,7 @@ import "./Title.css";
 import { BiMenu } from "react-icons/bi";
 import { MobileMenu } from "../MobileMenu/MobileMenu";
 import { CustomNavbar } from "./CustomNavbar";
+import { Link } from "react-router-dom";
 
 export const Title = ({ setVal }) => {
 	const [show, setShow] = useState(false);
@@ -14,9 +15,16 @@ export const Title = ({ setVal }) => {
 	return (
 		<div className="Title">
 			<Navbar bg="light" variant="light" className="ba">
-				<div className="container">
-					<Navbar.Brand href="/">
-						<img src={iiti_logo_4} alt="logo" className="titleLogo" />
+				<div className="container-fluid">
+					<Navbar.Brand>
+						<Link
+							to="/"
+							onClick={() => {
+								setVal(0);
+							}}
+						>
+							<img src={iiti_logo_4} alt="logo" className="titleLogo" />
+						</Link>
 					</Navbar.Brand>
 					<CustomNavbar setVal={setVal} />
 					<BiMenu

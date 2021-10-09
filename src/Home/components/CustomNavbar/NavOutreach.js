@@ -8,7 +8,7 @@ export const NavOutreach = ({ handleLinkClick }) => {
 
 	return (
 		<div className="mainLink">
-			<div style={{ maxHeight: "80vh" }}>
+			<div style={{ maxHeight: "300px", maxWidth: "70vw" }}>
 				<div style={{ maxWidth: "300px" }}>
 					<p className="navHeading nh1">Lecture Series</p>
 					<div>
@@ -27,26 +27,26 @@ export const NavOutreach = ({ handleLinkClick }) => {
 								Hardy Ramanujan Lecture Series
 							</Link>
 						</p>
-						<div>
-							<p className="navHeading nh2 mt-3">Public Lectures</p>
-							<div>
-								<p>
-									<Link onClick={linkClick} to="/outreach/events/automotive">
-										Automotive Light-weighting Technologies
-									</Link>
-								</p>
-								<p>
-									<Link onClick={linkClick} to="/outreach/events/prosperity">
-										Prosperity Through Science Technology
-									</Link>
-								</p>
-								<p>
-									<Link onClick={linkClick} to="/outreach/events/health">
-										Role of Science in Nation Building during Global Health Crisis
-									</Link>
-								</p>
-							</div>
-						</div>
+					</div>
+				</div>
+				<div>
+					<p className="navHeading nh1">Public Lectures</p>
+					<div>
+						<p>
+							<Link onClick={linkClick} to="/outreach/events/automotive">
+								Automotive Light-weighting Technologies
+							</Link>
+						</p>
+						<p>
+							<Link onClick={linkClick} to="/outreach/events/prosperity">
+								Prosperity Through Science Technology
+							</Link>
+						</p>
+						<p>
+							<Link onClick={linkClick} to="/outreach/events/health">
+								Role of Science in Nation Building during Global Health Crisis
+							</Link>
+						</p>
 					</div>
 				</div>
 				<div>
@@ -74,12 +74,12 @@ export const NavOutreach = ({ handleLinkClick }) => {
 						</p>
 					</div>
 				</div>
-				<div>
+				{/*<div>
 					<p className="navHeading nh1">Visits of School Kids</p>
 				</div>
 				<div>
 					<p className="navHeading nh1">Engagement with Engineering Colleges</p>
-				</div>
+				</div>*/}
 			</div>
 		</div>
 	);

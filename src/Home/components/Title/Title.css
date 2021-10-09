@@ -1,5 +1,5 @@
 :root {
-	--titleBgColor: rgb(0, 30, 54);
+	--titleBgColor: #082a8d;
 }
 
 .Title {
@@ -15,8 +15,9 @@
 
 .titleLogo {
 	width: auto;
-	height: 90px;
-	padding: 5px 0px;
+	max-height: 110px;
+	max-width: 60vw;
+	/* padding: 5px 0px; */
 }
 
 .ba {

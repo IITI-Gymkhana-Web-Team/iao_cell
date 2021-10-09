@@ -76,7 +76,7 @@ export const Offer = () => {
 			<ScrollAnimation animateIn="fadeIn" animateOnce={true}>
 				<h2 className="mainTitle text-underline">Programs Offered</h2>
 			</ScrollAnimation>
-			<ScrollAnimation animateIn="slideInUp" animateOnce={true}>
+			<ScrollAnimation animateIn="fadeIn" animateOnce={true}>
 				<OwlCarousel
 					className="owl-theme"
 					loop={true}
