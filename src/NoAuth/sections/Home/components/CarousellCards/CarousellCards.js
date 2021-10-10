@@ -22,7 +22,7 @@ const CarousellCards = () => {
 			image: NIDB,
 			title: "National Institute of Design Bhopal visited IIT Indore",
 			desc: "Officials from National Institute of Design, Bhopal visited International Affairs & Outreach office, IIT Indore on August 23, 2021. During the visit, we had a constructive discussion with NID team to extend our support to establish international office at NID Bhopal. ",
-			link: "/outreach/news/nidBhopal",
+			link: "/outreach/news",
 		},
 		{
 			image: phyR,
@@ -36,7 +36,7 @@ const CarousellCards = () => {
 			image: FrenchConsultImg,
 			title: "French Consulate General in Mumbai visited IIT Indore",
 			desc: "Mrs. Sonia Barbry, French Consulate General in Mumbai and Mr. Thomas Simoes, Director, Alliance Francaise, Bhopal visited IIT Indore on March 18, 2021, and had fruitful discussions on escalating and strengthening the bilateral research work, exchange of students and faculties and many more aspects. ",
-			link: "/outreach/news/frenchConsulate",
+			link: "/outreach/news",
 		},
 		{
 			image: NSDImg,

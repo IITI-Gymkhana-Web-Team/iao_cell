@@ -1,8 +1,7 @@
 .newsPage .card {
-	flex-direction: column;
-	width: min(100%, 400px);
+	width: 90%;
 	margin: 20px;
-	text-align: center;
+	flex-direction: row;
 }
 
 .newsPage > div {
@@ -14,5 +13,6 @@
 }
 
 .newsPage img {
-	height: 300px;
+	max-height: 300px;
+	width: auto;
 }

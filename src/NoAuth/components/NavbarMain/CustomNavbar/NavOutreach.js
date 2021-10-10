@@ -23,7 +23,7 @@ export const NavOutreach = ({ handleLinkClick }) => {
 							</Link>
 						</p>
 						<p>
-							<Link onClick={linkClick} to="/outreach/events/ramanujan">
+							<Link onClick={linkClick} to="/outreach/events/bruce-berndt">
 								Hardy Ramanujan Lecture Series
 							</Link>
 						</p>

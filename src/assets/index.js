@@ -237,8 +237,21 @@ import malte from "./malte.png";
 import halet from "./halet.png";
 import holger from "./holger.jpg";
 import silke from "./silke.jpg";
+import global_health_crisis_iv from "./global_health_crisis_iv.jpg";
+import gagandeep from "./gagandeep.jpg";
+import FLYER_Maths_Seminar from "./FLYER_Maths_Seminar.jpg";
+import ashisha from "./ashisha.jpg";
+import bruce from "./bruce.jpg";
+import virtualBooth from "./virtualBooth.jpg";
+import uoa from "./uoa.jpeg";
 
 export {
+	uoa,
+	virtualBooth,
+	FLYER_Maths_Seminar,
+	ashisha,
+	bruce,
+	global_health_crisis_iv,
 	malte,
 	halet,
 	holger,
@@ -478,4 +491,5 @@ export {
 	nirmala,
 	prashant,
 	debasis,
+	gagandeep,
 };

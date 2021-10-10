@@ -1,6 +1,32 @@
-import { chem_talks_news, ai, chemR, phyR, NSDImg, FrenchConsultImg, BUL, NIDB, MoU } from "../../../../../assets";
+import {
+	chem_talks_news,
+	ai,
+	chemR,
+	phyR,
+	NSDImg,
+	FrenchConsultImg,
+	BUL,
+	NIDB,
+	MoU,
+	virtualBooth,
+	uoa,
+} from "../../../../../assets";
 
 export const data = [
+	{
+		title: "IIT Indore is participating in the PAN IIT Global Virtual Technology Summit PI-WOT 2021",
+		image: virtualBooth,
+		desc: "This summit is aimed to showcase the excellence of each IIT in academics, research, and innovations, and reaching out to the IIT Alumni, Industries, and Investors. We are also going to set up one virtual booth representing IIT Indore.\nThe IIT Exhibition Area is now open to receive visitors and will continue during the Summit (17th and 18th September) and close on 18th September when the Summit concludes.You can visit all the IIT Exhibition Area at any time ( 24*7 it is open) of your convenience. You may invite your colleague and friends to join the Summit and also visit the IIT Exhibition Area by sharing the following link with them to register for this event: https://piwot.paniit.org/register-now.php . Participation is open to all.",
+		date: "Sep 13, 2021",
+		name: "global-virtual-technology-summit",
+	},
+	{
+		title: "Ms. Shalini Singh, Ph.D. Scholar, Dept. of Mechanical Engineering, IIT Indore has received the OVDF fellowship to pursue her research  studies in the University of Alberta.",
+		image: uoa,
+		desc: "Title of the Research work: “Customized Shape Memory Alloy (SMA) Structures using Plasma and Wire Arc Additive Manufacturing”\nMentoring Faculty from Canada: Prof. Ahmed Qureshi, Associate Professor, Faculty of Engineering, Mechanical Engineering Deptt., University of Alberta, Canada\nMentoring Faculty from IIT Indore: Dr. I. A. Palani, Department of Mechanical Engineering\nDuration:1 year (Jan. 2022-Jan. 2023)",
+		date: "Sep 3, 2021",
+		name: "shalini",
+	},
 	{
 		image: BUL,
 		title: "Forecasting crude oil futures prices by Prof. Date",

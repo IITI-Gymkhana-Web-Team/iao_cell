@@ -18,7 +18,6 @@ import {
 	photocat,
 	organo,
 	nano,
-	health,
 	boron,
 	physics,
 	ajoy,
@@ -47,9 +46,38 @@ import {
 	holger,
 	silke,
 	dipak,
+	global_health_crisis_iv,
+	gagandeep,
+	bruce,
+	FLYER_Maths_Seminar,
+	ashisha,
+	manna,
+	bibek,
 } from "../../../../../assets";
 
 export const data = [
+	{
+		title: "A public Lecture by Prof. Bruce C. Berndt from the University of Illinois at Urbana-Champaign, USA",
+		time: "7:30 PM IST",
+		speakers: [
+			{
+				name: "Prof. Bruce C. Berndt",
+				designation: "University of Illinois, Urbana-Champaign, USA",
+				desc: "Prof. Bruce C. Berndt is one of the world's foremost mathematicians in the work of Srinivasa Ramanujan. Prof. Berndt received Ph.D. from the University of Wisconsin in 1966. After an Assistant Lectureship at the University of Glasgow for one year, he joined as an Assistant Professor at the University of Illinois in 1967. During his 52 years of teaching and research at UIUC, he has supervised 37 doctoral students and published more than 270 research papers. In 1996, Prof. Berndt received the Steel Prize from the American Mathematical Society for editing Ramanujan's Notebooks. He published five volumes on Ramanujan's notebooks with Springer during 1985-1998, and then together with Prof. George Andrews, he published five volumes on Ramanujan's lost notebook with Springer during 2005-2018. Prof. Berndt is the founding editor of the International Journal of Number Theory.",
+				img: bruce,
+			},
+		],
+		img: FLYER_Maths_Seminar,
+		venue: "Webex",
+		desc: "Link for Live Streaming: https://iiti.ac.in/live\nWebex Link: https://iiti.webex.com/meet/seminar_maths\nWe begin with an account of Ramanujan’s life. Histories of Ramanujan’s (earlier) notebooks and lost notebook will be given. I will then describe my involvement with Ramanujan’s notebooks and lost notebook during the past 47 years. The lecture will conclude with some examples taken from Ramanujan’s notebooks and his lost notebook. Most of the lecture will be accessible to a general audience.",
+		date: "5th October, 2021",
+		oc: [
+			{ name: "Dr. Ashisha Kumar", designation: "Department of Mathematics, IIT Indore", img: ashisha },
+			{ name: "Dr. Santanu Manna", designation: "Department of Mathematics, IIT Indore", img: manna },
+			{ name: "Dr. Bibekananda Maji", designation: "Department of Mathematics, IIT Indore", img: bibek },
+		],
+		name: "bruce-berndt",
+	},
 	{
 		title: "Automotive Light-weighting Technologies",
 		time: "6.30 pm",
@@ -116,29 +144,34 @@ export const data = [
 		name: "prosperity",
 	},
 	{
-		title: "Role of Science in Nation Building during Global Health Crisis",
-		time: "9pm",
+		title: "Role of Science in Nation Building during Global Health Crisis (IV)",
+		time: "4:30 PM IST",
 		speakers: [
 			{
-				name: "Prof. Anil Sahasrabudhe",
-				designation: "Chairman, AICTE",
-				img: person,
-				desc: "Excepteur sint ullamco proident sunt. Consectetur cupidatat commodo non adipisicing aliquip veniam laboris irure amet enim excepteur ut dolor. Minim velit exercitation anim elit quis sit consequat non sit culpa sunt minim. Aliquip est qui ex eu quis amet esse proident adipisicing est in laborum. Laborum laboris occaecat eu occaecat sunt ex ex ex. Fugiat mollit aliqua pariatur eu. Proident amet officia veniam qui nostrud commodo labore est id.",
+				name: "Prof. Gagandeep Kang",
+				designation:
+					"Professor of Microbiology Wellcome Trust Research Laboratory Division of Gastrointestinal Sciences Christian Medical College, Vellore, India",
+				desc: "Professor Kang conducts inter-disciplinary research on viral infections, nutrition and child health. Her team has evaluated vaccines in pre-clinical and clinical phase 1-3 trials for enteric infections and coordinated multi-site surveillance studies to develop national disease burden estimates. She is a member of many WHO advisory committees, is the vice-Chair of the Board of Coalition of Epidemic Preparedness Innovations and chairs the Immunization Technical Advisory Group for the WHO’s South East Asian Region. She also served as Executive Director, Translational Health Science and Technology Institute, Faridabad, an autonomous institute of the DBT, Government of India. She was awarded the prestigious Infosys Prize in Life Sciences for her contributions to understanding the history of rotavirus and other infectious diseases. In 2019, she became the first Indian woman to be elected as a Fellow of the Royal Society.",
+				img: gagandeep,
 			},
 		],
-		img: health,
+		img: global_health_crisis_iv,
 		venue: "Webex",
-		desc: "",
-		date: "13th January, 2021",
+		desc: "IIT Indore in association with University of Oslo is organizing a public lecture series on the topic “Role of Science in Nation Building during Global Health Crisis”. This event is sponsored by INTPART, Research Council of Norway.\nScience-including biological, physical, social, behavioral, cultural, engineering, and medical disciplines play an increasingly important role in governmental and institutional response during crises. During global crises the role of scientific community becomes even more critical in nation building by identifying critical problems, determine how our capability can be best used to answer those questions, design and execute the necessary research, and then share those results with decision-makers and the public. The ongoing Covid-19 pandemic has brought to the fore the importance of a thriving scientific ecosystem for dealing with global crises. The popular public lecture series will bring together a group of eminent experts around the world to share their views on the role of science, research, education, and actionable data in nation building during global health crisis.\nIn this way, we plan to establish a large virtual academic platform that will include participants not only from premier institutes in India but will also involve participation of students and young faculties from a group of institutions, which have limited scientific exposure in terms of research and higher education largely due to their presence at remotest part of India.",
+		date: "15th September, 2021",
 		oc: [
 			{
 				name: "Prof. Avinash Sonawane",
 				designation:
-					"Department of Biosciences and Biomedical Engineering, Dean of International Affairs Outreach, IIT Indore, India",
-				img: person,
+					"Department of Biosciences and Biomedical Engineering & Dean, International Affairs & Outreach, IIT Indore, India",
+				img: avinash,
+			},
+			{
+				name: "Prof. Tone Tonjum",
+				designation: "Department of Microbiology, University of Oslo, Norway",
+				img: toneTonjum,
 			},
 		],
-		linkDisabled: true,
 		name: "health",
 	},
 	{
