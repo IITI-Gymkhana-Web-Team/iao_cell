@@ -76,9 +76,6 @@
 }
 
 @media only screen and (max-width: 991px) {
-	.embed-video {
-		margin: 3rem;
-	}
 	.announce-title {
 		font-size: 2.4rem;
 		text-align: center !important;
