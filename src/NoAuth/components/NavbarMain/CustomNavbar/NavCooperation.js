@@ -30,6 +30,11 @@ export const NavCooperation = ({ handleLinkClick }) => {
 									</Link>
 								</p>
 								<p>
+									<Link onClick={linkClick} to="/mou/africa">
+										African Universities
+									</Link>
+								</p>
+								<p>
 									<Link onClick={linkClick} to="/mou/europe">
 										European Universities
 									</Link>

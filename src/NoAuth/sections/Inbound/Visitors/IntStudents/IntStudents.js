@@ -1,15 +1,11 @@
 import React from "react";
 import { Table } from "react-bootstrap";
-import IntStudentsImg from "../../../../../assets/intStudents.jpeg";
 
 export const IntStudents = () => {
 	return (
 		<div className="container">
-			<h2 className="pt-4 mainTitle text-center mb-3">Degree & Exchange International Students</h2>
-			<div className="d-flex justify-content-center align-items-center mb-3">
-				<img src={IntStudentsImg} alt="Int-students-img" width="100%" height="100%" />
-			</div>
-			<h2 className="font-acme mt-2">PhD</h2>
+			<h1 className="pt-4 mainTitle text-center mb-5">Degree & Exchange International Students</h1>
+			<h2 className="font-acme">PhD</h2>
 			<Table striped bordered hover variant="primary" responsive className="mb-3">
 				<thead>
 					<tr>
@@ -57,6 +53,20 @@ export const IntStudents = () => {
 					</tr>
 				</thead>
 				<tbody>
+					<tr>
+						<td>2021-23</td>
+						<td>Mr. Akah Precious Chiemena</td>
+						<td>M.Tech. (CSP)</td>
+						<td>Nigeria</td>
+						<td>ICCR</td>
+					</tr>
+					<tr>
+						<td>2021-23</td>
+						<td>Mr. Akash Yadav</td>
+						<td>M.Tech. (PIE)</td>
+						<td>Nepal</td>
+						<td>Nepal Scholarship</td>
+					</tr>
 					<tr>
 						<td>2021-23</td>
 						<td>Mr. Sumantra Aarya</td>

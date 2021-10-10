@@ -98,6 +98,16 @@ export const data = {
 			"Country with which there is collation": "Taiwan",
 		},
 		{
+			"S.No.": "1",
+			"Institutions/Organization/Country": "Enrission Corporation Limited, Kyoto",
+			Nature: "MoU",
+			"Purpose/Title": "To start “Shiru Café”",
+			"Coordinating faculty member": "Director",
+			"Signed on": "March 4, 2016",
+			Duration: "Not Specified",
+			"Country with which there is collation": "Japan",
+		},
+		{
 			"S.No.": "10",
 			"Institutions/Organization/Country": "Enricssion Co. Ltd., Kyoto",
 			Nature: "MoU",
@@ -131,7 +141,18 @@ export const data = {
 
 	Americas: [
 		{
-			"Institutions/Organization/Country": "The University of Alberta",
+			"Institutions/Organization/Country":
+				"Foundation for Innovation and Social Entrepreneurship (FISE), Texas Global Health Security Innovation Consortium(TEXGHS) and Health Innovation Exchange (HIEx)",
+			Nature: "MoU",
+			"Purpose/Title":
+				"The areas in which IIT INDORE, FISE, TEXGHS and HIEx shall collaborate and the terms and conditions by which they will operate.",
+			"Coordinating faculty member": "Director\r\nDoIAO",
+			"Signed on": "Aug 3, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "United Nations",
+		},
+		{
+			"Institutions/Organization/Country": "The Governors of The University of Alberta",
 			Nature: "MoU",
 			"Purpose/Title":
 				"Exchange of faculty members, research scientists, and postdoctoral associates\n• Exchange of students\n• Exchange of administrative staff\n• Joint supervision of M.S. and Ph.D. students\n• Development of curricula\n• Exchange of academic information and materials\n• Exchange of periodicals and other publications\n• Submission and execution of joint research programs\n• Organization of joint research programs\n• Organization of joint conferences\n• Organization of other academic exchanges agreeable to both Institute(s)/University",
@@ -171,12 +192,21 @@ export const data = {
 			"Country with which there is collation": "USA",
 		},
 		{
-			"Institutions/Organization/Country": "University of Wiscosin, Madison",
+			"Institutions/Organization/Country": "The University of Wiscosin, Madison",
 			Nature: "MoU",
 			"Purpose/Title": "Specific Astro Physical Research Projects",
 			"Coordinating faculty member": "DOIA\r\nDOAA",
 			"Signed on": "January 28, 2013",
 			Duration: "10 Years",
+			"Country with which there is collation": "USA",
+		},
+		{
+			"Institutions/Organization/Country": "Argonne National Laboratory",
+			Nature: "Agreement",
+			"Purpose/Title": "1)User Laboratory\n2)Potential user support services",
+			"Coordinating faculty member": "Director",
+			"Signed on": "December 5, 2012",
+			Duration: "Auto-renewable every year",
 			"Country with which there is collation": "USA",
 		},
 		{
@@ -241,7 +271,54 @@ export const data = {
 			"Country with which there is collation": "Australia",
 		},
 	],
+	Africa: [
+		{
+			"S.No.": "1",
+			"Institutions/Organization/Country": "University of Johannesburg",
+			Nature: "MoU",
+			"Purpose/Title":
+				"1. Exchange of the academic employees\n2. Exchange of the students\n3. Joint research, collaborative research projects and the exchange of academic information and materials and \n4. Other activities as may be mutually agreed upon.",
+			"Coordinating faculty member": "Director\r\nDOIA",
+			"Signed on": "Sep 1, 2021",
+			Duration: "3 Years",
+			"Country with which there is collation": "South Africa",
+		},
+	],
 	Europe: [
+		{
+			"S.No.": "1",
+			"Institutions/Organization/Country":
+				"Wigner Research Centre for Physics, Hungarian Academy of Sciences, Budapest",
+			Nature: "MoU",
+			"Purpose/Title":
+				"Collaboration between participants in mutually agreed areas in general and high-energy nuclear physics in particular.",
+			"Coordinating faculty member": "DoIAO\r\nDr. Raghunath Sahoo",
+			"Signed on": "Sept 07, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Hungary",
+		},
+		{
+			"S.No.": "1",
+			"Institutions/Organization/Country": "Aristotle University of Thessaloniki, Greece",
+			Nature: "MoU",
+			"Purpose/Title":
+				"1. Exchange of students,\n2. Exchange of academic staff\n3. Exchange of Information\n4. Special Projects\n5. faculty Members visits",
+			"Coordinating faculty member": "Dr. Manish Kumar Goyal\r\nDoIAO\r\nDirector",
+			"Signed on": "Aug 30, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Greece",
+		},
+		{
+			"S.No.": "1",
+			"Institutions/Organization/Country": "The University of Gothenburg",
+			Nature: "MoU",
+			"Purpose/Title":
+				"a) Exchange of faculty and experts\nb) Exchange of students for Academic education, training, practical experience, and research\nc) Cooperative research\nd) Technical assistance and/or training\ne) Other cooperative efforts as Mutually agreed from time to time.",
+			"Coordinating faculty member": "DoIAO\r\nDoR&D\r\nDr. Devendra Deshmukh",
+			"Signed on": "Jun 15, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Sweden",
+		},
 		{
 			"S.No.": "1",
 			"Institutions/Organization/Country": "Universitàdeglistudi Di Udine",
@@ -364,15 +441,26 @@ export const data = {
 		},
 		{
 			"S.No.": "8",
-			"Institutions/Organization/Country": "University of Strasbourg, Strasbourg",
+			"Institutions/Organization/Country": "INSTITUTE MINES TELECOM",
 			Nature: "MoU",
 			"Purpose/Title":
-				"Exchange of faculty members, researchers, administrative staff\r\nExchange of students \r\nJoint supervision of thesis\r\nDevelopment of joint research projects\r\nOrganization of mutual courses and joint seminars",
-			"Coordinating faculty member": "DOIA\r\nDOAA\r\nDr. I. A. Palani",
-			"Signed on": "June 13, 2018",
-			Duration: "2 Years",
+				"Joint Symposia, Conference, Short Courses, Research meetings etc., Exchange, Joint Research, Joint programs of mutual consent.",
+			"Coordinating faculty member": "Director",
+			"Signed on": "September 12, 2018",
+			Duration: "5 Years",
 			"Country with which there is collation": "France",
 		},
+		// {
+		// 	"S.No.": "8",
+		// 	"Institutions/Organization/Country": "University of Strasbourg, Strasbourg",
+		// 	Nature: "MoU",
+		// 	"Purpose/Title":
+		// 		"Exchange of faculty members, researchers, administrative staff\r\nExchange of students \r\nJoint supervision of thesis\r\nDevelopment of joint research projects\r\nOrganization of mutual courses and joint seminars",
+		// 	"Coordinating faculty member": "DOIA\r\nDOAA\r\nDr. I. A. Palani",
+		// 	"Signed on": "June 13, 2018",
+		// 	Duration: "2 Years",
+		// 	"Country with which there is collation": "France",
+		// },
 		{
 			"S.No.": "9",
 			"Institutions/Organization/Country": "ECAM, Lyon",
@@ -577,13 +665,24 @@ export const data = {
 			"Country with which there is collation": "France",
 		},
 		{
+			"S.No.": "6",
+			"Institutions/Organization/Country": "Keele University",
+			Nature: "MoU",
+			"Purpose/Title":
+				"a) Exchange of students\nb) Exchange of Professors, scholars and administrators\nc) Exchange of information and publication\nd) Implementation of cooperative education and research\ne) Other areas of cooperation",
+			"Coordinating faculty member": "Director",
+			"Signed on": "January 31, 2012",
+			Duration: "Auto-renewable after 5 years",
+			"Country with which there is collation": "UK",
+		},
+		{
 			"S.No.": "28",
 			"Institutions/Organization/Country": "Saarland University, Saarbrücken",
-			Nature: "MoU",
+			Nature: "Agreement",
 			"Purpose/Title": "Student Exchange Programme",
-			"Coordinating faculty member": "DOIA\r\nDOAA",
-			"Signed on": "November 12, 2010",
-			Duration: "Initially 5 Years",
+			"Coordinating faculty member": "Director",
+			"Signed on": "November 11, 2010",
+			Duration: "Auto-renewable after 5 years",
 			"Country with which there is collation": "Germany",
 		},
 	],

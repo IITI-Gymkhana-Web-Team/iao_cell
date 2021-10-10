@@ -14,6 +14,7 @@ export const Mou2 = ({ name }) => {
 				{name === "Asia" && "MoUs with Asian Universities"}
 				{name === "Australia" && "MoUs with Australian Universities"}
 				{name === "Europe" && "MoUs with European Universities"}
+				{name === "Africa" && "MoUs with African Universities"}
 			</h2>
 			<Form className="container">
 				<Form.Group controlId="exampleForm.ControlInput2">
