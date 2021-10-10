@@ -48,6 +48,10 @@ const EmbedVideo = () => {
 	};
 
 	useEffect(() => {
+		updateDimensions();
+	}, []);
+
+	useEffect(() => {
 		window.addEventListener("resize", updateDimensions);
 		return () => window.removeEventListener("resize", updateDimensions);
 	}, []);
@@ -68,7 +72,7 @@ const EmbedVideo = () => {
 			</div>
 			<div style={{ paddingRight: "0" }}>
 				<div className="announce">
-					<p className="announce-title text-left font-acme">Announcements</p>
+					<p className="announce-title font-acme">Announcements</p>
 					<hr />
 					<ListGroup
 						variant="flush"
