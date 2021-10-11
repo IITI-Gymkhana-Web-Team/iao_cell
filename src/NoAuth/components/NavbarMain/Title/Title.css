@@ -15,7 +15,7 @@
 
 .titleLogo {
 	width: auto;
-	max-height: 110px;
+	max-height: 90px;
 	max-width: 60vw;
 	/* padding: 5px 0px; */
 }
@@ -56,7 +56,7 @@
 		display: inline-block;
 	}
 	.ba .container-fluid {
-		padding-left: 20px !important;
+		padding-left: 10px !important;
 	}
 	.titleLogo {
 		margin-left: -10px;
