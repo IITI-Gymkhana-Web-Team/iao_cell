@@ -37,25 +37,45 @@ export const ChemTalks = () => {
 				<h5 className="font-ubuntu mb-4">Department of Chemistry, IIT Indore</h5>
 				<div className="card-deck">
 					<div className="card">
-						<img className="card-img-top" src={dipak} alt=""></img>
+						<img
+							className="card-img-top"
+							src={dipak}
+							alt=""
+							style={{ maxWidth: "90%", margin: "0 auto 10px auto" }}
+						></img>
 						<div className="card-body">
 							<h5 className="font-acme card-title">Dr. Dipak K. Roy</h5>
 						</div>
 					</div>
 					<div className="card">
-						<img className="card-img-top" src={sanjay} alt=""></img>
+						<img
+							className="card-img-top"
+							src={sanjay}
+							alt=""
+							style={{ maxWidth: "90%", margin: "0 auto 10px auto" }}
+						></img>
 						<div className="card-body">
 							<h5 className="font-acme card-title">Dr. Sanjay K. Singh</h5>
 						</div>
 					</div>
 					<div className="card">
-						<img className="card-img-top" src={tridib} alt=""></img>
+						<img
+							className="card-img-top"
+							src={tridib}
+							alt=""
+							style={{ maxWidth: "90%", margin: "0 auto 10px auto" }}
+						></img>
 						<div className="card-body">
 							<h5 className="font-acme card-title">Dr. Tridib K. Sarma</h5>
 						</div>
 					</div>
 					<div className="card">
-						<img className="card-img-top" src={chelvam} alt=""></img>
+						<img
+							className="card-img-top"
+							src={chelvam}
+							alt=""
+							style={{ maxWidth: "90%", margin: "0 auto 10px auto" }}
+						></img>
 						<div className="card-body">
 							<h5 className="font-acme card-title">Dr. C. Venkatesh</h5>
 						</div>

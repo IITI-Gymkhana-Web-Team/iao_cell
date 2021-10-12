@@ -240,6 +240,17 @@ export const data = {
 	Australia: [
 		{
 			"S.No.": "1",
+			"Institutions/Organization/Country": "Swinburne University of Technology",
+			Nature: "MoU",
+			"Purpose/Title":
+				"A. Student Training\nB. Exchange of Students\nC. Exchange of Academic Staff\nD. Exchange of Scientific, Educational and Scholarly Materials\nE. Exchange of Information\nF. Special Projects\nG. Faculty Members Visits",
+			"Coordinating faculty member": "DoIAO\r\nDr. Ruchi Sharma",
+			"Signed on": "October 8, 2021",
+			Duration: "5 Years",
+			"Country with which there is collation": "Australia",
+		},
+		{
+			"S.No.": "1",
 			"Institutions/Organization/Country": "University of Technology, Ultimo",
 			Nature: "MoU",
 			"Purpose/Title":
