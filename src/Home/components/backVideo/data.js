@@ -1,14 +1,14 @@
 export const data = [
 	{
 		Ranking: 3,
-		Heading: "The World University Ranking 2020 India",
+		Heading: "THE World University Ranking 2021 India",
 	},
 	{
-		Ranking: 10,
-		Heading: "Engineering Institute in India NIRF 2020",
+		Ranking: 13,
+		Heading: "Engineering Institute in India NIRF 2021",
 	},
 	{
-		Ranking: 23,
+		Ranking: 30,
 		Heading: "Overall Institute in India NIRF 2020",
 	},
 ];
