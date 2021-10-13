@@ -9,6 +9,6 @@ export const data = [
 	},
 	{
 		Ranking: 30,
-		Heading: "Overall Institute in India NIRF 2020",
+		Heading: "Overall Institute in India NIRF 2021",
 	},
 ];
