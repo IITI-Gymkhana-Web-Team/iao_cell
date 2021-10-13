@@ -18,7 +18,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 				{
 					name: "About Us",
 					innerLinks: [
-						{ name: "About IAO", link: "/Aboutiao", level: "3" },
+						{ name: "About IAO", link: "/Aboutioa", level: "3" },
 						{ name: "About IITI", link: "/Aboutiiti", level: "3" },
 						{ name: "Campus Life", link: "/LifeIITI", level: "3" },
 						{ name: "Places To Visit", link: "/Pros/places", level: "3" },
@@ -469,7 +469,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 							level: "3",
 						},
 						{
-							name: "Researchers",
+							name: "Others",
 							innerLinks: [
 								{
 									name: "Indo-French",
@@ -529,6 +529,11 @@ export const MobileMenu = ({ show, setShow, i }) => {
 						{
 							name: "American Universities",
 							link: "/mou/america",
+							level: "3",
+						},
+						{
+							name: "African Universities",
+							link: "/mou/africa",
 							level: "3",
 						},
 						{
@@ -654,7 +659,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 						},
 						{
 							name: "Hardy Ramanujan Lecture Series",
-							link: "/outreach/events/ramanujan",
+							link: "/outreach/events/bruce-berndt",
 							level: "3",
 						},
 						{
@@ -686,7 +691,7 @@ export const MobileMenu = ({ show, setShow, i }) => {
 					innerLinks: [
 						{
 							name: "Chemistry Talks",
-							link: "/outreach/chem",
+							link: "/chemTalks",
 							level: "3",
 						},
 						{
@@ -708,16 +713,16 @@ export const MobileMenu = ({ show, setShow, i }) => {
 					],
 					level: "2",
 				},
-				{
-					name: "Visits of School Kids",
-					link: "/",
-					level: "2",
-				},
-				{
-					name: "Engagement with Engineering Colleges",
-					link: "/",
-					level: "2",
-				},
+				// {
+				// 	name: "Visits of School Kids",
+				// 	link: "/",
+				// 	level: "2",
+				// },
+				// {
+				// 	name: "Engagement with Engineering Colleges",
+				// 	link: "/",
+				// 	level: "2",
+				// },
 			],
 			level: "1",
 		},

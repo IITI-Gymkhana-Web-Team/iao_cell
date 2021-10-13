@@ -3,6 +3,7 @@
 	padding: 5px;
 	border: 1px solid #aaa;
 	border-radius: 10px;
+	max-width: min(400px, 95%) !important;
 }
 
 .aboutIITI {
