@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import { Home } from "./sections/Home/Home";
 import { People, CommitteesPage, AboutIITI, AboutIOA, LifeIITI, Ghouse } from "./sections/AboutUs";
