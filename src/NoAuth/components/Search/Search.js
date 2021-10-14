@@ -4,7 +4,7 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import { searchData as data } from "./data";
 import { Link } from "react-router-dom";
 
-function Search({ hideSearchComp, setShow }) {
+function Search({ hideSearchComp, setShow, setVal }) {
 	const [txt, setTxt] = useState("");
 
 	const [dataFiltered, setDataFiltered] = useState([]);
@@ -101,6 +101,7 @@ function Search({ hideSearchComp, setShow }) {
 										onClick={() => {
 											hideSearchComp();
 											setShow(false);
+											setVal(d.value);
 										}}
 										className="filterDiv"
 										to={d.link}

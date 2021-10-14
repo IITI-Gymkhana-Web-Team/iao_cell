@@ -23,6 +23,16 @@ export const CustomNavbar = ({ setVal, showSearch, hideSearchComp, showSearchCom
 				<div className="mainLink2">
 					<p className="mainLink-heading2">|</p>
 				</div>
+				<div className="mainLink2">
+					<p className="mainLink-heading2">
+						<a href="https://iiti.ac.in/" target="_blank" rel="noreferrer">
+							IIT Indore
+						</a>
+					</p>
+				</div>
+				<div className="mainLink2">
+					<p className="mainLink-heading2">|</p>
+				</div>
 				<div className="mainLink2 mr-3">
 					<p className="mainLink-heading2">
 						<Link
@@ -40,7 +50,7 @@ export const CustomNavbar = ({ setVal, showSearch, hideSearchComp, showSearchCom
 				</div>
 			</div>
 
-			{showSearch && <Search hideSearchComp={hideSearchComp} setShow={setShow} />}
+			{showSearch && <Search hideSearchComp={hideSearchComp} setShow={setShow} setVal={setVal} />}
 		</>
 	);
 };
