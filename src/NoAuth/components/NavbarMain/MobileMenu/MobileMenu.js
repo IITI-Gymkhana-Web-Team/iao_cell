@@ -5,7 +5,7 @@ import { MobileMenuLinks } from "./MobileMenuLinks";
 import iaoBrochure from "../../../../assets/Institute Brochure-IAO.pdf";
 // import { BsFillSquareFill } from "react-icons/bs";
 
-export const MobileMenu = ({ show, setShow, i }) => {
+export const MobileMenu = ({ show, setShow, i, showSearchComp }) => {
 	const [links] = useState([
 		{
 			name: "Home",
@@ -680,6 +680,11 @@ export const MobileMenu = ({ show, setShow, i }) => {
 									link: "/outreach/events/health",
 									level: "4",
 								},
+								{
+									name: "Forecasting Crude Oil Futures Prices Using the Kalman Filter and News",
+									link: "/outreach/events/paresh-date",
+									level: "4",
+								},
 							],
 							level: "3",
 						},
@@ -738,9 +743,26 @@ export const MobileMenu = ({ show, setShow, i }) => {
 			{i === 1 && (
 				<div className={show ? "mobileMenuOuter" : "mobileMenuOuter disappear"}>
 					<div className={show ? "mobileMenu" : "mobileMenu dontShowMe"}>
-						<div className="mmenuP1">
-							<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
-							<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
+						<div
+							style={{
+								position: "sticky",
+								top: "-20px",
+								zIndex: 100,
+							}}
+						>
+							<div className="mmenuP1">
+								<h4 className="font-acme menuHeading">IAO, IIT INDORE</h4>
+								<AiOutlineCloseCircle className="closeIcon" onClick={() => setShow(false)} />
+							</div>
+							<div className="mmenuP1" style={{ paddingBottom: "30px", backgroundColor: "#fff" }}>
+								<input
+									type="text"
+									placeholder="Search..."
+									onFocus={showSearchComp}
+									style={{ width: "90%", margin: "auto" }}
+									className="indiMenu"
+								/>
+							</div>
 						</div>
 						{links.map((link1) => {
 							return (

@@ -8,7 +8,7 @@ export const NavOutreach = ({ handleLinkClick }) => {
 
 	return (
 		<div className="mainLink">
-			<div style={{ maxHeight: "300px", maxWidth: "70vw" }}>
+			<div style={{ maxHeight: "400px", maxWidth: "70vw" }}>
 				<div style={{ maxWidth: "300px" }}>
 					<p className="navHeading nh1">Lecture Series</p>
 					<div>
@@ -29,7 +29,7 @@ export const NavOutreach = ({ handleLinkClick }) => {
 						</p>
 					</div>
 				</div>
-				<div>
+				<div style={{ maxWidth: "400px" }}>
 					<p className="navHeading nh1">Public Lectures</p>
 					<div>
 						<p>
@@ -45,6 +45,11 @@ export const NavOutreach = ({ handleLinkClick }) => {
 						<p>
 							<Link onClick={linkClick} to="/outreach/events/health">
 								Role of Science in Nation Building during Global Health Crisis
+							</Link>
+						</p>
+						<p>
+							<Link onClick={linkClick} to="/outreach/events/paresh-date">
+								Forecasting Crude Oil Futures Prices Using the Kalman Filter and News
 							</Link>
 						</p>
 					</div>

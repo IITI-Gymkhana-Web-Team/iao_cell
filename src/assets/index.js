@@ -244,8 +244,12 @@ import ashisha from "./ashisha.jpg";
 import bruce from "./bruce.jpg";
 import virtualBooth from "./virtualBooth.jpg";
 import uoa from "./uoa.jpeg";
+import paresh from "./paresh.jpg";
+import pareshTalk from "./pareshTalk.png";
 
 export {
+	paresh,
+	pareshTalk,
 	uoa,
 	virtualBooth,
 	FLYER_Maths_Seminar,

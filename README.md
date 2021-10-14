@@ -1,1 +1,1 @@
-# International Affairs & Outreach, IIT Indore
+# International Affairs & Outreach, IIT Indore V2

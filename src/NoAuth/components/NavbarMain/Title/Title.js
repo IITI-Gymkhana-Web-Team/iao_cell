@@ -12,6 +12,14 @@ export const Title = ({ setVal }) => {
 	const [show, setShow] = useState(false);
 	const [i, setI] = useState(0);
 
+	const [showSearch, setShowSearch] = useState(false);
+	const hideSearchComp = () => {
+		setShowSearch(false);
+	};
+	const showSearchComp = () => {
+		setShowSearch(true);
+	};
+
 	return (
 		<div className="Title">
 			<Navbar bg="light" variant="light" className="ba">
@@ -26,7 +34,13 @@ export const Title = ({ setVal }) => {
 							<img src={iiti_logo_4} alt="logo" className="titleLogo" />
 						</Link>
 					</Navbar.Brand>
-					<CustomNavbar setVal={setVal} />
+					<CustomNavbar
+						setVal={setVal}
+						showSearch={showSearch}
+						hideSearchComp={hideSearchComp}
+						showSearchComp={showSearchComp}
+						setShow={setShow}
+					/>
 					<BiMenu
 						className="burger"
 						onClick={() => {
@@ -35,7 +49,7 @@ export const Title = ({ setVal }) => {
 						}}
 					/>
 				</div>
-				<MobileMenu show={show} setShow={setShow} i={i} setI={setI} />
+				<MobileMenu show={show} setShow={setShow} i={i} setI={setI} showSearchComp={showSearchComp} />
 			</Navbar>
 		</div>
 	);

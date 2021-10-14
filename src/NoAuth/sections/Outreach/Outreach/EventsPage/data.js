@@ -53,9 +53,37 @@ import {
 	ashisha,
 	manna,
 	bibek,
+	paresh,
+	pareshTalk,
+	abhinoy,
 } from "../../../../../assets";
 
 export const data = [
+	{
+		title: "Forecasting Crude Oil Futures Prices Using the Kalman Filter and News",
+		time: "2:00 PM - 3:00 PM IST",
+		speakers: [
+			{
+				name: "Dr. Paresh Date",
+				designation:
+					"Director of Research and Head of Financial Mathematics and Operational Research (FOR) group.",
+				desc: "Dr. Paresh Date is Reader in the Department of Mathematics, College of Engineering, Design and Physical Sciences at Brunel University. He is currently the Head of Financial Mathematics, Operational Research (FOR) group and Director of Research in the Department. His main research interest is developing algorithms for latent state estimation or filtering in nonlinear time series and applications of filtering, especially in mathematical finance. Besides this key topic, He has a diverse research portfolio which includes efficient ways of computing tail distributions in financial portfolios of nonlinear instruments, scenario generation and system identification.",
+				img: paresh,
+			},
+		],
+		img: pareshTalk,
+		venue: "Google Meet",
+		desc: "This talk looks at an empirical application of a mathematical tool familiar to engineers and mathematicians in a less familiar area. In particular, the speaker will be looking at forecasting the prices of certain financial derivative products called futures, using the Kalman filter. The annual trade volume in global futures markets is over 11 trillion USD (around three times India's GDP), so that accurate short-term forecasting of futures prices is an important practical problem. The speaker will also look at enhancing the results of Kalman filter-based forecasting using an exogenous source of information (news sentiment), which falls under the moniker 'explainable AI'. Moreover, he will demonstrate results of numerical experiments with real financial market data. This talk should provide a window to the fascinating world of financial mathematics for mathematicians and engineers.",
+		date: "27th August, 2021",
+		oc: [
+			{
+				name: "Dr. Abhinoy Kumar Singh",
+				designation: "Department of Electrical Engineering, IIT Indore",
+				img: abhinoy,
+			},
+		],
+		name: "paresh-date",
+	},
 	{
 		title: "A public Lecture by Prof. Bruce C. Berndt from the University of Illinois at Urbana-Champaign, USA",
 		time: "7:30 PM IST",
